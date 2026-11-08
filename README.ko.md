@@ -119,6 +119,12 @@ kelo instance create alex   # 같은 서버에서 다른 사람용 Kelo (데이�
 데이터는 사용자가 운영하는 서버에 있어요. 고른 AI 회사는 답을 만드는 데 필요한 내용만 받아요. kelo.chat 운영자는 선택 기능인 중계
 (로그인, 푸시, 기본 제공 도메인)만 운영하고, 사용자의 서버에는 접근할 수 없어요. 방침: [kelo.chat/privacy](https://kelo.chat/privacy?lang=ko)
 
+## 프로젝트 상태
+
+Kelo는 한 사람이 만드는 개인 프로젝트예요. 그래서 아직 다듬어지지 않은 부분이 있을 수 있어요.
+문제를 알려 주시면 최선을 다해 고치겠지만, 본업과 함께 하는 일이라 언제까지 해결된다고 약속드리기는 어려워요.
+이슈와 제안은 언제든 환영해요.
+
 ## 라이선스
 
 Kelo는 [GNU Affero General Public License v3.0 이상](https://www.gnu.org/licenses/agpl-3.0.html)을 따르는 자유 소프트웨어예요. 고친 Kelo 서버를 다른 사람에게
