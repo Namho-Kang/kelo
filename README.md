@@ -98,6 +98,58 @@ your phone with a QR code. The AI model is chosen in the app afterwards. Full gu
 - **Your own domain** — DuckDNS or any domain you own.
 
 
+### Tip: run Kelo for free
+
+You can run Kelo without paying for a server or a model: Oracle Cloud's Always Free tier includes an Arm server that stays free,
+and [FreeLLMAPI](https://github.com/tashfeenahmed/freellmapi) pools the free tiers of many model providers behind one
+OpenAI-compatible address. Kelo's images build for Arm (linux/arm64) as well as x86, Chromium included.
+
+1. **Make the server.** Sign up for [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/) and create a VM in your
+   **home region** (Always Free works only there): shape **VM.Standard.A1.Flex** (Ampere, Arm) with **2 OCPUs and 12 GB of
+   memory**, image **Ubuntu** (aarch64). That is the whole Always Free A1 allowance; the default boot volume is enough (200 GB of
+   block storage is free in total). "Out of host capacity" means no free Arm machine is available right now: try another
+   availability domain, or try again later.
+2. **Install Kelo.** SSH in and run the installer above. It offers to install Docker, then opens the guided setup; **No limit**
+   is a good size here, since the VM is only for Kelo. Choose the free `https://<name>.kelo.chat` address: it works through an
+   outgoing tunnel, so you don't open any ports in Oracle's firewall.
+3. **Add FreeLLMAPI on the same VM**, joined to Kelo's Docker network so Kelo reaches it by name while it stays closed to the
+   internet:
+
+   ```bash
+   curl -fsSL https://freellmapi.co/install.sh | bash
+   cd ~/freellmapi
+   cat > docker-compose.override.yml <<'EOF'
+   services:
+     freellmapi:
+       networks: [default, kelo]
+   networks:
+     kelo:
+       name: kelo_agent   # Kelo's network when Kelo lives in ~/kelo (`docker network ls` shows it)
+       external: true
+   EOF
+   docker compose up -d
+   ```
+
+   Open its dashboard from your laptop through SSH (`ssh -L 3001:127.0.0.1:3001 ubuntu@<server address>`, then
+   `http://localhost:3001`), add the free API keys you signed up for, and copy the unified key.
+4. **Point Kelo at it.** In the app, My → Model → **Custom endpoint**: server address `http://freellmapi:3001/v1`, API key = the
+   unified key, model `auto` (FreeLLMAPI picks a free model and moves to the next one when a provider hits its limit).
+
+Keep in mind:
+
+- **Idle servers can be reclaimed.** Oracle may reclaim an Always Free instance that looks idle: over 7 days, 95th-percentile CPU,
+  network and memory use all under 20%. An assistant waiting for messages is mostly idle, so this can happen. Oracle states that
+  it does not charge for Always Free resources after you upgrade the account to Pay As You Go (only usage above the free limits is
+  billed); upgrading is the commonly reported way to avoid reclaiming, though Oracle's page does not promise it. If you upgrade,
+  set a budget alert.
+- **Free models are weaker at tools.** Free-tier models are usually slower and less reliable at tool use (browsing, filling in
+  forms, multi-step tasks) than paid ones, and their daily limits can run out. A paid model as main or fallback is safer for
+  important work.
+- **Their terms apply.** FreeLLMAPI is a separate MIT-licensed project meant for one person's own use. Oracle's terms and each
+  model provider's free-tier terms (limits, data use, allowed use) still apply.
+- **Not recommended:** Google Cloud's free e2-micro (1 GB of RAM, below Kelo's minimum) and AWS (no always-free server for new
+  accounts since July 2025, only credits and a 6-month trial; Lambda can't run Kelo's long-running containers and browser).
+
 ### Useful commands
 
 ```bash
