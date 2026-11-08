@@ -122,6 +122,12 @@ Your data lives on the server you run. The model provider you choose receives wh
 runs only optional relays (sign-in, push, the default address) and never has access to your server.
 Policy: [kelo.chat/privacy](https://kelo.chat/privacy).
 
+## Project status
+
+Kelo is a solo project, built and maintained by one person, so some parts may still be rough.
+I'll do my best to fix reported issues, but since I work on Kelo alongside a full-time job, I can't promise how quickly that will happen.
+Issues and suggestions are always welcome.
+
 ## License
 
 Kelo is free software under the [GNU Affero General Public License v3.0 or later](https://www.gnu.org/licenses/agpl-3.0.html). If you run a modified Kelo server
