@@ -96,6 +96,55 @@ irm https://kelo.chat/install.ps1 | iex
 - **내 도메인** — DuckDNS나 갖고 있는 도메인
 
 
+### 팁: Kelo를 무료로 운영하기
+
+서버와 모델에 돈을 쓰지 않고도 Kelo를 돌릴 수 있어요. Oracle Cloud의 Always Free에는 계속 무료인 Arm 서버가 들어 있고,
+[FreeLLMAPI](https://github.com/tashfeenahmed/freellmapi)는 여러 모델 회사의 무료 사용량을 OpenAI 호환 주소 하나로 묶어 줘요.
+Kelo 이미지는 x86뿐 아니라 Arm(linux/arm64)으로도 빌드돼요. Chromium도 포함이에요.
+
+1. **서버 만들기.** [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/)에 가입하고 **홈 리전**(Always Free는 홈 리전에서만
+   돼요)에 VM을 만들어요. Shape는 **VM.Standard.A1.Flex**(Ampere, Arm), **2 OCPU · 메모리 12 GB**, 이미지는 **Ubuntu**(aarch64).
+   Always Free A1 한도 전부예요. 기본 부트 볼륨이면 충분해요(블록 스토리지는 합쳐서 200 GB까지 무료). "Out of host capacity"가
+   나오면 지금 남은 무료 Arm 서버가 없다는 뜻이니, 다른 가용성 도메인을 고르거나 나중에 다시 해 보세요.
+2. **Kelo 설치.** SSH로 접속해 위의 설치 프로그램을 실행해요. Docker 설치도 제안하고, 이어서 안내 화면이 열려요. 이 VM은 Kelo
+   전용이니 크기는 **제한 없음**이 알맞아요. 무료 `https://<이름>.kelo.chat` 주소를 고르세요. 바깥으로 나가는 터널로 연결돼서
+   Oracle 방화벽에 포트를 열 필요가 없어요.
+3. **같은 VM에 FreeLLMAPI 추가.** Kelo의 Docker 네트워크에 붙여서, 인터넷에는 닫아 둔 채 Kelo가 이름으로 찾아가게 해요.
+
+   ```bash
+   curl -fsSL https://freellmapi.co/install.sh | bash
+   cd ~/freellmapi
+   cat > docker-compose.override.yml <<'EOF'
+   services:
+     freellmapi:
+       networks: [default, kelo]
+   networks:
+     kelo:
+       name: kelo_agent   # Kelo가 ~/kelo에 있을 때의 네트워크 이름 (`docker network ls`로 확인)
+       external: true
+   EOF
+   docker compose up -d
+   ```
+
+   대시보드는 노트북에서 SSH로 열어요(`ssh -L 3001:127.0.0.1:3001 ubuntu@<서버 주소>` 후 `http://localhost:3001`). 가입해 둔
+   무료 API 키를 넣고, 통합 키(unified key)를 복사해요.
+4. **Kelo에 연결.** 앱의 마이 → 모델 → **Custom endpoint**에서 서버 주소 `http://freellmapi:3001/v1`, API 키는 통합 키, 모델은
+   `auto`로 정해요(FreeLLMAPI가 무료 모델을 고르고, 한 곳이 한도에 걸리면 다음 곳으로 넘겨요).
+
+알아 둘 점:
+
+- **놀고 있는 서버는 회수될 수 있어요.** Oracle은 7일 동안 CPU(95번째 백분위수), 네트워크, 메모리 사용률이 모두 20% 미만인
+  Always Free 인스턴스를 회수할 수 있어요. 메시지를 기다리는 비서는 대부분 한가해서 이 조건에 걸릴 수 있어요. Oracle은 계정을
+  Pay As You Go로 업그레이드해도 Always Free 자원에는 요금을 받지 않는다고 밝히고 있어요(무료 한도를 넘는 사용량만 청구).
+  업그레이드하면 회수되지 않는다는 경험담이 많지만, Oracle 문서가 약속하는 내용은 아니에요. 업그레이드한다면 예산 알림을
+  설정해 두세요.
+- **무료 모델은 도구 사용이 약해요.** 무료 모델은 보통 유료 모델보다 느리고, 도구 사용(브라우저 조작, 양식 입력, 여러 단계 작업)이
+  덜 안정적이에요. 하루 한도가 바닥날 수도 있어요. 중요한 일에는 유료 모델을 기본이나 대체 모델로 두는 편이 안전해요.
+- **각 서비스의 약관이 적용돼요.** FreeLLMAPI는 한 사람이 직접 쓰도록 만든 별도의 MIT 라이선스 프로젝트예요. Oracle 약관과 모델
+  회사마다의 무료 사용 약관(한도, 데이터 사용, 허용 용도)도 그대로 적용돼요.
+- **권하지 않는 곳:** Google Cloud의 무료 e2-micro(RAM 1 GB로 Kelo 최소 사양에 못 미쳐요), AWS(2025년 7월부터 새 계정에는 계속
+  무료인 서버가 없고 크레딧과 6개월 체험뿐이에요. Lambda로는 Kelo의 상시 실행 컨테이너와 브라우저를 돌릴 수 없어요).
+
 ### 자주 쓰는 명령
 
 ```bash
