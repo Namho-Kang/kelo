@@ -61,6 +61,7 @@ LM Studio, Ollama 같은 OpenAI 호환 서버로 내 장비에서 직접 돌릴 
   <img src="docs/media/ko-goal.webp" alt="다짐 계획" width="200">
   <img src="docs/media/ko-connectors.webp" alt="커넥터" width="200">
 </p>
+<p align="center"><sub>걷기 다짐 화면의 걸음 수는 Health Connect에서 읽어요. 걸음 수 연동은 APK 직접 설치 버전에서만 되고, Google Play 버전은 아직 지원하지 않아요.</sub></p>
 
 ## 서버 설치
 
