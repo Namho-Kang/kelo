@@ -63,6 +63,7 @@ browser to you instead of trying to get around it.
   <img src="docs/media/en-goal.webp" alt="Goal plan" width="200">
   <img src="docs/media/en-connectors.webp" alt="Connectors" width="200">
 </p>
+<p align="center"><sub>The "Walk 30 minutes a day" goal reads step counts from Health Connect. Step tracking is in the sideload APK only; the Google Play version does not support it yet.</sub></p>
 
 ## Install the server
 
