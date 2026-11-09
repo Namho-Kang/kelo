@@ -170,9 +170,16 @@ kelo instance create alex   # another person on the same server, with their own 
 
 ## Privacy
 
-Your data lives on the server you run. The model provider you choose receives what it needs to answer. The kelo.chat operator
-runs only optional relays (sign-in, push, the default address) and never has access to your server.
-Policy: [kelo.chat/privacy](https://kelo.chat/privacy).
+**Your data stays on your server.** Your chats, notes, saved keys and cards are stored only on the Kelo server you run.
+The developer has no way into it and does not collect your conversations.
+
+kelo.chat helps with only a few things:
+- **Default address:** it hands out free `name.kelo.chat` addresses. Traffic goes through Cloudflare straight to your server; use Tailscale or your own domain if you'd rather avoid this.
+- **Notifications:** push notifications carry only an ID that something new happened. The app fetches the content from your server.
+- **Google and GitHub sign-in:** it brokers the sign-in and the token exchange. Tokens pass through but are never stored.
+
+Your messages are sent to the AI provider you choose (for example Anthropic or Google), under that provider's terms.
+The source is public, so anyone can verify all of this. Policy: [kelo.chat/privacy](https://kelo.chat/privacy).
 
 ## Project status
 
