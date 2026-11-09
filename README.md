@@ -145,18 +145,11 @@ OpenAI-compatible address. Kelo's images build for Arm (linux/arm64) as well as 
 
 Keep in mind:
 
-- **Idle servers can be reclaimed.** Oracle may reclaim an Always Free instance that looks idle: over 7 days, 95th-percentile CPU,
-  network and memory use all under 20%. An assistant waiting for messages is mostly idle, so this can happen. Oracle states that
-  it does not charge for Always Free resources after you upgrade the account to Pay As You Go (only usage above the free limits is
-  billed); upgrading is the commonly reported way to avoid reclaiming, though Oracle's page does not promise it. If you upgrade,
-  set a budget alert.
 - **Free models are weaker at tools.** Free-tier models are usually slower and less reliable at tool use (browsing, filling in
   forms, multi-step tasks) than paid ones, and their daily limits can run out. A paid model as main or fallback is safer for
   important work.
 - **Their terms apply.** FreeLLMAPI is a separate MIT-licensed project meant for one person's own use. Oracle's terms and each
   model provider's free-tier terms (limits, data use, allowed use) still apply.
-- **Not recommended:** Google Cloud's free e2-micro (1 GB of RAM, below Kelo's minimum) and AWS (no always-free server for new
-  accounts since July 2025, only credits and a 6-month trial; Lambda can't run Kelo's long-running containers and browser).
 
 ### Useful commands
 
