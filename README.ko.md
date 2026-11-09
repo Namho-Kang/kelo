@@ -6,12 +6,11 @@
 </p>
 
 <p align="center">
-  <a href="https://kelo.chat/download/android"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fkelo.chat%2Fdownload%2Flatest.json&query=%24.android.version&label=Android&logo=android&logoColor=white&color=3DDC84" alt="Android"></a>
-  <a href="https://kelo.chat/download/mac"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fkelo.chat%2Fdownload%2Flatest.json&query=%24.mac.version&label=macOS&logo=apple&logoColor=white&color=555555" alt="macOS"></a>
-  <a href="https://kelo.chat/download/windows"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fkelo.chat%2Fdownload%2Flatest.json&query=%24.windows.version&label=Windows&logo=windows&logoColor=white&color=0078D4" alt="Windows"></a>
-  <a href="https://kelo.chat/install"><img src="https://img.shields.io/badge/server-self--hosted%20%C2%B7%20Docker-2496ED?logo=docker&logoColor=white" alt="Docker로 직접 운영"></a>
-  <a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="라이선스: AGPL-3.0"></a>
-  <a href="https://github.com/kelo-chat/kelo/stargazers"><img src="https://img.shields.io/github/stars/kelo-chat/kelo?style=flat&logo=github&label=stars" alt="GitHub stars"></a>
+  <a href="https://kelo.chat"><img src="https://img.shields.io/badge/docs-kelo.chat-5B4BDB?style=for-the-badge" alt="문서: kelo.chat"></a>
+  <a href="https://kelo.chat/#install"><img src="https://img.shields.io/badge/install-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker로 설치"></a>
+  <a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="https://img.shields.io/badge/license-AGPL--3.0-8BC34A?style=for-the-badge" alt="라이선스: AGPL-3.0"></a>
+  <a href="https://kelo.chat/#get-app"><img src="https://img.shields.io/badge/apps-Android%20%C2%B7%20iOS%20%C2%B7%20Windows%20%C2%B7%20macOS-E0675A?style=for-the-badge" alt="앱"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/lang-English-E8834A?style=for-the-badge" alt="Read in English"></a>
 </p>
 
 <p align="center">
