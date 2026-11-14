@@ -9,7 +9,7 @@ class SourceLinkTest {
     private val sha = "a1b2c3d4e5f60718293a4b5c6d7e8f9012345678"
 
     @Test fun aCleanFullShaGivesTheUrlAndTheShortHash() {
-        assertEquals("https://github.com/kelo-chat/kelo-src/tree/$sha", SourceLink.url(sha, dirty = false))
+        assertEquals("https://github.com/kelo-chat/kelo/tree/$sha", SourceLink.url(sha, dirty = false))
         assertEquals("a1b2c3d", SourceLink.label(sha, dirty = false, modified = "modified"))
     }
 

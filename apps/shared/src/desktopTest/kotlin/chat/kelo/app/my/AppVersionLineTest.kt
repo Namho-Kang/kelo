@@ -30,7 +30,7 @@ class AppVersionLineTest {
         onNodeWithText("Server version: 0.9.2").assertExists()
         onNodeWithContentDescription("Source code of this version on GitHub").assertExists()
         onNodeWithText("a1b2c3d").performClick()
-        assertEquals(listOf("https://github.com/kelo-chat/kelo-src/tree/$sha"), opened)
+        assertEquals(listOf("https://github.com/kelo-chat/kelo/tree/$sha"), opened)
     }
 
     @Test fun aModifiedBuildShowsTheHashWithoutALink() = runComposeUiTest {

@@ -7,7 +7,7 @@ package chat.kelo.app.core
  * with the same test vectors.
  */
 object SourceLink {
-    const val REPO = "https://github.com/kelo-chat/kelo-src"
+    const val REPO = "https://github.com/kelo-chat/kelo"
 
     private val FULL = Regex("^[0-9a-f]{40}$")
 
