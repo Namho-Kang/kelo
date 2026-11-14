@@ -1,3 +1,4 @@
+import java.time.Duration
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 // The code Android and the desktop app share (package chat.kelo.app.*): the API client, models, rules, the character and icons.
@@ -72,6 +73,8 @@ tasks.named<Test>("desktopTest") {
     inputs.dir(expected).withPropertyName("stringsExpected")
     systemProperty("kelo.strings.expected", expected.asFile.path)
     systemProperty("kelo.strings.actual", layout.buildDirectory.dir("generated/stringsFixtures").get().asFile.path)
+    timeout.set(Duration.ofMinutes(40))   // a test that hangs fails the build instead of holding a CI runner for hours
+    if (System.getenv("CI") != null) testLogging { events("started", "failed", "skipped") }   // CI logs name the test that was running
 }
 
 android {

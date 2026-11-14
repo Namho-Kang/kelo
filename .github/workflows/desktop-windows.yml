@@ -50,6 +50,7 @@ on:
 jobs:
   windows:
     runs-on: windows-latest
+    timeout-minutes: 120   # a normal run takes ~25 min; a hung test must not hold the runner for hours
     permissions:
       contents: read
       id-token: write         # the attestation is signed with this run's OIDC identity (only used when attest is true)

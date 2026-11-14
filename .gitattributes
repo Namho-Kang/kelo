@@ -1,0 +1,5 @@
+# Line endings: LF everywhere (a Windows checkout too), so text the tests compare byte for byte (golden files, fixtures) is the same on
+# every machine. Windows batch files keep CRLF, which cmd.exe expects.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf

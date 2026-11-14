@@ -1,3 +1,4 @@
+import java.time.Duration
 import java.util.Properties
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
@@ -179,6 +180,8 @@ tasks.test {
     useJUnit()
     // the unit tests of apps/shared/ (the code both apps use) run with the desktop's
     dependsOn(gradle.includedBuild("shared").task(":desktopTest"))
+    timeout.set(Duration.ofMinutes(40))   // a test that hangs fails the build instead of holding a CI runner for hours
+    if (System.getenv("CI") != null) testLogging { events("started", "failed", "skipped") }   // CI logs name the test that was running
     // CopiesTest (COPIES.md) reads the Android / shared originals listed there, and the names of all Android and shared .kt files (a new same-name file
     // on the desktop must be listed): only those make it run again, not every Android change
     val copies = layout.projectDirectory.file("COPIES.md")
