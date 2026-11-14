@@ -70,7 +70,8 @@ class WorkRowsTest {
             state = rememberLazyListState()
             val scope = rememberCoroutineScope()
             WorkRowsList(rows, state, PaddingValues())
-            androidx.compose.runtime.LaunchedEffect(Unit) { scope.launch { state.animateScrollToItem(index) } }
+            // a plain jump (not the animated one): an animation the test clock drives can keep a CI runner waiting for idle forever
+            androidx.compose.runtime.LaunchedEffect(Unit) { scope.launch { state.scrollToItem(index) } }
         }
         waitUntil(timeoutMillis = 5_000) { state.layoutInfo.visibleItemsInfo.any { it.key == SECTION_WATCH } }
         // what the list composes while it is scrolled through is the rows' keys, in their order
