@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Desktop-only text of the My page (a video or sound file opens in the system's own player). After a change: python3 apps/android/tools/strings_check.py -->
+<resources>
+    <string name="desktop_my_open_outside">Open in another app</string>
+</resources>

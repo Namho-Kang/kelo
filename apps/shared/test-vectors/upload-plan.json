@@ -1,0 +1,28 @@
+{
+  "doc": "UploadPlan.of(size, isImage, limits) for the apps (Kotlin: apps/shared/src/desktopTest/.../upload/UploadPlanTest.kt, Swift: apps/ios/KeloCore/Tests/KeloCoreTests/Upload/UploadPlanTests.swift). size -1 = not known. plan: single | parts (sizes = the byte count of each part in order) | too_large (limit) | needs_size.",
+  "version": 1,
+  "limits": {
+    "cloudflare": {"single_max": 99000000, "part_size": 90000000, "image_max": 15000000},
+    "direct": {"single_max": null, "part_size": 90000000, "image_max": 15000000},
+    "legacy": {"single_max": 99000000, "part_size": null, "image_max": 15000000}
+  },
+  "cases": [
+    {"name": "empty file", "limits": "cloudflare", "size": 0, "image": false, "plan": "single"},
+    {"name": "one byte", "limits": "cloudflare", "size": 1, "image": false, "plan": "single"},
+    {"name": "exactly single_max", "limits": "cloudflare", "size": 99000000, "image": false, "plan": "single"},
+    {"name": "single_max + 1 goes in parts", "limits": "cloudflare", "size": 99000001, "image": false, "plan": "parts", "part_size": 90000000, "sizes": [90000000, 9000001]},
+    {"name": "2.5 x part_size", "limits": "cloudflare", "size": 225000000, "image": false, "plan": "parts", "part_size": 90000000, "sizes": [90000000, 90000000, 45000000]},
+    {"name": "exactly 2 x part_size has no empty last part", "limits": "cloudflare", "size": 180000000, "image": false, "plan": "parts", "part_size": 90000000, "sizes": [90000000, 90000000]},
+    {"name": "exactly 3 x part_size", "limits": "cloudflare", "size": 270000000, "image": false, "plan": "parts", "part_size": 90000000, "sizes": [90000000, 90000000, 90000000]},
+    {"name": "a photo over image_max", "limits": "cloudflare", "size": 15000001, "image": true, "plan": "too_large", "limit": 15000000},
+    {"name": "a photo of exactly image_max", "limits": "cloudflare", "size": 15000000, "image": true, "plan": "single"},
+    {"name": "a photo over image_max on a direct route", "limits": "direct", "size": 20000000, "image": true, "plan": "too_large", "limit": 15000000},
+    {"name": "no single_max: 5 GB in one request", "limits": "direct", "size": 5000000000, "image": false, "plan": "single"},
+    {"name": "legacy server: 99 MB still goes", "limits": "legacy", "size": 99000000, "image": false, "plan": "single"},
+    {"name": "legacy server: 150 MB is refused", "limits": "legacy", "size": 150000000, "image": false, "plan": "too_large", "limit": 99000000},
+    {"name": "unknown size through Cloudflare", "limits": "cloudflare", "size": -1, "image": false, "plan": "needs_size"},
+    {"name": "unknown size on a direct route", "limits": "direct", "size": -1, "image": false, "plan": "single"},
+    {"name": "unknown size on a legacy server", "limits": "legacy", "size": -1, "image": false, "plan": "too_large", "limit": 99000000},
+    {"name": "unknown size photo through Cloudflare", "limits": "cloudflare", "size": -1, "image": true, "plan": "needs_size"}
+  ]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">عندما يحدث هذا، هل أفعل هذا دون سؤال؟</string>
+    <string name="task_grant_when">عندما</string>
+    <string name="task_grant_does">سيقوم Kelo بـ</string>
+    <string name="task_grant_buy">يشتري</string>
+    <string name="task_grant_limits">الحدود</string>
+    <string name="task_grant_per_time">حتى %1$s في المرة</string>
+    <string name="task_grant_times_one">مرة واحدة فقط</string>
+    <string name="task_grant_times">بحد أقصى %1$d مرات</string>
+    <string name="task_grant_no_count">بلا حد للعدد</string>
+    <string name="task_grant_monthly">بحد أقصى %1$s شهريًا</string>
+    <string name="task_grant_card">البطاقة</string>
+    <string name="task_grant_card_limit">حد الدفع التلقائي لهذه البطاقة هو %1$s. هل تسمح بما يصل إلى %2$s لهذه المهمة؟</string>
+    <string name="task_grant_card_not_auto">هذه البطاقة لا تدفع وحدها. يمكن لهذه المهمة دفع ما يصل إلى %1$s.</string>
+    <string name="task_grant_card_phone_only">هذه البطاقة محفوظة على هاتفك فقط، لذا سيسأل كل دفع.</string>
+    <string name="task_grant_ship_to">الشحن إلى</string>
+    <string name="task_grant_send_to">يرسل إلى</string>
+    <string name="task_grant_message">الرسالة</string>
+    <string name="task_grant_varies">قد يتغير: %1$s</string>
+    <string name="task_grant_change">يغيّر</string>
+    <string name="task_grant_apply">يقدّم طلب</string>
+    <string name="task_grant_apply_per_run">حتى %1$d لكل تشغيل</string>
+    <string name="task_grant_apply_total">الإجمالي %1$d</string>
+    <string name="task_grant_row_apply">يقدّم طلب %1$s</string>
+    <string name="task_grant_delete_yes">الحذف مسموح</string>
+    <string name="task_grant_delete_no">لا يحذف أبدًا</string>
+    <string name="task_grant_login">تسجيل الدخول</string>
+    <string name="task_grant_login_line">تسجيل دخول %1$s على %2$s</string>
+    <string name="task_grant_once">تنتهي من تلقاء نفسها بعد التنفيذ، فلا يحدث شيء مرتين.</string>
+    <string name="task_grant_after">ستصلك رسالة مباشرة بعد ذلك. أي شيء آخر سيستمر في سؤالك.</string>
+    <string name="task_grant_urgent">عاجل: يرجى الرد قريبًا</string>
+    <string name="task_grant_urgent_missed">عاجل: إن تأخر ردك، %1$s</string>
+    <string name="task_grant_row_send">يرسل إلى %1$s</string>
+    <string name="task_grant_row_change">يغيّر %1$s</string>
+    <string name="task_grant_row_when">عندما: %1$s</string>
+    <string name="task_grant_row_card">البطاقة: %1$s</string>
+    <string name="task_grant_row_left">تبقى %1$d من %2$d</string>
+    <string name="task_grant_row_once">ثم تنتهي</string>
+    <string name="task_grant_section_note">مسموح مرة واحدة عند الإعداد. أي شيء آخر سيستمر في السؤال.</string>
+    <string name="notify_channel_urgent">طلبات عاجلة</string>
+    <string name="notify_channel_urgent_desc">عندما تحتاج مهمة أعددتها إلى رد قبل فوات الأوان</string>
+    <string name="notify_approval_urgent">عاجل: يرجى التأكيد</string>
+</resources>

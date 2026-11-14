@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">उपनाम</string>
+    <string name="wallet_nickname_field">उपनाम (वैकल्पिक)</string>
+    <string name="wallet_tag_default">डिफ़ॉल्ट</string>
+    <string name="wallet_default_title">डिफ़ॉल्ट कार्ड</string>
+    <string name="wallet_default_on">जब तक आप या काम कोई दूसरा कार्ड न बताएं, Kelo इसी कार्ड से भुगतान करता है।</string>
+    <string name="wallet_make_default">डिफ़ॉल्ट कार्ड बनाएं</string>
+    <string name="wallet_delete_default_title">नया डिफ़ॉल्ट कार्ड चुनें</string>
+    <string name="wallet_delete_default_body">“%1$s” आपका डिफ़ॉल्ट कार्ड है। वह कार्ड चुनें जिससे Kelo अब भुगतान करेगा।</string>
+    <string name="wallet_card_history">इस कार्ड से किए भुगतान</string>
+    <string name="wallet_card_history_empty">Kelo ने अभी तक इस कार्ड से भुगतान नहीं किया है।</string>
+    <string name="wallet_card_history_more">पुराने भुगतान दिखाएं</string>
+    <string name="wallet_open_chat">चैट खोलें</string>
+    <string name="wallet_open_task">काम खोलें</string>
+    <string name="wallet_auto_from_phone">यह फ़ोन आपके फ़िंगरप्रिंट, चेहरे या स्क्रीन लॉक से कार्ड की अपनी कॉपी खोलता है। नंबर दोबारा नहीं लिखना पड़ता।</string>
+    <string name="wallet_auth_auto_title">ऑटो-पे चालू करें</string>
+    <string name="wallet_auth_auto_subtitle">इस फ़ोन पर “%1$s” की कॉपी खोलें</string>
+    <string name="wallet_auto_not_here_title">यह कार्ड इस फ़ोन पर नहीं है</string>
+    <string name="wallet_auto_not_here_body">यह किसी दूसरे डिवाइस पर जोड़ा गया था, इसलिए यह फ़ोन इसे नहीं खोल सकता। जिस डिवाइस ने इसे जोड़ा, वहाँ से ऑटो-पे चालू करें, या यहाँ कार्ड नंबर डालें।</string>
+    <string name="wallet_auto_enter_number">नंबर डालें</string>
+    <string name="wallet_auto_on_failed">ऑटो-पे चालू नहीं हो सका। फिर से कोशिश करें।</string>
+</resources>

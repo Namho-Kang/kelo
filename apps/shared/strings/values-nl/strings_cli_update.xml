@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_cli_update.xml (generated from values/strings_cli_update.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_cli_update_button">Bijwerken</string>
+    <string name="model_cli_updating">Bezig met bijwerken… (kan een paar minuten duren)</string>
+    <string name="model_cli_update_done">%1$s bijgewerkt naar versie %2$s</string>
+    <string name="model_cli_update_unchanged">%1$s is al up-to-date</string>
+    <string name="model_cli_update_failed">Bijwerken mislukt: %1$s. De huidige versie blijft werken</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Що може робити Kelo</string>
+    <string name="perm_about">Дозволити: без картки. Питати: картка щоразу. Вимк.: Kelo цього не робить. Платежі та реєстрації завжди питають.</string>
+    <string name="perm_kind_read">Читання</string>
+    <string name="perm_kind_change">Зміна</string>
+    <string name="perm_kind_send">Надсилання</string>
+    <string name="perm_kind_delete">Видалення</string>
+    <string name="perm_allow">Дозволити</string>
+    <string name="perm_ask">Питати</string>
+    <string name="perm_off">Вимк.</string>
+    <string name="perm_default_is">За замовчуванням: %1$s</string>
+    <string name="perm_changed_from">За замовчуванням — %1$s</string>
+    <string name="perm_actions_more">Окремих дій: %1$d</string>
+    <string name="perm_reset">Повернути значення за замовчуванням</string>
+    <string name="perm_reset_q">Повернути всі налаштування цього конектора до значень за замовчуванням?</string>
+    <string name="perm_read_off_q">Якщо читання вимкнено, Kelo майже не зможе користуватися цим конектором. Вимкнути?</string>
+    <string name="perm_limited">Обмежено</string>
+</resources>

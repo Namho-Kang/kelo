@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">举报</string>
+    <string name="report_title">举报这条回复</string>
+    <string name="report_intro">如果这条回复让你不适或有误，请告诉 Kelo 开发者。仅用于让 Kelo 更安全。</string>
+    <string name="report_reason_label">有什么问题？</string>
+    <string name="report_reason_harmful">令人不适或有害</string>
+    <string name="report_reason_inaccurate">与事实不符</string>
+    <string name="report_reason_privacy">泄露个人信息</string>
+    <string name="report_reason_other">其他问题</string>
+    <string name="report_comment_hint">还有什么要补充的吗？（选填）</string>
+    <string name="report_include_asked">同时发送我上一条发出的消息</string>
+    <string name="report_sent_title">会发送给 Kelo 开发者的内容</string>
+    <string name="report_sent_reply">你举报的回复</string>
+    <string name="report_sent_asked">你上一条发出的消息</string>
+    <string name="report_sent_reason">你选择的原因和补充说明</string>
+    <string name="report_sent_model">撰写该回复的模型名称</string>
+    <string name="report_sent_version">Kelo 应用版本</string>
+    <string name="report_sent_not">不会发送你聊天中的其他内容，也不会发送任何账号信息。举报保留 1 年后删除——如果你要求，会更早删除。</string>
+    <string name="report_send">发送举报</string>
+    <string name="report_sending">正在发送…</string>
+    <string name="report_failed_offline">无法连接到你的服务器。你写的内容还在——请稍后再发送。</string>
+    <string name="report_thanks">举报已发送。感谢你告诉我们。</string>
+    <string name="operator_section_reports">收到的举报</string>
+    <string name="operator_reports_note">用户在应用中举报的回复。1 年后会自动删除。</string>
+    <string name="operator_reports_not_receiving">这台服务器不接收举报。从这台服务器发出的举报会发送到 Kelo 开发者的服务器。</string>
+    <string name="operator_reports_empty">还没有举报。</string>
+    <string name="operator_reports_open">待处理的举报：%1$d</string>
+    <string name="operator_reports_show_handled">同时显示已处理的举报</string>
+    <string name="operator_reports_hide_handled">只显示待处理的举报</string>
+    <string name="operator_reports_reply">被举报的回复</string>
+    <string name="operator_reports_asked">用户的上一条消息</string>
+    <string name="operator_reports_comment">补充说明</string>
+    <string name="operator_reports_meta">%1$s · %2$s · 应用 %3$s</string>
+    <string name="operator_reports_mark">标记为已处理</string>
+    <string name="operator_reports_unmark">标记为未处理</string>
+    <string name="operator_reports_handled">已处理</string>
+    <string name="operator_reports_delete">删除</string>
+    <string name="operator_reports_delete_confirm">要删除这条举报吗？此操作无法撤消。</string>
+    <string name="operator_reports_unknown">未知</string>
+</resources>

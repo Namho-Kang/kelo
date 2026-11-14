@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Desktop-only text of the payment cards in the chat: a payment PIN is sealed with the phone's key, and payment approvals happen
+     in the card or bank app on the phone, so the computer says where to do them. -->
+<resources>
+    <string name="desktop_pin_allow_note">If you allow, your phone asks to release the saved payment PIN for this site. Confirm it there.</string>
+    <string name="desktop_pin_need_body">Open the Kelo app on your phone to release the PIN “%1$s” once for the payment on %2$s (%3$s).</string>
+    <string name="desktop_pin_secret_on_phone">Payment PINs are kept only on your phone. Enter it in the Kelo app on your phone; this card closes by itself once it\'s saved.</string>
+    <string name="desktop_pay_step_on_phone">Approve it in the card or bank app on your phone, then click “I approved it” here.</string>
+    <string name="desktop_pay_step_click_copy">Click the code to copy it</string>
+    <string name="desktop_pay_step_pad_note">Click the keys here. Each click goes to the same spot on the payment page.</string>
+    <string name="desktop_briefing_weather_follows_phone">The weather follows your phone\'s location. It shows up once you open Kelo on your phone and allow location.</string>
+    <string name="desktop_pin_add_on_phone">Payment PINs are added in the Kelo app on your phone. They\'re locked with a key only that phone has.</string>
+</resources>

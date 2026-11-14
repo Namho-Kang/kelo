@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">Płaci sama w ramach Twoich limitów</string>
+    <string name="wallet_tag_asks">Pyta za każdym razem</string>
+    <string name="wallet_reason_not_auto">Ta karta została zapisana tak, by pytać za każdym razem.</string>
+    <string name="wallet_reason_no_server_copy">Serwer nie ma kopii tej karty do płatności automatycznej.</string>
+    <string name="wallet_reason_paused">Płatność automatyczna jest wstrzymana dla wszystkich kart.</string>
+    <string name="wallet_reason_vault_locked">Pęk kluczy jest zablokowany dla agenta.</string>
+    <string name="wallet_auto_turn_on_card">Włącz płatność automatyczną dla tej karty</string>
+    <string name="wallet_first_site_rule">Nawet z płatnością automatyczną pierwsza płatność w nowym serwisie pyta raz, podobnie jak każda płatność powyżej limitów.</string>
+    <string name="wallet_auto_none_value">Brak kart z płatnością automatyczną</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="one">%d karta z płatnością automatyczną</item>
+        <item quantity="few">%d karty z płatnością automatyczną</item>
+        <item quantity="many">%d kart z płatnością automatyczną</item>
+        <item quantity="other">%d karty z płatnością automatyczną</item>
+    </plurals>
+    <string name="wallet_auto_none_note">Żadna karta nie płaci jeszcze sama, więc każda płatność pyta na tym telefonie. Aby to zmienić, otwórz kartę i włącz płatność automatyczną.</string>
+    <string name="wallet_schedule_section">Harmonogramy, które kupują same</string>
+    <string name="grant_section_title">Dozwolone bez pytania</string>
+    <string name="grant_section_note">Dozwolone raz przy konfiguracji. Wyższa kwota, inny serwis lub produkt i zmiany konta nadal pytają.</string>
+    <string name="grant_login_title">Loguje się przez %1$s</string>
+    <string name="grant_login_site">Na %1$s</string>
+    <string name="grant_purchase_title">Kupuje %1$s</string>
+    <string name="grant_purchase_cap">Na %1$s · do %2$s na uruchomienie, %3$s miesięcznie</string>
+    <string name="grant_spent">W tym miesiącu: %1$s</string>
+    <string name="grant_for_schedule">Dla „%1$s”</string>
+    <string name="grant_revoke">Cofnij</string>
+    <string name="grant_revoke_confirm">Cofnąć tę zgodę? Uruchomienia znów będą pytać.</string>
+    <string name="grant_login_section">Harmonogramy, które używają tego loginu bez pytania</string>
+</resources>

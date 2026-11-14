@@ -1,0 +1,60 @@
+{
+ "type": "approval_request",
+ "approval_id": "ap_123",
+ "id": "call_9",
+ "name": "confirm_purchase",
+ "arguments": {
+  "summary": "블루 머그 2개",
+  "amount": 24000,
+  "currency": "KRW",
+  "site": "shop.example.com",
+  "card": "생활비 카드"
+ },
+ "detail": "shop.example.com에서 결제: 블루 머그 2개 · 합계 24,000원 · 카드: 생활비 카드",
+ "lines": [],
+ "label": "Payment approval",
+ "ask": "Pay?",
+ "site": "shop.example.com",
+ "can_remember": false,
+ "can_remember_schedule": false,
+ "schedule_id": null,
+ "task_id": 42,
+ "expires_at": 1762650300,
+ "payment": {
+  "site": "shop.example.com",
+  "summary": "Blue mug x2",
+  "amount": 24.0,
+  "currency": "USD",
+  "amount_text": "24.00 USD",
+  "items": [
+   {
+    "name": "Blue mug",
+    "options": "Color: Navy · 12 oz",
+    "quantity": 2,
+    "price_text": "24.00 USD"
+   }
+  ],
+  "shipping": {
+   "source": "profile",
+   "label": "Office",
+   "name": "Jane Roe",
+   "phone": "+16502530000",
+   "formatted": "1600 Amphitheatre Pkwy\nBldg 43\nMOUNTAIN VIEW, CA 94043",
+   "country": "US"
+  },
+  "coupon": "",
+  "order": {
+   "what": "Blue mug x2"
+  }
+ },
+ "card": {
+  "id": "card_1",
+  "label": "Everyday card",
+  "brand": "visa",
+  "last4": "4242",
+  "auto_pay": false,
+  "needs_card": true,
+  "reason": "not_auto",
+  "reason_text": "이 카드는 자동 결제가 꺼져 있어요"
+ }
+}

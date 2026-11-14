@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Nama panggilan</string>
+    <string name="wallet_nickname_field">Nama panggilan (opsional)</string>
+    <string name="wallet_tag_default">Utama</string>
+    <string name="wallet_default_title">Kartu utama</string>
+    <string name="wallet_default_on">Kelo membayar dengan kartu ini kecuali kamu atau tugasnya menyebut kartu lain.</string>
+    <string name="wallet_make_default">Jadikan kartu utama</string>
+    <string name="wallet_delete_default_title">Pilih kartu utama baru</string>
+    <string name="wallet_delete_default_body">“%1$s” adalah kartu utamamu. Pilih kartu yang dipakai Kelo untuk membayar mulai sekarang.</string>
+    <string name="wallet_card_history">Pembayaran dengan kartu ini</string>
+    <string name="wallet_card_history_empty">Kelo belum pernah membayar dengan kartu ini.</string>
+    <string name="wallet_card_history_more">Tampilkan pembayaran sebelumnya</string>
+    <string name="wallet_open_chat">Buka obrolan</string>
+    <string name="wallet_open_task">Buka tugas</string>
+    <string name="wallet_auto_from_phone">Ponsel ini membuka salinan kartunya sendiri dengan sidik jari, wajah, atau kunci layar. Kamu tidak perlu mengetik nomornya lagi.</string>
+    <string name="wallet_auth_auto_title">Nyalakan bayar otomatis</string>
+    <string name="wallet_auth_auto_subtitle">Buka salinan “%1$s” di ponsel ini</string>
+    <string name="wallet_auto_not_here_title">Kartu ini tidak ada di ponsel ini</string>
+    <string name="wallet_auto_not_here_body">Kartu ini ditambahkan di perangkat lain, jadi ponsel ini tidak bisa membukanya. Nyalakan bayar otomatis dari perangkat yang menambahkannya, atau masukkan nomor kartu di sini.</string>
+    <string name="wallet_auto_enter_number">Masukkan nomor</string>
+    <string name="wallet_auto_on_failed">Bayar otomatis tidak bisa dinyalakan. Coba lagi.</string>
+</resources>

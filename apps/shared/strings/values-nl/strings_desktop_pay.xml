@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">Als je toestaat, vraagt je telefoon of de opgeslagen betaalpincode voor deze site verstuurd mag worden. Bevestig het daar.</string>
+    <string name="desktop_pin_need_body">Open de Kelo-app op je telefoon om de pincode ‘%1$s’ één keer vrij te geven voor de betaling bij %2$s (%3$s).</string>
+    <string name="desktop_pin_secret_on_phone">Betaalpincodes worden alleen op je telefoon bewaard. Voer hem in de Kelo-app op je telefoon in; deze kaart sluit vanzelf zodra hij is opgeslagen.</string>
+    <string name="desktop_pay_step_on_phone">Keur het goed in de kaart- of bankapp op je telefoon en klik daarna hier op ‘Ik heb goedgekeurd’.</string>
+    <string name="desktop_pay_step_click_copy">Klik op de code om hem te kopiëren</string>
+    <string name="desktop_pay_step_pad_note">Klik hier op de toetsen. Elke klik komt op dezelfde plek van de betaalpagina.</string>
+    <string name="desktop_briefing_weather_follows_phone">Het weer volgt de locatie van je telefoon. Het verschijnt zodra je Kelo op je telefoon opent en locatie toestaat.</string>
+    <string name="desktop_pin_add_on_phone">Betaalpincodes voeg je toe in de Kelo-app op je telefoon. Ze zijn vergrendeld met een sleutel die alleen die telefoon heeft.</string>
+</resources>

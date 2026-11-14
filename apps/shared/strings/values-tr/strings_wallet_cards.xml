@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Takma ad</string>
+    <string name="wallet_nickname_field">Takma ad (isteğe bağlı)</string>
+    <string name="wallet_tag_default">Varsayılan</string>
+    <string name="wallet_default_title">Varsayılan kart</string>
+    <string name="wallet_default_on">Sen ya da görev başka bir kart belirtmedikçe Kelo bu kartla öder.</string>
+    <string name="wallet_make_default">Varsayılan kart yap</string>
+    <string name="wallet_delete_default_title">Yeni varsayılan kartı seç</string>
+    <string name="wallet_delete_default_body">“%1$s” varsayılan kartın. Kelo’nun bundan sonra ödeme yapacağı kartı seç.</string>
+    <string name="wallet_card_history">Bu kartla yapılan ödemeler</string>
+    <string name="wallet_card_history_empty">Kelo bu kartla henüz ödeme yapmadı.</string>
+    <string name="wallet_card_history_more">Daha eski ödemeleri göster</string>
+    <string name="wallet_open_chat">Sohbeti aç</string>
+    <string name="wallet_open_task">Görevi aç</string>
+    <string name="wallet_auto_from_phone">Bu telefon kartın kendi kopyasını parmak izi, yüz veya ekran kilidiyle açar. Numarayı yeniden yazmazsın.</string>
+    <string name="wallet_auth_auto_title">Otomatik ödemeyi aç</string>
+    <string name="wallet_auth_auto_subtitle">Bu telefondaki “%1$s” kopyasını aç</string>
+    <string name="wallet_auto_not_here_title">Bu kart bu telefonda yok</string>
+    <string name="wallet_auto_not_here_body">Başka bir cihazda eklendiği için bu telefon onu açamıyor. Otomatik ödemeyi onu ekleyen cihazdan aç ya da kart numarasını burada gir.</string>
+    <string name="wallet_auto_enter_number">Numarayı gir</string>
+    <string name="wallet_auto_on_failed">Otomatik ödeme açılamadı. Yeniden dene.</string>
+</resources>

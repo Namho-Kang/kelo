@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Je betaalkaarten zijn vergrendeld</string>
+    <string name="wallet_lock_body">Bevestig met je vingerafdruk, gezicht of schermvergrendeling (pincode, patroon of wachtwoord) dat jij het bent om ze weer te openen.</string>
+    <string name="wallet_lock_kept">De kaartgegevens die je aan het invullen was, staan er nog. Ontgrendel om verder te gaan waar je was. Na 10 minuten worden ze gewist.</string>
+    <string name="wallet_lock_unlock">Ontgrendelen</string>
+    <string name="wallet_lock_back">Terug</string>
+    <string name="wallet_lock_no_lock_title">Stel een schermvergrendeling in</string>
+    <string name="wallet_lock_no_lock_body">Deze telefoon heeft geen schermvergrendeling, dus je betaalkaarten kunnen niet worden geopend. Zet een pincode of vingerafdruk aan in Instellingen en kom terug. Ik controleer het meteen.</string>
+    <string name="wallet_lock_open_settings">Schermvergrendeling openen</string>
+</resources>

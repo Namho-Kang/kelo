@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">น้ำเสียง</string>
+    <string name="my_agent_tone_friendly">เป็นกันเอง</string>
+    <string name="my_agent_tone_polite">สุภาพ</string>
+    <string name="my_agent_tone_friendly_example">พรุ่งนี้ 10 โมงมีนัดหมอฟันนะ ตั้งเตือนไว้ให้เลยไหม</string>
+    <string name="my_agent_tone_polite_example">พรุ่งนี้เวลา 10:00 น. คุณมีนัดทันตแพทย์ ต้องการให้ตั้งการแจ้งเตือนไว้หรือไม่</string>
+    <string name="my_agent_tone_failed">เปลี่ยนน้ำเสียงไม่ได้ ลองอีกครั้ง</string>
+</resources>

@@ -1,0 +1,61 @@
+{
+ "country": "GB",
+ "country_name": "United Kingdom",
+ "lang": "",
+ "fields": [
+  {
+   "key": "name",
+   "label": "Full name",
+   "required": true,
+   "autocomplete": "name"
+  },
+  {
+   "key": "address_line1",
+   "label": "Address line 1",
+   "required": true,
+   "autocomplete": "address-line1"
+  },
+  {
+   "key": "address_line2",
+   "label": "Address line 2 (apt, suite, unit)",
+   "required": false,
+   "autocomplete": "address-line2"
+  },
+  {
+   "key": "locality",
+   "label": "Town/City",
+   "required": true,
+   "autocomplete": "address-level2"
+  },
+  {
+   "key": "admin_area",
+   "label": "County",
+   "required": false,
+   "autocomplete": "address-level1"
+  },
+  {
+   "key": "postal_code",
+   "label": "Postcode",
+   "required": true,
+   "autocomplete": "postal-code",
+   "pattern": "^(?:GIR ?0AA|(?:(?:AB|AL|B|BA|BB|BD|BF|BH|BL|BN|BR|BS|BT|BX|CA|CB|CF|CH|CM|CO|CR|CT|CV|CW|DA|DD|DE|DG|DH|DL|DN|DT|DY|E|EC|EH|EN|EX|FK|FY|G|GL|GY|GU|HA|HD|HG|HP|HR|HS|HU|HX|IG|IM|IP|IV|JE|KA|KT|KW|KY|L|LA|LD|LE|LL|LN|LS|LU|M|ME|MK|ML|N|NE|NG|NN|NP|NR|NW|OL|OX|PA|PE|PH|PL|PO|PR|RG|RH|RM|S|SA|SE|SG|SK|SL|SM|SN|SO|SP|SR|SS|ST|SW|SY|TA|TD|TF|TN|TQ|TR|TS|TW|UB|W|WA|WC|WD|WF|WN|WR|WS|WV|YO|ZE)(?:\\d[\\dA-Z]? ?\\d[ABD-HJLN-UW-Z]{2}))|BFPO ?\\d{1,4})$",
+   "example": "EC1Y 8SY",
+   "numeric": false
+  }
+ ],
+ "phone": {
+  "label": "Phone number",
+  "calling_code": "+44",
+  "required": true
+ },
+ "note": {
+  "label": "Delivery note",
+  "required": false
+ },
+ "labels": {
+  "country": "Country",
+  "nickname": "Nickname",
+  "optional": "optional"
+ },
+ "format": "%N%n%O%n%A%n%C%n%S%n%Z"
+}

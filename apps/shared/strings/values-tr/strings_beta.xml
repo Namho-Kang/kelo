@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Beta erişimi iste</string>
+    <string name="beta_requested">İstendi</string>
+    <string name="beta_sheet_note">Google ile giriş şimdilik küçük bir gruba açık. Bağlayacağın Google e-posta adresini yaz; eklendiğinde sana o adresten haber verelim.</string>
+    <string name="beta_email_hint">Google e-posta adresi</string>
+    <string name="beta_email_invalid">Geçerli bir e-posta adresi yaz.</string>
+    <string name="beta_send">Gönder</string>
+    <string name="beta_sending">Gönderiliyor…</string>
+    <string name="beta_sent">İstek gönderildi. Onaylandığında %1$s adresine e-posta göndereceğiz; sonra geri gelip yeniden bağlan.</string>
+    <string name="beta_declined">Beta isteğin bu sefer onaylanmadı. Google\'ın incelemesi bittiğinde Google ile giriş herkese açılacak.</string>
+    <string name="operator_section_beta">Beta istekleri</string>
+    <string name="operator_beta_note">Google ile girişi denemek isteyen kişiler. Önce onları Google Cloud Console\'da test kullanıcısı olarak ekle, sonra Onaylandı\'ya bas. İşlenen istekler 30 gün sonra silinir.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Kitle (Audience) → Test kullanıcıları → %1$s ekle</string>
+    <string name="operator_beta_mail_from">E-postalar %1$s adresinden gider.</string>
+    <string name="operator_beta_no_mail">Bu sunucuda bağlı bir Gmail yok, bu yüzden e-posta gönderilmiyor. Göndermek için Bağlayıcılar\'dan Gmail\'i bağla.</string>
+    <string name="operator_beta_not_receiving">Bu sunucu Google ile girişe aracılık etmiyor, bu yüzden istek almıyor.</string>
+    <string name="operator_beta_empty">Henüz istek yok.</string>
+    <string name="operator_beta_open">Bekleyen: %1$d</string>
+    <string name="operator_beta_approve">Onaylandı</string>
+    <string name="operator_beta_decline">Reddet</string>
+    <string name="operator_beta_waiting">Bekliyor</string>
+    <string name="operator_beta_state_approved">Onaylandı</string>
+    <string name="operator_beta_declined">Reddedildi</string>
+    <string name="operator_beta_notice_no_mail">Desteğe e-posta gitmedi: bağlı Gmail yok.</string>
+    <string name="operator_beta_notice_failed">Desteğe e-posta gönderilemedi.</string>
+    <string name="operator_beta_decline_confirm">Bu istek reddedilsin mi?</string>
+    <string name="operator_beta_decline_mail">Kısa bir e-posta gönder</string>
+    <string name="operator_beta_mailed">%1$s adresine e-posta gönderildi.</string>
+    <string name="operator_tester_steps">%1$s adresini Play Console → Test → Kapalı test → Test kullanıcıları bölümüne ekleyin, sonra aşağıya dokunun.</string>
+    <string name="operator_tester_added">Play\'e eklendi</string>
+    <string name="notify_beta_request">Beta isteği</string>
+</resources>

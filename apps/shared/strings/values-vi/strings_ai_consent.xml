@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">Trước tin nhắn đầu tiên</string>
+    <string name="ai_consent_body">Để trả lời, Kelo gửi tin nhắn của bạn và những gì cần cho chúng (tệp bạn đính kèm, kết quả từ các dịch vụ đã kết nối) đến dịch vụ AI bạn chọn.</string>
+    <string name="ai_consent_now">Đang chọn: %1$s. Bạn có thể xem và đổi trong Mô hình.</string>
+    <string name="ai_consent_not_now_note">Chọn “Để sau” thì không gửi gì cả.</string>
+    <string name="ai_consent_privacy">Chính sách quyền riêng tư</string>
+    <string name="ai_consent_agree">Đồng ý</string>
+    <string name="ai_consent_not_now">Để sau</string>
+    <string name="ai_chats_go_to">Cuộc trò chuyện được gửi đến %1$s</string>
+    <string name="ai_chats_stay">Cuộc trò chuyện chỉ ở trong mạng của bạn</string>
+</resources>

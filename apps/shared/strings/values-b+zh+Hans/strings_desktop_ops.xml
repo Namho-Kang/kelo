@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">添加卡片和确认付款都在手机上的 Kelo 应用里完成：卡号用只有那部手机才有的密钥锁住。在这里可以查看卡片、改名或删除、关闭自动支付并设置限额。</string>
+    <string name="desktop_ops_tag_phone">在手机上付款</string>
+    <string name="desktop_ops_wallet_safe_body">卡号和 CVC 在发送到服务器之前，会用只有你的手机才有的密钥锁住。服务器和助手都读不到，每次付款都要在手机上用指纹或锁屏确认。</string>
+    <string name="desktop_ops_wallet_paused_banner">自动支付已暂停。每笔付款都会在手机上询问你。</string>
+    <string name="desktop_ops_wallet_pause_on_body">已暂停。每笔付款都会在手机上询问你。</string>
+    <string name="desktop_ops_wallet_unfinished_body">这张卡缺少信息。请在手机上的 Kelo 应用中重新输入卡号和 CVC。</string>
+    <string name="desktop_ops_wallet_auto_only_body">你的手机上没有这张卡的副本，所以现在只能通过自动支付付款。关闭自动支付之前，请在手机上的 Kelo 应用中重新输入卡片信息。</string>
+    <string name="desktop_ops_wallet_auto_off_body">每笔付款都需要你在手机上用指纹或锁屏确认。服务器读不到卡号。</string>
+    <string name="desktop_ops_wallet_on_phone">要开启自动支付,请在添加这张卡的手机上的 Kelo 应用中开启,无需重新输入卡号。</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">关闭自动支付？服务器上的副本会立即删除，以后每笔付款都在手机上确认。</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">关闭自动支付？你的手机上没有这张卡的副本，关闭后在手机上重新输入卡片信息之前无法用它付款。</string>
+    <string name="desktop_ops_wallet_auto_none_note">还没有可以自动支付的卡，所以每笔付款都会在手机上询问你。要改变这一点，请在手机上的 Kelo 应用中为一张卡开启自动支付。</string>
+    <string name="desktop_ops_ship_card_on_phone">请在手机上的 Kelo 应用中添加卡片：卡号由只有那部手机持有的密钥锁定。</string>
+</resources>

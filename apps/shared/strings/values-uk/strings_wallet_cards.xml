@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Назва</string>
+    <string name="wallet_nickname_field">Назва (необов’язково)</string>
+    <string name="wallet_tag_default">Основна</string>
+    <string name="wallet_default_title">Основна картка</string>
+    <string name="wallet_default_on">Kelo платить цією карткою, якщо ви або завдання не вкажете іншу.</string>
+    <string name="wallet_make_default">Зробити основною карткою</string>
+    <string name="wallet_delete_default_title">Виберіть нову основну картку</string>
+    <string name="wallet_delete_default_body">«%1$s» — ваша основна картка. Виберіть картку, якою Kelo платитиме надалі.</string>
+    <string name="wallet_card_history">Платежі цією карткою</string>
+    <string name="wallet_card_history_empty">Kelo ще не платив цією карткою.</string>
+    <string name="wallet_card_history_more">Показати давніші платежі</string>
+    <string name="wallet_open_chat">Відкрити чат</string>
+    <string name="wallet_open_task">Відкрити завдання</string>
+    <string name="wallet_auto_from_phone">Телефон відкриє свою копію картки відбитком, обличчям або блокуванням екрана. Номер вводити знову не потрібно.</string>
+    <string name="wallet_auth_auto_title">Увімкнути автооплату</string>
+    <string name="wallet_auth_auto_subtitle">Відкрити копію «%1$s» на цьому телефоні</string>
+    <string name="wallet_auto_not_here_title">Цієї картки немає на цьому телефоні</string>
+    <string name="wallet_auto_not_here_body">Картку додано на іншому пристрої, тому цей телефон не може її відкрити. Увімкніть автооплату на пристрої, де її додали, або введіть тут номер картки.</string>
+    <string name="wallet_auto_enter_number">Ввести номер</string>
+    <string name="wallet_auto_on_failed">Не вдалося ввімкнути автооплату. Спробуйте ще раз.</string>
+</resources>

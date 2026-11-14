@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">Quét thẻ</string>
+    <string name="card_scan_title">Quét thẻ của bạn</string>
+    <string name="card_scan_hint">Đặt mặt trước của thẻ vào trong khung. Thẻ chỉ được đọc trên điện thoại này.</string>
+    <string name="card_scan_preparing">Đang chuẩn bị máy quét…</string>
+    <string name="card_scan_filled">Hãy kiểm tra số đã quét. Tự nhập mã CVC.</string>
+    <string name="card_scan_nothing">Không đọc được thẻ. Hãy thử lại hoặc nhập số.</string>
+    <string name="card_scan_camera_needed">Kelo cần quyền truy cập máy ảnh để quét thẻ. Không ảnh nào được lưu.</string>
+    <string name="card_scan_camera_failed">Không mở được máy ảnh. Hãy nhập số thay thế.</string>
+</resources>

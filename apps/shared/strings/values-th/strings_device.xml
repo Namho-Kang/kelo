@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">ในโทรศัพท์เครื่องนี้</string>
+    <string name="device_row_sub">ในโทรศัพท์เครื่องนี้</string>
+    <string name="device_row_connect">เชื่อมต่อ</string>
+    <string name="device_connected">เชื่อมต่อแล้ว</string>
+    <string name="device_needs_permission">ต้องให้สิทธิ์</string>
+    <string name="device_calendar">ปฏิทิน</string>
+    <string name="device_contacts">รายชื่อติดต่อ</string>
+    <string name="device_messages">ข้อความ</string>
+    <string name="device_dialer">แอปโทรศัพท์</string>
+    <string name="device_notifications">การแจ้งเตือน</string>
+    <string name="device_call_log">ประวัติการโทร</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">อ่านนัดหมายเพื่อใช้ตอบ ถ้าอนุญาต จะเพิ่มนัดหมายให้ด้วยหลังจากคุณอนุมัติ</string>
+    <string name="device_calendar_sends">ส่งนัดหมายตั้งแต่ 7 วันที่ผ่านมาถึงอีก 60 วันข้างหน้าไปยังเซิร์ฟเวอร์ของคุณ</string>
+    <string name="device_contacts_does">ค้นหาเบอร์และอีเมลจากชื่อ อ่านอย่างเดียว</string>
+    <string name="device_contacts_sends">ส่งชื่อ เบอร์ อีเมล บริษัทและตำแหน่ง และวันเกิดไปยังเซิร์ฟเวอร์ของคุณ</string>
+    <string name="device_messages_does">ค้นหาและอ่านข้อความที่รับและส่ง จะส่งข้อความก็ต่อเมื่อคุณอนุมัติแล้วเท่านั้น</string>
+    <string name="device_messages_sends">ส่งข้อความล่าสุดของคุณไปยังเซิร์ฟเวอร์ของคุณ</string>
+    <string name="device_dialer_does">เมื่อคุณอนุมัติ จะเปิดแอปโทรศัพท์พร้อมใส่เบอร์ไว้ให้ คุณกดโทรเอง</string>
+    <string name="device_dialer_sends">ไม่มีการส่งข้อมูลใด ๆ</string>
+    <string name="device_notifications_does">หาสิ่งที่คุณต้องการจากการแจ้งเตือนที่ได้รับ</string>
+    <string name="device_notifications_sends">ส่งชื่อแอป หัวข้อ เนื้อหา และเวลาไปยังเซิร์ฟเวอร์ของคุณ ลบทิ้งหลัง 7 วัน</string>
+    <string name="device_call_log_does">ค้นหาการโทรล่าสุด อ่านอย่างเดียว</string>
+    <string name="device_call_log_sends">ส่งเบอร์ ชื่อ ประเภทการโทร เวลา และระยะเวลาของ 30 วันที่ผ่านมาไปยังเซิร์ฟเวอร์ของคุณ</string>
+    <string name="device_health_does">ตอบจากข้อมูลอย่างจำนวนก้าวและการนอน อ่านอย่างเดียว</string>
+    <string name="device_health_sends">ส่งเฉพาะสรุปรายวันของรายการที่คุณเลือกไปยังเซิร์ฟเวอร์ของคุณ เมื่อคุณเปิดแอป</string>
+    <string name="device_switch">ให้ Kelo ใช้ได้</string>
+    <string name="device_auto">ซิงค์ให้อัตโนมัติ · %1$s</string>
+    <string name="device_auto_never">ส่งทันทีเมื่อเปิด แล้วซิงค์ต่อเนื่อง</string>
+    <string name="device_auto_foreground">ซิงค์ทุกครั้งที่เปิดแอป · %1$s</string>
+    <string name="device_send_now">ส่งตอนนี้</string>
+    <string name="device_sending">กำลังส่ง…</string>
+    <string name="device_send_failed">ส่งไม่สำเร็จ จะลองอีกครั้งในอีกสักครู่</string>
+    <string name="device_off_failed">ปิดแล้ว ข้อมูลที่เหลือบนเซิร์ฟเวอร์จะถูกลบเมื่อเชื่อมต่อครั้งถัดไป</string>
+    <string name="device_denied">สิทธิ์ถูกปิดอยู่ อนุญาตในการตั้งค่าเพื่อเปิดใช้</string>
+    <string name="device_open_settings">เปิดการตั้งค่า</string>
+    <string name="device_ready">เปิดอยู่</string>
+    <plurals name="device_count_contacts">
+        <item quantity="other">รายชื่อ %1$d รายการ</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="other">ข้อความ %1$d รายการ</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="other">การโทร %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="other">สรุป %1$d วัน</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="other">การแจ้งเตือน %1$d รายการ</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="other">นัดหมาย %1$d รายการ</item>
+    </plurals>
+    <string name="device_cal_write">อนุญาตให้เพิ่มและแก้ไขนัดหมายด้วย</string>
+    <string name="device_cal_write_line">ถามก่อนด้วยการ์ดอนุมัติทุกครั้ง</string>
+    <string name="device_cal_write_to">ปฏิทินที่จะเพิ่มนัดหมาย</string>
+    <string name="device_cal_none">ไม่มีปฏิทินที่แก้ไขได้</string>
+    <string name="device_cal_write_denied">สิทธิ์เขียนปฏิทินถูกปิดอยู่</string>
+    <string name="device_msg_window">ส่งย้อนหลังนานแค่ไหน</string>
+    <string name="device_days">%1$d วัน</string>
+    <string name="device_msg_send">อนุญาตให้ส่งข้อความ</string>
+    <string name="device_msg_send_line">โทรศัพท์เครื่องนี้จะส่งหลังจากคุณอนุมัติผู้รับและข้อความทั้งหมดแล้วเท่านั้น</string>
+    <string name="device_msg_send_denied">สิทธิ์ส่งข้อความถูกปิดอยู่</string>
+    <string name="device_notif_service_label">Kelo อ่านการแจ้งเตือน</string>
+    <string name="device_notif_disclosure_title">แชร์การแจ้งเตือนกับ Kelo ไหม</string>
+    <string name="device_notif_disclosure">เมื่อเปิดไว้ ชื่อแอป หัวข้อ เนื้อหา และเวลาของการแจ้งเตือนในโทรศัพท์เครื่องนี้จะถูกส่งไปยังเซิร์ฟเวอร์ Kelo ของคุณ เอเจนต์ใช้ข้อมูลนี้เพื่อค้นหาและตอบคุณ การแจ้งเตือนที่แสดงค้างไว้ การแจ้งเตือนของ Kelo เอง และแอปที่คุณยกเว้นจะไม่ถูกส่งเลย เซิร์ฟเวอร์จะลบหลัง 7 วัน และลบทันทีเมื่อคุณปิด\n\nในหน้าถัดไป ให้เปิดสิทธิ์เข้าถึงการแจ้งเตือนสำหรับ Kelo</string>
+    <string name="device_agree">ยอมรับและดำเนินการต่อ</string>
+    <string name="device_decline">ไม่เป็นไร</string>
+    <string name="device_notif_access_off">สิทธิ์เข้าถึงการแจ้งเตือนถูกปิดอยู่</string>
+    <string name="device_notif_exclude">แอปที่ไม่ต้องส่ง</string>
+    <string name="device_notif_exclude_empty">แอปที่ส่งการแจ้งเตือนถึงคุณจะแสดงที่นี่</string>
+    <string name="device_health_types">สิ่งที่จะแชร์</string>
+    <string name="device_health_steps">จำนวนก้าว</string>
+    <string name="device_health_sleep">การนอน</string>
+    <string name="device_health_heart">อัตราการเต้นของหัวใจ</string>
+    <string name="device_health_weight">น้ำหนัก</string>
+    <string name="device_health_exercise">การออกกำลังกาย</string>
+    <string name="device_health_missing">โทรศัพท์เครื่องนี้ไม่มี Health Connect</string>
+    <string name="device_health_install">ติดตั้ง Health Connect</string>
+    <string name="device_health_denied">ยังไม่ได้รับสิทธิ์สำหรับรายการที่เลือก โปรดอนุญาตอีกครั้ง</string>
+    <string name="device_health_allow">อนุญาต</string>
+    <string name="device_health_rationale_title">Kelo ใช้ข้อมูลสุขภาพของคุณอย่างไร</string>
+    <string name="device_health_rationale">Kelo อ่านเฉพาะสรุปรายวันของรายการที่คุณเลือก (จำนวนก้าว การนอน อัตราการเต้นของหัวใจ น้ำหนัก การออกกำลังกาย) แล้วส่งไปยังเซิร์ฟเวอร์ Kelo ของคุณเอง ใช้เฉพาะตอนที่เอเจนต์ตอบคำถามของคุณ ไม่ใช้เพื่อโฆษณาหรือการขาย Kelo อ่านอย่างเดียวและไม่เขียนข้อมูลลงใน Health Connect เมื่อปิด ระบบจะลบสรุปบนเซิร์ฟเวอร์</string>
+    <string name="device_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="device_dial_title">โทรหา %1$s</string>
+    <string name="device_dial_body">แตะเพื่อเปิดแอปโทรศัพท์ คุณกดโทรเอง</string>
+    <string name="device_sms_failed_title">ส่งข้อความไม่สำเร็จ</string>
+</resources>

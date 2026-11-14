@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">โมเดลสำหรับงานเบื้องหลัง</string>
+    <string name="model_background_help">ใช้เฉพาะงานที่ Kelo ทำเอง: การทบทวนทุกคืน การดูแลความจำ บันทึกประจำวัน การเลือกเรื่องที่จะบอกคุณ และสรุปแชตยาว งานที่ใช้เบราว์เซอร์ จ่ายเงิน หรือส่งอะไรออกไป ยังใช้โมเดลหลักเสมอ</string>
+    <string name="model_background_same">เหมือนโมเดลหลัก</string>
+    <string name="model_background_fell_back">เมื่อ %1$s โมเดลเบื้องหลังล้มเหลว โมเดลหลักจึงทำงานนั้นแทน</string>
+    <string name="usage_jobs_tokens">%1$s โทเค็น</string>
+</resources>

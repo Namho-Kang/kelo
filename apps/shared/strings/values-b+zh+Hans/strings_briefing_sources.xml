@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">读取的账号</string>
+    <string name="briefing_sources_about">简报和提醒会读取所有已连接的日历和邮箱。不想读取的请关闭。</string>
+    <string name="briefing_sources_calendars">日历</string>
+    <string name="briefing_sources_mail">邮件</string>
+    <string name="briefing_sources_chat">也可以直接在聊天里告诉 Kelo，例如“简报里不要看工作邮件”。</string>
+    <string name="briefing_sources_check">立即检查账号</string>
+    <string name="briefing_sources_checking">正在检查…</string>
+    <string name="connector_method_caldav">CalDAV 应用密码</string>
+    <string name="caldav_help">请填写服务商提供的 CalDAV 地址(例如 Fastmail 为 https://dav.fastmail.com/)、用户名和应用密码。</string>
+    <string name="caldav_url">CalDAV 地址</string>
+    <string name="caldav_user">用户名</string>
+    <string name="caldav_account_note">Kelo 仅为简报和提醒读取此日历,不会修改。</string>
+    <string name="caldav_disconnect_confirm">要断开 %1$s 吗?已保存的应用密码将被删除。</string>
+    <string name="caldav_add_other">再添加一个日历</string>
+    <string name="caldav_notify">我已连接日历,请继续。</string>
+</resources>

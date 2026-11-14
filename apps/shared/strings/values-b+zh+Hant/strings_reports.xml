@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">回報</string>
+    <string name="report_title">回報這則回覆</string>
+    <string name="report_intro">如果這則回覆讓你不舒服或內容有誤，請告訴 Kelo 開發者。回報只會用來讓 Kelo 更安全。</string>
+    <string name="report_reason_label">有什麼問題？</string>
+    <string name="report_reason_harmful">令人不舒服或有害</string>
+    <string name="report_reason_inaccurate">與事實不符</string>
+    <string name="report_reason_privacy">洩漏個人資訊</string>
+    <string name="report_reason_other">其他</string>
+    <string name="report_comment_hint">還有要補充的嗎？（選填）</string>
+    <string name="report_include_asked">一併傳送我前一則傳送的訊息</string>
+    <string name="report_sent_title">會傳給 Kelo 開發者的內容</string>
+    <string name="report_sent_reply">你要回報的回覆</string>
+    <string name="report_sent_asked">你前一則傳送的訊息</string>
+    <string name="report_sent_reason">你選擇的原因和補充說明</string>
+    <string name="report_sent_model">撰寫這則回覆的模型名稱</string>
+    <string name="report_sent_version">Kelo App 版本</string>
+    <string name="report_sent_not">不會傳送其他聊天內容或帳戶資料。回報會保留 1 年後刪除——如果你要求，也可以提早刪除。</string>
+    <string name="report_send">傳送回報</string>
+    <string name="report_sending">傳送中…</string>
+    <string name="report_failed_offline">無法連線到你的伺服器。你寫的內容還在——請稍後再試著傳送。</string>
+    <string name="report_thanks">回報已送出。謝謝你告訴我們。</string>
+    <string name="operator_section_reports">收到的回報</string>
+    <string name="operator_reports_note">使用者從 App 回報的回覆。1 年後會自動刪除。</string>
+    <string name="operator_reports_not_receiving">這台伺服器不接收回報。從這台伺服器送出的回報會傳到 Kelo 開發者的伺服器。</string>
+    <string name="operator_reports_empty">還沒有回報。</string>
+    <string name="operator_reports_open">待處理的回報：%1$d 則</string>
+    <string name="operator_reports_show_handled">也顯示已處理的回報</string>
+    <string name="operator_reports_hide_handled">只顯示待處理的回報</string>
+    <string name="operator_reports_reply">被回報的回覆</string>
+    <string name="operator_reports_asked">使用者前一則訊息</string>
+    <string name="operator_reports_comment">補充說明</string>
+    <string name="operator_reports_meta">%1$s · %2$s · App %3$s</string>
+    <string name="operator_reports_mark">標示為已處理</string>
+    <string name="operator_reports_unmark">標示為未處理</string>
+    <string name="operator_reports_handled">已處理</string>
+    <string name="operator_reports_delete">刪除</string>
+    <string name="operator_reports_delete_confirm">要刪除這則回報嗎？刪除後無法復原。</string>
+    <string name="operator_reports_unknown">不明</string>
+</resources>

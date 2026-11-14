@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">上限内なら確認せずに支払います</string>
+    <string name="wallet_tag_asks">毎回確認</string>
+    <string name="wallet_reason_not_auto">このカードは毎回確認するよう保存されています。</string>
+    <string name="wallet_reason_no_server_copy">サーバーに自動支払い用のカードの控えがありません。</string>
+    <string name="wallet_reason_paused">すべてのカードの自動支払いが一時停止中です。</string>
+    <string name="wallet_reason_vault_locked">キーチェーンがエージェントに対してロックされています。</string>
+    <string name="wallet_auto_turn_on_card">このカードの自動支払いをオン</string>
+    <string name="wallet_first_site_rule">自動支払いがオンでも、新しいサイトでの初回の支払いは一度確認し、上限を超える支払いも確認します。</string>
+    <string name="wallet_auto_none_value">自動支払いのカードなし</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="other">自動支払いのカード %d枚</item>
+    </plurals>
+    <string name="wallet_auto_none_note">確認なしで支払うカードはまだないので、すべての支払いをこのスマホで確認します。変えるにはカードを開いて自動支払いをオンにしてください。</string>
+    <string name="wallet_schedule_section">自分で購入する予約</string>
+    <string name="grant_section_title">確認なしで許可済み</string>
+    <string name="grant_section_note">設定時に一度許可しました。金額が大きい、別のサイトや品物、アカウントの変更は引き続き確認します。</string>
+    <string name="grant_login_title">%1$s でサインイン</string>
+    <string name="grant_login_site">%1$s で</string>
+    <string name="grant_purchase_title">%1$s を購入</string>
+    <string name="grant_purchase_cap">%1$s · 1回最大 %2$s、月 %3$s</string>
+    <string name="grant_spent">今月: %1$s</string>
+    <string name="grant_for_schedule">「%1$s」用</string>
+    <string name="grant_revoke">許可を取り消す</string>
+    <string name="grant_revoke_confirm">この許可を取り消しますか？実行のたびにまた確認します。</string>
+    <string name="grant_login_section">このログインを確認なしで使う予約</string>
+</resources>

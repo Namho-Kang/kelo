@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Wat Kelo mag doen</string>
+    <string name="perm_about">Toestaan: geen kaart. Vragen: elke keer een kaart. Uit: Kelo doet het niet. Betalingen en aanmeldingen vragen altijd.</string>
+    <string name="perm_kind_read">Lezen</string>
+    <string name="perm_kind_change">Wijzigen</string>
+    <string name="perm_kind_send">Versturen</string>
+    <string name="perm_kind_delete">Verwijderen</string>
+    <string name="perm_allow">Toestaan</string>
+    <string name="perm_ask">Vragen</string>
+    <string name="perm_off">Uit</string>
+    <string name="perm_default_is">Standaard: %1$s</string>
+    <string name="perm_changed_from">Standaard is %1$s</string>
+    <string name="perm_actions_more">%1$d losse acties</string>
+    <string name="perm_reset">Terug naar de standaardwaarden</string>
+    <string name="perm_reset_q">Alle instellingen van deze connector terugzetten naar de standaardwaarden?</string>
+    <string name="perm_read_off_q">Als lezen uit staat, kan Kelo deze connector bijna niet gebruiken. Uitzetten?</string>
+    <string name="perm_limited">Beperkt</string>
+</resources>

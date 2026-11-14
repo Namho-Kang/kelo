@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat and live view lines only the desktop app has (zoom in a browser tab's live view). See strings_desktop.xml. -->
+<resources>
+    <string name="desktop_chat_zoom_in">확대</string>
+    <string name="desktop_chat_zoom_reset">창에 맞추기</string>
+    <string name="desktop_chat_zoom_hint">%1$s 키를 누른 채 휠을 돌리면 확대/축소되고, 끌어서 둘러볼 수 있어요.</string>
+</resources>

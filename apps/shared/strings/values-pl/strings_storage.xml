@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Wyczyść</string>
+    <string name="storage_cleanup_title">Czyszczenie miejsca</string>
+    <string name="storage_warn">Miejsce Kelo jest zajęte w %1$d%%.</string>
+    <string name="storage_critical">Miejsce Kelo jest prawie pełne (%1$d%%). Gdy się zapełni, nowych plików nie da się zapisać, ale czat będzie działał dalej.</string>
+    <string name="storage_host_low">Dysk komputera, na którym działa serwer Kelo, jest prawie pełny (zostało %1$s). Gdy się zapełni, Kelo przestanie działać, także czat.</string>
+    <string name="storage_top">Najwięcej zajmuje: %1$s (%2$s).</string>
+    <string name="storage_row_warn">Zajęte w %1$d%%</string>
+    <string name="storage_row_critical">Prawie pełne</string>
+    <string name="storage_row_host">Dysk prawie pełny</string>
+    <string name="storage_cleanup_intro">Te elementy można bezpiecznie usunąć. Notatki, pamięć i historia czatu nigdy się tu nie pojawiają.</string>
+    <string name="storage_group_uploads">Stare oryginały przesłanych plików</string>
+    <string name="storage_group_uploads_desc">Pliki przesłane ponad %1$d dni temu. Usuwany jest tylko oryginał; tekst odczytany przez Kelo z dokumentu zostaje.</string>
+    <string name="storage_group_images">Wygenerowane obrazy</string>
+    <string name="storage_group_images_desc">Obrazy utworzone przez Kelo. Starsze wiadomości, które je pokazywały, nie pokażą już niczego.</string>
+    <string name="storage_group_browser">Zrzuty kroków przeglądarki</string>
+    <string name="storage_group_browser_desc">Zrzuty każdego kroku przeglądarki z zadań, które działały samodzielnie.</string>
+    <string name="storage_group_results">Stare wyniki i kosz</string>
+    <string name="storage_group_results_desc">Wyniki starsze niż %1$d dni i wszystko, co jest w koszu.</string>
+    <string name="storage_group_backups">Starsze kopie zapasowe</string>
+    <string name="storage_group_backups_desc">Najnowsze kopie zapasowe są zawsze zachowywane.</string>
+    <string name="storage_item_text_kept">Tekst zostaje</string>
+    <string name="storage_item_trashed">W koszu</string>
+    <string name="storage_backup_update">Przed aktualizacją serwera</string>
+    <string name="storage_backup_memory">Porządkowanie pamięci</string>
+    <string name="storage_backup_migration">Dawny układ</string>
+    <string name="storage_selected">Wybrano: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Usuń</string>
+    <string name="storage_confirm_title">Usunąć wybrane elementy na zawsze?</string>
+    <string name="storage_confirm_body">Zwolni to %1$s. Usuniętych elementów nie da się przywrócić.</string>
+    <string name="storage_deleted">Zwolniono %1$s.</string>
+    <string name="storage_skipped">Niektóre elementy już się zmieniły, więc zostały bez zmian.</string>
+    <string name="storage_nothing">Na razie nie ma nic do wyczyszczenia.</string>
+    <string name="storage_owner_only">Tylko właściciel serwera może czyścić.</string>
+    <string name="storage_load_failed">Nie udało się wczytać tego, co można wyczyścić.</string>
+    <string name="storage_delete_failed">Nie udało się usunąć. Spróbuj ponownie.</string>
+    <string name="storage_notify">Kończy się miejsce</string>
+</resources>

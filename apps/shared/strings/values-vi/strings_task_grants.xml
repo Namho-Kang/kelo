@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">Khi điều này xảy ra, làm việc này mà không hỏi?</string>
+    <string name="task_grant_when">Khi</string>
+    <string name="task_grant_does">Kelo sẽ</string>
+    <string name="task_grant_buy">Mua</string>
+    <string name="task_grant_limits">Giới hạn</string>
+    <string name="task_grant_per_time">Tối đa %1$s mỗi lần</string>
+    <string name="task_grant_times_one">Chỉ một lần</string>
+    <string name="task_grant_times">Tối đa %1$d lần</string>
+    <string name="task_grant_no_count">Không giới hạn số lần</string>
+    <string name="task_grant_monthly">Tối đa %1$s mỗi tháng</string>
+    <string name="task_grant_card">Thẻ</string>
+    <string name="task_grant_card_limit">Hạn mức tự thanh toán của thẻ này là %1$s. Cho phép tối đa %2$s cho việc này?</string>
+    <string name="task_grant_card_not_auto">Thẻ này không tự thanh toán. Việc này được trả tối đa %1$s.</string>
+    <string name="task_grant_card_phone_only">Thẻ này chỉ lưu trên điện thoại của bạn, nên mỗi lần thanh toán vẫn sẽ hỏi.</string>
+    <string name="task_grant_ship_to">Giao đến</string>
+    <string name="task_grant_send_to">Gửi cho</string>
+    <string name="task_grant_message">Tin nhắn</string>
+    <string name="task_grant_varies">Có thể thay đổi: %1$s</string>
+    <string name="task_grant_change">Thay đổi</string>
+    <string name="task_grant_apply">Đăng ký</string>
+    <string name="task_grant_apply_per_run">Tối đa %1$d mỗi lần chạy</string>
+    <string name="task_grant_apply_total">Tổng cộng %1$d</string>
+    <string name="task_grant_row_apply">Đăng ký %1$s</string>
+    <string name="task_grant_delete_yes">Cho phép xóa</string>
+    <string name="task_grant_delete_no">Không bao giờ xóa</string>
+    <string name="task_grant_login">Đăng nhập</string>
+    <string name="task_grant_login_line">Đăng nhập %1$s trên %2$s</string>
+    <string name="task_grant_once">Xong là tự kết thúc, nên không có gì xảy ra hai lần.</string>
+    <string name="task_grant_after">Bạn sẽ nhận thông báo ngay sau đó. Mọi việc khác vẫn sẽ hỏi bạn.</string>
+    <string name="task_grant_urgent">Gấp: vui lòng trả lời sớm</string>
+    <string name="task_grant_urgent_missed">Gấp: nếu trả lời muộn, %1$s</string>
+    <string name="task_grant_row_send">Gửi cho %1$s</string>
+    <string name="task_grant_row_change">Thay đổi %1$s</string>
+    <string name="task_grant_row_when">Khi: %1$s</string>
+    <string name="task_grant_row_card">Thẻ: %1$s</string>
+    <string name="task_grant_row_left">Còn %1$d trên %2$d</string>
+    <string name="task_grant_row_once">sau đó kết thúc</string>
+    <string name="task_grant_section_note">Đã cho phép một lần khi thiết lập. Mọi việc khác vẫn hỏi.</string>
+    <string name="notify_channel_urgent">Yêu cầu gấp</string>
+    <string name="notify_channel_urgent_desc">Khi một việc bạn thiết lập cần câu trả lời trước khi quá muộn</string>
+    <string name="notify_approval_urgent">Gấp: vui lòng xác nhận</string>
+</resources>

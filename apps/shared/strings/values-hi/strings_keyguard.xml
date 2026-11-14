@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">आपके पासवर्ड, कुंजियाँ और कार्ड एक ही कुंजी से खुलते हैं। आम तौर पर सर्वर उसे उनके पास ही रखता है। इसे चालू करने पर कुंजी सिर्फ़ आपके फ़ोन में रहती है, इसलिए सर्वर की डिस्क ले जाने वाला भी उन्हें नहीं खोल सकता।</string>
+    <string name="keyguard_restart_note">सर्वर के हर रीस्टार्ट के बाद, अपडेट समेत, Kelo तब तक लॉक रहता है जब तक आप उसे फ़ोन पर खोलकर पुष्टि न करें कि आप ही हैं। तब तक Kelo आपके पासवर्ड, कुंजियाँ और कार्ड इस्तेमाल नहीं कर सकता।</string>
+    <string name="keyguard_window_note">इस Android वर्शन पर पुष्टि के बाद 30 सेकंड तक कुंजी इस्तेमाल की जा सकती है।</string>
+    <string name="keyguard_turn_on">चालू करें</string>
+    <string name="keyguard_turning_on">चालू हो रहा है…</string>
+    <string name="keyguard_turn_on_confirm">चालू करें? आपको लिखकर रखने के लिए एक रिकवरी कोड मिलेगा। इस फ़ोन या उस कोड के बिना सर्वर आपके पासवर्ड, कुंजियाँ और कार्ड नहीं खोल सकता।</string>
+    <string name="keyguard_not_owner">इसे सिर्फ़ मालिक का फ़ोन बदल सकता है।</string>
+    <string name="keyguard_env_key">सर्वर अब भी अपनी सेटिंग फ़ाइल में कुंजी रखता है। पहले सर्वर कंप्यूटर पर `assistant keyguard enable` चलाएँ, फिर यहाँ दोबारा कोशिश करें।</string>
+    <string name="keyguard_no_lock">पहले इस फ़ोन पर स्क्रीन लॉक सेट करें।</string>
+    <string name="keyguard_recovery_title">आपका रिकवरी कोड</string>
+    <string name="keyguard_recovery_warning">अगर कुंजी वाले सभी फ़ोन खो जाएँ तो वापस आने का यही एक तरीका है। यह सिर्फ़ अभी दिखता है और कहीं सेव नहीं होता। इसे लिख लें और सुरक्षित जगह रखें।</string>
+    <string name="keyguard_recovery_confirm">मैंने लिख लिया</string>
+    <string name="keyguard_done">हो गया</string>
+    <string name="keyguard_phones_title">कुंजी वाले फ़ोन</string>
+    <string name="keyguard_this_phone">%1$s (यह फ़ोन)</string>
+    <string name="keyguard_add_this_phone">इस फ़ोन पर भी कुंजी रखें</string>
+    <string name="keyguard_remove_this_phone">इस फ़ोन की कॉपी हटाएँ</string>
+    <string name="keyguard_remove_confirm">इस फ़ोन से कुंजी हटाएँ? कुंजी वाले दूसरे फ़ोन अब भी Kelo अनलॉक कर सकते हैं।</string>
+    <string name="keyguard_last_phone">कुंजी सिर्फ़ इसी फ़ोन में है। पहले दूसरा फ़ोन जोड़ें या इसे बंद करें।</string>
+    <string name="keyguard_turn_off">बंद करें</string>
+    <string name="keyguard_turn_off_confirm">कुंजी सर्वर को लौटाएँ? आपके पासवर्ड, कुंजियाँ और कार्ड फ़ोन के बिना फिर से खुलेंगे।</string>
+    <string name="keyguard_locked_title">Kelo लॉक है</string>
+    <string name="keyguard_locked_body">जब तक आप इस फ़ोन से Kelo अनलॉक नहीं करते, आपके पासवर्ड, कुंजियाँ और कार्ड बंद रहेंगे।</string>
+    <string name="keyguard_locked_other">इस फ़ोन में कुंजी नहीं है। कुंजी वाले फ़ोन पर Kelo अनलॉक करें या रिकवरी कोड इस्तेमाल करें।</string>
+    <string name="keyguard_on_phone_only">इसे अपने फ़ोन पर Kelo में चालू करें। कुंजी सिर्फ़ फ़ोन के पास होती है, इस कंप्यूटर के पास कभी नहीं।</string>
+    <string name="keyguard_unlock">अनलॉक करें</string>
+    <string name="keyguard_unlocking">अनलॉक हो रहा है…</string>
+    <string name="keyguard_unlocked">Kelo अनलॉक हो गया</string>
+    <string name="keyguard_use_code">रिकवरी कोड इस्तेमाल करें</string>
+    <string name="keyguard_code_hint">रिकवरी कोड</string>
+    <string name="keyguard_code_wrong">वह कोड काम नहीं किया। जाँचें और दोबारा कोशिश करें।</string>
+    <string name="keyguard_key_lost">इस फ़ोन की कुंजी अब नहीं है (जैसे स्क्रीन लॉक हटाने पर)। दूसरा फ़ोन या रिकवरी कोड इस्तेमाल करें।</string>
+    <string name="keyguard_failed">यह नहीं हुआ। दोबारा कोशिश करें।</string>
+    <string name="keyguard_prompt_title">Kelo अनलॉक करें</string>
+    <string name="keyguard_prompt_subtitle">पुष्टि करें कि आप ही हैं</string>
+    <string name="keyguard_prompt_wrap">Kelo की कुंजी इस फ़ोन पर रखें</string>
+    <string name="wallet_keyguard_needed_title">ऑटो-पे के लिए Keyguard ज़रूरी है</string>
+    <string name="wallet_keyguard_needed_body">ऑटो-पे वाले कार्ड सर्वर पर रखे जाते हैं। Keyguard चालू होने पर उनका लॉक सिर्फ़ इसी फ़ोन से खुलता है।</string>
+    <string name="keyguard_turn_on_named">Keyguard चालू करें</string>
+    <string name="wallet_auto_paused_keyguard">Keyguard चालू होने तक ऑटो-पे रुका हुआ है। तब तक हर भुगतान आपके फ़ोन पर पूछेगा।</string>
+    <string name="wallet_auto_copy_note">सर्वर ऑटो-पे के लिए एक लॉक की हुई कॉपी रखता है; इसे सिर्फ़ मालिक का फ़ोन खोल सकता है।</string>
+</resources>

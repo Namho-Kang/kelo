@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Karty dodajesz, a każdą płatność potwierdzasz, w aplikacji Kelo na telefonie: numery kart są zablokowane kluczem, który ma tylko ten telefon. Tutaj widzisz swoje karty, możesz zmienić ich nazwę lub je usunąć, wyłączyć płatności automatyczne i ustawić limity.</string>
+    <string name="desktop_ops_tag_phone">Płaci z telefonu</string>
+    <string name="desktop_ops_wallet_safe_body">Numery kart i kody CVC są blokowane kluczem, który ma tylko Twój telefon, zanim trafią na serwer. Ani serwer, ani Twój agent nie mogą ich odczytać, a każdą płatność potwierdzasz na telefonie odciskiem palca lub blokadą ekranu.</string>
+    <string name="desktop_ops_wallet_paused_banner">Płatności automatyczne są wstrzymane. O każdą płatność zapytamy na telefonie.</string>
+    <string name="desktop_ops_wallet_pause_on_body">Wstrzymane. O każdą płatność zapytamy na telefonie.</string>
+    <string name="desktop_ops_wallet_unfinished_body">Tej karcie brakuje danych. Wpisz ponownie numer i CVC w aplikacji Kelo na telefonie.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Twój telefon nie ma kopii tej karty, więc teraz może płacić tylko automatycznie. Zanim wyłączysz płatności automatyczne, wpisz dane karty ponownie w aplikacji Kelo na telefonie.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Każda płatność wymaga Twojej zgody na telefonie, potwierdzonej odciskiem palca lub blokadą ekranu. Serwer nie może odczytać numeru karty.</string>
+    <string name="desktop_ops_wallet_on_phone">Aby włączyć płatność automatyczną, otwórz tę kartę w aplikacji Kelo na telefonie, który ją dodał. Nie wpisujesz numeru ponownie.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Wyłączyć płatności automatyczne? Kopia na serwerze zostanie od razu usunięta, a od teraz każdą płatność potwierdzasz na telefonie.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Wyłączyć płatności automatyczne? Twój telefon nie ma kopii tej karty, więc po wyłączeniu nie zapłacisz nią, dopóki nie wpiszesz tam ponownie jej danych.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Żadna karta nie płaci jeszcze sama, więc każda płatność pyta na telefonie. Aby to zmienić, włącz płatności automatyczne dla karty w aplikacji Kelo na telefonie.</string>
+    <string name="desktop_ops_ship_card_on_phone">Dodaj kartę w aplikacji Kelo na telefonie: numery kart są zablokowane kluczem, który ma tylko ten telefon.</string>
+</resources>

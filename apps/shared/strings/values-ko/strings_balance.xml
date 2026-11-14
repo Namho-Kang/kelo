@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">남은 잔액</string>
+    <string name="balance_limit_left">키 한도 중 남은 금액</string>
+    <string name="balance_used_today">오늘 쓴 금액</string>
+    <string name="balance_used_week">이번 주 쓴 금액</string>
+    <string name="balance_used_month">이번 달 쓴 금액</string>
+</resources>

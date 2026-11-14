@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Les cartes s\'ajoutent, et chaque paiement se confirme, dans l\'app Kelo de ton téléphone : les numéros de carte sont verrouillés par une clé que seul ce téléphone possède. Ici, tu peux voir tes cartes, les renommer ou les supprimer, couper le paiement automatique et régler ses plafonds.</string>
+    <string name="desktop_ops_tag_phone">Paie depuis ton téléphone</string>
+    <string name="desktop_ops_wallet_safe_body">Les numéros de carte et les CVC sont verrouillés par une clé que seul ton téléphone possède avant d\'aller sur le serveur. Ni le serveur ni ton agent ne peuvent les lire, et chaque paiement se confirme sur ton téléphone par empreinte ou verrouillage d\'écran.</string>
+    <string name="desktop_ops_wallet_paused_banner">Le paiement automatique est en pause. Chaque paiement sera demandé sur ton téléphone.</string>
+    <string name="desktop_ops_wallet_pause_on_body">En pause. Chaque paiement sera demandé sur ton téléphone.</string>
+    <string name="desktop_ops_wallet_unfinished_body">Il manque des informations sur cette carte. Saisis à nouveau le numéro et le CVC dans l\'app Kelo de ton téléphone.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Ton téléphone n\'a pas de copie de cette carte : pour l\'instant elle ne peut payer que par paiement automatique. Saisis à nouveau ses informations dans l\'app Kelo de ton téléphone avant de le couper.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Chaque paiement demande ton accord sur ton téléphone, par empreinte ou verrouillage d\'écran. Le serveur ne peut pas lire le numéro de carte.</string>
+    <string name="desktop_ops_wallet_on_phone">Pour activer le paiement automatique, ouvrez cette carte dans l’app Kelo du téléphone qui l’a ajoutée. Vous ne retaperez pas le numéro.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Couper le paiement automatique ? La copie sur le serveur est supprimée tout de suite, et chaque paiement sera désormais confirmé sur ton téléphone.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Couper le paiement automatique ? Ton téléphone n\'a pas de copie de cette carte : une fois coupé, tu ne pourras plus payer avec elle avant d\'y avoir saisi à nouveau ses informations.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Aucune carte ne paie encore toute seule, donc chaque paiement te demande ton accord sur ton téléphone. Pour changer ça, active le paiement automatique d\'une carte dans l\'app Kelo de ton téléphone.</string>
+    <string name="desktop_ops_ship_card_on_phone">Ajoute la carte dans l’app Kelo de ton téléphone : les numéros de carte sont verrouillés par une clé que seul ce téléphone possède.</string>
+</resources>

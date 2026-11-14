@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">इस फ़ोन पर</string>
+    <string name="device_row_sub">इस फ़ोन पर</string>
+    <string name="device_row_connect">कनेक्ट करें</string>
+    <string name="device_connected">कनेक्ट हो गया</string>
+    <string name="device_needs_permission">अनुमति चाहिए</string>
+    <string name="device_calendar">कैलेंडर</string>
+    <string name="device_contacts">कॉन्टैक्ट</string>
+    <string name="device_messages">मैसेज</string>
+    <string name="device_dialer">फ़ोन डायलर</string>
+    <string name="device_notifications">नोटिफ़िकेशन</string>
+    <string name="device_call_log">कॉल हिस्ट्री</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">जवाब देने के लिए आपके इवेंट देखे जाते हैं। आप अनुमति दें, तो आपकी मंज़ूरी के बाद इवेंट जोड़े भी जाते हैं।</string>
+    <string name="device_calendar_sends">पिछले 7 दिनों से अगले 60 दिनों तक के इवेंट आपके सर्वर पर भेजे जाते हैं।</string>
+    <string name="device_contacts_does">नाम से नंबर और ईमेल ढूँढे जाते हैं। सिर्फ़ पढ़ा जाता है।</string>
+    <string name="device_contacts_sends">नाम, नंबर, ईमेल, कंपनी और पद, और जन्मदिन आपके सर्वर पर भेजे जाते हैं।</string>
+    <string name="device_messages_does">आए और भेजे गए मैसेज ढूँढकर पढ़े जाते हैं। भेजना सिर्फ़ आपकी मंज़ूरी के बाद होता है।</string>
+    <string name="device_messages_sends">हाल के मैसेज आपके सर्वर पर भेजे जाते हैं।</string>
+    <string name="device_dialer_does">आपकी मंज़ूरी के बाद नंबर भरकर फ़ोन ऐप खोला जाता है। कॉल बटन आप खुद दबाते हैं।</string>
+    <string name="device_dialer_sends">कुछ नहीं भेजा जाता।</string>
+    <string name="device_notifications_does">आए हुए नोटिफ़िकेशन में से ज़रूरी जानकारी ढूँढी जाती है।</string>
+    <string name="device_notifications_sends">ऐप नाम, टाइटल, टेक्स्ट और समय आपके सर्वर पर भेजा जाता है। 7 दिन बाद मिटा दिया जाता है।</string>
+    <string name="device_call_log_does">हाल की कॉल ढूँढी जाती हैं। सिर्फ़ पढ़ा जाता है।</string>
+    <string name="device_call_log_sends">पिछले 30 दिनों के नंबर, नाम, कॉल का प्रकार, समय और अवधि आपके सर्वर पर भेजे जाते हैं।</string>
+    <string name="device_health_does">कदमों और नींद जैसे रिकॉर्ड से जवाब दिए जाते हैं। सिर्फ़ पढ़ा जाता है।</string>
+    <string name="device_health_sends">ऐप खोलने पर सिर्फ़ आपकी चुनी गई चीज़ों का रोज़ का सारांश आपके सर्वर पर भेजा जाता है।</string>
+    <string name="device_switch">Kelo को इसका इस्तेमाल करने दें</string>
+    <string name="device_auto">अपने-आप सिंक होता रहता है · %1$s</string>
+    <string name="device_auto_never">चालू करते ही भेजा जाता है, फिर सिंक होता रहता है</string>
+    <string name="device_auto_foreground">ऐप खोलने पर हर बार सिंक होता है · %1$s</string>
+    <string name="device_send_now">अभी भेजें</string>
+    <string name="device_sending">भेजा जा रहा है…</string>
+    <string name="device_send_failed">भेजा नहीं जा सका। थोड़ी देर में फिर कोशिश की जाएगी।</string>
+    <string name="device_off_failed">बंद कर दिया गया। सर्वर पर बचा डेटा अगली बार कनेक्ट होने पर मिटा दिया जाएगा।</string>
+    <string name="device_denied">अनुमति बंद है। इसे चालू करने के लिए सेटिंग में अनुमति दें।</string>
+    <string name="device_open_settings">सेटिंग खोलें</string>
+    <string name="device_ready">चालू</string>
+    <plurals name="device_count_contacts">
+        <item quantity="one">%1$d कॉन्टैक्ट</item>
+        <item quantity="other">%1$d कॉन्टैक्ट</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="one">%1$d मैसेज</item>
+        <item quantity="other">%1$d मैसेज</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="one">%1$d कॉल</item>
+        <item quantity="other">%1$d कॉल</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="one">%1$d दिन का सारांश</item>
+        <item quantity="other">%1$d दिनों का सारांश</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="one">%1$d नोटिफ़िकेशन</item>
+        <item quantity="other">%1$d नोटिफ़िकेशन</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="one">%1$d इवेंट</item>
+        <item quantity="other">%1$d इवेंट</item>
+    </plurals>
+    <string name="device_cal_write">इवेंट जोड़ने और बदलने की अनुमति भी दें</string>
+    <string name="device_cal_write_line">हर बार पहले मंज़ूरी कार्ड से पूछा जाता है।</string>
+    <string name="device_cal_write_to">किस कैलेंडर में जोड़ें</string>
+    <string name="device_cal_none">ऐसा कोई कैलेंडर नहीं है जिसमें बदलाव किया जा सके।</string>
+    <string name="device_cal_write_denied">कैलेंडर में लिखने की अनुमति बंद है।</string>
+    <string name="device_msg_window">कितने दिन पहले तक के भेजें</string>
+    <string name="device_days">%1$d दिन</string>
+    <string name="device_msg_send">मैसेज भेजने की अनुमति दें</string>
+    <string name="device_msg_send_line">पाने वाले और पूरे मैसेज को आपकी मंज़ूरी मिलने के बाद ही यह फ़ोन भेजता है।</string>
+    <string name="device_msg_send_denied">मैसेज भेजने की अनुमति बंद है।</string>
+    <string name="device_notif_service_label">Kelo नोटिफ़िकेशन रीडर</string>
+    <string name="device_notif_disclosure_title">नोटिफ़िकेशन Kelo के साथ शेयर करें?</string>
+    <string name="device_notif_disclosure">इसे चालू करने पर इस फ़ोन पर आने वाले नोटिफ़िकेशन का ऐप नाम, टाइटल, टेक्स्ट और समय आपके Kelo सर्वर पर भेजा जाता है। एजेंट इनसे जानकारी ढूँढकर आपको जवाब देता है। चल रहे नोटिफ़िकेशन, Kelo के अपने नोटिफ़िकेशन और आपके हटाए गए ऐप कभी नहीं भेजे जाते। सर्वर इन्हें 7 दिन बाद मिटा देता है, और बंद करते ही तुरंत।\n\nअगली स्क्रीन पर Kelo के लिए नोटिफ़िकेशन ऐक्सेस चालू करें।</string>
+    <string name="device_agree">सहमत हूँ, आगे बढ़ें</string>
+    <string name="device_decline">रहने दें</string>
+    <string name="device_notif_access_off">नोटिफ़िकेशन ऐक्सेस बंद है।</string>
+    <string name="device_notif_exclude">जिन ऐप का न भेजें</string>
+    <string name="device_notif_exclude_empty">जिन ऐप से आपको नोटिफ़िकेशन आते हैं, वे यहाँ दिखेंगे।</string>
+    <string name="device_health_types">क्या शेयर करें</string>
+    <string name="device_health_steps">कदम</string>
+    <string name="device_health_sleep">नींद</string>
+    <string name="device_health_heart">हार्ट रेट</string>
+    <string name="device_health_weight">वज़न</string>
+    <string name="device_health_exercise">वर्कआउट</string>
+    <string name="device_health_missing">इस फ़ोन में Health Connect नहीं है।</string>
+    <string name="device_health_install">Health Connect इंस्टॉल करें</string>
+    <string name="device_health_denied">चुनी गई चीज़ों की अनुमति नहीं है। कृपया फिर से अनुमति दें।</string>
+    <string name="device_health_allow">अनुमति दें</string>
+    <string name="device_health_rationale_title">Kelo आपके हेल्थ रिकॉर्ड का इस्तेमाल कैसे करता है</string>
+    <string name="device_health_rationale">Kelo सिर्फ़ आपकी चुनी गई चीज़ों (कदम, नींद, हार्ट रेट, वज़न, वर्कआउट) का रोज़ का सारांश पढ़ता है और उसे आपके अपने Kelo सर्वर पर भेजता है। इसका इस्तेमाल सिर्फ़ तब होता है जब एजेंट आपके सवालों का जवाब देता है, विज्ञापन या बिक्री के लिए कभी नहीं। Kelo सिर्फ़ पढ़ता है, Health Connect में कभी कुछ नहीं लिखता। इसे बंद करने पर सर्वर से सारांश मिटा दिए जाते हैं।</string>
+    <string name="device_privacy_policy">प्राइवेसी पॉलिसी</string>
+    <string name="device_dial_title">%1$s को कॉल करें</string>
+    <string name="device_dial_body">फ़ोन ऐप खोलने के लिए टैप करें। कॉल आप खुद करेंगे।</string>
+    <string name="device_sms_failed_title">मैसेज नहीं भेजा जा सका</string>
+</resources>

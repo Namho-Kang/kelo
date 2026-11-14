@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">昵称</string>
+    <string name="wallet_nickname_field">昵称(可选)</string>
+    <string name="wallet_tag_default">默认</string>
+    <string name="wallet_default_title">默认卡</string>
+    <string name="wallet_default_on">除非你或任务指定其他卡,Kelo 会用这张卡付款。</string>
+    <string name="wallet_make_default">设为默认卡</string>
+    <string name="wallet_delete_default_title">选择新的默认卡</string>
+    <string name="wallet_delete_default_body">“%1$s”是你的默认卡。请选择 Kelo 今后用来付款的卡。</string>
+    <string name="wallet_card_history">用这张卡的付款</string>
+    <string name="wallet_card_history_empty">Kelo 还没有用这张卡付过款。</string>
+    <string name="wallet_card_history_more">显示更早的付款</string>
+    <string name="wallet_open_chat">打开对话</string>
+    <string name="wallet_open_task">打开任务</string>
+    <string name="wallet_auto_from_phone">用指纹、面容或屏幕锁打开本机保存的卡片副本来开启,无需重新输入卡号。</string>
+    <string name="wallet_auth_auto_title">开启自动支付</string>
+    <string name="wallet_auth_auto_subtitle">打开本机保存的“%1$s”</string>
+    <string name="wallet_auto_not_here_title">这张卡不在本机上</string>
+    <string name="wallet_auto_not_here_body">这张卡是在其他设备上添加的,本机无法打开。请在添加它的设备上开启自动支付,或在这里重新输入卡号。</string>
+    <string name="wallet_auto_enter_number">输入卡号</string>
+    <string name="wallet_auto_on_failed">未能开启自动支付,请重试。</string>
+</resources>

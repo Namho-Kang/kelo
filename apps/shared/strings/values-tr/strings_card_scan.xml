@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">Kartı tara</string>
+    <string name="card_scan_title">Kartını tara</string>
+    <string name="card_scan_hint">Kartın ön yüzünü çerçevenin içine getir. Yalnızca bu telefonda okunur.</string>
+    <string name="card_scan_preparing">Tarayıcı hazırlanıyor…</string>
+    <string name="card_scan_filled">Taranan numarayı kontrol et. CVC’yi kendin gir.</string>
+    <string name="card_scan_nothing">Kart okunamadı. Tekrar dene veya numarayı yaz.</string>
+    <string name="card_scan_camera_needed">Kartı taramak için Kelo’nun kameraya erişmesi gerekiyor. Fotoğraf kaydedilmez.</string>
+    <string name="card_scan_camera_failed">Kamera açılamadı. Numarayı elle gir.</string>
+</resources>

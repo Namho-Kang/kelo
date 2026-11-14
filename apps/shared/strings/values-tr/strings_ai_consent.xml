@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">İlk mesajınızdan önce</string>
+    <string name="ai_consent_body">Kelo yanıt verebilmek için mesajlarınızı ve bunlar için gerekenleri (eklediğiniz dosyalar, bağlı hizmetlerden gelen sonuçlar) seçtiğiniz yapay zekâ hizmetine gönderir.</string>
+    <string name="ai_consent_now">Şu an seçili: %1$s. Model bölümünden görüp değiştirebilirsiniz.</string>
+    <string name="ai_consent_not_now_note">“Şimdi değil” derseniz hiçbir şey gönderilmez.</string>
+    <string name="ai_consent_privacy">Gizlilik politikası</string>
+    <string name="ai_consent_agree">Kabul ediyorum</string>
+    <string name="ai_consent_not_now">Şimdi değil</string>
+    <string name="ai_chats_go_to">Sohbetleriniz şuraya gider: %1$s</string>
+    <string name="ai_chats_stay">Sohbetleriniz kendi ağınızda kalır</string>
+</resources>

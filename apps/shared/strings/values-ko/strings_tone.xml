@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">말투</string>
+    <string name="my_agent_tone_friendly">친근</string>
+    <string name="my_agent_tone_polite">공손</string>
+    <string name="my_agent_tone_friendly_example">내일 10시에 치과 예약 있어. 알림 맞춰 둘까?</string>
+    <string name="my_agent_tone_polite_example">내일 10시에 치과 예약이 있어요. 알림 맞춰 둘까요?</string>
+    <string name="my_agent_tone_failed">말투를 바꾸지 못했어요. 다시 해 주세요.</string>
+</resources>

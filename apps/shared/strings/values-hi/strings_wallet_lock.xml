@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">आपके पेमेंट कार्ड लॉक हैं</string>
+    <string name="wallet_lock_body">इन्हें फिर से खोलने के लिए फ़िंगरप्रिंट, चेहरे या स्क्रीन लॉक (PIN, पैटर्न या पासवर्ड) से पुष्टि करें।</string>
+    <string name="wallet_lock_kept">आप जो कार्ड जानकारी डाल रहे थे, वह अभी यहीं है। जहाँ छोड़ा था वहीं से आगे बढ़ने के लिए अनलॉक करें। 10 मिनट बाद यह मिट जाती है।</string>
+    <string name="wallet_lock_unlock">अनलॉक करें</string>
+    <string name="wallet_lock_back">वापस जाएँ</string>
+    <string name="wallet_lock_no_lock_title">स्क्रीन लॉक सेट करें</string>
+    <string name="wallet_lock_no_lock_body">इस फ़ोन पर स्क्रीन लॉक नहीं है, इसलिए आपके पेमेंट कार्ड नहीं खुल सकते। सेटिंग में PIN या फ़िंगरप्रिंट चालू करके वापस आएँ। आते ही तुरंत जाँच होगी।</string>
+    <string name="wallet_lock_open_settings">स्क्रीन लॉक सेटिंग खोलें</string>
+</resources>

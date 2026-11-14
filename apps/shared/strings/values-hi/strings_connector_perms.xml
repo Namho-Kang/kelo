@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Kelo क्या कर सकता है</string>
+    <string name="perm_about">अनुमति: कार्ड नहीं। पूछें: हर बार एक कार्ड। बंद: Kelo यह नहीं करता। भुगतान और साइन-अप हमेशा पूछते हैं।</string>
+    <string name="perm_kind_read">पढ़ना</string>
+    <string name="perm_kind_change">बदलना</string>
+    <string name="perm_kind_send">भेजना</string>
+    <string name="perm_kind_delete">हटाना</string>
+    <string name="perm_allow">अनुमति</string>
+    <string name="perm_ask">पूछें</string>
+    <string name="perm_off">बंद</string>
+    <string name="perm_default_is">डिफ़ॉल्ट: %1$s</string>
+    <string name="perm_changed_from">डिफ़ॉल्ट %1$s है</string>
+    <string name="perm_actions_more">%1$d अलग-अलग कार्य</string>
+    <string name="perm_reset">डिफ़ॉल्ट पर वापस जाएँ</string>
+    <string name="perm_reset_q">इस कनेक्टर की सभी सेटिंग डिफ़ॉल्ट पर वापस करें?</string>
+    <string name="perm_read_off_q">पढ़ना बंद होने पर Kelo इस कनेक्टर का लगभग उपयोग नहीं कर सकता। बंद करें?</string>
+    <string name="perm_limited">सीमित</string>
+</resources>

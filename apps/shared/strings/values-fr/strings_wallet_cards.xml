@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Surnom</string>
+    <string name="wallet_nickname_field">Surnom (facultatif)</string>
+    <string name="wallet_tag_default">Par défaut</string>
+    <string name="wallet_default_title">Carte par défaut</string>
+    <string name="wallet_default_on">Kelo paie avec cette carte, sauf si vous ou la tâche en indiquez une autre.</string>
+    <string name="wallet_make_default">En faire la carte par défaut</string>
+    <string name="wallet_delete_default_title">Choisissez une nouvelle carte par défaut</string>
+    <string name="wallet_delete_default_body">« %1$s » est votre carte par défaut. Choisissez la carte avec laquelle Kelo paiera désormais.</string>
+    <string name="wallet_card_history">Paiements avec cette carte</string>
+    <string name="wallet_card_history_empty">Kelo n’a encore rien payé avec cette carte.</string>
+    <string name="wallet_card_history_more">Voir les paiements plus anciens</string>
+    <string name="wallet_open_chat">Ouvrir la discussion</string>
+    <string name="wallet_open_task">Ouvrir la tâche</string>
+    <string name="wallet_auto_from_phone">Ce téléphone ouvre sa propre copie de la carte avec votre empreinte, votre visage ou le verrouillage de l’écran. Vous ne retapez pas le numéro.</string>
+    <string name="wallet_auth_auto_title">Activer le paiement automatique</string>
+    <string name="wallet_auth_auto_subtitle">Ouvrir la copie de « %1$s » de ce téléphone</string>
+    <string name="wallet_auto_not_here_title">Cette carte n’est pas sur ce téléphone</string>
+    <string name="wallet_auto_not_here_body">Elle a été ajoutée sur un autre appareil, ce téléphone ne peut donc pas l’ouvrir. Activez le paiement automatique depuis l’appareil qui l’a ajoutée, ou saisissez ici le numéro de la carte.</string>
+    <string name="wallet_auto_enter_number">Saisir le numéro</string>
+    <string name="wallet_auto_on_failed">Impossible d’activer le paiement automatique. Réessayez.</string>
+</resources>

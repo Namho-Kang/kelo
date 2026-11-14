@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">Paga da sola entro i tuoi limiti</string>
+    <string name="wallet_tag_asks">Chiede ogni volta</string>
+    <string name="wallet_reason_not_auto">Questa carta è stata salvata per chiedere ogni volta.</string>
+    <string name="wallet_reason_no_server_copy">Il server non ha una copia di questa carta per il pagamento automatico.</string>
+    <string name="wallet_reason_paused">Il pagamento automatico è in pausa per tutte le carte.</string>
+    <string name="wallet_reason_vault_locked">Il portachiavi è bloccato per il tuo agente.</string>
+    <string name="wallet_auto_turn_on_card">Attiva il pagamento automatico per questa carta</string>
+    <string name="wallet_first_site_rule">Anche con il pagamento automatico, il primo pagamento su un nuovo sito chiede una volta, come ogni pagamento oltre i tuoi limiti.</string>
+    <string name="wallet_auto_none_value">Nessuna carta con pagamento automatico</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="one">%d carta con pagamento automatico</item>
+        <item quantity="many">%d carte con pagamento automatico</item>
+        <item quantity="other">%d carte con pagamento automatico</item>
+    </plurals>
+    <string name="wallet_auto_none_note">Nessuna carta paga ancora da sola, quindi ogni pagamento chiede su questo telefono. Per cambiarlo, apri una carta e attiva il pagamento automatico.</string>
+    <string name="wallet_schedule_section">Programmazioni che comprano da sole</string>
+    <string name="grant_section_title">Consentito senza chiedere</string>
+    <string name="grant_section_note">Consentito una volta durante la configurazione. Un totale più alto, un altro sito o articolo e le modifiche all’account chiedono ancora.</string>
+    <string name="grant_login_title">Accede con %1$s</string>
+    <string name="grant_login_site">Su %1$s</string>
+    <string name="grant_purchase_title">Compra %1$s</string>
+    <string name="grant_purchase_cap">Su %1$s · fino a %2$s per esecuzione, %3$s al mese</string>
+    <string name="grant_spent">Questo mese: %1$s</string>
+    <string name="grant_for_schedule">Per «%1$s»</string>
+    <string name="grant_revoke">Revoca</string>
+    <string name="grant_revoke_confirm">Revocare questo permesso? Le esecuzioni chiederanno di nuovo.</string>
+    <string name="grant_login_section">Programmazioni che usano questo login senza chiedere</string>
+</resources>

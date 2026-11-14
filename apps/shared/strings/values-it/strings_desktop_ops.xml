@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Le carte si aggiungono, e ogni pagamento si conferma, nell\'app Kelo del tuo telefono: i numeri di carta sono bloccati con una chiave che ha solo quel telefono. Qui puoi vedere le carte, rinominarle o rimuoverle, disattivare il pagamento automatico e impostarne i limiti.</string>
+    <string name="desktop_ops_tag_phone">Paga dal telefono</string>
+    <string name="desktop_ops_wallet_safe_body">Numeri di carta e CVC vengono bloccati con una chiave che ha solo il tuo telefono prima di andare al server. Né il server né il tuo agente possono leggerli, e ogni pagamento si conferma sul telefono con l\'impronta o il blocco schermo.</string>
+    <string name="desktop_ops_wallet_paused_banner">Il pagamento automatico è in pausa. Ogni pagamento verrà chiesto sul telefono.</string>
+    <string name="desktop_ops_wallet_pause_on_body">In pausa. Ogni pagamento verrà chiesto sul telefono.</string>
+    <string name="desktop_ops_wallet_unfinished_body">A questa carta mancano dei dati. Inserisci di nuovo numero e CVC nell\'app Kelo del tuo telefono.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Il tuo telefono non ha una copia di questa carta, quindi ora può pagare solo con il pagamento automatico. Reinserisci i dati nell\'app Kelo del telefono prima di disattivarlo.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Ogni pagamento richiede il tuo OK sul telefono, con l\'impronta o il blocco schermo. Il server non può leggere il numero della carta.</string>
+    <string name="desktop_ops_wallet_on_phone">Per attivare il pagamento automatico, apri questa carta nell’app Kelo del telefono che l’ha aggiunta. Non dovrai riscrivere il numero.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Disattivare il pagamento automatico? La copia sul server viene eliminata subito e da ora ogni pagamento si conferma sul telefono.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Disattivare il pagamento automatico? Il tuo telefono non ha una copia di questa carta: una volta disattivato non potrai pagare con essa finché non reinserisci lì i dati.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Nessuna carta paga ancora da sola, quindi ogni pagamento chiede conferma sul telefono. Per cambiare, attiva il pagamento automatico di una carta nell\'app Kelo del tuo telefono.</string>
+    <string name="desktop_ops_ship_card_on_phone">Aggiungi la carta nell’app Kelo del tuo telefono: i numeri di carta sono bloccati con una chiave che ha solo quel telefono.</string>
+</resources>

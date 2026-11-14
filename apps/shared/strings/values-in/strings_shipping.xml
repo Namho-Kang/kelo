@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">Alamat pengiriman</string>
+    <string name="shipping_empty">Belum ada alamat tersimpan. Saat Kelo memesan untukmu, barang dikirim ke alamat yang tersimpan di sini.</string>
+    <string name="shipping_add">Tambah alamat</string>
+    <string name="shipping_edit_title">Edit alamat</string>
+    <string name="shipping_home">Rumah</string>
+    <string name="shipping_nickname">Nama panggilan</string>
+    <string name="shipping_nickname_hint">mis. Rumah, Kantor</string>
+    <string name="shipping_country">Negara</string>
+    <string name="shipping_optional">opsional</string>
+    <string name="shipping_label_optional">%1$s (%2$s)</string>
+    <string name="shipping_default_title">Alamat utama</string>
+    <string name="shipping_default_note">Pesanan dikirim ke sini kecuali kamu atau tugasnya menyebut alamat lain.</string>
+    <string name="shipping_delete">Hapus alamat ini</string>
+    <string name="shipping_delete_confirm">Hapus alamat “%1$s”?</string>
+    <string name="shipping_err_required">Isi bagian ini</string>
+    <string name="shipping_err_pattern">Periksa formatnya (mis. %1$s)</string>
+    <string name="shipping_err_format">Periksa formatnya</string>
+    <string name="shipping_err_phone">Periksa nomor telepon</string>
+    <string name="shipping_example">mis. %1$s</string>
+    <string name="shipping_pick">Pilih</string>
+    <string name="shipping_country_search">Cari negara</string>
+    <string name="shipping_country_none">Tidak ada negara yang cocok</string>
+    <string name="shipping_form_failed">Formulir alamat tidak dapat dimuat.</string>
+    <string name="shipping_calling_code">Kode negara %1$s</string>
+    <string name="shipping_ask_title">Mau dikirim ke mana?</string>
+    <string name="shipping_ask_save">Pakai untuk pesanan berikutnya (simpan sebagai alamat pengiriman)</string>
+    <string name="shipping_ask_pay">Cara bayar</string>
+    <string name="shipping_pay_card">Tambah kartu</string>
+    <string name="shipping_pay_site">Bayar di situs</string>
+    <string name="shipping_ask_send">Kirim alamat</string>
+    <string name="shipping_ask_sending">Mengirim…</string>
+    <string name="shipping_ask_done">Kirim ke: %1$s</string>
+    <string name="shipping_ask_cancelled">Alamat tidak diberikan</string>
+    <string name="shipping_ask_expired">Formulir ini sudah kedaluwarsa</string>
+    <string name="shipping_ask_closed">Formulir ini sudah ditutup</string>
+    <string name="order_items">Barang</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">Kirim ke</string>
+    <string name="order_ship_site">Alamat yang tersimpan di situs</string>
+    <string name="order_ship_once">Hanya untuk pesanan ini</string>
+    <string name="order_pay_with">Bayar dengan</string>
+    <string name="order_pay_site">Di situs</string>
+    <string name="order_coupon">Kupon</string>
+    <string name="order_total">Total</string>
+</resources>

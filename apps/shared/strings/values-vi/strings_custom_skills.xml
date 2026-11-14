@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Kỹ năng chờ duyệt</string>
+    <string name="skill_review_about">Kelo chỉ dùng một kỹ năng sau khi bạn duyệt. Khi duyệt, nội dung được lưu đúng như đang hiển thị.</string>
+    <string name="skill_review_drafting">Kelo đang viết bản nháp kỹ năng…</string>
+    <string name="skill_review_kind_new">Kỹ năng mới</string>
+    <string name="skill_review_kind_change">Thay đổi kỹ năng</string>
+    <string name="skill_review_kind_edited">Bị thay đổi ngoài ứng dụng</string>
+    <string name="skill_review_edited_note">Các tệp của kỹ năng này đã bị thay đổi ngoài ứng dụng, nên Kelo sẽ không dùng cho đến khi bạn duyệt lại.</string>
+    <string name="skill_review_edited_new_note">Kỹ năng này được thêm ngoài ứng dụng. Kelo sẽ không dùng cho đến khi bạn duyệt.</string>
+    <string name="skill_review_outside_note">Trong lúc làm việc này, Kelo đã đọc trang web, thư hoặc tệp. Hãy kiểm tra để chắc mỗi bước đều đúng ý bạn.</string>
+    <string name="skill_review_secrets_removed">Mật khẩu, khóa và mã đã được xóa khỏi nội dung.</string>
+    <string name="skill_review_diff_counts">Thêm %1$d · Xóa %2$d</string>
+    <string name="skill_review_show_all">Hiện tất cả</string>
+    <string name="skill_review_show_less">Thu gọn</string>
+    <string name="skill_review_put_back">Hoàn tác thay đổi</string>
+    <string name="skill_review_discard">Bỏ</string>
+    <string name="skill_review_approve">Duyệt</string>
+    <string name="skill_review_approved">Đã duyệt. Kelo sẽ dùng kỹ năng này.</string>
+    <string name="skill_review_discarded">Đã bỏ</string>
+    <string name="skill_review_from_draft">Bản nháp từ một việc đã xong</string>
+    <string name="skill_review_from_disk">Bị thay đổi trong tệp của máy chủ</string>
+    <string name="skill_review_from_kelo">Kelo đề xuất</string>
+    <string name="skill_save">Lưu thành kỹ năng</string>
+    <string name="skill_save_about">Kelo ghi lại các bước của việc này. Sẽ không có gì thay đổi cho đến khi bạn duyệt trong %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo đang soạn bản nháp kỹ năng. Bạn sẽ thấy nó trong %1$s → %2$s.</string>
+    <string name="skill_save_busy">Kỹ năng từ việc này đang được viết.</string>
+    <string name="skill_save_unavailable">Máy chủ này chưa lưu được kỹ năng. Hãy cập nhật máy chủ trước.</string>
+    <string name="skill_save_no_model">Hãy chọn một mô hình trước.</string>
+</resources>

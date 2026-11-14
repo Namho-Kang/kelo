@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- KE2E (end-to-end encryption to your own server) and the server version check; same keys as the iPhone app -->
+    <string name="e2e_key_changed_title">Connect this phone again</string>
+    <string name="e2e_key_changed_body">Your Kelo server\'s encryption key changed, so this phone can\'t check that it\'s really your server. Scan a new connection QR code from My → My devices on another device, or from the server machine.</string>
+    <string name="e2e_pair_again">Connect again</string>
+    <string name="e2e_server_old_title">Update your Kelo server</string>
+    <string name="e2e_server_old_body">This app needs Kelo server %1$s or newer. Update the server, then come back.</string>
+    <string name="e2e_server_old_version">Server version: %1$s</string>
+    <string name="e2e_retry">Try again</string>
+    <string name="devices_e2e_title">End-to-end encryption</string>
+    <string name="devices_e2e_on">Only this phone and your server can read your chats on the way.</string>
+    <string name="devices_e2e_fingerprint">Server key fingerprint</string>
+    <string name="devices_e2e_verified">Key verified</string>
+    <string name="devices_e2e_not_verified">Key not verified</string>
+    <string name="devices_e2e_not_verified_body">Compare this with the fingerprint that `assistant phone fingerprint` shows on the server machine, or scan a connection QR code once.</string>
+    <string name="devices_e2e_verify_scan">Verify by scanning a QR code</string>
+    <string name="devices_e2e_verify_done">The key matches. Verified ✓</string>
+    <string name="devices_e2e_verify_mismatch">This QR code carries a different key. If the server\'s key was changed, connect this phone again.</string>
+    <string name="devices_e2e_verify_no_key">This QR code has no key. Make a new one with an updated server.</string>
+</resources>

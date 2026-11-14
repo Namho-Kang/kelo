@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">也查看花費與餘額</string>
+    <string name="admin_key_title">用於花費與餘額的管理員金鑰</string>
+    <string name="admin_key_safety">保存在伺服器的獨立金鑰容器中，Kelo 本身不保留，僅用於讀取花費和餘額。</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create（唯讀即可）。</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys（僅限組織帳戶）。</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create。</string>
+    <string name="admin_key_save">儲存</string>
+    <string name="admin_key_saved">已儲存。下方將顯示花費金額。</string>
+    <string name="admin_key_refused">提供者拒絕了此金鑰。請確認這是管理員金鑰。</string>
+    <string name="admin_key_keyring_off">此伺服器不保留管理員金鑰（金鑰容器已關閉）。</string>
+    <string name="admin_key_failed">無法儲存金鑰。請稍後再試。</string>
+    <string name="admin_key_set">管理員金鑰 …%1$s</string>
+    <string name="admin_key_remove">刪除</string>
+    <string name="admin_key_remove_q">移除管理員金鑰？花費與餘額將不再顯示。</string>
+    <string name="my_privacy_keyring">你輸入的 AI 提供者金鑰（以及管理員金鑰，若有新增）由伺服器上的獨立金鑰容器保管，而非 Kelo 本身；Kelo 請求呼叫時，容器僅在向該提供者自有地址發送請求時附加金鑰。</string>
+</resources>

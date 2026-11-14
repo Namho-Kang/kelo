@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Background work model (model settings) and token use by kind of work (usage page) -->
+<resources>
+    <string name="model_background_title">Background work model</string>
+    <string name="model_background_help">Used only for work Kelo does on its own: the nightly look-back, memory upkeep, the journal, choosing what to tell you, and summaries of long chats. Anything that uses the browser, pays or sends something stays on the main model.</string>
+    <string name="model_background_same">Same as main model</string>
+    <string name="model_background_fell_back">On %1$s the background model failed, so the main model did the job.</string>
+    <string name="usage_jobs_tokens">%1$s tokens</string>
+</resources>

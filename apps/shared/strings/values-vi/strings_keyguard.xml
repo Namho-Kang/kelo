@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">Mật khẩu, khóa và thẻ của bạn được mở bằng một chìa khóa. Thường thì máy chủ giữ nó ngay cạnh chúng. Khi bật, chỉ điện thoại của bạn giữ chìa khóa, nên ai lấy ổ đĩa của máy chủ cũng không mở được.</string>
+    <string name="keyguard_restart_note">Sau mỗi lần máy chủ khởi động lại, kể cả khi cập nhật, Kelo sẽ bị khóa cho đến khi bạn mở nó trên điện thoại và xác nhận là bạn. Trong lúc đó Kelo không dùng được mật khẩu, khóa và thẻ của bạn.</string>
+    <string name="keyguard_window_note">Trên phiên bản Android này, chìa khóa dùng được trong 30 giây sau khi bạn xác nhận.</string>
+    <string name="keyguard_turn_on">Bật</string>
+    <string name="keyguard_turning_on">Đang bật…</string>
+    <string name="keyguard_turn_on_confirm">Bật nhé? Bạn sẽ nhận một mã khôi phục để ghi lại. Không có điện thoại này hoặc mã đó, máy chủ không mở được mật khẩu, khóa và thẻ của bạn.</string>
+    <string name="keyguard_not_owner">Chỉ điện thoại của chủ sở hữu mới đổi được mục này.</string>
+    <string name="keyguard_env_key">Máy chủ vẫn giữ chìa khóa trong tệp cài đặt. Hãy chạy `assistant keyguard enable` trên máy chủ trước, rồi thử lại ở đây.</string>
+    <string name="keyguard_no_lock">Hãy đặt khóa màn hình cho điện thoại này trước.</string>
+    <string name="keyguard_recovery_title">Mã khôi phục của bạn</string>
+    <string name="keyguard_recovery_warning">Mã này là cách duy nhất để lấy lại nếu bạn mất mọi điện thoại giữ chìa khóa. Nó chỉ hiện lúc này và không được lưu ở đâu. Hãy ghi lại và cất ở nơi an toàn.</string>
+    <string name="keyguard_recovery_confirm">Tôi đã ghi lại</string>
+    <string name="keyguard_done">Xong</string>
+    <string name="keyguard_phones_title">Điện thoại giữ chìa khóa</string>
+    <string name="keyguard_this_phone">%1$s (điện thoại này)</string>
+    <string name="keyguard_add_this_phone">Giữ chìa khóa cả trên điện thoại này</string>
+    <string name="keyguard_remove_this_phone">Xóa bản sao trên điện thoại này</string>
+    <string name="keyguard_remove_confirm">Xóa chìa khóa khỏi điện thoại này? Các điện thoại khác giữ chìa khóa vẫn mở khóa được Kelo.</string>
+    <string name="keyguard_last_phone">Chỉ điện thoại này giữ chìa khóa. Hãy thêm điện thoại khác trước, hoặc tắt tính năng này.</string>
+    <string name="keyguard_turn_off">Tắt</string>
+    <string name="keyguard_turn_off_confirm">Trả chìa khóa cho máy chủ? Mật khẩu, khóa và thẻ của bạn sẽ mở lại được mà không cần điện thoại.</string>
+    <string name="keyguard_locked_title">Kelo đang bị khóa</string>
+    <string name="keyguard_locked_body">Mật khẩu, khóa và thẻ của bạn vẫn đóng cho đến khi bạn mở khóa Kelo bằng điện thoại này.</string>
+    <string name="keyguard_locked_other">Điện thoại này không giữ chìa khóa. Hãy mở khóa Kelo trên điện thoại có chìa khóa, hoặc dùng mã khôi phục.</string>
+    <string name="keyguard_on_phone_only">Hãy bật trong Kelo trên điện thoại của bạn. Chỉ điện thoại mới giữ chìa khóa, không bao giờ là máy tính này.</string>
+    <string name="keyguard_unlock">Mở khóa</string>
+    <string name="keyguard_unlocking">Đang mở khóa…</string>
+    <string name="keyguard_unlocked">Đã mở khóa Kelo</string>
+    <string name="keyguard_use_code">Dùng mã khôi phục</string>
+    <string name="keyguard_code_hint">Mã khôi phục</string>
+    <string name="keyguard_code_wrong">Mã đó không đúng. Hãy kiểm tra rồi thử lại.</string>
+    <string name="keyguard_key_lost">Chìa khóa của điện thoại này không còn (ví dụ đã gỡ khóa màn hình). Hãy dùng điện thoại khác hoặc mã khôi phục.</string>
+    <string name="keyguard_failed">Không thành công. Hãy thử lại.</string>
+    <string name="keyguard_prompt_title">Mở khóa Kelo</string>
+    <string name="keyguard_prompt_subtitle">Xác nhận là bạn</string>
+    <string name="keyguard_prompt_wrap">Giữ chìa khóa của Kelo trên điện thoại này</string>
+    <string name="wallet_keyguard_needed_title">Thanh toán tự động cần Keyguard</string>
+    <string name="wallet_keyguard_needed_body">Thẻ thanh toán tự động được lưu trên máy chủ. Khi bật Keyguard, khóa của chúng chỉ mở được bằng điện thoại này.</string>
+    <string name="keyguard_turn_on_named">Bật Keyguard</string>
+    <string name="wallet_auto_paused_keyguard">Thanh toán tự động đang tạm dừng cho đến khi bật Keyguard. Trong lúc đó, mỗi lần thanh toán sẽ hỏi trên điện thoại của bạn.</string>
+    <string name="wallet_auto_copy_note">Máy chủ giữ một bản sao bị khóa để thanh toán tự động; chỉ điện thoại của chủ sở hữu mở được.</string>
+</resources>

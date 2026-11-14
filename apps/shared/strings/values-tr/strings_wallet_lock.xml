@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Ödeme kartların kilitli</string>
+    <string name="wallet_lock_body">Yeniden açmak için parmak izin, yüzün ya da ekran kilidinle (PIN, desen ya da şifre) sen olduğunu onayla.</string>
+    <string name="wallet_lock_kept">Girdiğin kart bilgileri hâlâ burada. Kaldığın yerden devam etmek için kilidi aç. 10 dakika sonra temizlenir.</string>
+    <string name="wallet_lock_unlock">Kilidi aç</string>
+    <string name="wallet_lock_back">Geri dön</string>
+    <string name="wallet_lock_no_lock_title">Ekran kilidi ayarla</string>
+    <string name="wallet_lock_no_lock_body">Bu telefonda ekran kilidi olmadığı için ödeme kartların açılamıyor. Ayarlar\'dan PIN ya da parmak izini açıp geri dön. Hemen kontrol edeceğim.</string>
+    <string name="wallet_lock_open_settings">Ekran kilidi ayarlarını aç</string>
+</resources>

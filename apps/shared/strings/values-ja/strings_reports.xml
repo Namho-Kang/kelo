@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">報告</string>
+    <string name="report_title">この返信を報告</string>
+    <string name="report_intro">この返信が不快だったり間違っていたりしたら、Keloの開発者に知らせてください。Keloをより安全にするためだけに使います。</string>
+    <string name="report_reason_label">どんな問題がありましたか？</string>
+    <string name="report_reason_harmful">不快・有害</string>
+    <string name="report_reason_inaccurate">事実と違う</string>
+    <string name="report_reason_privacy">個人情報が出ている</string>
+    <string name="report_reason_other">その他</string>
+    <string name="report_comment_hint">ほかに伝えたいことは？（任意）</string>
+    <string name="report_include_asked">直前に送ったメッセージも送る</string>
+    <string name="report_sent_title">Keloの開発者に送られるもの</string>
+    <string name="report_sent_reply">報告する返信</string>
+    <string name="report_sent_asked">直前に送ったメッセージ</string>
+    <string name="report_sent_reason">選んだ理由とコメント</string>
+    <string name="report_sent_model">返信を書いたモデルの名前</string>
+    <string name="report_sent_version">Keloアプリのバージョン</string>
+    <string name="report_sent_not">チャットのほかの内容やアカウント情報は送られません。報告は1年間保管されたあと削除されます。希望があればそれより早く削除します。</string>
+    <string name="report_send">報告を送る</string>
+    <string name="report_sending">送信中…</string>
+    <string name="report_failed_offline">サーバーに接続できませんでした。書いた内容は残っているので、少ししてからもう一度送ってください。</string>
+    <string name="report_thanks">報告を送りました。お知らせいただきありがとうございます。</string>
+    <string name="operator_section_reports">受け取った報告</string>
+    <string name="operator_reports_note">ユーザーがアプリから報告した返信です。1年後に自動で削除されます。</string>
+    <string name="operator_reports_not_receiving">このサーバーは報告を受け取りません。このサーバーから送られた報告は、Keloの開発者のサーバーに届きます。</string>
+    <string name="operator_reports_empty">まだ報告はありません。</string>
+    <string name="operator_reports_open">対応待ちの報告: %1$d件</string>
+    <string name="operator_reports_show_handled">対応済みの報告も表示</string>
+    <string name="operator_reports_hide_handled">対応待ちの報告だけ表示</string>
+    <string name="operator_reports_reply">報告された返信</string>
+    <string name="operator_reports_asked">直前のユーザーのメッセージ</string>
+    <string name="operator_reports_comment">コメント</string>
+    <string name="operator_reports_meta">%1$s · %2$s · アプリ %3$s</string>
+    <string name="operator_reports_mark">対応済みにする</string>
+    <string name="operator_reports_unmark">未対応に戻す</string>
+    <string name="operator_reports_handled">対応済み</string>
+    <string name="operator_reports_delete">削除</string>
+    <string name="operator_reports_delete_confirm">この報告を削除しますか？元に戻せません。</string>
+    <string name="operator_reports_unknown">不明</string>
+</resources>

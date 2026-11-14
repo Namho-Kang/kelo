@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">Di ponsel ini</string>
+    <string name="device_row_sub">Di ponsel ini</string>
+    <string name="device_row_connect">Sambungkan</string>
+    <string name="device_connected">Tersambung</string>
+    <string name="device_needs_permission">Perlu izin</string>
+    <string name="device_calendar">Kalender</string>
+    <string name="device_contacts">Kontak</string>
+    <string name="device_messages">SMS</string>
+    <string name="device_dialer">Aplikasi telepon</string>
+    <string name="device_notifications">Notifikasi</string>
+    <string name="device_call_log">Riwayat panggilan</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">Membaca acaramu untuk menjawab. Kalau kamu izinkan, juga menambah acara setelah kamu setujui.</string>
+    <string name="device_calendar_sends">Mengirim acara dari 7 hari lalu sampai 60 hari ke depan ke servermu.</string>
+    <string name="device_contacts_does">Mencari nomor dan email lewat nama. Hanya membaca.</string>
+    <string name="device_contacts_sends">Mengirim nama, nomor, email, perusahaan dan jabatan, serta ulang tahun ke servermu.</string>
+    <string name="device_messages_does">Mencari dan membaca SMS yang kamu terima dan kirim. Mengirim hanya setelah kamu setujui.</string>
+    <string name="device_messages_sends">Mengirim SMS terbarumu ke servermu.</string>
+    <string name="device_dialer_does">Setelah kamu setujui, membuka aplikasi telepon dengan nomor sudah terisi. Kamu sendiri yang menekan panggil.</string>
+    <string name="device_dialer_sends">Tidak ada yang dikirim.</string>
+    <string name="device_notifications_does">Mencari yang kamu perlukan di notifikasi yang masuk.</string>
+    <string name="device_notifications_sends">Mengirim nama aplikasi, judul, isi, dan waktu ke servermu. Dihapus setelah 7 hari.</string>
+    <string name="device_call_log_does">Mencari panggilan terbaru. Hanya membaca.</string>
+    <string name="device_call_log_sends">Mengirim nomor, nama, jenis panggilan, waktu, dan durasi 30 hari terakhir ke servermu.</string>
+    <string name="device_health_does">Menjawab dari catatan seperti langkah dan tidur. Hanya membaca.</string>
+    <string name="device_health_sends">Hanya mengirim ringkasan harian item pilihanmu ke servermu, saat kamu membuka aplikasi.</string>
+    <string name="device_switch">Izinkan Kelo memakai ini</string>
+    <string name="device_auto">Sinkron sendiri · %1$s</string>
+    <string name="device_auto_never">Langsung dikirim begitu dinyalakan, lalu terus sinkron</string>
+    <string name="device_auto_foreground">Sinkron tiap kali kamu membuka aplikasi · %1$s</string>
+    <string name="device_send_now">Kirim sekarang</string>
+    <string name="device_sending">Mengirim…</string>
+    <string name="device_send_failed">Gagal mengirim. Sebentar lagi aku coba lagi.</string>
+    <string name="device_off_failed">Dimatikan. Sisa data di server dihapus saat tersambung lagi.</string>
+    <string name="device_denied">Izin sedang mati. Izinkan di Pengaturan untuk menyalakannya.</string>
+    <string name="device_open_settings">Buka Pengaturan</string>
+    <string name="device_ready">Aktif</string>
+    <plurals name="device_count_contacts">
+        <item quantity="other">%1$d kontak</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="other">%1$d SMS</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="other">%1$d panggilan</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="other">Ringkasan %1$d hari</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="other">%1$d notifikasi</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="other">%1$d acara</item>
+    </plurals>
+    <string name="device_cal_write">Izinkan juga menambah dan mengubah acara</string>
+    <string name="device_cal_write_line">Selalu minta dulu lewat kartu persetujuan.</string>
+    <string name="device_cal_write_to">Kalender tujuan</string>
+    <string name="device_cal_none">Tidak ada kalender yang bisa diubah.</string>
+    <string name="device_cal_write_denied">Izin menulis ke kalender sedang mati.</string>
+    <string name="device_msg_window">Rentang yang dikirim</string>
+    <string name="device_days">%1$d hari</string>
+    <string name="device_msg_send">Izinkan kirim SMS</string>
+    <string name="device_msg_send_line">Ponsel ini baru mengirim setelah kamu menyetujui penerima dan seluruh isinya.</string>
+    <string name="device_msg_send_denied">Izin kirim SMS sedang mati.</string>
+    <string name="device_notif_service_label">Kelo membaca notifikasi</string>
+    <string name="device_notif_disclosure_title">Bagikan notifikasi ke Kelo?</string>
+    <string name="device_notif_disclosure">Saat fitur ini aktif, nama aplikasi, judul, isi, dan waktu notifikasi di ponsel ini dikirim ke server Kelo-mu. Agenmu memakainya untuk mencari sesuatu dan menjawabmu. Notifikasi yang sedang berjalan, notifikasi Kelo sendiri, dan aplikasi yang kamu kecualikan tidak pernah dikirim. Server menghapusnya setelah 7 hari, dan langsung saat kamu mematikannya.\n\nDi layar berikutnya, nyalakan akses notifikasi untuk Kelo.</string>
+    <string name="device_agree">Setuju dan lanjutkan</string>
+    <string name="device_decline">Tidak, terima kasih</string>
+    <string name="device_notif_access_off">Akses notifikasi sedang mati.</string>
+    <string name="device_notif_exclude">Aplikasi yang tidak dikirim</string>
+    <string name="device_notif_exclude_empty">Aplikasi yang mengirimimu notifikasi akan muncul di sini.</string>
+    <string name="device_health_types">Yang dibagikan</string>
+    <string name="device_health_steps">Langkah</string>
+    <string name="device_health_sleep">Tidur</string>
+    <string name="device_health_heart">Detak jantung</string>
+    <string name="device_health_weight">Berat badan</string>
+    <string name="device_health_exercise">Olahraga</string>
+    <string name="device_health_missing">Health Connect tidak ada di ponsel ini.</string>
+    <string name="device_health_install">Pasang Health Connect</string>
+    <string name="device_health_denied">Belum ada izin untuk item pilihanmu. Izinkan lagi, ya.</string>
+    <string name="device_health_allow">Izinkan</string>
+    <string name="device_health_rationale_title">Cara Kelo memakai catatan kesehatanmu</string>
+    <string name="device_health_rationale">Kelo hanya membaca ringkasan harian item pilihanmu (langkah, tidur, detak jantung, berat badan, olahraga) lalu mengirimnya ke server Kelo milikmu sendiri. Ringkasan ini hanya dipakai saat agenmu menjawab pertanyaanmu, tidak pernah untuk iklan atau dijual. Kelo hanya membaca dan tidak pernah menulis ke Health Connect. Mematikannya akan menghapus ringkasan di server.</string>
+    <string name="device_privacy_policy">Kebijakan privasi</string>
+    <string name="device_dial_title">Telepon %1$s</string>
+    <string name="device_dial_body">Ketuk untuk membuka aplikasi telepon. Kamu sendiri yang menelepon.</string>
+    <string name="device_sms_failed_title">SMS gagal dikirim</string>
+</resources>

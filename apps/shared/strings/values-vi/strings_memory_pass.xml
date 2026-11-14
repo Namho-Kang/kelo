@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Sắp xếp trí nhớ: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="other">Thêm %d</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="other">Gọn %d</item>
+    </plurals>
+    <string name="memory_pass_undone">Đã hoàn tác sắp xếp trí nhớ</string>
+    <string name="memory_pass_view">Những gì đã đổi</string>
+    <string name="memory_pass_changes_title">Những gì lần sắp xếp trí nhớ đã đổi</string>
+    <string name="memory_pass_no_lines">Không có dòng nào thay đổi.</string>
+    <string name="memory_pass_undo">Hoàn tác lần sắp xếp này</string>
+    <string name="memory_pass_undo_confirm">Đưa ghi chú về như trước lần sắp xếp này? Ghi chú đã sửa sau đó vẫn giữ nguyên.</string>
+    <string name="memory_pass_undo_gone">Lần sắp xếp này không thể hoàn tác nữa.</string>
+    <string name="memory_pass_added_line">Đã thêm: %1$s</string>
+    <string name="memory_pass_removed_line">Đã bỏ: %1$s</string>
+    <string name="memory_area_about_you">Về bạn</string>
+    <string name="memory_area_to_remember">Điều cần nhớ</string>
+    <string name="memory_area_people">Mọi người</string>
+    <string name="memory_area_working_notes">Ghi chú làm việc</string>
+</resources>

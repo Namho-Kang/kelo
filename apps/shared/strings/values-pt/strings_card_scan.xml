@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pt-BR text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">Digitalizar cartão</string>
+    <string name="card_scan_title">Digitalize seu cartão</string>
+    <string name="card_scan_hint">Posicione a frente do cartão dentro da moldura. A leitura acontece só neste celular.</string>
+    <string name="card_scan_preparing">Preparando o leitor…</string>
+    <string name="card_scan_filled">Confira o número lido. Digite o CVC você mesmo.</string>
+    <string name="card_scan_nothing">Não foi possível ler o cartão. Tente de novo ou digite o número.</string>
+    <string name="card_scan_camera_needed">O Kelo precisa de acesso à câmera para ler o cartão. Nenhuma foto é salva.</string>
+    <string name="card_scan_camera_failed">Não foi possível abrir a câmera. Digite o número.</string>
+</resources>

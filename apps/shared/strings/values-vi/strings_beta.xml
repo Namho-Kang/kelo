@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Yêu cầu dùng thử</string>
+    <string name="beta_requested">Đã yêu cầu</string>
+    <string name="beta_sheet_note">Hiện đăng nhập bằng Google chỉ mở cho một nhóm nhỏ. Nhập email Google bạn sẽ kết nối, chúng tôi sẽ báo cho bạn qua địa chỉ đó khi đã thêm bạn.</string>
+    <string name="beta_email_hint">Địa chỉ email Google</string>
+    <string name="beta_email_invalid">Nhập địa chỉ email hợp lệ.</string>
+    <string name="beta_send">Gửi</string>
+    <string name="beta_sending">Đang gửi…</string>
+    <string name="beta_sent">Đã gửi yêu cầu. Khi được duyệt, chúng tôi sẽ gửi email đến %1$s — lúc đó hãy quay lại và kết nối lại.</string>
+    <string name="beta_declined">Lần này yêu cầu dùng thử của bạn chưa được duyệt. Đăng nhập bằng Google sẽ mở cho mọi người khi Google xét duyệt xong.</string>
+    <string name="operator_section_beta">Yêu cầu dùng thử</string>
+    <string name="operator_beta_note">Những người muốn thử đăng nhập bằng Google. Trước tiên hãy thêm họ làm người dùng thử nghiệm trong Google Cloud Console, rồi nhấn Đã duyệt. Yêu cầu đã xử lý sẽ bị xóa sau 30 ngày.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Đối tượng (Audience) → Người dùng thử nghiệm → thêm %1$s</string>
+    <string name="operator_beta_mail_from">Email được gửi từ %1$s.</string>
+    <string name="operator_beta_no_mail">Máy chủ này chưa kết nối Gmail nên không gửi email. Hãy kết nối Gmail trong Kết nối để gửi.</string>
+    <string name="operator_beta_not_receiving">Máy chủ này không làm trung gian đăng nhập bằng Google nên không nhận yêu cầu.</string>
+    <string name="operator_beta_empty">Chưa có yêu cầu nào.</string>
+    <string name="operator_beta_open">Đang chờ: %1$d</string>
+    <string name="operator_beta_approve">Đã duyệt</string>
+    <string name="operator_beta_decline">Từ chối</string>
+    <string name="operator_beta_waiting">Đang chờ</string>
+    <string name="operator_beta_state_approved">Đã duyệt</string>
+    <string name="operator_beta_declined">Đã từ chối</string>
+    <string name="operator_beta_notice_no_mail">Không gửi email cho bộ phận hỗ trợ: chưa kết nối Gmail.</string>
+    <string name="operator_beta_notice_failed">Không gửi được email cho bộ phận hỗ trợ.</string>
+    <string name="operator_beta_decline_confirm">Từ chối yêu cầu này?</string>
+    <string name="operator_beta_decline_mail">Gửi một email ngắn</string>
+    <string name="operator_beta_mailed">Đã gửi email đến %1$s.</string>
+    <string name="operator_tester_steps">Thêm %1$s vào Play Console → Kiểm thử → Kiểm thử kín → Người kiểm thử, rồi nhấn bên dưới.</string>
+    <string name="operator_tester_added">Đã thêm vào Play</string>
+    <string name="notify_beta_request">Yêu cầu dùng thử</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Pulisci</string>
+    <string name="storage_cleanup_title">Pulisci lo spazio</string>
+    <string name="storage_warn">Lo spazio di Kelo è pieno al %1$d%%.</string>
+    <string name="storage_critical">Lo spazio di Kelo è quasi pieno (%1$d%%). Quando sarà pieno non si potranno salvare nuovi file, ma la chat continuerà a funzionare.</string>
+    <string name="storage_host_low">Il disco del computer su cui gira il server Kelo è quasi pieno (restano %1$s). Quando sarà pieno, Kelo smetterà di funzionare, chat compresa.</string>
+    <string name="storage_top">Occupa di più: %1$s (%2$s).</string>
+    <string name="storage_row_warn">Pieno al %1$d%%</string>
+    <string name="storage_row_critical">Quasi pieno</string>
+    <string name="storage_row_host">Disco quasi pieno</string>
+    <string name="storage_cleanup_intro">Questi elementi si possono rimuovere senza rischi. Note, memoria e cronologia chat non compaiono mai qui.</string>
+    <string name="storage_group_uploads">Originali dei caricamenti vecchi</string>
+    <string name="storage_group_uploads_desc">File caricati più di %1$d giorni fa. Si elimina solo l’originale; il testo che Kelo ha letto da un documento resta.</string>
+    <string name="storage_group_images">Immagini generate</string>
+    <string name="storage_group_images_desc">Immagini create da Kelo. I vecchi messaggi che le mostravano non mostreranno più nulla.</string>
+    <string name="storage_group_browser">Schermate dei passaggi del browser</string>
+    <string name="storage_group_browser_desc">Schermate di ogni passaggio del browser nelle attività eseguite da sole.</string>
+    <string name="storage_group_results">Risultati vecchi e cestino</string>
+    <string name="storage_group_results_desc">Risultati più vecchi di %1$d giorni e tutto ciò che è nel cestino.</string>
+    <string name="storage_group_backups">Backup precedenti</string>
+    <string name="storage_group_backups_desc">I backup più recenti vengono sempre conservati.</string>
+    <string name="storage_item_text_kept">Testo conservato</string>
+    <string name="storage_item_trashed">Nel cestino</string>
+    <string name="storage_backup_update">Prima di un aggiornamento del server</string>
+    <string name="storage_backup_memory">Riordino della memoria</string>
+    <string name="storage_backup_migration">Struttura precedente</string>
+    <string name="storage_selected">Selezionati: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Elimina</string>
+    <string name="storage_confirm_title">Eliminare definitivamente gli elementi selezionati?</string>
+    <string name="storage_confirm_body">Si liberano %1$s. Gli elementi eliminati non si possono recuperare.</string>
+    <string name="storage_deleted">Liberati %1$s.</string>
+    <string name="storage_skipped">Alcuni elementi erano già cambiati, quindi sono rimasti com’erano.</string>
+    <string name="storage_nothing">Al momento non c’è niente da pulire.</string>
+    <string name="storage_owner_only">Solo il proprietario del server può fare pulizia.</string>
+    <string name="storage_load_failed">Impossibile caricare ciò che si può pulire.</string>
+    <string name="storage_delete_failed">Impossibile eliminare. Riprova.</string>
+    <string name="storage_notify">Lo spazio si sta esaurendo</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Файли Kelo</string>
+    <string name="files_about">Те, що Kelo записує для себе: хто ви, його пам’ять, нотатки. Їх можна читати, змінювати й видаляти. Завантаження та результати мають власні сторінки.</string>
+    <string name="files_new_folder">Нова папка</string>
+    <string name="files_make">Створити</string>
+    <string name="files_folder_name">Назва папки</string>
+    <string name="files_folder_bad">Цю назву не можна використати.</string>
+    <string name="files_edit">Змінити</string>
+    <string name="files_save">Зберегти</string>
+    <string name="files_cancel">Скасувати</string>
+    <string name="files_saved">Збережено. Kelo прочитає новий текст із наступної відповіді.</string>
+    <string name="files_save_failed">Не вдалося зберегти.</string>
+    <string name="files_full">Сховище сервера заповнене.</string>
+    <string name="files_discard_q">Вийти без збереження?</string>
+    <string name="files_discard">Вийти</string>
+    <string name="files_reset">Повернути до початку</string>
+    <string name="files_reset_q">Повернути цей файл до початкового стану? Поточний текст потрапить у кошик.</string>
+    <string name="files_reset_done">Повернуто до початку. Старий текст у кошику.</string>
+    <string name="files_core_reset_hint">Kelo потрібен цей файл. Скористайтеся «Повернути до початку».</string>
+    <string name="files_delete">Видалити</string>
+    <string name="files_delete_q">Перемістити в кошик? Через 30 днів буде видалено назавжди.</string>
+    <string name="files_deleted">Переміщено в кошик.</string>
+    <string name="files_read_only">Kelo сам підтримує цей файл; тут його не можна змінити.</string>
+    <string name="files_load_failed">Не вдалося завантажити файли.</string>
+    <string name="files_trash_title">Кошик</string>
+    <string name="files_trash_about">Видалені файли лишаються тут 30 днів.</string>
+    <string name="files_trash_left">Буде видалено назавжди через %1$d дн.</string>
+    <string name="files_trash_empty">Кошик порожній.</string>
+    <string name="files_restore">Відновити</string>
+    <string name="files_restored">Відновлено.</string>
+    <string name="files_purge">Видалити назавжди</string>
+    <string name="files_purge_q">Видалити назавжди? Це не можна скасувати.</string>
+    <string name="files_core_assistant">Характер і тон Kelo</string>
+    <string name="files_core_user">Що Kelo знає про вас</string>
+    <string name="files_core_memory">Пам’ять Kelo</string>
+    <string name="files_core_agents">Як працює Kelo</string>
+    <string name="files_core_checklist">Що перевірити</string>
+    <string name="files_core_notify">Налаштування сповіщень</string>
+</resources>

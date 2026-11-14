@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">ชื่อเรียก</string>
+    <string name="wallet_nickname_field">ชื่อเรียก (ไม่บังคับ)</string>
+    <string name="wallet_tag_default">ค่าเริ่มต้น</string>
+    <string name="wallet_default_title">บัตรหลัก</string>
+    <string name="wallet_default_on">Kelo จะจ่ายด้วยบัตรนี้ เว้นแต่คุณหรืองานจะระบุบัตรอื่น</string>
+    <string name="wallet_make_default">ตั้งเป็นบัตรหลัก</string>
+    <string name="wallet_delete_default_title">เลือกบัตรหลักใหม่</string>
+    <string name="wallet_delete_default_body">“%1$s” เป็นบัตรหลักของคุณ เลือกบัตรที่ Kelo จะใช้จ่ายต่อจากนี้</string>
+    <string name="wallet_card_history">การจ่ายด้วยบัตรนี้</string>
+    <string name="wallet_card_history_empty">Kelo ยังไม่เคยจ่ายด้วยบัตรนี้</string>
+    <string name="wallet_card_history_more">ดูการจ่ายก่อนหน้า</string>
+    <string name="wallet_open_chat">เปิดแชต</string>
+    <string name="wallet_open_task">เปิดงาน</string>
+    <string name="wallet_auto_from_phone">โทรศัพท์นี้เปิดสำเนาบัตรของตัวเองด้วยลายนิ้วมือ ใบหน้า หรือการล็อกหน้าจอ ไม่ต้องพิมพ์หมายเลขใหม่</string>
+    <string name="wallet_auth_auto_title">เปิดการจ่ายอัตโนมัติ</string>
+    <string name="wallet_auth_auto_subtitle">เปิดสำเนา “%1$s” ในโทรศัพท์นี้</string>
+    <string name="wallet_auto_not_here_title">บัตรนี้ไม่ได้อยู่ในโทรศัพท์เครื่องนี้</string>
+    <string name="wallet_auto_not_here_body">บัตรนี้เพิ่มจากอุปกรณ์อื่น โทรศัพท์นี้จึงเปิดไม่ได้ เปิดการจ่ายอัตโนมัติจากอุปกรณ์ที่เพิ่มบัตร หรือใส่หมายเลขบัตรที่นี่แทน</string>
+    <string name="wallet_auto_enter_number">ใส่หมายเลข</string>
+    <string name="wallet_auto_on_failed">เปิดการจ่ายอัตโนมัติไม่ได้ ลองอีกครั้ง</string>
+</resources>

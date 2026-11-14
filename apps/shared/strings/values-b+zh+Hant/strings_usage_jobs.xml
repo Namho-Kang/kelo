@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">背景工作模型</string>
+    <string name="model_background_help">只用於 Kelo 自行完成的工作：每晚回顧、記憶整理、日誌、挑選要告訴你的消息，以及長對話的摘要。使用瀏覽器、付款或傳送內容的工作仍由主要模型完成。</string>
+    <string name="model_background_same">與主要模型相同</string>
+    <string name="model_background_fell_back">%1$s 背景模型出錯，已由主要模型代為完成。</string>
+    <string name="usage_jobs_tokens">%1$s 個權杖</string>
+</resources>

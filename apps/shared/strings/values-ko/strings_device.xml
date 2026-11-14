@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">이 기기에서</string>
+    <string name="device_row_sub">이 기기에서</string>
+    <string name="device_row_connect">연결</string>
+    <string name="device_connected">연결됨</string>
+    <string name="device_needs_permission">권한 필요</string>
+    <string name="device_calendar">캘린더</string>
+    <string name="device_contacts">연락처</string>
+    <string name="device_messages">메시지</string>
+    <string name="device_dialer">휴대폰 다이얼러</string>
+    <string name="device_notifications">알림</string>
+    <string name="device_call_log">통화 기록</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">일정을 보고 답해요. 허용하면 승인 후 일정도 넣어요.</string>
+    <string name="device_calendar_sends">지난 7일부터 앞으로 60일 일정을 내 서버로 보내요.</string>
+    <string name="device_contacts_does">이름으로 번호·이메일을 찾아요. 보기만 해요.</string>
+    <string name="device_contacts_sends">이름, 번호, 이메일, 회사·직함, 생일을 내 서버로 보내요.</string>
+    <string name="device_messages_does">받은·보낸 문자를 찾아 읽어요. 보내기는 승인 후에만 해요.</string>
+    <string name="device_messages_sends">최근 문자 내용을 내 서버로 보내요.</string>
+    <string name="device_dialer_does">승인하면 번호를 넣어 전화 앱을 열어요. 통화는 직접 눌러요.</string>
+    <string name="device_dialer_sends">보내는 데이터는 없어요.</string>
+    <string name="device_notifications_does">받은 알림에서 필요한 내용을 찾아요.</string>
+    <string name="device_notifications_sends">앱 이름, 제목, 내용, 시각을 내 서버로 보내요. 7일 뒤 지워요.</string>
+    <string name="device_call_log_does">최근 통화를 찾아요. 보기만 해요.</string>
+    <string name="device_call_log_sends">지난 30일 번호, 이름, 종류, 시각, 길이를 내 서버로 보내요.</string>
+    <string name="device_health_does">걸음, 수면 같은 기록으로 답해요. 보기만 해요.</string>
+    <string name="device_health_sends">고른 항목의 하루 요약만 내 서버로 보내요. 앱을 열 때 보내요.</string>
+    <string name="device_switch">Kelo가 쓰게 하기</string>
+    <string name="device_auto">자동으로 계속 맞춰요 · %1$s</string>
+    <string name="device_auto_never">켜면 바로 보내고 계속 맞춰요</string>
+    <string name="device_auto_foreground">앱을 열 때마다 맞춰요 · %1$s</string>
+    <string name="device_send_now">지금 보내기</string>
+    <string name="device_sending">보내는 중…</string>
+    <string name="device_send_failed">보내지 못했어요. 조금 뒤 다시 보내요.</string>
+    <string name="device_off_failed">껐어요. 서버에 남은 내용은 다음 연결 때 지워요.</string>
+    <string name="device_denied">권한이 꺼져 있어요. 설정에서 허용하면 켜져요.</string>
+    <string name="device_open_settings">설정 열기</string>
+    <string name="device_ready">켜져 있어요</string>
+    <plurals name="device_count_contacts">
+        <item quantity="other">연락처 %1$d개</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="other">문자 %1$d개</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="other">통화 %1$d건</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="other">%1$d일 요약</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="other">알림 %1$d개</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="other">일정 %1$d개</item>
+    </plurals>
+    <string name="device_cal_write">일정 추가·수정도 허용</string>
+    <string name="device_cal_write_line">바꿀 때마다 승인 카드로 먼저 물어요.</string>
+    <string name="device_cal_write_to">넣을 캘린더</string>
+    <string name="device_cal_none">바꿀 수 있는 캘린더가 없어요.</string>
+    <string name="device_cal_write_denied">캘린더 쓰기 권한이 꺼져 있어요.</string>
+    <string name="device_msg_window">보낼 기간</string>
+    <string name="device_days">%1$d일</string>
+    <string name="device_msg_send">문자 보내기 허용</string>
+    <string name="device_msg_send_line">받는 사람과 전체 내용을 승인한 뒤 이 휴대폰이 보내요.</string>
+    <string name="device_msg_send_denied">문자 보내기 권한이 꺼져 있어요.</string>
+    <string name="device_notif_service_label">Kelo 알림 읽기</string>
+    <string name="device_notif_disclosure_title">알림을 Kelo와 나눌까요?</string>
+    <string name="device_notif_disclosure">켜면 이 휴대폰에 오는 알림의 앱 이름, 제목, 내용, 시각을 내 Kelo 서버로 보내요. 에이전트가 알림을 찾아 답할 때 써요. 진행 중 알림과 Kelo 알림, 뺀 앱은 보내지 않아요. 서버는 7일 뒤 지우고, 끄면 바로 지워요.\n\n다음 화면에서 Kelo의 알림 접근을 켜 주세요.</string>
+    <string name="device_agree">동의하고 계속</string>
+    <string name="device_decline">안 할래요</string>
+    <string name="device_notif_access_off">알림 접근이 꺼져 있어요.</string>
+    <string name="device_notif_exclude">보내지 않을 앱</string>
+    <string name="device_notif_exclude_empty">알림이 온 앱이 여기에 보여요.</string>
+    <string name="device_health_types">나눌 항목</string>
+    <string name="device_health_steps">걸음 수</string>
+    <string name="device_health_sleep">수면</string>
+    <string name="device_health_heart">심박수</string>
+    <string name="device_health_weight">체중</string>
+    <string name="device_health_exercise">운동 기록</string>
+    <string name="device_health_missing">이 휴대폰에 Health Connect가 없어요.</string>
+    <string name="device_health_install">Health Connect 설치</string>
+    <string name="device_health_denied">고른 항목의 권한이 없어요. 다시 허용해 주세요.</string>
+    <string name="device_health_allow">권한 허용</string>
+    <string name="device_health_rationale_title">Kelo가 건강 기록을 쓰는 방법</string>
+    <string name="device_health_rationale">Kelo는 고른 항목(걸음, 수면, 심박수, 체중, 운동)의 하루 요약만 읽어 내 Kelo 서버로 보내요. 에이전트가 묻는 말에 답할 때만 쓰고, 광고나 판매에 쓰지 않아요. 읽기만 하고 Health Connect에 쓰지 않아요. 끄면 서버의 요약을 지워요.</string>
+    <string name="device_privacy_policy">개인정보 처리방침 보기</string>
+    <string name="device_dial_title">%1$s에게 전화하기</string>
+    <string name="device_dial_body">눌러서 전화 앱을 열어요. 통화는 직접 걸어요.</string>
+    <string name="device_sms_failed_title">문자를 보내지 못했어요</string>
+</resources>

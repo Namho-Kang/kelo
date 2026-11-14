@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">新增卡片和確認付款都在手機上的 Kelo App 完成：卡號以只有那支手機才有的金鑰鎖住。在這裡可以查看卡片、改名或刪除、關閉自動付款並設定上限。</string>
+    <string name="desktop_ops_tag_phone">在手機上付款</string>
+    <string name="desktop_ops_wallet_safe_body">卡號和 CVC 在傳到伺服器之前，會以只有你的手機才有的金鑰鎖住。伺服器和助理都讀不到，每次付款都要在手機上用指紋或螢幕鎖定確認。</string>
+    <string name="desktop_ops_wallet_paused_banner">自動付款已暫停。每筆付款都會在手機上詢問你。</string>
+    <string name="desktop_ops_wallet_pause_on_body">已暫停。每筆付款都會在手機上詢問你。</string>
+    <string name="desktop_ops_wallet_unfinished_body">這張卡缺少資料。請在手機上的 Kelo App 重新輸入卡號和 CVC。</string>
+    <string name="desktop_ops_wallet_auto_only_body">你的手機上沒有這張卡的副本，所以目前只能透過自動付款付款。關閉自動付款之前，請在手機上的 Kelo App 重新輸入卡片資料。</string>
+    <string name="desktop_ops_wallet_auto_off_body">每筆付款都需要你在手機上用指紋或螢幕鎖定確認。伺服器讀不到卡號。</string>
+    <string name="desktop_ops_wallet_on_phone">要開啟自動付款,請在新增這張卡片的手機上的 Kelo App 中開啟,不必重新輸入卡號。</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">要關閉自動付款嗎？伺服器上的副本會立即刪除，之後每筆付款都在手機上確認。</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">要關閉自動付款嗎？你的手機上沒有這張卡的副本，關閉後在手機上重新輸入卡片資料之前無法用它付款。</string>
+    <string name="desktop_ops_wallet_auto_none_note">還沒有可以自動付款的卡，所以每筆付款都會在手機上詢問你。要改變這一點，請在手機上的 Kelo App 為一張卡開啟自動付款。</string>
+    <string name="desktop_ops_ship_card_on_phone">請在手機上的 Kelo 應用程式中新增卡片：卡號由只有那支手機持有的金鑰鎖定。</string>
+</resources>

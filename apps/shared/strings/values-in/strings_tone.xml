@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">Gaya bicara</string>
+    <string name="my_agent_tone_friendly">Akrab</string>
+    <string name="my_agent_tone_polite">Sopan</string>
+    <string name="my_agent_tone_friendly_example">Besok jam 10 kamu ada janji ke dokter gigi. Mau aku pasang pengingat?</string>
+    <string name="my_agent_tone_polite_example">Besok pukul 10 Anda ada janji dengan dokter gigi. Apakah Anda ingin saya memasang pengingat?</string>
+    <string name="my_agent_tone_failed">Gaya bicara tidak bisa diubah. Coba lagi.</string>
+</resources>

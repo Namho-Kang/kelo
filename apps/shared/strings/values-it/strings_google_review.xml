@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">In arrivo</string>
+    <string name="google_review_title">L\'accesso con Google è in preparazione</string>
+    <string name="google_review_note">Si attiva quando Google avrà finito la verifica. Sostenere Kelo aiuta ad attivarlo prima.</string>
+    <string name="google_review_support">Sostieni Kelo</string>
+    <string name="google_review_phone_calendar">Collega con il calendario del telefono</string>
+    <string name="google_review_phone_calendar_help">I telefoni Android tengono il tuo Google Calendar nel calendario del telefono, quindi Kelo può leggerlo da lì.</string>
+    <string name="google_review_open_switch">Apri l\'accesso con Google a tutti</string>
+    <string name="google_review_open_warning">Attivalo solo dopo che Google ha verificato questo client. Fino ad allora Google consente al massimo 100 utenti e mostra loro un avviso.</string>
+</resources>

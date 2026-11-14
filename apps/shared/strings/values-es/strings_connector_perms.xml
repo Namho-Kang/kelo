@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Lo que Kelo puede hacer</string>
+    <string name="perm_about">Permitir: sin tarjeta. Preguntar: una tarjeta cada vez. Apagado: Kelo no lo hace. Los pagos y registros siempre preguntan.</string>
+    <string name="perm_kind_read">Leer</string>
+    <string name="perm_kind_change">Cambiar</string>
+    <string name="perm_kind_send">Enviar</string>
+    <string name="perm_kind_delete">Eliminar</string>
+    <string name="perm_allow">Permitir</string>
+    <string name="perm_ask">Preguntar</string>
+    <string name="perm_off">Apagado</string>
+    <string name="perm_default_is">Predeterminado: %1$s</string>
+    <string name="perm_changed_from">Lo predeterminado es %1$s</string>
+    <string name="perm_actions_more">%1$d acciones individuales</string>
+    <string name="perm_reset">Volver a los valores predeterminados</string>
+    <string name="perm_reset_q">¿Volver a poner todos los ajustes de este conector en sus valores predeterminados?</string>
+    <string name="perm_read_off_q">Con la lectura apagada, Kelo casi no puede usar este conector. ¿Apagarla?</string>
+    <string name="perm_limited">Limitado</string>
+</resources>

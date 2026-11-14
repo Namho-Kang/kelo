@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">Verbinde dieses Handy erneut</string>
+    <string name="e2e_key_changed_body">Der Verschlüsselungsschlüssel deines Kelo-Servers hat sich geändert, deshalb kann dieses Handy nicht prüfen, ob es wirklich dein Server ist. Scanne einen neuen Verbindungs-QR-Code unter Mein → Meine Geräte auf einem anderen Gerät oder am Server-Rechner.</string>
+    <string name="e2e_pair_again">Erneut verbinden</string>
+    <string name="e2e_server_old_title">Aktualisiere deinen Kelo-Server</string>
+    <string name="e2e_server_old_body">Diese App braucht Kelo-Server %1$s oder neuer. Aktualisiere den Server und öffne sie dann wieder.</string>
+    <string name="e2e_server_old_version">Serverversion: %1$s</string>
+    <string name="e2e_retry">Erneut versuchen</string>
+    <string name="devices_e2e_title">Ende-zu-Ende-Verschlüsselung</string>
+    <string name="devices_e2e_on">Unterwegs können nur dieses Handy und dein Server deine Chats lesen.</string>
+    <string name="devices_e2e_fingerprint">Fingerabdruck des Serverschlüssels</string>
+    <string name="devices_e2e_verified">Schlüssel bestätigt</string>
+    <string name="devices_e2e_not_verified">Schlüssel nicht bestätigt</string>
+    <string name="devices_e2e_not_verified_body">Vergleiche ihn mit dem Fingerabdruck, den `assistant phone fingerprint` auf dem Server-Rechner zeigt, oder scanne einmal einen Verbindungs-QR-Code.</string>
+    <string name="devices_e2e_verify_scan">Mit QR-Code bestätigen</string>
+    <string name="devices_e2e_verify_done">Der Schlüssel stimmt. Bestätigt ✓</string>
+    <string name="devices_e2e_verify_mismatch">Dieser QR-Code enthält einen anderen Schlüssel. Wenn der Schlüssel des Servers geändert wurde, verbinde dieses Handy erneut.</string>
+    <string name="devices_e2e_verify_no_key">Dieser QR-Code enthält keinen Schlüssel. Erstelle einen neuen mit einem aktualisierten Server.</string>
+</resources>

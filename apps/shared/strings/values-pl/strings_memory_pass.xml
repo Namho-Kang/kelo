@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Porządki w pamięci: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">dodano %d</item>
+        <item quantity="few">dodano %d</item>
+        <item quantity="many">dodano %d</item>
+        <item quantity="other">dodano %d</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">uporządkowano %d</item>
+        <item quantity="few">uporządkowano %d</item>
+        <item quantity="many">uporządkowano %d</item>
+        <item quantity="other">uporządkowano %d</item>
+    </plurals>
+    <string name="memory_pass_undone">Cofnięto porządki w pamięci</string>
+    <string name="memory_pass_view">Co się zmieniło</string>
+    <string name="memory_pass_changes_title">Co zmieniły porządki w pamięci</string>
+    <string name="memory_pass_no_lines">Brak zmienionych wierszy.</string>
+    <string name="memory_pass_undo">Cofnij te porządki</string>
+    <string name="memory_pass_undo_confirm">Przywrócić notatki do stanu sprzed tych porządków? Notatki edytowane później zostaną bez zmian.</string>
+    <string name="memory_pass_undo_gone">Tych porządków nie można już cofnąć.</string>
+    <string name="memory_pass_added_line">Dodano: %1$s</string>
+    <string name="memory_pass_removed_line">Usunięto: %1$s</string>
+    <string name="memory_area_about_you">O Tobie</string>
+    <string name="memory_area_to_remember">Do zapamiętania</string>
+    <string name="memory_area_people">Osoby</string>
+    <string name="memory_area_working_notes">Notatki robocze</string>
+</resources>

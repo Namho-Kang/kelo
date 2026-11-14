@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">สิ่งที่อ่าน</string>
+    <string name="briefing_sources_about">Kelo อ่านปฏิทินและกล่องจดหมายที่เชื่อมต่อทั้งหมดเพื่อทำสรุปประจำวันและการแจ้งเตือน ปิดบัญชีที่ไม่ต้องการให้อ่านได้</string>
+    <string name="briefing_sources_calendars">ปฏิทิน</string>
+    <string name="briefing_sources_mail">อีเมล</string>
+    <string name="briefing_sources_chat">บอก Kelo ในแชตก็ได้ เช่น “สรุปยามเช้าไม่ต้องดูอีเมลงาน”</string>
+    <string name="briefing_sources_check">ตรวจสอบบัญชีตอนนี้</string>
+    <string name="briefing_sources_checking">กำลังตรวจสอบ…</string>
+    <string name="connector_method_caldav">รหัสผ่านแอปสำหรับ CalDAV</string>
+    <string name="caldav_help">ใส่ที่อยู่ CalDAV ที่ผู้ให้บริการแจ้ง (เช่น https://dav.fastmail.com/ สำหรับ Fastmail) ชื่อผู้ใช้ และรหัสผ่านแอป</string>
+    <string name="caldav_url">ที่อยู่ CalDAV</string>
+    <string name="caldav_user">ชื่อผู้ใช้</string>
+    <string name="caldav_account_note">Kelo อ่านปฏิทินนี้อย่างเดียวเพื่อทำสรุปประจำวันและการแจ้งเตือน และไม่แก้ไขเลย</string>
+    <string name="caldav_disconnect_confirm">ยกเลิกการเชื่อมต่อ %1$s หรือไม่ รหัสผ่านแอปที่บันทึกไว้จะถูกลบ</string>
+    <string name="caldav_add_other">เพิ่มปฏิทินอื่น</string>
+    <string name="caldav_notify">ฉันเชื่อมต่อปฏิทินแล้ว ช่วยทำต่อด้วย</string>
+</resources>

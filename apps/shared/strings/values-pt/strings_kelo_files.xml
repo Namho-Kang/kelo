@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Arquivos do Kelo</string>
+    <string name="files_about">O que o Kelo anota para si: quem você é, sua memória, suas notas. Você pode ler, alterar e apagar. Envios e resultados têm páginas próprias.</string>
+    <string name="files_new_folder">Nova pasta</string>
+    <string name="files_make">Criar</string>
+    <string name="files_folder_name">Nome da pasta</string>
+    <string name="files_folder_bad">Esse nome não pode ser usado.</string>
+    <string name="files_edit">Editar</string>
+    <string name="files_save">Salvar</string>
+    <string name="files_cancel">Cancelar</string>
+    <string name="files_saved">Salvo. O Kelo lê o novo texto a partir da próxima resposta.</string>
+    <string name="files_save_failed">Não foi possível salvar.</string>
+    <string name="files_full">O armazenamento do servidor está cheio.</string>
+    <string name="files_discard_q">Sair sem salvar?</string>
+    <string name="files_discard">Sair</string>
+    <string name="files_reset">Voltar ao início</string>
+    <string name="files_reset_q">Voltar este arquivo ao estado inicial? O texto atual vai para a lixeira.</string>
+    <string name="files_reset_done">De volta ao início. O texto antigo está na lixeira.</string>
+    <string name="files_core_reset_hint">O Kelo precisa deste arquivo. Use \"Voltar ao início\".</string>
+    <string name="files_delete">Apagar</string>
+    <string name="files_delete_q">Mover para a lixeira? É apagado de vez após 30 dias.</string>
+    <string name="files_deleted">Movido para a lixeira.</string>
+    <string name="files_read_only">O Kelo mantém este arquivo atualizado; não dá para alterá-lo aqui.</string>
+    <string name="files_load_failed">Não foi possível carregar os arquivos.</string>
+    <string name="files_trash_title">Lixeira</string>
+    <string name="files_trash_about">Arquivos apagados ficam aqui por 30 dias.</string>
+    <string name="files_trash_left">Apagado de vez em %1$d dias</string>
+    <string name="files_trash_empty">A lixeira está vazia.</string>
+    <string name="files_restore">Restaurar</string>
+    <string name="files_restored">Restaurado.</string>
+    <string name="files_purge">Apagar de vez</string>
+    <string name="files_purge_q">Apagar de vez? Não dá para desfazer.</string>
+    <string name="files_core_assistant">Personalidade e tom do Kelo</string>
+    <string name="files_core_user">O que o Kelo sabe sobre você</string>
+    <string name="files_core_memory">Memória do Kelo</string>
+    <string name="files_core_agents">Como o Kelo trabalha</string>
+    <string name="files_core_checklist">Coisas a conferir</string>
+    <string name="files_core_notify">Preferências de notificação</string>
+</resources>

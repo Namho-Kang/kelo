@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">En este teléfono</string>
+    <string name="device_row_sub">En este teléfono</string>
+    <string name="device_row_connect">Conectar</string>
+    <string name="device_connected">Conectado</string>
+    <string name="device_needs_permission">Falta permiso</string>
+    <string name="device_calendar">Calendario</string>
+    <string name="device_contacts">Contactos</string>
+    <string name="device_messages">Mensajes</string>
+    <string name="device_dialer">Marcador</string>
+    <string name="device_notifications">Notificaciones</string>
+    <string name="device_call_log">Historial de llamadas</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">Lee tus eventos para responderte. Si lo permites, también añade eventos después de que los apruebes.</string>
+    <string name="device_calendar_sends">Envía a tu servidor los eventos desde hace 7 días hasta dentro de 60 días.</string>
+    <string name="device_contacts_does">Busca números y correos por nombre. Solo lectura.</string>
+    <string name="device_contacts_sends">Envía a tu servidor nombres, números, correos, empresa y cargo, y cumpleaños.</string>
+    <string name="device_messages_does">Busca y lee los SMS que recibiste y enviaste. Solo envía cuando lo apruebas.</string>
+    <string name="device_messages_sends">Envía tus SMS recientes a tu servidor.</string>
+    <string name="device_dialer_does">Cuando lo apruebas, abre la app de teléfono con el número ya puesto. La llamada la haces tú.</string>
+    <string name="device_dialer_sends">No se envía nada.</string>
+    <string name="device_notifications_does">Busca lo que necesitas en las notificaciones que recibiste.</string>
+    <string name="device_notifications_sends">Envía a tu servidor el nombre de la app, el título, el texto y la hora. Se borran a los 7 días.</string>
+    <string name="device_call_log_does">Busca llamadas recientes. Solo lectura.</string>
+    <string name="device_call_log_sends">Envía a tu servidor los números, nombres, tipo, hora y duración de las llamadas de los últimos 30 días.</string>
+    <string name="device_health_does">Responde con registros como pasos y sueño. Solo lectura.</string>
+    <string name="device_health_sends">Solo envía a tu servidor un resumen diario de lo que elijas, cuando abres la app.</string>
+    <string name="device_switch">Dejar que Kelo lo use</string>
+    <string name="device_auto">Se sincroniza solo · %1$s</string>
+    <string name="device_auto_never">Envía en cuanto lo activas y luego se mantiene al día</string>
+    <string name="device_auto_foreground">Se sincroniza cada vez que abres la app · %1$s</string>
+    <string name="device_send_now">Enviar ahora</string>
+    <string name="device_sending">Enviando…</string>
+    <string name="device_send_failed">No se pudo enviar. Lo intentaré de nuevo en un rato.</string>
+    <string name="device_off_failed">Desactivado. Lo que quede en el servidor se borrará la próxima vez que se conecte.</string>
+    <string name="device_denied">El permiso está desactivado. Permítelo en Ajustes para activar esto.</string>
+    <string name="device_open_settings">Abrir Ajustes</string>
+    <string name="device_ready">Activado</string>
+    <plurals name="device_count_contacts">
+        <item quantity="one">%1$d contacto</item>
+        <item quantity="many">%1$d de contactos</item>
+        <item quantity="other">%1$d contactos</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="one">%1$d SMS</item>
+        <item quantity="many">%1$d de SMS</item>
+        <item quantity="other">%1$d SMS</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="one">%1$d llamada</item>
+        <item quantity="many">%1$d de llamadas</item>
+        <item quantity="other">%1$d llamadas</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="one">%1$d día de resúmenes</item>
+        <item quantity="many">%1$d de días de resúmenes</item>
+        <item quantity="other">%1$d días de resúmenes</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="one">%1$d notificación</item>
+        <item quantity="many">%1$d de notificaciones</item>
+        <item quantity="other">%1$d notificaciones</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="one">%1$d evento</item>
+        <item quantity="many">%1$d de eventos</item>
+        <item quantity="other">%1$d eventos</item>
+    </plurals>
+    <string name="device_cal_write">Permitir también añadir y editar eventos</string>
+    <string name="device_cal_write_line">Siempre pregunta antes con una tarjeta de aprobación.</string>
+    <string name="device_cal_write_to">Calendario donde añadir</string>
+    <string name="device_cal_none">No hay ningún calendario que se pueda modificar.</string>
+    <string name="device_cal_write_denied">El permiso para escribir en el calendario está desactivado.</string>
+    <string name="device_msg_window">Desde cuándo enviar</string>
+    <string name="device_days">%1$d días</string>
+    <string name="device_msg_send">Permitir enviar SMS</string>
+    <string name="device_msg_send_line">Este teléfono solo envía después de que apruebes el destinatario y el texto completo.</string>
+    <string name="device_msg_send_denied">El permiso para enviar SMS está desactivado.</string>
+    <string name="device_notif_service_label">Lectura de notificaciones de Kelo</string>
+    <string name="device_notif_disclosure_title">¿Compartir notificaciones con Kelo?</string>
+    <string name="device_notif_disclosure">Si lo activas, el nombre de la app, el título, el texto y la hora de las notificaciones de este teléfono se envían a tu servidor de Kelo. Tu agente los usa para encontrar cosas y responderte. Nunca se envían las notificaciones persistentes, las de Kelo ni las de las apps que excluyas. El servidor las borra a los 7 días, y al momento si lo desactivas.\n\nEn la siguiente pantalla, activa el acceso a notificaciones para Kelo.</string>
+    <string name="device_agree">Aceptar y continuar</string>
+    <string name="device_decline">No, gracias</string>
+    <string name="device_notif_access_off">El acceso a notificaciones está desactivado.</string>
+    <string name="device_notif_exclude">Apps que no se envían</string>
+    <string name="device_notif_exclude_empty">Aquí aparecen las apps que te envían notificaciones.</string>
+    <string name="device_health_types">Qué compartir</string>
+    <string name="device_health_steps">Pasos</string>
+    <string name="device_health_sleep">Sueño</string>
+    <string name="device_health_heart">Frecuencia cardíaca</string>
+    <string name="device_health_weight">Peso</string>
+    <string name="device_health_exercise">Entrenamientos</string>
+    <string name="device_health_missing">Health Connect no está en este teléfono.</string>
+    <string name="device_health_install">Instalar Health Connect</string>
+    <string name="device_health_denied">No hay permiso para lo que elegiste. Vuelve a permitirlo.</string>
+    <string name="device_health_allow">Permitir</string>
+    <string name="device_health_rationale_title">Cómo usa Kelo tus registros de salud</string>
+    <string name="device_health_rationale">Kelo solo lee un resumen diario de lo que elijas (pasos, sueño, frecuencia cardíaca, peso, entrenamientos) y lo envía a tu propio servidor de Kelo. Solo se usa cuando tu agente responde tus preguntas, nunca para publicidad ni para venderlo. Kelo solo lee y nunca escribe en Health Connect. Al desactivarlo, se borran los resúmenes del servidor.</string>
+    <string name="device_privacy_policy">Política de privacidad</string>
+    <string name="device_dial_title">Llamar a %1$s</string>
+    <string name="device_dial_body">Toca para abrir la app de teléfono. La llamada la haces tú.</string>
+    <string name="device_sms_failed_title">No se pudo enviar el SMS</string>
+</resources>

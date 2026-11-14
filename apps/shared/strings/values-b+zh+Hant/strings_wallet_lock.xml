@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">付款卡已鎖定</string>
+    <string name="wallet_lock_body">用指紋、臉部或螢幕鎖定（PIN 碼、圖形或密碼）確認是你本人，就能再次開啟。</string>
+    <string name="wallet_lock_kept">你正在輸入的卡片資料還在。解除鎖定即可接著輸入。10 分鐘後會清除。</string>
+    <string name="wallet_lock_unlock">解除鎖定</string>
+    <string name="wallet_lock_back">返回</string>
+    <string name="wallet_lock_no_lock_title">設定螢幕鎖定</string>
+    <string name="wallet_lock_no_lock_body">這支手機沒有設定螢幕鎖定，所以無法開啟付款卡。請在設定中開啟 PIN 碼或指紋後再回來，我會立刻確認。</string>
+    <string name="wallet_lock_open_settings">開啟螢幕鎖定設定</string>
+</resources>

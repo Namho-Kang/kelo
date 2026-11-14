@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">क्या पढ़ा जाता है</string>
+    <string name="briefing_sources_about">Kelo ब्रीफ़िंग और सूचनाओं के लिए जुड़े सभी कैलेंडर और मेलबॉक्स पढ़ता है। जिसे छोड़ना हो उसे बंद कर दें।</string>
+    <string name="briefing_sources_calendars">कैलेंडर</string>
+    <string name="briefing_sources_mail">मेल</string>
+    <string name="briefing_sources_chat">आप चैट में भी Kelo से कह सकते हैं, जैसे “ब्रीफ़िंग से मेरा ऑफ़िस मेल हटा दो”।</string>
+    <string name="briefing_sources_check">खाते अभी जाँचें</string>
+    <string name="briefing_sources_checking">जाँच हो रही है…</string>
+    <string name="connector_method_caldav">CalDAV ऐप पासवर्ड</string>
+    <string name="caldav_help">अपने प्रदाता का CalDAV पता (जैसे Fastmail के लिए https://dav.fastmail.com/), उपयोगकर्ता नाम और ऐप पासवर्ड डालें।</string>
+    <string name="caldav_url">CalDAV पता</string>
+    <string name="caldav_user">उपयोगकर्ता नाम</string>
+    <string name="caldav_account_note">Kelo इस कैलेंडर को सिर्फ़ ब्रीफ़िंग और सूचनाओं के लिए पढ़ता है। वह इसे कभी नहीं बदलता।</string>
+    <string name="caldav_disconnect_confirm">%1$s को डिस्कनेक्ट करें? सहेजा गया ऐप पासवर्ड मिटा दिया जाएगा।</string>
+    <string name="caldav_add_other">एक और कैलेंडर जोड़ें</string>
+    <string name="caldav_notify">मैंने अपना कैलेंडर जोड़ दिया है। कृपया आगे बढ़ें।</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">Bu telefonda</string>
+    <string name="device_row_sub">Bu telefonda</string>
+    <string name="device_row_connect">Bağlan</string>
+    <string name="device_connected">Bağlandı</string>
+    <string name="device_needs_permission">İzin gerekiyor</string>
+    <string name="device_calendar">Takvim</string>
+    <string name="device_contacts">Kişiler</string>
+    <string name="device_messages">Mesajlar</string>
+    <string name="device_dialer">Arama ekranı</string>
+    <string name="device_notifications">Bildirimler</string>
+    <string name="device_call_log">Arama geçmişi</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">Yanıt vermek için etkinliklerini okur. İzin verirsen, onayından sonra etkinlik de ekler.</string>
+    <string name="device_calendar_sends">Son 7 günden önümüzdeki 60 güne kadarki etkinlikleri sunucuna gönderir.</string>
+    <string name="device_contacts_does">Ada göre numara ve e-posta bulur. Yalnızca okur.</string>
+    <string name="device_contacts_sends">Adları, numaraları, e-postaları, şirket ve unvanı, doğum günlerini sunucuna gönderir.</string>
+    <string name="device_messages_does">Aldığın ve gönderdiğin kısa mesajları bulur ve okur. Yalnızca onayından sonra gönderir.</string>
+    <string name="device_messages_sends">Son kısa mesajlarını sunucuna gönderir.</string>
+    <string name="device_dialer_does">Onayından sonra telefon uygulamasını numara dolu olarak açar. Aramaya kendin dokunursun.</string>
+    <string name="device_dialer_sends">Hiçbir şey gönderilmez.</string>
+    <string name="device_notifications_does">Aldığın bildirimlerde ihtiyacın olanı bulur.</string>
+    <string name="device_notifications_sends">Uygulama adını, başlığı, metni ve saati sunucuna gönderir. 7 gün sonra silinir.</string>
+    <string name="device_call_log_does">Son aramaları bulur. Yalnızca okur.</string>
+    <string name="device_call_log_sends">Son 30 günün numaralarını, adlarını, arama türünü, saatini ve süresini sunucuna gönderir.</string>
+    <string name="device_health_does">Adım ve uyku gibi kayıtlardan yanıt verir. Yalnızca okur.</string>
+    <string name="device_health_sends">Uygulamayı açtığında yalnızca seçtiğin öğelerin günlük özetini sunucuna gönderir.</string>
+    <string name="device_switch">Kelo bunu kullanabilsin</string>
+    <string name="device_auto">Kendiliğinden eşitlenir · %1$s</string>
+    <string name="device_auto_never">Açılır açılmaz gönderir, sonra eşitlemeye devam eder</string>
+    <string name="device_auto_foreground">Uygulamayı her açtığında eşitlenir · %1$s</string>
+    <string name="device_send_now">Şimdi gönder</string>
+    <string name="device_sending">Gönderiliyor…</string>
+    <string name="device_send_failed">Gönderilemedi. Birazdan tekrar deneyeceğim.</string>
+    <string name="device_off_failed">Kapatıldı. Sunucuda kalanlar bir sonraki bağlantıda silinir.</string>
+    <string name="device_denied">İzin kapalı. Bunu açmak için Ayarlar\'dan izin ver.</string>
+    <string name="device_open_settings">Ayarlar\'ı aç</string>
+    <string name="device_ready">Açık</string>
+    <plurals name="device_count_contacts">
+        <item quantity="one">%1$d kişi</item>
+        <item quantity="other">%1$d kişi</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="one">%1$d kısa mesaj</item>
+        <item quantity="other">%1$d kısa mesaj</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="one">%1$d arama</item>
+        <item quantity="other">%1$d arama</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="one">%1$d günlük özet</item>
+        <item quantity="other">%1$d günlük özet</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="one">%1$d bildirim</item>
+        <item quantity="other">%1$d bildirim</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="one">%1$d etkinlik</item>
+        <item quantity="other">%1$d etkinlik</item>
+    </plurals>
+    <string name="device_cal_write">Etkinlik eklemeye ve düzenlemeye de izin ver</string>
+    <string name="device_cal_write_line">Her seferinde önce bir onay kartıyla sorar.</string>
+    <string name="device_cal_write_to">Eklenecek takvim</string>
+    <string name="device_cal_none">Değiştirilebilecek bir takvim yok.</string>
+    <string name="device_cal_write_denied">Takvime yazma izni kapalı.</string>
+    <string name="device_msg_window">Ne kadar geriye gönderilsin</string>
+    <string name="device_days">%1$d gün</string>
+    <string name="device_msg_send">Kısa mesaj göndermeye izin ver</string>
+    <string name="device_msg_send_line">Bu telefon yalnızca alıcıyı ve mesajın tamamını onayladıktan sonra gönderir.</string>
+    <string name="device_msg_send_denied">Kısa mesaj gönderme izni kapalı.</string>
+    <string name="device_notif_service_label">Kelo bildirim okuma</string>
+    <string name="device_notif_disclosure_title">Bildirimler Kelo ile paylaşılsın mı?</string>
+    <string name="device_notif_disclosure">Bu açıkken bu telefondaki bildirimlerin uygulama adı, başlığı, metni ve saati Kelo sunucuna gider. Ajanın bunları bir şeyler bulmak ve sana yanıt vermek için kullanır. Devam eden bildirimler, Kelo\'nun kendi bildirimleri ve hariç tuttuğun uygulamalar asla gönderilmez. Sunucu bunları 7 gün sonra, bunu kapattığında ise hemen siler.\n\nSonraki ekranda Kelo için bildirim erişimini aç.</string>
+    <string name="device_agree">Kabul et ve devam et</string>
+    <string name="device_decline">Hayır, teşekkürler</string>
+    <string name="device_notif_access_off">Bildirim erişimi kapalı.</string>
+    <string name="device_notif_exclude">Gönderilmeyecek uygulamalar</string>
+    <string name="device_notif_exclude_empty">Sana bildirim gönderen uygulamalar burada görünür.</string>
+    <string name="device_health_types">Neler paylaşılsın</string>
+    <string name="device_health_steps">Adımlar</string>
+    <string name="device_health_sleep">Uyku</string>
+    <string name="device_health_heart">Nabız</string>
+    <string name="device_health_weight">Kilo</string>
+    <string name="device_health_exercise">Egzersizler</string>
+    <string name="device_health_missing">Bu telefonda Health Connect yok.</string>
+    <string name="device_health_install">Health Connect\'i yükle</string>
+    <string name="device_health_denied">Seçtiğin öğeler için izin yok. Lütfen tekrar izin ver.</string>
+    <string name="device_health_allow">İzin ver</string>
+    <string name="device_health_rationale_title">Kelo sağlık kayıtlarını nasıl kullanır</string>
+    <string name="device_health_rationale">Kelo yalnızca seçtiğin öğelerin (adımlar, uyku, nabız, kilo, egzersizler) günlük özetini okur ve kendi Kelo sunucuna gönderir. Yalnızca ajanın sorularını yanıtlarken kullanılır; asla reklam ya da satış için kullanılmaz. Kelo Health Connect\'ten yalnızca okur, ona hiçbir şey yazmaz. Kapatmak sunucudaki özetleri siler.</string>
+    <string name="device_privacy_policy">Gizlilik politikası</string>
+    <string name="device_dial_title">Ara: %1$s</string>
+    <string name="device_dial_body">Telefon uygulamasını açmak için dokun. Aramayı kendin yaparsın.</string>
+    <string name="device_sms_failed_title">Kısa mesaj gönderilemedi</string>
+</resources>

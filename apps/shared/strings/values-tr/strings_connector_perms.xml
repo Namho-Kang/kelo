@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Kelo neler yapabilir</string>
+    <string name="perm_about">İzin ver: kart yok. Sor: her seferinde bir kart. Kapalı: Kelo yapmaz. Ödemeler ve kayıtlar her zaman sorar.</string>
+    <string name="perm_kind_read">Okuma</string>
+    <string name="perm_kind_change">Değiştirme</string>
+    <string name="perm_kind_send">Gönderme</string>
+    <string name="perm_kind_delete">Silme</string>
+    <string name="perm_allow">İzin ver</string>
+    <string name="perm_ask">Sor</string>
+    <string name="perm_off">Kapalı</string>
+    <string name="perm_default_is">Varsayılan: %1$s</string>
+    <string name="perm_changed_from">Varsayılan: %1$s</string>
+    <string name="perm_actions_more">%1$d tekil eylem</string>
+    <string name="perm_reset">Varsayılanlara dön</string>
+    <string name="perm_reset_q">Bu bağlayıcının tüm ayarları varsayılanlara döndürülsün mü?</string>
+    <string name="perm_read_off_q">Okuma kapalıyken Kelo bu bağlayıcıyı neredeyse hiç kullanamaz. Kapatılsın mı?</string>
+    <string name="perm_limited">Sınırlı</string>
+</resources>

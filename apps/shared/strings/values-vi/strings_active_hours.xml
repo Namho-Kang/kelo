@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_active_hours.xml (generated from values/strings_active_hours.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="hours_suggest_heading">Giờ nhắn được đề xuất</string>
+    <string name="hours_suggest_title">Bạn thường dùng Kelo %1$s. Nhận tin nhắn của Kelo trong khung giờ này?</string>
+    <plurals name="hours_suggest_basis">
+        <item quantity="other">Dựa trên %1$d ngày sử dụng gần đây · hiện là %2$s</item>
+    </plurals>
+    <string name="hours_suggest_accept">Dùng khung giờ này</string>
+    <string name="hours_suggest_keep">Giữ nguyên</string>
+    <string name="hours_suggest_accepted">Đã đổi giờ nhắn · %1$s</string>
+    <string name="hours_suggest_kept">Giữ khung giờ hiện tại</string>
+    <string name="hours_span_next_day">%1$s – %2$s hôm sau</string>
+    <string name="hours_learned">Học từ cách bạn dùng</string>
+    <string name="hours_auto_switch">Đổi giờ thông báo theo giờ bạn dùng Kelo</string>
+    <string name="proactive_until_next_day">Đến %1$s hôm sau</string>
+</resources>

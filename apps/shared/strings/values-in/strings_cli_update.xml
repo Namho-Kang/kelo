@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_cli_update.xml (generated from values/strings_cli_update.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_cli_update_button">Perbarui</string>
+    <string name="model_cli_updating">Memperbarui… (bisa beberapa menit)</string>
+    <string name="model_cli_update_done">%1$s diperbarui ke versi %2$s</string>
+    <string name="model_cli_update_unchanged">%1$s sudah versi terbaru</string>
+    <string name="model_cli_update_failed">Tidak bisa memperbarui: %1$s. Versi sekarang tetap berjalan</string>
+</resources>

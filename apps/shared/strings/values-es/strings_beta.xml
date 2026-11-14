@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Solicitar acceso beta</string>
+    <string name="beta_requested">Solicitado</string>
+    <string name="beta_sheet_note">Por ahora, el inicio de sesión con Google está abierto a un grupo pequeño. Escribe el correo de Google que vas a conectar y te escribiremos ahí cuando te añadamos.</string>
+    <string name="beta_email_hint">Correo de Google</string>
+    <string name="beta_email_invalid">Escribe un correo válido.</string>
+    <string name="beta_send">Enviar</string>
+    <string name="beta_sending">Enviando…</string>
+    <string name="beta_sent">Solicitud enviada. Cuando se apruebe, escribiremos a %1$s; entonces vuelve y conecta de nuevo.</string>
+    <string name="beta_declined">Tu solicitud de beta no se aprobó esta vez. El inicio de sesión con Google se abrirá para todos cuando termine la revisión de Google.</string>
+    <string name="operator_section_beta">Solicitudes de beta</string>
+    <string name="operator_beta_note">Personas que quieren probar el inicio de sesión con Google. Primero añádelas como usuarios de prueba en Google Cloud Console y luego pulsa Aprobado. Las solicitudes atendidas se borran a los 30 días.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Público (Audience) → Usuarios de prueba → añadir %1$s</string>
+    <string name="operator_beta_mail_from">Los correos se envían desde %1$s.</string>
+    <string name="operator_beta_no_mail">No hay ningún Gmail conectado en este servidor, así que no se envían correos. Conecta Gmail en Conectores para enviarlos.</string>
+    <string name="operator_beta_not_receiving">Este servidor no hace de intermediario del inicio de sesión con Google, así que no recibe solicitudes.</string>
+    <string name="operator_beta_empty">Aún no hay solicitudes.</string>
+    <string name="operator_beta_open">En espera: %1$d</string>
+    <string name="operator_beta_approve">Aprobado</string>
+    <string name="operator_beta_decline">Rechazar</string>
+    <string name="operator_beta_waiting">En espera</string>
+    <string name="operator_beta_state_approved">Aprobada</string>
+    <string name="operator_beta_declined">Rechazada</string>
+    <string name="operator_beta_notice_no_mail">No se envió correo a soporte: no hay Gmail conectado.</string>
+    <string name="operator_beta_notice_failed">No se pudo enviar el correo a soporte.</string>
+    <string name="operator_beta_decline_confirm">¿Rechazar esta solicitud?</string>
+    <string name="operator_beta_decline_mail">Enviar un correo breve</string>
+    <string name="operator_beta_mailed">Correo enviado a %1$s.</string>
+    <string name="operator_tester_steps">Añade %1$s en Play Console → Pruebas → Prueba cerrada → Testers y luego toca abajo.</string>
+    <string name="operator_tester_added">Añadido a Play</string>
+    <string name="notify_beta_request">Solicitud de beta</string>
+</resources>

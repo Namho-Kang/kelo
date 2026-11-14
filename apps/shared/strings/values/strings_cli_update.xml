@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The owner updates the claude / agy CLI in its container from the app (My → Model, CLI box) -->
+<resources>
+    <string name="model_cli_update_button">Update</string>
+    <string name="model_cli_updating">Updating… (can take a few minutes)</string>
+    <string name="model_cli_update_done">Updated %1$s to version %2$s</string>
+    <string name="model_cli_update_unchanged">%1$s is already up to date</string>
+    <string name="model_cli_update_failed">Couldn\'t update: %1$s. The current version keeps working</string>
+</resources>

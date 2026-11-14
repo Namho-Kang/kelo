@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">Collega di nuovo questo telefono</string>
+    <string name="e2e_key_changed_body">La chiave di crittografia del tuo server Kelo è cambiata, quindi questo telefono non può verificare che sia davvero il tuo server. Scansiona un nuovo codice QR di collegamento da Mio → I miei dispositivi su un altro dispositivo, o dal computer server.</string>
+    <string name="e2e_pair_again">Collega di nuovo</string>
+    <string name="e2e_server_old_title">Aggiorna il tuo server Kelo</string>
+    <string name="e2e_server_old_body">Questa app richiede il server Kelo %1$s o successivo. Aggiorna il server, poi riaprila.</string>
+    <string name="e2e_server_old_version">Versione del server: %1$s</string>
+    <string name="e2e_retry">Riprova</string>
+    <string name="devices_e2e_title">Crittografia end-to-end</string>
+    <string name="devices_e2e_on">Lungo il percorso solo questo telefono e il tuo server possono leggere le chat.</string>
+    <string name="devices_e2e_fingerprint">Impronta della chiave del server</string>
+    <string name="devices_e2e_verified">Chiave verificata</string>
+    <string name="devices_e2e_not_verified">Chiave non verificata</string>
+    <string name="devices_e2e_not_verified_body">Confrontala con l\'impronta che `assistant phone fingerprint` mostra sul computer server, oppure scansiona una volta un codice QR di collegamento.</string>
+    <string name="devices_e2e_verify_scan">Verifica scansionando un codice QR</string>
+    <string name="devices_e2e_verify_done">La chiave corrisponde. Verificata ✓</string>
+    <string name="devices_e2e_verify_mismatch">Questo codice QR contiene un\'altra chiave. Se la chiave del server è stata cambiata, collega di nuovo questo telefono.</string>
+    <string name="devices_e2e_verify_no_key">Questo codice QR non ha una chiave. Creane uno nuovo con un server aggiornato.</string>
+</resources>

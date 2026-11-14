@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Наведение порядка в памяти: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">%d добавлена</item>
+        <item quantity="few">%d добавлены</item>
+        <item quantity="many">%d добавлено</item>
+        <item quantity="other">%d добавлено</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">%d упорядочена</item>
+        <item quantity="few">%d упорядочены</item>
+        <item quantity="many">%d упорядочено</item>
+        <item quantity="other">%d упорядочено</item>
+    </plurals>
+    <string name="memory_pass_undone">Наведение порядка в памяти отменено</string>
+    <string name="memory_pass_view">Что изменилось</string>
+    <string name="memory_pass_changes_title">Что изменилось при наведении порядка</string>
+    <string name="memory_pass_no_lines">Нет изменённых строк.</string>
+    <string name="memory_pass_undo">Отменить это наведение порядка</string>
+    <string name="memory_pass_undo_confirm">Вернуть заметки к виду до наведения порядка? Заметки, изменённые позже, останутся как есть.</string>
+    <string name="memory_pass_undo_gone">Это наведение порядка уже нельзя отменить.</string>
+    <string name="memory_pass_added_line">Добавлено: %1$s</string>
+    <string name="memory_pass_removed_line">Убрано: %1$s</string>
+    <string name="memory_area_about_you">О вас</string>
+    <string name="memory_area_to_remember">Что помнить</string>
+    <string name="memory_area_people">Люди</string>
+    <string name="memory_area_working_notes">Рабочие заметки</string>
+</resources>

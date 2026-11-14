@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">النبرة</string>
+    <string name="my_agent_tone_friendly">ودّية</string>
+    <string name="my_agent_tone_polite">رسمية</string>
+    <string name="my_agent_tone_friendly_example">عندك موعد عند طبيب الأسنان بكرة الساعة 10. أضبط لك تذكير؟</string>
+    <string name="my_agent_tone_polite_example">لديك موعد لدى طبيب الأسنان غدًا الساعة 10. هل تودّ أن أضبط لك تذكيرًا؟</string>
+    <string name="my_agent_tone_failed">تعذّر تغيير النبرة. حاول مرة أخرى.</string>
+</resources>

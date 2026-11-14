@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Запросити бета-доступ</string>
+    <string name="beta_requested">Запитано</string>
+    <string name="beta_sheet_note">Поки що вхід через Google відкрито для невеликої групи. Введіть адресу Google, яку підключите, — ми напишемо на неї, коли вас додадуть.</string>
+    <string name="beta_email_hint">Адреса Google</string>
+    <string name="beta_email_invalid">Введіть правильну адресу електронної пошти.</string>
+    <string name="beta_send">Надіслати</string>
+    <string name="beta_sending">Надсилання…</string>
+    <string name="beta_sent">Заявку надіслано. Коли її схвалять, ми напишемо на %1$s — тоді поверніться й підключіться знову.</string>
+    <string name="beta_declined">Цього разу вашу заявку на бета-доступ не схвалено. Вхід через Google відкриється для всіх після завершення перевірки Google.</string>
+    <string name="operator_section_beta">Заявки на бета-доступ</string>
+    <string name="operator_beta_note">Люди, які хочуть спробувати вхід через Google. Спершу додайте їх як тестових користувачів у Google Cloud Console, потім натисніть «Схвалено». Опрацьовані заявки видаляються через 30 днів.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Аудиторія (Audience) → Тестові користувачі → додати %1$s</string>
+    <string name="operator_beta_mail_from">Листи надсилаються з %1$s.</string>
+    <string name="operator_beta_no_mail">На цьому сервері не підключено Gmail, тому листи не надсилаються. Підключіть Gmail у розділі «Конектори», щоб надсилати їх.</string>
+    <string name="operator_beta_not_receiving">Цей сервер не є посередником для входу через Google, тому не отримує заявки.</string>
+    <string name="operator_beta_empty">Заявок поки немає.</string>
+    <string name="operator_beta_open">Очікують: %1$d</string>
+    <string name="operator_beta_approve">Схвалено</string>
+    <string name="operator_beta_decline">Відхилити</string>
+    <string name="operator_beta_waiting">Очікує</string>
+    <string name="operator_beta_state_approved">Схвалено</string>
+    <string name="operator_beta_declined">Відхилено</string>
+    <string name="operator_beta_notice_no_mail">Лист у підтримку не надіслано: Gmail не підключено.</string>
+    <string name="operator_beta_notice_failed">Не вдалося надіслати лист у підтримку.</string>
+    <string name="operator_beta_decline_confirm">Відхилити цю заявку?</string>
+    <string name="operator_beta_decline_mail">Надіслати короткий лист</string>
+    <string name="operator_beta_mailed">Лист надіслано на %1$s.</string>
+    <string name="operator_tester_steps">Додайте %1$s у Play Console → Тестування → Закрите тестування → Тестувальники, потім натисніть нижче.</string>
+    <string name="operator_tester_added">Додано в Play</string>
+    <string name="notify_beta_request">Заявка на бета-доступ</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">Su questo telefono</string>
+    <string name="device_row_sub">Su questo telefono</string>
+    <string name="device_row_connect">Collega</string>
+    <string name="device_connected">Collegato</string>
+    <string name="device_needs_permission">Serve il permesso</string>
+    <string name="device_calendar">Calendario</string>
+    <string name="device_contacts">Contatti</string>
+    <string name="device_messages">SMS</string>
+    <string name="device_dialer">Tastierino</string>
+    <string name="device_notifications">Notifiche</string>
+    <string name="device_call_log">Registro chiamate</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">Legge i tuoi eventi per risponderti. Se lo consenti, aggiunge anche eventi dopo la tua approvazione.</string>
+    <string name="device_calendar_sends">Invia al tuo server gli eventi dagli ultimi 7 giorni ai prossimi 60.</string>
+    <string name="device_contacts_does">Trova numeri ed email per nome. Solo lettura.</string>
+    <string name="device_contacts_sends">Invia al tuo server nomi, numeri, email, azienda e ruolo, e compleanni.</string>
+    <string name="device_messages_does">Trova e legge gli SMS ricevuti e inviati. Invia solo dopo la tua approvazione.</string>
+    <string name="device_messages_sends">Invia al tuo server i tuoi SMS recenti.</string>
+    <string name="device_dialer_does">Dopo la tua approvazione, apre l\'app Telefono con il numero già inserito. La chiamata la avvii tu.</string>
+    <string name="device_dialer_sends">Non viene inviato nulla.</string>
+    <string name="device_notifications_does">Trova quello che ti serve nelle notifiche ricevute.</string>
+    <string name="device_notifications_sends">Invia al tuo server nome dell\'app, titolo, testo e ora. Eliminati dopo 7 giorni.</string>
+    <string name="device_call_log_does">Trova le chiamate recenti. Solo lettura.</string>
+    <string name="device_call_log_sends">Invia al tuo server numeri, nomi, tipo, ora e durata delle chiamate degli ultimi 30 giorni.</string>
+    <string name="device_health_does">Risponde in base a dati come passi e sonno. Solo lettura.</string>
+    <string name="device_health_sends">Invia al tuo server solo un riepilogo giornaliero delle voci che scegli, quando apri l\'app.</string>
+    <string name="device_switch">Consenti a Kelo di usarlo</string>
+    <string name="device_auto">Si sincronizza da solo · %1$s</string>
+    <string name="device_auto_never">Invia appena lo attivi, poi resta sincronizzato</string>
+    <string name="device_auto_foreground">Si sincronizza ogni volta che apri l\'app · %1$s</string>
+    <string name="device_send_now">Invia ora</string>
+    <string name="device_sending">Invio in corso…</string>
+    <string name="device_send_failed">Invio non riuscito. Riprovo tra poco.</string>
+    <string name="device_off_failed">Disattivato. Quello che resta sul server viene eliminato alla prossima connessione.</string>
+    <string name="device_denied">Il permesso è disattivato. Consentilo nelle Impostazioni per attivarlo.</string>
+    <string name="device_open_settings">Apri Impostazioni</string>
+    <string name="device_ready">Attivo</string>
+    <plurals name="device_count_contacts">
+        <item quantity="one">%1$d contatto</item>
+        <item quantity="many">%1$d di contatti</item>
+        <item quantity="other">%1$d contatti</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="one">%1$d SMS</item>
+        <item quantity="many">%1$d di SMS</item>
+        <item quantity="other">%1$d SMS</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="one">%1$d chiamata</item>
+        <item quantity="many">%1$d di chiamate</item>
+        <item quantity="other">%1$d chiamate</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="one">Riepiloghi di %1$d giorno</item>
+        <item quantity="many">Riepiloghi di %1$d di giorni</item>
+        <item quantity="other">Riepiloghi di %1$d giorni</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="one">%1$d notifica</item>
+        <item quantity="many">%1$d di notifiche</item>
+        <item quantity="other">%1$d notifiche</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="one">%1$d evento</item>
+        <item quantity="many">%1$d di eventi</item>
+        <item quantity="other">%1$d eventi</item>
+    </plurals>
+    <string name="device_cal_write">Consenti anche di aggiungere e modificare eventi</string>
+    <string name="device_cal_write_line">Chiede sempre prima con una scheda di approvazione.</string>
+    <string name="device_cal_write_to">Calendario per i nuovi eventi</string>
+    <string name="device_cal_none">Non c\'è nessun calendario modificabile.</string>
+    <string name="device_cal_write_denied">Il permesso di scrittura sul calendario è disattivato.</string>
+    <string name="device_msg_window">Quanto indietro inviare</string>
+    <string name="device_days">%1$d giorni</string>
+    <string name="device_msg_send">Consenti l\'invio di SMS</string>
+    <string name="device_msg_send_line">Questo telefono invia solo dopo che hai approvato il destinatario e il testo completo.</string>
+    <string name="device_msg_send_denied">Il permesso di inviare SMS è disattivato.</string>
+    <string name="device_notif_service_label">Lettura notifiche di Kelo</string>
+    <string name="device_notif_disclosure_title">Condividere le notifiche con Kelo?</string>
+    <string name="device_notif_disclosure">Quando è attivo, nome dell\'app, titolo, testo e ora delle notifiche di questo telefono vengono inviati al tuo server Kelo. Il tuo agente li usa per trovare informazioni e risponderti. Le notifiche persistenti, quelle di Kelo e le app che escludi non vengono mai inviate. Il server le elimina dopo 7 giorni, e subito se disattivi questa opzione.\n\nNella schermata successiva, attiva l\'accesso alle notifiche per Kelo.</string>
+    <string name="device_agree">Accetta e continua</string>
+    <string name="device_decline">No, grazie</string>
+    <string name="device_notif_access_off">L\'accesso alle notifiche è disattivato.</string>
+    <string name="device_notif_exclude">App da non inviare</string>
+    <string name="device_notif_exclude_empty">Qui compaiono le app che ti inviano notifiche.</string>
+    <string name="device_health_types">Cosa condividere</string>
+    <string name="device_health_steps">Passi</string>
+    <string name="device_health_sleep">Sonno</string>
+    <string name="device_health_heart">Battito cardiaco</string>
+    <string name="device_health_weight">Peso</string>
+    <string name="device_health_exercise">Allenamenti</string>
+    <string name="device_health_missing">Health Connect non è presente su questo telefono.</string>
+    <string name="device_health_install">Installa Health Connect</string>
+    <string name="device_health_denied">Mancano i permessi per le voci che hai scelto. Consentili di nuovo.</string>
+    <string name="device_health_allow">Consenti</string>
+    <string name="device_health_rationale_title">Come Kelo usa i tuoi dati sulla salute</string>
+    <string name="device_health_rationale">Kelo legge solo un riepilogo giornaliero delle voci che scegli (passi, sonno, battito cardiaco, peso, allenamenti) e lo invia al tuo server Kelo. Viene usato solo quando il tuo agente risponde alle tue domande, mai per pubblicità o vendita. Kelo legge soltanto e non scrive mai in Health Connect. Se lo disattivi, i riepiloghi vengono eliminati dal server.</string>
+    <string name="device_privacy_policy">Informativa sulla privacy</string>
+    <string name="device_dial_title">Chiama %1$s</string>
+    <string name="device_dial_body">Tocca per aprire l\'app Telefono. La chiamata la avvii tu.</string>
+    <string name="device_sms_failed_title">Impossibile inviare l\'SMS</string>
+</resources>

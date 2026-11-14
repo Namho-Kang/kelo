@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">Voor je eerste bericht</string>
+    <string name="ai_consent_body">Om te antwoorden stuurt Kelo je berichten en wat daarvoor nodig is (bijgevoegde bestanden, resultaten uit gekoppelde diensten) naar de AI-dienst die je kiest.</string>
+    <string name="ai_consent_now">Nu gekozen: %1$s. Je kunt het bekijken en wijzigen bij Model.</string>
+    <string name="ai_consent_not_now_note">Met ‘Niet nu’ wordt niets verstuurd.</string>
+    <string name="ai_consent_privacy">Privacybeleid</string>
+    <string name="ai_consent_agree">Akkoord</string>
+    <string name="ai_consent_not_now">Niet nu</string>
+    <string name="ai_chats_go_to">Je chats gaan naar %1$s</string>
+    <string name="ai_chats_stay">Je chats blijven in je eigen netwerk</string>
+</resources>

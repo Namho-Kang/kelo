@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">Адреса доставки</string>
+    <string name="shipping_empty">Сохранённых адресов пока нет. Когда Kelo заказывает что-то для вас, он отправляет на адрес, сохранённый здесь.</string>
+    <string name="shipping_add">Добавить адрес</string>
+    <string name="shipping_edit_title">Изменить адрес</string>
+    <string name="shipping_home">Дом</string>
+    <string name="shipping_nickname">Название</string>
+    <string name="shipping_nickname_hint">например, Дом, Работа</string>
+    <string name="shipping_country">Страна</string>
+    <string name="shipping_optional">необязательно</string>
+    <string name="shipping_label_optional">%1$s (%2$s)</string>
+    <string name="shipping_default_title">Основной адрес</string>
+    <string name="shipping_default_note">Заказы приходят сюда, если вы или задача не укажете другой адрес.</string>
+    <string name="shipping_delete">Удалить этот адрес</string>
+    <string name="shipping_delete_confirm">Удалить адрес «%1$s»?</string>
+    <string name="shipping_err_required">Заполните это поле</string>
+    <string name="shipping_err_pattern">Проверьте формат (например, %1$s)</string>
+    <string name="shipping_err_format">Проверьте формат</string>
+    <string name="shipping_err_phone">Проверьте номер телефона</string>
+    <string name="shipping_example">например, %1$s</string>
+    <string name="shipping_pick">Выбрать</string>
+    <string name="shipping_country_search">Поиск страны</string>
+    <string name="shipping_country_none">Подходящих стран нет</string>
+    <string name="shipping_form_failed">Не удалось загрузить форму адреса.</string>
+    <string name="shipping_calling_code">Код страны %1$s</string>
+    <string name="shipping_ask_title">Куда доставить?</string>
+    <string name="shipping_ask_save">Использовать для следующих заказов (сохранить как адрес доставки)</string>
+    <string name="shipping_ask_pay">Способ оплаты</string>
+    <string name="shipping_pay_card">Добавить карту</string>
+    <string name="shipping_pay_site">Оплатить на сайте</string>
+    <string name="shipping_ask_send">Отправить адрес</string>
+    <string name="shipping_ask_sending">Отправка…</string>
+    <string name="shipping_ask_done">Доставка: %1$s</string>
+    <string name="shipping_ask_cancelled">Адрес не указан</string>
+    <string name="shipping_ask_expired">Время на заполнение формы истекло</string>
+    <string name="shipping_ask_closed">Форма закрыта</string>
+    <string name="order_items">Товары</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">Доставка</string>
+    <string name="order_ship_site">Адрес, сохранённый на сайте</string>
+    <string name="order_ship_once">Только для этого заказа</string>
+    <string name="order_pay_with">Оплата</string>
+    <string name="order_pay_site">На сайте</string>
+    <string name="order_coupon">Купон</string>
+    <string name="order_total">Итого</string>
+</resources>

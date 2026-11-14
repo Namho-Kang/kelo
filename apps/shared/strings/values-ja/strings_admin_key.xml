@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">利用額・残高も表示</string>
+    <string name="admin_key_title">利用額・残高用の管理者キー</string>
+    <string name="admin_key_safety">サーバー上のキー保管コンテナに個別に保管され、利用額や残高の読み取りにのみ使用されます。Kelo本体はこのキーを保持しません。</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys から作成できます（読み取り専用で十分です）。</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys から作成できます（組織アカウントのみ）。</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys から作成できます。</string>
+    <string name="admin_key_save">保存</string>
+    <string name="admin_key_saved">保存しました。下に利用額が表示されます。</string>
+    <string name="admin_key_refused">プロバイダーがこのキーを拒否しました。管理者キーであることを確認してください。</string>
+    <string name="admin_key_keyring_off">このサーバーは管理者キーを保管しません（キー保管コンテナが無効です）。</string>
+    <string name="admin_key_failed">キーを保存できませんでした。しばらくしてからやり直してください。</string>
+    <string name="admin_key_set">管理者キー …%1$s</string>
+    <string name="admin_key_remove">削除</string>
+    <string name="admin_key_remove_q">管理者キーを削除しますか？利用額と残高が表示されなくなります。</string>
+    <string name="my_privacy_keyring">入力されたAIプロバイダーのキー（および追加した場合は管理者キー）は、Kelo本体ではなくサーバー上の独立したキー保管コンテナに保管されます。Keloが呼び出しを依頼した際に、そのプロバイダー自身のアドレスに対してのみキーが付加されます。</string>
+</resources>

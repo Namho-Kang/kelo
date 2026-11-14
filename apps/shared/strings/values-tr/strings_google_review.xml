@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">Yakında</string>
+    <string name="google_review_title">Google ile oturum açma hazırlanıyor</string>
+    <string name="google_review_note">Google\'ın incelemesi tamamlanınca açılacak. Kelo\'yu desteklemek daha erken açılmasına yardımcı olur.</string>
+    <string name="google_review_support">Kelo\'yu destekle</string>
+    <string name="google_review_phone_calendar">Telefon takvimiyle bağlan</string>
+    <string name="google_review_phone_calendar_help">Android telefonlar Google Takvim\'ini telefonun kendi takviminde tutar, böylece Kelo onu oradan okuyabilir.</string>
+    <string name="google_review_open_switch">Google ile oturum açmayı herkese aç</string>
+    <string name="google_review_open_warning">Bunu yalnızca Google bu istemciyi doğruladıktan sonra aç. O zamana kadar Google en fazla 100 kullanıcıya izin verir ve onlara bir uyarı gösterir.</string>
+</resources>

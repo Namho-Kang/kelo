@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">読み込むアカウント</string>
+    <string name="briefing_sources_about">ブリーフィングと通知では、接続したカレンダーとメールボックスをすべて読みます。外したいものはオフにしてください。</string>
+    <string name="briefing_sources_calendars">カレンダー</string>
+    <string name="briefing_sources_mail">メール</string>
+    <string name="briefing_sources_chat">チャットで「ブリーフィングから仕事のメールを外して」のように伝えることもできます。</string>
+    <string name="briefing_sources_check">今すぐアカウントを確認</string>
+    <string name="briefing_sources_checking">確認中…</string>
+    <string name="connector_method_caldav">CalDAV用アプリパスワード</string>
+    <string name="caldav_help">サービスが案内するCalDAVのアドレス(例: Fastmailは https://dav.fastmail.com/)、ユーザー名、アプリ用パスワードを入力してください。</string>
+    <string name="caldav_url">CalDAVアドレス</string>
+    <string name="caldav_user">ユーザー名</string>
+    <string name="caldav_account_note">ブリーフィングと通知のためにこのカレンダーを読み取るだけで、変更はしません。</string>
+    <string name="caldav_disconnect_confirm">%1$sの接続を解除しますか?保存したアプリパスワードは削除されます。</string>
+    <string name="caldav_add_other">カレンダーをさらに追加</string>
+    <string name="caldav_notify">カレンダーを接続しました。続けてください。</string>
+</resources>

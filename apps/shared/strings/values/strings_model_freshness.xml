@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The model list could not be refreshed (the last good one is shown); a newer claude / agy CLI is out -->
+<resources>
+    <string name="model_list_stale">Couldn\'t get a fresh list, so this is the previous one</string>
+    <string name="model_cli_update_available">Version %1$s is out</string>
+    <string name="notify_cli_update">CLI update</string>
+</resources>

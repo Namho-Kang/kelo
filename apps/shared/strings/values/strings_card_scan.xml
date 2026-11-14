@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Scanning a card into the card form (wallet/CardScan.kt): read on the phone only; never the CVC -->
+<resources>
+    <string name="card_scan_button">Scan card</string>
+    <string name="card_scan_title">Scan your card</string>
+    <string name="card_scan_hint">Hold the front of the card inside the frame. It’s read on this phone only.</string>
+    <string name="card_scan_preparing">Getting the scanner ready…</string>
+    <string name="card_scan_filled">Check the scanned number. Type the CVC yourself.</string>
+    <string name="card_scan_nothing">Couldn’t read the card. Try again or type the number.</string>
+    <string name="card_scan_camera_needed">Kelo needs camera access to scan the card. No photos are saved.</string>
+    <string name="card_scan_camera_failed">Couldn’t open the camera. Type the number instead.</string>
+</resources>

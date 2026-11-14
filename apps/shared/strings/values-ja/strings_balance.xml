@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">残高</string>
+    <string name="balance_limit_left">キーの上限の残り</string>
+    <string name="balance_used_today">今日の利用額</string>
+    <string name="balance_used_week">今週の利用額</string>
+    <string name="balance_used_month">今月の利用額</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">このスマートフォンをもう一度接続してください</string>
+    <string name="e2e_key_changed_body">Keloサーバーの暗号化キーが変わったため、このスマートフォンは本当にあなたのサーバーか確認できません。別の端末の「マイ → マイデバイス」かサーバーマシンで、新しい接続用QRコードをスキャンしてください。</string>
+    <string name="e2e_pair_again">もう一度接続</string>
+    <string name="e2e_server_old_title">Keloサーバーを更新してください</string>
+    <string name="e2e_server_old_body">このアプリにはKeloサーバー %1$s 以降が必要です。サーバーを更新してから、もう一度開いてください。</string>
+    <string name="e2e_server_old_version">サーバーのバージョン: %1$s</string>
+    <string name="e2e_retry">もう一度試す</string>
+    <string name="devices_e2e_title">エンドツーエンド暗号化</string>
+    <string name="devices_e2e_on">やり取りの途中で会話を読めるのは、このスマートフォンとあなたのサーバーだけです。</string>
+    <string name="devices_e2e_fingerprint">サーバーキーのフィンガープリント</string>
+    <string name="devices_e2e_verified">キー確認済み</string>
+    <string name="devices_e2e_not_verified">キー未確認</string>
+    <string name="devices_e2e_not_verified_body">サーバーマシンで `assistant phone fingerprint` が表示するフィンガープリントと同じか比べるか、接続用QRコードを一度スキャンしてください。</string>
+    <string name="devices_e2e_verify_scan">QRコードをスキャンして確認</string>
+    <string name="devices_e2e_verify_done">キーが一致しました。確認済み ✓</string>
+    <string name="devices_e2e_verify_mismatch">このQRコードには別のキーが入っています。サーバーのキーを変えた場合は、このスマートフォンをもう一度接続してください。</string>
+    <string name="devices_e2e_verify_no_key">このQRコードにはキーがありません。更新したサーバーで新しく作ってください。</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gmail and Google Calendar while new Google sign-ins wait for Google's review (connect_state "pending_review"). -->
+<resources>
+    <string name="google_review_pill">Coming soon</string>
+    <string name="google_review_title">Google sign-in is getting ready</string>
+    <string name="google_review_note">This opens once Google\'s review is done. Supporting Kelo helps it open sooner.</string>
+    <string name="google_review_support">Support Kelo</string>
+    <string name="google_review_phone_calendar">Connect with the phone calendar</string>
+    <string name="google_review_phone_calendar_help">Android phones keep your Google Calendar in the phone\'s own calendar, so Kelo can read it from there.</string>
+    <string name="google_review_open_switch">Open Google sign-in to everyone</string>
+    <string name="google_review_open_warning">Turn this on only after Google has verified this client. Until then Google allows at most 100 users and shows them a warning.</string>
+</resources>

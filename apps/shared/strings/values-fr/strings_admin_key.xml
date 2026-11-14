@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Voir aussi dépenses et solde</string>
+    <string name="admin_key_title">Clé admin pour dépenses et solde</string>
+    <string name="admin_key_safety">Conservée dans le conteneur de clés sur votre serveur, pas par Kelo, et utilisée uniquement pour consulter les dépenses et le solde.</string>
+    <string name="admin_key_how_openai">OpenAI : platform.openai.com → Settings → Organization → Admin keys → Create (lecture seule suffit).</string>
+    <string name="admin_key_how_anthropic">Anthropic : console.anthropic.com → Settings → Admin keys (comptes d\'organisation uniquement).</string>
+    <string name="admin_key_how_openrouter">OpenRouter : openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Enregistrer</string>
+    <string name="admin_key_saved">Enregistré. Les dépenses s\'affichent ci-dessous.</string>
+    <string name="admin_key_refused">Le fournisseur a refusé cette clé. Vérifiez qu\'il s\'agit d\'une clé admin.</string>
+    <string name="admin_key_keyring_off">Ce serveur ne conserve aucune clé admin (son conteneur de clés est désactivé).</string>
+    <string name="admin_key_failed">Impossible d\'enregistrer la clé. Réessayez dans un instant.</string>
+    <string name="admin_key_set">Clé admin …%1$s</string>
+    <string name="admin_key_remove">Supprimer</string>
+    <string name="admin_key_remove_q">Supprimer la clé admin ? Les dépenses et le solde ne s\'afficheront plus.</string>
+    <string name="my_privacy_keyring">Les clés des fournisseurs d\'IA saisies (et les clés admin, le cas échéant) sont conservées par un conteneur de clés distinct sur votre serveur, et non par Kelo. Kelo lui demande chaque appel et il n\'ajoute la clé que pour l\'adresse propre à ce fournisseur.</string>
+</resources>

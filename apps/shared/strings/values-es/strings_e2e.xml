@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">Vuelve a conectar este teléfono</string>
+    <string name="e2e_key_changed_body">La clave de cifrado de tu servidor Kelo cambió, así que este teléfono no puede comprobar que de verdad es tu servidor. Escanea un nuevo código QR de conexión desde Mi → Mis dispositivos en otro dispositivo, o desde el equipo servidor.</string>
+    <string name="e2e_pair_again">Conectar de nuevo</string>
+    <string name="e2e_server_old_title">Actualiza tu servidor Kelo</string>
+    <string name="e2e_server_old_body">Esta app necesita el servidor Kelo %1$s o posterior. Actualiza el servidor y vuelve a abrirla.</string>
+    <string name="e2e_server_old_version">Versión del servidor: %1$s</string>
+    <string name="e2e_retry">Reintentar</string>
+    <string name="devices_e2e_title">Cifrado de extremo a extremo</string>
+    <string name="devices_e2e_on">Por el camino, solo este teléfono y tu servidor pueden leer tus chats.</string>
+    <string name="devices_e2e_fingerprint">Huella de la clave del servidor</string>
+    <string name="devices_e2e_verified">Clave verificada</string>
+    <string name="devices_e2e_not_verified">Clave sin verificar</string>
+    <string name="devices_e2e_not_verified_body">Compárala con la huella que muestra `assistant phone fingerprint` en el equipo servidor, o escanea una vez un código QR de conexión.</string>
+    <string name="devices_e2e_verify_scan">Verificar escaneando un código QR</string>
+    <string name="devices_e2e_verify_done">La clave coincide. Verificada ✓</string>
+    <string name="devices_e2e_verify_mismatch">Este código QR lleva otra clave. Si se cambió la clave del servidor, vuelve a conectar este teléfono.</string>
+    <string name="devices_e2e_verify_no_key">Este código QR no tiene clave. Crea uno nuevo con un servidor actualizado.</string>
+</resources>

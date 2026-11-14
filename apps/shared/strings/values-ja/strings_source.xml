@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_source_modified">modified</string>
+    <string name="my_source_link">Source code of this version on GitHub</string>
+</resources>

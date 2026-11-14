@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">साफ़ करें</string>
+    <string name="storage_cleanup_title">स्टोरेज साफ़ करें</string>
+    <string name="storage_warn">Kelo स्टोरेज %1$d%% भरा है।</string>
+    <string name="storage_critical">Kelo स्टोरेज लगभग भर गया है (%1$d%%)। भरने के बाद नई फ़ाइलें सेव नहीं होंगी, लेकिन चैट चलती रहेगी।</string>
+    <string name="storage_host_low">जिस कंप्यूटर पर Kelo सर्वर चलता है, उसकी डिस्क लगभग भर गई है (%1$s बचा है)। भरने पर Kelo काम करना बंद कर देगा, चैट भी।</string>
+    <string name="storage_top">सबसे ज़्यादा जगह: %1$s (%2$s)।</string>
+    <string name="storage_row_warn">%1$d%% भरा</string>
+    <string name="storage_row_critical">लगभग भरा</string>
+    <string name="storage_row_host">डिस्क लगभग भरी</string>
+    <string name="storage_cleanup_intro">इन्हें सुरक्षित रूप से हटाया जा सकता है। नोट्स, मेमोरी और चैट हिस्ट्री यहाँ कभी नहीं दिखते।</string>
+    <string name="storage_group_uploads">पुराने अपलोड की मूल फ़ाइलें</string>
+    <string name="storage_group_uploads_desc">%1$d दिन से पहले अपलोड की गई फ़ाइलें। सिर्फ़ मूल फ़ाइल हटती है; Kelo ने दस्तावेज़ से जो टेक्स्ट पढ़ा, वह रहता है।</string>
+    <string name="storage_group_images">बनाई गई इमेज</string>
+    <string name="storage_group_images_desc">Kelo की बनाई इमेज। जिन पुराने चैट संदेशों में ये दिखती थीं, उनमें अब कुछ नहीं दिखेगा।</string>
+    <string name="storage_group_browser">ब्राउज़र के चरणों की तस्वीरें</string>
+    <string name="storage_group_browser_desc">अपने आप चले कामों में ब्राउज़र के हर चरण की तस्वीरें।</string>
+    <string name="storage_group_results">पुराने नतीजे और ट्रैश</string>
+    <string name="storage_group_results_desc">%1$d दिन से पुराने नतीजे और ट्रैश में मौजूद सब कुछ।</string>
+    <string name="storage_group_backups">पुराने बैकअप</string>
+    <string name="storage_group_backups_desc">सबसे नए बैकअप हमेशा रखे जाते हैं।</string>
+    <string name="storage_item_text_kept">टेक्स्ट रहेगा</string>
+    <string name="storage_item_trashed">ट्रैश में</string>
+    <string name="storage_backup_update">सर्वर अपडेट से पहले</string>
+    <string name="storage_backup_memory">मेमोरी की सफ़ाई</string>
+    <string name="storage_backup_migration">पुराना ढांचा</string>
+    <string name="storage_selected">चुने गए: %1$d (%2$s)</string>
+    <string name="storage_delete_button">हटाएँ</string>
+    <string name="storage_confirm_title">चुने गए आइटम हमेशा के लिए हटाएँ?</string>
+    <string name="storage_confirm_body">इससे %1$s खाली होगा। हटाए गए आइटम वापस नहीं आ सकते।</string>
+    <string name="storage_deleted">%1$s खाली हुआ।</string>
+    <string name="storage_skipped">कुछ आइटम पहले ही बदल चुके थे, इसलिए उन्हें वैसे ही छोड़ दिया गया।</string>
+    <string name="storage_nothing">अभी साफ़ करने को कुछ नहीं है।</string>
+    <string name="storage_owner_only">सिर्फ़ सर्वर का मालिक साफ़ कर सकता है।</string>
+    <string name="storage_load_failed">साफ़ करने लायक चीज़ें लोड नहीं हो सकीं।</string>
+    <string name="storage_delete_failed">हटाया नहीं जा सका। फिर कोशिश करें।</string>
+    <string name="storage_notify">स्टोरेज भर रहा है</string>
+</resources>

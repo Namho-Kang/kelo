@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_active_hours.xml (generated from values/strings_active_hours.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="hours_suggest_heading">सुझाया गया संदेश समय</string>
+    <string name="hours_suggest_title">आप आम तौर पर Kelo %1$s इस्तेमाल करते हैं। क्या Kelo के संदेश इसी समय में मिलें?</string>
+    <plurals name="hours_suggest_basis">
+        <item quantity="one">पिछले %1$d दिन के इस्तेमाल के आधार पर · अभी %2$s</item>
+        <item quantity="other">पिछले %1$d दिनों के इस्तेमाल के आधार पर · अभी %2$s</item>
+    </plurals>
+    <string name="hours_suggest_accept">यही समय रखें</string>
+    <string name="hours_suggest_keep">अभी जैसा रहने दें</string>
+    <string name="hours_suggest_accepted">संदेश का समय बदला · %1$s</string>
+    <string name="hours_suggest_kept">आपका अभी का समय ही रहेगा</string>
+    <string name="hours_span_next_day">%1$s – अगले दिन %2$s</string>
+    <string name="hours_learned">आपके इस्तेमाल से सीखा गया</string>
+    <string name="hours_auto_switch">Kelo इस्तेमाल के समय के हिसाब से सूचना का समय बदलें</string>
+    <string name="proactive_until_next_day">अगले दिन %1$s तक</string>
+</resources>

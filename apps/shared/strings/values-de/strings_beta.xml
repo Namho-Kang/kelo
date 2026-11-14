@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Beta-Zugang anfragen</string>
+    <string name="beta_requested">Angefragt</string>
+    <string name="beta_sheet_note">Die Google-Anmeldung ist vorerst nur für eine kleine Gruppe offen. Gib die Google-E-Mail ein, die du verbinden wirst – wir schreiben dir dorthin, sobald du hinzugefügt bist.</string>
+    <string name="beta_email_hint">Google-E-Mail-Adresse</string>
+    <string name="beta_email_invalid">Gib eine gültige E-Mail-Adresse ein.</string>
+    <string name="beta_send">Senden</string>
+    <string name="beta_sending">Wird gesendet…</string>
+    <string name="beta_sent">Anfrage gesendet. Sobald sie freigegeben ist, schreiben wir an %1$s – dann komm zurück und verbinde erneut.</string>
+    <string name="beta_declined">Deine Beta-Anfrage wurde diesmal nicht freigegeben. Die Google-Anmeldung wird für alle geöffnet, sobald Googles Prüfung abgeschlossen ist.</string>
+    <string name="operator_section_beta">Beta-Anfragen</string>
+    <string name="operator_beta_note">Personen, die die Google-Anmeldung ausprobieren möchten. Füge sie zuerst in der Google Cloud Console als Testnutzer hinzu und tippe dann auf „Freigegeben“. Bearbeitete Anfragen werden nach 30 Tagen gelöscht.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Zielgruppe (Audience) → Testnutzer → %1$s hinzufügen</string>
+    <string name="operator_beta_mail_from">E-Mails werden von %1$s gesendet.</string>
+    <string name="operator_beta_no_mail">Auf diesem Server ist kein Gmail verbunden, daher werden keine E-Mails gesendet. Verbinde Gmail unter Connectors, um sie zu senden.</string>
+    <string name="operator_beta_not_receiving">Dieser Server vermittelt keine Google-Anmeldungen und erhält daher keine Anfragen.</string>
+    <string name="operator_beta_empty">Noch keine Anfragen.</string>
+    <string name="operator_beta_open">Wartend: %1$d</string>
+    <string name="operator_beta_approve">Freigegeben</string>
+    <string name="operator_beta_decline">Ablehnen</string>
+    <string name="operator_beta_waiting">Wartend</string>
+    <string name="operator_beta_state_approved">Freigegeben</string>
+    <string name="operator_beta_declined">Abgelehnt</string>
+    <string name="operator_beta_notice_no_mail">Keine E-Mail an den Support: Kein Gmail verbunden.</string>
+    <string name="operator_beta_notice_failed">Die E-Mail an den Support konnte nicht gesendet werden.</string>
+    <string name="operator_beta_decline_confirm">Diese Anfrage ablehnen?</string>
+    <string name="operator_beta_decline_mail">Kurze E-Mail senden</string>
+    <string name="operator_beta_mailed">E-Mail an %1$s gesendet.</string>
+    <string name="operator_tester_steps">Füge %1$s in der Play Console unter Testen → Geschlossener Test → Tester hinzu und tippe dann unten.</string>
+    <string name="operator_tester_added">In Play hinzugefügt</string>
+    <string name="notify_beta_request">Beta-Anfrage</string>
+</resources>

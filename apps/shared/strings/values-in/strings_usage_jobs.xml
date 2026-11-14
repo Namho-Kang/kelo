@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">Model untuk kerja latar belakang</string>
+    <string name="model_background_help">Hanya dipakai untuk pekerjaan yang Kelo lakukan sendiri: refleksi setiap malam, perawatan memori, jurnal, memilih apa yang perlu diberitahukan kepada Anda, dan ringkasan obrolan panjang. Semua yang memakai browser, membayar, atau mengirim sesuatu tetap memakai model utama.</string>
+    <string name="model_background_same">Sama dengan model utama</string>
+    <string name="model_background_fell_back">Pada %1$s model latar belakang gagal, jadi model utama yang mengerjakannya.</string>
+    <string name="usage_jobs_tokens">%1$s token</string>
+</resources>

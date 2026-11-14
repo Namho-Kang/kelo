@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Kartu pembayaranmu terkunci</string>
+    <string name="wallet_lock_body">Pastikan ini kamu dengan sidik jari, wajah, atau kunci layar (PIN, pola, atau sandi) untuk membukanya lagi.</string>
+    <string name="wallet_lock_kept">Data kartu yang sedang kamu isi masih ada. Buka kunci untuk melanjutkan. Data akan dihapus setelah 10 menit.</string>
+    <string name="wallet_lock_unlock">Buka kunci</string>
+    <string name="wallet_lock_back">Kembali</string>
+    <string name="wallet_lock_no_lock_title">Atur kunci layar</string>
+    <string name="wallet_lock_no_lock_body">Ponsel ini tidak punya kunci layar, jadi kartu pembayaranmu tidak bisa dibuka. Nyalakan PIN atau sidik jari di Pengaturan lalu kembali. Aku akan langsung mengeceknya.</string>
+    <string name="wallet_lock_open_settings">Buka pengaturan kunci layar</string>
+</resources>

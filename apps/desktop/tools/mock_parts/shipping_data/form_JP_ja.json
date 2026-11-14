@@ -1,0 +1,251 @@
+{
+ "country": "JP",
+ "country_name": "Japan",
+ "lang": "ja",
+ "fields": [
+  {
+   "key": "name",
+   "label": "氏名",
+   "required": true,
+   "autocomplete": "name"
+  },
+  {
+   "key": "postal_code",
+   "label": "〒 郵便番号",
+   "required": true,
+   "autocomplete": "postal-code",
+   "pattern": "^(?:\\d{3}-?\\d{4})$",
+   "example": "154-0023",
+   "numeric": true
+  },
+  {
+   "key": "admin_area",
+   "label": "都道府県",
+   "required": true,
+   "autocomplete": "address-level1",
+   "options": [
+    {
+     "key": "北海道",
+     "name": "北海道"
+    },
+    {
+     "key": "青森県",
+     "name": "青森県"
+    },
+    {
+     "key": "岩手県",
+     "name": "岩手県"
+    },
+    {
+     "key": "宮城県",
+     "name": "宮城県"
+    },
+    {
+     "key": "秋田県",
+     "name": "秋田県"
+    },
+    {
+     "key": "山形県",
+     "name": "山形県"
+    },
+    {
+     "key": "福島県",
+     "name": "福島県"
+    },
+    {
+     "key": "茨城県",
+     "name": "茨城県"
+    },
+    {
+     "key": "栃木県",
+     "name": "栃木県"
+    },
+    {
+     "key": "群馬県",
+     "name": "群馬県"
+    },
+    {
+     "key": "埼玉県",
+     "name": "埼玉県"
+    },
+    {
+     "key": "千葉県",
+     "name": "千葉県"
+    },
+    {
+     "key": "東京都",
+     "name": "東京都"
+    },
+    {
+     "key": "神奈川県",
+     "name": "神奈川県"
+    },
+    {
+     "key": "新潟県",
+     "name": "新潟県"
+    },
+    {
+     "key": "富山県",
+     "name": "富山県"
+    },
+    {
+     "key": "石川県",
+     "name": "石川県"
+    },
+    {
+     "key": "福井県",
+     "name": "福井県"
+    },
+    {
+     "key": "山梨県",
+     "name": "山梨県"
+    },
+    {
+     "key": "長野県",
+     "name": "長野県"
+    },
+    {
+     "key": "岐阜県",
+     "name": "岐阜県"
+    },
+    {
+     "key": "静岡県",
+     "name": "静岡県"
+    },
+    {
+     "key": "愛知県",
+     "name": "愛知県"
+    },
+    {
+     "key": "三重県",
+     "name": "三重県"
+    },
+    {
+     "key": "滋賀県",
+     "name": "滋賀県"
+    },
+    {
+     "key": "京都府",
+     "name": "京都府"
+    },
+    {
+     "key": "大阪府",
+     "name": "大阪府"
+    },
+    {
+     "key": "兵庫県",
+     "name": "兵庫県"
+    },
+    {
+     "key": "奈良県",
+     "name": "奈良県"
+    },
+    {
+     "key": "和歌山県",
+     "name": "和歌山県"
+    },
+    {
+     "key": "鳥取県",
+     "name": "鳥取県"
+    },
+    {
+     "key": "島根県",
+     "name": "島根県"
+    },
+    {
+     "key": "岡山県",
+     "name": "岡山県"
+    },
+    {
+     "key": "広島県",
+     "name": "広島県"
+    },
+    {
+     "key": "山口県",
+     "name": "山口県"
+    },
+    {
+     "key": "徳島県",
+     "name": "徳島県"
+    },
+    {
+     "key": "香川県",
+     "name": "香川県"
+    },
+    {
+     "key": "愛媛県",
+     "name": "愛媛県"
+    },
+    {
+     "key": "高知県",
+     "name": "高知県"
+    },
+    {
+     "key": "福岡県",
+     "name": "福岡県"
+    },
+    {
+     "key": "佐賀県",
+     "name": "佐賀県"
+    },
+    {
+     "key": "長崎県",
+     "name": "長崎県"
+    },
+    {
+     "key": "熊本県",
+     "name": "熊本県"
+    },
+    {
+     "key": "大分県",
+     "name": "大分県"
+    },
+    {
+     "key": "宮崎県",
+     "name": "宮崎県"
+    },
+    {
+     "key": "鹿児島県",
+     "name": "鹿児島県"
+    },
+    {
+     "key": "沖縄県",
+     "name": "沖縄県"
+    }
+   ]
+  },
+  {
+   "key": "locality",
+   "label": "市区町村",
+   "required": true,
+   "autocomplete": "address-level2"
+  },
+  {
+   "key": "address_line1",
+   "label": "番地",
+   "required": true,
+   "autocomplete": "address-line1"
+  },
+  {
+   "key": "address_line2",
+   "label": "建物名・部屋番号",
+   "required": false,
+   "autocomplete": "address-line2"
+  }
+ ],
+ "phone": {
+  "label": "電話番号",
+  "calling_code": "+81",
+  "required": true
+ },
+ "note": {
+  "label": "配達メモ",
+  "required": false
+ },
+ "labels": {
+  "country": "国",
+  "nickname": "ニックネーム",
+  "optional": "任意"
+ },
+ "format": "〒%Z%n%S%C%n%A%n%O%n%N"
+}

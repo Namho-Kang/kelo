@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">Model voor achtergrondwerk</string>
+    <string name="model_background_help">Alleen voor werk dat Kelo zelf doet: de terugblik van elke nacht, geheugenonderhoud, het dagboek, kiezen wat je moet weten en samenvattingen van lange chats. Alles wat de browser gebruikt, betaalt of iets verstuurt, blijft bij het hoofdmodel.</string>
+    <string name="model_background_same">Hetzelfde als het hoofdmodel</string>
+    <string name="model_background_fell_back">Op %1$s faalde het achtergrondmodel, dus heeft het hoofdmodel het werk gedaan.</string>
+    <string name="usage_jobs_tokens">%1$s tokens</string>
+</resources>

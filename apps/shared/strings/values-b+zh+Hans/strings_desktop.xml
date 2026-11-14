@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text only the desktop app has (zh-Hans). See values/strings_desktop.xml. -->
+<resources>
+    <string name="desktop_pair_step2">复制显示的链接，粘贴到下方。</string>
+    <string name="desktop_tray_open">打开 Kelo</string>
+    <string name="desktop_tray_quit">退出 Kelo</string>
+    <string name="desktop_tray_stop">停止：%1$s</string>
+    <string name="desktop_still_running">Kelo 会在托盘中继续运行，有需要你处理的事会通知你。</string>
+    <string name="desktop_section">此设备</string>
+    <string name="desktop_start_at_login">登录时启动 Kelo</string>
+    <string name="desktop_start_at_login_hint">在托盘中安静启动，打开窗口之前也能收到提醒。</string>
+    <string name="desktop_start_at_login_store">请在 Windows 设置 → 应用 → 启动中开启或关闭。</string>
+    <string name="desktop_start_at_login_unavailable">在安装后的应用中可用。</string>
+    <string name="desktop_keep_in_tray">关闭窗口后继续在托盘中运行</string>
+    <string name="desktop_notifications">桌面通知</string>
+    <string name="desktop_notifications_hint">窗口隐藏时完成的回复、等待你批准的事项，以及 Kelo 主动告诉你的消息。</string>
+    <string name="desktop_reduce_motion">减少动态效果</string>
+    <string name="desktop_theme">外观</string>
+    <string name="desktop_theme_system">跟随系统</string>
+    <string name="desktop_theme_light">浅色</string>
+    <string name="desktop_theme_dark">深色</string>
+    <string name="desktop_drop_here">把文件拖到这里，发送给 %1$s</string>
+    <string name="desktop_attach_files">附加文件（每个最大 100 MB）</string>
+    <string name="desktop_enter_hint">Enter 发送 · Shift+Enter 换行</string>
+    <string name="desktop_logout_confirm">要在此设备上退出登录吗？再次使用时需要重新连接服务器。</string>
+    <string name="desktop_version">Kelo 桌面版 %1$s</string>
+    <string name="desktop_open_settings">打开设置</string>
+    <string name="desktop_sign_in_browser">在浏览器中登录</string>
+    <string name="desktop_browser_opened">已在浏览器中打开登录页面。完成后请回到这里。</string>
+    <string name="desktop_chooser_setup_hint">还没有可直接使用的 AI 服务。请在下方选择一个，添加密钥或地址，或登录。</string>
+    <string name="desktop_chooser_setup_title">设置服务</string>
+    <string name="desktop_update_quit_note">安装程序已打开。安装期间请退出 Kelo，完成后再重新打开 Kelo。</string>
+    <string name="desktop_update_open_failed">无法打开安装程序。它已保存在 %1$s。</string>
+    <string name="desktop_e2e_on">传输途中，只有此设备和你的服务器能读取你的对话。</string>
+    <string name="desktop_e2e_not_verified_body">请与服务器设备上 `assistant phone fingerprint` 显示的指纹比对，或粘贴一次连接链接。</string>
+    <string name="desktop_e2e_verify_paste">用链接验证</string>
+    <string name="desktop_e2e_paste_hint">粘贴连接链接（https://…/#pair=…）</string>
+    <string name="desktop_e2e_verify_mismatch">此链接中的密钥不同。如果服务器密钥已更改，请重新连接此设备。</string>
+    <string name="desktop_e2e_verify_no_key">此链接中没有密钥。请用已更新的服务器生成新链接。</string>
+    <string name="desktop_e2e_key_changed_body">你的 Kelo 服务器加密密钥已更改，此设备无法确认它确实是你的服务器。请从另一台设备的“我的 → 我的设备”或服务器设备获取新的连接链接并粘贴。</string>
+    <string name="desktop_location_on_phone">这台电脑无法分享你的位置。请在手机上打开 Kelo 分享位置，或选择“以后再说”。</string>
+    <string name="desktop_keyguard_locked_body">在你于手机上打开 Kelo 并解锁之前，密码、密钥和卡片都保持关闭。这台电脑不保存密钥。</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Fichiers de Kelo</string>
+    <string name="files_about">Ce que Kelo note pour lui-même : qui vous êtes, sa mémoire, ses notes. Vous pouvez les lire, les modifier et les supprimer. Les envois et les résultats ont leurs propres pages.</string>
+    <string name="files_new_folder">Nouveau dossier</string>
+    <string name="files_make">Créer</string>
+    <string name="files_folder_name">Nom du dossier</string>
+    <string name="files_folder_bad">Ce nom ne peut pas être utilisé.</string>
+    <string name="files_edit">Modifier</string>
+    <string name="files_save">Enregistrer</string>
+    <string name="files_cancel">Annuler</string>
+    <string name="files_saved">Enregistré. Kelo lira le nouveau texte dès sa prochaine réponse.</string>
+    <string name="files_save_failed">Enregistrement impossible.</string>
+    <string name="files_full">Le stockage du serveur est plein.</string>
+    <string name="files_discard_q">Quitter sans enregistrer ?</string>
+    <string name="files_discard">Quitter</string>
+    <string name="files_reset">Retour au début</string>
+    <string name="files_reset_q">Remettre ce fichier dans son état initial ? Le texte actuel ira dans la corbeille.</string>
+    <string name="files_reset_done">Retour au début. L\'ancien texte est dans la corbeille.</string>
+    <string name="files_core_reset_hint">Kelo a besoin de ce fichier. Utilisez plutôt « Retour au début ».</string>
+    <string name="files_delete">Supprimer</string>
+    <string name="files_delete_q">Déplacer dans la corbeille ? Suppression définitive après 30 jours.</string>
+    <string name="files_deleted">Déplacé dans la corbeille.</string>
+    <string name="files_read_only">Kelo tient ce fichier à jour ; il ne peut pas être modifié ici.</string>
+    <string name="files_load_failed">Impossible de charger les fichiers.</string>
+    <string name="files_trash_title">Corbeille</string>
+    <string name="files_trash_about">Les fichiers supprimés restent ici 30 jours.</string>
+    <string name="files_trash_left">Supprimé définitivement dans %1$d jours</string>
+    <string name="files_trash_empty">La corbeille est vide.</string>
+    <string name="files_restore">Restaurer</string>
+    <string name="files_restored">Restauré.</string>
+    <string name="files_purge">Supprimer définitivement</string>
+    <string name="files_purge_q">Supprimer définitivement ? C\'est irréversible.</string>
+    <string name="files_core_assistant">Caractère et ton de Kelo</string>
+    <string name="files_core_user">Ce que Kelo sait de vous</string>
+    <string name="files_core_memory">Mémoire de Kelo</string>
+    <string name="files_core_agents">Comment Kelo travaille</string>
+    <string name="files_core_checklist">À vérifier</string>
+    <string name="files_core_notify">Préférences de notification</string>
+</resources>

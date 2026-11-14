@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Dọn dẹp</string>
+    <string name="storage_cleanup_title">Dọn dẹp bộ nhớ</string>
+    <string name="storage_warn">Bộ nhớ của Kelo đã dùng %1$d%%.</string>
+    <string name="storage_critical">Bộ nhớ của Kelo gần đầy (%1$d%%). Khi đầy sẽ không lưu được tệp mới, nhưng trò chuyện vẫn hoạt động.</string>
+    <string name="storage_host_low">Ổ đĩa của máy tính chạy máy chủ Kelo gần đầy (còn %1$s). Khi đầy, Kelo sẽ ngừng hoạt động, kể cả trò chuyện.</string>
+    <string name="storage_top">Chiếm nhiều nhất: %1$s (%2$s).</string>
+    <string name="storage_row_warn">Đã dùng %1$d%%</string>
+    <string name="storage_row_critical">Gần đầy</string>
+    <string name="storage_row_host">Ổ đĩa gần đầy</string>
+    <string name="storage_cleanup_intro">Có thể xóa an toàn các mục này. Ghi chú, bộ nhớ và lịch sử trò chuyện không bao giờ xuất hiện ở đây.</string>
+    <string name="storage_group_uploads">Tệp gốc của các lần tải lên cũ</string>
+    <string name="storage_group_uploads_desc">Các tệp tải lên hơn %1$d ngày trước. Chỉ xóa tệp gốc; văn bản Kelo đã đọc từ tài liệu vẫn được giữ.</string>
+    <string name="storage_group_images">Hình ảnh đã tạo</string>
+    <string name="storage_group_images_desc">Hình ảnh do Kelo tạo. Các tin nhắn cũ từng hiển thị chúng sẽ không hiển thị gì nữa.</string>
+    <string name="storage_group_browser">Ảnh các bước trình duyệt</string>
+    <string name="storage_group_browser_desc">Ảnh từng bước trình duyệt của các tác vụ tự chạy.</string>
+    <string name="storage_group_results">Kết quả cũ và thùng rác</string>
+    <string name="storage_group_results_desc">Kết quả cũ hơn %1$d ngày và mọi thứ trong thùng rác.</string>
+    <string name="storage_group_backups">Bản sao lưu cũ hơn</string>
+    <string name="storage_group_backups_desc">Các bản sao lưu mới nhất luôn được giữ lại.</string>
+    <string name="storage_item_text_kept">Giữ văn bản</string>
+    <string name="storage_item_trashed">Trong thùng rác</string>
+    <string name="storage_backup_update">Trước khi cập nhật máy chủ</string>
+    <string name="storage_backup_memory">Sắp xếp bộ nhớ</string>
+    <string name="storage_backup_migration">Cấu trúc cũ</string>
+    <string name="storage_selected">Đã chọn: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Xóa</string>
+    <string name="storage_confirm_title">Xóa vĩnh viễn các mục đã chọn?</string>
+    <string name="storage_confirm_body">Thao tác này giải phóng %1$s. Không thể khôi phục các mục đã xóa.</string>
+    <string name="storage_deleted">Đã giải phóng %1$s.</string>
+    <string name="storage_skipped">Một số mục đã thay đổi nên được giữ nguyên.</string>
+    <string name="storage_nothing">Hiện không có gì để dọn dẹp.</string>
+    <string name="storage_owner_only">Chỉ chủ máy chủ mới có thể dọn dẹp.</string>
+    <string name="storage_load_failed">Không tải được các mục có thể dọn dẹp.</string>
+    <string name="storage_delete_failed">Không xóa được. Hãy thử lại.</string>
+    <string name="storage_notify">Bộ nhớ sắp đầy</string>
+</resources>

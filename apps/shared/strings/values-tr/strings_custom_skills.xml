@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Onay bekleyen beceriler</string>
+    <string name="skill_review_about">Kelo bir beceriyi yalnızca siz onayladıktan sonra kullanır. Onaylamak, gösterilen metni aynen kaydeder.</string>
+    <string name="skill_review_drafting">Kelo bir beceri taslağı yazıyor…</string>
+    <string name="skill_review_kind_new">Yeni beceri</string>
+    <string name="skill_review_kind_change">Beceride değişiklik</string>
+    <string name="skill_review_kind_edited">Uygulama dışında değişti</string>
+    <string name="skill_review_edited_note">Bu becerinin dosyaları uygulama dışında değişti; yeniden onaylayana kadar Kelo onu kullanmaz.</string>
+    <string name="skill_review_edited_new_note">Bu beceri uygulama dışında eklendi. Siz onaylayana kadar Kelo onu kullanmaz.</string>
+    <string name="skill_review_outside_note">Kelo bu iş sırasında web sayfaları, e-postalar veya dosyalar okudu. Her adımın istediğiniz gibi olduğunu kontrol edin.</string>
+    <string name="skill_review_secrets_removed">Şifreler, anahtarlar ve kodlar metinden çıkarıldı.</string>
+    <string name="skill_review_diff_counts">Eklenen %1$d · Silinen %2$d</string>
+    <string name="skill_review_show_all">Tümünü göster</string>
+    <string name="skill_review_show_less">Daha az göster</string>
+    <string name="skill_review_put_back">Değişiklikleri geri al</string>
+    <string name="skill_review_discard">At</string>
+    <string name="skill_review_approve">Onayla</string>
+    <string name="skill_review_approved">Onaylandı. Kelo bu beceriyi kullanacak.</string>
+    <string name="skill_review_discarded">Atıldı</string>
+    <string name="skill_review_from_draft">Biten bir görevden taslak</string>
+    <string name="skill_review_from_disk">Sunucunun dosyalarında değişti</string>
+    <string name="skill_review_from_kelo">Kelo önerdi</string>
+    <string name="skill_save">Beceri olarak kaydet</string>
+    <string name="skill_save_about">Kelo bu görevin adımlarını yazar. %1$s → %2$s bölümünde onaylayana kadar hiçbir şey değişmez.</string>
+    <string name="skill_save_started">Kelo bir beceri taslağı hazırlıyor. %1$s → %2$s bölümünde bulabilirsiniz.</string>
+    <string name="skill_save_busy">Bu görevden zaten bir beceri yazılıyor.</string>
+    <string name="skill_save_unavailable">Bu sunucu henüz beceri kaydedemiyor. Önce sunucuyu güncelleyin.</string>
+    <string name="skill_save_no_model">Önce bir model seçin.</string>
+</resources>

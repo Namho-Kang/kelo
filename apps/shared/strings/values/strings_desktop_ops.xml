@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Desktop-only text of the card pages (My → Payment cards): the desktop never holds a card's key, the phone does. -->
+<resources>
+    <string name="desktop_ops_wallet_note">Cards are added, and each payment is confirmed, in the Kelo app on your phone: card numbers are locked with a key only that phone has. Here you can see your cards, rename or remove them, turn auto-pay off and set its limits.</string>
+    <string name="desktop_ops_tag_phone">Pays from your phone</string>
+    <string name="desktop_ops_wallet_safe_body">Card numbers and CVCs are locked with a key only your phone has before they go to the server. Neither the server nor your agent can read them, and every payment is confirmed on your phone with your fingerprint or screen lock.</string>
+    <string name="desktop_ops_wallet_paused_banner">Auto-pay is paused. Every payment will be asked on your phone.</string>
+    <string name="desktop_ops_wallet_pause_on_body">Paused. Every payment will be asked on your phone.</string>
+    <string name="desktop_ops_wallet_unfinished_body">This card is missing its details. Re-enter the card number and CVC in the Kelo app on your phone.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Your phone doesn\'t have a copy of this card, so right now it can only pay through auto-pay. Re-enter the card details in the Kelo app on your phone before you turn auto-pay off.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Every payment needs your OK on your phone, confirmed with your fingerprint or screen lock. The server can\'t read the card number.</string>
+    <string name="desktop_ops_wallet_on_phone">To turn auto-pay on, open this card in the Kelo app on the phone that added it. You won’t type the number again.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Turn off auto-pay? The copy on the server is deleted right away, and from now on every payment is confirmed on your phone.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Turn off auto-pay? Your phone doesn\'t have a copy of this card, so once it\'s off you can\'t pay with it until you re-enter the card details there.</string>
+    <string name="desktop_ops_wallet_auto_none_note">No card pays on its own yet, so every payment asks on your phone. To change that, turn on auto-pay for a card in the Kelo app on your phone.</string>
+    <string name="desktop_ops_ship_card_on_phone">Add the card in the Kelo app on your phone: card numbers are locked with a key only that phone has.</string>
+</resources>

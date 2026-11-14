@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">จัดระเบียบความจำ: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="other">เพิ่ม %d</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="other">จัด %d</item>
+    </plurals>
+    <string name="memory_pass_undone">ยกเลิกการจัดระเบียบความจำแล้ว</string>
+    <string name="memory_pass_view">สิ่งที่เปลี่ยน</string>
+    <string name="memory_pass_changes_title">สิ่งที่การจัดระเบียบความจำเปลี่ยนไป</string>
+    <string name="memory_pass_no_lines">ไม่มีบรรทัดที่เปลี่ยน</string>
+    <string name="memory_pass_undo">ยกเลิกการจัดระเบียบครั้งนี้</string>
+    <string name="memory_pass_undo_confirm">คืนบันทึกให้เหมือนก่อนการจัดระเบียบครั้งนี้ไหม บันทึกที่แก้ไขหลังจากนั้นจะคงไว้ตามเดิม</string>
+    <string name="memory_pass_undo_gone">การจัดระเบียบครั้งนี้ยกเลิกไม่ได้แล้ว</string>
+    <string name="memory_pass_added_line">เพิ่ม: %1$s</string>
+    <string name="memory_pass_removed_line">เอาออก: %1$s</string>
+    <string name="memory_area_about_you">เกี่ยวกับคุณ</string>
+    <string name="memory_area_to_remember">สิ่งที่ต้องจำ</string>
+    <string name="memory_area_people">ผู้คน</string>
+    <string name="memory_area_working_notes">บันทึกการทำงาน</string>
+</resources>

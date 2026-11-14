@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">첫 메시지를 보내기 전에</string>
+    <string name="ai_consent_body">Kelo는 답을 받으려고 메시지와 거기에 필요한 것(첨부한 파일, 연결한 서비스에서 가져온 결과)을 내가 고른 AI 서비스로 보내요.</string>
+    <string name="ai_consent_now">지금 고른 서비스: %1$s. 모델에서 보고 바꿀 수 있어요.</string>
+    <string name="ai_consent_not_now_note">나중에를 누르면 아무것도 보내지 않아요.</string>
+    <string name="ai_consent_privacy">개인정보처리방침</string>
+    <string name="ai_consent_agree">동의</string>
+    <string name="ai_consent_not_now">나중에</string>
+    <string name="ai_chats_go_to">대화를 보내는 곳: %1$s</string>
+    <string name="ai_chats_stay">대화는 내 네트워크 밖으로 나가지 않아요</string>
+</resources>

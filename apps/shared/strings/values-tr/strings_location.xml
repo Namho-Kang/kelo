@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo\'nun konumunuza ihtiyacı var</string>
+    <string name="location_ask_body">Bunu yanıtlamak için Kelo\'nun bu telefonun şu an nerede olduğunu bilmesi gerekiyor.</string>
+    <string name="location_ask_private">Konum yalnızca kendi sunucunuza gider.</string>
+    <string name="location_ask_share">Konumumu paylaş</string>
+    <string name="location_ask_not_now">Şimdi değil</string>
+    <string name="location_ask_settings">Ayarları aç</string>
+    <string name="location_ask_settings_hint">Kelo için konum kapalı. Ayarlar\'dan açın, sonra buraya dönün.</string>
+    <string name="location_services_off">Bu telefonda konum kapalı. Ayarlar\'dan açın, sonra buraya dönün.</string>
+    <string name="location_ask_reading">Konumunuz alınıyor…</string>
+    <string name="location_ask_shared">Konum paylaşıldı</string>
+    <string name="location_ask_refused">Konum paylaşılmadı</string>
+    <string name="location_ask_expired">Bu isteğin süresi doldu</string>
+    <string name="location_ask_unavailable">Bu telefon nerede olduğunu bulamadı. Konumun açık olduğunu kontrol edin.</string>
+    <string name="chat_attached_file">Ekli dosya</string>
+</resources>

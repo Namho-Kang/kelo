@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Skill yang perlu disetujui</string>
+    <string name="skill_review_about">Kelo hanya memakai skill setelah Anda menyetujuinya. Menyetujui akan menyimpan teks persis seperti yang ditampilkan.</string>
+    <string name="skill_review_drafting">Kelo sedang menulis draf skill…</string>
+    <string name="skill_review_kind_new">Skill baru</string>
+    <string name="skill_review_kind_change">Perubahan skill</string>
+    <string name="skill_review_kind_edited">Diubah di luar aplikasi</string>
+    <string name="skill_review_edited_note">File skill ini diubah di luar aplikasi, jadi Kelo tidak memakainya sampai Anda menyetujuinya lagi.</string>
+    <string name="skill_review_edited_new_note">Skill ini ditambahkan di luar aplikasi. Kelo tidak akan memakainya sampai Anda menyetujuinya.</string>
+    <string name="skill_review_outside_note">Kelo membaca halaman web, email, atau file saat mengerjakan ini. Periksa apakah setiap langkah sesuai keinginan Anda.</string>
+    <string name="skill_review_secrets_removed">Kata sandi, kunci, dan kode sudah dihapus dari teks.</string>
+    <string name="skill_review_diff_counts">Ditambah %1$d · Dihapus %2$d</string>
+    <string name="skill_review_show_all">Tampilkan semua</string>
+    <string name="skill_review_show_less">Tampilkan lebih sedikit</string>
+    <string name="skill_review_put_back">Urungkan perubahan</string>
+    <string name="skill_review_discard">Buang</string>
+    <string name="skill_review_approve">Setujui</string>
+    <string name="skill_review_approved">Disetujui. Kelo akan memakai skill ini.</string>
+    <string name="skill_review_discarded">Dibuang</string>
+    <string name="skill_review_from_draft">Draf dari tugas yang selesai</string>
+    <string name="skill_review_from_disk">Diubah di file server</string>
+    <string name="skill_review_from_kelo">Disarankan oleh Kelo</string>
+    <string name="skill_save">Simpan sebagai skill</string>
+    <string name="skill_save_about">Kelo mencatat langkah-langkah tugas ini. Tidak ada yang berubah sampai Anda menyetujuinya di %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo sedang menyusun draf skill. Anda akan menemukannya di %1$s → %2$s.</string>
+    <string name="skill_save_busy">Skill dari tugas ini sudah sedang ditulis.</string>
+    <string name="skill_save_unavailable">Server ini belum bisa menyimpan skill. Perbarui server terlebih dahulu.</string>
+    <string name="skill_save_no_model">Pilih model terlebih dahulu.</string>
+</resources>

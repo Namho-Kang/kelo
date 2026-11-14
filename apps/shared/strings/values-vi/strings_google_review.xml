@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">Sắp ra mắt</string>
+    <string name="google_review_title">Đăng nhập Google đang được chuẩn bị</string>
+    <string name="google_review_note">Tính năng này sẽ mở khi Google xét duyệt xong. Ủng hộ Kelo sẽ giúp mở sớm hơn.</string>
+    <string name="google_review_support">Ủng hộ Kelo</string>
+    <string name="google_review_phone_calendar">Kết nối qua lịch điện thoại</string>
+    <string name="google_review_phone_calendar_help">Điện thoại Android lưu Google Lịch của bạn ngay trong lịch của điện thoại, nên Kelo có thể đọc lịch từ đó.</string>
+    <string name="google_review_open_switch">Mở đăng nhập Google cho mọi người</string>
+    <string name="google_review_open_warning">Chỉ bật khi Google đã xác minh ứng dụng khách này. Trước đó, Google chỉ cho phép tối đa 100 người dùng và sẽ hiện cảnh báo cho họ.</string>
+</resources>

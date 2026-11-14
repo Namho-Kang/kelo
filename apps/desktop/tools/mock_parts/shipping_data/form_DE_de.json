@@ -1,0 +1,55 @@
+{
+ "country": "DE",
+ "country_name": "Germany",
+ "lang": "",
+ "fields": [
+  {
+   "key": "name",
+   "label": "Vollständiger Name",
+   "required": true,
+   "autocomplete": "name"
+  },
+  {
+   "key": "address_line1",
+   "label": "Adresszeile 1",
+   "required": true,
+   "autocomplete": "address-line1"
+  },
+  {
+   "key": "address_line2",
+   "label": "Adresszeile 2 (Wohnung, Etage)",
+   "required": false,
+   "autocomplete": "address-line2"
+  },
+  {
+   "key": "postal_code",
+   "label": "Postleitzahl",
+   "required": true,
+   "autocomplete": "postal-code",
+   "pattern": "^(?:\\d{5})$",
+   "example": "26133",
+   "numeric": true
+  },
+  {
+   "key": "locality",
+   "label": "Stadt",
+   "required": true,
+   "autocomplete": "address-level2"
+  }
+ ],
+ "phone": {
+  "label": "Telefonnummer",
+  "calling_code": "+49",
+  "required": true
+ },
+ "note": {
+  "label": "Lieferhinweis",
+  "required": false
+ },
+ "labels": {
+  "country": "Land",
+  "nickname": "Bezeichnung",
+  "optional": "optional"
+ },
+ "format": "%N%n%O%n%A%n%Z %C"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Os cartões são adicionados, e cada pagamento é confirmado, no app Kelo do seu celular: os números ficam trancados com uma chave que só aquele celular tem. Aqui você vê seus cartões, pode renomeá-los ou removê-los, desligar o pagamento automático e definir os limites.</string>
+    <string name="desktop_ops_tag_phone">Paga pelo celular</string>
+    <string name="desktop_ops_wallet_safe_body">Números de cartão e CVCs são trancados com uma chave que só o seu celular tem antes de irem para o servidor. Nem o servidor nem o seu agente conseguem lê-los, e cada pagamento é confirmado no celular com digital ou bloqueio de tela.</string>
+    <string name="desktop_ops_wallet_paused_banner">O pagamento automático está pausado. Cada pagamento será perguntado no seu celular.</string>
+    <string name="desktop_ops_wallet_pause_on_body">Pausado. Cada pagamento será perguntado no seu celular.</string>
+    <string name="desktop_ops_wallet_unfinished_body">Faltam dados neste cartão. Digite de novo o número e o CVC no app Kelo do seu celular.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Seu celular não tem uma cópia deste cartão, então por enquanto ele só paga pelo pagamento automático. Digite os dados de novo no app Kelo do celular antes de desligá-lo.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Cada pagamento precisa do seu OK no celular, com digital ou bloqueio de tela. O servidor não consegue ler o número do cartão.</string>
+    <string name="desktop_ops_wallet_on_phone">Para ativar o pagamento automático, abra este cartão no app Kelo do celular que o adicionou. Você não digita o número de novo.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Desligar o pagamento automático? A cópia no servidor é apagada na hora e, daqui em diante, cada pagamento é confirmado no seu celular.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Desligar o pagamento automático? Seu celular não tem uma cópia deste cartão; depois de desligar, você só poderá pagar com ele quando digitar os dados de novo lá.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Nenhum cartão paga sozinho ainda, então cada pagamento pergunta no seu celular. Para mudar isso, ligue o pagamento automático de um cartão no app Kelo do seu celular.</string>
+    <string name="desktop_ops_ship_card_on_phone">Adicione o cartão no app Kelo do seu celular: os números ficam trancados com uma chave que só aquele celular tem.</string>
+</resources>

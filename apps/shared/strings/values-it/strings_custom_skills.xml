@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Skill da approvare</string>
+    <string name="skill_review_about">Kelo usa una skill solo dopo la tua approvazione. Approvando si salva esattamente il testo mostrato.</string>
+    <string name="skill_review_drafting">Kelo sta scrivendo una bozza di skill…</string>
+    <string name="skill_review_kind_new">Nuova skill</string>
+    <string name="skill_review_kind_change">Modifica a una skill</string>
+    <string name="skill_review_kind_edited">Modificata fuori dall\'app</string>
+    <string name="skill_review_edited_note">I file di questa skill sono cambiati fuori dall\'app, quindi Kelo non la usa finché non la approvi di nuovo.</string>
+    <string name="skill_review_edited_new_note">Questa skill è stata aggiunta fuori dall\'app. Kelo non la userà finché non la approvi.</string>
+    <string name="skill_review_outside_note">Kelo ha letto pagine web, email o file mentre lavorava. Controlla che ogni passaggio sia quello che vuoi.</string>
+    <string name="skill_review_secrets_removed">Password, chiavi e codici sono stati tolti dal testo.</string>
+    <string name="skill_review_diff_counts">Aggiunte %1$d · Rimosse %2$d</string>
+    <string name="skill_review_show_all">Mostra tutto</string>
+    <string name="skill_review_show_less">Mostra meno</string>
+    <string name="skill_review_put_back">Annulla le modifiche</string>
+    <string name="skill_review_discard">Scarta</string>
+    <string name="skill_review_approve">Approva</string>
+    <string name="skill_review_approved">Approvata. Kelo userà questa skill.</string>
+    <string name="skill_review_discarded">Scartata</string>
+    <string name="skill_review_from_draft">Bozza da un\'attività finita</string>
+    <string name="skill_review_from_disk">Modificata nei file del server</string>
+    <string name="skill_review_from_kelo">Proposta da Kelo</string>
+    <string name="skill_save">Salva come skill</string>
+    <string name="skill_save_about">Kelo annota i passaggi di questa attività. Non cambia nulla finché non approvi in %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo sta scrivendo una skill. La troverai in %1$s → %2$s.</string>
+    <string name="skill_save_busy">Una skill da questa attività è già in scrittura.</string>
+    <string name="skill_save_unavailable">Questo server non può ancora salvare skill. Aggiorna prima il server.</string>
+    <string name="skill_save_no_model">Scegli prima un modello.</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">إبلاغ</string>
+    <string name="report_title">الإبلاغ عن هذا الرد</string>
+    <string name="report_intro">إن كان هذا الرد مزعجًا أو خاطئًا، أخبر مطوّر Kelo. يُستخدم البلاغ فقط لجعل Kelo أكثر أمانًا.</string>
+    <string name="report_reason_label">ما المشكلة؟</string>
+    <string name="report_reason_harmful">مزعج أو ضار</string>
+    <string name="report_reason_inaccurate">غير دقيق في الحقائق</string>
+    <string name="report_reason_privacy">يكشف معلومات شخصية</string>
+    <string name="report_reason_other">شيء آخر</string>
+    <string name="report_comment_hint">هل تريد إضافة شيء؟ (اختياري)</string>
+    <string name="report_include_asked">أرسل أيضًا الرسالة التي أرسلتها قبله مباشرة</string>
+    <string name="report_sent_title">ما يُرسل إلى مطوّر Kelo</string>
+    <string name="report_sent_reply">الرد الذي تبلّغ عنه</string>
+    <string name="report_sent_asked">الرسالة التي أرسلتها قبله مباشرة</string>
+    <string name="report_sent_reason">السبب الذي اخترته وأي تعليقات</string>
+    <string name="report_sent_model">اسم النموذج الذي كتب الرد</string>
+    <string name="report_sent_version">إصدار تطبيق Kelo</string>
+    <string name="report_sent_not">لا يُرسل أي شيء آخر من محادثاتك ولا أي بيانات حساب. تُحفظ البلاغات لمدة سنة ثم تُحذف — أو قبل ذلك إن طلبت.</string>
+    <string name="report_send">إرسال البلاغ</string>
+    <string name="report_sending">جارٍ الإرسال…</string>
+    <string name="report_failed_offline">تعذّر الوصول إلى خادمك. ما كتبته ما زال هنا — حاول الإرسال مجددًا بعد قليل.</string>
+    <string name="report_thanks">أُرسل البلاغ. شكرًا لإخبارنا.</string>
+    <string name="operator_section_reports">البلاغات الواردة</string>
+    <string name="operator_reports_note">ردود أبلغ عنها المستخدمون من التطبيق. تُحذف تلقائيًا بعد سنة.</string>
+    <string name="operator_reports_not_receiving">هذا الخادم لا يستقبل البلاغات. البلاغات المرسلة من هذا الخادم تذهب إلى خادم مطوّر Kelo.</string>
+    <string name="operator_reports_empty">لا بلاغات بعد.</string>
+    <string name="operator_reports_open">بلاغات بانتظار المعالجة: %1$d</string>
+    <string name="operator_reports_show_handled">عرض البلاغات المعالَجة أيضًا</string>
+    <string name="operator_reports_hide_handled">عرض البلاغات بانتظار المعالجة فقط</string>
+    <string name="operator_reports_reply">الرد المُبلَّغ عنه</string>
+    <string name="operator_reports_asked">رسالة المستخدم قبله مباشرة</string>
+    <string name="operator_reports_comment">التعليق</string>
+    <string name="operator_reports_meta">%1$s · %2$s · التطبيق %3$s</string>
+    <string name="operator_reports_mark">تعليم كمعالَج</string>
+    <string name="operator_reports_unmark">تعليم كغير معالَج</string>
+    <string name="operator_reports_handled">معالَج</string>
+    <string name="operator_reports_delete">حذف</string>
+    <string name="operator_reports_delete_confirm">حذف هذا البلاغ؟ لا يمكن التراجع عن ذلك.</string>
+    <string name="operator_reports_unknown">غير معروف</string>
+</resources>

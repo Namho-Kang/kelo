@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">本机</string>
+    <string name="device_row_sub">本机</string>
+    <string name="device_row_connect">连接</string>
+    <string name="device_connected">已连接</string>
+    <string name="device_needs_permission">需要权限</string>
+    <string name="device_calendar">日历</string>
+    <string name="device_contacts">通讯录</string>
+    <string name="device_messages">短信</string>
+    <string name="device_dialer">拨号界面</string>
+    <string name="device_notifications">通知</string>
+    <string name="device_call_log">通话记录</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">查看你的日程来回答。允许后，经你批准也可以添加日程。</string>
+    <string name="device_calendar_sends">把过去 7 天到未来 60 天的日程发送到你的服务器。</string>
+    <string name="device_contacts_does">按姓名查找电话和邮箱。只读。</string>
+    <string name="device_contacts_sends">把姓名、电话、邮箱、公司和职位、生日发送到你的服务器。</string>
+    <string name="device_messages_does">查找并阅读你收发的短信。只有经你批准才会发送。</string>
+    <string name="device_messages_sends">把最近的短信发送到你的服务器。</string>
+    <string name="device_dialer_does">经你批准后，打开电话应用并填好号码。拨打由你自己点。</string>
+    <string name="device_dialer_sends">不发送任何数据。</string>
+    <string name="device_notifications_does">从你收到的通知里找出需要的内容。</string>
+    <string name="device_notifications_sends">把应用名称、标题、内容和时间发送到你的服务器。7 天后删除。</string>
+    <string name="device_call_log_does">查找最近的通话。只读。</string>
+    <string name="device_call_log_sends">把过去 30 天的号码、姓名、通话类型、时间和时长发送到你的服务器。</string>
+    <string name="device_health_does">根据步数、睡眠等记录来回答。只读。</string>
+    <string name="device_health_sends">只在你打开应用时，把所选项目的每日摘要发送到你的服务器。</string>
+    <string name="device_switch">允许 Kelo 使用</string>
+    <string name="device_auto">自动保持同步 · %1$s</string>
+    <string name="device_auto_never">开启后立即发送，之后保持同步</string>
+    <string name="device_auto_foreground">每次打开应用时同步 · %1$s</string>
+    <string name="device_send_now">立即发送</string>
+    <string name="device_sending">正在发送…</string>
+    <string name="device_send_failed">发送失败，稍后会再试。</string>
+    <string name="device_off_failed">已关闭。服务器上剩余的内容会在下次连接时删除。</string>
+    <string name="device_denied">权限已关闭。在设置中允许后即可开启。</string>
+    <string name="device_open_settings">打开设置</string>
+    <string name="device_ready">已开启</string>
+    <plurals name="device_count_contacts">
+        <item quantity="other">%1$d 位联系人</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="other">%1$d 条短信</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="other">%1$d 次通话</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="other">%1$d 天的摘要</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="other">%1$d 条通知</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="other">%1$d 个日程</item>
+    </plurals>
+    <string name="device_cal_write">也允许添加和修改日程</string>
+    <string name="device_cal_write_line">每次都会先用批准卡片征求你的同意。</string>
+    <string name="device_cal_write_to">添加到哪个日历</string>
+    <string name="device_cal_none">没有可以修改的日历。</string>
+    <string name="device_cal_write_denied">日历写入权限已关闭。</string>
+    <string name="device_msg_window">发送多久以内的</string>
+    <string name="device_days">%1$d 天</string>
+    <string name="device_msg_send">允许发送短信</string>
+    <string name="device_msg_send_line">只有在你批准收件人和完整内容后，本机才会发送。</string>
+    <string name="device_msg_send_denied">发送短信的权限已关闭。</string>
+    <string name="device_notif_service_label">Kelo 通知读取</string>
+    <string name="device_notif_disclosure_title">要和 Kelo 共享通知吗？</string>
+    <string name="device_notif_disclosure">开启后，本机收到的通知的应用名称、标题、内容和时间会发送到你的 Kelo 服务器。智能体会用它们查找信息、回答你的问题。常驻通知、Kelo 自己的通知以及你排除的应用都不会发送。服务器会在 7 天后删除这些内容，你关闭时则立即删除。\n\n请在下一个界面中为 Kelo 开启通知使用权。</string>
+    <string name="device_agree">同意并继续</string>
+    <string name="device_decline">暂不</string>
+    <string name="device_notif_access_off">通知使用权已关闭。</string>
+    <string name="device_notif_exclude">不发送的应用</string>
+    <string name="device_notif_exclude_empty">给你发过通知的应用会显示在这里。</string>
+    <string name="device_health_types">共享哪些项目</string>
+    <string name="device_health_steps">步数</string>
+    <string name="device_health_sleep">睡眠</string>
+    <string name="device_health_heart">心率</string>
+    <string name="device_health_weight">体重</string>
+    <string name="device_health_exercise">锻炼</string>
+    <string name="device_health_missing">本机没有 Health Connect。</string>
+    <string name="device_health_install">安装 Health Connect</string>
+    <string name="device_health_denied">所选项目没有权限，请重新允许。</string>
+    <string name="device_health_allow">允许</string>
+    <string name="device_health_rationale_title">Kelo 如何使用你的健康记录</string>
+    <string name="device_health_rationale">Kelo 只读取你所选项目（步数、睡眠、心率、体重、锻炼）的每日摘要，并发送到你自己的 Kelo 服务器。这些数据只在智能体回答你的问题时使用，绝不用于广告或出售。Kelo 只读取，从不向 Health Connect 写入数据。关闭后会删除服务器上的摘要。</string>
+    <string name="device_privacy_policy">隐私政策</string>
+    <string name="device_dial_title">呼叫 %1$s</string>
+    <string name="device_dial_body">点按打开电话应用，由你自己拨打。</string>
+    <string name="device_sms_failed_title">短信发送失败</string>
+</resources>

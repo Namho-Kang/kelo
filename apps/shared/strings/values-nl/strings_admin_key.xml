@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Ook uitgaven en saldo bekijken</string>
+    <string name="admin_key_title">Beheerderssleutel voor uitgaven en saldo</string>
+    <string name="admin_key_safety">Bewaard in de sleutelcontainer op je server, niet door Kelo zelf, en alleen gebruikt om uitgaven en saldo te lezen.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (alleen-lezen is voldoende).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (alleen organisatie-accounts).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Opslaan</string>
+    <string name="admin_key_saved">Opgeslagen. Uitgaven worden hieronder weergegeven.</string>
+    <string name="admin_key_refused">De provider heeft deze sleutel geweigerd. Controleer of het een beheerderssleutel is.</string>
+    <string name="admin_key_keyring_off">Deze server bewaart geen beheerderssleutels (de sleutelcontainer staat uit).</string>
+    <string name="admin_key_failed">Kon de sleutel niet opslaan. Probeer het zo opnieuw.</string>
+    <string name="admin_key_set">Beheerderssleutel …%1$s</string>
+    <string name="admin_key_remove">Verwijderen</string>
+    <string name="admin_key_remove_q">Beheerderssleutel verwijderen? Uitgaven en saldo worden niet meer weergegeven.</string>
+    <string name="my_privacy_keyring">Ingevoerde sleutels van AI-providers (en beheerderssleutels, indien toegevoegd) worden bewaard door een afzonderlijke sleutelcontainer op je server, niet door Kelo zelf; Kelo verzoekt om elke aanroep en de sleutel wordt alleen meegestuurd naar het eigen adres van die provider.</string>
+</resources>

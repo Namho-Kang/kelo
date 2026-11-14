@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Nettoyer</string>
+    <string name="storage_cleanup_title">Nettoyer le stockage</string>
+    <string name="storage_warn">Le stockage de Kelo est plein à %1$d %%.</string>
+    <string name="storage_critical">Le stockage de Kelo est presque plein (%1$d %%). Une fois plein, aucun nouveau fichier ne pourra être enregistré, mais les discussions continuent.</string>
+    <string name="storage_host_low">Le disque de l’ordinateur où tourne le serveur Kelo est presque plein (%1$s restants). Une fois plein, Kelo cesse de fonctionner, discussions comprises.</string>
+    <string name="storage_top">Ce qui prend le plus de place : %1$s (%2$s).</string>
+    <string name="storage_row_warn">Plein à %1$d %%</string>
+    <string name="storage_row_critical">Presque plein</string>
+    <string name="storage_row_host">Disque presque plein</string>
+    <string name="storage_cleanup_intro">Ces éléments peuvent être supprimés sans risque. Les notes, la mémoire et l’historique des discussions n’apparaissent jamais ici.</string>
+    <string name="storage_group_uploads">Originaux d’envois anciens</string>
+    <string name="storage_group_uploads_desc">Fichiers envoyés il y a plus de %1$d jours. Seul l’original est supprimé ; le texte que Kelo a lu dans un document reste.</string>
+    <string name="storage_group_images">Images générées</string>
+    <string name="storage_group_images_desc">Images créées par Kelo. Les anciens messages qui les affichaient n’afficheront plus rien.</string>
+    <string name="storage_group_browser">Captures des étapes du navigateur</string>
+    <string name="storage_group_browser_desc">Captures de chaque étape du navigateur pour les tâches lancées toutes seules.</string>
+    <string name="storage_group_results">Anciens résultats et corbeille</string>
+    <string name="storage_group_results_desc">Résultats de plus de %1$d jours et tout ce qui est dans la corbeille.</string>
+    <string name="storage_group_backups">Sauvegardes plus anciennes</string>
+    <string name="storage_group_backups_desc">Les sauvegardes les plus récentes sont toujours conservées.</string>
+    <string name="storage_item_text_kept">Texte conservé</string>
+    <string name="storage_item_trashed">Dans la corbeille</string>
+    <string name="storage_backup_update">Avant une mise à jour du serveur</string>
+    <string name="storage_backup_memory">Rangement de la mémoire</string>
+    <string name="storage_backup_migration">Ancienne organisation</string>
+    <string name="storage_selected">Sélection : %1$d (%2$s)</string>
+    <string name="storage_delete_button">Supprimer</string>
+    <string name="storage_confirm_title">Supprimer définitivement les éléments sélectionnés ?</string>
+    <string name="storage_confirm_body">Cela libère %1$s. Les éléments supprimés ne peuvent pas être récupérés.</string>
+    <string name="storage_deleted">%1$s libérés.</string>
+    <string name="storage_skipped">Certains éléments avaient déjà changé : ils ont été laissés tels quels.</string>
+    <string name="storage_nothing">Rien à nettoyer pour l’instant.</string>
+    <string name="storage_owner_only">Seul le propriétaire du serveur peut nettoyer.</string>
+    <string name="storage_load_failed">Impossible de charger ce qui peut être nettoyé.</string>
+    <string name="storage_delete_failed">Suppression impossible. Réessayez.</string>
+    <string name="storage_notify">Le stockage se remplit</string>
+</resources>

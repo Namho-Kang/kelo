@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="perm_title">What Kelo may do</string>
+    <string name="perm_about">Allow: no card. Ask: a card every time. Off: Kelo doesn\'t do it. Payments and sign-ups always ask.</string>
+    <string name="perm_kind_read">Read</string>
+    <string name="perm_kind_change">Change</string>
+    <string name="perm_kind_send">Send</string>
+    <string name="perm_kind_delete">Delete</string>
+    <string name="perm_allow">Allow</string>
+    <string name="perm_ask">Ask</string>
+    <string name="perm_off">Off</string>
+    <string name="perm_default_is">Default: %1$s</string>
+    <string name="perm_changed_from">Default is %1$s</string>
+    <string name="perm_actions_more">%1$d single actions</string>
+    <string name="perm_reset">Back to the defaults</string>
+    <string name="perm_reset_q">Put every setting of this connector back to the defaults?</string>
+    <string name="perm_read_off_q">With reading off, Kelo can\'t use this connector for most things. Turn it off?</string>
+    <string name="perm_limited">Limited</string>
+</resources>

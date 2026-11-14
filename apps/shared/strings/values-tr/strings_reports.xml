@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Bildir</string>
+    <string name="report_title">Bu yanıtı bildir</string>
+    <string name="report_intro">Bu yanıt üzücü ya da yanlışsa Kelo geliştiricisine haber ver. Yalnızca Kelo\'yu daha güvenli yapmak için kullanılır.</string>
+    <string name="report_reason_label">Sorun neydi?</string>
+    <string name="report_reason_harmful">Üzücü ya da zararlı</string>
+    <string name="report_reason_inaccurate">Doğru bilgi değil</string>
+    <string name="report_reason_privacy">Kişisel bilgileri açığa çıkarıyor</string>
+    <string name="report_reason_other">Başka bir şey</string>
+    <string name="report_comment_hint">Eklemek istediğin bir şey var mı? (isteğe bağlı)</string>
+    <string name="report_include_asked">Hemen önce gönderdiğim mesajı da gönder</string>
+    <string name="report_sent_title">Kelo geliştiricisine gidenler</string>
+    <string name="report_sent_reply">Bildirdiğin yanıt</string>
+    <string name="report_sent_asked">Hemen önce gönderdiğin mesaj</string>
+    <string name="report_sent_reason">Seçtiğin neden ve yorumların</string>
+    <string name="report_sent_model">Yanıtı yazan modelin adı</string>
+    <string name="report_sent_version">Kelo uygulama sürümü</string>
+    <string name="report_sent_not">Sohbetlerinden başka hiçbir şey ve hiçbir hesap bilgisi gönderilmez. Bildirimler 1 yıl saklanır, sonra silinir; istersen daha erken.</string>
+    <string name="report_send">Bildirimi gönder</string>
+    <string name="report_sending">Gönderiliyor…</string>
+    <string name="report_failed_offline">Sunucuna ulaşılamadı. Yazdıkların hâlâ burada; biraz sonra tekrar göndermeyi dene.</string>
+    <string name="report_thanks">Bildirim gönderildi. Haber verdiğin için teşekkürler.</string>
+    <string name="operator_section_reports">Gelen bildirimler</string>
+    <string name="operator_reports_note">Kullanıcıların uygulamadan bildirdiği yanıtlar. 1 yıl sonra otomatik olarak silinir.</string>
+    <string name="operator_reports_not_receiving">Bu sunucu bildirim almıyor. Bu sunucudan gönderilen bildirimler Kelo geliştiricisinin sunucusuna gider.</string>
+    <string name="operator_reports_empty">Henüz bildirim yok.</string>
+    <string name="operator_reports_open">İlgilenilecek bildirim: %1$d</string>
+    <string name="operator_reports_show_handled">İlgilenilenleri de göster</string>
+    <string name="operator_reports_hide_handled">Yalnızca ilgilenilecekleri göster</string>
+    <string name="operator_reports_reply">Bildirilen yanıt</string>
+    <string name="operator_reports_asked">Kullanıcının hemen önceki mesajı</string>
+    <string name="operator_reports_comment">Yorum</string>
+    <string name="operator_reports_meta">%1$s · %2$s · Uygulama %3$s</string>
+    <string name="operator_reports_mark">İlgilenildi olarak işaretle</string>
+    <string name="operator_reports_unmark">İlgilenilmedi olarak işaretle</string>
+    <string name="operator_reports_handled">İlgilenildi</string>
+    <string name="operator_reports_delete">Sil</string>
+    <string name="operator_reports_delete_confirm">Bu bildirim silinsin mi? Bu geri alınamaz.</string>
+    <string name="operator_reports_unknown">Bilinmiyor</string>
+</resources>

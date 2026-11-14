@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Zobacz także wydatki i saldo</string>
+    <string name="admin_key_title">Klucz administratora do wydatków i salda</string>
+    <string name="admin_key_safety">Przechowywany w kontenerze kluczy na twoim serwerze, a nie przez samo Kelo, i używany wyłącznie do odczytu wydatków i salda.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (wystarczy tylko do odczytu).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (tylko konta organizacji).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Zapisz</string>
+    <string name="admin_key_saved">Zapisano. Wydatki są widoczne poniżej.</string>
+    <string name="admin_key_refused">Dostawca odrzucił ten klucz. Sprawdź, czy jest to klucz administratora.</string>
+    <string name="admin_key_keyring_off">Ten serwer nie przechowuje kluczy administratora (kontener kluczy jest wyłączony).</string>
+    <string name="admin_key_failed">Nie udało się zapisać klucza. Spróbuj ponownie za chwilę.</string>
+    <string name="admin_key_set">Klucz administratora …%1$s</string>
+    <string name="admin_key_remove">Usuń</string>
+    <string name="admin_key_remove_q">Usunąć klucz administratora? Wydatki i saldo przestaną być widoczne.</string>
+    <string name="my_privacy_keyring">Wprowadzone klucze dostawców AI (oraz klucze administratora, jeśli je dodasz) są przechowywane w osobnym kontenerze kluczy na twoim serwerze, a nie przez samo Kelo. Kelo zleca mu wykonanie każdego wywołania, a klucz jest dołączany wyłącznie do adresu danego dostawcy.</string>
+</resources>

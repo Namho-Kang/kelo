@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">จ่ายเองภายในวงเงินของคุณ</string>
+    <string name="wallet_tag_asks">ถามทุกครั้ง</string>
+    <string name="wallet_reason_not_auto">บัตรนี้บันทึกไว้ให้ถามทุกครั้ง</string>
+    <string name="wallet_reason_no_server_copy">เซิร์ฟเวอร์ไม่มีสำเนาบัตรนี้สำหรับการจ่ายอัตโนมัติ</string>
+    <string name="wallet_reason_paused">การจ่ายอัตโนมัติหยุดชั่วคราวสำหรับทุกบัตร</string>
+    <string name="wallet_reason_vault_locked">พวงกุญแจถูกล็อกไม่ให้เอเจนต์ใช้</string>
+    <string name="wallet_auto_turn_on_card">เปิดการจ่ายอัตโนมัติสำหรับบัตรนี้</string>
+    <string name="wallet_first_site_rule">แม้เปิดการจ่ายอัตโนมัติ การจ่ายครั้งแรกในเว็บไซต์ใหม่จะถามหนึ่งครั้ง และการจ่ายที่เกินวงเงินก็จะถามเช่นกัน</string>
+    <string name="wallet_auto_none_value">ไม่มีบัตรที่จ่ายอัตโนมัติ</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="other">บัตรที่จ่ายอัตโนมัติ %d ใบ</item>
+    </plurals>
+    <string name="wallet_auto_none_note">ยังไม่มีบัตรที่จ่ายเอง ทุกการจ่ายจึงถามในโทรศัพท์นี้ หากต้องการเปลี่ยน ให้เปิดบัตรแล้วเปิดการจ่ายอัตโนมัติ</string>
+    <string name="wallet_schedule_section">กำหนดการที่ซื้อเอง</string>
+    <string name="grant_section_title">อนุญาตโดยไม่ต้องถาม</string>
+    <string name="grant_section_note">อนุญาตครั้งเดียวตอนตั้งค่า ยอดที่สูงขึ้น เว็บไซต์หรือสินค้าอื่น และการเปลี่ยนบัญชียังคงถาม</string>
+    <string name="grant_login_title">ลงชื่อเข้าใช้ด้วย %1$s</string>
+    <string name="grant_login_site">บน %1$s</string>
+    <string name="grant_purchase_title">ซื้อ %1$s</string>
+    <string name="grant_purchase_cap">บน %1$s · ไม่เกิน %2$s ต่อครั้ง %3$s ต่อเดือน</string>
+    <string name="grant_spent">เดือนนี้: %1$s</string>
+    <string name="grant_for_schedule">สำหรับ “%1$s”</string>
+    <string name="grant_revoke">เพิกถอน</string>
+    <string name="grant_revoke_confirm">เพิกถอนการอนุญาตนี้ไหม การทำงานแต่ละครั้งจะถามอีก</string>
+    <string name="grant_login_section">กำหนดการที่ใช้การเข้าสู่ระบบนี้โดยไม่ต้องถาม</string>
+</resources>

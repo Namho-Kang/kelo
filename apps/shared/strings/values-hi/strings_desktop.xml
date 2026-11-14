@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text only the desktop app has (hi). See values/strings_desktop.xml. -->
+<resources>
+    <string name="desktop_pair_step2">दिखाया गया लिंक कॉपी करें और नीचे पेस्ट करें।</string>
+    <string name="desktop_tray_open">Kelo खोलें</string>
+    <string name="desktop_tray_quit">Kelo बंद करें</string>
+    <string name="desktop_tray_stop">रोकें: %1$s</string>
+    <string name="desktop_still_running">Kelo सिस्टम ट्रे में चलता रहता है और जब किसी चीज़ को आपकी ज़रूरत हो तो बताता है।</string>
+    <string name="desktop_section">यह डिवाइस</string>
+    <string name="desktop_start_at_login">साइन इन करने पर Kelo शुरू करें</string>
+    <string name="desktop_start_at_login_hint">Kelo चुपचाप ट्रे में खुलता है, ताकि विंडो खोलने से पहले भी सूचनाएँ मिलें।</string>
+    <string name="desktop_start_at_login_store">इसे Windows सेटिंग्स → ऐप्स → स्टार्टअप में चालू या बंद करें।</string>
+    <string name="desktop_start_at_login_unavailable">इंस्टॉल किए गए ऐप में उपलब्ध है।</string>
+    <string name="desktop_keep_in_tray">विंडो बंद होने पर ट्रे में चलते रहें</string>
+    <string name="desktop_notifications">डेस्कटॉप सूचनाएँ</string>
+    <string name="desktop_notifications_hint">विंडो छिपी रहने के दौरान पूरे हुए जवाब, आपकी मंज़ूरी का इंतज़ार कर रहे काम, और जब Kelo पहले से बताए तब की खबरें।</string>
+    <string name="desktop_reduce_motion">गति कम करें</string>
+    <string name="desktop_theme">रूप</string>
+    <string name="desktop_theme_system">सिस्टम जैसा</string>
+    <string name="desktop_theme_light">हल्का</string>
+    <string name="desktop_theme_dark">गहरा</string>
+    <string name="desktop_drop_here">%1$s को भेजने के लिए फ़ाइलें यहाँ छोड़ें</string>
+    <string name="desktop_attach_files">फ़ाइलें जोड़ें (हर फ़ाइल 100 MB तक)</string>
+    <string name="desktop_enter_hint">भेजने के लिए Enter · नई पंक्ति के लिए Shift+Enter</string>
+    <string name="desktop_logout_confirm">इस डिवाइस पर लॉग आउट करें? दोबारा इस्तेमाल करने के लिए सर्वर से फिर से शुरू से जुड़ना होगा।</string>
+    <string name="desktop_version">डेस्कटॉप के लिए Kelo %1$s</string>
+    <string name="desktop_open_settings">सेटिंग्स खोलें</string>
+    <string name="desktop_sign_in_browser">ब्राउज़र में साइन इन करें</string>
+    <string name="desktop_browser_opened">साइन-इन पेज आपके ब्राउज़र में खुल गया है। पूरा होने पर यहाँ लौटें।</string>
+    <string name="desktop_chooser_setup_hint">अभी कोई AI सेवा तैयार नहीं है। नीचे से एक चुनें और उसकी कुंजी या पता जोड़ें, या साइन इन करें।</string>
+    <string name="desktop_chooser_setup_title">सेवा सेट करें</string>
+    <string name="desktop_update_quit_note">इंस्टॉलर खुल गया है। इंस्टॉल होने तक Kelo बंद रखें, फिर Kelo दोबारा खोलें।</string>
+    <string name="desktop_update_open_failed">इंस्टॉलर नहीं खुल सका। यह %1$s पर सहेजा गया है।</string>
+    <string name="desktop_e2e_on">रास्ते में आपकी बातचीत सिर्फ़ यह डिवाइस और आपका सर्वर पढ़ सकते हैं।</string>
+    <string name="desktop_e2e_not_verified_body">इसे सर्वर मशीन पर `assistant phone fingerprint` द्वारा दिखाए गए फ़िंगरप्रिंट से मिलाएँ, या एक बार कनेक्शन लिंक पेस्ट करें।</string>
+    <string name="desktop_e2e_verify_paste">लिंक से सत्यापित करें</string>
+    <string name="desktop_e2e_paste_hint">कनेक्शन लिंक पेस्ट करें (https://…/#pair=…)</string>
+    <string name="desktop_e2e_verify_mismatch">इस लिंक में अलग कुंजी है। अगर सर्वर की कुंजी बदली गई है, तो इस डिवाइस को फिर से कनेक्ट करें।</string>
+    <string name="desktop_e2e_verify_no_key">इस लिंक में कोई कुंजी नहीं है। अपडेट किए गए सर्वर से नया लिंक बनाएँ।</string>
+    <string name="desktop_e2e_key_changed_body">आपके Kelo सर्वर की एन्क्रिप्शन कुंजी बदल गई है, इसलिए यह डिवाइस जाँच नहीं सकता कि यह सच में आपका सर्वर है। किसी दूसरे डिवाइस पर मेरा → मेरे डिवाइस से या सर्वर मशीन से नया कनेक्शन लिंक पेस्ट करें।</string>
+    <string name="desktop_location_on_phone">यह कंप्यूटर आपकी जगह साझा नहीं कर सकता। अपने फ़ोन पर Kelo खोलकर वहाँ से लोकेशन साझा करें, या अभी नहीं चुनें।</string>
+    <string name="desktop_keyguard_locked_body">जब तक आप फ़ोन पर Kelo खोलकर उसे अनलॉक नहीं करते, आपके पासवर्ड, कुंजियाँ और कार्ड बंद रहेंगे। इस कंप्यूटर के पास कुंजी नहीं है।</string>
+</resources>

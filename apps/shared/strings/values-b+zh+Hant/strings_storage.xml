@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">清理</string>
+    <string name="storage_cleanup_title">清理儲存空間</string>
+    <string name="storage_warn">Kelo 儲存空間已使用 %1$d%%。</string>
+    <string name="storage_critical">Kelo 儲存空間快滿了(%1$d%%)。滿了以後無法儲存新檔案,但聊天可以繼續。</string>
+    <string name="storage_host_low">執行 Kelo 伺服器的電腦磁碟快滿了(剩餘 %1$s)。滿了以後 Kelo 會停止運作,包括聊天。</string>
+    <string name="storage_top">佔用最多的是:%1$s(%2$s)。</string>
+    <string name="storage_row_warn">已使用 %1$d%%</string>
+    <string name="storage_row_critical">快滿了</string>
+    <string name="storage_row_host">磁碟不足</string>
+    <string name="storage_cleanup_intro">這些內容可以放心刪除。筆記、記憶和聊天記錄不會出現在這裡。</string>
+    <string name="storage_group_uploads">舊的上傳原始檔</string>
+    <string name="storage_group_uploads_desc">%1$d 天前上傳的檔案。只刪除原始檔,Kelo 從文件中讀取的文字會保留。</string>
+    <string name="storage_group_images">產生的圖片</string>
+    <string name="storage_group_images_desc">Kelo 產生的圖片。以前顯示這些圖片的聊天將不再顯示。</string>
+    <string name="storage_group_browser">瀏覽器操作畫面</string>
+    <string name="storage_group_browser_desc">自動執行的任務中每一步瀏覽器操作的畫面。</string>
+    <string name="storage_group_results">舊的成果與垃圾桶</string>
+    <string name="storage_group_results_desc">超過 %1$d 天的成果以及垃圾桶裡的全部內容。</string>
+    <string name="storage_group_backups">較早的備份</string>
+    <string name="storage_group_backups_desc">最新的備份一律保留。</string>
+    <string name="storage_item_text_kept">文字保留</string>
+    <string name="storage_item_trashed">在垃圾桶</string>
+    <string name="storage_backup_update">伺服器更新前</string>
+    <string name="storage_backup_memory">記憶整理</string>
+    <string name="storage_backup_migration">舊版結構</string>
+    <string name="storage_selected">已選 %1$d 項(%2$s)</string>
+    <string name="storage_delete_button">刪除</string>
+    <string name="storage_confirm_title">要永久刪除選取的項目嗎?</string>
+    <string name="storage_confirm_body">將騰出 %1$s。刪除後無法復原。</string>
+    <string name="storage_deleted">已騰出 %1$s。</string>
+    <string name="storage_skipped">部分項目已經變更,因此保持原樣。</string>
+    <string name="storage_nothing">目前沒有可清理的內容。</string>
+    <string name="storage_owner_only">只有伺服器的主人可以清理。</string>
+    <string name="storage_load_failed">無法載入可清理的內容。</string>
+    <string name="storage_delete_failed">刪除失敗,請再試一次。</string>
+    <string name="storage_notify">儲存空間快滿了</string>
+</resources>

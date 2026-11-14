@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo потрібне ваше місцеперебування</string>
+    <string name="location_ask_body">Щоб відповісти, Kelo має знати, де зараз цей телефон.</string>
+    <string name="location_ask_private">Воно надсилається лише на ваш сервер.</string>
+    <string name="location_ask_share">Надіслати місцеперебування</string>
+    <string name="location_ask_not_now">Не зараз</string>
+    <string name="location_ask_settings">Відкрити налаштування</string>
+    <string name="location_ask_settings_hint">Доступ до місцеперебування для Kelo вимкнено. Увімкніть його в налаштуваннях і поверніться сюди.</string>
+    <string name="location_services_off">Місцеперебування на цьому телефоні вимкнено. Увімкніть його в налаштуваннях і поверніться сюди.</string>
+    <string name="location_ask_reading">Визначаємо місцеперебування…</string>
+    <string name="location_ask_shared">Місцеперебування надіслано</string>
+    <string name="location_ask_refused">Місцеперебування не надіслано</string>
+    <string name="location_ask_expired">Термін запиту минув</string>
+    <string name="location_ask_unavailable">Телефон не зміг визначити, де він. Перевірте, чи ввімкнено геолокацію.</string>
+    <string name="chat_attached_file">Вкладений файл</string>
+</resources>

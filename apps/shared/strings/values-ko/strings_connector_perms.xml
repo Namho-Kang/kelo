@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Kelo가 할 수 있는 일</string>
+    <string name="perm_about">허용: 묻지 않고 해요. 묻기: 매번 승인 카드를 보내요. 끔: 하지 않아요. 결제와 가입은 항상 물어봐요.</string>
+    <string name="perm_kind_read">읽기</string>
+    <string name="perm_kind_change">바꾸기</string>
+    <string name="perm_kind_send">보내기</string>
+    <string name="perm_kind_delete">지우기</string>
+    <string name="perm_allow">허용</string>
+    <string name="perm_ask">묻기</string>
+    <string name="perm_off">끔</string>
+    <string name="perm_default_is">기본: %1$s</string>
+    <string name="perm_changed_from">기본값은 %1$s</string>
+    <string name="perm_actions_more">세부 동작 %1$d개</string>
+    <string name="perm_reset">기본값으로 되돌리기</string>
+    <string name="perm_reset_q">이 커넥터의 설정을 모두 기본값으로 되돌릴까요?</string>
+    <string name="perm_read_off_q">읽기를 끄면 Kelo가 이 커넥터를 거의 쓸 수 없어요. 끌까요?</string>
+    <string name="perm_limited">제한됨</string>
+</resources>

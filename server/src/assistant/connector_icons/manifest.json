@@ -1,0 +1,1219 @@
+{
+ "connectors": {
+  "actual_budget": "actual_budget",
+  "adguard_home": "adguard_home",
+  "agoda": "agoda",
+  "ahrefs": "ahrefs",
+  "airtable": "airtable",
+  "amplitude": "amplitude",
+  "apify": "apify",
+  "apollo": "apollo",
+  "apple_healthkit": "apple_health",
+  "asana": "asana",
+  "atlassian": "atlassian",
+  "attio": "attio",
+  "baemin": "baemin",
+  "basecamp": "basecamp",
+  "beehiiv": "beehiiv",
+  "beszel": "beszel",
+  "betterstack": "betterstack",
+  "bitly": "bitly",
+  "box": "box",
+  "brex": "brex",
+  "buildkite": "buildkite",
+  "caldav_calendar": "kelo_calendar",
+  "calendly": "calendly",
+  "canva": "canva",
+  "clickhouse": "clickhouse",
+  "clickup": "clickup",
+  "close": "close",
+  "cloudflare_observability": "cloudflare",
+  "cloudflare_workers": "cloudflare",
+  "cloudinary": "cloudinary",
+  "coinmarketcap": "coinmarketcap",
+  "contentful": "contentful",
+  "coupang": "coupang",
+  "customer_io": "customer_io",
+  "daangn": "daangn",
+  "datadog": "datadog",
+  "deepl": "deepl",
+  "descript": "descript",
+  "digitalocean": "digitalocean",
+  "dropbox": "dropbox",
+  "egnyte": "egnyte",
+  "elevenlabs": "elevenlabs",
+  "evernote": "evernote",
+  "exa": "exa",
+  "expedia": "expedia",
+  "expo": "expo",
+  "facebook_cli": "facebook",
+  "fathom": "fathom",
+  "figma": "figma",
+  "firecrawl": "firecrawl",
+  "fireflies": "fireflies",
+  "firefly_iii": "firefly_iii",
+  "forgejo": "forgejo",
+  "framer": "framer",
+  "freshbooks": "freshbooks",
+  "freshrss": "freshrss",
+  "frigate": "frigate",
+  "gitea": "gitea",
+  "github": "github",
+  "gitlab": "gitlab",
+  "gmail": "gmail",
+  "google_calendar": "google_calendar",
+  "google_contacts": "google_contacts",
+  "google_docs": "google_docs",
+  "google_drive": "google_drive",
+  "google_forms": "google_forms",
+  "google_health_connect": "health_connect",
+  "google_sheets": "google_sheets",
+  "google_slides": "google_slides",
+  "google_tasks": "google_tasks",
+  "grab_mcp": "grab",
+  "grafana_cloud": "grafana",
+  "greenhouse": "greenhouse",
+  "grocy": "grocy",
+  "home_assistant": "home_assistant",
+  "hugging_face": "hugging_face",
+  "ibkr": "ibkr",
+  "imap_email": "kelo_mail",
+  "immich": "immich",
+  "incident_io": "incident_io",
+  "instacart": "instacart",
+  "instagram": "instagram",
+  "jotform": "jotform",
+  "kakao": "kakao_map",
+  "karakeep": "karakeep",
+  "kit": "kit",
+  "krisp": "krisp",
+  "launchdarkly": "launchdarkly",
+  "linear": "linear",
+  "linkwarden": "linkwarden",
+  "lucid": "lucid",
+  "mailerlite": "mailerlite",
+  "make": "make",
+  "mapbox": "mapbox",
+  "mealie": "mealie",
+  "mentimeter": "mentimeter",
+  "mercury": "mercury",
+  "meta_catalog_search": "facebook",
+  "metricool": "metricool",
+  "miniflux": "miniflux",
+  "mintlify": "mintlify",
+  "miro": "miro",
+  "mixpanel": "mixpanel",
+  "monday": "monday",
+  "mongodb_atlas": "mongodb",
+  "motherduck": "motherduck",
+  "n8n": "n8n",
+  "n8n_mcp": "n8n",
+  "naver": "naver",
+  "neon": "neon",
+  "netlify": "netlify",
+  "nextcloud": "nextcloud",
+  "notion": "notion",
+  "opentable": "opentable",
+  "otter": "otter",
+  "outlook_calendar": "outlook",
+  "outlook_contacts": "outlook",
+  "outlook_mail": "outlook",
+  "pandadoc": "pandadoc",
+  "paperless": "paperless",
+  "paypal": "paypal",
+  "philips_hue": "philips_hue",
+  "pihole": "pihole",
+  "places": "kelo_place",
+  "planetscale": "planetscale",
+  "posthog": "posthog",
+  "postman": "postman",
+  "prisma": "prisma",
+  "pulumi": "pulumi",
+  "quickbooks": "quickbooks",
+  "railway": "railway",
+  "ramp": "ramp",
+  "read_ai": "read_ai",
+  "resend": "resend",
+  "restream": "restream",
+  "sanity": "sanity",
+  "sentry": "sentry",
+  "shop-pay": "shop",
+  "shopback_mcp": "shopback",
+  "shopify": "shopify",
+  "shopify-ucp": "shopify",
+  "slack": "slack",
+  "spotify": "spotify",
+  "stripe": "stripe",
+  "stripe-link": "link",
+  "supabase": "supabase",
+  "superhuman_docs": "superhuman",
+  "superhuman_mail": "superhuman",
+  "tandoor": "tandoor",
+  "tavily": "tavily",
+  "ticketmaster": "ticketmaster",
+  "ticktick": "ticktick",
+  "tiktok_ads": "tiktok",
+  "tldv": "tldv",
+  "todoist": "todoist",
+  "toss": "toss",
+  "trello": "trello",
+  "typefully": "typefully",
+  "uptime_kuma": "uptime_kuma",
+  "v0": "v0",
+  "vercel": "vercel",
+  "wallabag": "wallabag",
+  "webflow": "webflow",
+  "webull": "webull",
+  "wise": "wise",
+  "wix": "wix",
+  "wordpress_com": "wordpress_com",
+  "workable": "workable",
+  "workos": "workos",
+  "zapier": "zapier",
+  "zoho_books": "zoho_books",
+  "zoho_crm": "zoho_crm",
+  "zoho_desk": "zoho_desk",
+  "zoho_projects": "zoho_projects",
+  "zoho_show": "zoho_show",
+  "zoom": "zoom"
+ },
+ "icons": {
+  "actual_budget": {
+   "color": "#8F6DDA",
+   "fetched": "2026-11-11",
+   "page": "https://actualbudget.org/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/actual-budget.png"
+  },
+  "adguard_home": {
+   "color": "#72BC7F",
+   "fetched": "2026-11-11",
+   "page": "https://adguard.com/adguard-home.html",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/adguard-home.png"
+  },
+  "agoda": {
+   "color": "#545454",
+   "fetched": "2026-11-10",
+   "page": "https://www.agoda.com/press/agoda-logo-guidelines/",
+   "source": "https://www.agoda.com/press/wp-content/uploads/2025/05/agoda_mainlogo_stack_positive_ai_Main-Logo.png"
+  },
+  "ahrefs": {
+   "color": "#3C54FC",
+   "fetched": "2026-11-08",
+   "page": "https://ahrefs.com/",
+   "source": "https://static.ahrefs.com/android-chrome-512x512.png"
+  },
+  "airtable": {
+   "color": "#0C0C0C",
+   "fetched": "2026-11-10",
+   "page": "https://airtable.com/login",
+   "source": "https://airtable.com/images/favicon/baymax/favicon.svg"
+  },
+  "amplitude": {
+   "color": "#246CFC",
+   "fetched": "2026-11-08",
+   "page": "https://amplitude.com/",
+   "source": "https://amplitude.com/nextjs-public/favicon/android-chrome-512x512.png"
+  },
+  "apify": {
+   "color": "#FC6C0C",
+   "fetched": "2026-11-08",
+   "page": "https://apify.com/",
+   "source": "https://apify.com/apple-icon.png?apple-icon.1qabm0kj8blk6.png?dpl=5aad914c20"
+  },
+  "apollo": {
+   "color": "#E4FC0C",
+   "fetched": "2026-11-08",
+   "page": "https://www.apollo.io/",
+   "source": "https://www.apollo.io/apple-icon.png?apple-icon.0-gy.9xjm.kcw.png"
+  },
+  "apple_health": {
+   "color": "#B4B4B4",
+   "fetched": "2026-11-10",
+   "page": "https://developer.apple.com/health-fitness/",
+   "source": "https://developer.apple.com/assets/elements/icons/healthkit/healthkit-96x96_2x.png"
+  },
+  "asana": {
+   "color": "#FC6C6C",
+   "fetched": "2026-11-10",
+   "page": "https://asana.com/",
+   "source": "https://assets.asana.biz/m/5f083bc48e06e1e2/original/asana-logo-1200x1200.png"
+  },
+  "atlassian": {
+   "color": "#2484FC",
+   "fetched": "2026-11-08",
+   "page": "https://www.atlassian.com/",
+   "source": "https://www.atlassian.com/apple-touch-icon.png"
+  },
+  "attio": {
+   "color": "#242424",
+   "fetched": "2026-11-10",
+   "page": "https://attio.com/brand",
+   "source": "https://a.storyblok.com/f/234930/8a6f825750/attio-logo-pack.zip"
+  },
+  "baemin": {
+   "color": "#0CE4CC",
+   "fetched": "2026-11-10",
+   "page": "https://www.baemin.com/",
+   "source": "https://www.baemin.com/_next/static/media/favicon-180x180.7697ba01.png"
+  },
+  "basecamp": {
+   "color": "#B4CCFC",
+   "fetched": "2026-11-08",
+   "page": "https://basecamp.com/",
+   "source": "https://basecamp.com/assets/images/general/apple-touch-icon.png"
+  },
+  "beehiiv": {
+   "color": "#B454CC",
+   "fetched": "2026-11-08",
+   "page": "https://www.beehiiv.com/",
+   "source": "https://beehiiv-marketing-images.s3.amazonaws.com/Redesign2023/favicon.png"
+  },
+  "beszel": {
+   "color": "#56A6C2",
+   "fetched": "2026-11-11",
+   "page": "https://beszel.dev/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/beszel.png"
+  },
+  "betterstack": {
+   "color": "#0C2424",
+   "fetched": "2026-11-08",
+   "page": "https://betterstack.com/",
+   "source": "https://betterstack.com/assets/favicon-64296699.png"
+  },
+  "bitly": {
+   "color": "#FC6C0C",
+   "fetched": "2026-11-10",
+   "page": "https://app.bitly.com/",
+   "source": "https://d1ayxb9ooonjts.cloudfront.net/web_sign_up_sign_in/013d731f-7dbe-454b-aa88-57fed7562fe9/images/favicon.svg"
+  },
+  "box": {
+   "color": "#0C6CCC",
+   "fetched": "2026-11-08",
+   "page": "https://www.box.com/",
+   "source": "https://www.box.com/apple-touch-icon.png?tnw396"
+  },
+  "brex": {
+   "color": "#3C240C",
+   "fetched": "2026-11-08",
+   "page": "https://www.brex.com/",
+   "source": "https://www.brex.com/apple-touch-icon.png"
+  },
+  "buildkite": {
+   "color": "#0CCC84",
+   "fetched": "2026-11-08",
+   "page": "https://buildkite.com/home/",
+   "source": "https://buildkite.com/_site/favicon.png"
+  },
+  "calendly": {
+   "color": "#549CFC",
+   "fetched": "2026-11-08",
+   "page": "https://calendly.com/",
+   "source": "https://calendly.com/media/favicon/icon-512x512.png"
+  },
+  "canva": {
+   "color": "#0CB4CC",
+   "fetched": "2026-11-08",
+   "page": "https://www.canva.com/",
+   "source": "https://static.canva.com/domain-assets/canva/static/images/android-192x192-2.png"
+  },
+  "clickhouse": {
+   "color": "#FCFC6C",
+   "fetched": "2026-11-08",
+   "page": "https://clickhouse.com/ko",
+   "source": "https://clickhouse.com/apple-icon.png?apple-icon.18ftzencg_4sl.png"
+  },
+  "clickup": {
+   "color": "#6C6CFC",
+   "fetched": "2026-11-08",
+   "page": "https://clickup.com/",
+   "source": "https://clickup.com/favicons/icon-512x512.png"
+  },
+  "close": {
+   "color": "#FCB40C",
+   "fetched": "2026-11-08",
+   "page": "https://close.com/",
+   "source": "https://close.com/apple-touch-icon.png"
+  },
+  "cloudflare": {
+   "color": "#FC540C",
+   "fetched": "2026-11-08",
+   "page": "https://www.cloudflare.com/",
+   "source": "https://www.cloudflare.com/favicon.ico"
+  },
+  "cloudinary": {
+   "color": "#3C54CC",
+   "fetched": "2026-11-08",
+   "page": "https://cloudinary.com/",
+   "source": "https://cloudinary-res.cloudinary.com/image/upload/f_auto,q_auto/c_scale,w_196/v1597183771/website/cloudinary_web_favicon.png"
+  },
+  "coinmarketcap": {
+   "color": "#2454B4",
+   "fetched": "2026-11-08",
+   "page": "https://coinmarketcap.com/",
+   "source": "https://s2.coinmarketcap.com/static/cloud/img/logo_512x512_1.png"
+  },
+  "contentful": {
+   "color": "#E45424",
+   "fetched": "2026-11-10",
+   "page": "https://www.contentful.com/",
+   "source": "https://www.contentful.com/android-chrome-192x192.png"
+  },
+  "coupang": {
+   "color": "#845424",
+   "fetched": "2026-11-10",
+   "page": "https://www.aboutcoupang.com/",
+   "source": "https://www.aboutcoupang.com/wp-content/uploads/2025/05/Coupang_Vector-300x300.png"
+  },
+  "customer_io": {
+   "color": "#B4FCB4",
+   "fetched": "2026-11-08",
+   "page": "https://customer.io/",
+   "source": "https://customer.io/web-app-manifest-512x512.png"
+  },
+  "daangn": {
+   "color": "#FC6C0C",
+   "fetched": "2026-11-08",
+   "page": "https://www.daangn.com/kr/",
+   "source": "https://www.daangn.com/_remix/favicon-ptbCteuu.png"
+  },
+  "datadog": {
+   "color": "#6C549C",
+   "fetched": "2026-11-08",
+   "page": "https://www.datadoghq.com/",
+   "source": "https://www.datadoghq.com/favicon.ico"
+  },
+  "daum": {
+   "color": "#2484FC",
+   "fetched": "2026-11-10",
+   "page": "https://www.daum.net/",
+   "source": "https://t1.daumcdn.net/top/favicon/20260220/daum192x192.png"
+  },
+  "deepl": {
+   "color": "#0C243C",
+   "fetched": "2026-11-08",
+   "page": "https://www.deepl.com/en",
+   "source": "https://www.deepl.com/favicon.ico?favicon.2q65ixsfts1dv.ico"
+  },
+  "descript": {
+   "color": "#6C243C",
+   "fetched": "2026-11-08",
+   "page": "https://www.descript.com/",
+   "source": "https://static-cdn.descript.com/web/icons/apple-touch-icon.png"
+  },
+  "digitalocean": {
+   "color": "#CACACA",
+   "fetched": "2026-11-08",
+   "page": "https://www.digitalocean.com/",
+   "source": "https://www.digitalocean.com/_do-www-marketing/25325f8e/_next/static/media/apple-touch-icon.9537f22a.png"
+  },
+  "dropbox": {
+   "color": "#0C6CFC",
+   "fetched": "2026-11-10",
+   "page": "https://brand.dropbox.com/",
+   "source": "https://cdn.prod.website-files.com/66c503d081b2f012369fc5d2/673385fd3198626bd743eb08_1024x1024bb%20(1).jpg"
+  },
+  "egnyte": {
+   "color": "#0C9C9C",
+   "fetched": "2026-11-08",
+   "page": "https://www.egnyte.com/",
+   "source": "https://www.egnyte.com/sites/default/files/2020-03/iPhone-6-Plus.png"
+  },
+  "elevenlabs": {
+   "color": "#ECECEC",
+   "fetched": "2026-11-08",
+   "page": "https://elevenlabs.io/",
+   "source": "https://elevenlabs.io/android-chrome-512x512.png"
+  },
+  "evernote": {
+   "color": "#0C9C24",
+   "fetched": "2026-11-08",
+   "page": "https://evernote.com/",
+   "source": "https://evernote.com/images/evernote-logo-ios.png"
+  },
+  "exa": {
+   "color": "#243CE4",
+   "fetched": "2026-11-08",
+   "page": "https://exa.ai/",
+   "source": "https://exa.ai/favicon.ico"
+  },
+  "expedia": {
+   "color": "#FCE43C",
+   "fetched": "2026-11-10",
+   "page": "https://www.expedia.com/",
+   "source": "https://www.expedia.com/_dms/header/logo.svg?locale=en_US&siteid=1"
+  },
+  "expo": {
+   "color": "#0C0C24",
+   "fetched": "2026-11-08",
+   "page": "https://expo.dev/",
+   "source": "https://expo.dev/static/brand/app-icon-512x512.png"
+  },
+  "facebook": {
+   "color": "#0C6CFC",
+   "fetched": "2026-11-10",
+   "page": "https://www.facebook.com/",
+   "source": "https://www.facebook.com/apple-touch-icon.png"
+  },
+  "fathom": {
+   "color": "#0CB4FC",
+   "fetched": "2026-11-08",
+   "page": "https://www.fathom.ai/",
+   "source": "https://cdn.prod.website-files.com/6899da9beccbdbe92be49b5d/6a4282cf5eaacfd4a9c45526_fathom_favicon.png"
+  },
+  "figma": {
+   "color": "#FC3C3C",
+   "fetched": "2026-11-08",
+   "page": "https://www.figma.com/",
+   "source": "https://static.figma.com/app/icon/2/icon-512.png"
+  },
+  "firecrawl": {
+   "color": "#FC540C",
+   "fetched": "2026-11-08",
+   "page": "https://www.firecrawl.dev/",
+   "source": "https://www.firecrawl.dev/apple-touch-icon.png"
+  },
+  "fireflies": {
+   "color": "#CC3C84",
+   "fetched": "2026-11-08",
+   "page": "https://fireflies.ai/",
+   "source": "https://fireflies.ai/icon.png?icon.3227koqampzl_.png"
+  },
+  "firefly_iii": {
+   "color": "#E39279",
+   "fetched": "2026-11-11",
+   "page": "https://www.firefly-iii.org/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/firefly-iii.png"
+  },
+  "forgejo": {
+   "color": "#E92D00",
+   "fetched": "2026-11-11",
+   "page": "https://forgejo.org/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/forgejo.png"
+  },
+  "framer": {
+   "color": "#343434",
+   "fetched": "2026-11-08",
+   "page": "https://www.framer.com/",
+   "source": "https://framerusercontent.com/images/aXvo6HfUhqvR7oFjFL8b4AcyGfg.png"
+  },
+  "freshbooks": {
+   "color": "#2F2F2F",
+   "fetched": "2026-11-08",
+   "page": "https://www.freshbooks.com/",
+   "source": "https://www.freshbooks.com/mask-icon.svg"
+  },
+  "freshrss": {
+   "color": "#0063C1",
+   "fetched": "2026-11-11",
+   "page": "https://freshrss.org/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/freshrss.png"
+  },
+  "frigate": {
+   "color": "#000000",
+   "fetched": "2026-11-11",
+   "page": "https://frigate.video/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/frigate.png"
+  },
+  "gitea": {
+   "color": "#79A947",
+   "fetched": "2026-11-11",
+   "page": "https://about.gitea.com/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/gitea.png"
+  },
+  "github": {
+   "color": "#696768",
+   "fetched": "2026-11-08",
+   "page": "https://github.com/",
+   "source": "https://github.com/apple-touch-icon.png"
+  },
+  "gitlab": {
+   "color": "#E43C24",
+   "fetched": "2026-11-08",
+   "page": "https://about.gitlab.com/",
+   "source": "https://about.gitlab.com/images/ico/favicon-192x192.png"
+  },
+  "gmail": {
+   "color": "#FC3C3C",
+   "fetched": "2026-11-08",
+   "page": "https://workspace.google.com/products/gmail/",
+   "source": "https://www.gstatic.com/images/branding/productlogos/gmail_2026/v2/web/192px.svg"
+  },
+  "google_calendar": {
+   "color": "#3C9CFC",
+   "fetched": "2026-11-08",
+   "page": "https://workspace.google.com/products/calendar/",
+   "source": "https://www.gstatic.com/images/branding/productlogos/calendar_2026/v2/web/192px.svg"
+  },
+  "google_contacts": {
+   "color": "#0C54CC",
+   "fetched": "2026-11-10",
+   "page": "https://contacts.google.com/",
+   "source": "https://ssl.gstatic.com/images/branding/product/1x/contacts_2022_512dp.png"
+  },
+  "google_docs": {
+   "color": "#549CFC",
+   "fetched": "2026-11-08",
+   "page": "https://workspace.google.com/products/docs/",
+   "source": "https://www.gstatic.com/images/branding/productlogos/docs_2026/v2/web/192px.svg"
+  },
+  "google_drive": {
+   "color": "#B4CCFC",
+   "fetched": "2026-11-08",
+   "page": "https://workspace.google.com/products/drive/",
+   "source": "https://www.gstatic.com/images/branding/productlogos/drive_2026/v2/web/192px.svg"
+  },
+  "google_forms": {
+   "color": "#6C6CFC",
+   "fetched": "2026-11-08",
+   "page": "https://workspace.google.com/products/forms/",
+   "source": "https://www.gstatic.com/images/branding/productlogos/forms_2026q3/v1/web/192px.svg"
+  },
+  "google_sheets": {
+   "color": "#6CCC9C",
+   "fetched": "2026-11-08",
+   "page": "https://workspace.google.com/products/sheets/",
+   "source": "https://www.gstatic.com/images/branding/productlogos/sheets_2026q3/v1/web/192px.svg"
+  },
+  "google_slides": {
+   "color": "#FCCC0C",
+   "fetched": "2026-11-08",
+   "page": "https://workspace.google.com/products/slides/",
+   "source": "https://www.gstatic.com/images/branding/productlogos/slides_2026/v2/web/192px.svg"
+  },
+  "google_tasks": {
+   "color": "#3C84FC",
+   "fetched": "2026-11-08",
+   "page": "https://workspace.google.com/products/tasks/",
+   "source": "https://www.gstatic.com/images/branding/productlogos/tasks_2026/v2/web/192px.svg"
+  },
+  "grab": {
+   "color": "#0CB454",
+   "fetched": "2026-11-08",
+   "page": "https://www.grab.com/sg/",
+   "source": "https://www.grab.com/favicon.ico"
+  },
+  "grafana": {
+   "color": "#FC5424",
+   "fetched": "2026-11-10",
+   "page": "https://play.grafana.org/",
+   "source": "https://grafana-assets.grafana.net/grafana/13.4.0-41983029144/public/build/img/grafana_icon.svg"
+  },
+  "greenhouse": {
+   "color": "#249C84",
+   "fetched": "2026-11-08",
+   "page": "https://www.greenhouse.com/",
+   "source": "https://cdn.prod.website-files.com/6668a687e71e2722fccb8357/679a83f9b21b5caab0c682c9_GH-logo-web.png"
+  },
+  "grocy": {
+   "color": "#337AB7",
+   "fetched": "2026-11-11",
+   "page": "https://grocy.info/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/grocy.png"
+  },
+  "health_connect": {
+   "color": "#3C84FC",
+   "fetched": "2026-11-10",
+   "page": "https://developer.android.com/health-and-fitness/guides/health-connect/design/ui-guidelines",
+   "source": "https://developer.android.com/static/downloads/assets/health_connect_logo.png"
+  },
+  "home_assistant": {
+   "color": "#42C7F4",
+   "fetched": "2026-11-11",
+   "page": "https://www.home-assistant.io/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/home-assistant.png"
+  },
+  "hugging_face": {
+   "color": "#FCCC24",
+   "fetched": "2026-11-08",
+   "page": "https://huggingface.co/",
+   "source": "https://huggingface.co/favicon.ico"
+  },
+  "ibkr": {
+   "color": "#E42424",
+   "fetched": "2026-11-08",
+   "page": "https://www.interactivebrokers.com/",
+   "source": "https://www.interactivebrokers.com/images/web/favicons/home-screen-icon-192x192.png"
+  },
+  "icloud": {
+   "color": "#3CB4FC",
+   "fetched": "2026-11-10",
+   "page": "https://www.icloud.com/",
+   "source": "https://www.icloud.com/system/icloud.com/2640Build24/favicons/default-favicon-light-180x180.png"
+  },
+  "immich": {
+   "color": "#9F866C",
+   "fetched": "2026-11-11",
+   "page": "https://immich.app/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/immich.png"
+  },
+  "incident_io": {
+   "color": "#FC543C",
+   "fetched": "2026-11-08",
+   "page": "https://incident.io/",
+   "source": "https://incident.io/icons/icon-512x512.png"
+  },
+  "instacart": {
+   "color": "#0CB40C",
+   "fetched": "2026-11-10",
+   "page": "https://docs.instacart.com/developer_platform_api/guide/concepts/design/logos",
+   "source": "https://docs.instacart.com/assets/files/Instacart_logos-57199d80485c89007384e11523992fe8.zip"
+  },
+  "instagram": {
+   "color": "#FC0C6C",
+   "fetched": "2026-11-10",
+   "page": "https://www.instagram.com/",
+   "source": "https://static.cdninstagram.com/rsrc.php/yw/r/icwX0xAk0pz.webp"
+  },
+  "jotform": {
+   "color": "#FC6C0C",
+   "fetched": "2026-11-10",
+   "page": "https://www.jotform.com/",
+   "source": "https://cdn.jotfor.ms/assets/img/favicons/apple-touch-icon-180x180.png"
+  },
+  "kakao_map": {
+   "color": "#FCE40C",
+   "fetched": "2026-11-10",
+   "page": "https://www.kakaocorp.com/page/service/service/KakaoMap",
+   "source": "https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/1ca66319017800001.png"
+  },
+  "karakeep": {
+   "color": "#FFFFFF",
+   "fetched": "2026-11-11",
+   "page": "https://karakeep.app/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/karakeep.png"
+  },
+  "kelo_calendar": {
+   "color": "#4A5B70",
+   "fetched": "2026-11-10",
+   "source": "kelo"
+  },
+  "kelo_mail": {
+   "color": "#4A5B70",
+   "fetched": "2026-11-10",
+   "source": "kelo"
+  },
+  "kelo_place": {
+   "color": "#4A5B70",
+   "fetched": "2026-11-10",
+   "source": "kelo"
+  },
+  "kit": {
+   "color": "#3CB4FC",
+   "fetched": "2026-11-08",
+   "page": "https://kit.com/",
+   "source": "https://kit.com/android-chrome-512x512.png"
+  },
+  "krisp": {
+   "color": "#0C0C3C",
+   "fetched": "2026-11-08",
+   "page": "https://krisp.ai/",
+   "source": "https://krisp.ai/wp-content/uploads/2023/12/cropped-favicon-1-192x192.png"
+  },
+  "launchdarkly": {
+   "color": "#E2E2E2",
+   "fetched": "2026-11-08",
+   "page": "https://launchdarkly.com/",
+   "source": "https://launchdarkly.com/favicon.ico"
+  },
+  "linear": {
+   "color": "#5A5A5C",
+   "fetched": "2026-11-08",
+   "page": "https://linear.app/",
+   "source": "https://linear.app/static/apple-touch-icon.png?v=2"
+  },
+  "link": {
+   "color": "#0CCC6C",
+   "fetched": "2026-11-08",
+   "page": "https://link.com/",
+   "source": "https://images.stripeassets.com/fzn2n1nzq965/35yClx6UuTze6h851WsJqW/18da88ac03bd96140d16bdac62b94578/app-icon.png"
+  },
+  "linkwarden": {
+   "color": "#09293C",
+   "fetched": "2026-11-11",
+   "page": "https://linkwarden.app/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/linkwarden.png"
+  },
+  "lucid": {
+   "color": "#43464D",
+   "fetched": "2026-11-08",
+   "page": "https://lucid.co/",
+   "source": "https://corporate-assets.lucid.co/co/cab2c5c2-21ed-4272-8606-4ce6e117da17.png"
+  },
+  "mailerlite": {
+   "color": "#0CCC6C",
+   "fetched": "2026-11-08",
+   "page": "https://www.mailerlite.com/",
+   "source": "https://www.mailerlite.com/site/themes/new/img/favicons/apple-touch-icon.png"
+  },
+  "make": {
+   "color": "#9C24E4",
+   "fetched": "2026-11-08",
+   "page": "https://www.make.com/",
+   "source": "https://cdn.prod.website-files.com/6a294495bc84130c6dd0c4fd/6a7b9441e295d2f297063147_favicon-32x32.png"
+  },
+  "mapbox": {
+   "color": "#969696",
+   "fetched": "2026-11-08",
+   "page": "https://www.mapbox.com/",
+   "source": "https://cdn.prod.website-files.com/6050a76fa6a633d5d54ae714/6050ac04955ff26c84dcb8c8_mapbox_favicon_256x256.png"
+  },
+  "mealie": {
+   "color": "#E88525",
+   "fetched": "2026-11-11",
+   "page": "https://mealie.io/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/mealie.png"
+  },
+  "mentimeter": {
+   "color": "#546CE4",
+   "fetched": "2026-11-08",
+   "page": "https://www.mentimeter.com/",
+   "source": "https://static.mentimeter.com/assets/logotype/favicon-192x192.png?v=2"
+  },
+  "mercury": {
+   "color": "#C7C8CE",
+   "fetched": "2026-11-08",
+   "page": "https://mercury.com/",
+   "source": "https://mercury.com/apple-icon.png?apple-icon.24duaeqfro1-o.png"
+  },
+  "metricool": {
+   "color": "#E4FC54",
+   "fetched": "2026-11-08",
+   "page": "https://metricool.com/",
+   "source": "https://metricool.com/wp-content/uploads/cropped-web-app-manifest-512x512-1-192x192.png"
+  },
+  "miniflux": {
+   "color": "#000000",
+   "fetched": "2026-11-11",
+   "page": "https://miniflux.app/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/miniflux.png"
+  },
+  "mintlify": {
+   "color": "#24E49C",
+   "fetched": "2026-11-10",
+   "page": "https://www.mintlify.com/",
+   "source": "https://www.mintlify.com/favicon.svg"
+  },
+  "miro": {
+   "color": "#FCE43C",
+   "fetched": "2026-11-08",
+   "page": "https://miro.com/",
+   "source": "https://framerusercontent.com/images/6FBG66PBxjV2QFaDfIdUi5mi9A.png"
+  },
+  "mixpanel": {
+   "color": "#240C3C",
+   "fetched": "2026-11-08",
+   "page": "https://mixpanel.com/home/",
+   "source": "https://framerusercontent.com/images/j6EPdIw4BKPE9dPx3zrTjkkAM14.png"
+  },
+  "monday": {
+   "color": "#FCCC0C",
+   "fetched": "2026-11-08",
+   "page": "https://monday.com/",
+   "source": "https://cdn.prod.website-files.com/656da6fea306219773d04208/65af6bd6e742d497b5f23f69_645898132bbaac20f1963919_256x256.png"
+  },
+  "mongodb": {
+   "color": "#0CE46C",
+   "fetched": "2026-11-08",
+   "page": "https://www.mongodb.com/",
+   "source": "https://www.mongodb.com/assets/images/global/favicon.ico"
+  },
+  "motherduck": {
+   "color": "#FC9C3C",
+   "fetched": "2026-11-08",
+   "page": "https://motherduck.com/",
+   "source": "https://motherduck.com/apple-touch-icon.png"
+  },
+  "n8n": {
+   "color": "#F04C74",
+   "fetched": "2026-11-11",
+   "page": "https://n8n.io/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/n8n.png"
+  },
+  "naver": {
+   "color": "#0CE46C",
+   "fetched": "2026-11-10",
+   "page": "https://m.naver.com/",
+   "source": "https://s.pstatic.net/static/www/mobile/edit/20240814_0/upload_1723602560807N9rsB.png"
+  },
+  "neon": {
+   "color": "#3CE49C",
+   "fetched": "2026-11-08",
+   "page": "https://neon.com/",
+   "source": "https://neon.com/apple-touch-icon.png"
+  },
+  "netlify": {
+   "color": "#0CB4B4",
+   "fetched": "2026-11-08",
+   "page": "https://www.netlify.com/",
+   "source": "https://www.netlify.com/favicon/icon-512.png"
+  },
+  "nextcloud": {
+   "color": "#3786CD",
+   "fetched": "2026-11-11",
+   "page": "https://nextcloud.com/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/nextcloud.png"
+  },
+  "notion": {
+   "color": "#B0B0B0",
+   "fetched": "2026-11-08",
+   "page": "https://www.notion.com/",
+   "source": "https://www.notion.com/front-static/logo-ios.png"
+  },
+  "opentable": {
+   "color": "#E40C3C",
+   "fetched": "2026-11-10",
+   "page": "https://brand.opentable.com/",
+   "source": "https://cdn.prod.website-files.com/5f99fc7e9f50775e077b100f/680762cce588b8fa8d36f092_OpenTable%20Brand%20Guidelines%20April%202025.pdf"
+  },
+  "otter": {
+   "color": "#0C6CFC",
+   "fetched": "2026-11-08",
+   "page": "https://otter.ai/",
+   "source": "https://cdn.prod.website-files.com/618e9316785b3582a5178502/618e943a80919a98b5e9bf69_apple-icon.png"
+  },
+  "outlook": {
+   "color": "#3CCCFC",
+   "fetched": "2026-11-10",
+   "page": "https://outlook.live.com/mail/",
+   "source": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.512x512.png"
+  },
+  "pandadoc": {
+   "color": "#24846C",
+   "fetched": "2026-11-10",
+   "page": "https://www.pandadoc.com/",
+   "source": "https://www.pandadoc.com/favicon.ico?favicon.0aj89v0247hpa.ico"
+  },
+  "paperless": {
+   "color": "#17541F",
+   "fetched": "2026-11-11",
+   "page": "https://docs.paperless-ngx.com/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/paperless-ngx.png"
+  },
+  "paypal": {
+   "color": "#0C249C",
+   "fetched": "2026-11-08",
+   "page": "https://www.paypal.com/kr/home",
+   "source": "https://www.paypalobjects.com/marketing/web/icons/monogram/pp258.png"
+  },
+  "philips_hue": {
+   "color": "#E43C3C",
+   "fetched": "2026-11-08",
+   "page": "https://www.philips-hue.com/ko-kr",
+   "source": "https://www.philips-hue.com/etc.clientlibs/signify-brand-hue/clientlibs/clientlib-main-v2/resources/favicons/favicon_192px.png"
+  },
+  "pihole": {
+   "color": "#9E4712",
+   "fetched": "2026-11-11",
+   "page": "https://pi-hole.net/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/pi-hole.png"
+  },
+  "planetscale": {
+   "color": "#555555",
+   "fetched": "2026-11-08",
+   "page": "https://planetscale.com/",
+   "source": "https://planetscale.com/icon-512.png"
+  },
+  "posthog": {
+   "color": "#3B3B3B",
+   "fetched": "2026-11-08",
+   "page": "https://posthog.com/",
+   "source": "https://posthog.com/icons/icon-512x512.png?v=b269535480be66be70f82b8086587ec6"
+  },
+  "postman": {
+   "color": "#FC6C3C",
+   "fetched": "2026-11-08",
+   "page": "https://www.postman.com/",
+   "source": "https://www.postman.com/_mk-www-next/icons/android-chrome-512x512.png"
+  },
+  "prisma": {
+   "color": "#FC3C54",
+   "fetched": "2026-11-08",
+   "page": "https://www.prisma.io/",
+   "source": "https://www.prisma.io/apple-icon.png?apple-icon.2fqk5558kkh79.png"
+  },
+  "pulumi": {
+   "color": "#9C6CFC",
+   "fetched": "2026-11-10",
+   "page": "https://www.pulumi.com/",
+   "source": "https://www.pulumi.com/fingerprinted/logos/brand/pulumi-mark.2ff13df2c355746e06f3f84162d630b2d7a875e6b07a180a9187a50ba7d70db5.svg"
+  },
+  "quickbooks": {
+   "color": "#249C24",
+   "fetched": "2026-11-08",
+   "page": "https://quickbooks.intuit.com/",
+   "source": "https://quickbooks.intuit.com/cas/dam/IMAGE/A7mjJ5rpg/apple-touch-icon-196x196.png"
+  },
+  "railway": {
+   "color": "#6A6A6A",
+   "fetched": "2026-11-08",
+   "page": "https://railway.com/",
+   "source": "https://railway.com/android-chrome-512x512.png"
+  },
+  "ramp": {
+   "color": "#E4FC24",
+   "fetched": "2026-11-08",
+   "page": "https://ramp.com/",
+   "source": "https://ramp.com/apple-touch-icon.png"
+  },
+  "read_ai": {
+   "color": "#6C6CFC",
+   "fetched": "2026-11-08",
+   "page": "https://www.read.ai/",
+   "source": "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/615f71de842b191ea061fda6_ReadLogomark_256x256.png"
+  },
+  "resend": {
+   "color": "#DCDCDC",
+   "fetched": "2026-11-08",
+   "page": "https://resend.com/",
+   "source": "https://resend.com/static/favicons/favicon-marketing@180x180.png?v=1"
+  },
+  "restream": {
+   "color": "#D7D7D7",
+   "fetched": "2026-11-08",
+   "page": "https://restream.io/",
+   "source": "https://restream.io/apple-touch-icon.png"
+  },
+  "sanity": {
+   "color": "#2B2C2F",
+   "fetched": "2026-11-08",
+   "page": "https://www.sanity.io/",
+   "source": "https://www.sanity.io/_astro/android-icon-192x192.BtdmbFTD.png"
+  },
+  "sentry": {
+   "color": "#FC3C24",
+   "fetched": "2026-11-10",
+   "page": "https://sentry.io/",
+   "source": "https://s1.sentry-cdn.com/_static/068487bedab7c078d9942addba92e42d/sentry/images/logos/apple-touch-icon.png"
+  },
+  "shop": {
+   "color": "#543CE4",
+   "fetched": "2026-11-08",
+   "page": "https://shop.com/",
+   "source": "https://shop.com/apple-touch-icon.png"
+  },
+  "shopback": {
+   "color": "#FC3C0C",
+   "fetched": "2026-11-10",
+   "page": "https://corporate.shopback.com/",
+   "source": "https://corporate.shopback.com/apple-touch-icon.png"
+  },
+  "shopify": {
+   "color": "#9CB43C",
+   "fetched": "2026-11-08",
+   "page": "https://www.shopify.com/",
+   "source": "https://cdn.shopify.com/b/shopify-brochure2-assets/b13486e5693b246af63c66ab047a6b6b.png"
+  },
+  "slack": {
+   "color": "#24B46C",
+   "fetched": "2026-11-08",
+   "page": "https://slack.com/",
+   "source": "https://slack.com/favicon.ico"
+  },
+  "spotify": {
+   "color": "#24CC6C",
+   "fetched": "2026-11-08",
+   "page": "https://open.spotify.com/",
+   "source": "https://open.spotifycdn.com/cdn/images/icons/Spotify_MWP_512.50dd387d.png"
+  },
+  "stripe": {
+   "color": "#543CFC",
+   "fetched": "2026-11-08",
+   "page": "https://stripe.com/",
+   "source": "https://images.stripeassets.com/fzn2n1nzq965/4vVgZi0ZMoEzOhkcv7EVwK/8cce6fdcf2733b2ec8e99548908847ed/favicon.png?w=180&h=180"
+  },
+  "supabase": {
+   "color": "#3CCC84",
+   "fetched": "2026-11-08",
+   "page": "https://supabase.com/",
+   "source": "https://supabase.com/favicon/android-icon-512x512.png"
+  },
+  "superhuman": {
+   "color": "#3C2424",
+   "fetched": "2026-11-08",
+   "page": "https://superhuman.com/",
+   "source": "https://superhumanstatic.com/super-funnel/main/public/images/v4/favicons/superhuman-apple-touch-icon.png"
+  },
+  "tandoor": {
+   "color": "#A58045",
+   "fetched": "2026-11-11",
+   "page": "https://tandoor.dev/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/tandoor-recipes.png"
+  },
+  "tavily": {
+   "color": "#363535",
+   "fetched": "2026-11-08",
+   "page": "https://www.tavily.com/",
+   "source": "https://www.tavily.com/app-icons/icon-512.png"
+  },
+  "ticketmaster": {
+   "color": "#0C0C0C",
+   "fetched": "2026-11-10",
+   "page": "https://business.ticketmaster.com/",
+   "source": "https://business.ticketmaster.com/wp-content/uploads/2024/04/cropped-tm-favicon-cosmos-270x270.png"
+  },
+  "ticktick": {
+   "color": "#3C6CFC",
+   "fetched": "2026-11-08",
+   "page": "https://ticktick.com/",
+   "source": "https://d107mjio2rjf74.cloudfront.net/web/static/img/apple-touch-icon-180x180.png"
+  },
+  "tiktok": {
+   "color": "#0C0C0C",
+   "fetched": "2026-11-10",
+   "page": "https://www.tiktok.com/",
+   "source": "https://www.tiktok.com/apple-touch-icon.png"
+  },
+  "tldv": {
+   "color": "#2424FC",
+   "fetched": "2026-11-08",
+   "page": "https://tldv.io/",
+   "source": "https://tldv.io/faviconV2.png"
+  },
+  "todoist": {
+   "color": "#E43C3C",
+   "fetched": "2026-11-08",
+   "page": "https://www.todoist.com/",
+   "source": "https://www.todoist.com/static/android-chrome-256x256.png"
+  },
+  "toss": {
+   "color": "#2454FC",
+   "fetched": "2026-11-10",
+   "page": "https://toss.im/",
+   "source": "https://static.toss.im/assets/toss-im/asset/favicon/favicon-196x196.png"
+  },
+  "trello": {
+   "color": "#0C54B4",
+   "fetched": "2026-11-08",
+   "page": "https://trello.com/",
+   "source": "https://www.trello.com/favicon.ico"
+  },
+  "typefully": {
+   "color": "#0C84FC",
+   "fetched": "2026-11-08",
+   "page": "https://typefully.com/",
+   "source": "https://typefully.com/pwa/icon.maskable-min.png"
+  },
+  "uptime_kuma": {
+   "color": "#9FE7B9",
+   "fetched": "2026-11-11",
+   "page": "https://uptime.kuma.pet/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/uptime-kuma.png"
+  },
+  "v0": {
+   "color": "#1C1C1C",
+   "fetched": "2026-11-08",
+   "page": "https://v0.app/",
+   "source": "https://v0.app/chat-static/assets/icon-dark-512x512.png"
+  },
+  "vercel": {
+   "color": "#131313",
+   "fetched": "2026-11-08",
+   "page": "https://vercel.com/",
+   "source": "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/favicon/vercel/android-chrome-512x512.png"
+  },
+  "wallabag": {
+   "color": "#000000",
+   "fetched": "2026-11-11",
+   "page": "https://wallabag.org/",
+   "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/wallabag.png"
+  },
+  "webflow": {
+   "color": "#0C6CFC",
+   "fetched": "2026-11-08",
+   "page": "https://webflow.com/",
+   "source": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/686d53d0446d4237b2f38c5f_webclip.png"
+  },
+  "webull": {
+   "color": "#246CFC",
+   "fetched": "2026-11-08",
+   "page": "https://www.webull.com/",
+   "source": "https://wbstatic.webullfintech.com/app/picture/10013412eaf600e19ce46544f91cb5d8.png"
+  },
+  "wise": {
+   "color": "#84E454",
+   "fetched": "2026-11-08",
+   "page": "https://wise.com/",
+   "source": "https://wise.com/public-resources/assets/icons/wise-personal/android_chrome_192x192.png"
+  },
+  "wix": {
+   "color": "#E6E6E6",
+   "fetched": "2026-11-08",
+   "page": "https://www.wix.com/",
+   "source": "https://www.wix.com/favicon.ico"
+  },
+  "wordpress_com": {
+   "color": "#3C54E4",
+   "fetched": "2026-11-08",
+   "page": "https://wordpress.com/",
+   "source": "https://0.gravatar.com/blavatar/653166773dc88127bd3afe0b6dfe5ea7?s=114&d=https%3A%2F%2Fs1.wp.com%2Fi%2Fwebclip.png"
+  },
+  "workable": {
+   "color": "#0C6C54",
+   "fetched": "2026-11-08",
+   "page": "https://www.workable.com/",
+   "source": "https://www.workable.com/static/android-chrome-512x512.png"
+  },
+  "workos": {
+   "color": "#6C6CFC",
+   "fetched": "2026-11-08",
+   "page": "https://workos.com/",
+   "source": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png"
+  },
+  "yahoo": {
+   "color": "#8424FC",
+   "fetched": "2026-11-10",
+   "page": "https://www.yahoo.com/",
+   "source": "https://s.yimg.com/cv/apiv2/icons/yahoo.png"
+  },
+  "zapier": {
+   "color": "#FC540C",
+   "fetched": "2026-11-08",
+   "page": "https://zapier.com/",
+   "source": "https://zapier.com/favicon.ico"
+  },
+  "zoho_books": {
+   "color": "#0C6CE4",
+   "fetched": "2026-11-08",
+   "page": "https://www.zoho.com/books/",
+   "source": "https://www.zoho.com/books/books-app-logo.png"
+  },
+  "zoho_crm": {
+   "color": "#0C6CB4",
+   "fetched": "2026-11-10",
+   "page": "https://www.zoho.com/crm/",
+   "source": "https://www.zohowebstatic.com/sites/zweb/images/productlogos/crm.svg"
+  },
+  "zoho_desk": {
+   "color": "#0C9C54",
+   "fetched": "2026-11-10",
+   "page": "https://www.zoho.com/desk/",
+   "source": "https://www.zohowebstatic.com/sites/zweb/images/productlogos/desk.svg"
+  },
+  "zoho_projects": {
+   "color": "#0C9C3C",
+   "fetched": "2026-11-10",
+   "page": "https://www.zoho.com/projects/",
+   "source": "https://www.zohowebstatic.com/sites/zweb/images/productlogos/projects.svg"
+  },
+  "zoho_show": {
+   "color": "#E42424",
+   "fetched": "2026-11-10",
+   "page": "https://www.zoho.com/show/",
+   "source": "https://www.zohowebstatic.com/sites/zweb/images/productlogos/show.svg"
+  },
+  "zoom": {
+   "color": "#0C54FC",
+   "fetched": "2026-11-08",
+   "page": "https://www.zoom.com/",
+   "source": "https://www.zoom.com/apple-touch-icon.png"
+  }
+ },
+ "mail": {
+  "daum": "daum",
+  "gmail": "gmail",
+  "icloud": "icloud",
+  "naver": "naver",
+  "yahoo": "yahoo"
+ },
+ "note": "Each service's own app icon, from its own website; trademarks of their owners, used only to show which service a row is (NOTICE). Entries with \"source\": \"kelo\" are Kelo's own plain glyphs for connectors that are not one company's service (any IMAP mailbox, any CalDAV calendar, map places)."
+}

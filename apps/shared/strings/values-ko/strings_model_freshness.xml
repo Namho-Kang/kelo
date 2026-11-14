@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_model_freshness.xml (generated from values/strings_model_freshness.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_list_stale">목록을 새로 받지 못해 이전 목록을 보여 줘요</string>
+    <string name="model_cli_update_available">새 버전(%1$s)이 나왔어요</string>
+    <string name="notify_cli_update">CLI 업데이트</string>
+</resources>

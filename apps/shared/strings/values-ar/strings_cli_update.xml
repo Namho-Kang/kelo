@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_cli_update.xml (generated from values/strings_cli_update.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_cli_update_button">تحديث</string>
+    <string name="model_cli_updating">جارٍ التحديث… (قد يستغرق بضع دقائق)</string>
+    <string name="model_cli_update_done">تم تحديث %1$s إلى الإصدار %2$s</string>
+    <string name="model_cli_update_unchanged">%1$s محدَّث بالفعل</string>
+    <string name="model_cli_update_failed">تعذّر التحديث: %1$s. يستمر الإصدار الحالي في العمل</string>
+</resources>

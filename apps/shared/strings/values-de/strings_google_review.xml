@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">Bald verfügbar</string>
+    <string name="google_review_title">Google-Anmeldung wird vorbereitet</string>
+    <string name="google_review_note">Das wird freigeschaltet, sobald Googles Prüfung abgeschlossen ist. Wenn du Kelo unterstützt, geht es schneller.</string>
+    <string name="google_review_support">Kelo unterstützen</string>
+    <string name="google_review_phone_calendar">Über den Handykalender verbinden</string>
+    <string name="google_review_phone_calendar_help">Android-Handys speichern deinen Google Kalender im Kalender des Handys, deshalb kann Kelo ihn dort lesen.</string>
+    <string name="google_review_open_switch">Google-Anmeldung für alle öffnen</string>
+    <string name="google_review_open_warning">Schalte das erst ein, wenn Google diesen Client verifiziert hat. Bis dahin erlaubt Google höchstens 100 Nutzer und zeigt ihnen eine Warnung.</string>
+</resources>

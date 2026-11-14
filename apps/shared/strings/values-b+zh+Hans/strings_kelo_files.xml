@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Kelo 的文件</string>
+    <string name="files_about">Kelo 为自己记下的内容：你是谁、它的记忆、它的笔记。你可以查看、修改和删除。上传的文件和成果各有自己的页面。</string>
+    <string name="files_new_folder">新建文件夹</string>
+    <string name="files_make">创建</string>
+    <string name="files_folder_name">文件夹名称</string>
+    <string name="files_folder_bad">不能使用这个名称。</string>
+    <string name="files_edit">编辑</string>
+    <string name="files_save">保存</string>
+    <string name="files_cancel">取消</string>
+    <string name="files_saved">已保存。Kelo 从下一次回复起会读取新内容。</string>
+    <string name="files_save_failed">保存失败。</string>
+    <string name="files_full">服务器存储空间已满。</string>
+    <string name="files_discard_q">不保存就离开吗？</string>
+    <string name="files_discard">离开</string>
+    <string name="files_reset">恢复初始状态</string>
+    <string name="files_reset_q">要把这个文件恢复到初始状态吗？当前内容会放进回收站。</string>
+    <string name="files_reset_done">已恢复初始状态。旧内容在回收站里。</string>
+    <string name="files_core_reset_hint">Kelo 需要这个文件。请使用“恢复初始状态”。</string>
+    <string name="files_delete">删除</string>
+    <string name="files_delete_q">移到回收站吗？30 天后将被永久删除。</string>
+    <string name="files_deleted">已移到回收站。</string>
+    <string name="files_read_only">这个文件由 Kelo 维护，不能在这里修改。</string>
+    <string name="files_load_failed">无法加载文件。</string>
+    <string name="files_trash_title">回收站</string>
+    <string name="files_trash_about">删除的文件会在这里保留 30 天。</string>
+    <string name="files_trash_left">%1$d 天后永久删除</string>
+    <string name="files_trash_empty">回收站是空的。</string>
+    <string name="files_restore">恢复</string>
+    <string name="files_restored">已恢复。</string>
+    <string name="files_purge">永久删除</string>
+    <string name="files_purge_q">要永久删除吗？无法找回。</string>
+    <string name="files_core_assistant">Kelo 的性格和语气</string>
+    <string name="files_core_user">Kelo 对你的了解</string>
+    <string name="files_core_memory">Kelo 的记忆</string>
+    <string name="files_core_agents">Kelo 的工作规则</string>
+    <string name="files_core_checklist">待查看的事项</string>
+    <string name="files_core_notify">通知偏好</string>
+</resources>

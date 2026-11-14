@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">Guthaben</string>
+    <string name="balance_limit_left">Rest des Schlüssel-Limits</string>
+    <string name="balance_used_today">Heute ausgegeben</string>
+    <string name="balance_used_week">Diese Woche ausgegeben</string>
+    <string name="balance_used_month">Diesen Monat ausgegeben</string>
+</resources>

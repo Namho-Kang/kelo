@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_model_freshness.xml (generated from values/strings_model_freshness.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_list_stale">Yeni liste alınamadı, önceki liste gösteriliyor</string>
+    <string name="model_cli_update_available">%1$s sürümü çıktı</string>
+    <string name="notify_cli_update">CLI güncellemesi</string>
+</resources>

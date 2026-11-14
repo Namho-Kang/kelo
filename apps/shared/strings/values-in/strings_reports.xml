@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Laporkan</string>
+    <string name="report_title">Laporkan balasan ini</string>
+    <string name="report_intro">Kalau balasan ini mengganggu atau salah, beri tahu pengembang Kelo. Laporan hanya dipakai untuk membuat Kelo lebih aman.</string>
+    <string name="report_reason_label">Apa masalahnya?</string>
+    <string name="report_reason_harmful">Mengganggu atau berbahaya</string>
+    <string name="report_reason_inaccurate">Tidak sesuai fakta</string>
+    <string name="report_reason_privacy">Membocorkan informasi pribadi</string>
+    <string name="report_reason_other">Lainnya</string>
+    <string name="report_comment_hint">Ada yang ingin ditambahkan? (opsional)</string>
+    <string name="report_include_asked">Kirim juga pesan yang kukirim sebelumnya</string>
+    <string name="report_sent_title">Yang dikirim ke pengembang Kelo</string>
+    <string name="report_sent_reply">Balasan yang kamu laporkan</string>
+    <string name="report_sent_asked">Pesan yang kamu kirim sebelumnya</string>
+    <string name="report_sent_reason">Alasan yang kamu pilih dan komentarmu</string>
+    <string name="report_sent_model">Nama model yang menulis balasan</string>
+    <string name="report_sent_version">Versi aplikasi Kelo</string>
+    <string name="report_sent_not">Tidak ada hal lain dari obrolanmu maupun data akun yang dikirim. Laporan disimpan selama 1 tahun lalu dihapus — lebih cepat kalau kamu minta.</string>
+    <string name="report_send">Kirim laporan</string>
+    <string name="report_sending">Mengirim…</string>
+    <string name="report_failed_offline">Tidak bisa menjangkau servermu. Yang kamu tulis masih ada — coba kirim lagi sebentar lagi.</string>
+    <string name="report_thanks">Laporan terkirim. Terima kasih sudah memberi tahu.</string>
+    <string name="operator_section_reports">Laporan masuk</string>
+    <string name="operator_reports_note">Balasan yang dilaporkan pengguna dari aplikasi. Otomatis dihapus setelah 1 tahun.</string>
+    <string name="operator_reports_not_receiving">Server ini tidak menerima laporan. Laporan yang dikirim dari server ini masuk ke server pengembang Kelo.</string>
+    <string name="operator_reports_empty">Belum ada laporan.</string>
+    <string name="operator_reports_open">Laporan perlu ditangani: %1$d</string>
+    <string name="operator_reports_show_handled">Tampilkan juga laporan yang sudah ditangani</string>
+    <string name="operator_reports_hide_handled">Tampilkan hanya laporan yang perlu ditangani</string>
+    <string name="operator_reports_reply">Balasan yang dilaporkan</string>
+    <string name="operator_reports_asked">Pesan pengguna sebelumnya</string>
+    <string name="operator_reports_comment">Komentar</string>
+    <string name="operator_reports_meta">%1$s · %2$s · Aplikasi %3$s</string>
+    <string name="operator_reports_mark">Tandai sudah ditangani</string>
+    <string name="operator_reports_unmark">Tandai belum ditangani</string>
+    <string name="operator_reports_handled">Sudah ditangani</string>
+    <string name="operator_reports_delete">Hapus</string>
+    <string name="operator_reports_delete_confirm">Hapus laporan ini? Ini tidak bisa dibatalkan.</string>
+    <string name="operator_reports_unknown">Tidak diketahui</string>
+</resources>

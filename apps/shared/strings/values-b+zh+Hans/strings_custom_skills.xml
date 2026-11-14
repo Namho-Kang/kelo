@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">待批准的技能</string>
+    <string name="skill_review_about">Kelo 只使用你批准的技能。批准后会按显示的内容原样保存。</string>
+    <string name="skill_review_drafting">Kelo 正在写技能草稿…</string>
+    <string name="skill_review_kind_new">新技能</string>
+    <string name="skill_review_kind_change">技能修改</string>
+    <string name="skill_review_kind_edited">在应用外被更改</string>
+    <string name="skill_review_edited_note">这个技能的文件在应用外被更改了，在你再次批准之前 Kelo 不会使用它。</string>
+    <string name="skill_review_edited_new_note">这个技能是在应用外添加的。在你批准之前 Kelo 不会使用它。</string>
+    <string name="skill_review_outside_note">Kelo 在处理这项任务时读取了网页、邮件或文件。请确认每个步骤都是你想要的。</string>
+    <string name="skill_review_secrets_removed">密码、密钥和验证码已从内容中移除。</string>
+    <string name="skill_review_diff_counts">新增 %1$d · 删除 %2$d</string>
+    <string name="skill_review_show_all">显示全部</string>
+    <string name="skill_review_show_less">收起</string>
+    <string name="skill_review_put_back">撤销更改</string>
+    <string name="skill_review_discard">丢弃</string>
+    <string name="skill_review_approve">批准</string>
+    <string name="skill_review_approved">已批准。Kelo 会使用这个技能。</string>
+    <string name="skill_review_discarded">已丢弃</string>
+    <string name="skill_review_from_draft">根据已完成的任务起草</string>
+    <string name="skill_review_from_disk">在服务器文件中被更改</string>
+    <string name="skill_review_from_kelo">Kelo 的建议</string>
+    <string name="skill_save">保存为技能</string>
+    <string name="skill_save_about">Kelo 会写下这项任务的步骤。在 %1$s → %2$s 中批准之前不会有任何改变。</string>
+    <string name="skill_save_started">Kelo 正在起草技能。你可以在 %1$s → %2$s 中找到它。</string>
+    <string name="skill_save_busy">这项任务的技能已经在写了。</string>
+    <string name="skill_save_unavailable">这台服务器还不能保存技能。请先更新服务器。</string>
+    <string name="skill_save_no_model">请先选择一个模型。</string>
+</resources>

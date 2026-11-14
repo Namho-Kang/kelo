@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Платіжні картки заблоковано</string>
+    <string name="wallet_lock_body">Підтвердьте, що це ви, відбитком пальця, обличчям або блокуванням екрана (PIN-код, графічний ключ чи пароль), щоб відкрити їх знову.</string>
+    <string name="wallet_lock_kept">Дані картки, які ви вводили, збережено. Розблокуйте, щоб продовжити з того самого місця. Через 10 хвилин їх буде стерто.</string>
+    <string name="wallet_lock_unlock">Розблокувати</string>
+    <string name="wallet_lock_back">Назад</string>
+    <string name="wallet_lock_no_lock_title">Налаштуйте блокування екрана</string>
+    <string name="wallet_lock_no_lock_body">На цьому телефоні немає блокування екрана, тож платіжні картки не відкрити. Увімкніть PIN-код або відбиток пальця в налаштуваннях і поверніться. Я одразу перевірю.</string>
+    <string name="wallet_lock_open_settings">Налаштування блокування екрана</string>
+</resources>

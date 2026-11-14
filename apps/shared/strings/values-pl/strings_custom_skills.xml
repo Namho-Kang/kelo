@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Umiejętności do zatwierdzenia</string>
+    <string name="skill_review_about">Kelo używa umiejętności dopiero po Twoim zatwierdzeniu. Zatwierdzenie zapisuje dokładnie pokazany tekst.</string>
+    <string name="skill_review_drafting">Kelo pisze szkic umiejętności…</string>
+    <string name="skill_review_kind_new">Nowa umiejętność</string>
+    <string name="skill_review_kind_change">Zmiana umiejętności</string>
+    <string name="skill_review_kind_edited">Zmieniona poza aplikacją</string>
+    <string name="skill_review_edited_note">Pliki tej umiejętności zmieniono poza aplikacją, więc Kelo nie używa jej, dopóki znów jej nie zatwierdzisz.</string>
+    <string name="skill_review_edited_new_note">Tę umiejętność dodano poza aplikacją. Kelo nie użyje jej bez Twojego zatwierdzenia.</string>
+    <string name="skill_review_outside_note">Podczas tej pracy Kelo czytał strony internetowe, pocztę lub pliki. Sprawdź, czy każdy krok jest taki, jak chcesz.</string>
+    <string name="skill_review_secrets_removed">Hasła, klucze i kody usunięto z tekstu.</string>
+    <string name="skill_review_diff_counts">Dodano %1$d · Usunięto %2$d</string>
+    <string name="skill_review_show_all">Pokaż wszystko</string>
+    <string name="skill_review_show_less">Pokaż mniej</string>
+    <string name="skill_review_put_back">Cofnij zmiany</string>
+    <string name="skill_review_discard">Odrzuć</string>
+    <string name="skill_review_approve">Zatwierdź</string>
+    <string name="skill_review_approved">Zatwierdzono. Kelo będzie używać tej umiejętności.</string>
+    <string name="skill_review_discarded">Odrzucono</string>
+    <string name="skill_review_from_draft">Szkic z zakończonego zadania</string>
+    <string name="skill_review_from_disk">Zmieniona w plikach serwera</string>
+    <string name="skill_review_from_kelo">Propozycja Kelo</string>
+    <string name="skill_save">Zapisz jako umiejętność</string>
+    <string name="skill_save_about">Kelo zapisze kroki tego zadania. Nic się nie zmieni, dopóki nie zatwierdzisz tego w %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo pisze szkic umiejętności. Znajdziesz go w %1$s → %2$s.</string>
+    <string name="skill_save_busy">Umiejętność z tego zadania jest już pisana.</string>
+    <string name="skill_save_unavailable">Ten serwer nie potrafi jeszcze zapisywać umiejętności. Najpierw zaktualizuj serwer.</string>
+    <string name="skill_save_no_model">Najpierw wybierz model.</string>
+</resources>

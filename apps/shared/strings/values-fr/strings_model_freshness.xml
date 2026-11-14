@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_model_freshness.xml (generated from values/strings_model_freshness.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_list_stale">Impossible d\'obtenir une nouvelle liste : voici la précédente</string>
+    <string name="model_cli_update_available">La version %1$s est sortie</string>
+    <string name="notify_cli_update">Mise à jour de la CLI</string>
+</resources>

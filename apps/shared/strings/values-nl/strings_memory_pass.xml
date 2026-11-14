@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Geheugen opgeruimd: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">%d toegevoegd</item>
+        <item quantity="other">%d toegevoegd</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">%d opgeruimd</item>
+        <item quantity="other">%d opgeruimd</item>
+    </plurals>
+    <string name="memory_pass_undone">Opruimen van het geheugen ongedaan gemaakt</string>
+    <string name="memory_pass_view">Wat er veranderde</string>
+    <string name="memory_pass_changes_title">Wat het opruimen van het geheugen veranderde</string>
+    <string name="memory_pass_no_lines">Geen gewijzigde regels om te tonen.</string>
+    <string name="memory_pass_undo">Dit opruimen ongedaan maken</string>
+    <string name="memory_pass_undo_confirm">De notities terugzetten zoals ze vóór dit opruimen waren? Notities die je daarna bewerkte blijven zoals ze zijn.</string>
+    <string name="memory_pass_undo_gone">Dit opruimen kan niet meer ongedaan worden gemaakt.</string>
+    <string name="memory_pass_added_line">Toegevoegd: %1$s</string>
+    <string name="memory_pass_removed_line">Weggehaald: %1$s</string>
+    <string name="memory_area_about_you">Over jou</string>
+    <string name="memory_area_to_remember">Om te onthouden</string>
+    <string name="memory_area_people">Mensen</string>
+    <string name="memory_area_working_notes">Werknotities</string>
+</resources>

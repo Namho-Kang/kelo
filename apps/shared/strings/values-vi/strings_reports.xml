@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Báo cáo</string>
+    <string name="report_title">Báo cáo câu trả lời này</string>
+    <string name="report_intro">Nếu câu trả lời này gây khó chịu hoặc sai, hãy cho nhà phát triển Kelo biết. Báo cáo chỉ được dùng để Kelo an toàn hơn.</string>
+    <string name="report_reason_label">Vấn đề là gì?</string>
+    <string name="report_reason_harmful">Gây khó chịu hoặc có hại</string>
+    <string name="report_reason_inaccurate">Không đúng sự thật</string>
+    <string name="report_reason_privacy">Lộ thông tin cá nhân</string>
+    <string name="report_reason_other">Lý do khác</string>
+    <string name="report_comment_hint">Bạn muốn nói thêm gì không? (không bắt buộc)</string>
+    <string name="report_include_asked">Gửi kèm tin nhắn tôi đã gửi ngay trước đó</string>
+    <string name="report_sent_title">Những gì được gửi đến nhà phát triển Kelo</string>
+    <string name="report_sent_reply">Câu trả lời bạn đang báo cáo</string>
+    <string name="report_sent_asked">Tin nhắn bạn đã gửi ngay trước đó</string>
+    <string name="report_sent_reason">Lý do bạn chọn và nhận xét (nếu có)</string>
+    <string name="report_sent_model">Tên mô hình đã viết câu trả lời</string>
+    <string name="report_sent_version">Phiên bản ứng dụng Kelo</string>
+    <string name="report_sent_not">Không gửi gì khác từ các cuộc trò chuyện và không gửi thông tin tài khoản. Báo cáo được giữ 1 năm rồi xóa — sớm hơn nếu bạn yêu cầu.</string>
+    <string name="report_send">Gửi báo cáo</string>
+    <string name="report_sending">Đang gửi…</string>
+    <string name="report_failed_offline">Không kết nối được máy chủ của bạn. Những gì bạn viết vẫn còn đây — hãy thử gửi lại sau ít phút.</string>
+    <string name="report_thanks">Đã gửi báo cáo. Cảm ơn bạn đã cho chúng tôi biết.</string>
+    <string name="operator_section_reports">Báo cáo đã nhận</string>
+    <string name="operator_reports_note">Các câu trả lời người dùng đã báo cáo từ ứng dụng. Chúng tự động bị xóa sau 1 năm.</string>
+    <string name="operator_reports_not_receiving">Máy chủ này không nhận báo cáo. Báo cáo gửi từ máy chủ này sẽ đến máy chủ của nhà phát triển Kelo.</string>
+    <string name="operator_reports_empty">Chưa có báo cáo nào.</string>
+    <string name="operator_reports_open">Báo cáo cần xử lý: %1$d</string>
+    <string name="operator_reports_show_handled">Hiện cả báo cáo đã xử lý</string>
+    <string name="operator_reports_hide_handled">Chỉ hiện báo cáo cần xử lý</string>
+    <string name="operator_reports_reply">Câu trả lời bị báo cáo</string>
+    <string name="operator_reports_asked">Tin nhắn ngay trước đó của người dùng</string>
+    <string name="operator_reports_comment">Nhận xét</string>
+    <string name="operator_reports_meta">%1$s · %2$s · Ứng dụng %3$s</string>
+    <string name="operator_reports_mark">Đánh dấu đã xử lý</string>
+    <string name="operator_reports_unmark">Đánh dấu chưa xử lý</string>
+    <string name="operator_reports_handled">Đã xử lý</string>
+    <string name="operator_reports_delete">Xóa</string>
+    <string name="operator_reports_delete_confirm">Xóa báo cáo này? Không thể hoàn tác.</string>
+    <string name="operator_reports_unknown">Không rõ</string>
+</resources>

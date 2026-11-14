@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_buy_ready.xml -->
+<resources>
+    <string name="buy_ready_title">Sẵn sàng mua</string>
+    <string name="buy_ready_short">Sẵn sàng mua ngay</string>
+    <string name="buy_ready_problems_short">Sẵn sàng mua: cần xử lý %1$d mục</string>
+    <string name="buy_ready_ok">Mọi thứ đã sẵn sàng. Khi xuất hiện, Kelo sẽ mua ngay trong phạm vi cho phép.</string>
+    <string name="buy_ready_not_ok">Một số mục vẫn chưa sẵn sàng:</string>
+    <string name="buy_ready_login">Đăng nhập</string>
+    <string name="buy_ready_login_kept">Duy trì đăng nhập</string>
+    <string name="buy_ready_login_out">Đã đăng xuất</string>
+    <string name="buy_ready_checked">Kiểm tra lần cuối</string>
+    <string name="buy_ready_remembered">Kelo ghi nhớ các bước thanh toán của trang web này để mua trong vài giây.</string>
+    <string name="buy_ready_about">Trang sản phẩm luôn mở trong trình duyệt Kelo và được kiểm tra sau mỗi 15 phút.</string>
+    <string name="buy_ready_check">Kiểm tra ngay</string>
+</resources>

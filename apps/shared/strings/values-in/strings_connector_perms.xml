@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- in text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Yang boleh dilakukan Kelo</string>
+    <string name="perm_about">Izinkan: tanpa kartu. Tanya: kartu setiap kali. Mati: Kelo tidak melakukannya. Pembayaran dan pendaftaran selalu bertanya.</string>
+    <string name="perm_kind_read">Baca</string>
+    <string name="perm_kind_change">Ubah</string>
+    <string name="perm_kind_send">Kirim</string>
+    <string name="perm_kind_delete">Hapus</string>
+    <string name="perm_allow">Izinkan</string>
+    <string name="perm_ask">Tanya</string>
+    <string name="perm_off">Mati</string>
+    <string name="perm_default_is">Default: %1$s</string>
+    <string name="perm_changed_from">Defaultnya %1$s</string>
+    <string name="perm_actions_more">%1$d tindakan tunggal</string>
+    <string name="perm_reset">Kembali ke default</string>
+    <string name="perm_reset_q">Kembalikan semua pengaturan konektor ini ke default?</string>
+    <string name="perm_read_off_q">Jika membaca dimatikan, Kelo hampir tidak bisa memakai konektor ini. Matikan?</string>
+    <string name="perm_limited">Dibatasi</string>
+</resources>

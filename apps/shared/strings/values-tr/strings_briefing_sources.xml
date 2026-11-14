@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">Neler okunur</string>
+    <string name="briefing_sources_about">Kelo, özet ve bildirimler için bağlı tüm takvimleri ve posta kutularını okur. Dışarıda bırakmak istediğinizi kapatın.</string>
+    <string name="briefing_sources_calendars">Takvimler</string>
+    <string name="briefing_sources_mail">Posta</string>
+    <string name="briefing_sources_chat">Kelo\'ya sohbette de söyleyebilirsiniz, örneğin: “iş postamı özetten çıkar”.</string>
+    <string name="briefing_sources_check">Hesapları şimdi kontrol et</string>
+    <string name="briefing_sources_checking">Kontrol ediliyor…</string>
+    <string name="connector_method_caldav">CalDAV uygulama parolası</string>
+    <string name="caldav_help">Sağlayıcınızın verdiği CalDAV adresini (örneğin Fastmail için https://dav.fastmail.com/), kullanıcı adınızı ve bir uygulama parolasını girin.</string>
+    <string name="caldav_url">CalDAV adresi</string>
+    <string name="caldav_user">Kullanıcı adı</string>
+    <string name="caldav_account_note">Kelo bu takvimi yalnızca özet ve bildirimler için okur. Asla değiştirmez.</string>
+    <string name="caldav_disconnect_confirm">%1$s bağlantısı kesilsin mi? Kayıtlı uygulama parolası silinecek.</string>
+    <string name="caldav_add_other">Başka bir takvim ekle</string>
+    <string name="caldav_notify">Takvimimi bağladım. Lütfen devam et.</string>
+</resources>

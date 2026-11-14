@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Melden</string>
+    <string name="report_title">Dit antwoord melden</string>
+    <string name="report_intro">Was dit antwoord kwetsend of fout, laat het de ontwikkelaar van Kelo dan weten. Het wordt alleen gebruikt om Kelo veiliger te maken.</string>
+    <string name="report_reason_label">Wat was het probleem?</string>
+    <string name="report_reason_harmful">Kwetsend of schadelijk</string>
+    <string name="report_reason_inaccurate">Feitelijk niet juist</string>
+    <string name="report_reason_privacy">Onthult persoonlijke gegevens</string>
+    <string name="report_reason_other">Iets anders</string>
+    <string name="report_comment_hint">Nog iets toe te voegen? (optioneel)</string>
+    <string name="report_include_asked">Stuur ook het bericht mee dat ik net daarvoor stuurde</string>
+    <string name="report_sent_title">Wat naar de ontwikkelaar van Kelo gaat</string>
+    <string name="report_sent_reply">Het antwoord dat je meldt</string>
+    <string name="report_sent_asked">Het bericht dat je net daarvoor stuurde</string>
+    <string name="report_sent_reason">De reden die je koos en eventuele opmerkingen</string>
+    <string name="report_sent_model">De naam van het model dat het antwoord schreef</string>
+    <string name="report_sent_version">Versie van de Kelo-app</string>
+    <string name="report_sent_not">Verder wordt niets uit je chats en geen accountgegevens verstuurd. Meldingen worden 1 jaar bewaard en daarna verwijderd — eerder als je daarom vraagt.</string>
+    <string name="report_send">Melding versturen</string>
+    <string name="report_sending">Versturen…</string>
+    <string name="report_failed_offline">Kan je server niet bereiken. Wat je schreef staat er nog — probeer het zo opnieuw.</string>
+    <string name="report_thanks">Melding verstuurd. Bedankt dat je het laat weten.</string>
+    <string name="operator_section_reports">Ontvangen meldingen</string>
+    <string name="operator_reports_note">Antwoorden die gebruikers vanuit de app hebben gemeld. Ze worden na 1 jaar automatisch verwijderd.</string>
+    <string name="operator_reports_not_receiving">Deze server ontvangt geen meldingen. Meldingen die vanaf deze server worden verstuurd, gaan naar de server van de ontwikkelaar van Kelo.</string>
+    <string name="operator_reports_empty">Nog geen meldingen.</string>
+    <string name="operator_reports_open">Te behandelen meldingen: %1$d</string>
+    <string name="operator_reports_show_handled">Ook behandelde meldingen tonen</string>
+    <string name="operator_reports_hide_handled">Alleen te behandelen meldingen tonen</string>
+    <string name="operator_reports_reply">Gemeld antwoord</string>
+    <string name="operator_reports_asked">Bericht van gebruiker net daarvoor</string>
+    <string name="operator_reports_comment">Opmerking</string>
+    <string name="operator_reports_meta">%1$s · %2$s · App %3$s</string>
+    <string name="operator_reports_mark">Markeren als behandeld</string>
+    <string name="operator_reports_unmark">Markeren als niet behandeld</string>
+    <string name="operator_reports_handled">Behandeld</string>
+    <string name="operator_reports_delete">Verwijderen</string>
+    <string name="operator_reports_delete_confirm">Deze melding verwijderen? Dit kan niet ongedaan worden gemaakt.</string>
+    <string name="operator_reports_unknown">Onbekend</string>
+</resources>

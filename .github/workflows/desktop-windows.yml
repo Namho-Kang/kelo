@@ -1,0 +1,166 @@
+# Kelo for Windows: tests, then the MSI and EXE installers (jpackage) and the MSIX for the Microsoft Store.
+# MSI/EXE/MSIX can only be made on Windows, hence this runner. The files are attached to the run as artifacts.
+#
+# Repository variables (Settings → Secrets and variables → Actions → Variables), from Partner Center → Product identity:
+#   KELO_MSIX_IDENTITY_NAME         e.g. 12345YourName.Kelo
+#   KELO_MSIX_PUBLISHER             e.g. CN=1A2B3C4D-5E6F-7A8B-9C0D-112233445566
+#   KELO_MSIX_PUBLISHER_DISPLAY_NAME
+#   KELO_MSIX_DISPLAY_NAME          the product name reserved in Partner Center (Package/Properties/DisplayName)
+# Without them the MSIX uses the Microsoft Store product's identity (Partner Center: Kelo AI, kelo-chat.KeloAI), so the Store accepts it.
+# Optional secrets to sign the MSIX for installing it outside the Store: KELO_MSIX_PFX_BASE64, KELO_MSIX_PFX_PASSWORD.
+#
+# release-build.yml (version tags of the public repository) calls this workflow with attest: true, which gives every installer a
+# build provenance attestation: `gh attestation verify <file> -R kelo-chat/kelo` shows it was built by that workflow from that commit.
+# The installers themselves are not byte-for-byte reproducible (jpackage and the MSIX tools write times and ids), so the attestation
+# is the proof for them, not a rebuild. (docs/verify-builds.md)
+
+name: desktop-windows
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Package number, three numbers (1.0.8); empty = apps/desktop/version.properties. The MSIX gets a fourth .0"
+        required: false
+        default: ""
+      tests:
+        description: "Only these tests (Gradle --tests patterns, space separated, e.g. *ReactionShotsTest); empty runs them all"
+        required: false
+        default: ""
+      attest:
+        description: "Attach a build provenance attestation to the installers (the public repository's runs)"
+        type: boolean
+        required: false
+        default: false
+  workflow_call:
+    inputs:
+      version:
+        description: "Package number, three numbers (1.0.8); empty = apps/desktop/version.properties"
+        type: string
+        required: false
+        default: ""
+      attest:
+        description: "Attach a build provenance attestation to the installers"
+        type: boolean
+        required: false
+        default: false
+  # no push trigger (owner, 2026-11-11): a Windows run takes ~25 min and counts double against the private repo's Actions minutes;
+  # run it by hand (gh workflow run desktop-windows.yml) or from release-build.yml. The desktop tests also run on Linux in ci.yml.
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+      id-token: write         # the attestation is signed with this run's OIDC identity (only used when attest is true)
+      attestations: write
+    defaults:
+      run:
+        working-directory: apps/desktop
+    env:
+      VERSION_INPUT: ${{ inputs.version || github.event.inputs.version || '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # the installers' package number lives in one tracked place, apps/desktop/version.properties (docs/versioning.md); a version given
+      # to the run overrides it for that run only. The release people see (0.9.0) comes from version.json through the Gradle build.
+      - name: Package number
+        shell: bash
+        run: |
+          v="$VERSION_INPUT"
+          [ -n "$v" ] || v="$(sed -n 's/^packageVersion=\([0-9][0-9.]*\)[[:space:]]*$/\1/p' version.properties | head -1)"
+          case "$v" in [1-9]*.*[0-9].*[0-9]) ;; *) echo "bad package number '$v' (MAJOR.MINOR.BUILD, MAJOR >= 1)"; exit 1 ;; esac
+          echo "VERSION=$v" >> "$GITHUB_ENV"
+          echo "package number $v; $(grep -o '"version": *"[^"]*"' ../../version.json) (version.json)"
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: gradle            # keeps the Gradle and Kotlin downloads between runs
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch Gradle and the build tools (retried; falls back to the Gradle installed on the runner)
+        shell: bash
+        run: |
+          for i in 1 2 3; do
+            ./gradlew.bat --no-daemon help && { echo "GRADLE_CMD=./gradlew.bat" >> "$GITHUB_ENV"; exit 0; }
+            echo "download failed (try $i), waiting before the next try"; sleep $((i * 20))
+          done
+          # GitHub's release downloads (where Gradle's own zip lives) sometimes time out for a long while: use the runner's Gradle
+          echo "using the runner's preinstalled Gradle: $(gradle --version | grep '^Gradle')"
+          gradle --no-daemon help && echo "GRADLE_CMD=gradle" >> "$GITHUB_ENV"
+
+      - name: Tests
+        shell: pwsh
+        env:
+          TESTS: ${{ github.event.inputs.tests }}
+        run: |
+          $a = @('--no-daemon', 'test')
+          foreach ($t in "$env:TESTS" -split '\s+') { if ($t) { $a += @('--tests', $t) } }
+          & $env:GRADLE_CMD @a
+
+      # what failed, to look at without a Windows machine: the test report, the JUnit XML (with what the tests printed) and the
+      # screenshots the UI tests took (build/parity, with a *-zz-failed-* shot of the screen a failed test ended on), the mock servers' output
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: kelo-windows-test-report
+          path: |
+            apps/desktop/build/reports/tests/test
+            apps/desktop/build/test-results/test
+            apps/desktop/build/parity
+            apps/desktop/build/mock-server
+          if-no-files-found: ignore
+
+      - name: MSI and EXE
+        # -PkeloCommit: the commit this run built, shown in My as a link to its source on GitHub (a checkout is clean, so not modified)
+        run: '& $env:GRADLE_CMD --no-daemon packageMsi packageExe createDistributable "-PkeloVersion=${{ env.VERSION }}" "-PkeloCommit=${{ github.sha }}" "-PkeloDirty=false"'
+
+      - name: MSIX
+        shell: pwsh
+        env:
+          IDENTITY_NAME: ${{ vars.KELO_MSIX_IDENTITY_NAME || 'kelo-chat.KeloAI' }}
+          PUBLISHER: ${{ vars.KELO_MSIX_PUBLISHER || 'CN=B768A023-5EDD-4EA2-9CC8-14670F96502D' }}
+          PUBLISHER_DISPLAY_NAME: ${{ vars.KELO_MSIX_PUBLISHER_DISPLAY_NAME || 'kelo-chat' }}
+          DISPLAY_NAME: ${{ vars.KELO_MSIX_DISPLAY_NAME || 'Kelo AI' }}
+          PFX_BASE64: ${{ secrets.KELO_MSIX_PFX_BASE64 }}
+          PFX_PASSWORD: ${{ secrets.KELO_MSIX_PFX_PASSWORD }}
+        run: |
+          $p = @{
+            AppDir = "build/compose/binaries/main/app/Kelo"
+            Version = "$env:VERSION.0"
+            Out = "build/msix/Kelo-$env:VERSION.0.msix"
+          }
+          if ($env:IDENTITY_NAME) { $p.IdentityName = $env:IDENTITY_NAME }
+          if ($env:PUBLISHER) { $p.Publisher = $env:PUBLISHER }
+          if ($env:PUBLISHER_DISPLAY_NAME) { $p.PublisherDisplayName = $env:PUBLISHER_DISPLAY_NAME }
+          if ($env:DISPLAY_NAME) { $p.DisplayName = $env:DISPLAY_NAME }
+          if ($env:PFX_BASE64) {
+            $pfx = Join-Path $env:RUNNER_TEMP "kelo.pfx"
+            [IO.File]::WriteAllBytes($pfx, [Convert]::FromBase64String($env:PFX_BASE64))
+            $p.Pfx = $pfx
+            $p.PfxPassword = $env:PFX_PASSWORD
+          }
+          ./packaging/windows/make_msix.ps1 @p
+
+      - name: Build provenance for the installers
+        if: ${{ inputs.attest }}
+        uses: actions/attest-build-provenance@v4
+        with:
+          subject-path: |
+            apps/desktop/build/compose/binaries/main/msi/*.msi
+            apps/desktop/build/compose/binaries/main/exe/*.exe
+            apps/desktop/build/msix/*.msix
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kelo-windows-${{ env.VERSION }}
+          path: |
+            apps/desktop/build/compose/binaries/main/msi/*.msi
+            apps/desktop/build/compose/binaries/main/exe/*.exe
+            apps/desktop/build/msix/*.msix
+          if-no-files-found: error

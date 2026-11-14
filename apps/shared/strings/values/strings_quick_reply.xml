@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Quick-reply fields under an agent message: the app's own "Other" box, date / time / number pickers, a date with a time -->
+<resources>
+    <string name="reply_other">Other</string>
+    <string name="reply_pick_date">Pick a date</string>
+    <string name="reply_pick_time">Pick a time</string>
+    <string name="reply_number_hint">Enter a number</string>
+    <string name="reply_number_range">From %1$s to %2$s</string>
+    <string name="reply_date_at">%1$s at %2$s</string>
+</resources>

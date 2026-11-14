@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Nazwa własna</string>
+    <string name="wallet_nickname_field">Nazwa własna (opcjonalnie)</string>
+    <string name="wallet_tag_default">Domyślna</string>
+    <string name="wallet_default_title">Karta domyślna</string>
+    <string name="wallet_default_on">Kelo płaci tą kartą, chyba że ty lub zadanie wskażecie inną.</string>
+    <string name="wallet_make_default">Ustaw jako kartę domyślną</string>
+    <string name="wallet_delete_default_title">Wybierz nową kartę domyślną</string>
+    <string name="wallet_delete_default_body">„%1$s” to twoja karta domyślna. Wybierz kartę, którą Kelo będzie płacić od teraz.</string>
+    <string name="wallet_card_history">Płatności tą kartą</string>
+    <string name="wallet_card_history_empty">Kelo jeszcze nie płaciło tą kartą.</string>
+    <string name="wallet_card_history_more">Pokaż starsze płatności</string>
+    <string name="wallet_open_chat">Otwórz czat</string>
+    <string name="wallet_open_task">Otwórz zadanie</string>
+    <string name="wallet_auto_from_phone">Ten telefon otwiera własną kopię karty odciskiem palca, twarzą lub blokadą ekranu. Nie wpisujesz numeru ponownie.</string>
+    <string name="wallet_auth_auto_title">Włącz płatność automatyczną</string>
+    <string name="wallet_auth_auto_subtitle">Otwórz kopię „%1$s” z tego telefonu</string>
+    <string name="wallet_auto_not_here_title">Tej karty nie ma na tym telefonie</string>
+    <string name="wallet_auto_not_here_body">Została dodana na innym urządzeniu, więc ten telefon nie może jej otworzyć. Włącz płatność automatyczną na urządzeniu, które ją dodało, albo wpisz tutaj numer karty.</string>
+    <string name="wallet_auto_enter_number">Wpisz numer</string>
+    <string name="wallet_auto_on_failed">Nie udało się włączyć płatności automatycznej. Spróbuj ponownie.</string>
+</resources>

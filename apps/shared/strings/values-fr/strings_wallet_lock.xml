@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Vos cartes de paiement sont verrouillées</string>
+    <string name="wallet_lock_body">Confirmez votre identité par empreinte, visage ou verrouillage d’écran (code PIN, schéma ou mot de passe) pour les rouvrir.</string>
+    <string name="wallet_lock_kept">Les infos de carte que vous saisissiez sont toujours là. Déverrouillez pour reprendre où vous en étiez. Elles sont effacées après 10 minutes.</string>
+    <string name="wallet_lock_unlock">Déverrouiller</string>
+    <string name="wallet_lock_back">Retour</string>
+    <string name="wallet_lock_no_lock_title">Configurez un verrouillage d’écran</string>
+    <string name="wallet_lock_no_lock_body">Ce téléphone n’a pas de verrouillage d’écran : vos cartes de paiement ne peuvent pas s’ouvrir. Activez un code PIN ou une empreinte dans les Paramètres et revenez. Je vérifierai tout de suite.</string>
+    <string name="wallet_lock_open_settings">Ouvrir les réglages de verrouillage</string>
+</resources>

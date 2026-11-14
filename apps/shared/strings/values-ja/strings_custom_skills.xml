@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">承認待ちのスキル</string>
+    <string name="skill_review_about">Kelo は承認したスキルだけを使います。承認すると表示どおりの内容で保存されます。</string>
+    <string name="skill_review_drafting">Kelo がスキルの下書きを作成中…</string>
+    <string name="skill_review_kind_new">新しいスキル</string>
+    <string name="skill_review_kind_change">スキルの変更</string>
+    <string name="skill_review_kind_edited">アプリの外で変更</string>
+    <string name="skill_review_edited_note">このスキルのファイルがアプリの外で変更されたため、もう一度承認するまで Kelo は使いません。</string>
+    <string name="skill_review_edited_new_note">このスキルはアプリの外で追加されました。承認するまで Kelo は使いません。</string>
+    <string name="skill_review_outside_note">この作業中に Kelo はウェブページ、メール、ファイルを読みました。すべての手順が望みどおりか確認してください。</string>
+    <string name="skill_review_secrets_removed">パスワード、キー、コードは本文から削除しました。</string>
+    <string name="skill_review_diff_counts">追加 %1$d · 削除 %2$d</string>
+    <string name="skill_review_show_all">すべて表示</string>
+    <string name="skill_review_show_less">閉じる</string>
+    <string name="skill_review_put_back">変更を元に戻す</string>
+    <string name="skill_review_discard">破棄</string>
+    <string name="skill_review_approve">承認</string>
+    <string name="skill_review_approved">承認しました。Kelo がこのスキルを使います。</string>
+    <string name="skill_review_discarded">破棄しました</string>
+    <string name="skill_review_from_draft">終わったタスクから作成した下書き</string>
+    <string name="skill_review_from_disk">サーバーのファイルで変更</string>
+    <string name="skill_review_from_kelo">Kelo の提案</string>
+    <string name="skill_save">スキルとして保存</string>
+    <string name="skill_save_about">Kelo がこのタスクの手順を書き出します。%1$s → %2$s で承認するまで何も変わりません。</string>
+    <string name="skill_save_started">Kelo がスキルの下書きを作成しています。%1$s → %2$s で確認できます。</string>
+    <string name="skill_save_busy">このタスクのスキルはすでに作成中です。</string>
+    <string name="skill_save_unavailable">このサーバーはまだスキルを保存できません。先にサーバーを更新してください。</string>
+    <string name="skill_save_no_model">先にモデルを選んでください。</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Reportar</string>
+    <string name="report_title">Reportar esta respuesta</string>
+    <string name="report_intro">Si esta respuesta te molestó o era incorrecta, avísale al desarrollador de Kelo. Solo se usa para que Kelo sea más seguro.</string>
+    <string name="report_reason_label">¿Cuál fue el problema?</string>
+    <string name="report_reason_harmful">Molesta o dañina</string>
+    <string name="report_reason_inaccurate">No es exacta</string>
+    <string name="report_reason_privacy">Expone información personal</string>
+    <string name="report_reason_other">Otra cosa</string>
+    <string name="report_comment_hint">¿Algo más que añadir? (opcional)</string>
+    <string name="report_include_asked">Enviar también el mensaje que mandé justo antes</string>
+    <string name="report_sent_title">Qué recibe el desarrollador de Kelo</string>
+    <string name="report_sent_reply">La respuesta que reportas</string>
+    <string name="report_sent_asked">El mensaje que enviaste justo antes</string>
+    <string name="report_sent_reason">El motivo que elegiste y tus comentarios</string>
+    <string name="report_sent_model">El nombre del modelo que escribió la respuesta</string>
+    <string name="report_sent_version">Versión de la app Kelo</string>
+    <string name="report_sent_not">No se envía nada más de tus chats ni datos de tu cuenta. Los reportes se guardan 1 año y luego se eliminan, antes si lo pides.</string>
+    <string name="report_send">Enviar reporte</string>
+    <string name="report_sending">Enviando…</string>
+    <string name="report_failed_offline">No se pudo conectar con tu servidor. Lo que escribiste sigue aquí; intenta enviarlo de nuevo en un rato.</string>
+    <string name="report_thanks">Reporte enviado. Gracias por avisarnos.</string>
+    <string name="operator_section_reports">Reportes recibidos</string>
+    <string name="operator_reports_note">Respuestas que los usuarios reportaron desde la app. Se eliminan automáticamente después de 1 año.</string>
+    <string name="operator_reports_not_receiving">Este servidor no recibe reportes. Los reportes enviados desde este servidor van al servidor del desarrollador de Kelo.</string>
+    <string name="operator_reports_empty">Aún no hay reportes.</string>
+    <string name="operator_reports_open">Reportes por atender: %1$d</string>
+    <string name="operator_reports_show_handled">Mostrar también los atendidos</string>
+    <string name="operator_reports_hide_handled">Mostrar solo los pendientes</string>
+    <string name="operator_reports_reply">Respuesta reportada</string>
+    <string name="operator_reports_asked">Mensaje del usuario justo antes</string>
+    <string name="operator_reports_comment">Comentario</string>
+    <string name="operator_reports_meta">%1$s · %2$s · App %3$s</string>
+    <string name="operator_reports_mark">Marcar como atendido</string>
+    <string name="operator_reports_unmark">Marcar como no atendido</string>
+    <string name="operator_reports_handled">Atendido</string>
+    <string name="operator_reports_delete">Eliminar</string>
+    <string name="operator_reports_delete_confirm">¿Eliminar este reporte? No se puede deshacer.</string>
+    <string name="operator_reports_unknown">Desconocido</string>
+</resources>

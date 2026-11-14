@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">Op deze telefoon</string>
+    <string name="device_row_sub">Op deze telefoon</string>
+    <string name="device_row_connect">Koppelen</string>
+    <string name="device_connected">Gekoppeld</string>
+    <string name="device_needs_permission">Toestemming nodig</string>
+    <string name="device_calendar">Agenda</string>
+    <string name="device_contacts">Contacten</string>
+    <string name="device_messages">Berichten</string>
+    <string name="device_dialer">Telefoonkiezer</string>
+    <string name="device_notifications">Meldingen</string>
+    <string name="device_call_log">Belgeschiedenis</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">Bekijkt je afspraken om te antwoorden. Als je het toestaat, voegt het ook afspraken toe na je goedkeuring.</string>
+    <string name="device_calendar_sends">Stuurt afspraken van 7 dagen terug tot 60 dagen vooruit naar je server.</string>
+    <string name="device_contacts_does">Zoekt nummers en e-mailadressen op naam. Alleen lezen.</string>
+    <string name="device_contacts_sends">Stuurt namen, nummers, e-mailadressen, bedrijf en functie en verjaardagen naar je server.</string>
+    <string name="device_messages_does">Zoekt en leest ontvangen en verstuurde sms\'jes. Verstuurt alleen na je goedkeuring.</string>
+    <string name="device_messages_sends">Stuurt je recente sms\'jes naar je server.</string>
+    <string name="device_dialer_does">Opent na je goedkeuring de telefoonapp met het nummer ingevuld. Bellen doe je zelf.</string>
+    <string name="device_dialer_sends">Er wordt niets verstuurd.</string>
+    <string name="device_notifications_does">Vindt wat je nodig hebt in je ontvangen meldingen.</string>
+    <string name="device_notifications_sends">Stuurt appnaam, titel, tekst en tijd naar je server. Na 7 dagen gewist.</string>
+    <string name="device_call_log_does">Zoekt recente gesprekken. Alleen lezen.</string>
+    <string name="device_call_log_sends">Stuurt nummers, namen, soort gesprek, tijd en duur van de afgelopen 30 dagen naar je server.</string>
+    <string name="device_health_does">Antwoordt op basis van gegevens zoals stappen en slaap. Alleen lezen.</string>
+    <string name="device_health_sends">Stuurt alleen een dagelijkse samenvatting van de gekozen onderdelen naar je server, als je de app opent.</string>
+    <string name="device_switch">Laat Kelo dit gebruiken</string>
+    <string name="device_auto">Blijft vanzelf bijgewerkt · %1$s</string>
+    <string name="device_auto_never">Stuurt meteen zodra het aanstaat en blijft daarna bijgewerkt</string>
+    <string name="device_auto_foreground">Werkt bij als je de app opent · %1$s</string>
+    <string name="device_send_now">Nu versturen</string>
+    <string name="device_sending">Versturen…</string>
+    <string name="device_send_failed">Versturen mislukt. Ik probeer het zo opnieuw.</string>
+    <string name="device_off_failed">Uitgezet. Wat nog op de server staat, wordt bij de volgende verbinding gewist.</string>
+    <string name="device_denied">Toestemming staat uit. Sta het toe in Instellingen om dit aan te zetten.</string>
+    <string name="device_open_settings">Instellingen openen</string>
+    <string name="device_ready">Aan</string>
+    <plurals name="device_count_contacts">
+        <item quantity="one">%1$d contact</item>
+        <item quantity="other">%1$d contacten</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="one">%1$d sms</item>
+        <item quantity="other">%1$d sms\'jes</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="one">%1$d gesprek</item>
+        <item quantity="other">%1$d gesprekken</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="one">%1$d dag aan samenvattingen</item>
+        <item quantity="other">%1$d dagen aan samenvattingen</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="one">%1$d melding</item>
+        <item quantity="other">%1$d meldingen</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="one">%1$d afspraak</item>
+        <item quantity="other">%1$d afspraken</item>
+    </plurals>
+    <string name="device_cal_write">Ook afspraken toevoegen en wijzigen</string>
+    <string name="device_cal_write_line">Vraagt elke keer eerst je goedkeuring met een kaart.</string>
+    <string name="device_cal_write_to">Toevoegen aan agenda</string>
+    <string name="device_cal_none">Er is geen agenda die je kunt wijzigen.</string>
+    <string name="device_cal_write_denied">Toestemming om in de agenda te schrijven staat uit.</string>
+    <string name="device_msg_window">Hoe ver terug</string>
+    <string name="device_days">%1$d dagen</string>
+    <string name="device_msg_send">Sms\'en toestaan</string>
+    <string name="device_msg_send_line">Deze telefoon verstuurt pas als je de ontvanger en de hele tekst hebt goedgekeurd.</string>
+    <string name="device_msg_send_denied">Toestemming om sms\'jes te versturen staat uit.</string>
+    <string name="device_notif_service_label">Kelo leest meldingen</string>
+    <string name="device_notif_disclosure_title">Meldingen delen met Kelo?</string>
+    <string name="device_notif_disclosure">Als dit aanstaat, gaan de appnaam, titel, tekst en tijd van meldingen op deze telefoon naar je Kelo-server. Je agent gebruikt ze om dingen te vinden en je te antwoorden. Doorlopende meldingen, meldingen van Kelo zelf en apps die je uitsluit worden nooit verstuurd. De server wist ze na 7 dagen, en meteen als je dit uitzet.\n\nZet op het volgende scherm meldingstoegang voor Kelo aan.</string>
+    <string name="device_agree">Akkoord en doorgaan</string>
+    <string name="device_decline">Nee, bedankt</string>
+    <string name="device_notif_access_off">Meldingstoegang staat uit.</string>
+    <string name="device_notif_exclude">Apps uitsluiten</string>
+    <string name="device_notif_exclude_empty">Apps die je meldingen sturen, verschijnen hier.</string>
+    <string name="device_health_types">Wat je deelt</string>
+    <string name="device_health_steps">Stappen</string>
+    <string name="device_health_sleep">Slaap</string>
+    <string name="device_health_heart">Hartslag</string>
+    <string name="device_health_weight">Gewicht</string>
+    <string name="device_health_exercise">Trainingen</string>
+    <string name="device_health_missing">Health Connect staat niet op deze telefoon.</string>
+    <string name="device_health_install">Health Connect installeren</string>
+    <string name="device_health_denied">Geen toestemming voor de gekozen onderdelen. Sta ze opnieuw toe.</string>
+    <string name="device_health_allow">Toestaan</string>
+    <string name="device_health_rationale_title">Hoe Kelo je gezondheidsgegevens gebruikt</string>
+    <string name="device_health_rationale">Kelo leest alleen een dagelijkse samenvatting van de onderdelen die je kiest (stappen, slaap, hartslag, gewicht, trainingen) en stuurt die naar je eigen Kelo-server. Die wordt alleen gebruikt als je agent je vragen beantwoordt, nooit voor advertenties of verkoop. Kelo leest alleen en schrijft nooit naar Health Connect. Zet je het uit, dan worden de samenvattingen op de server gewist.</string>
+    <string name="device_privacy_policy">Privacybeleid</string>
+    <string name="device_dial_title">%1$s bellen</string>
+    <string name="device_dial_body">Tik om de telefoonapp te openen. Je belt zelf.</string>
+    <string name="device_sms_failed_title">Sms niet verstuurd</string>
+</resources>

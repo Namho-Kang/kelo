@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">See spend / balance too</string>
+    <string name="admin_key_title">Admin key for spend and balance</string>
+    <string name="admin_key_safety">Kept in a separate key container next to Kelo, not by Kelo itself, and used only to read spend and balance.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (read-only is enough).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (organization accounts only).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Save</string>
+    <string name="admin_key_saved">Saved. Spend shows below.</string>
+    <string name="admin_key_refused">The provider refused this key. Check that it is an admin key.</string>
+    <string name="admin_key_keyring_off">This server keeps no admin keys (its key container is off).</string>
+    <string name="admin_key_failed">Couldn\'t save the key. Try again in a moment.</string>
+    <string name="admin_key_set">Admin key …%1$s</string>
+    <string name="admin_key_remove">Remove</string>
+    <string name="admin_key_remove_q">Remove the admin key? Spend and balance will no longer show.</string>
+    <string name="my_privacy_keyring">AI provider keys you enter (and admin keys, if you add one) are kept by a separate key container next to Kelo, not by Kelo itself; Kelo asks it to make each call, and it adds the key only for that provider\'s own address.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">เชื่อมต่อโทรศัพท์เครื่องนี้อีกครั้ง</string>
+    <string name="e2e_key_changed_body">คีย์เข้ารหัสของเซิร์ฟเวอร์ Kelo เปลี่ยนไป โทรศัพท์เครื่องนี้จึงตรวจไม่ได้ว่าเป็นเซิร์ฟเวอร์ของคุณจริง โปรดสแกนคิวอาร์โค้ดเชื่อมต่อใหม่จาก ฉัน → อุปกรณ์ของฉัน บนอุปกรณ์อื่น หรือจากเครื่องเซิร์ฟเวอร์</string>
+    <string name="e2e_pair_again">เชื่อมต่ออีกครั้ง</string>
+    <string name="e2e_server_old_title">โปรดอัปเดตเซิร์ฟเวอร์ Kelo</string>
+    <string name="e2e_server_old_body">แอปนี้ต้องใช้เซิร์ฟเวอร์ Kelo %1$s ขึ้นไป โปรดอัปเดตเซิร์ฟเวอร์แล้วกลับมาอีกครั้ง</string>
+    <string name="e2e_server_old_version">เวอร์ชันเซิร์ฟเวอร์: %1$s</string>
+    <string name="e2e_retry">ลองอีกครั้ง</string>
+    <string name="devices_e2e_title">การเข้ารหัสตั้งแต่ต้นทางถึงปลายทาง</string>
+    <string name="devices_e2e_on">ระหว่างทาง มีเพียงโทรศัพท์เครื่องนี้กับเซิร์ฟเวอร์ของคุณที่อ่านแชตได้</string>
+    <string name="devices_e2e_fingerprint">ลายนิ้วมือคีย์เซิร์ฟเวอร์</string>
+    <string name="devices_e2e_verified">ยืนยันคีย์แล้ว</string>
+    <string name="devices_e2e_not_verified">ยังไม่ได้ยืนยันคีย์</string>
+    <string name="devices_e2e_not_verified_body">เทียบกับลายนิ้วมือที่ `assistant phone fingerprint` แสดงบนเครื่องเซิร์ฟเวอร์ หรือสแกนคิวอาร์โค้ดเชื่อมต่อหนึ่งครั้ง</string>
+    <string name="devices_e2e_verify_scan">ยืนยันด้วยการสแกนคิวอาร์โค้ด</string>
+    <string name="devices_e2e_verify_done">คีย์ตรงกัน ยืนยันแล้ว ✓</string>
+    <string name="devices_e2e_verify_mismatch">คิวอาร์โค้ดนี้มีคีย์อื่น หากคีย์ของเซิร์ฟเวอร์ถูกเปลี่ยน โปรดเชื่อมต่อโทรศัพท์เครื่องนี้อีกครั้ง</string>
+    <string name="devices_e2e_verify_no_key">คิวอาร์โค้ดนี้ไม่มีคีย์ โปรดสร้างใหม่จากเซิร์ฟเวอร์ที่อัปเดตแล้ว</string>
+</resources>

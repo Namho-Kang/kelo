@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_cli_update.xml (generated from values/strings_cli_update.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_cli_update_button">अपडेट करें</string>
+    <string name="model_cli_updating">अपडेट हो रहा है… (कुछ मिनट लग सकते हैं)</string>
+    <string name="model_cli_update_done">%1$s को वर्शन %2$s पर अपडेट किया</string>
+    <string name="model_cli_update_unchanged">%1$s पहले से अप-टू-डेट है</string>
+    <string name="model_cli_update_failed">अपडेट नहीं हो पाया: %1$s. मौजूदा वर्शन चलता रहेगा</string>
+</resources>

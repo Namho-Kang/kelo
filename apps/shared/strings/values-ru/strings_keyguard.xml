@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">Ваши пароли, ключи и карты открываются одним ключом. Обычно сервер хранит его рядом с ними. Если включить эту функцию, ключ будет только у вашего телефона, и тот, кто унесёт диск сервера, не сможет их открыть.</string>
+    <string name="keyguard_restart_note">После каждого перезапуска сервера, в том числе после обновлений, Kelo остаётся заблокированным, пока вы не откроете его на телефоне и не подтвердите, что это вы. До этого Kelo не может пользоваться вашими паролями, ключами и картами.</string>
+    <string name="keyguard_window_note">На этой версии Android ключ доступен 30 секунд после подтверждения.</string>
+    <string name="keyguard_turn_on">Включить</string>
+    <string name="keyguard_turning_on">Включаем…</string>
+    <string name="keyguard_turn_on_confirm">Включить? Вы получите код восстановления, который нужно записать. Без этого телефона или этого кода сервер не сможет открыть ваши пароли, ключи и карты.</string>
+    <string name="keyguard_not_owner">Изменить это может только телефон владельца.</string>
+    <string name="keyguard_env_key">Сервер всё ещё хранит ключ в файле настроек. Сначала выполните `assistant keyguard enable` на компьютере с сервером, затем попробуйте здесь снова.</string>
+    <string name="keyguard_no_lock">Сначала настройте блокировку экрана на этом телефоне.</string>
+    <string name="keyguard_recovery_title">Ваш код восстановления</string>
+    <string name="keyguard_recovery_warning">Этот код — единственный способ вернуть доступ, если вы потеряете все телефоны с ключом. Он показывается только сейчас и нигде не сохраняется. Запишите его и храните в надёжном месте.</string>
+    <string name="keyguard_recovery_confirm">Я записал(а)</string>
+    <string name="keyguard_done">Готово</string>
+    <string name="keyguard_phones_title">Телефоны с ключом</string>
+    <string name="keyguard_this_phone">%1$s (этот телефон)</string>
+    <string name="keyguard_add_this_phone">Хранить ключ и на этом телефоне</string>
+    <string name="keyguard_remove_this_phone">Удалить копию с этого телефона</string>
+    <string name="keyguard_remove_confirm">Удалить ключ с этого телефона? Другие телефоны с ключом по-прежнему смогут разблокировать Kelo.</string>
+    <string name="keyguard_last_phone">Ключ есть только у этого телефона. Сначала добавьте другой телефон или выключите функцию.</string>
+    <string name="keyguard_turn_off">Выключить</string>
+    <string name="keyguard_turn_off_confirm">Вернуть ключ серверу? Ваши пароли, ключи и карты снова будут открываться без телефона.</string>
+    <string name="keyguard_locked_title">Kelo заблокирован</string>
+    <string name="keyguard_locked_body">Ваши пароли, ключи и карты закрыты, пока вы не разблокируете Kelo этим телефоном.</string>
+    <string name="keyguard_locked_other">У этого телефона нет ключа. Разблокируйте Kelo на телефоне с ключом или используйте код восстановления.</string>
+    <string name="keyguard_on_phone_only">Включите эту функцию в Kelo на телефоне. Ключ хранится только на телефоне, но никогда на этом компьютере.</string>
+    <string name="keyguard_unlock">Разблокировать</string>
+    <string name="keyguard_unlocking">Разблокируем…</string>
+    <string name="keyguard_unlocked">Kelo разблокирован</string>
+    <string name="keyguard_use_code">Использовать код восстановления</string>
+    <string name="keyguard_code_hint">Код восстановления</string>
+    <string name="keyguard_code_wrong">Код не подошёл. Проверьте его и попробуйте снова.</string>
+    <string name="keyguard_key_lost">Ключа этого телефона больше нет (например, сняли блокировку экрана). Используйте другой телефон или код восстановления.</string>
+    <string name="keyguard_failed">Не получилось. Попробуйте снова.</string>
+    <string name="keyguard_prompt_title">Разблокировать Kelo</string>
+    <string name="keyguard_prompt_subtitle">Подтвердите, что это вы</string>
+    <string name="keyguard_prompt_wrap">Хранить ключ Kelo на этом телефоне</string>
+    <string name="wallet_keyguard_needed_title">Для автоплатежа нужен Keyguard</string>
+    <string name="wallet_keyguard_needed_body">Карты для автоплатежа хранятся на сервере. Когда Keyguard включён, их блокировка открывается только этим телефоном.</string>
+    <string name="keyguard_turn_on_named">Включить Keyguard</string>
+    <string name="wallet_auto_paused_keyguard">Автоплатёж приостановлен, пока не включён Keyguard. До этого каждый платёж подтверждается на телефоне.</string>
+    <string name="wallet_auto_copy_note">Сервер хранит заблокированную копию для автоплатежа; открыть её может только телефон владельца.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">허용하면 폰에서 이 사이트에 저장한 결제 비밀번호를 보낼지 물어봐요. 폰에서 확인해 주세요.</string>
+    <string name="desktop_pin_need_body">폰의 Kelo 앱을 열어 결제 비밀번호 “%1$s”를 %2$s 결제(%3$s)에 한 번 보내 주세요.</string>
+    <string name="desktop_pin_secret_on_phone">결제 비밀번호는 폰에만 저장돼요. 폰의 Kelo 앱에서 입력하면 이 카드는 저절로 닫혀요.</string>
+    <string name="desktop_pay_step_on_phone">폰의 카드 앱이나 은행 앱에서 승인한 뒤, 여기서 “승인했어요”를 누르세요.</string>
+    <string name="desktop_pay_step_click_copy">코드를 클릭하면 복사돼요</string>
+    <string name="desktop_pay_step_pad_note">여기서 키를 클릭하세요. 클릭한 곳이 결제 화면의 같은 자리에 눌려요.</string>
+    <string name="desktop_briefing_weather_follows_phone">날씨는 휴대폰 위치를 따라요. 휴대폰에서 Kelo를 열고 위치를 허용하면 나와요.</string>
+    <string name="desktop_pin_add_on_phone">결제 비밀번호는 폰의 Kelo 앱에서 추가해요. 그 폰만 가진 키로 잠겨요.</string>
+</resources>

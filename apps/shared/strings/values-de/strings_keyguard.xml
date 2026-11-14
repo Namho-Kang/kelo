@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">Deine Passwörter, Schlüssel und Karten werden mit einem Schlüssel geöffnet. Normalerweise liegt er beim Server. Ist dies an, hat nur dein Handy ihn, und wer die Festplatte des Servers mitnimmt, kann sie nicht öffnen.</string>
+    <string name="keyguard_restart_note">Nach jedem Neustart des Servers, auch nach Updates, bleibt Kelo gesperrt, bis du es auf deinem Handy öffnest und bestätigst, dass du es bist. Bis dahin kann Kelo deine Passwörter, Schlüssel und Karten nicht nutzen.</string>
+    <string name="keyguard_window_note">Auf dieser Android-Version bleibt der Schlüssel nach dem Bestätigen 30 Sekunden lang nutzbar.</string>
+    <string name="keyguard_turn_on">Einschalten</string>
+    <string name="keyguard_turning_on">Wird eingeschaltet…</string>
+    <string name="keyguard_turn_on_confirm">Einschalten? Du bekommst einen Wiederherstellungscode zum Aufschreiben. Ohne dieses Handy oder diesen Code kann der Server deine Passwörter, Schlüssel und Karten nicht öffnen.</string>
+    <string name="keyguard_not_owner">Nur das Handy des Besitzers kann das ändern.</string>
+    <string name="keyguard_env_key">Der Server hat seinen Schlüssel noch in seiner Einstellungsdatei. Führe zuerst `assistant keyguard enable` auf dem Server-Rechner aus und versuche es dann hier erneut.</string>
+    <string name="keyguard_no_lock">Richte zuerst eine Displaysperre auf diesem Handy ein.</string>
+    <string name="keyguard_recovery_title">Dein Wiederherstellungscode</string>
+    <string name="keyguard_recovery_warning">Dieser Code ist der einzige Weg zurück, wenn du alle Handys mit dem Schlüssel verlierst. Er wird nur jetzt gezeigt und nirgends gespeichert. Schreib ihn auf und bewahre ihn sicher auf.</string>
+    <string name="keyguard_recovery_confirm">Ich habe ihn aufgeschrieben</string>
+    <string name="keyguard_done">Fertig</string>
+    <string name="keyguard_phones_title">Handys mit dem Schlüssel</string>
+    <string name="keyguard_this_phone">%1$s (dieses Handy)</string>
+    <string name="keyguard_add_this_phone">Schlüssel auch auf diesem Handy aufbewahren</string>
+    <string name="keyguard_remove_this_phone">Kopie auf diesem Handy entfernen</string>
+    <string name="keyguard_remove_confirm">Den Schlüssel von diesem Handy entfernen? Andere Handys mit dem Schlüssel können Kelo weiter entsperren.</string>
+    <string name="keyguard_last_phone">Nur dieses Handy hat den Schlüssel. Füge zuerst ein anderes Handy hinzu oder schalte dies aus.</string>
+    <string name="keyguard_turn_off">Ausschalten</string>
+    <string name="keyguard_turn_off_confirm">Den Schlüssel an den Server zurückgeben? Deine Passwörter, Schlüssel und Karten öffnen sich dann wieder ohne dein Handy.</string>
+    <string name="keyguard_locked_title">Kelo ist gesperrt</string>
+    <string name="keyguard_locked_body">Deine Passwörter, Schlüssel und Karten bleiben zu, bis du Kelo mit diesem Handy entsperrst.</string>
+    <string name="keyguard_locked_other">Dieses Handy hat den Schlüssel nicht. Entsperre Kelo auf einem Handy, das ihn hat, oder nutze den Wiederherstellungscode.</string>
+    <string name="keyguard_on_phone_only">Schalte es in Kelo auf deinem Handy ein. Nur ein Handy hat den Schlüssel, niemals dieser Computer.</string>
+    <string name="keyguard_unlock">Entsperren</string>
+    <string name="keyguard_unlocking">Wird entsperrt…</string>
+    <string name="keyguard_unlocked">Kelo ist entsperrt</string>
+    <string name="keyguard_use_code">Wiederherstellungscode verwenden</string>
+    <string name="keyguard_code_hint">Wiederherstellungscode</string>
+    <string name="keyguard_code_wrong">Der Code hat nicht gepasst. Prüfe ihn und versuche es erneut.</string>
+    <string name="keyguard_key_lost">Der Schlüssel dieses Handys ist weg (z. B. weil die Displaysperre entfernt wurde). Nutze ein anderes Handy oder den Wiederherstellungscode.</string>
+    <string name="keyguard_failed">Das hat nicht geklappt. Versuch es erneut.</string>
+    <string name="keyguard_prompt_title">Kelo entsperren</string>
+    <string name="keyguard_prompt_subtitle">Bestätige, dass du es bist</string>
+    <string name="keyguard_prompt_wrap">Kelos Schlüssel auf diesem Handy aufbewahren</string>
+    <string name="wallet_keyguard_needed_title">Automatische Zahlung braucht Keyguard</string>
+    <string name="wallet_keyguard_needed_body">Karten für die automatische Zahlung liegen auf dem Server. Mit Keyguard öffnet sich ihre Sperre nur mit diesem Handy.</string>
+    <string name="keyguard_turn_on_named">Keyguard einschalten</string>
+    <string name="wallet_auto_paused_keyguard">Die automatische Zahlung ist pausiert, bis Keyguard an ist. Bis dahin fragt jede Zahlung auf deinem Handy nach.</string>
+    <string name="wallet_auto_copy_note">Der Server bewahrt eine gesperrte Kopie für die automatische Zahlung auf; nur das Handy des Besitzers kann sie entsperren.</string>
+</resources>

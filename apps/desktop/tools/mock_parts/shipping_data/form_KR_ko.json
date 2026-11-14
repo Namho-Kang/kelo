@@ -1,0 +1,49 @@
+{
+ "country": "KR",
+ "country_name": "South Korea",
+ "lang": "ko",
+ "fields": [
+  {
+   "key": "name",
+   "label": "이름",
+   "required": true,
+   "autocomplete": "name"
+  },
+  {
+   "key": "postal_code",
+   "label": "우편번호",
+   "required": true,
+   "autocomplete": "postal-code",
+   "pattern": "^(?:\\d{5})$",
+   "example": "03051",
+   "numeric": true
+  },
+  {
+   "key": "address_line1",
+   "label": "주소",
+   "required": true,
+   "autocomplete": "address-line1"
+  },
+  {
+   "key": "address_line2",
+   "label": "상세주소",
+   "required": false,
+   "autocomplete": "address-line2"
+  }
+ ],
+ "phone": {
+  "label": "전화번호",
+  "calling_code": "+82",
+  "required": true
+ },
+ "note": {
+  "label": "배송 메모",
+  "required": false
+ },
+ "labels": {
+  "country": "국가",
+  "nickname": "별칭",
+  "optional": "선택"
+ },
+ "format": "%S %C%D%n%A%n%O%n%N%n%Z"
+}

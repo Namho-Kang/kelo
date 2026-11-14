@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_buy_ready.xml -->
+<resources>
+    <string name="buy_ready_title">พร้อมซื้อทันที</string>
+    <string name="buy_ready_short">พร้อมซื้อได้ทันที</string>
+    <string name="buy_ready_problems_short">พร้อมซื้อ: ต้องแก้ไข %1$d รายการ</string>
+    <string name="buy_ready_ok">ทุกอย่างพร้อมแล้ว เมื่อปรากฏ Kelo จะซื้อทันทีตามขอบเขตที่คุณอนุญาต</string>
+    <string name="buy_ready_not_ok">มีบางอย่างที่ยังไม่พร้อม:</string>
+    <string name="buy_ready_login">เข้าสู่ระบบ</string>
+    <string name="buy_ready_login_kept">คงการเข้าสู่ระบบ</string>
+    <string name="buy_ready_login_out">ออกจากระบบแล้ว</string>
+    <string name="buy_ready_checked">ตรวจสอบล่าสุด</string>
+    <string name="buy_ready_remembered">Kelo จำขั้นตอนการชำระเงินของเว็บไซต์นี้ได้ จึงสามารถซื้อได้ในเวลาไม่กี่วินาที</string>
+    <string name="buy_ready_about">หน้าสินค้าจะเปิดทิ้งไว้ในเบราว์เซอร์ของ Kelo และตรวจสอบทุก 15 นาที</string>
+    <string name="buy_ready_check">ตรวจสอบตอนนี้</string>
+</resources>

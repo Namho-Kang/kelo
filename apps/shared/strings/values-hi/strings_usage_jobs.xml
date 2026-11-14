@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">बैकग्राउंड काम का मॉडल</string>
+    <string name="model_background_help">सिर्फ़ उस काम के लिए जो Kelo खुद करता है: हर रात का रिव्यू, मेमोरी की देखभाल, जर्नल, आपको क्या बताना है यह चुनना, और लंबी चैट के सारांश। ब्राउज़र इस्तेमाल करने, भुगतान करने या कुछ भेजने वाला हर काम मुख्य मॉडल ही करता है।</string>
+    <string name="model_background_same">मुख्य मॉडल जैसा ही</string>
+    <string name="model_background_fell_back">%1$s को बैकग्राउंड मॉडल विफल रहा, इसलिए यह काम मुख्य मॉडल ने किया।</string>
+    <string name="usage_jobs_tokens">%1$s टोकन</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Очистити</string>
+    <string name="storage_cleanup_title">Очищення сховища</string>
+    <string name="storage_warn">Сховище Kelo заповнене на %1$d%%.</string>
+    <string name="storage_critical">Сховище Kelo майже заповнене (%1$d%%). Коли воно заповниться, нові файли не можна буде зберегти, але чат працюватиме далі.</string>
+    <string name="storage_host_low">Диск комп’ютера, на якому працює сервер Kelo, майже заповнений (лишилося %1$s). Коли місце закінчиться, Kelo перестане працювати, зокрема чат.</string>
+    <string name="storage_top">Найбільше займає: %1$s (%2$s).</string>
+    <string name="storage_row_warn">Зайнято %1$d%%</string>
+    <string name="storage_row_critical">Майже заповнене</string>
+    <string name="storage_row_host">Диск майже заповнений</string>
+    <string name="storage_cleanup_intro">Це можна безпечно видалити. Нотатки, пам’ять та історія чату тут ніколи не показуються.</string>
+    <string name="storage_group_uploads">Старі оригінали завантажень</string>
+    <string name="storage_group_uploads_desc">Файли, завантажені понад %1$d днів тому. Видаляється лише оригінал; текст, який Kelo прочитав із документа, лишається.</string>
+    <string name="storage_group_images">Створені зображення</string>
+    <string name="storage_group_images_desc">Зображення, створені Kelo. У старих повідомленнях, де вони були, більше нічого не буде видно.</string>
+    <string name="storage_group_browser">Знімки кроків браузера</string>
+    <string name="storage_group_browser_desc">Знімки кожного кроку браузера в завданнях, що виконувалися самі.</string>
+    <string name="storage_group_results">Старі результати й кошик</string>
+    <string name="storage_group_results_desc">Результати, старші за %1$d днів, і все, що є в кошику.</string>
+    <string name="storage_group_backups">Старі резервні копії</string>
+    <string name="storage_group_backups_desc">Найновіші резервні копії завжди зберігаються.</string>
+    <string name="storage_item_text_kept">Текст лишиться</string>
+    <string name="storage_item_trashed">У кошику</string>
+    <string name="storage_backup_update">Перед оновленням сервера</string>
+    <string name="storage_backup_memory">Упорядкування пам’яті</string>
+    <string name="storage_backup_migration">Попередня структура</string>
+    <string name="storage_selected">Вибрано: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Видалити</string>
+    <string name="storage_confirm_title">Видалити вибране назавжди?</string>
+    <string name="storage_confirm_body">Звільниться %1$s. Видалене не можна повернути.</string>
+    <string name="storage_deleted">Звільнено %1$s.</string>
+    <string name="storage_skipped">Деякі елементи вже змінилися, тож їх залишено як є.</string>
+    <string name="storage_nothing">Зараз нічого очищати.</string>
+    <string name="storage_owner_only">Очищати може лише власник сервера.</string>
+    <string name="storage_load_failed">Не вдалося завантажити те, що можна очистити.</string>
+    <string name="storage_delete_failed">Не вдалося видалити. Спробуйте ще раз.</string>
+    <string name="storage_notify">Сховище заповнюється</string>
+</resources>

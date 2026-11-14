@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">ถ้าอนุญาต โทรศัพท์จะถามว่าจะส่ง PIN ชำระเงินที่บันทึกไว้สำหรับเว็บไซต์นี้หรือไม่ ยืนยันที่โทรศัพท์</string>
+    <string name="desktop_pin_need_body">เปิดแอป Kelo บนโทรศัพท์เพื่อส่ง PIN “%1$s” หนึ่งครั้งสำหรับการชำระเงินที่ %2$s (%3$s)</string>
+    <string name="desktop_pin_secret_on_phone">PIN ชำระเงินเก็บไว้บนโทรศัพท์เท่านั้น ใส่ในแอป Kelo บนโทรศัพท์ แล้วการ์ดนี้จะปิดเองเมื่อบันทึกแล้ว</string>
+    <string name="desktop_pay_step_on_phone">อนุมัติในแอปบัตรหรือแอปธนาคารบนโทรศัพท์ แล้วคลิก “อนุมัติแล้ว” ที่นี่</string>
+    <string name="desktop_pay_step_click_copy">คลิกรหัสเพื่อคัดลอก</string>
+    <string name="desktop_pay_step_pad_note">คลิกปุ่มที่นี่ การคลิกแต่ละครั้งจะกดตรงจุดเดียวกันบนหน้าชำระเงิน</string>
+    <string name="desktop_briefing_weather_follows_phone">สภาพอากาศอิงตามตำแหน่งของโทรศัพท์ จะแสดงเมื่อคุณเปิด Kelo บนโทรศัพท์และอนุญาตตำแหน่ง</string>
+    <string name="desktop_pin_add_on_phone">เพิ่ม PIN ชำระเงินได้ในแอป Kelo บนโทรศัพท์ และล็อกด้วยกุญแจที่มีเฉพาะโทรศัพท์เครื่องนั้น</string>
+</resources>

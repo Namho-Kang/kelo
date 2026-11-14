@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text only the desktop app has (pl). See values/strings_desktop.xml. -->
+<resources>
+    <string name="desktop_pair_step2">Skopiuj wyświetlony link i wklej go poniżej.</string>
+    <string name="desktop_tray_open">Otwórz Kelo</string>
+    <string name="desktop_tray_quit">Zamknij Kelo</string>
+    <string name="desktop_tray_stop">Zatrzymaj: %1$s</string>
+    <string name="desktop_still_running">Kelo działa dalej w zasobniku i da znać, gdy coś będzie wymagać Twojej uwagi.</string>
+    <string name="desktop_section">To urządzenie</string>
+    <string name="desktop_start_at_login">Uruchamiaj Kelo po zalogowaniu</string>
+    <string name="desktop_start_at_login_hint">Kelo uruchamia się po cichu w zasobniku, więc powiadomienia docierają, zanim otworzysz okno.</string>
+    <string name="desktop_start_at_login_store">Włącz lub wyłącz to w Ustawieniach Windows → Aplikacje → Uruchamianie.</string>
+    <string name="desktop_start_at_login_unavailable">Dostępne w zainstalowanej aplikacji.</string>
+    <string name="desktop_keep_in_tray">Działaj w zasobniku po zamknięciu okna</string>
+    <string name="desktop_notifications">Powiadomienia na pulpicie</string>
+    <string name="desktop_notifications_hint">Odpowiedzi ukończone, gdy okno jest ukryte, zatwierdzenia czekające na Ciebie i wiadomości, gdy Kelo informuje pierwsze.</string>
+    <string name="desktop_reduce_motion">Ogranicz ruch</string>
+    <string name="desktop_theme">Wygląd</string>
+    <string name="desktop_theme_system">Jak w systemie</string>
+    <string name="desktop_theme_light">Jasny</string>
+    <string name="desktop_theme_dark">Ciemny</string>
+    <string name="desktop_drop_here">Upuść tu pliki, aby wysłać je do %1$s</string>
+    <string name="desktop_attach_files">Dołącz pliki (do 100 MB każdy)</string>
+    <string name="desktop_enter_hint">Enter, aby wysłać · Shift+Enter, aby przejść do nowej linii</string>
+    <string name="desktop_logout_confirm">Wylogować się na tym urządzeniu? Aby znów z niego korzystać, trzeba będzie połączyć się z serwerem od nowa.</string>
+    <string name="desktop_version">Kelo na komputer %1$s</string>
+    <string name="desktop_open_settings">Otwórz ustawienia</string>
+    <string name="desktop_sign_in_browser">Zaloguj się w przeglądarce</string>
+    <string name="desktop_browser_opened">Strona logowania otworzyła się w przeglądarce. Wróć tutaj, gdy skończysz.</string>
+    <string name="desktop_chooser_setup_hint">Żadna usługa AI nie jest jeszcze gotowa. Wybierz jedną poniżej i dodaj jej klucz lub adres albo się zaloguj.</string>
+    <string name="desktop_chooser_setup_title">Skonfiguruj usługę</string>
+    <string name="desktop_update_quit_note">Instalator jest otwarty. Zamknij Kelo na czas instalacji, a potem uruchom Kelo ponownie.</string>
+    <string name="desktop_update_open_failed">Nie udało się otworzyć instalatora. Zapisano go w %1$s.</string>
+    <string name="desktop_e2e_on">W drodze tylko to urządzenie i Twój serwer mogą czytać Twoje rozmowy.</string>
+    <string name="desktop_e2e_not_verified_body">Porównaj to z odciskiem, który pokazuje `assistant phone fingerprint` na komputerze serwera, albo wklej raz link połączenia.</string>
+    <string name="desktop_e2e_verify_paste">Sprawdź linkiem</string>
+    <string name="desktop_e2e_paste_hint">Wklej link połączenia (https://…/#pair=…)</string>
+    <string name="desktop_e2e_verify_mismatch">Ten link zawiera inny klucz. Jeśli klucz serwera został zmieniony, połącz to urządzenie ponownie.</string>
+    <string name="desktop_e2e_verify_no_key">Ten link nie zawiera klucza. Utwórz nowy na zaktualizowanym serwerze.</string>
+    <string name="desktop_e2e_key_changed_body">Klucz szyfrowania Twojego serwera Kelo się zmienił, więc to urządzenie nie może sprawdzić, czy to naprawdę Twój serwer. Wklej nowy link połączenia z Moje → Moje urządzenia na innym urządzeniu lub z komputera serwera.</string>
+    <string name="desktop_location_on_phone">Ten komputer nie może udostępnić Twojej lokalizacji. Otwórz Kelo w telefonie, aby ją tam udostępnić, albo wybierz Nie teraz.</string>
+    <string name="desktop_keyguard_locked_body">Hasła, klucze i karty pozostają zamknięte, dopóki nie otworzysz Kelo w telefonie i go tam nie odblokujesz. Ten komputer nie ma klucza.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Thẻ thanh toán đã bị khóa</string>
+    <string name="wallet_lock_body">Xác nhận đó là bạn bằng vân tay, khuôn mặt hoặc khóa màn hình (mã PIN, hình vẽ hoặc mật khẩu) để mở lại.</string>
+    <string name="wallet_lock_kept">Thông tin thẻ bạn đang nhập vẫn còn đây. Mở khóa để tiếp tục từ chỗ đang dở. Thông tin sẽ bị xóa sau 10 phút.</string>
+    <string name="wallet_lock_unlock">Mở khóa</string>
+    <string name="wallet_lock_back">Quay lại</string>
+    <string name="wallet_lock_no_lock_title">Thiết lập khóa màn hình</string>
+    <string name="wallet_lock_no_lock_body">Điện thoại này chưa có khóa màn hình nên không thể mở thẻ thanh toán. Hãy bật mã PIN hoặc vân tay trong Cài đặt rồi quay lại. Mình sẽ kiểm tra ngay.</string>
+    <string name="wallet_lock_open_settings">Mở cài đặt khóa màn hình</string>
+</resources>

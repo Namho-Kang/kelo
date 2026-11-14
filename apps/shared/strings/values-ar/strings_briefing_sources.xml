@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">ما الذي يُقرأ</string>
+    <string name="briefing_sources_about">يقرأ Kelo كل التقويمات وصناديق البريد المتصلة من أجل الملخّص والتنبيهات. أوقف أحدها لاستثنائه.</string>
+    <string name="briefing_sources_calendars">التقويمات</string>
+    <string name="briefing_sources_mail">البريد</string>
+    <string name="briefing_sources_chat">يمكنك أيضًا إخبار Kelo في الدردشة، مثل: «استبعد بريد العمل من الملخّص».</string>
+    <string name="briefing_sources_check">فحص الحسابات الآن</string>
+    <string name="briefing_sources_checking">جارٍ الفحص…</string>
+    <string name="connector_method_caldav">كلمة مرور تطبيق CalDAV</string>
+    <string name="caldav_help">استخدم عنوان CalDAV الذي يقدّمه مزوّدك (مثل https://dav.fastmail.com/ في Fastmail) واسم المستخدم وكلمة مرور تطبيق.</string>
+    <string name="caldav_url">عنوان CalDAV</string>
+    <string name="caldav_user">اسم المستخدم</string>
+    <string name="caldav_account_note">يقرأ Kelo هذا التقويم فقط من أجل الملخّص والتنبيهات، ولا يعدّله أبدًا.</string>
+    <string name="caldav_disconnect_confirm">فصل %1$s؟ سيتم حذف كلمة مرور التطبيق المحفوظة.</string>
+    <string name="caldav_add_other">إضافة تقويم آخر</string>
+    <string name="caldav_notify">ربطت تقويمي. تابِع من فضلك.</string>
+</resources>

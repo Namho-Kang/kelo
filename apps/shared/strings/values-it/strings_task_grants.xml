@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">Quando succede, fare questo senza chiedere?</string>
+    <string name="task_grant_when">Quando</string>
+    <string name="task_grant_does">Kelo farà</string>
+    <string name="task_grant_buy">Acquista</string>
+    <string name="task_grant_limits">Limiti</string>
+    <string name="task_grant_per_time">Fino a %1$s per volta</string>
+    <string name="task_grant_times_one">Una sola volta</string>
+    <string name="task_grant_times">Al massimo %1$d volte</string>
+    <string name="task_grant_no_count">Senza limite di volte</string>
+    <string name="task_grant_monthly">Al massimo %1$s al mese</string>
+    <string name="task_grant_card">Carta</string>
+    <string name="task_grant_card_limit">Il limite di pagamento automatico di questa carta è %1$s. Consentire fino a %2$s per questa attività?</string>
+    <string name="task_grant_card_not_auto">Questa carta non paga da sola. Questa attività può pagare fino a %1$s.</string>
+    <string name="task_grant_card_phone_only">Questa carta è salvata solo sul telefono, quindi ogni pagamento chiederà ancora.</string>
+    <string name="task_grant_ship_to">Spedisci a</string>
+    <string name="task_grant_send_to">Invia a</string>
+    <string name="task_grant_message">Messaggio</string>
+    <string name="task_grant_varies">Può variare: %1$s</string>
+    <string name="task_grant_change">Modifica</string>
+    <string name="task_grant_apply">Si candida</string>
+    <string name="task_grant_apply_per_run">Fino a %1$d per esecuzione</string>
+    <string name="task_grant_apply_total">%1$d in totale</string>
+    <string name="task_grant_row_apply">Si candida per %1$s</string>
+    <string name="task_grant_delete_yes">Eliminazione consentita</string>
+    <string name="task_grant_delete_no">Non elimina mai</string>
+    <string name="task_grant_login">Accesso</string>
+    <string name="task_grant_login_line">Accesso %1$s su %2$s</string>
+    <string name="task_grant_once">Finisce da sola una volta fatto, così niente succede due volte.</string>
+    <string name="task_grant_after">Riceverai un avviso subito dopo. Tutto il resto ti verrà ancora chiesto.</string>
+    <string name="task_grant_urgent">Urgente: rispondi presto</string>
+    <string name="task_grant_urgent_missed">Urgente: se rispondi tardi, %1$s</string>
+    <string name="task_grant_row_send">Invia a %1$s</string>
+    <string name="task_grant_row_change">Modifica %1$s</string>
+    <string name="task_grant_row_when">Quando: %1$s</string>
+    <string name="task_grant_row_card">Carta: %1$s</string>
+    <string name="task_grant_row_left">%1$d di %2$d rimaste</string>
+    <string name="task_grant_row_once">poi termina</string>
+    <string name="task_grant_section_note">Consentito una volta alla configurazione. Tutto il resto chiede ancora.</string>
+    <string name="notify_channel_urgent">Richieste urgenti</string>
+    <string name="notify_channel_urgent_desc">Quando un\'attività impostata ha bisogno di una risposta prima che sia tardi</string>
+    <string name="notify_approval_urgent">Urgente: conferma</string>
+</resources>

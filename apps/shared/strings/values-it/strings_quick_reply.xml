@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_quick_reply.xml (generated from values/strings_quick_reply.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="reply_other">Altro</string>
+    <string name="reply_pick_date">Scegli una data</string>
+    <string name="reply_pick_time">Scegli un orario</string>
+    <string name="reply_number_hint">Inserisci un numero</string>
+    <string name="reply_number_range">Da %1$s a %2$s</string>
+    <string name="reply_date_at">%1$s alle %2$s</string>
+</resources>

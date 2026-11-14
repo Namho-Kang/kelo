@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">カードの追加と支払いの確認は、スマホの Kelo アプリで行います。カード番号はそのスマホだけが持つ鍵でロックされています。ここではカードの確認、名前の変更や削除、自動支払いのオフと上限の設定ができます。</string>
+    <string name="desktop_ops_tag_phone">スマホで支払い</string>
+    <string name="desktop_ops_wallet_safe_body">カード番号と CVC は、スマホだけが持つ鍵でロックしてからサーバーに送られます。サーバーもエージェントも番号を読めず、支払いのたびにスマホで指紋または画面ロックで確認します。</string>
+    <string name="desktop_ops_wallet_paused_banner">自動支払いは一時停止中です。すべての支払いをスマホで確認します。</string>
+    <string name="desktop_ops_wallet_pause_on_body">一時停止中。すべての支払いをスマホで確認します。</string>
+    <string name="desktop_ops_wallet_unfinished_body">このカードは情報が不足しています。スマホの Kelo アプリでカード番号と CVC を入力し直してください。</string>
+    <string name="desktop_ops_wallet_auto_only_body">スマホにこのカードのコピーがないため、今は自動支払いでしか支払えません。自動支払いをオフにする前に、スマホの Kelo アプリでカード情報を入力し直してください。</string>
+    <string name="desktop_ops_wallet_auto_off_body">支払いのたびにスマホで指紋または画面ロックで確認します。サーバーはカード番号を読めません。</string>
+    <string name="desktop_ops_wallet_on_phone">自動支払いをオンにするには、このカードを追加したスマートフォンの Kelo アプリで操作してください。番号を入力し直す必要はありません。</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">自動支払いをオフにしますか？サーバー上のコピーはすぐに削除され、今後はすべての支払いをスマホで確認します。</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">自動支払いをオフにしますか？スマホにこのカードのコピーがないため、オフにするとスマホでカード情報を入力し直すまでこのカードで支払えません。</string>
+    <string name="desktop_ops_wallet_auto_none_note">まだ自動で支払うカードがないため、支払いのたびにスマホで確認します。変えるには、スマホの Kelo アプリでカードの自動支払いをオンにしてください。</string>
+    <string name="desktop_ops_ship_card_on_phone">カードはスマホのKeloアプリで登録します。カード番号はそのスマホだけが持つ鍵でロックされます。</string>
+</resources>

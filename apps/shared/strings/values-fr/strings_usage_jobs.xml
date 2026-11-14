@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">Modèle pour le travail en arrière-plan</string>
+    <string name="model_background_help">Utilisé uniquement pour le travail que Kelo fait de lui-même : le bilan de chaque nuit, l’entretien de la mémoire, le journal, le choix de ce qu’il faut vous signaler et les résumés des longues conversations. Tout ce qui utilise le navigateur, paie ou envoie quelque chose reste sur le modèle principal.</string>
+    <string name="model_background_same">Identique au modèle principal</string>
+    <string name="model_background_fell_back">Le %1$s, le modèle d’arrière-plan a échoué : le modèle principal a fait le travail.</string>
+    <string name="usage_jobs_tokens">%1$s jetons</string>
+</resources>

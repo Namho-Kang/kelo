@@ -1,0 +1,311 @@
+{
+ "country": "US",
+ "country_name": "United States",
+ "lang": "en",
+ "fields": [
+  {
+   "key": "name",
+   "label": "이름",
+   "required": true,
+   "autocomplete": "name"
+  },
+  {
+   "key": "address_line1",
+   "label": "주소 1",
+   "required": true,
+   "autocomplete": "address-line1"
+  },
+  {
+   "key": "address_line2",
+   "label": "주소 2 (동·호수 등)",
+   "required": false,
+   "autocomplete": "address-line2"
+  },
+  {
+   "key": "locality",
+   "label": "도시",
+   "required": true,
+   "autocomplete": "address-level2"
+  },
+  {
+   "key": "admin_area",
+   "label": "주",
+   "required": true,
+   "autocomplete": "address-level1",
+   "options": [
+    {
+     "key": "AL",
+     "name": "Alabama"
+    },
+    {
+     "key": "AK",
+     "name": "Alaska"
+    },
+    {
+     "key": "AS",
+     "name": "American Samoa"
+    },
+    {
+     "key": "AZ",
+     "name": "Arizona"
+    },
+    {
+     "key": "AR",
+     "name": "Arkansas"
+    },
+    {
+     "key": "AA",
+     "name": "Armed Forces (AA)"
+    },
+    {
+     "key": "AE",
+     "name": "Armed Forces (AE)"
+    },
+    {
+     "key": "AP",
+     "name": "Armed Forces (AP)"
+    },
+    {
+     "key": "CA",
+     "name": "California"
+    },
+    {
+     "key": "CO",
+     "name": "Colorado"
+    },
+    {
+     "key": "CT",
+     "name": "Connecticut"
+    },
+    {
+     "key": "DE",
+     "name": "Delaware"
+    },
+    {
+     "key": "DC",
+     "name": "District of Columbia"
+    },
+    {
+     "key": "FL",
+     "name": "Florida"
+    },
+    {
+     "key": "GA",
+     "name": "Georgia"
+    },
+    {
+     "key": "GU",
+     "name": "Guam"
+    },
+    {
+     "key": "HI",
+     "name": "Hawaii"
+    },
+    {
+     "key": "ID",
+     "name": "Idaho"
+    },
+    {
+     "key": "IL",
+     "name": "Illinois"
+    },
+    {
+     "key": "IN",
+     "name": "Indiana"
+    },
+    {
+     "key": "IA",
+     "name": "Iowa"
+    },
+    {
+     "key": "KS",
+     "name": "Kansas"
+    },
+    {
+     "key": "KY",
+     "name": "Kentucky"
+    },
+    {
+     "key": "LA",
+     "name": "Louisiana"
+    },
+    {
+     "key": "ME",
+     "name": "Maine"
+    },
+    {
+     "key": "MH",
+     "name": "Marshall Islands"
+    },
+    {
+     "key": "MD",
+     "name": "Maryland"
+    },
+    {
+     "key": "MA",
+     "name": "Massachusetts"
+    },
+    {
+     "key": "MI",
+     "name": "Michigan"
+    },
+    {
+     "key": "FM",
+     "name": "Micronesia"
+    },
+    {
+     "key": "MN",
+     "name": "Minnesota"
+    },
+    {
+     "key": "MS",
+     "name": "Mississippi"
+    },
+    {
+     "key": "MO",
+     "name": "Missouri"
+    },
+    {
+     "key": "MT",
+     "name": "Montana"
+    },
+    {
+     "key": "NE",
+     "name": "Nebraska"
+    },
+    {
+     "key": "NV",
+     "name": "Nevada"
+    },
+    {
+     "key": "NH",
+     "name": "New Hampshire"
+    },
+    {
+     "key": "NJ",
+     "name": "New Jersey"
+    },
+    {
+     "key": "NM",
+     "name": "New Mexico"
+    },
+    {
+     "key": "NY",
+     "name": "New York"
+    },
+    {
+     "key": "NC",
+     "name": "North Carolina"
+    },
+    {
+     "key": "ND",
+     "name": "North Dakota"
+    },
+    {
+     "key": "MP",
+     "name": "Northern Mariana Islands"
+    },
+    {
+     "key": "OH",
+     "name": "Ohio"
+    },
+    {
+     "key": "OK",
+     "name": "Oklahoma"
+    },
+    {
+     "key": "OR",
+     "name": "Oregon"
+    },
+    {
+     "key": "PW",
+     "name": "Palau"
+    },
+    {
+     "key": "PA",
+     "name": "Pennsylvania"
+    },
+    {
+     "key": "PR",
+     "name": "Puerto Rico"
+    },
+    {
+     "key": "RI",
+     "name": "Rhode Island"
+    },
+    {
+     "key": "SC",
+     "name": "South Carolina"
+    },
+    {
+     "key": "SD",
+     "name": "South Dakota"
+    },
+    {
+     "key": "TN",
+     "name": "Tennessee"
+    },
+    {
+     "key": "TX",
+     "name": "Texas"
+    },
+    {
+     "key": "UT",
+     "name": "Utah"
+    },
+    {
+     "key": "VT",
+     "name": "Vermont"
+    },
+    {
+     "key": "VI",
+     "name": "Virgin Islands"
+    },
+    {
+     "key": "VA",
+     "name": "Virginia"
+    },
+    {
+     "key": "WA",
+     "name": "Washington"
+    },
+    {
+     "key": "WV",
+     "name": "West Virginia"
+    },
+    {
+     "key": "WI",
+     "name": "Wisconsin"
+    },
+    {
+     "key": "WY",
+     "name": "Wyoming"
+    }
+   ]
+  },
+  {
+   "key": "postal_code",
+   "label": "ZIP 코드",
+   "required": true,
+   "autocomplete": "postal-code",
+   "pattern": "^(?:(\\d{5})(?:[ \\-](\\d{4}))?)$",
+   "example": "95014",
+   "numeric": true
+  }
+ ],
+ "phone": {
+  "label": "전화번호",
+  "calling_code": "+1",
+  "required": true
+ },
+ "note": {
+  "label": "배송 메모",
+  "required": false
+ },
+ "labels": {
+  "country": "국가",
+  "nickname": "별칭",
+  "optional": "선택"
+ },
+ "format": "%N%n%O%n%A%n%C, %S %Z"
+}

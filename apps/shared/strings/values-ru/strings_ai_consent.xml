@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">Перед первым сообщением</string>
+    <string name="ai_consent_body">Чтобы ответить, Kelo отправляет ваши сообщения и то, что для них нужно (прикреплённые файлы, данные из подключённых сервисов), в выбранный вами ИИ-сервис.</string>
+    <string name="ai_consent_now">Сейчас выбран: %1$s. Посмотреть и изменить можно в разделе «Модель».</string>
+    <string name="ai_consent_not_now_note">Если выбрать «Не сейчас», ничего не отправится.</string>
+    <string name="ai_consent_privacy">Политика конфиденциальности</string>
+    <string name="ai_consent_agree">Согласен</string>
+    <string name="ai_consent_not_now">Не сейчас</string>
+    <string name="ai_chats_go_to">Ваши чаты отправляются в %1$s</string>
+    <string name="ai_chats_stay">Ваши чаты не покидают вашу сеть</string>
+</resources>

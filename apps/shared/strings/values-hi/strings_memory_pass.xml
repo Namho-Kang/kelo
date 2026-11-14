@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">याददाश्त की सफ़ाई: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">%d जोड़ी</item>
+        <item quantity="other">%d जोड़ी</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">%d सुधारी</item>
+        <item quantity="other">%d सुधारी</item>
+    </plurals>
+    <string name="memory_pass_undone">याददाश्त की सफ़ाई वापस ली गई</string>
+    <string name="memory_pass_view">क्या बदला</string>
+    <string name="memory_pass_changes_title">याददाश्त की सफ़ाई में क्या बदला</string>
+    <string name="memory_pass_no_lines">दिखाने के लिए कोई बदली पंक्ति नहीं।</string>
+    <string name="memory_pass_undo">यह सफ़ाई वापस लें</string>
+    <string name="memory_pass_undo_confirm">नोट्स को इस सफ़ाई से पहले जैसा कर दें? उसके बाद बदले गए नोट्स वैसे ही रहेंगे।</string>
+    <string name="memory_pass_undo_gone">यह सफ़ाई अब वापस नहीं ली जा सकती।</string>
+    <string name="memory_pass_added_line">जोड़ा: %1$s</string>
+    <string name="memory_pass_removed_line">हटाया: %1$s</string>
+    <string name="memory_area_about_you">आपके बारे में</string>
+    <string name="memory_area_to_remember">याद रखने की बातें</string>
+    <string name="memory_area_people">लोग</string>
+    <string name="memory_area_working_notes">काम के नोट्स</string>
+</resources>

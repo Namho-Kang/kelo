@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Kelo dosyaları</string>
+    <string name="files_about">Kelo\'nun kendisi için not aldıkları: sen kimsin, belleği, notları. Okuyabilir, değiştirebilir ve silebilirsin. Yüklemelerin ve sonuçların kendi sayfaları var.</string>
+    <string name="files_new_folder">Yeni klasör</string>
+    <string name="files_make">Oluştur</string>
+    <string name="files_folder_name">Klasör adı</string>
+    <string name="files_folder_bad">Bu ad kullanılamaz.</string>
+    <string name="files_edit">Düzenle</string>
+    <string name="files_save">Kaydet</string>
+    <string name="files_cancel">İptal</string>
+    <string name="files_saved">Kaydedildi. Kelo yeni metni bir sonraki yanıtından itibaren okur.</string>
+    <string name="files_save_failed">Kaydedilemedi.</string>
+    <string name="files_full">Sunucunun depolama alanı dolu.</string>
+    <string name="files_discard_q">Kaydetmeden çıkılsın mı?</string>
+    <string name="files_discard">Çık</string>
+    <string name="files_reset">Baştaki haline dön</string>
+    <string name="files_reset_q">Bu dosya ilk haline döndürülsün mü? Mevcut metin çöp kutusuna gider.</string>
+    <string name="files_reset_done">İlk haline döndü. Eski metin çöp kutusunda.</string>
+    <string name="files_core_reset_hint">Kelo\'nun bu dosyaya ihtiyacı var. Bunun yerine \"Baştaki haline dön\" seçeneğini kullan.</string>
+    <string name="files_delete">Sil</string>
+    <string name="files_delete_q">Çöp kutusuna taşınsın mı? 30 gün sonra kalıcı olarak silinir.</string>
+    <string name="files_deleted">Çöp kutusuna taşındı.</string>
+    <string name="files_read_only">Kelo bu dosyayı güncel tutar; burada değiştirilemez.</string>
+    <string name="files_load_failed">Dosyalar yüklenemedi.</string>
+    <string name="files_trash_title">Çöp kutusu</string>
+    <string name="files_trash_about">Silinen dosyalar burada 30 gün kalır.</string>
+    <string name="files_trash_left">%1$d gün sonra kalıcı olarak silinir</string>
+    <string name="files_trash_empty">Çöp kutusu boş.</string>
+    <string name="files_restore">Geri yükle</string>
+    <string name="files_restored">Geri yüklendi.</string>
+    <string name="files_purge">Kalıcı olarak sil</string>
+    <string name="files_purge_q">Kalıcı olarak silinsin mi? Geri alınamaz.</string>
+    <string name="files_core_assistant">Kelo\'nun karakteri ve üslubu</string>
+    <string name="files_core_user">Kelo\'nun senin hakkında bildikleri</string>
+    <string name="files_core_memory">Kelo\'nun belleği</string>
+    <string name="files_core_agents">Kelo nasıl çalışır</string>
+    <string name="files_core_checklist">Kontrol edilecekler</string>
+    <string name="files_core_notify">Bildirim tercihleri</string>
+</resources>

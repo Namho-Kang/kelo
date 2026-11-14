@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">İzin verirsen telefonun, bu site için kayıtlı ödeme PIN\'ini gönderip göndermeyeceğini sorar. Orada onayla.</string>
+    <string name="desktop_pin_need_body">%2$s ödemesi (%3$s) için “%1$s” PIN\'ini bir kez göndermek üzere telefonundaki Kelo uygulamasını aç.</string>
+    <string name="desktop_pin_secret_on_phone">Ödeme PIN\'leri yalnızca telefonunda saklanır. Telefonundaki Kelo uygulamasında gir; kaydedilince bu kart kendiliğinden kapanır.</string>
+    <string name="desktop_pay_step_on_phone">Telefonundaki kart veya banka uygulamasında onayla, sonra burada “Onayladım”a tıkla.</string>
+    <string name="desktop_pay_step_click_copy">Kopyalamak için koda tıkla</string>
+    <string name="desktop_pay_step_pad_note">Tuşlara buradan tıkla. Her tıklama ödeme sayfasında aynı yere gider.</string>
+    <string name="desktop_briefing_weather_follows_phone">Hava durumu telefonunuzun konumuna göre gösterilir. Telefonda Kelo\'yu açıp konuma izin verdiğinizde görünür.</string>
+    <string name="desktop_pin_add_on_phone">Ödeme PIN\'leri telefonundaki Kelo uygulamasında eklenir. Yalnızca o telefonda olan bir anahtarla kilitlenir.</string>
+</resources>

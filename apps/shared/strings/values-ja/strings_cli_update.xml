@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_cli_update.xml (generated from values/strings_cli_update.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_cli_update_button">更新</string>
+    <string name="model_cli_updating">更新しています…（数分かかることがあります）</string>
+    <string name="model_cli_update_done">%1$s をバージョン %2$s に更新しました</string>
+    <string name="model_cli_update_unchanged">%1$s はすでに最新です</string>
+    <string name="model_cli_update_failed">更新できませんでした：%1$s。今のバージョンはそのまま使えます</string>
+</resources>

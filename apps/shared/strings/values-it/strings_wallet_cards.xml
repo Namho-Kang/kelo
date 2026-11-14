@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Soprannome</string>
+    <string name="wallet_nickname_field">Soprannome (facoltativo)</string>
+    <string name="wallet_tag_default">Predefinita</string>
+    <string name="wallet_default_title">Carta predefinita</string>
+    <string name="wallet_default_on">Kelo paga con questa carta, a meno che tu o l’attività ne indichiate un’altra.</string>
+    <string name="wallet_make_default">Imposta come carta predefinita</string>
+    <string name="wallet_delete_default_title">Scegli una nuova carta predefinita</string>
+    <string name="wallet_delete_default_body">“%1$s” è la tua carta predefinita. Scegli la carta con cui Kelo pagherà d’ora in poi.</string>
+    <string name="wallet_card_history">Pagamenti con questa carta</string>
+    <string name="wallet_card_history_empty">Kelo non ha ancora pagato con questa carta.</string>
+    <string name="wallet_card_history_more">Mostra pagamenti precedenti</string>
+    <string name="wallet_open_chat">Apri la chat</string>
+    <string name="wallet_open_task">Apri l’attività</string>
+    <string name="wallet_auto_from_phone">Questo telefono apre la sua copia della carta con impronta, volto o blocco schermo. Non devi riscrivere il numero.</string>
+    <string name="wallet_auth_auto_title">Attiva il pagamento automatico</string>
+    <string name="wallet_auth_auto_subtitle">Apri la copia di “%1$s” su questo telefono</string>
+    <string name="wallet_auto_not_here_title">Questa carta non è su questo telefono</string>
+    <string name="wallet_auto_not_here_body">È stata aggiunta su un altro dispositivo, quindi questo telefono non può aprirla. Attiva il pagamento automatico dal dispositivo che l’ha aggiunta oppure inserisci qui il numero della carta.</string>
+    <string name="wallet_auto_enter_number">Inserisci il numero</string>
+    <string name="wallet_auto_on_failed">Impossibile attivare il pagamento automatico. Riprova.</string>
+</resources>

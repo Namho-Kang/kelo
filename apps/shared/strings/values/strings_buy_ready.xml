@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buy_ready_title">Ready to buy</string>
+    <string name="buy_ready_short">Ready to buy at once</string>
+    <string name="buy_ready_problems_short">Ready to buy: %1$d to fix</string>
+    <string name="buy_ready_ok">Everything is ready. When it shows up, Kelo buys at once within what you allowed.</string>
+    <string name="buy_ready_not_ok">Some things are not ready:</string>
+    <string name="buy_ready_login">Sign-in</string>
+    <string name="buy_ready_login_kept">Kept signed in</string>
+    <string name="buy_ready_login_out">Signed out</string>
+    <string name="buy_ready_checked">Last checked</string>
+    <string name="buy_ready_remembered">Kelo remembers this site\'s checkout steps, so it can buy in seconds.</string>
+    <string name="buy_ready_about">The product page stays open in Kelo\'s browser and is checked every 15 minutes.</string>
+    <string name="buy_ready_check">Check now</string>
+</resources>

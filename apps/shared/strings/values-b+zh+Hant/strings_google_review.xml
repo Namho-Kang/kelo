@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">即將推出</string>
+    <string name="google_review_title">Google 登入準備中</string>
+    <string name="google_review_note">Google 審查完成後就能使用。支持 Kelo，能讓它更快開放。</string>
+    <string name="google_review_support">支持 Kelo</string>
+    <string name="google_review_phone_calendar">透過手機行事曆連接</string>
+    <string name="google_review_phone_calendar_help">Android 手機會把 Google 日曆同步到手機內建的行事曆，Kelo 可以從那裡讀取活動。</string>
+    <string name="google_review_open_switch">向所有人開放 Google 登入</string>
+    <string name="google_review_open_warning">請在 Google 驗證這個用戶端之後再開啟。在此之前，Google 最多只允許 100 位使用者，並會向他們顯示警告。</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">รหัสผ่าน คีย์ และบัตรของคุณเปิดด้วยกุญแจดอกเดียว ปกติเซิร์ฟเวอร์จะเก็บกุญแจไว้ข้างกัน เมื่อเปิดใช้ จะมีแค่โทรศัพท์ของคุณที่ถือกุญแจ คนที่เอาดิสก์ของเซิร์ฟเวอร์ไปก็เปิดไม่ได้</string>
+    <string name="keyguard_restart_note">ทุกครั้งที่เซิร์ฟเวอร์รีสตาร์ต รวมถึงตอนอัปเดต Kelo จะถูกล็อกไว้จนกว่าคุณจะเปิดบนโทรศัพท์และยืนยันตัวตน ระหว่างนั้น Kelo จะใช้รหัสผ่าน คีย์ และบัตรของคุณไม่ได้</string>
+    <string name="keyguard_window_note">ใน Android เวอร์ชันนี้ กุญแจใช้ได้ 30 วินาทีหลังจากยืนยัน</string>
+    <string name="keyguard_turn_on">เปิดใช้</string>
+    <string name="keyguard_turning_on">กำลังเปิดใช้…</string>
+    <string name="keyguard_turn_on_confirm">เปิดใช้ไหม คุณจะได้รหัสกู้คืนไว้จดเก็บ หากไม่มีโทรศัพท์เครื่องนี้หรือรหัสนั้น เซิร์ฟเวอร์จะเปิดรหัสผ่าน คีย์ และบัตรของคุณไม่ได้</string>
+    <string name="keyguard_not_owner">มีแค่โทรศัพท์ของเจ้าของที่เปลี่ยนส่วนนี้ได้</string>
+    <string name="keyguard_env_key">เซิร์ฟเวอร์ยังเก็บกุญแจไว้ในไฟล์ตั้งค่า โปรดรัน `assistant keyguard enable` บนเครื่องเซิร์ฟเวอร์ก่อน แล้วลองอีกครั้งที่นี่</string>
+    <string name="keyguard_no_lock">โปรดตั้งการล็อกหน้าจอบนโทรศัพท์เครื่องนี้ก่อน</string>
+    <string name="keyguard_recovery_title">รหัสกู้คืนของคุณ</string>
+    <string name="keyguard_recovery_warning">รหัสนี้เป็นทางเดียวที่จะกลับมาได้หากคุณทำโทรศัพท์ที่ถือกุญแจหายทั้งหมด จะแสดงแค่ตอนนี้และไม่ถูกบันทึกไว้ที่ใด โปรดจดและเก็บไว้ในที่ปลอดภัย</string>
+    <string name="keyguard_recovery_confirm">จดไว้แล้ว</string>
+    <string name="keyguard_done">เสร็จ</string>
+    <string name="keyguard_phones_title">โทรศัพท์ที่ถือกุญแจ</string>
+    <string name="keyguard_this_phone">%1$s (เครื่องนี้)</string>
+    <string name="keyguard_add_this_phone">เก็บกุญแจไว้ในเครื่องนี้ด้วย</string>
+    <string name="keyguard_remove_this_phone">ลบสำเนาในเครื่องนี้</string>
+    <string name="keyguard_remove_confirm">ลบกุญแจออกจากเครื่องนี้ไหม โทรศัพท์เครื่องอื่นที่ถือกุญแจยังปลดล็อก Kelo ได้</string>
+    <string name="keyguard_last_phone">มีแค่เครื่องนี้ที่ถือกุญแจ โปรดเพิ่มโทรศัพท์เครื่องอื่นก่อน หรือปิดฟีเจอร์นี้</string>
+    <string name="keyguard_turn_off">ปิด</string>
+    <string name="keyguard_turn_off_confirm">คืนกุญแจให้เซิร์ฟเวอร์ไหม รหัสผ่าน คีย์ และบัตรของคุณจะเปิดได้อีกโดยไม่ต้องใช้โทรศัพท์</string>
+    <string name="keyguard_locked_title">Kelo ถูกล็อก</string>
+    <string name="keyguard_locked_body">รหัสผ่าน คีย์ และบัตรของคุณจะปิดอยู่จนกว่าคุณจะปลดล็อก Kelo ด้วยโทรศัพท์เครื่องนี้</string>
+    <string name="keyguard_locked_other">โทรศัพท์เครื่องนี้ไม่มีกุญแจ ปลดล็อก Kelo บนเครื่องที่มีกุญแจ หรือใช้รหัสกู้คืน</string>
+    <string name="keyguard_on_phone_only">เปิดใช้งานใน Kelo บนโทรศัพท์ของคุณ มีเพียงโทรศัพท์เท่านั้นที่ถือกุญแจ ไม่ใช่คอมพิวเตอร์เครื่องนี้</string>
+    <string name="keyguard_unlock">ปลดล็อก</string>
+    <string name="keyguard_unlocking">กำลังปลดล็อก…</string>
+    <string name="keyguard_unlocked">ปลดล็อก Kelo แล้ว</string>
+    <string name="keyguard_use_code">ใช้รหัสกู้คืน</string>
+    <string name="keyguard_code_hint">รหัสกู้คืน</string>
+    <string name="keyguard_code_wrong">รหัสนั้นใช้ไม่ได้ โปรดตรวจสอบแล้วลองอีกครั้ง</string>
+    <string name="keyguard_key_lost">กุญแจของเครื่องนี้หายไปแล้ว (เช่น ถอดการล็อกหน้าจอ) โปรดใช้โทรศัพท์เครื่องอื่นหรือรหัสกู้คืน</string>
+    <string name="keyguard_failed">ไม่สำเร็จ ลองอีกครั้ง</string>
+    <string name="keyguard_prompt_title">ปลดล็อก Kelo</string>
+    <string name="keyguard_prompt_subtitle">ยืนยันว่าเป็นคุณ</string>
+    <string name="keyguard_prompt_wrap">เก็บกุญแจของ Kelo ไว้ในเครื่องนี้</string>
+    <string name="wallet_keyguard_needed_title">การจ่ายอัตโนมัติต้องใช้ Keyguard</string>
+    <string name="wallet_keyguard_needed_body">บัตรสำหรับการจ่ายอัตโนมัติถูกเก็บไว้บนเซิร์ฟเวอร์ เมื่อเปิด Keyguard ล็อกของบัตรจะเปิดได้ด้วยโทรศัพท์เครื่องนี้เท่านั้น</string>
+    <string name="keyguard_turn_on_named">เปิด Keyguard</string>
+    <string name="wallet_auto_paused_keyguard">การจ่ายอัตโนมัติหยุดไว้จนกว่าจะเปิด Keyguard ระหว่างนี้ทุกการจ่ายจะถามบนโทรศัพท์ของคุณ</string>
+    <string name="wallet_auto_copy_note">เซิร์ฟเวอร์เก็บสำเนาแบบล็อกไว้สำหรับการจ่ายอัตโนมัติ และมีแค่โทรศัพท์ของเจ้าของที่ปลดล็อกได้</string>
+</resources>

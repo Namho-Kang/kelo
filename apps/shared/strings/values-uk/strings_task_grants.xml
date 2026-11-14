@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">Коли це станеться, зробити це без запитання?</string>
+    <string name="task_grant_when">Коли</string>
+    <string name="task_grant_does">Kelo зробить</string>
+    <string name="task_grant_buy">Купівля</string>
+    <string name="task_grant_limits">Ліміти</string>
+    <string name="task_grant_per_time">До %1$s за раз</string>
+    <string name="task_grant_times_one">Лише один раз</string>
+    <string name="task_grant_times">Не більше %1$d разів</string>
+    <string name="task_grant_no_count">Без обмеження кількості</string>
+    <string name="task_grant_monthly">Не більше %1$s на місяць</string>
+    <string name="task_grant_card">Картка</string>
+    <string name="task_grant_card_limit">Ліміт автоплатежу цієї картки — %1$s. Дозволити до %2$s для цього завдання?</string>
+    <string name="task_grant_card_not_auto">Ця картка не платить сама. Це завдання може заплатити до %1$s.</string>
+    <string name="task_grant_card_phone_only">Ця картка зберігається лише на телефоні, тому кожен платіж і далі питатиме.</string>
+    <string name="task_grant_ship_to">Доставити</string>
+    <string name="task_grant_send_to">Кому</string>
+    <string name="task_grant_message">Повідомлення</string>
+    <string name="task_grant_varies">Може змінюватися: %1$s</string>
+    <string name="task_grant_change">Зміни</string>
+    <string name="task_grant_apply">Заявки</string>
+    <string name="task_grant_apply_per_run">До %1$d за запуск</string>
+    <string name="task_grant_apply_total">Усього %1$d</string>
+    <string name="task_grant_row_apply">Подає заявку на %1$s</string>
+    <string name="task_grant_delete_yes">Видалення дозволено</string>
+    <string name="task_grant_delete_no">Ніколи не видаляє</string>
+    <string name="task_grant_login">Вхід</string>
+    <string name="task_grant_login_line">Вхід %1$s на %2$s</string>
+    <string name="task_grant_once">Завершиться само, коли виконано, тож нічого не станеться двічі.</string>
+    <string name="task_grant_after">Одразу після цього надійде сповіщення. Усе інше й далі питає.</string>
+    <string name="task_grant_urgent">Терміново: дайте відповідь швидше</string>
+    <string name="task_grant_urgent_missed">Терміново: якщо відповісти пізно, %1$s</string>
+    <string name="task_grant_row_send">Надсилає %1$s</string>
+    <string name="task_grant_row_change">Змінює %1$s</string>
+    <string name="task_grant_row_when">Коли: %1$s</string>
+    <string name="task_grant_row_card">Картка: %1$s</string>
+    <string name="task_grant_row_left">Залишилось %1$d з %2$d</string>
+    <string name="task_grant_row_once">потім завершиться</string>
+    <string name="task_grant_section_note">Дозволено один раз під час налаштування. Усе інше й далі питає.</string>
+    <string name="notify_channel_urgent">Термінові запити</string>
+    <string name="notify_channel_urgent_desc">Коли налаштованому завданню потрібна відповідь, поки не пізно</string>
+    <string name="notify_approval_urgent">Терміново: підтвердьте</string>
+</resources>

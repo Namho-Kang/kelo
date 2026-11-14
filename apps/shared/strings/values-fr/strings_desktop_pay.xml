@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">Si tu autorises, ton téléphone demandera s\'il doit envoyer le code de paiement enregistré pour ce site. Confirme-le là-bas.</string>
+    <string name="desktop_pin_need_body">Ouvre l\'app Kelo sur ton téléphone pour envoyer une fois le code « %1$s » pour le paiement sur %2$s (%3$s).</string>
+    <string name="desktop_pin_secret_on_phone">Les codes de paiement sont gardés uniquement sur ton téléphone. Saisis-le dans l\'app Kelo de ton téléphone ; cette carte se fermera d\'elle-même une fois enregistré.</string>
+    <string name="desktop_pay_step_on_phone">Approuve-le dans l\'app de la carte ou de la banque sur ton téléphone, puis clique ici sur « J\'ai approuvé ».</string>
+    <string name="desktop_pay_step_click_copy">Clique sur le code pour le copier</string>
+    <string name="desktop_pay_step_pad_note">Clique sur les touches ici. Chaque clic va au même endroit de la page de paiement.</string>
+    <string name="desktop_briefing_weather_follows_phone">La météo suit la position de votre téléphone. Elle s’affiche dès que vous ouvrez Kelo sur le téléphone et autorisez la localisation.</string>
+    <string name="desktop_pin_add_on_phone">Les codes de paiement s\'ajoutent dans l\'app Kelo de ton téléphone. Ils sont verrouillés par une clé que seul ce téléphone possède.</string>
+</resources>

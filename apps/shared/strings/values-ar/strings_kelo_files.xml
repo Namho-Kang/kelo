@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">ملفات Kelo</string>
+    <string name="files_about">ما يدوّنه Kelo لنفسه: من أنت، وذاكرته، وملاحظاته. يمكنك قراءتها وتعديلها وحذفها. للملفات المرفوعة والنتائج صفحاتها الخاصة.</string>
+    <string name="files_new_folder">مجلد جديد</string>
+    <string name="files_make">إنشاء</string>
+    <string name="files_folder_name">اسم المجلد</string>
+    <string name="files_folder_bad">لا يمكن استخدام هذا الاسم.</string>
+    <string name="files_edit">تعديل</string>
+    <string name="files_save">حفظ</string>
+    <string name="files_cancel">إلغاء</string>
+    <string name="files_saved">تم الحفظ. يقرأ Kelo النص الجديد ابتداءً من ردّه التالي.</string>
+    <string name="files_save_failed">تعذّر الحفظ.</string>
+    <string name="files_full">مساحة تخزين الخادم ممتلئة.</string>
+    <string name="files_discard_q">المغادرة دون حفظ؟</string>
+    <string name="files_discard">مغادرة</string>
+    <string name="files_reset">العودة إلى البداية</string>
+    <string name="files_reset_q">إعادة هذا الملف إلى حالته الأولى؟ سيذهب النص الحالي إلى سلة المحذوفات.</string>
+    <string name="files_reset_done">عاد إلى البداية. النص القديم في سلة المحذوفات.</string>
+    <string name="files_core_reset_hint">يحتاج Kelo إلى هذا الملف. استخدم «العودة إلى البداية» بدلًا من ذلك.</string>
+    <string name="files_delete">حذف</string>
+    <string name="files_delete_q">النقل إلى سلة المحذوفات؟ يُحذف نهائيًا بعد 30 يومًا.</string>
+    <string name="files_deleted">تم النقل إلى سلة المحذوفات.</string>
+    <string name="files_read_only">يحافظ Kelo على تحديث هذا الملف؛ لا يمكن تغييره هنا.</string>
+    <string name="files_load_failed">تعذّر تحميل الملفات.</string>
+    <string name="files_trash_title">سلة المحذوفات</string>
+    <string name="files_trash_about">تبقى الملفات المحذوفة هنا 30 يومًا.</string>
+    <string name="files_trash_left">يُحذف نهائيًا بعد %1$d يومًا</string>
+    <string name="files_trash_empty">سلة المحذوفات فارغة.</string>
+    <string name="files_restore">استعادة</string>
+    <string name="files_restored">تمت الاستعادة.</string>
+    <string name="files_purge">حذف نهائي</string>
+    <string name="files_purge_q">الحذف نهائيًا؟ لا يمكن التراجع.</string>
+    <string name="files_core_assistant">شخصية Kelo ونبرته</string>
+    <string name="files_core_user">ما يعرفه Kelo عنك</string>
+    <string name="files_core_memory">ذاكرة Kelo</string>
+    <string name="files_core_agents">كيف يعمل Kelo</string>
+    <string name="files_core_checklist">أشياء للمراجعة</string>
+    <string name="files_core_notify">تفضيلات الإشعارات</string>
+</resources>

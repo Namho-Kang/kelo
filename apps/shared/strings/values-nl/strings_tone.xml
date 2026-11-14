@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">Toon</string>
+    <string name="my_agent_tone_friendly">Informeel</string>
+    <string name="my_agent_tone_polite">Beleefd</string>
+    <string name="my_agent_tone_friendly_example">Morgen om 10 uur heb je de tandarts. Zal ik je eraan herinneren?</string>
+    <string name="my_agent_tone_polite_example">U heeft morgen om 10 uur een afspraak bij de tandarts. Zal ik een herinnering voor u instellen?</string>
+    <string name="my_agent_tone_failed">De toon kon niet worden gewijzigd. Probeer het opnieuw.</string>
+</resources>

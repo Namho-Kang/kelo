@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_cli_update.xml (generated from values/strings_cli_update.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_cli_update_button">更新</string>
+    <string name="model_cli_updating">正在更新…（可能需要幾分鐘）</string>
+    <string name="model_cli_update_done">已將 %1$s 更新到 %2$s 版</string>
+    <string name="model_cli_update_unchanged">%1$s 已是最新版本</string>
+    <string name="model_cli_update_failed">無法更新：%1$s。目前的版本仍可繼續使用</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="balance_left">Balance</string>
+    <string name="balance_limit_left">Left of the key\'s limit</string>
+    <string name="balance_used_today">Spent today</string>
+    <string name="balance_used_week">Spent this week</string>
+    <string name="balance_used_month">Spent this month</string>
+</resources>

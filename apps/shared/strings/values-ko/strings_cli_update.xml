@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_cli_update.xml (generated from values/strings_cli_update.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_cli_update_button">업데이트</string>
+    <string name="model_cli_updating">업데이트하는 중… (몇 분 걸릴 수 있어요)</string>
+    <string name="model_cli_update_done">%1$s를 %2$s 버전으로 업데이트했어요</string>
+    <string name="model_cli_update_unchanged">%1$s는 이미 최신 버전이에요</string>
+    <string name="model_cli_update_failed">업데이트하지 못했어요: %1$s. 지금 버전은 그대로 쓸 수 있어요</string>
+</resources>

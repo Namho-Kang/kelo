@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">الرصيد</string>
+    <string name="balance_limit_left">المتبقي من حد المفتاح</string>
+    <string name="balance_used_today">المصروف اليوم</string>
+    <string name="balance_used_week">المصروف هذا الأسبوع</string>
+    <string name="balance_used_month">المصروف هذا الشهر</string>
+</resources>

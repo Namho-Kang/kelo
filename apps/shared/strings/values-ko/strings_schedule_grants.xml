@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">한도 안에서 묻지 않고 결제해요</string>
+    <string name="wallet_tag_asks">매번 물어봄</string>
+    <string name="wallet_reason_not_auto">이 카드는 매번 묻도록 저장돼 있어요.</string>
+    <string name="wallet_reason_no_server_copy">서버에 자동결제용 카드 사본이 없어요.</string>
+    <string name="wallet_reason_paused">모든 카드의 자동결제가 멈춰 있어요.</string>
+    <string name="wallet_reason_vault_locked">에이전트 사용이 키체인에서 잠겨 있어요.</string>
+    <string name="wallet_auto_turn_on_card">이 카드 자동결제 켜기</string>
+    <string name="wallet_first_site_rule">자동결제를 켜도 새 사이트의 첫 결제는 한 번 물어보고, 한도를 넘는 결제도 물어봐요.</string>
+    <string name="wallet_auto_none_value">자동결제 카드 없음</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="other">자동결제 카드 %d장</item>
+    </plurals>
+    <string name="wallet_auto_none_note">아직 묻지 않고 결제하는 카드가 없어서 모든 결제를 이 폰에서 물어봐요. 바꾸려면 카드를 열고 자동결제를 켜세요.</string>
+    <string name="wallet_schedule_section">스스로 구매하는 예약</string>
+    <string name="grant_section_title">묻지 않고 하도록 허용됨</string>
+    <string name="grant_section_note">설정할 때 한 번 허용했어요. 금액이 더 크거나, 다른 사이트·물건이거나, 계정을 바꾸는 일은 계속 물어봐요.</string>
+    <string name="grant_login_title">%1$s 로그인 사용</string>
+    <string name="grant_login_site">%1$s에서</string>
+    <string name="grant_purchase_title">%1$s 구매</string>
+    <string name="grant_purchase_cap">%1$s · 한 번에 최대 %2$s, 한 달 %3$s</string>
+    <string name="grant_spent">이번 달: %1$s</string>
+    <string name="grant_for_schedule">‘%1$s’ 예약</string>
+    <string name="grant_revoke">허용 취소</string>
+    <string name="grant_revoke_confirm">이 허용을 취소할까요? 실행할 때마다 다시 물어봐요.</string>
+    <string name="grant_login_section">이 로그인을 묻지 않고 쓰는 예약</string>
+</resources>

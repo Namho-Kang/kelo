@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iPhone only (Android does not read these): the Live Activity of a running reply on the lock screen and in the Dynamic Island. -->
+    <string name="live_working">Kelo काम कर रहा है</string>
+    <string name="live_waiting">आपकी मंज़ूरी का इंतज़ार है</string>
+    <string name="live_done">हो गया</string>
+    <string name="live_failed">पूरा नहीं हुआ</string>
+    <string name="live_stopped">रोका गया</string>
+    <string name="live_stop">रोकें</string>
+    <string name="live_steps">चरण %1$d</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">खर्च और बैलेंस भी देखें</string>
+    <string name="admin_key_title">खर्च और बैलेंस के लिए एडमिन key</string>
+    <string name="admin_key_safety">यह आपके सर्वर पर की-कंटेनर में रखी जाती है, न कि Kelo द्वारा, और इसका उपयोग केवल खर्च और बैलेंस देखने के लिए किया जाता है।</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (सिर्फ रीड-ओनली ही काफी है)।</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (केवल संगठन खातों के लिए)।</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">सेव करें</string>
+    <string name="admin_key_saved">सेव हो गया। खर्च नीचे दिखाई देगा।</string>
+    <string name="admin_key_refused">प्रदाता ने यह key अस्वीकार कर दी। जांचें कि क्या यह एडमिन key है।</string>
+    <string name="admin_key_keyring_off">यह सर्वर कोई एडमिन key नहीं रखता (इसका की-कंटेनर बंद है)।</string>
+    <string name="admin_key_failed">Key सेव नहीं हो सकी। कुछ देर बाद फिर प्रयास करें।</string>
+    <string name="admin_key_set">एडमिन key …%1$s</string>
+    <string name="admin_key_remove">हटाएँ</string>
+    <string name="admin_key_remove_q">एडमिन key हटाएँ? खर्च और बैलेंस अब दिखाई नहीं देंगे।</string>
+    <string name="my_privacy_keyring">आपके द्वारा दर्ज की गई AI प्रदाता की keys (और यदि जोड़ी गई हैं तो एडमिन keys) आपके सर्वर पर एक अलग की-कंटेनर द्वारा रखी जाती हैं, न कि Kelo द्वारा; Kelo प्रत्येक कॉल करने का अनुरोध करता है, और यह केवल उस प्रदाता के अपने पते के लिए ही key जोड़ता है।</string>
+</resources>

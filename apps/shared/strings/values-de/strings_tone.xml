@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">Tonfall</string>
+    <string name="my_agent_tone_friendly">Locker</string>
+    <string name="my_agent_tone_polite">Höflich</string>
+    <string name="my_agent_tone_friendly_example">Morgen um 10 hast du Zahnarzt. Soll ich dich erinnern?</string>
+    <string name="my_agent_tone_polite_example">Sie haben morgen um 10 Uhr einen Zahnarzttermin. Soll ich Sie daran erinnern?</string>
+    <string name="my_agent_tone_failed">Der Tonfall ließ sich nicht ändern. Versuch es noch einmal.</string>
+</resources>

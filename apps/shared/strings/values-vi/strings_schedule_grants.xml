@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">Tự thanh toán trong hạn mức của bạn</string>
+    <string name="wallet_tag_asks">Hỏi mỗi lần</string>
+    <string name="wallet_reason_not_auto">Thẻ này được lưu để hỏi mỗi lần.</string>
+    <string name="wallet_reason_no_server_copy">Máy chủ không có bản sao của thẻ này để tự thanh toán.</string>
+    <string name="wallet_reason_paused">Tự thanh toán đang tạm dừng cho mọi thẻ.</string>
+    <string name="wallet_reason_vault_locked">Chuỗi khóa đang bị khóa với trợ lý.</string>
+    <string name="wallet_auto_turn_on_card">Bật tự thanh toán cho thẻ này</string>
+    <string name="wallet_first_site_rule">Dù đã bật tự thanh toán, lần thanh toán đầu tiên trên một trang mới vẫn hỏi một lần, và mọi khoản vượt hạn mức cũng vậy.</string>
+    <string name="wallet_auto_none_value">Không có thẻ nào tự thanh toán</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="other">%d thẻ tự thanh toán</item>
+    </plurals>
+    <string name="wallet_auto_none_note">Chưa có thẻ nào tự thanh toán, nên mọi khoản thanh toán đều hỏi trên điện thoại này. Để đổi, hãy mở một thẻ và bật tự thanh toán.</string>
+    <string name="wallet_schedule_section">Lịch tự mua</string>
+    <string name="grant_section_title">Đã cho phép không cần hỏi</string>
+    <string name="grant_section_note">Đã cho phép một lần khi thiết lập. Tổng cao hơn, trang hoặc món khác và thay đổi tài khoản vẫn hỏi.</string>
+    <string name="grant_login_title">Đăng nhập bằng %1$s</string>
+    <string name="grant_login_site">Trên %1$s</string>
+    <string name="grant_purchase_title">Mua %1$s</string>
+    <string name="grant_purchase_cap">Trên %1$s · tối đa %2$s mỗi lần chạy, %3$s mỗi tháng</string>
+    <string name="grant_spent">Tháng này: %1$s</string>
+    <string name="grant_for_schedule">Cho “%1$s”</string>
+    <string name="grant_revoke">Thu hồi</string>
+    <string name="grant_revoke_confirm">Thu hồi quyền này? Các lần chạy sẽ hỏi lại.</string>
+    <string name="grant_login_section">Lịch dùng thông tin đăng nhập này mà không hỏi</string>
+</resources>

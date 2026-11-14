@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">Jika diizinkan, ponselmu akan bertanya apakah PIN pembayaran yang disimpan untuk situs ini dikirim. Konfirmasi di sana.</string>
+    <string name="desktop_pin_need_body">Buka aplikasi Kelo di ponselmu untuk mengirim PIN “%1$s” sekali untuk pembayaran di %2$s (%3$s).</string>
+    <string name="desktop_pin_secret_on_phone">PIN pembayaran hanya disimpan di ponselmu. Masukkan di aplikasi Kelo di ponsel; kartu ini akan tertutup sendiri setelah tersimpan.</string>
+    <string name="desktop_pay_step_on_phone">Setujui di aplikasi kartu atau bank di ponselmu, lalu klik “Sudah saya setujui” di sini.</string>
+    <string name="desktop_pay_step_click_copy">Klik kode untuk menyalinnya</string>
+    <string name="desktop_pay_step_pad_note">Klik tombol di sini. Setiap klik menekan tempat yang sama di halaman pembayaran.</string>
+    <string name="desktop_briefing_weather_follows_phone">Cuaca mengikuti lokasi ponsel Anda. Cuaca muncul setelah Anda membuka Kelo di ponsel dan mengizinkan lokasi.</string>
+    <string name="desktop_pin_add_on_phone">PIN pembayaran ditambahkan di aplikasi Kelo di ponselmu. PIN dikunci dengan kunci yang hanya dimiliki ponsel itu.</string>
+</resources>

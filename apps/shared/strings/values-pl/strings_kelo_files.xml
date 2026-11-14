@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Pliki Kelo</string>
+    <string name="files_about">To, co Kelo zapisuje dla siebie: kim jesteś, jego pamięć, notatki. Możesz je czytać, zmieniać i usuwać. Przesłane pliki i wyniki mają własne strony.</string>
+    <string name="files_new_folder">Nowy folder</string>
+    <string name="files_make">Utwórz</string>
+    <string name="files_folder_name">Nazwa folderu</string>
+    <string name="files_folder_bad">Tej nazwy nie można użyć.</string>
+    <string name="files_edit">Edytuj</string>
+    <string name="files_save">Zapisz</string>
+    <string name="files_cancel">Anuluj</string>
+    <string name="files_saved">Zapisano. Kelo przeczyta nowy tekst od następnej odpowiedzi.</string>
+    <string name="files_save_failed">Nie udało się zapisać.</string>
+    <string name="files_full">Pamięć serwera jest pełna.</string>
+    <string name="files_discard_q">Wyjść bez zapisywania?</string>
+    <string name="files_discard">Wyjdź</string>
+    <string name="files_reset">Wróć do początku</string>
+    <string name="files_reset_q">Przywrócić ten plik do stanu początkowego? Obecny tekst trafi do kosza.</string>
+    <string name="files_reset_done">Przywrócono stan początkowy. Stary tekst jest w koszu.</string>
+    <string name="files_core_reset_hint">Kelo potrzebuje tego pliku. Użyj opcji „Wróć do początku”.</string>
+    <string name="files_delete">Usuń</string>
+    <string name="files_delete_q">Przenieść do kosza? Po 30 dniach zostanie usunięte na stałe.</string>
+    <string name="files_deleted">Przeniesiono do kosza.</string>
+    <string name="files_read_only">Kelo dba o ten plik; nie można go tu zmienić.</string>
+    <string name="files_load_failed">Nie udało się wczytać plików.</string>
+    <string name="files_trash_title">Kosz</string>
+    <string name="files_trash_about">Usunięte pliki zostają tu przez 30 dni.</string>
+    <string name="files_trash_left">Zostanie usunięte na stałe za %1$d dni</string>
+    <string name="files_trash_empty">Kosz jest pusty.</string>
+    <string name="files_restore">Przywróć</string>
+    <string name="files_restored">Przywrócono.</string>
+    <string name="files_purge">Usuń na stałe</string>
+    <string name="files_purge_q">Usunąć na stałe? Tego nie można cofnąć.</string>
+    <string name="files_core_assistant">Charakter i ton Kelo</string>
+    <string name="files_core_user">Co Kelo wie o Tobie</string>
+    <string name="files_core_memory">Pamięć Kelo</string>
+    <string name="files_core_agents">Jak pracuje Kelo</string>
+    <string name="files_core_checklist">Rzeczy do sprawdzenia</string>
+    <string name="files_core_notify">Preferencje powiadomień</string>
+</resources>

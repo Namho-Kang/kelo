@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pt text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">O que a Kelo pode fazer</string>
+    <string name="perm_about">Permitir: sem cartão. Perguntar: um cartão a cada vez. Desligado: a Kelo não faz. Pagamentos e cadastros sempre perguntam.</string>
+    <string name="perm_kind_read">Ler</string>
+    <string name="perm_kind_change">Alterar</string>
+    <string name="perm_kind_send">Enviar</string>
+    <string name="perm_kind_delete">Apagar</string>
+    <string name="perm_allow">Permitir</string>
+    <string name="perm_ask">Perguntar</string>
+    <string name="perm_off">Desligado</string>
+    <string name="perm_default_is">Padrão: %1$s</string>
+    <string name="perm_changed_from">O padrão é %1$s</string>
+    <string name="perm_actions_more">%1$d ações individuais</string>
+    <string name="perm_reset">Voltar ao padrão</string>
+    <string name="perm_reset_q">Voltar todas as configurações deste conector ao padrão?</string>
+    <string name="perm_read_off_q">Com a leitura desligada, a Kelo quase não consegue usar este conector. Desligar?</string>
+    <string name="perm_limited">Limitado</string>
+</resources>

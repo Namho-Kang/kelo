@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iPhone only (Android does not read these): the Live Activity of a running reply on the lock screen and in the Dynamic Island. -->
+    <string name="live_working">Kelo が作業中</string>
+    <string name="live_waiting">承認を待っています</string>
+    <string name="live_done">完了しました</string>
+    <string name="live_failed">完了できませんでした</string>
+    <string name="live_stopped">停止しました</string>
+    <string name="live_stop">停止</string>
+    <string name="live_steps">%1$d ステップ</string>
+</resources>

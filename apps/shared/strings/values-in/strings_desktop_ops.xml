@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Kartu ditambahkan, dan setiap pembayaran dikonfirmasi, di aplikasi Kelo di ponselmu: nomor kartu dikunci dengan kunci yang hanya dimiliki ponsel itu. Di sini kamu bisa melihat kartu, mengganti nama atau menghapusnya, mematikan bayar otomatis, dan mengatur batasnya.</string>
+    <string name="desktop_ops_tag_phone">Bayar dari ponsel</string>
+    <string name="desktop_ops_wallet_safe_body">Nomor kartu dan CVC dikunci dengan kunci yang hanya dimiliki ponselmu sebelum dikirim ke server. Server maupun agenmu tidak bisa membacanya, dan setiap pembayaran dikonfirmasi di ponsel dengan sidik jari atau kunci layar.</string>
+    <string name="desktop_ops_wallet_paused_banner">Bayar otomatis dijeda. Setiap pembayaran akan ditanyakan di ponselmu.</string>
+    <string name="desktop_ops_wallet_pause_on_body">Dijeda. Setiap pembayaran akan ditanyakan di ponselmu.</string>
+    <string name="desktop_ops_wallet_unfinished_body">Kartu ini kekurangan data. Masukkan lagi nomor kartu dan CVC di aplikasi Kelo di ponselmu.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Ponselmu tidak punya salinan kartu ini, jadi saat ini kartu hanya bisa membayar lewat bayar otomatis. Masukkan lagi data kartu di aplikasi Kelo di ponselmu sebelum mematikannya.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Setiap pembayaran butuh persetujuanmu di ponsel, dengan sidik jari atau kunci layar. Server tidak bisa membaca nomor kartu.</string>
+    <string name="desktop_ops_wallet_on_phone">Untuk menyalakan bayar otomatis, buka kartu ini di aplikasi Kelo pada ponsel yang menambahkannya. Kamu tidak perlu mengetik nomornya lagi.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Matikan bayar otomatis? Salinan di server langsung dihapus, dan mulai sekarang setiap pembayaran dikonfirmasi di ponselmu.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Matikan bayar otomatis? Ponselmu tidak punya salinan kartu ini, jadi setelah dimatikan kamu tidak bisa membayar dengannya sampai memasukkan lagi datanya di sana.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Belum ada kartu yang membayar sendiri, jadi setiap pembayaran ditanyakan di ponselmu. Untuk mengubahnya, nyalakan bayar otomatis untuk sebuah kartu di aplikasi Kelo di ponselmu.</string>
+    <string name="desktop_ops_ship_card_on_phone">Tambahkan kartu di aplikasi Kelo di ponselmu: nomor kartu dikunci dengan kunci yang hanya dimiliki ponsel itu.</string>
+</resources>

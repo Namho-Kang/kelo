@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">Bezorgadressen</string>
+    <string name="shipping_empty">Nog geen adres opgeslagen. Als Kelo iets voor je bestelt, wordt het bezorgd op een adres dat hier staat.</string>
+    <string name="shipping_add">Adres toevoegen</string>
+    <string name="shipping_edit_title">Adres bewerken</string>
+    <string name="shipping_home">Thuis</string>
+    <string name="shipping_nickname">Naam</string>
+    <string name="shipping_nickname_hint">bijv. Thuis, Kantoor</string>
+    <string name="shipping_country">Land</string>
+    <string name="shipping_optional">optioneel</string>
+    <string name="shipping_label_optional">%1$s (%2$s)</string>
+    <string name="shipping_default_title">Standaardadres</string>
+    <string name="shipping_default_note">Bestellingen gaan hierheen, tenzij jij of de taak een ander adres noemt.</string>
+    <string name="shipping_delete">Dit adres verwijderen</string>
+    <string name="shipping_delete_confirm">Adres ‘%1$s’ verwijderen?</string>
+    <string name="shipping_err_required">Vul dit in</string>
+    <string name="shipping_err_pattern">Controleer de notatie (bijv. %1$s)</string>
+    <string name="shipping_err_format">Controleer de notatie</string>
+    <string name="shipping_err_phone">Controleer het telefoonnummer</string>
+    <string name="shipping_example">bijv. %1$s</string>
+    <string name="shipping_pick">Kiezen</string>
+    <string name="shipping_country_search">Landen zoeken</string>
+    <string name="shipping_country_none">Geen land gevonden</string>
+    <string name="shipping_form_failed">Het adresformulier kon niet worden geladen.</string>
+    <string name="shipping_calling_code">Landcode %1$s</string>
+    <string name="shipping_ask_title">Waar moet het heen?</string>
+    <string name="shipping_ask_save">Gebruiken voor volgende bestellingen (opslaan als bezorgadres)</string>
+    <string name="shipping_ask_pay">Betalen</string>
+    <string name="shipping_pay_card">Kaart toevoegen</string>
+    <string name="shipping_pay_site">Betalen op de site</string>
+    <string name="shipping_ask_send">Adres versturen</string>
+    <string name="shipping_ask_sending">Versturen…</string>
+    <string name="shipping_ask_done">Bezorgen op: %1$s</string>
+    <string name="shipping_ask_cancelled">Geen adres gegeven</string>
+    <string name="shipping_ask_expired">Dit formulier is verlopen</string>
+    <string name="shipping_ask_closed">Dit formulier is gesloten</string>
+    <string name="order_items">Artikelen</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">Bezorgen op</string>
+    <string name="order_ship_site">Het adres dat op de site staat</string>
+    <string name="order_ship_once">Alleen voor deze bestelling</string>
+    <string name="order_pay_with">Betalen met</string>
+    <string name="order_pay_site">Op de site</string>
+    <string name="order_coupon">Kortingscode</string>
+    <string name="order_total">Totaal</string>
+</resources>

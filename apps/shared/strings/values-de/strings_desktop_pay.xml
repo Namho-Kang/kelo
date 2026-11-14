@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">Wenn du erlaubst, fragt dein Handy, ob die für diese Website gespeicherte Zahlungs-PIN gesendet werden soll. Bestätige es dort.</string>
+    <string name="desktop_pin_need_body">Öffne die Kelo-App auf deinem Handy, um die PIN „%1$s“ einmal für die Zahlung bei %2$s (%3$s) freizugeben.</string>
+    <string name="desktop_pin_secret_on_phone">Zahlungs-PINs werden nur auf deinem Handy gespeichert. Gib sie in der Kelo-App auf deinem Handy ein; diese Karte schließt sich dann von selbst.</string>
+    <string name="desktop_pay_step_on_phone">Bestätige die Zahlung in der Karten- oder Banking-App auf deinem Handy und klicke dann hier auf „Ich habe bestätigt“.</string>
+    <string name="desktop_pay_step_click_copy">Klicke auf den Code, um ihn zu kopieren</string>
+    <string name="desktop_pay_step_pad_note">Klicke hier auf die Tasten. Jeder Klick landet an derselben Stelle der Zahlungsseite.</string>
+    <string name="desktop_briefing_weather_follows_phone">Das Wetter richtet sich nach dem Standort deines Handys. Es erscheint, sobald du Kelo auf dem Handy öffnest und den Standort erlaubst.</string>
+    <string name="desktop_pin_add_on_phone">Zahlungs-PINs fügst du in der Kelo-App auf deinem Handy hinzu. Sie sind mit einem Schlüssel gesperrt, den nur dieses Handy hat.</string>
+</resources>

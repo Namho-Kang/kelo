@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_buy_ready.xml -->
+<resources>
+    <string name="buy_ready_title">Готов к покупке</string>
+    <string name="buy_ready_short">Готов к немедленной покупке</string>
+    <string name="buy_ready_problems_short">Готов к покупке: исправить %1$d</string>
+    <string name="buy_ready_ok">Всё готово. При появлении Kelo сразу купит в пределах разрешённого.</string>
+    <string name="buy_ready_not_ok">Кое-что ещё не готово:</string>
+    <string name="buy_ready_login">Вход</string>
+    <string name="buy_ready_login_kept">Вход сохранён</string>
+    <string name="buy_ready_login_out">Выполнен выход</string>
+    <string name="buy_ready_checked">Последняя проверка</string>
+    <string name="buy_ready_remembered">Kelo помнит шаги оформления на этом сайте и может купить за считанные секунды.</string>
+    <string name="buy_ready_about">Страница товара остаётся открытой в браузере Kelo и проверяется каждые 15 минут.</string>
+    <string name="buy_ready_check">Проверить сейчас</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Навыки на одобрение</string>
+    <string name="skill_review_about">Kelo использует навык только после вашего одобрения. При одобрении сохраняется ровно показанный текст.</string>
+    <string name="skill_review_drafting">Kelo пишет черновик навыка…</string>
+    <string name="skill_review_kind_new">Новый навык</string>
+    <string name="skill_review_kind_change">Изменение навыка</string>
+    <string name="skill_review_kind_edited">Изменён вне приложения</string>
+    <string name="skill_review_edited_note">Файлы этого навыка изменили вне приложения, поэтому Kelo не использует его, пока вы не одобрите его снова.</string>
+    <string name="skill_review_edited_new_note">Этот навык добавили вне приложения. Kelo не будет использовать его без вашего одобрения.</string>
+    <string name="skill_review_outside_note">Во время этой работы Kelo читал веб-страницы, почту или файлы. Проверьте, что каждый шаг вам подходит.</string>
+    <string name="skill_review_secrets_removed">Пароли, ключи и коды убраны из текста.</string>
+    <string name="skill_review_diff_counts">Добавлено %1$d · Удалено %2$d</string>
+    <string name="skill_review_show_all">Показать всё</string>
+    <string name="skill_review_show_less">Свернуть</string>
+    <string name="skill_review_put_back">Отменить изменения</string>
+    <string name="skill_review_discard">Отклонить</string>
+    <string name="skill_review_approve">Одобрить</string>
+    <string name="skill_review_approved">Одобрено. Kelo будет использовать этот навык.</string>
+    <string name="skill_review_discarded">Отклонено</string>
+    <string name="skill_review_from_draft">Черновик по завершённой задаче</string>
+    <string name="skill_review_from_disk">Изменён в файлах сервера</string>
+    <string name="skill_review_from_kelo">Предложено Kelo</string>
+    <string name="skill_save">Сохранить как навык</string>
+    <string name="skill_save_about">Kelo запишет шаги этой задачи. Ничего не изменится, пока вы не одобрите это в разделе %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo составляет навык. Он появится в разделе %1$s → %2$s.</string>
+    <string name="skill_save_busy">Навык по этой задаче уже пишется.</string>
+    <string name="skill_save_unavailable">Этот сервер пока не умеет сохранять навыки. Сначала обновите сервер.</string>
+    <string name="skill_save_no_model">Сначала выберите модель.</string>
+</resources>

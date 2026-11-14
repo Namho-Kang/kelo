@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">Üslup</string>
+    <string name="my_agent_tone_friendly">Samimi</string>
+    <string name="my_agent_tone_polite">Kibar</string>
+    <string name="my_agent_tone_friendly_example">Yarın 10\'da dişçin var. Hatırlatıcı kurayım mı?</string>
+    <string name="my_agent_tone_polite_example">Yarın saat 10\'da diş hekimi randevunuz var. Hatırlatıcı kurmamı ister misiniz?</string>
+    <string name="my_agent_tone_failed">Üslup değiştirilemedi. Tekrar deneyin.</string>
+</resources>

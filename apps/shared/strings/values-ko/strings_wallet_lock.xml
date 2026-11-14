@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">결제 카드가 잠겨 있어요</string>
+    <string name="wallet_lock_body">지문이나 얼굴, 또는 화면 잠금(PIN·패턴·비밀번호)으로 본인인지 확인하면 다시 열려요.</string>
+    <string name="wallet_lock_kept">입력하던 카드 정보는 그대로 있어요. 잠금을 풀면 이어서 할 수 있어요. 10분이 지나면 지워져요.</string>
+    <string name="wallet_lock_unlock">잠금 해제</string>
+    <string name="wallet_lock_back">돌아가기</string>
+    <string name="wallet_lock_no_lock_title">화면 잠금이 필요해요</string>
+    <string name="wallet_lock_no_lock_body">이 폰에 화면 잠금이 없어서 결제 카드를 열 수 없어요. 설정에서 PIN이나 지문을 켜고 돌아오면 바로 확인할게요.</string>
+    <string name="wallet_lock_open_settings">화면 잠금 설정 열기</string>
+</resources>

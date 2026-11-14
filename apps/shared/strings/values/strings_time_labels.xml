@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The time line above a message that starts a new stretch of the chat: "Today 10:00 PM", "Yesterday 9:31 AM" -->
+    <string name="chat_time_today">Today</string>
+    <string name="chat_time_yesterday">Yesterday</string>
+</resources>

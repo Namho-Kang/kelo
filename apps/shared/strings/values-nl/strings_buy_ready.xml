@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_buy_ready.xml -->
+<resources>
+    <string name="buy_ready_title">Klaar om te kopen</string>
+    <string name="buy_ready_short">Klaar om direct te kopen</string>
+    <string name="buy_ready_problems_short">Klaar om te kopen: %1$d op te lossen</string>
+    <string name="buy_ready_ok">Alles is klaar. Zodra het verschijnt, koopt Kelo direct binnen het toegestane.</string>
+    <string name="buy_ready_not_ok">Enkele dingen zijn nog niet klaar:</string>
+    <string name="buy_ready_login">Inloggen</string>
+    <string name="buy_ready_login_kept">Aangemeld gebleven</string>
+    <string name="buy_ready_login_out">Afgemeld</string>
+    <string name="buy_ready_checked">Laatst gecontroleerd</string>
+    <string name="buy_ready_remembered">Kelo onthoudt de betaalstappen van deze site, zodat het binnen enkele seconden kan kopen.</string>
+    <string name="buy_ready_about">De productpagina blijft geopend in Kelo\'s browser en wordt elke 15 minuten gecontroleerd.</string>
+    <string name="buy_ready_check">Nu controleren</string>
+</resources>

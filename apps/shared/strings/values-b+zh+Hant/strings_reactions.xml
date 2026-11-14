@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_reactions.xml (generated from values/strings_reactions.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="chat_reaction_read">已讀</string>
+    <string name="chat_reaction_done">回應：%1$s</string>
+</resources>

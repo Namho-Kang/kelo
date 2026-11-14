@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Bèta-toegang aanvragen</string>
+    <string name="beta_requested">Aangevraagd</string>
+    <string name="beta_sheet_note">Inloggen met Google staat voorlopig open voor een kleine groep. Vul het Google-e-mailadres in dat je gaat koppelen, dan mailen we je daar zodra je bent toegevoegd.</string>
+    <string name="beta_email_hint">Google-e-mailadres</string>
+    <string name="beta_email_invalid">Vul een geldig e-mailadres in.</string>
+    <string name="beta_send">Versturen</string>
+    <string name="beta_sending">Bezig met versturen…</string>
+    <string name="beta_sent">Aanvraag verstuurd. Zodra hij is goedgekeurd, mailen we naar %1$s — kom dan terug en koppel opnieuw.</string>
+    <string name="beta_declined">Je bèta-aanvraag is deze keer niet goedgekeurd. Inloggen met Google gaat voor iedereen open zodra de controle door Google klaar is.</string>
+    <string name="operator_section_beta">Bèta-aanvragen</string>
+    <string name="operator_beta_note">Mensen die inloggen met Google willen proberen. Voeg ze eerst toe als testgebruikers in Google Cloud Console en tik daarna op Goedgekeurd. Afgehandelde aanvragen worden na 30 dagen verwijderd.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Doelgroep (Audience) → Testgebruikers → %1$s toevoegen</string>
+    <string name="operator_beta_mail_from">E-mails worden verstuurd vanaf %1$s.</string>
+    <string name="operator_beta_no_mail">Er is geen Gmail gekoppeld op deze server, dus er worden geen e-mails verstuurd. Koppel Gmail bij Koppelingen om ze te versturen.</string>
+    <string name="operator_beta_not_receiving">Deze server bemiddelt niet bij inloggen met Google en ontvangt dus geen aanvragen.</string>
+    <string name="operator_beta_empty">Nog geen aanvragen.</string>
+    <string name="operator_beta_open">Wachtend: %1$d</string>
+    <string name="operator_beta_approve">Goedgekeurd</string>
+    <string name="operator_beta_decline">Afwijzen</string>
+    <string name="operator_beta_waiting">Wachtend</string>
+    <string name="operator_beta_state_approved">Goedgekeurd</string>
+    <string name="operator_beta_declined">Afgewezen</string>
+    <string name="operator_beta_notice_no_mail">Geen e-mail naar support: er is geen Gmail gekoppeld.</string>
+    <string name="operator_beta_notice_failed">De e-mail naar support kon niet worden verstuurd.</string>
+    <string name="operator_beta_decline_confirm">Deze aanvraag afwijzen?</string>
+    <string name="operator_beta_decline_mail">Korte e-mail sturen</string>
+    <string name="operator_beta_mailed">E-mail gestuurd naar %1$s.</string>
+    <string name="operator_tester_steps">Voeg %1$s toe in Play Console → Testen → Gesloten testen → Testers en tik dan hieronder.</string>
+    <string name="operator_tester_added">Toegevoegd aan Play</string>
+    <string name="notify_beta_request">Bèta-aanvraag</string>
+</resources>

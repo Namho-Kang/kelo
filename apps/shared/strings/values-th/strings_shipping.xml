@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">ที่อยู่จัดส่ง</string>
+    <string name="shipping_empty">ยังไม่มีที่อยู่ที่บันทึกไว้ เมื่อ Kelo สั่งซื้อให้คุณ จะจัดส่งไปยังที่อยู่ที่บันทึกไว้ที่นี่</string>
+    <string name="shipping_add">เพิ่มที่อยู่</string>
+    <string name="shipping_edit_title">แก้ไขที่อยู่</string>
+    <string name="shipping_home">บ้าน</string>
+    <string name="shipping_nickname">ชื่อเรียก</string>
+    <string name="shipping_nickname_hint">เช่น บ้าน, ที่ทำงาน</string>
+    <string name="shipping_country">ประเทศ</string>
+    <string name="shipping_optional">ไม่บังคับ</string>
+    <string name="shipping_label_optional">%1$s (%2$s)</string>
+    <string name="shipping_default_title">ที่อยู่หลัก</string>
+    <string name="shipping_default_note">คำสั่งซื้อจะส่งมาที่นี่ เว้นแต่คุณหรืองานจะระบุที่อยู่อื่น</string>
+    <string name="shipping_delete">ลบที่อยู่นี้</string>
+    <string name="shipping_delete_confirm">ลบที่อยู่ “%1$s” ไหม</string>
+    <string name="shipping_err_required">กรุณากรอก</string>
+    <string name="shipping_err_pattern">ตรวจสอบรูปแบบ (เช่น %1$s)</string>
+    <string name="shipping_err_format">ตรวจสอบรูปแบบ</string>
+    <string name="shipping_err_phone">ตรวจสอบหมายเลขโทรศัพท์</string>
+    <string name="shipping_example">เช่น %1$s</string>
+    <string name="shipping_pick">เลือก</string>
+    <string name="shipping_country_search">ค้นหาประเทศ</string>
+    <string name="shipping_country_none">ไม่พบประเทศที่ตรงกัน</string>
+    <string name="shipping_form_failed">โหลดแบบฟอร์มที่อยู่ไม่ได้</string>
+    <string name="shipping_calling_code">รหัสประเทศ %1$s</string>
+    <string name="shipping_ask_title">จะให้จัดส่งที่ไหน</string>
+    <string name="shipping_ask_save">ใช้กับคำสั่งซื้อครั้งถัดไป (บันทึกเป็นที่อยู่จัดส่ง)</string>
+    <string name="shipping_ask_pay">วิธีชำระเงิน</string>
+    <string name="shipping_pay_card">เพิ่มบัตร</string>
+    <string name="shipping_pay_site">ชำระบนเว็บไซต์</string>
+    <string name="shipping_ask_send">ส่งที่อยู่</string>
+    <string name="shipping_ask_sending">กำลังส่ง…</string>
+    <string name="shipping_ask_done">จัดส่งถึง: %1$s</string>
+    <string name="shipping_ask_cancelled">ไม่ได้ให้ที่อยู่</string>
+    <string name="shipping_ask_expired">แบบฟอร์มนี้หมดเวลาแล้ว</string>
+    <string name="shipping_ask_closed">แบบฟอร์มนี้ปิดแล้ว</string>
+    <string name="order_items">สินค้า</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">จัดส่งถึง</string>
+    <string name="order_ship_site">ที่อยู่ที่บันทึกไว้บนเว็บไซต์</string>
+    <string name="order_ship_once">เฉพาะคำสั่งซื้อนี้</string>
+    <string name="order_pay_with">ชำระด้วย</string>
+    <string name="order_pay_site">บนเว็บไซต์</string>
+    <string name="order_coupon">คูปอง</string>
+    <string name="order_total">ยอดรวม</string>
+</resources>

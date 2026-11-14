@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">申請測試版</string>
+    <string name="beta_requested">已申請</string>
+    <string name="beta_sheet_note">Google 登入目前只對一小部分人開放。輸入你要連接的 Google 電子郵件，加入後我們會寄信到這個地址通知你。</string>
+    <string name="beta_email_hint">Google 電子郵件地址</string>
+    <string name="beta_email_invalid">請輸入有效的電子郵件地址。</string>
+    <string name="beta_send">送出</string>
+    <string name="beta_sending">正在送出…</string>
+    <string name="beta_sent">申請已送出。核准後我們會寄信到 %1$s，屆時請回來重新連接。</string>
+    <string name="beta_declined">你這次的測試版申請未獲核准。Google 審查完成後，所有人都能使用 Google 登入。</string>
+    <string name="operator_section_beta">測試版申請</string>
+    <string name="operator_beta_note">想試用 Google 登入的申請。先在 Google Cloud Console 中把對方加為測試使用者，再按「已核准」。處理過的申請會在 30 天後刪除。</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → 目標對象(Audience) → 測試使用者 → 新增 %1$s</string>
+    <string name="operator_beta_mail_from">郵件從 %1$s 寄出。</string>
+    <string name="operator_beta_no_mail">這台伺服器沒有連接 Gmail，因此不會寄出郵件。要寄出郵件，請在連接器中連接 Gmail。</string>
+    <string name="operator_beta_not_receiving">這台伺服器不是 Google 登入中繼伺服器，因此不接收申請。</string>
+    <string name="operator_beta_empty">還沒有申請。</string>
+    <string name="operator_beta_open">等待中：%1$d</string>
+    <string name="operator_beta_approve">已核准</string>
+    <string name="operator_beta_decline">拒絕</string>
+    <string name="operator_beta_waiting">等待中</string>
+    <string name="operator_beta_state_approved">已核准</string>
+    <string name="operator_beta_declined">已拒絕</string>
+    <string name="operator_beta_notice_no_mail">未連接 Gmail，因此沒有寄信給 support。</string>
+    <string name="operator_beta_notice_failed">寄給 support 的郵件無法寄出。</string>
+    <string name="operator_beta_decline_confirm">要拒絕這個申請嗎？</string>
+    <string name="operator_beta_decline_mail">寄一封簡短的郵件</string>
+    <string name="operator_beta_mailed">已寄信給 %1$s。</string>
+    <string name="operator_tester_steps">在 Play Console → 測試 → 封閉式測試 → 測試人員 中新增 %1$s，然後點下方按鈕。</string>
+    <string name="operator_tester_added">已加入 Play</string>
+    <string name="notify_beta_request">測試版申請</string>
+</resources>

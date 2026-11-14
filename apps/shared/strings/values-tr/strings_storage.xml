@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Temizle</string>
+    <string name="storage_cleanup_title">Depolama alanını temizle</string>
+    <string name="storage_warn">Kelo depolama alanı %%%1$d dolu.</string>
+    <string name="storage_critical">Kelo depolama alanı neredeyse dolu (%%%1$d). Dolduğunda yeni dosyalar kaydedilemez ama sohbet çalışmaya devam eder.</string>
+    <string name="storage_host_low">Kelo sunucusunun çalıştığı bilgisayarın diski neredeyse dolu (%1$s kaldı). Dolduğunda Kelo, sohbet de dahil, çalışmayı durdurur.</string>
+    <string name="storage_top">En çok yer kaplayan: %1$s (%2$s).</string>
+    <string name="storage_row_warn">%%%1$d dolu</string>
+    <string name="storage_row_critical">Neredeyse dolu</string>
+    <string name="storage_row_host">Disk neredeyse dolu</string>
+    <string name="storage_cleanup_intro">Bunlar güvenle kaldırılabilir. Notlar, hafıza ve sohbet geçmişi burada hiç listelenmez.</string>
+    <string name="storage_group_uploads">Eski yüklemelerin orijinalleri</string>
+    <string name="storage_group_uploads_desc">%1$d günden önce yüklenen dosyalar. Yalnızca orijinal silinir; Kelo’nun bir belgeden okuduğu metin kalır.</string>
+    <string name="storage_group_images">Oluşturulan görseller</string>
+    <string name="storage_group_images_desc">Kelo’nun oluşturduğu görseller. Bunları gösteren eski sohbet mesajları artık bir şey göstermez.</string>
+    <string name="storage_group_browser">Tarayıcı adım görüntüleri</string>
+    <string name="storage_group_browser_desc">Kendi kendine çalışan görevlerdeki her tarayıcı adımının görüntüleri.</string>
+    <string name="storage_group_results">Eski sonuçlar ve çöp kutusu</string>
+    <string name="storage_group_results_desc">%1$d günden eski sonuçlar ve çöp kutusundaki her şey.</string>
+    <string name="storage_group_backups">Eski yedekler</string>
+    <string name="storage_group_backups_desc">En yeni yedekler her zaman saklanır.</string>
+    <string name="storage_item_text_kept">Metin kalır</string>
+    <string name="storage_item_trashed">Çöp kutusunda</string>
+    <string name="storage_backup_update">Sunucu güncellemesinden önce</string>
+    <string name="storage_backup_memory">Hafıza düzenlemesi</string>
+    <string name="storage_backup_migration">Önceki düzen</string>
+    <string name="storage_selected">Seçilen: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Sil</string>
+    <string name="storage_confirm_title">Seçilen öğeler kalıcı olarak silinsin mi?</string>
+    <string name="storage_confirm_body">Bu, %1$s yer açar. Silinen öğeler geri getirilemez.</string>
+    <string name="storage_deleted">%1$s yer açıldı.</string>
+    <string name="storage_skipped">Bazı öğeler zaten değişmişti, bu yüzden olduğu gibi bırakıldı.</string>
+    <string name="storage_nothing">Şu anda temizlenecek bir şey yok.</string>
+    <string name="storage_owner_only">Yalnızca sunucunun sahibi temizleyebilir.</string>
+    <string name="storage_load_failed">Temizlenebilecekler yüklenemedi.</string>
+    <string name="storage_delete_failed">Silinemedi. Tekrar deneyin.</string>
+    <string name="storage_notify">Depolama alanı doluyor</string>
+</resources>

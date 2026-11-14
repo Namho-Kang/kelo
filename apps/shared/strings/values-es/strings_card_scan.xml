@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">Escanear tarjeta</string>
+    <string name="card_scan_title">Escanea tu tarjeta</string>
+    <string name="card_scan_hint">Coloca el frente de la tarjeta dentro del marco. Solo se lee en este teléfono.</string>
+    <string name="card_scan_preparing">Preparando el escáner…</string>
+    <string name="card_scan_filled">Revisa el número escaneado. Escribe tú el CVC.</string>
+    <string name="card_scan_nothing">No se pudo leer la tarjeta. Inténtalo de nuevo o escribe el número.</string>
+    <string name="card_scan_camera_needed">Kelo necesita acceso a la cámara para escanear la tarjeta. No se guardan fotos.</string>
+    <string name="card_scan_camera_failed">No se pudo abrir la cámara. Escribe el número.</string>
+</resources>

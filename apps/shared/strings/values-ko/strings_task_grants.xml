@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">이 일이 생기면 묻지 않고 이렇게 할까요?</string>
+    <string name="task_grant_when">이럴 때</string>
+    <string name="task_grant_does">할 일</string>
+    <string name="task_grant_buy">구매</string>
+    <string name="task_grant_limits">한도</string>
+    <string name="task_grant_per_time">한 번에 최대 %1$s</string>
+    <string name="task_grant_times_one">딱 한 번</string>
+    <string name="task_grant_times">최대 %1$d번</string>
+    <string name="task_grant_no_count">횟수 제한 없음</string>
+    <string name="task_grant_monthly">한 달 최대 %1$s</string>
+    <string name="task_grant_card">결제 카드</string>
+    <string name="task_grant_card_limit">이 카드의 자동결제 한도는 %1$s이에요. 이번 일은 최대 %2$s까지 허락할까요?</string>
+    <string name="task_grant_card_not_auto">이 카드는 자동결제가 꺼져 있어요. 이번 일만 최대 %1$s까지 결제해요.</string>
+    <string name="task_grant_card_phone_only">이 카드는 휴대폰에만 보관돼 있어서 결제할 때마다 계속 물어봐요.</string>
+    <string name="task_grant_ship_to">배송지</string>
+    <string name="task_grant_send_to">받는 사람</string>
+    <string name="task_grant_message">보낼 내용</string>
+    <string name="task_grant_varies">바뀌는 부분: %1$s</string>
+    <string name="task_grant_change">바꿀 것</string>
+    <string name="task_grant_apply">신청</string>
+    <string name="task_grant_apply_per_run">한 번 실행에 %1$d건까지</string>
+    <string name="task_grant_apply_total">모두 합쳐 %1$d건</string>
+    <string name="task_grant_row_apply">%1$s 신청</string>
+    <string name="task_grant_delete_yes">삭제도 허락</string>
+    <string name="task_grant_delete_no">삭제는 안 해요</string>
+    <string name="task_grant_login">로그인</string>
+    <string name="task_grant_login_line">%2$s에서 %1$s 로그인 사용</string>
+    <string name="task_grant_once">한 번 하고 나면 스스로 끝나서 두 번 하지 않아요.</string>
+    <string name="task_grant_after">하고 나면 바로 알려 드려요. 이 밖의 일은 계속 물어봐요.</string>
+    <string name="task_grant_urgent">급해요: 빨리 답해 주세요</string>
+    <string name="task_grant_urgent_missed">급해요: 답이 늦으면 %1$s</string>
+    <string name="task_grant_row_send">%1$s에게 보내기</string>
+    <string name="task_grant_row_change">%1$s 바꾸기</string>
+    <string name="task_grant_row_when">이럴 때: %1$s</string>
+    <string name="task_grant_row_card">카드: %1$s</string>
+    <string name="task_grant_row_left">%2$d번 중 %1$d번 남음</string>
+    <string name="task_grant_row_once">그 뒤 자동 종료</string>
+    <string name="task_grant_section_note">설정할 때 한 번 허락한 일이에요. 그 밖의 일은 계속 물어봐요.</string>
+    <string name="notify_channel_urgent">급한 확인 요청</string>
+    <string name="notify_channel_urgent_desc">설정한 일이 늦기 전에 답이 필요할 때</string>
+    <string name="notify_approval_urgent">급해요: 확인해 주세요</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">收货地址</string>
+    <string name="shipping_empty">还没有保存地址。Kelo 替你下单时，会寄到这里保存的地址。</string>
+    <string name="shipping_add">添加地址</string>
+    <string name="shipping_edit_title">编辑地址</string>
+    <string name="shipping_home">家</string>
+    <string name="shipping_nickname">备注名</string>
+    <string name="shipping_nickname_hint">例如：家、公司</string>
+    <string name="shipping_country">国家/地区</string>
+    <string name="shipping_optional">选填</string>
+    <string name="shipping_label_optional">%1$s（%2$s）</string>
+    <string name="shipping_default_title">默认地址</string>
+    <string name="shipping_default_note">除非你或任务指定其他地址，订单都寄到这里。</string>
+    <string name="shipping_delete">删除此地址</string>
+    <string name="shipping_delete_confirm">删除地址“%1$s”？</string>
+    <string name="shipping_err_required">请填写</string>
+    <string name="shipping_err_pattern">请检查格式（例如 %1$s）</string>
+    <string name="shipping_err_format">请检查格式</string>
+    <string name="shipping_err_phone">请检查电话号码</string>
+    <string name="shipping_example">例如 %1$s</string>
+    <string name="shipping_pick">请选择</string>
+    <string name="shipping_country_search">搜索国家/地区</string>
+    <string name="shipping_country_none">没有匹配的国家/地区</string>
+    <string name="shipping_form_failed">无法加载地址表单。</string>
+    <string name="shipping_calling_code">国家代码 %1$s</string>
+    <string name="shipping_ask_title">要寄到哪里？</string>
+    <string name="shipping_ask_save">以后的订单也用（保存为收货地址）</string>
+    <string name="shipping_ask_pay">付款方式</string>
+    <string name="shipping_pay_card">添加银行卡</string>
+    <string name="shipping_pay_site">在网站上付款</string>
+    <string name="shipping_ask_send">使用此地址</string>
+    <string name="shipping_ask_sending">正在发送…</string>
+    <string name="shipping_ask_done">收货地址：%1$s</string>
+    <string name="shipping_ask_cancelled">未提供地址</string>
+    <string name="shipping_ask_expired">此表单已超时</string>
+    <string name="shipping_ask_closed">此表单已关闭</string>
+    <string name="order_items">商品</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">收货地址</string>
+    <string name="order_ship_site">网站上保存的地址</string>
+    <string name="order_ship_once">仅限本次订单</string>
+    <string name="order_pay_with">付款方式</string>
+    <string name="order_pay_site">在网站上付款</string>
+    <string name="order_coupon">优惠券</string>
+    <string name="order_total">合计</string>
+</resources>

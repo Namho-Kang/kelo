@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat and live view lines only the desktop app has (zoom in a browser tab's live view). See strings_desktop.xml. -->
+<resources>
+    <string name="desktop_chat_zoom_in">放大</string>
+    <string name="desktop_chat_zoom_reset">适合窗口</string>
+    <string name="desktop_chat_zoom_hint">按住 %1$s 并滚动滚轮可缩放；拖动可查看其他部分。</string>
+</resources>

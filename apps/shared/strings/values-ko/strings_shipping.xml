@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">배송 정보</string>
+    <string name="shipping_empty">저장한 배송지가 없어요. Kelo가 주문할 때 여기 저장한 주소로 보내요.</string>
+    <string name="shipping_add">배송지 추가</string>
+    <string name="shipping_edit_title">배송지 수정</string>
+    <string name="shipping_home">집</string>
+    <string name="shipping_nickname">별칭</string>
+    <string name="shipping_nickname_hint">예: 집, 회사</string>
+    <string name="shipping_country">국가</string>
+    <string name="shipping_optional">선택</string>
+    <string name="shipping_label_optional">%1$s (%2$s)</string>
+    <string name="shipping_default_title">기본 배송지</string>
+    <string name="shipping_default_note">따로 정하지 않으면 주문은 이 주소로 보내요.</string>
+    <string name="shipping_delete">이 배송지 삭제</string>
+    <string name="shipping_delete_confirm">‘%1$s’ 배송지를 삭제할까요?</string>
+    <string name="shipping_err_required">입력해 주세요</string>
+    <string name="shipping_err_pattern">형식을 확인해 주세요 (예: %1$s)</string>
+    <string name="shipping_err_format">형식을 확인해 주세요</string>
+    <string name="shipping_err_phone">전화번호를 확인해 주세요</string>
+    <string name="shipping_example">예: %1$s</string>
+    <string name="shipping_pick">선택하세요</string>
+    <string name="shipping_country_search">국가 검색</string>
+    <string name="shipping_country_none">맞는 국가가 없어요</string>
+    <string name="shipping_form_failed">주소 양식을 불러오지 못했어요.</string>
+    <string name="shipping_calling_code">국가 번호 %1$s</string>
+    <string name="shipping_ask_title">어디로 보낼까요?</string>
+    <string name="shipping_ask_save">다음 주문에도 쓰기 (배송지로 저장)</string>
+    <string name="shipping_ask_pay">결제 방법</string>
+    <string name="shipping_pay_card">카드 등록하기</string>
+    <string name="shipping_pay_site">사이트에서 결제</string>
+    <string name="shipping_ask_send">이 주소로 보내기</string>
+    <string name="shipping_ask_sending">보내는 중…</string>
+    <string name="shipping_ask_done">배송지: %1$s</string>
+    <string name="shipping_ask_cancelled">주소를 알려 주지 않았어요</string>
+    <string name="shipping_ask_expired">시간이 지나 닫힌 양식이에요</string>
+    <string name="shipping_ask_closed">닫힌 양식이에요</string>
+    <string name="order_items">주문 상품</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">받는 곳</string>
+    <string name="order_ship_site">사이트에 저장된 주소</string>
+    <string name="order_ship_once">이번 주문에만</string>
+    <string name="order_pay_with">결제 수단</string>
+    <string name="order_pay_site">사이트에서 결제</string>
+    <string name="order_coupon">쿠폰</string>
+    <string name="order_total">합계</string>
+</resources>

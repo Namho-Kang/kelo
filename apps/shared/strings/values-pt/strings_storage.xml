@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pt-BR text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Limpar</string>
+    <string name="storage_cleanup_title">Limpar armazenamento</string>
+    <string name="storage_warn">O armazenamento do Kelo está %1$d%% cheio.</string>
+    <string name="storage_critical">O armazenamento do Kelo está quase cheio (%1$d%%). Quando encher, não será possível salvar arquivos novos, mas o chat continua funcionando.</string>
+    <string name="storage_host_low">O disco do computador onde o servidor Kelo roda está quase cheio (restam %1$s). Quando encher, o Kelo para de funcionar, inclusive o chat.</string>
+    <string name="storage_top">O que mais ocupa: %1$s (%2$s).</string>
+    <string name="storage_row_warn">%1$d%% usado</string>
+    <string name="storage_row_critical">Quase cheio</string>
+    <string name="storage_row_host">Disco quase cheio</string>
+    <string name="storage_cleanup_intro">Estes itens podem ser removidos com segurança. Notas, memória e histórico do chat nunca aparecem aqui.</string>
+    <string name="storage_group_uploads">Originais de envios antigos</string>
+    <string name="storage_group_uploads_desc">Arquivos enviados há mais de %1$d dias. Só o original é removido; o texto que o Kelo leu de um documento fica.</string>
+    <string name="storage_group_images">Imagens geradas</string>
+    <string name="storage_group_images_desc">Imagens que o Kelo criou. Mensagens antigas que as mostravam não mostrarão mais nada.</string>
+    <string name="storage_group_browser">Capturas das etapas do navegador</string>
+    <string name="storage_group_browser_desc">Capturas de cada etapa do navegador em tarefas que rodaram sozinhas.</string>
+    <string name="storage_group_results">Resultados antigos e lixeira</string>
+    <string name="storage_group_results_desc">Resultados com mais de %1$d dias e tudo o que está na lixeira.</string>
+    <string name="storage_group_backups">Backups anteriores</string>
+    <string name="storage_group_backups_desc">Os backups mais recentes são sempre mantidos.</string>
+    <string name="storage_item_text_kept">Texto mantido</string>
+    <string name="storage_item_trashed">Na lixeira</string>
+    <string name="storage_backup_update">Antes de uma atualização do servidor</string>
+    <string name="storage_backup_memory">Organização da memória</string>
+    <string name="storage_backup_migration">Estrutura anterior</string>
+    <string name="storage_selected">Selecionados: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Excluir</string>
+    <string name="storage_confirm_title">Excluir para sempre os itens selecionados?</string>
+    <string name="storage_confirm_body">Isso libera %1$s. Itens excluídos não podem ser recuperados.</string>
+    <string name="storage_deleted">%1$s liberados.</string>
+    <string name="storage_skipped">Alguns itens já tinham mudado e foram mantidos como estavam.</string>
+    <string name="storage_nothing">Nada para limpar agora.</string>
+    <string name="storage_owner_only">Só o dono do servidor pode limpar.</string>
+    <string name="storage_load_failed">Não foi possível carregar o que pode ser limpo.</string>
+    <string name="storage_delete_failed">Não foi possível excluir. Tente de novo.</string>
+    <string name="storage_notify">O armazenamento está enchendo</string>
+</resources>

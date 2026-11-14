@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">مهارات بانتظار الموافقة</string>
+    <string name="skill_review_about">لا يستخدم Kelo أي مهارة إلا بعد موافقتك. الموافقة تحفظ النص المعروض كما هو.</string>
+    <string name="skill_review_drafting">يكتب Kelo مسودة مهارة…</string>
+    <string name="skill_review_kind_new">مهارة جديدة</string>
+    <string name="skill_review_kind_change">تعديل على مهارة</string>
+    <string name="skill_review_kind_edited">تغيّرت خارج التطبيق</string>
+    <string name="skill_review_edited_note">تغيّرت ملفات هذه المهارة خارج التطبيق، لذلك لن يستخدمها Kelo حتى توافق عليها من جديد.</string>
+    <string name="skill_review_edited_new_note">أُضيفت هذه المهارة خارج التطبيق. لن يستخدمها Kelo حتى توافق عليها.</string>
+    <string name="skill_review_outside_note">قرأ Kelo صفحات ويب أو رسائل بريد أو ملفات أثناء هذا العمل. تأكد من أن كل خطوة هي ما تريده.</string>
+    <string name="skill_review_secrets_removed">أُزيلت كلمات المرور والمفاتيح والرموز من النص.</string>
+    <string name="skill_review_diff_counts">أُضيف %1$d · حُذف %2$d</string>
+    <string name="skill_review_show_all">عرض الكل</string>
+    <string name="skill_review_show_less">عرض أقل</string>
+    <string name="skill_review_put_back">التراجع عن التغييرات</string>
+    <string name="skill_review_discard">تجاهل</string>
+    <string name="skill_review_approve">موافقة</string>
+    <string name="skill_review_approved">تمت الموافقة. سيستخدم Kelo هذه المهارة.</string>
+    <string name="skill_review_discarded">تم التجاهل</string>
+    <string name="skill_review_from_draft">مسودة من مهمة منتهية</string>
+    <string name="skill_review_from_disk">تغيّرت في ملفات الخادم</string>
+    <string name="skill_review_from_kelo">اقتراح من Kelo</string>
+    <string name="skill_save">حفظ كمهارة</string>
+    <string name="skill_save_about">يدوّن Kelo خطوات هذه المهمة. لن يتغير شيء حتى توافق عليها في %1$s ← %2$s.</string>
+    <string name="skill_save_started">يكتب Kelo مسودة مهارة. ستجدها في %1$s ← %2$s.</string>
+    <string name="skill_save_busy">تُكتب مهارة من هذه المهمة بالفعل.</string>
+    <string name="skill_save_unavailable">لا يستطيع هذا الخادم حفظ المهارات بعد. حدّث الخادم أولًا.</string>
+    <string name="skill_save_no_model">اختر نموذجًا أولًا.</string>
+</resources>

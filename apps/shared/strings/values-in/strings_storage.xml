@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Bersihkan</string>
+    <string name="storage_cleanup_title">Bersihkan penyimpanan</string>
+    <string name="storage_warn">Penyimpanan Kelo terisi %1$d%%.</string>
+    <string name="storage_critical">Penyimpanan Kelo hampir penuh (%1$d%%). Jika penuh, file baru tidak bisa disimpan, tetapi obrolan tetap berjalan.</string>
+    <string name="storage_host_low">Disk komputer tempat server Kelo berjalan hampir penuh (tersisa %1$s). Jika penuh, Kelo berhenti bekerja, termasuk obrolan.</string>
+    <string name="storage_top">Paling banyak memakan ruang: %1$s (%2$s).</string>
+    <string name="storage_row_warn">Terisi %1$d%%</string>
+    <string name="storage_row_critical">Hampir penuh</string>
+    <string name="storage_row_host">Disk hampir penuh</string>
+    <string name="storage_cleanup_intro">Item ini aman dihapus. Catatan, memori, dan riwayat obrolan tidak pernah tercantum di sini.</string>
+    <string name="storage_group_uploads">File asli unggahan lama</string>
+    <string name="storage_group_uploads_desc">File yang diunggah lebih dari %1$d hari lalu. Hanya file asli yang dihapus; teks yang dibaca Kelo dari dokumen tetap ada.</string>
+    <string name="storage_group_images">Gambar yang dibuat</string>
+    <string name="storage_group_images_desc">Gambar yang dibuat Kelo. Pesan obrolan lama yang menampilkannya tidak akan menampilkan apa pun.</string>
+    <string name="storage_group_browser">Gambar langkah browser</string>
+    <string name="storage_group_browser_desc">Gambar setiap langkah browser dari tugas yang berjalan sendiri.</string>
+    <string name="storage_group_results">Hasil lama dan sampah</string>
+    <string name="storage_group_results_desc">Hasil yang lebih dari %1$d hari dan semua yang ada di sampah.</string>
+    <string name="storage_group_backups">Cadangan lama</string>
+    <string name="storage_group_backups_desc">Cadangan terbaru selalu disimpan.</string>
+    <string name="storage_item_text_kept">Teks tetap ada</string>
+    <string name="storage_item_trashed">Di sampah</string>
+    <string name="storage_backup_update">Sebelum pembaruan server</string>
+    <string name="storage_backup_memory">Rapikan memori</string>
+    <string name="storage_backup_migration">Susunan lama</string>
+    <string name="storage_selected">Dipilih: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Hapus</string>
+    <string name="storage_confirm_title">Hapus item yang dipilih secara permanen?</string>
+    <string name="storage_confirm_body">Ini mengosongkan %1$s. Item yang dihapus tidak bisa dikembalikan.</string>
+    <string name="storage_deleted">%1$s dikosongkan.</string>
+    <string name="storage_skipped">Beberapa item sudah berubah, jadi dibiarkan apa adanya.</string>
+    <string name="storage_nothing">Tidak ada yang perlu dibersihkan sekarang.</string>
+    <string name="storage_owner_only">Hanya pemilik server yang bisa membersihkan.</string>
+    <string name="storage_load_failed">Tidak dapat memuat apa yang bisa dibersihkan.</string>
+    <string name="storage_delete_failed">Tidak dapat menghapus. Coba lagi.</string>
+    <string name="storage_notify">Penyimpanan hampir penuh</string>
+</resources>

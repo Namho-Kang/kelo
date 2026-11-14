@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_cli_update.xml (generated from values/strings_cli_update.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_cli_update_button">อัปเดต</string>
+    <string name="model_cli_updating">กำลังอัปเดต… (อาจใช้เวลาสองสามนาที)</string>
+    <string name="model_cli_update_done">อัปเดต %1$s เป็นเวอร์ชัน %2$s แล้ว</string>
+    <string name="model_cli_update_unchanged">%1$s เป็นเวอร์ชันล่าสุดอยู่แล้ว</string>
+    <string name="model_cli_update_failed">อัปเดตไม่สำเร็จ: %1$s เวอร์ชันปัจจุบันยังใช้งานได้ตามเดิม</string>
+</resources>

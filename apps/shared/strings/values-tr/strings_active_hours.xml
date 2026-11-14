@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_active_hours.xml (generated from values/strings_active_hours.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="hours_suggest_heading">Önerilen mesaj saatleri</string>
+    <string name="hours_suggest_title">Kelo’yu genelde %1$s kullanıyorsun. Kelo’dan mesajlar bu saatlerde gelsin mi?</string>
+    <plurals name="hours_suggest_basis">
+        <item quantity="one">Son %1$d günlük kullanımına göre · şu an %2$s</item>
+        <item quantity="other">Son %1$d günlük kullanımına göre · şu an %2$s</item>
+    </plurals>
+    <string name="hours_suggest_accept">Bu saatleri kullan</string>
+    <string name="hours_suggest_keep">Şimdiki gibi kalsın</string>
+    <string name="hours_suggest_accepted">Mesaj saatleri değişti · %1$s</string>
+    <string name="hours_suggest_kept">Şimdiki saatlerin kalıyor</string>
+    <string name="hours_span_next_day">%1$s – ertesi gün %2$s</string>
+    <string name="hours_learned">Kullanımından öğrenildi</string>
+    <string name="hours_auto_switch">Bildirim saatlerini Kelo\'yu kullandığınız saatlere göre ayarla</string>
+    <string name="proactive_until_next_day">Ertesi gün %1$s’e kadar</string>
+</resources>

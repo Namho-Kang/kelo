@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">Підключіть цей телефон знову</string>
+    <string name="e2e_key_changed_body">Ключ шифрування вашого сервера Kelo змінився, тож телефон не може перевірити, що це справді ваш сервер. Відскануйте новий QR-код підключення в розділі «Моє → Мої пристрої» на іншому пристрої або на комп’ютері з сервером.</string>
+    <string name="e2e_pair_again">Підключити знову</string>
+    <string name="e2e_server_old_title">Оновіть сервер Kelo</string>
+    <string name="e2e_server_old_body">Цьому застосунку потрібен сервер Kelo %1$s або новіший. Оновіть сервер і відкрийте застосунок знову.</string>
+    <string name="e2e_server_old_version">Версія сервера: %1$s</string>
+    <string name="e2e_retry">Спробувати ще раз</string>
+    <string name="devices_e2e_title">Наскрізне шифрування</string>
+    <string name="devices_e2e_on">Дорогою ваші чати можуть прочитати лише цей телефон і ваш сервер.</string>
+    <string name="devices_e2e_fingerprint">Відбиток ключа сервера</string>
+    <string name="devices_e2e_verified">Ключ підтверджено</string>
+    <string name="devices_e2e_not_verified">Ключ не підтверджено</string>
+    <string name="devices_e2e_not_verified_body">Порівняйте його з відбитком, який `assistant phone fingerprint` показує на комп’ютері з сервером, або один раз відскануйте QR-код підключення.</string>
+    <string name="devices_e2e_verify_scan">Підтвердити QR-кодом</string>
+    <string name="devices_e2e_verify_done">Ключ збігається. Підтверджено ✓</string>
+    <string name="devices_e2e_verify_mismatch">У цьому QR-коді інший ключ. Якщо ключ сервера змінювали, підключіть цей телефон знову.</string>
+    <string name="devices_e2e_verify_no_key">У цьому QR-коді немає ключа. Створіть новий на оновленому сервері.</string>
+</resources>

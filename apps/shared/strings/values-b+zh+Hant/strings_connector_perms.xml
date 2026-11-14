@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- b+zh+Hant text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Kelo 可以做什麼</string>
+    <string name="perm_about">允許：不發卡片。詢問：每次發送核准卡片。關閉：Kelo 不會執行。付款和註冊一律會詢問。</string>
+    <string name="perm_kind_read">讀取</string>
+    <string name="perm_kind_change">變更</string>
+    <string name="perm_kind_send">傳送</string>
+    <string name="perm_kind_delete">刪除</string>
+    <string name="perm_allow">允許</string>
+    <string name="perm_ask">詢問</string>
+    <string name="perm_off">關閉</string>
+    <string name="perm_default_is">預設：%1$s</string>
+    <string name="perm_changed_from">預設為%1$s</string>
+    <string name="perm_actions_more">%1$d 個單項操作</string>
+    <string name="perm_reset">還原為預設值</string>
+    <string name="perm_reset_q">將此連接器的所有設定還原為預設值？</string>
+    <string name="perm_read_off_q">關閉讀取後，Kelo 幾乎無法使用此連接器。要關閉嗎？</string>
+    <string name="perm_limited">受限</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Mostra anche spesa e saldo</string>
+    <string name="admin_key_title">Chiave admin per spesa e saldo</string>
+    <string name="admin_key_safety">Conservata nel contenitore di chiavi sul tuo server, non da Kelo stesso, e usata solo per leggere spesa e saldo.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (sola lettura è sufficiente).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (solo account dell\'organizzazione).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Salva</string>
+    <string name="admin_key_saved">Salvato. La spesa viene mostrata sotto.</string>
+    <string name="admin_key_refused">Il provider ha rifiutato questa chiave. Verifica che sia una chiave admin.</string>
+    <string name="admin_key_keyring_off">Questo server non conserva chiavi admin (il contenitore di chiavi è disattivato).</string>
+    <string name="admin_key_failed">Impossibile salvare la chiave. Riprova tra poco.</string>
+    <string name="admin_key_set">Chiave admin …%1$s</string>
+    <string name="admin_key_remove">Rimuovi</string>
+    <string name="admin_key_remove_q">Rimuovere la chiave admin? Spesa e saldo non verranno più mostrati.</string>
+    <string name="my_privacy_keyring">Le chiavi dei provider IA inserite (e le chiavi admin, se aggiunte) sono custodite da un contenitore di chiavi separato sul tuo server, non da Kelo. Kelo gli chiede di effettuare ogni chiamata e aggiunge la chiave solo per l\'indirizzo proprio di quel provider.</string>
+</resources>

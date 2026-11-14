@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo memerlukan lokasi Anda</string>
+    <string name="location_ask_body">Untuk menjawab ini, Kelo perlu tahu di mana ponsel ini sekarang.</string>
+    <string name="location_ask_private">Lokasi hanya dikirim ke server Anda sendiri.</string>
+    <string name="location_ask_share">Kirim lokasi saya</string>
+    <string name="location_ask_not_now">Nanti saja</string>
+    <string name="location_ask_settings">Buka Setelan</string>
+    <string name="location_ask_settings_hint">Lokasi untuk Kelo nonaktif. Aktifkan di Setelan, lalu kembali ke sini.</string>
+    <string name="location_services_off">Lokasi di ponsel ini nonaktif. Aktifkan di Setelan, lalu kembali ke sini.</string>
+    <string name="location_ask_reading">Mengambil lokasi Anda…</string>
+    <string name="location_ask_shared">Lokasi dikirim</string>
+    <string name="location_ask_refused">Lokasi tidak dikirim</string>
+    <string name="location_ask_expired">Permintaan ini sudah kedaluwarsa</string>
+    <string name="location_ask_unavailable">Ponsel ini tidak bisa mengetahui lokasinya. Pastikan lokasi aktif.</string>
+    <string name="chat_attached_file">File terlampir</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">パスワード、キー、カードは1つの鍵で開きます。通常はサーバーがその鍵を一緒に保管しています。オンにすると鍵はあなたのスマートフォンだけが持つため、サーバーのディスクを持ち出されても開けません。</string>
+    <string name="keyguard_restart_note">サーバーが再起動するたびに（更新を含む）、スマートフォンでKeloを開いて本人確認をするまでKeloはロックされたままです。その間Keloはパスワード、キー、カードを使えません。</string>
+    <string name="keyguard_window_note">このAndroidバージョンでは、確認後30秒間鍵を使えます。</string>
+    <string name="keyguard_turn_on">オンにする</string>
+    <string name="keyguard_turning_on">オンにしています…</string>
+    <string name="keyguard_turn_on_confirm">オンにしますか？書き留めておく復旧コードをお渡しします。このスマートフォンかそのコードがないと、サーバーはパスワード、キー、カードを開けません。</string>
+    <string name="keyguard_not_owner">変更できるのはオーナーのスマートフォンだけです。</string>
+    <string name="keyguard_env_key">サーバーがまだ設定ファイルに鍵を持っています。先にサーバーマシンで `assistant keyguard enable` を実行してから、ここでもう一度試してください。</string>
+    <string name="keyguard_no_lock">まずこのスマートフォンに画面ロックを設定してください。</string>
+    <string name="keyguard_recovery_title">復旧コード</string>
+    <string name="keyguard_recovery_warning">鍵を持つスマートフォンをすべて失ったときに戻せる唯一の方法です。表示は今だけで、どこにも保存されません。書き留めて安全な場所に保管してください。</string>
+    <string name="keyguard_recovery_confirm">書き留めました</string>
+    <string name="keyguard_done">完了</string>
+    <string name="keyguard_phones_title">鍵を持つスマートフォン</string>
+    <string name="keyguard_this_phone">%1$s（このスマートフォン）</string>
+    <string name="keyguard_add_this_phone">このスマートフォンにも鍵を保管</string>
+    <string name="keyguard_remove_this_phone">このスマートフォンの鍵を削除</string>
+    <string name="keyguard_remove_confirm">このスマートフォンから鍵を削除しますか？鍵を持つほかのスマートフォンで引き続きKeloを開けます。</string>
+    <string name="keyguard_last_phone">鍵を持つのはこのスマートフォンだけです。先に別のスマートフォンを追加するか、この機能をオフにしてください。</string>
+    <string name="keyguard_turn_off">オフにする</string>
+    <string name="keyguard_turn_off_confirm">鍵をサーバーに戻しますか？スマートフォンなしでもパスワード、キー、カードが開くようになります。</string>
+    <string name="keyguard_locked_title">Keloはロックされています</string>
+    <string name="keyguard_locked_body">このスマートフォンでKeloを開くまで、パスワード、キー、カードは閉じたままです。</string>
+    <string name="keyguard_locked_other">このスマートフォンには鍵がありません。鍵を持つスマートフォンでKeloを開くか、復旧コードを使ってください。</string>
+    <string name="keyguard_on_phone_only">スマートフォンの Kelo でオンにしてください。鍵を持つのはスマートフォンだけで、このコンピューターには保管されません。</string>
+    <string name="keyguard_unlock">開く</string>
+    <string name="keyguard_unlocking">開いています…</string>
+    <string name="keyguard_unlocked">Keloを開きました</string>
+    <string name="keyguard_use_code">復旧コードを使う</string>
+    <string name="keyguard_code_hint">復旧コード</string>
+    <string name="keyguard_code_wrong">コードが合いません。確認してもう一度試してください。</string>
+    <string name="keyguard_key_lost">このスマートフォンの鍵がなくなりました（画面ロックを外した場合など）。別のスマートフォンか復旧コードを使ってください。</string>
+    <string name="keyguard_failed">うまくいきませんでした。もう一度試してください。</string>
+    <string name="keyguard_prompt_title">Keloを開く</string>
+    <string name="keyguard_prompt_subtitle">本人確認</string>
+    <string name="keyguard_prompt_wrap">Keloの鍵をこのスマートフォンに保管</string>
+    <string name="wallet_keyguard_needed_title">自動支払いにはKeyguardが必要です</string>
+    <string name="wallet_keyguard_needed_body">自動支払いのカードはサーバーに保管されます。Keyguardをオンにすると、そのロックはこのスマートフォンでしか開けません。</string>
+    <string name="keyguard_turn_on_named">Keyguardをオンにする</string>
+    <string name="wallet_auto_paused_keyguard">Keyguardをオンにするまで自動支払いは止まっています。その間は支払いのたびにスマートフォンで確認します。</string>
+    <string name="wallet_auto_copy_note">サーバーが自動支払い用のコピーをロックして保管しています。そのロックはオーナーのスマートフォンでしか開けません。</string>
+</resources>

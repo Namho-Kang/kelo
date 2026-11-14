@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Поскаржитися</string>
+    <string name="report_title">Поскаржитися на відповідь</string>
+    <string name="report_intro">Якщо ця відповідь засмутила вас або була хибною, повідомте розробника Kelo. Це використовується лише для того, щоб зробити Kelo безпечнішим.</string>
+    <string name="report_reason_label">У чому проблема?</string>
+    <string name="report_reason_harmful">Неприємна або шкідлива</string>
+    <string name="report_reason_inaccurate">Фактично неточна</string>
+    <string name="report_reason_privacy">Розкриває особисті дані</string>
+    <string name="report_reason_other">Інше</string>
+    <string name="report_comment_hint">Хочете щось додати? (необов\'язково)</string>
+    <string name="report_include_asked">Також надіслати моє попереднє повідомлення</string>
+    <string name="report_sent_title">Що отримає розробник Kelo</string>
+    <string name="report_sent_reply">Відповідь, на яку ви скаржитеся</string>
+    <string name="report_sent_asked">Ваше попереднє повідомлення</string>
+    <string name="report_sent_reason">Вибрана причина й коментарі</string>
+    <string name="report_sent_model">Назва моделі, що написала відповідь</string>
+    <string name="report_sent_version">Версія застосунку Kelo</string>
+    <string name="report_sent_not">Нічого іншого з ваших чатів і жодних даних акаунта не надсилається. Скарги зберігаються 1 рік, а потім видаляються — раніше, якщо попросите.</string>
+    <string name="report_send">Надіслати скаргу</string>
+    <string name="report_sending">Надсилаю…</string>
+    <string name="report_failed_offline">Немає зв\'язку з вашим сервером. Написане збережено — спробуйте надіслати трохи згодом.</string>
+    <string name="report_thanks">Скаргу надіслано. Дякуємо, що повідомили.</string>
+    <string name="operator_section_reports">Отримані скарги</string>
+    <string name="operator_reports_note">Відповіді, на які користувачі поскаржилися із застосунку. Автоматично видаляються через 1 рік.</string>
+    <string name="operator_reports_not_receiving">Цей сервер не приймає скарг. Скарги з цього сервера надходять на сервер розробника Kelo.</string>
+    <string name="operator_reports_empty">Скарг поки немає.</string>
+    <string name="operator_reports_open">Скарг до розгляду: %1$d</string>
+    <string name="operator_reports_show_handled">Показати й розглянуті</string>
+    <string name="operator_reports_hide_handled">Лише нерозглянуті</string>
+    <string name="operator_reports_reply">Відповідь, на яку скаржаться</string>
+    <string name="operator_reports_asked">Попереднє повідомлення користувача</string>
+    <string name="operator_reports_comment">Коментар</string>
+    <string name="operator_reports_meta">%1$s · %2$s · Застосунок %3$s</string>
+    <string name="operator_reports_mark">Позначити розглянутою</string>
+    <string name="operator_reports_unmark">Позначити нерозглянутою</string>
+    <string name="operator_reports_handled">Розглянуто</string>
+    <string name="operator_reports_delete">Видалити</string>
+    <string name="operator_reports_delete_confirm">Видалити цю скаргу? Це не можна скасувати.</string>
+    <string name="operator_reports_unknown">Невідомо</string>
+</resources>

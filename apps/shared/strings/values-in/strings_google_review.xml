@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">Segera hadir</string>
+    <string name="google_review_title">Masuk dengan Google sedang disiapkan</string>
+    <string name="google_review_note">Ini akan dibuka setelah peninjauan Google selesai. Dukunganmu untuk Kelo bisa membuatnya terbuka lebih cepat.</string>
+    <string name="google_review_support">Dukung Kelo</string>
+    <string name="google_review_phone_calendar">Sambungkan lewat kalender ponsel</string>
+    <string name="google_review_phone_calendar_help">Ponsel Android menyimpan Google Kalender-mu di kalender ponsel itu sendiri, jadi Kelo bisa membacanya dari sana.</string>
+    <string name="google_review_open_switch">Buka masuk dengan Google untuk semua orang</string>
+    <string name="google_review_open_warning">Aktifkan ini hanya setelah Google memverifikasi klien ini. Sebelum itu, Google hanya mengizinkan maksimal 100 pengguna dan menampilkan peringatan kepada mereka.</string>
+</resources>

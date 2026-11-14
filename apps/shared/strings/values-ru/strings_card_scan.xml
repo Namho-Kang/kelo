@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">Сканировать карту</string>
+    <string name="card_scan_title">Сканирование карты</string>
+    <string name="card_scan_hint">Поместите лицевую сторону карты в рамку. Распознавание идёт только на этом телефоне.</string>
+    <string name="card_scan_preparing">Подготовка сканера…</string>
+    <string name="card_scan_filled">Проверьте отсканированный номер. CVC введите сами.</string>
+    <string name="card_scan_nothing">Не удалось распознать карту. Попробуйте ещё раз или введите номер.</string>
+    <string name="card_scan_camera_needed">Kelo нужен доступ к камере, чтобы отсканировать карту. Фото не сохраняются.</string>
+    <string name="card_scan_camera_failed">Не удалось открыть камеру. Введите номер вручную.</string>
+</resources>

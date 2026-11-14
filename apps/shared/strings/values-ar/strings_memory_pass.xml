@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">ترتيب الذاكرة: %1$s</string>
+    <string name="memory_pass_both">%1$s، %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="zero">أُضيف %d</item>
+        <item quantity="one">أُضيف %d</item>
+        <item quantity="two">أُضيف %d</item>
+        <item quantity="few">أُضيف %d</item>
+        <item quantity="many">أُضيف %d</item>
+        <item quantity="other">أُضيف %d</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="zero">رُتّب %d</item>
+        <item quantity="one">رُتّب %d</item>
+        <item quantity="two">رُتّب %d</item>
+        <item quantity="few">رُتّب %d</item>
+        <item quantity="many">رُتّب %d</item>
+        <item quantity="other">رُتّب %d</item>
+    </plurals>
+    <string name="memory_pass_undone">تم التراجع عن ترتيب الذاكرة</string>
+    <string name="memory_pass_view">ما الذي تغيّر</string>
+    <string name="memory_pass_changes_title">ما غيّره ترتيب الذاكرة</string>
+    <string name="memory_pass_no_lines">لا توجد أسطر متغيّرة لعرضها.</string>
+    <string name="memory_pass_undo">التراجع عن هذا الترتيب</string>
+    <string name="memory_pass_undo_confirm">هل تريد إعادة الملاحظات كما كانت قبل هذا الترتيب؟ تبقى الملاحظات التي عُدّلت بعده كما هي.</string>
+    <string name="memory_pass_undo_gone">لم يعد بالإمكان التراجع عن هذا الترتيب.</string>
+    <string name="memory_pass_added_line">أُضيف: %1$s</string>
+    <string name="memory_pass_removed_line">أُزيل: %1$s</string>
+    <string name="memory_area_about_you">عنك</string>
+    <string name="memory_area_to_remember">أمور يجب تذكّرها</string>
+    <string name="memory_area_people">الأشخاص</string>
+    <string name="memory_area_working_notes">ملاحظات العمل</string>
+</resources>

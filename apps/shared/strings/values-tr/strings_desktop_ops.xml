@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Kartlar telefonundaki Kelo uygulamasında eklenir ve her ödeme orada onaylanır: kart numaraları yalnızca o telefonda olan bir anahtarla kilitlenir. Burada kartlarını görebilir, adlarını değiştirebilir ya da silebilir, otomatik ödemeyi kapatıp limitlerini belirleyebilirsin.</string>
+    <string name="desktop_ops_tag_phone">Telefondan öder</string>
+    <string name="desktop_ops_wallet_safe_body">Kart numaraları ve CVC\'ler sunucuya gitmeden önce yalnızca telefonunda olan bir anahtarla kilitlenir. Ne sunucu ne de asistanın bunları okuyabilir; her ödeme telefonunda parmak izi ya da ekran kilidiyle onaylanır.</string>
+    <string name="desktop_ops_wallet_paused_banner">Otomatik ödeme duraklatıldı. Her ödeme telefonunda sorulacak.</string>
+    <string name="desktop_ops_wallet_pause_on_body">Duraklatıldı. Her ödeme telefonunda sorulacak.</string>
+    <string name="desktop_ops_wallet_unfinished_body">Bu kartın bilgileri eksik. Kart numarasını ve CVC\'yi telefonundaki Kelo uygulamasında yeniden gir.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Telefonunda bu kartın kopyası yok, bu yüzden şu an yalnızca otomatik ödemeyle ödeyebilir. Otomatik ödemeyi kapatmadan önce kart bilgilerini telefonundaki Kelo uygulamasında yeniden gir.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Her ödeme için telefonunda parmak izi ya da ekran kilidiyle onay gerekir. Sunucu kart numarasını okuyamaz.</string>
+    <string name="desktop_ops_wallet_on_phone">Otomatik ödemeyi açmak için bu kartı, onu ekleyen telefondaki Kelo uygulamasında aç. Numarayı yeniden yazmazsın.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Otomatik ödeme kapatılsın mı? Sunucudaki kopya hemen silinir ve bundan sonra her ödeme telefonunda onaylanır.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Otomatik ödeme kapatılsın mı? Telefonunda bu kartın kopyası yok; kapattıktan sonra bilgileri orada yeniden girene kadar bu kartla ödeme yapamazsın.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Henüz kendi kendine ödeme yapan bir kart yok, bu yüzden her ödeme telefonunda sorulur. Bunu değiştirmek için telefonundaki Kelo uygulamasında bir kart için otomatik ödemeyi aç.</string>
+    <string name="desktop_ops_ship_card_on_phone">Kartı telefonundaki Kelo uygulamasında ekle: kart numaraları yalnızca o telefonda olan bir anahtarla kilitlenir.</string>
+</resources>

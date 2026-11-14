@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">ขอสิทธิ์ทดลองใช้</string>
+    <string name="beta_requested">ส่งคำขอแล้ว</string>
+    <string name="beta_sheet_note">ตอนนี้การลงชื่อเข้าใช้ด้วย Google เปิดให้คนกลุ่มเล็ก ๆ เท่านั้น ใส่อีเมล Google ที่คุณจะเชื่อมต่อ แล้วเราจะแจ้งไปที่อีเมลนั้นเมื่อเพิ่มคุณแล้ว</string>
+    <string name="beta_email_hint">อีเมล Google</string>
+    <string name="beta_email_invalid">ใส่อีเมลที่ถูกต้อง</string>
+    <string name="beta_send">ส่ง</string>
+    <string name="beta_sending">กำลังส่ง…</string>
+    <string name="beta_sent">ส่งคำขอแล้ว เมื่ออนุมัติ เราจะส่งอีเมลไปที่ %1$s แล้วค่อยกลับมาเชื่อมต่ออีกครั้ง</string>
+    <string name="beta_declined">คำขอทดลองใช้ของคุณยังไม่ได้รับการอนุมัติในครั้งนี้ เมื่อ Google ตรวจสอบเสร็จ ทุกคนจะใช้การลงชื่อเข้าใช้ด้วย Google ได้</string>
+    <string name="operator_section_beta">คำขอทดลองใช้</string>
+    <string name="operator_beta_note">คนที่อยากลองใช้การลงชื่อเข้าใช้ด้วย Google เพิ่มเขาเป็นผู้ใช้ทดสอบใน Google Cloud Console ก่อน แล้วกด “อนุมัติแล้ว” คำขอที่จัดการแล้วจะถูกลบหลัง 30 วัน</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → กลุ่มเป้าหมาย (Audience) → ผู้ใช้ทดสอบ → เพิ่ม %1$s</string>
+    <string name="operator_beta_mail_from">อีเมลส่งจาก %1$s</string>
+    <string name="operator_beta_no_mail">ไม่มี Gmail ที่เชื่อมต่อในเซิร์ฟเวอร์นี้ จึงไม่มีการส่งอีเมล เชื่อมต่อ Gmail ในตัวเชื่อมต่อเพื่อส่งอีเมล</string>
+    <string name="operator_beta_not_receiving">เซิร์ฟเวอร์นี้ไม่ได้เป็นตัวกลางการลงชื่อเข้าใช้ด้วย Google จึงไม่ได้รับคำขอ</string>
+    <string name="operator_beta_empty">ยังไม่มีคำขอ</string>
+    <string name="operator_beta_open">รออยู่: %1$d</string>
+    <string name="operator_beta_approve">อนุมัติแล้ว</string>
+    <string name="operator_beta_decline">ปฏิเสธ</string>
+    <string name="operator_beta_waiting">รออยู่</string>
+    <string name="operator_beta_state_approved">อนุมัติแล้ว</string>
+    <string name="operator_beta_declined">ปฏิเสธแล้ว</string>
+    <string name="operator_beta_notice_no_mail">ไม่ได้ส่งอีเมลถึง support: ไม่มี Gmail ที่เชื่อมต่อ</string>
+    <string name="operator_beta_notice_failed">ส่งอีเมลถึง support ไม่ได้</string>
+    <string name="operator_beta_decline_confirm">ปฏิเสธคำขอนี้ไหม</string>
+    <string name="operator_beta_decline_mail">ส่งอีเมลสั้น ๆ</string>
+    <string name="operator_beta_mailed">ส่งอีเมลถึง %1$s แล้ว</string>
+    <string name="operator_tester_steps">เพิ่ม %1$s ใน Play Console → การทดสอบ → การทดสอบแบบปิด → ผู้ทดสอบ แล้วแตะด้านล่าง</string>
+    <string name="operator_tester_added">เพิ่มใน Play แล้ว</string>
+    <string name="notify_beta_request">คำขอทดลองใช้</string>
+</resources>

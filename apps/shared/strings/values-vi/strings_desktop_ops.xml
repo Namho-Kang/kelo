@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Thẻ được thêm, và mỗi khoản thanh toán được xác nhận, trong ứng dụng Kelo trên điện thoại: số thẻ được khóa bằng khóa mà chỉ điện thoại đó có. Ở đây bạn có thể xem thẻ, đổi tên hoặc xóa thẻ, tắt tự động thanh toán và đặt hạn mức.</string>
+    <string name="desktop_ops_tag_phone">Thanh toán từ điện thoại</string>
+    <string name="desktop_ops_wallet_safe_body">Số thẻ và CVC được khóa bằng khóa mà chỉ điện thoại của bạn có trước khi gửi lên máy chủ. Máy chủ và trợ lý đều không đọc được, và mỗi khoản thanh toán được xác nhận trên điện thoại bằng vân tay hoặc khóa màn hình.</string>
+    <string name="desktop_ops_wallet_paused_banner">Tự động thanh toán đang tạm dừng. Mọi khoản thanh toán sẽ được hỏi trên điện thoại.</string>
+    <string name="desktop_ops_wallet_pause_on_body">Đang tạm dừng. Mọi khoản thanh toán sẽ được hỏi trên điện thoại.</string>
+    <string name="desktop_ops_wallet_unfinished_body">Thẻ này còn thiếu thông tin. Hãy nhập lại số thẻ và CVC trong ứng dụng Kelo trên điện thoại.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Điện thoại của bạn không có bản sao của thẻ này, nên hiện chỉ có thể thanh toán bằng tự động thanh toán. Hãy nhập lại thông tin thẻ trong ứng dụng Kelo trên điện thoại trước khi tắt.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Mỗi khoản thanh toán cần bạn đồng ý trên điện thoại bằng vân tay hoặc khóa màn hình. Máy chủ không đọc được số thẻ.</string>
+    <string name="desktop_ops_wallet_on_phone">Để bật tự thanh toán, hãy mở thẻ này trong ứng dụng Kelo trên điện thoại đã thêm thẻ. Bạn không phải nhập lại số thẻ.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Tắt tự động thanh toán? Bản sao trên máy chủ sẽ bị xóa ngay, và từ giờ mọi khoản thanh toán được xác nhận trên điện thoại.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Tắt tự động thanh toán? Điện thoại của bạn không có bản sao của thẻ này, nên sau khi tắt bạn không thể thanh toán bằng thẻ cho đến khi nhập lại thông tin ở đó.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Chưa có thẻ nào tự thanh toán, nên mỗi khoản thanh toán đều hỏi trên điện thoại của bạn. Để thay đổi, hãy bật tự động thanh toán cho một thẻ trong ứng dụng Kelo trên điện thoại.</string>
+    <string name="desktop_ops_ship_card_on_phone">Hãy thêm thẻ trong ứng dụng Kelo trên điện thoại: số thẻ được khóa bằng khóa mà chỉ điện thoại đó có.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">اسم مستعار</string>
+    <string name="wallet_nickname_field">اسم مستعار (اختياري)</string>
+    <string name="wallet_tag_default">افتراضية</string>
+    <string name="wallet_default_title">البطاقة الافتراضية</string>
+    <string name="wallet_default_on">يدفع Kelo بهذه البطاقة ما لم تحدد أنت أو المهمة بطاقة أخرى.</string>
+    <string name="wallet_make_default">اجعلها البطاقة الافتراضية</string>
+    <string name="wallet_delete_default_title">اختر بطاقة افتراضية جديدة</string>
+    <string name="wallet_delete_default_body">«%1$s» هي بطاقتك الافتراضية. اختر البطاقة التي سيدفع بها Kelo من الآن.</string>
+    <string name="wallet_card_history">المدفوعات بهذه البطاقة</string>
+    <string name="wallet_card_history_empty">لم يدفع Kelo بهذه البطاقة بعد.</string>
+    <string name="wallet_card_history_more">عرض المدفوعات الأقدم</string>
+    <string name="wallet_open_chat">فتح المحادثة</string>
+    <string name="wallet_open_task">فتح المهمة</string>
+    <string name="wallet_auto_from_phone">يفتح هذا الهاتف نسخته من البطاقة ببصمتك أو وجهك أو قفل الشاشة. لن تكتب الرقم مرة أخرى.</string>
+    <string name="wallet_auth_auto_title">تشغيل الدفع التلقائي</string>
+    <string name="wallet_auth_auto_subtitle">فتح نسخة «%1$s» على هذا الهاتف</string>
+    <string name="wallet_auto_not_here_title">هذه البطاقة ليست على هذا الهاتف</string>
+    <string name="wallet_auto_not_here_body">أُضيفت على جهاز آخر، لذا لا يستطيع هذا الهاتف فتحها. شغّل الدفع التلقائي من الجهاز الذي أضافها، أو أدخل رقم البطاقة هنا.</string>
+    <string name="wallet_auto_enter_number">إدخال الرقم</string>
+    <string name="wallet_auto_on_failed">تعذّر تشغيل الدفع التلقائي. حاول مرة أخرى.</string>
+</resources>

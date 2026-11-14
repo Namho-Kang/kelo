@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_model_freshness.xml (generated from values/strings_model_freshness.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_list_stale">تعذّر جلب قائمة جديدة، لذا نعرض القائمة السابقة</string>
+    <string name="model_cli_update_available">صدر الإصدار %1$s</string>
+    <string name="notify_cli_update">تحديث CLI</string>
+</resources>

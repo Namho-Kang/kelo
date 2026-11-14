@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">カードをスキャン</string>
+    <string name="card_scan_title">カードをスキャン</string>
+    <string name="card_scan_hint">カードの表面を枠に合わせてください。読み取りはこのスマートフォン内だけで行います。</string>
+    <string name="card_scan_preparing">スキャナーを準備しています…</string>
+    <string name="card_scan_filled">読み取った番号を確認してください。CVCはご自身で入力してください。</string>
+    <string name="card_scan_nothing">カードを読み取れませんでした。もう一度試すか、番号を入力してください。</string>
+    <string name="card_scan_camera_needed">カードをスキャンするにはカメラへのアクセスが必要です。写真は保存しません。</string>
+    <string name="card_scan_camera_failed">カメラを開けませんでした。番号を入力してください。</string>
+</resources>

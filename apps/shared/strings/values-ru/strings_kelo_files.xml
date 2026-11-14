@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Файлы Kelo</string>
+    <string name="files_about">То, что Kelo записывает для себя: кто вы, его память, заметки. Их можно читать, менять и удалять. У загрузок и результатов есть свои страницы.</string>
+    <string name="files_new_folder">Новая папка</string>
+    <string name="files_make">Создать</string>
+    <string name="files_folder_name">Название папки</string>
+    <string name="files_folder_bad">Это название нельзя использовать.</string>
+    <string name="files_edit">Изменить</string>
+    <string name="files_save">Сохранить</string>
+    <string name="files_cancel">Отмена</string>
+    <string name="files_saved">Сохранено. Kelo прочтёт новый текст со следующего ответа.</string>
+    <string name="files_save_failed">Не удалось сохранить.</string>
+    <string name="files_full">Хранилище сервера заполнено.</string>
+    <string name="files_discard_q">Выйти без сохранения?</string>
+    <string name="files_discard">Выйти</string>
+    <string name="files_reset">Вернуть к началу</string>
+    <string name="files_reset_q">Вернуть этот файл в исходное состояние? Текущий текст попадёт в корзину.</string>
+    <string name="files_reset_done">Возвращено к началу. Старый текст в корзине.</string>
+    <string name="files_core_reset_hint">Kelo нужен этот файл. Используйте «Вернуть к началу».</string>
+    <string name="files_delete">Удалить</string>
+    <string name="files_delete_q">Переместить в корзину? Через 30 дней будет удалено навсегда.</string>
+    <string name="files_deleted">Перемещено в корзину.</string>
+    <string name="files_read_only">Kelo сам поддерживает этот файл; здесь его нельзя изменить.</string>
+    <string name="files_load_failed">Не удалось загрузить файлы.</string>
+    <string name="files_trash_title">Корзина</string>
+    <string name="files_trash_about">Удалённые файлы хранятся здесь 30 дней.</string>
+    <string name="files_trash_left">Будет удалено навсегда через %1$d дн.</string>
+    <string name="files_trash_empty">Корзина пуста.</string>
+    <string name="files_restore">Восстановить</string>
+    <string name="files_restored">Восстановлено.</string>
+    <string name="files_purge">Удалить навсегда</string>
+    <string name="files_purge_q">Удалить навсегда? Это нельзя отменить.</string>
+    <string name="files_core_assistant">Характер и тон Kelo</string>
+    <string name="files_core_user">Что Kelo знает о вас</string>
+    <string name="files_core_memory">Память Kelo</string>
+    <string name="files_core_agents">Как работает Kelo</string>
+    <string name="files_core_checklist">Что проверить</string>
+    <string name="files_core_notify">Настройки уведомлений</string>
+</resources>

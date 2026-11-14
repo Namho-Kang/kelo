@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_quick_reply.xml (generated from values/strings_quick_reply.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="reply_other">अन्य</string>
+    <string name="reply_pick_date">तारीख चुनें</string>
+    <string name="reply_pick_time">समय चुनें</string>
+    <string name="reply_number_hint">कोई संख्या लिखें</string>
+    <string name="reply_number_range">%1$s से %2$s तक</string>
+    <string name="reply_date_at">%1$s, %2$s</string>
+</resources>

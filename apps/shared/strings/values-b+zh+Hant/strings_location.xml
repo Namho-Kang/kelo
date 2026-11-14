@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo 需要你的位置</string>
+    <string name="location_ask_body">要回答這個問題，Kelo 需要知道這支手機現在在哪裡。</string>
+    <string name="location_ask_private">位置只會傳送到你自己的伺服器。</string>
+    <string name="location_ask_share">傳送我的位置</string>
+    <string name="location_ask_not_now">以後再說</string>
+    <string name="location_ask_settings">開啟設定</string>
+    <string name="location_ask_settings_hint">Kelo 的位置權限已關閉。請在設定中開啟，然後回到這裡。</string>
+    <string name="location_services_off">此手機的位置資訊已關閉。請在設定中開啟，然後回到這裡。</string>
+    <string name="location_ask_reading">正在取得你的位置…</string>
+    <string name="location_ask_shared">已傳送位置</string>
+    <string name="location_ask_refused">未傳送位置</string>
+    <string name="location_ask_expired">此請求已逾時</string>
+    <string name="location_ask_unavailable">無法取得這支手機的位置。請確認已開啟定位。</string>
+    <string name="chat_attached_file">附件</string>
+</resources>

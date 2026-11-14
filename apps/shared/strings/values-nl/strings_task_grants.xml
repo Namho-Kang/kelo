@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">Als dit gebeurt, dit doen zonder te vragen?</string>
+    <string name="task_grant_when">Als</string>
+    <string name="task_grant_does">Kelo gaat</string>
+    <string name="task_grant_buy">Koopt</string>
+    <string name="task_grant_limits">Limieten</string>
+    <string name="task_grant_per_time">Tot %1$s per keer</string>
+    <string name="task_grant_times_one">Maar één keer</string>
+    <string name="task_grant_times">Hoogstens %1$d keer</string>
+    <string name="task_grant_no_count">Geen limiet op aantal</string>
+    <string name="task_grant_monthly">Hoogstens %1$s per maand</string>
+    <string name="task_grant_card">Kaart</string>
+    <string name="task_grant_card_limit">De automatische betaallimiet van deze kaart is %1$s. Tot %2$s toestaan voor deze taak?</string>
+    <string name="task_grant_card_not_auto">Deze kaart betaalt niet vanzelf. Deze taak mag tot %1$s betalen.</string>
+    <string name="task_grant_card_phone_only">Deze kaart staat alleen op je telefoon, dus elke betaling blijft vragen.</string>
+    <string name="task_grant_ship_to">Bezorgen bij</string>
+    <string name="task_grant_send_to">Stuurt naar</string>
+    <string name="task_grant_message">Bericht</string>
+    <string name="task_grant_varies">Mag veranderen: %1$s</string>
+    <string name="task_grant_change">Wijzigt</string>
+    <string name="task_grant_apply">Meldt aan</string>
+    <string name="task_grant_apply_per_run">Tot %1$d per uitvoering</string>
+    <string name="task_grant_apply_total">%1$d in totaal</string>
+    <string name="task_grant_row_apply">Meldt zich aan voor %1$s</string>
+    <string name="task_grant_delete_yes">Verwijderen toegestaan</string>
+    <string name="task_grant_delete_no">Verwijdert nooit</string>
+    <string name="task_grant_login">Inloggen</string>
+    <string name="task_grant_login_line">%1$s-login op %2$s</string>
+    <string name="task_grant_once">Stopt vanzelf zodra het klaar is, dus niets gebeurt twee keer.</string>
+    <string name="task_grant_after">Je krijgt direct daarna een melding. Alles daarbuiten blijft vragen.</string>
+    <string name="task_grant_urgent">Dringend: antwoord snel</string>
+    <string name="task_grant_urgent_missed">Dringend: als je laat antwoordt, %1$s</string>
+    <string name="task_grant_row_send">Stuurt naar %1$s</string>
+    <string name="task_grant_row_change">Wijzigt %1$s</string>
+    <string name="task_grant_row_when">Als: %1$s</string>
+    <string name="task_grant_row_card">Kaart: %1$s</string>
+    <string name="task_grant_row_left">%1$d van %2$d over</string>
+    <string name="task_grant_row_once">stopt daarna</string>
+    <string name="task_grant_section_note">Eén keer toegestaan bij het instellen. Alles daarbuiten blijft vragen.</string>
+    <string name="notify_channel_urgent">Dringende verzoeken</string>
+    <string name="notify_channel_urgent_desc">Als een ingestelde taak een antwoord nodig heeft voordat het te laat is</string>
+    <string name="notify_approval_urgent">Dringend: bevestig</string>
+</resources>

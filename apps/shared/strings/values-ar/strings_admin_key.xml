@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">عرض الإنفاق والرصيد أيضًا</string>
+    <string name="admin_key_title">مفتاح المسؤول للإنفاق والرصيد</string>
+    <string name="admin_key_safety">يُحفظ في حاوية المفاتيح على خادمك، وليس بواسطة Kelo نفسه، ويُستخدم فقط لقراءة الإنفاق والرصيد.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com ← Settings ← Organization ← Admin keys ← Create (يكفي للقراءة فقط).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com ← Settings ← Admin keys (لحسابات المؤسسات فقط).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai ← Settings ← Management keys ← Create.</string>
+    <string name="admin_key_save">حفظ</string>
+    <string name="admin_key_saved">تم الحفظ. يظهر الإنفاق أدناه.</string>
+    <string name="admin_key_refused">رفض مزود الخدمة هذا المفتاح. تحقق من أنه مفتاح مسؤول.</string>
+    <string name="admin_key_keyring_off">هذا الخادم لا يحتفظ بمفاتيح المسؤول (حاوية المفاتيح معطلة).</string>
+    <string name="admin_key_failed">تعذر حفظ المفتاح. حاول مرة أخرى بعد قليل.</string>
+    <string name="admin_key_set">مفتاح المسؤول …%1$s</string>
+    <string name="admin_key_remove">إزالة</string>
+    <string name="admin_key_remove_q">هل تريد إزالة مفتاح المسؤول؟ لن يظهر الإنفاق والرصيد بعد ذلك.</string>
+    <string name="my_privacy_keyring">مفاتيح مزودي الذكاء الاصطناعي التي تدخلها (ومفاتيح المسؤول إذا أضفتها) تُحفظ في حاوية مفاتيح منفصلة على خادمك، وليس بواسطة Kelo نفسه؛ يطلب Kelo إجراء كل استدعاء، ويضيف المفتاح فقط لعنوان ذلك المزود الخاص.</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">你的密碼、金鑰和卡片用同一把鑰匙開啟。通常伺服器會把鑰匙和它們放在一起。開啟後只有你的手機持有鑰匙，即使有人拿走伺服器的硬碟也打不開。</string>
+    <string name="keyguard_restart_note">伺服器每次重新啟動（包括更新）後，在你用手機開啟 Kelo 並確認身分之前，Kelo 都會保持鎖定。在這段期間 Kelo 無法使用你的密碼、金鑰和卡片。</string>
+    <string name="keyguard_window_note">在此 Android 版本上，確認後的 30 秒內都能使用鑰匙。</string>
+    <string name="keyguard_turn_on">開啟</string>
+    <string name="keyguard_turning_on">正在開啟…</string>
+    <string name="keyguard_turn_on_confirm">要開啟嗎？你會拿到一組需要抄下來的復原碼。沒有這支手機或這組碼，伺服器就打不開你的密碼、金鑰和卡片。</string>
+    <string name="keyguard_not_owner">只有擁有者的手機可以變更此項。</string>
+    <string name="keyguard_env_key">伺服器的設定檔裡還保存著鑰匙。請先在伺服器電腦上執行 `assistant keyguard enable`，再回到這裡重試。</string>
+    <string name="keyguard_no_lock">請先為這支手機設定螢幕鎖定。</string>
+    <string name="keyguard_recovery_title">你的復原碼</string>
+    <string name="keyguard_recovery_warning">如果持有鑰匙的手機全部遺失，這是唯一的復原方法。它只會顯示這一次，不會保存在任何地方。請抄下來並妥善保管。</string>
+    <string name="keyguard_recovery_confirm">我已抄下</string>
+    <string name="keyguard_done">完成</string>
+    <string name="keyguard_phones_title">持有鑰匙的手機</string>
+    <string name="keyguard_this_phone">%1$s（這支手機）</string>
+    <string name="keyguard_add_this_phone">也在這支手機上保存鑰匙</string>
+    <string name="keyguard_remove_this_phone">刪除這支手機上的鑰匙</string>
+    <string name="keyguard_remove_confirm">要從這支手機刪除鑰匙嗎？持有鑰匙的其他手機仍可解鎖 Kelo。</string>
+    <string name="keyguard_last_phone">只有這支手機持有鑰匙。請先加入另一支手機，或關閉此功能。</string>
+    <string name="keyguard_turn_off">關閉</string>
+    <string name="keyguard_turn_off_confirm">要把鑰匙交還給伺服器嗎？不用手機也能再次開啟你的密碼、金鑰和卡片。</string>
+    <string name="keyguard_locked_title">Kelo 已鎖定</string>
+    <string name="keyguard_locked_body">在你用這支手機解鎖 Kelo 之前，密碼、金鑰和卡片都保持關閉。</string>
+    <string name="keyguard_locked_other">這支手機沒有鑰匙。請在持有鑰匙的手機上解鎖 Kelo，或使用復原碼。</string>
+    <string name="keyguard_on_phone_only">請在手機的 Kelo 中開啟。只有手機持有鑰匙，這台電腦絕不持有。</string>
+    <string name="keyguard_unlock">解鎖</string>
+    <string name="keyguard_unlocking">正在解鎖…</string>
+    <string name="keyguard_unlocked">Kelo 已解鎖</string>
+    <string name="keyguard_use_code">使用復原碼</string>
+    <string name="keyguard_code_hint">復原碼</string>
+    <string name="keyguard_code_wrong">這組碼不對。請檢查後重試。</string>
+    <string name="keyguard_key_lost">這支手機的鑰匙已不在（例如移除了螢幕鎖定）。請使用其他手機或復原碼。</string>
+    <string name="keyguard_failed">沒有成功，請重試。</string>
+    <string name="keyguard_prompt_title">解鎖 Kelo</string>
+    <string name="keyguard_prompt_subtitle">確認是你本人</string>
+    <string name="keyguard_prompt_wrap">在這支手機上保存 Kelo 的鑰匙</string>
+    <string name="wallet_keyguard_needed_title">自動付款需要 Keyguard</string>
+    <string name="wallet_keyguard_needed_body">自動付款的卡片保存在伺服器上。開啟 Keyguard 後，只有這支手機能解開它的鎖。</string>
+    <string name="keyguard_turn_on_named">開啟 Keyguard</string>
+    <string name="wallet_auto_paused_keyguard">在開啟 Keyguard 之前，自動付款已暫停。在這段期間，每次付款都會在手機上詢問。</string>
+    <string name="wallet_auto_copy_note">伺服器鎖定保存了一份自動付款用的副本，只有擁有者的手機能解開。</string>
+</resources>

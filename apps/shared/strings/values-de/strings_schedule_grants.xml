@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">Zahlt selbst innerhalb deiner Limits</string>
+    <string name="wallet_tag_asks">Fragt jedes Mal</string>
+    <string name="wallet_reason_not_auto">Diese Karte wurde so gespeichert, dass jedes Mal gefragt wird.</string>
+    <string name="wallet_reason_no_server_copy">Der Server hat keine Kopie dieser Karte für Auto-Zahlung.</string>
+    <string name="wallet_reason_paused">Auto-Zahlung ist für alle Karten pausiert.</string>
+    <string name="wallet_reason_vault_locked">Der Schlüsselbund ist für deinen Agenten gesperrt.</string>
+    <string name="wallet_auto_turn_on_card">Auto-Zahlung für diese Karte einschalten</string>
+    <string name="wallet_first_site_rule">Auch mit Auto-Zahlung fragt die erste Zahlung auf einer neuen Website einmal nach, ebenso jede Zahlung über deinen Limits.</string>
+    <string name="wallet_auto_none_value">Keine Karte mit Auto-Zahlung</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="one">%d Karte mit Auto-Zahlung</item>
+        <item quantity="other">%d Karten mit Auto-Zahlung</item>
+    </plurals>
+    <string name="wallet_auto_none_note">Noch zahlt keine Karte selbst, daher fragt jede Zahlung auf diesem Handy nach. Öffne eine Karte und schalte Auto-Zahlung ein, um das zu ändern.</string>
+    <string name="wallet_schedule_section">Zeitpläne, die selbst kaufen</string>
+    <string name="grant_section_title">Ohne Nachfrage erlaubt</string>
+    <string name="grant_section_note">Einmal beim Einrichten erlaubt. Ein höherer Betrag, eine andere Website oder ein anderer Artikel und Kontoänderungen fragen weiterhin.</string>
+    <string name="grant_login_title">Meldet sich mit %1$s an</string>
+    <string name="grant_login_site">Auf %1$s</string>
+    <string name="grant_purchase_title">Kauft %1$s</string>
+    <string name="grant_purchase_cap">Auf %1$s · bis zu %2$s pro Lauf, %3$s im Monat</string>
+    <string name="grant_spent">Diesen Monat: %1$s</string>
+    <string name="grant_for_schedule">Für „%1$s“</string>
+    <string name="grant_revoke">Widerrufen</string>
+    <string name="grant_revoke_confirm">Diese Erlaubnis widerrufen? Die Läufe fragen dann wieder.</string>
+    <string name="grant_login_section">Zeitpläne, die dieses Login ohne Nachfrage nutzen</string>
+</resources>

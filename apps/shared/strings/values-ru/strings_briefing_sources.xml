@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">Что читается</string>
+    <string name="briefing_sources_about">Kelo читает все подключённые календари и почтовые ящики для сводки и подсказок. Отключите ненужный, чтобы исключить его.</string>
+    <string name="briefing_sources_calendars">Календари</string>
+    <string name="briefing_sources_mail">Почта</string>
+    <string name="briefing_sources_chat">Можно просто написать Kelo в чате, например: «убери рабочую почту из сводки».</string>
+    <string name="briefing_sources_check">Проверить аккаунты сейчас</string>
+    <string name="briefing_sources_checking">Проверка…</string>
+    <string name="connector_method_caldav">Пароль приложения для CalDAV</string>
+    <string name="caldav_help">Укажите адрес CalDAV от вашего сервиса (например, https://dav.fastmail.com/ для Fastmail), имя пользователя и пароль приложения.</string>
+    <string name="caldav_url">Адрес CalDAV</string>
+    <string name="caldav_user">Имя пользователя</string>
+    <string name="caldav_account_note">Kelo только читает этот календарь для сводки и подсказок. Он его никогда не меняет.</string>
+    <string name="caldav_disconnect_confirm">Отключить %1$s? Сохранённый пароль приложения будет удалён.</string>
+    <string name="caldav_add_other">Добавить ещё календарь</string>
+    <string name="caldav_notify">Я подключил календарь. Продолжай, пожалуйста.</string>
+</resources>

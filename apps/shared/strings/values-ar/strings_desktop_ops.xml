@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">تُضاف البطاقات، ويُؤكَّد كل دفع، في تطبيق Kelo على هاتفك: أرقام البطاقات مقفلة بمفتاح لا يملكه إلا ذلك الهاتف. هنا يمكنك رؤية بطاقاتك وإعادة تسميتها أو حذفها وإيقاف الدفع التلقائي وتحديد حدوده.</string>
+    <string name="desktop_ops_tag_phone">يدفع من هاتفك</string>
+    <string name="desktop_ops_wallet_safe_body">تُقفل أرقام البطاقات ورموز CVC بمفتاح لا يملكه إلا هاتفك قبل إرسالها إلى الخادم. لا يستطيع الخادم ولا وكيلك قراءتها، ويُؤكَّد كل دفع على هاتفك بالبصمة أو قفل الشاشة.</string>
+    <string name="desktop_ops_wallet_paused_banner">الدفع التلقائي متوقف مؤقتًا. سيُطلب تأكيد كل دفعة على هاتفك.</string>
+    <string name="desktop_ops_wallet_pause_on_body">متوقف مؤقتًا. سيُطلب تأكيد كل دفعة على هاتفك.</string>
+    <string name="desktop_ops_wallet_unfinished_body">تنقص هذه البطاقة بعض البيانات. أعد إدخال رقم البطاقة وCVC في تطبيق Kelo على هاتفك.</string>
+    <string name="desktop_ops_wallet_auto_only_body">لا يحتفظ هاتفك بنسخة من هذه البطاقة، لذا لا يمكنها الآن الدفع إلا بالدفع التلقائي. أعد إدخال بيانات البطاقة في تطبيق Kelo على هاتفك قبل إيقافه.</string>
+    <string name="desktop_ops_wallet_auto_off_body">تحتاج كل دفعة إلى موافقتك على هاتفك بالبصمة أو قفل الشاشة. لا يستطيع الخادم قراءة رقم البطاقة.</string>
+    <string name="desktop_ops_wallet_on_phone">لتشغيل الدفع التلقائي، افتح هذه البطاقة في تطبيق Kelo على الهاتف الذي أضافها. لن تكتب الرقم مرة أخرى.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">إيقاف الدفع التلقائي؟ تُحذف النسخة الموجودة على الخادم فورًا، ومن الآن يُؤكَّد كل دفع على هاتفك.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">إيقاف الدفع التلقائي؟ لا يحتفظ هاتفك بنسخة من هذه البطاقة، لذا بعد الإيقاف لن تتمكن من الدفع بها حتى تعيد إدخال بياناتها هناك.</string>
+    <string name="desktop_ops_wallet_auto_none_note">لا توجد بطاقة تدفع تلقائيًا بعد، لذلك يُطلب منك تأكيد كل دفعة على هاتفك. لتغيير ذلك، شغّل الدفع التلقائي لبطاقة في تطبيق Kelo على هاتفك.</string>
+    <string name="desktop_ops_ship_card_on_phone">أضِف البطاقة في تطبيق Kelo على هاتفك: أرقام البطاقات مقفلة بمفتاح لا يملكه إلا ذلك الهاتف.</string>
+</resources>

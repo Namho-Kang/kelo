@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">バックグラウンド作業のモデル</string>
+    <string name="model_background_help">Kelo が自分で行う作業にだけ使います: 毎晩のふり返り、記憶の整理、日誌、先に知らせる内容の選択、長い会話の要約。ブラウザを使う作業、支払い、何かを送る作業はメインモデルが行います。</string>
+    <string name="model_background_same">メインモデルと同じ</string>
+    <string name="model_background_fell_back">%1$s にバックグラウンドのモデルが失敗したため、メインモデルが代わりに行いました。</string>
+    <string name="usage_jobs_tokens">%1$s トークン</string>
+</resources>

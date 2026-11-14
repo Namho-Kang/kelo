@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the location card (server LOCATION REQUEST) and the user's own attachments in the chat -->
+    <string name="location_ask_title">Kelo needs your location</string>
+    <string name="location_ask_body">To answer this, Kelo needs to know where this phone is right now.</string>
+    <string name="location_ask_private">It goes only to your own server.</string>
+    <string name="location_ask_share">Share my location</string>
+    <string name="location_ask_not_now">Not now</string>
+    <string name="location_ask_settings">Open Settings</string>
+    <string name="location_ask_settings_hint">Location is off for Kelo. Turn it on in Settings, then come back here.</string>
+    <string name="location_services_off">Location is off on this phone. Turn it on in Settings, then come back here.</string>
+    <string name="location_ask_reading">Getting your location…</string>
+    <string name="location_ask_shared">Location shared</string>
+    <string name="location_ask_refused">Location not shared</string>
+    <string name="location_ask_expired">This request ran out</string>
+    <string name="location_ask_unavailable">This phone could not tell where it is. Check that location is on.</string>
+    <string name="chat_attached_file">Attached file</string>
+</resources>

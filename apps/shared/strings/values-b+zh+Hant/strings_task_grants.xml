@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">發生這件事時,不詢問直接這樣做嗎?</string>
+    <string name="task_grant_when">當</string>
+    <string name="task_grant_does">將要做</string>
+    <string name="task_grant_buy">購買</string>
+    <string name="task_grant_limits">限額</string>
+    <string name="task_grant_per_time">每次最多 %1$s</string>
+    <string name="task_grant_times_one">僅一次</string>
+    <string name="task_grant_times">最多 %1$d 次</string>
+    <string name="task_grant_no_count">不限次數</string>
+    <string name="task_grant_monthly">每月最多 %1$s</string>
+    <string name="task_grant_card">付款卡</string>
+    <string name="task_grant_card_limit">這張卡的自動付款上限是 %1$s。這項任務允許最多 %2$s 嗎?</string>
+    <string name="task_grant_card_not_auto">這張卡不會自動付款。僅這項任務最多付 %1$s。</string>
+    <string name="task_grant_card_phone_only">這張卡只保存在手機上,所以每次付款仍會詢問。</string>
+    <string name="task_grant_ship_to">收件地址</string>
+    <string name="task_grant_send_to">傳送給</string>
+    <string name="task_grant_message">訊息</string>
+    <string name="task_grant_varies">可變部分:%1$s</string>
+    <string name="task_grant_change">變更內容</string>
+    <string name="task_grant_apply">申請</string>
+    <string name="task_grant_apply_per_run">每次執行最多 %1$d 次</string>
+    <string name="task_grant_apply_total">合計 %1$d 次</string>
+    <string name="task_grant_row_apply">申請 %1$s</string>
+    <string name="task_grant_delete_yes">允許刪除</string>
+    <string name="task_grant_delete_no">不會刪除</string>
+    <string name="task_grant_login">登入</string>
+    <string name="task_grant_login_line">在 %2$s 使用 %1$s 登入</string>
+    <string name="task_grant_once">完成一次後會自動結束,不會重複執行。</string>
+    <string name="task_grant_after">完成後會立刻通知你。超出範圍的事仍會詢問。</string>
+    <string name="task_grant_urgent">緊急:請盡快回覆</string>
+    <string name="task_grant_urgent_missed">緊急:如果回覆晚了,%1$s</string>
+    <string name="task_grant_row_send">傳送給 %1$s</string>
+    <string name="task_grant_row_change">變更 %1$s</string>
+    <string name="task_grant_row_when">當:%1$s</string>
+    <string name="task_grant_row_card">卡:%1$s</string>
+    <string name="task_grant_row_left">共 %2$d 次,剩 %1$d 次</string>
+    <string name="task_grant_row_once">之後自動結束</string>
+    <string name="task_grant_section_note">這是設定時允許過一次的事。超出範圍的事仍會詢問。</string>
+    <string name="notify_channel_urgent">緊急確認</string>
+    <string name="notify_channel_urgent_desc">你設定的任務需要在來不及之前得到回覆時</string>
+    <string name="notify_approval_urgent">緊急:請確認</string>
+</resources>

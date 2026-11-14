@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">Bu olduğunda, sormadan bunu yapsın mı?</string>
+    <string name="task_grant_when">Ne zaman</string>
+    <string name="task_grant_does">Kelo yapacak</string>
+    <string name="task_grant_buy">Satın alır</string>
+    <string name="task_grant_limits">Sınırlar</string>
+    <string name="task_grant_per_time">Seferde en çok %1$s</string>
+    <string name="task_grant_times_one">Yalnızca bir kez</string>
+    <string name="task_grant_times">En çok %1$d kez</string>
+    <string name="task_grant_no_count">Sayı sınırı yok</string>
+    <string name="task_grant_monthly">Ayda en çok %1$s</string>
+    <string name="task_grant_card">Kart</string>
+    <string name="task_grant_card_limit">Bu kartın otomatik ödeme limiti %1$s. Bu görev için en çok %2$s izin verilsin mi?</string>
+    <string name="task_grant_card_not_auto">Bu kart kendiliğinden ödeme yapmaz. Bu görev en çok %1$s ödeyebilir.</string>
+    <string name="task_grant_card_phone_only">Bu kart yalnızca telefonunda saklanıyor, bu yüzden her ödeme yine soracak.</string>
+    <string name="task_grant_ship_to">Teslimat adresi</string>
+    <string name="task_grant_send_to">Gönderilecek kişi</string>
+    <string name="task_grant_message">Mesaj</string>
+    <string name="task_grant_varies">Değişebilir: %1$s</string>
+    <string name="task_grant_change">Değiştirir</string>
+    <string name="task_grant_apply">Başvurur</string>
+    <string name="task_grant_apply_per_run">Çalışma başına en çok %1$d</string>
+    <string name="task_grant_apply_total">Toplam %1$d</string>
+    <string name="task_grant_row_apply">%1$s için başvurur</string>
+    <string name="task_grant_delete_yes">Silmeye izin var</string>
+    <string name="task_grant_delete_no">Asla silmez</string>
+    <string name="task_grant_login">Giriş</string>
+    <string name="task_grant_login_line">%2$s üzerinde %1$s girişi</string>
+    <string name="task_grant_once">Bittiğinde kendiliğinden sona erer, böylece hiçbir şey iki kez olmaz.</string>
+    <string name="task_grant_after">Hemen ardından bildirim alırsın. Bunun dışındaki her şey yine sorar.</string>
+    <string name="task_grant_urgent">Acil: lütfen hemen yanıtla</string>
+    <string name="task_grant_urgent_missed">Acil: geç yanıtlarsan %1$s</string>
+    <string name="task_grant_row_send">%1$s kişisine gönderir</string>
+    <string name="task_grant_row_change">%1$s değiştirir</string>
+    <string name="task_grant_row_when">Ne zaman: %1$s</string>
+    <string name="task_grant_row_card">Kart: %1$s</string>
+    <string name="task_grant_row_left">%2$d hakkın %1$d tanesi kaldı</string>
+    <string name="task_grant_row_once">sonra biter</string>
+    <string name="task_grant_section_note">Kurulumda bir kez izin verildi. Bunun dışındaki her şey yine sorar.</string>
+    <string name="notify_channel_urgent">Acil istekler</string>
+    <string name="notify_channel_urgent_desc">Kurduğun bir görev çok geç olmadan yanıt beklediğinde</string>
+    <string name="notify_approval_urgent">Acil: lütfen onayla</string>
+</resources>

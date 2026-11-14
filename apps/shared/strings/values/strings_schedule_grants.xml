@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Payment cards: whether a card pays on its own, and why not -->
+    <string name="wallet_row_pays_auto">Pays on its own within your limits</string>
+    <string name="wallet_tag_asks">Asks each time</string>
+    <string name="wallet_reason_not_auto">This card was saved to ask each time.</string>
+    <string name="wallet_reason_no_server_copy">The server has no copy of this card for auto-pay.</string>
+    <string name="wallet_reason_paused">Auto-pay is paused for all cards.</string>
+    <string name="wallet_reason_vault_locked">The Keychain is locked for your agent.</string>
+    <string name="wallet_auto_turn_on_card">Turn on auto-pay for this card</string>
+    <string name="wallet_first_site_rule">Even with auto-pay on, the first payment on a new site asks once, and so does any payment over your limits.</string>
+    <string name="wallet_auto_none_value">No card on auto-pay</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="one">%d card on auto-pay</item>
+        <item quantity="other">%d cards on auto-pay</item>
+    </plurals>
+    <string name="wallet_auto_none_note">No card pays on its own yet, so every payment asks on this phone. To change that, open a card and turn on auto-pay.</string>
+    <string name="wallet_schedule_section">Schedules that buy on their own</string>
+    <!-- What a schedule may do without asking (allowed once when it was set up) -->
+    <string name="grant_section_title">Allowed without asking</string>
+    <string name="grant_section_note">Allowed once when this was set up. A higher total, another site or item, and account changes still ask.</string>
+    <string name="grant_login_title">Signs in with %1$s</string>
+    <string name="grant_login_site">On %1$s</string>
+    <string name="grant_purchase_title">Buys %1$s</string>
+    <string name="grant_purchase_cap">On %1$s · up to %2$s per run, %3$s a month</string>
+    <string name="grant_spent">This month: %1$s</string>
+    <string name="grant_for_schedule">For “%1$s”</string>
+    <string name="grant_revoke">Revoke</string>
+    <string name="grant_revoke_confirm">Revoke this permission? Its runs will ask again.</string>
+    <string name="grant_login_section">Schedules that use this login without asking</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">Pindai kartu</string>
+    <string name="card_scan_title">Pindai kartu Anda</string>
+    <string name="card_scan_hint">Posisikan bagian depan kartu di dalam bingkai. Kartu hanya dibaca di ponsel ini.</string>
+    <string name="card_scan_preparing">Menyiapkan pemindai…</string>
+    <string name="card_scan_filled">Periksa nomor yang dipindai. Ketik CVC sendiri.</string>
+    <string name="card_scan_nothing">Kartu tidak dapat dibaca. Coba lagi atau ketik nomornya.</string>
+    <string name="card_scan_camera_needed">Kelo perlu akses kamera untuk memindai kartu. Tidak ada foto yang disimpan.</string>
+    <string name="card_scan_camera_failed">Kamera tidak dapat dibuka. Ketik nomornya saja.</string>
+</resources>

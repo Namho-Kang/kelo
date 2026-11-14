@@ -94,7 +94,8 @@ curl -fsSL https://kelo.chat/install.sh | bash
 irm https://kelo.chat/install.ps1 | iex
 ```
 
-The source code will be published here together with the installer.
+The desktop app's source (Windows and macOS: `apps/desktop`, `apps/shared`) is here now; its Windows installers are built in this
+repository's Actions with build provenance (`gh attestation verify <file> -R kelo-chat/kelo`). The server and the phone apps follow.
 
 The installer checks Docker, copies Kelo, and opens a four-step guided setup: check the server, pick a size, start Kelo, connect
 your phone with a QR code. The AI model is chosen in the app afterwards. Full guide: [kelo.chat/install](https://kelo.chat/install).

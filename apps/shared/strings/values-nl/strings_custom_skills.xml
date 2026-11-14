@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Vaardigheden om goed te keuren</string>
+    <string name="skill_review_about">Kelo gebruikt een vaardigheid pas nadat je die goedkeurt. Goedkeuren bewaart precies de getoonde tekst.</string>
+    <string name="skill_review_drafting">Kelo schrijft een conceptvaardigheid…</string>
+    <string name="skill_review_kind_new">Nieuwe vaardigheid</string>
+    <string name="skill_review_kind_change">Wijziging van een vaardigheid</string>
+    <string name="skill_review_kind_edited">Buiten de app gewijzigd</string>
+    <string name="skill_review_edited_note">De bestanden van deze vaardigheid zijn buiten de app gewijzigd, dus Kelo gebruikt hem pas weer als je hem opnieuw goedkeurt.</string>
+    <string name="skill_review_edited_new_note">Deze vaardigheid is buiten de app toegevoegd. Kelo gebruikt hem pas na je goedkeuring.</string>
+    <string name="skill_review_outside_note">Kelo heeft tijdens dit werk webpagina\'s, mail of bestanden gelezen. Controleer of elke stap is wat je wilt.</string>
+    <string name="skill_review_secrets_removed">Wachtwoorden, sleutels en codes zijn uit de tekst gehaald.</string>
+    <string name="skill_review_diff_counts">Toegevoegd %1$d · Verwijderd %2$d</string>
+    <string name="skill_review_show_all">Alles tonen</string>
+    <string name="skill_review_show_less">Minder tonen</string>
+    <string name="skill_review_put_back">Wijzigingen ongedaan maken</string>
+    <string name="skill_review_discard">Weggooien</string>
+    <string name="skill_review_approve">Goedkeuren</string>
+    <string name="skill_review_approved">Goedgekeurd. Kelo gebruikt deze vaardigheid.</string>
+    <string name="skill_review_discarded">Weggegooid</string>
+    <string name="skill_review_from_draft">Concept uit een afgeronde taak</string>
+    <string name="skill_review_from_disk">Gewijzigd in de bestanden van de server</string>
+    <string name="skill_review_from_kelo">Voorgesteld door Kelo</string>
+    <string name="skill_save">Opslaan als vaardigheid</string>
+    <string name="skill_save_about">Kelo schrijft de stappen van deze taak op. Er verandert niets tot je het goedkeurt in %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo schrijft een conceptvaardigheid. Je vindt die in %1$s → %2$s.</string>
+    <string name="skill_save_busy">Er wordt al een vaardigheid uit deze taak geschreven.</string>
+    <string name="skill_save_unavailable">Deze server kan nog geen vaardigheden bewaren. Werk eerst de server bij.</string>
+    <string name="skill_save_no_model">Kies eerst een model.</string>
+</resources>

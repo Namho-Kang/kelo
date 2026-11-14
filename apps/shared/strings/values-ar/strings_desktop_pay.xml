@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">إذا سمحت، سيسألك هاتفك عن إرسال رمز الدفع المحفوظ لهذا الموقع. أكّد ذلك على الهاتف.</string>
+    <string name="desktop_pin_need_body">افتح تطبيق Kelo على هاتفك لإرسال الرمز «%1$s» مرة واحدة للدفع على %2$s (%3$s).</string>
+    <string name="desktop_pin_secret_on_phone">تُحفظ رموز الدفع على هاتفك فقط. أدخله في تطبيق Kelo على هاتفك، وستُغلق هذه البطاقة تلقائيًا بعد حفظه.</string>
+    <string name="desktop_pay_step_on_phone">وافق على الدفع في تطبيق البطاقة أو البنك على هاتفك، ثم انقر هنا على «وافقتُ».</string>
+    <string name="desktop_pay_step_click_copy">انقر على الرمز لنسخه</string>
+    <string name="desktop_pay_step_pad_note">انقر على المفاتيح هنا. كل نقرة تصل إلى المكان نفسه في صفحة الدفع.</string>
+    <string name="desktop_briefing_weather_follows_phone">يتبع الطقس موقع هاتفك. سيظهر بعد فتح Kelo على هاتفك والسماح بالوصول إلى الموقع.</string>
+    <string name="desktop_pin_add_on_phone">تُضاف رموز الدفع من تطبيق Kelo على هاتفك، وتُقفل بمفتاح لا يملكه إلا ذلك الهاتف.</string>
+</resources>

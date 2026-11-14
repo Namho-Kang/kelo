@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">配送先</string>
+    <string name="shipping_empty">保存した配送先はまだありません。Kelo が代わりに注文するときは、ここに保存した住所に送ります。</string>
+    <string name="shipping_add">配送先を追加</string>
+    <string name="shipping_edit_title">配送先を編集</string>
+    <string name="shipping_home">自宅</string>
+    <string name="shipping_nickname">ニックネーム</string>
+    <string name="shipping_nickname_hint">例: 自宅、会社</string>
+    <string name="shipping_country">国</string>
+    <string name="shipping_optional">任意</string>
+    <string name="shipping_label_optional">%1$s（%2$s）</string>
+    <string name="shipping_default_title">既定の配送先</string>
+    <string name="shipping_default_note">ほかの住所を指定しない限り、注文はこの住所に届きます。</string>
+    <string name="shipping_delete">この配送先を削除</string>
+    <string name="shipping_delete_confirm">配送先「%1$s」を削除しますか？</string>
+    <string name="shipping_err_required">入力してください</string>
+    <string name="shipping_err_pattern">形式を確認してください（例: %1$s）</string>
+    <string name="shipping_err_format">形式を確認してください</string>
+    <string name="shipping_err_phone">電話番号を確認してください</string>
+    <string name="shipping_example">例: %1$s</string>
+    <string name="shipping_pick">選択してください</string>
+    <string name="shipping_country_search">国を検索</string>
+    <string name="shipping_country_none">一致する国がありません</string>
+    <string name="shipping_form_failed">住所フォームを読み込めませんでした。</string>
+    <string name="shipping_calling_code">国番号 %1$s</string>
+    <string name="shipping_ask_title">どこに届けますか？</string>
+    <string name="shipping_ask_save">次回の注文にも使う（配送先として保存）</string>
+    <string name="shipping_ask_pay">支払い方法</string>
+    <string name="shipping_pay_card">カードを登録する</string>
+    <string name="shipping_pay_site">サイトで支払う</string>
+    <string name="shipping_ask_send">この住所で送る</string>
+    <string name="shipping_ask_sending">送信中…</string>
+    <string name="shipping_ask_done">配送先: %1$s</string>
+    <string name="shipping_ask_cancelled">住所は伝えませんでした</string>
+    <string name="shipping_ask_expired">時間切れで閉じたフォームです</string>
+    <string name="shipping_ask_closed">閉じたフォームです</string>
+    <string name="order_items">注文内容</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">お届け先</string>
+    <string name="order_ship_site">サイトに保存された住所</string>
+    <string name="order_ship_once">今回の注文のみ</string>
+    <string name="order_pay_with">支払い方法</string>
+    <string name="order_pay_site">サイトで支払い</string>
+    <string name="order_coupon">クーポン</string>
+    <string name="order_total">合計</string>
+</resources>

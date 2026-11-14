@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">Nếu bạn cho phép, điện thoại sẽ hỏi có gửi mã PIN thanh toán đã lưu cho trang này không. Hãy xác nhận trên điện thoại.</string>
+    <string name="desktop_pin_need_body">Mở ứng dụng Kelo trên điện thoại để gửi mã PIN “%1$s” một lần cho khoản thanh toán trên %2$s (%3$s).</string>
+    <string name="desktop_pin_secret_on_phone">Mã PIN thanh toán chỉ được lưu trên điện thoại. Hãy nhập trong ứng dụng Kelo trên điện thoại; thẻ này sẽ tự đóng khi đã lưu.</string>
+    <string name="desktop_pay_step_on_phone">Duyệt trong ứng dụng thẻ hoặc ngân hàng trên điện thoại, rồi nhấp “Tôi đã duyệt” ở đây.</string>
+    <string name="desktop_pay_step_click_copy">Nhấp vào mã để sao chép</string>
+    <string name="desktop_pay_step_pad_note">Nhấp vào phím tại đây. Mỗi lần nhấp sẽ bấm đúng chỗ đó trên trang thanh toán.</string>
+    <string name="desktop_briefing_weather_follows_phone">Thời tiết theo vị trí điện thoại của bạn. Thời tiết sẽ hiện khi bạn mở Kelo trên điện thoại và cho phép vị trí.</string>
+    <string name="desktop_pin_add_on_phone">Mã PIN thanh toán được thêm trong ứng dụng Kelo trên điện thoại và được khóa bằng khóa chỉ điện thoại đó có.</string>
+</resources>

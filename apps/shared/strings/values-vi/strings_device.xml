@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">Trên điện thoại này</string>
+    <string name="device_row_sub">Trên điện thoại này</string>
+    <string name="device_row_connect">Kết nối</string>
+    <string name="device_connected">Đã kết nối</string>
+    <string name="device_needs_permission">Cần cấp quyền</string>
+    <string name="device_calendar">Lịch</string>
+    <string name="device_contacts">Danh bạ</string>
+    <string name="device_messages">Tin nhắn</string>
+    <string name="device_dialer">Trình quay số</string>
+    <string name="device_notifications">Thông báo</string>
+    <string name="device_call_log">Nhật ký cuộc gọi</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">Xem sự kiện để trả lời bạn. Nếu bạn cho phép, cũng thêm sự kiện sau khi bạn phê duyệt.</string>
+    <string name="device_calendar_sends">Gửi sự kiện từ 7 ngày trước đến 60 ngày tới về máy chủ của bạn.</string>
+    <string name="device_contacts_does">Tìm số điện thoại và email theo tên. Chỉ xem.</string>
+    <string name="device_contacts_sends">Gửi tên, số điện thoại, email, công ty, chức danh và ngày sinh về máy chủ của bạn.</string>
+    <string name="device_messages_does">Tìm và đọc tin nhắn đã nhận và đã gửi. Chỉ gửi tin sau khi bạn phê duyệt.</string>
+    <string name="device_messages_sends">Gửi các tin nhắn gần đây về máy chủ của bạn.</string>
+    <string name="device_dialer_does">Sau khi bạn phê duyệt, mở ứng dụng Điện thoại với số đã điền sẵn. Bạn tự bấm gọi.</string>
+    <string name="device_dialer_sends">Không gửi dữ liệu nào.</string>
+    <string name="device_notifications_does">Tìm nội dung bạn cần trong các thông báo đã nhận.</string>
+    <string name="device_notifications_sends">Gửi tên ứng dụng, tiêu đề, nội dung và thời gian về máy chủ của bạn. Xóa sau 7 ngày.</string>
+    <string name="device_call_log_does">Tìm các cuộc gọi gần đây. Chỉ xem.</string>
+    <string name="device_call_log_sends">Gửi số, tên, loại cuộc gọi, thời điểm và thời lượng trong 30 ngày qua về máy chủ của bạn.</string>
+    <string name="device_health_does">Trả lời dựa trên dữ liệu như số bước và giấc ngủ. Chỉ xem.</string>
+    <string name="device_health_sends">Chỉ gửi bản tóm tắt hằng ngày của các mục bạn chọn về máy chủ, khi bạn mở ứng dụng.</string>
+    <string name="device_switch">Cho Kelo dùng mục này</string>
+    <string name="device_auto">Tự đồng bộ liên tục · %1$s</string>
+    <string name="device_auto_never">Gửi ngay khi bật, sau đó tự đồng bộ</string>
+    <string name="device_auto_foreground">Đồng bộ mỗi khi bạn mở ứng dụng · %1$s</string>
+    <string name="device_send_now">Gửi ngay</string>
+    <string name="device_sending">Đang gửi…</string>
+    <string name="device_send_failed">Chưa gửi được. Mình sẽ thử lại sau ít phút.</string>
+    <string name="device_off_failed">Đã tắt. Dữ liệu còn trên máy chủ sẽ bị xóa ở lần kết nối tới.</string>
+    <string name="device_denied">Quyền đang tắt. Hãy cho phép trong Cài đặt để bật.</string>
+    <string name="device_open_settings">Mở Cài đặt</string>
+    <string name="device_ready">Đang bật</string>
+    <plurals name="device_count_contacts">
+        <item quantity="other">%1$d liên hệ</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="other">%1$d tin nhắn</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="other">%1$d cuộc gọi</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="other">Tóm tắt %1$d ngày</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="other">%1$d thông báo</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="other">%1$d sự kiện</item>
+    </plurals>
+    <string name="device_cal_write">Cho phép cả thêm và sửa sự kiện</string>
+    <string name="device_cal_write_line">Lần nào cũng hỏi trước bằng thẻ phê duyệt.</string>
+    <string name="device_cal_write_to">Lịch để thêm vào</string>
+    <string name="device_cal_none">Không có lịch nào có thể chỉnh sửa.</string>
+    <string name="device_cal_write_denied">Quyền ghi lịch đang tắt.</string>
+    <string name="device_msg_window">Gửi trong khoảng</string>
+    <string name="device_days">%1$d ngày</string>
+    <string name="device_msg_send">Cho phép gửi tin nhắn</string>
+    <string name="device_msg_send_line">Điện thoại này chỉ gửi sau khi bạn duyệt người nhận và toàn bộ nội dung.</string>
+    <string name="device_msg_send_denied">Quyền gửi tin nhắn đang tắt.</string>
+    <string name="device_notif_service_label">Kelo đọc thông báo</string>
+    <string name="device_notif_disclosure_title">Chia sẻ thông báo với Kelo?</string>
+    <string name="device_notif_disclosure">Khi bật, tên ứng dụng, tiêu đề, nội dung và thời gian của thông báo trên điện thoại này sẽ được gửi về máy chủ Kelo của bạn. Trợ lý dùng chúng để tìm thông tin và trả lời bạn. Thông báo đang diễn ra, thông báo của Kelo và các ứng dụng bạn loại trừ sẽ không bao giờ được gửi. Máy chủ xóa chúng sau 7 ngày, và xóa ngay khi bạn tắt.\n\nỞ màn hình tiếp theo, hãy bật quyền truy cập thông báo cho Kelo.</string>
+    <string name="device_agree">Đồng ý và tiếp tục</string>
+    <string name="device_decline">Không, cảm ơn</string>
+    <string name="device_notif_access_off">Quyền truy cập thông báo đang tắt.</string>
+    <string name="device_notif_exclude">Ứng dụng không gửi</string>
+    <string name="device_notif_exclude_empty">Các ứng dụng gửi thông báo cho bạn sẽ hiện ở đây.</string>
+    <string name="device_health_types">Mục chia sẻ</string>
+    <string name="device_health_steps">Số bước</string>
+    <string name="device_health_sleep">Giấc ngủ</string>
+    <string name="device_health_heart">Nhịp tim</string>
+    <string name="device_health_weight">Cân nặng</string>
+    <string name="device_health_exercise">Tập luyện</string>
+    <string name="device_health_missing">Điện thoại này chưa có Health Connect.</string>
+    <string name="device_health_install">Cài Health Connect</string>
+    <string name="device_health_denied">Chưa có quyền cho các mục bạn chọn. Hãy cho phép lại.</string>
+    <string name="device_health_allow">Cho phép</string>
+    <string name="device_health_rationale_title">Cách Kelo dùng dữ liệu sức khỏe của bạn</string>
+    <string name="device_health_rationale">Kelo chỉ đọc bản tóm tắt hằng ngày của các mục bạn chọn (số bước, giấc ngủ, nhịp tim, cân nặng, tập luyện) và gửi về máy chủ Kelo của riêng bạn. Dữ liệu chỉ dùng khi trợ lý trả lời câu hỏi của bạn, không bao giờ dùng cho quảng cáo hay để bán. Kelo chỉ đọc, không bao giờ ghi vào Health Connect. Khi tắt, các bản tóm tắt trên máy chủ sẽ bị xóa.</string>
+    <string name="device_privacy_policy">Chính sách quyền riêng tư</string>
+    <string name="device_dial_title">Gọi cho %1$s</string>
+    <string name="device_dial_body">Chạm để mở ứng dụng Điện thoại. Bạn tự bấm gọi.</string>
+    <string name="device_sms_failed_title">Không gửi được tin nhắn</string>
+</resources>

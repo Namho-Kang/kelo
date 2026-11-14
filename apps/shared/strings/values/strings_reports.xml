@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 신고하기: reporting a bad AI reply to the Kelo developer, and the operator's list of received reports. -->
+<resources>
+    <string name="msg_action_report">Report</string>
+    <string name="report_title">Report this reply</string>
+    <string name="report_intro">If this reply was upsetting or wrong, let the Kelo developer know. It\'s only used to make Kelo safer.</string>
+    <string name="report_reason_label">What was the problem?</string>
+    <string name="report_reason_harmful">Upsetting or harmful</string>
+    <string name="report_reason_inaccurate">Not factually accurate</string>
+    <string name="report_reason_privacy">Exposes personal information</string>
+    <string name="report_reason_other">Something else</string>
+    <string name="report_comment_hint">Anything else to add? (optional)</string>
+    <string name="report_include_asked">Also send the message I sent just before</string>
+    <string name="report_sent_title">What goes to the Kelo developer</string>
+    <string name="report_bullet">• %1$s</string>
+    <string name="report_sent_reply">The reply you\'re reporting</string>
+    <string name="report_sent_asked">The message you sent just before</string>
+    <string name="report_sent_reason">The reason you picked and any comments</string>
+    <string name="report_sent_model">The name of the model that wrote the reply</string>
+    <string name="report_sent_version">Kelo app version</string>
+    <string name="report_sent_not">Nothing else from your chats and no account details are sent. Reports are kept for 1 year and then deleted — sooner if you ask.</string>
+    <string name="report_send">Send report</string>
+    <string name="report_sending">Sending…</string>
+    <string name="report_failed_offline">Couldn\'t reach your server. What you wrote is still here — try sending again in a bit.</string>
+    <string name="report_thanks">Report sent. Thanks for letting us know.</string>
+
+    <string name="operator_section_reports">Received reports</string>
+    <string name="operator_reports_note">Replies users reported from the app. They\'re deleted automatically after 1 year.</string>
+    <string name="operator_reports_not_receiving">This server doesn\'t receive reports. Reports sent from this server go to the Kelo developer\'s server.</string>
+    <string name="operator_reports_empty">No reports yet.</string>
+    <string name="operator_reports_open">%1$d reports to handle</string>
+    <string name="operator_reports_show_handled">Show handled reports too</string>
+    <string name="operator_reports_hide_handled">Show only reports to handle</string>
+    <string name="operator_reports_reply">Reported reply</string>
+    <string name="operator_reports_asked">User\'s message just before</string>
+    <string name="operator_reports_comment">Comment</string>
+    <string name="operator_reports_meta">%1$s · %2$s · App %3$s</string>
+    <string name="operator_reports_mark">Mark as handled</string>
+    <string name="operator_reports_unmark">Mark as not handled</string>
+    <string name="operator_reports_handled">Handled</string>
+    <string name="operator_reports_delete">Delete</string>
+    <string name="operator_reports_delete_confirm">Delete this report? This can\'t be undone.</string>
+    <string name="operator_reports_unknown">Unknown</string>
+</resources>

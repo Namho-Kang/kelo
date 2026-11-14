@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Ver también gasto y saldo</string>
+    <string name="admin_key_title">Clave de administrador para gasto y saldo</string>
+    <string name="admin_key_safety">Se guarda en el contenedor de claves de tu servidor, no en Kelo, y solo se usa para consultar gasto y saldo.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (solo lectura es suficiente).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (solo cuentas de organización).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Guardar</string>
+    <string name="admin_key_saved">Guardado. El gasto se muestra abajo.</string>
+    <string name="admin_key_refused">El proveedor rechazó esta clave. Comprueba que sea una clave de administrador.</string>
+    <string name="admin_key_keyring_off">Este servidor no guarda claves de administrador (su contenedor de claves está desactivado).</string>
+    <string name="admin_key_failed">No se pudo guardar la clave. Inténtalo de nuevo en un momento.</string>
+    <string name="admin_key_set">Clave de administrador …%1$s</string>
+    <string name="admin_key_remove">Eliminar</string>
+    <string name="admin_key_remove_q">¿Eliminar la clave de administrador? El gasto y el saldo ya no se mostrarán.</string>
+    <string name="my_privacy_keyring">Las claves de proveedores de IA que introduces (y las de administrador, si añades alguna) las custodia un contenedor de claves independiente en tu servidor, no Kelo. Kelo le solicita hacer cada llamada y este añade la clave únicamente para la dirección propia de ese proveedor.</string>
+</resources>

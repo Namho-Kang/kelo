@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Bestanden van Kelo</string>
+    <string name="files_about">Wat Kelo voor zichzelf opschrijft: wie jij bent, zijn geheugen, zijn notities. Je kunt ze lezen, wijzigen en verwijderen. Uploads en resultaten hebben eigen pagina\'s.</string>
+    <string name="files_new_folder">Nieuwe map</string>
+    <string name="files_make">Maken</string>
+    <string name="files_folder_name">Mapnaam</string>
+    <string name="files_folder_bad">Die naam kan niet worden gebruikt.</string>
+    <string name="files_edit">Bewerken</string>
+    <string name="files_save">Opslaan</string>
+    <string name="files_cancel">Annuleren</string>
+    <string name="files_saved">Opgeslagen. Kelo leest de nieuwe tekst vanaf het volgende antwoord.</string>
+    <string name="files_save_failed">Opslaan mislukt.</string>
+    <string name="files_full">De opslag van de server is vol.</string>
+    <string name="files_discard_q">Weggaan zonder op te slaan?</string>
+    <string name="files_discard">Weggaan</string>
+    <string name="files_reset">Terug naar het begin</string>
+    <string name="files_reset_q">Dit bestand terugzetten naar het begin? De huidige tekst gaat naar de prullenbak.</string>
+    <string name="files_reset_done">Terug naar het begin. De oude tekst staat in de prullenbak.</string>
+    <string name="files_core_reset_hint">Kelo heeft dit bestand nodig. Gebruik \"Terug naar het begin\".</string>
+    <string name="files_delete">Verwijderen</string>
+    <string name="files_delete_q">Naar de prullenbak verplaatsen? Na 30 dagen wordt het definitief verwijderd.</string>
+    <string name="files_deleted">Naar de prullenbak verplaatst.</string>
+    <string name="files_read_only">Kelo houdt dit bestand bij; het kan hier niet worden gewijzigd.</string>
+    <string name="files_load_failed">De bestanden konden niet worden geladen.</string>
+    <string name="files_trash_title">Prullenbak</string>
+    <string name="files_trash_about">Verwijderde bestanden blijven hier 30 dagen.</string>
+    <string name="files_trash_left">Definitief verwijderd over %1$d dagen</string>
+    <string name="files_trash_empty">De prullenbak is leeg.</string>
+    <string name="files_restore">Herstellen</string>
+    <string name="files_restored">Hersteld.</string>
+    <string name="files_purge">Definitief verwijderen</string>
+    <string name="files_purge_q">Definitief verwijderen? Dit kan niet ongedaan worden gemaakt.</string>
+    <string name="files_core_assistant">Karakter en toon van Kelo</string>
+    <string name="files_core_user">Wat Kelo over jou weet</string>
+    <string name="files_core_memory">Geheugen van Kelo</string>
+    <string name="files_core_agents">Hoe Kelo werkt</string>
+    <string name="files_core_checklist">Dingen om te checken</string>
+    <string name="files_core_notify">Meldingsvoorkeuren</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">Якщо дозволити, телефон запитає, чи надіслати збережений для цього сайту PIN-код оплати. Підтвердьте це на телефоні.</string>
+    <string name="desktop_pin_need_body">Відкрийте застосунок Kelo на телефоні, щоб один раз надіслати PIN «%1$s» для оплати на %2$s (%3$s).</string>
+    <string name="desktop_pin_secret_on_phone">PIN-коди оплати зберігаються лише на телефоні. Введіть його в застосунку Kelo на телефоні — ця картка закриється сама після збереження.</string>
+    <string name="desktop_pay_step_on_phone">Підтвердьте оплату в застосунку картки або банку на телефоні, потім натисніть тут «Я підтвердив».</string>
+    <string name="desktop_pay_step_click_copy">Натисніть на код, щоб скопіювати</string>
+    <string name="desktop_pay_step_pad_note">Натискайте клавіші тут мишею. Кожне натискання потрапляє в те саме місце сторінки оплати.</string>
+    <string name="desktop_briefing_weather_follows_phone">Погода показується за місцезнаходженням телефона. Вона з’явиться, коли ви відкриєте Kelo на телефоні й дозволите доступ до місцезнаходження.</string>
+    <string name="desktop_pin_add_on_phone">PIN-коди оплати додаються в застосунку Kelo на телефоні. Їх захищено ключем, який має лише цей телефон.</string>
+</resources>

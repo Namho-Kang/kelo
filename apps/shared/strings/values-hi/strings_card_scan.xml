@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">कार्ड स्कैन करें</string>
+    <string name="card_scan_title">अपना कार्ड स्कैन करें</string>
+    <string name="card_scan_hint">कार्ड का सामने वाला हिस्सा फ़्रेम के अंदर रखें। इसे सिर्फ़ इसी फ़ोन पर पढ़ा जाता है।</string>
+    <string name="card_scan_preparing">स्कैनर तैयार हो रहा है…</string>
+    <string name="card_scan_filled">स्कैन किया गया नंबर जाँच लें। CVC खुद डालें।</string>
+    <string name="card_scan_nothing">कार्ड पढ़ा नहीं जा सका। फिर से कोशिश करें या नंबर लिखें।</string>
+    <string name="card_scan_camera_needed">कार्ड स्कैन करने के लिए Kelo को कैमरे की अनुमति चाहिए। कोई फ़ोटो सेव नहीं होती।</string>
+    <string name="card_scan_camera_failed">कैमरा नहीं खुल सका। नंबर खुद लिखें।</string>
+</resources>

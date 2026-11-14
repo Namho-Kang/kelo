@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text only the desktop app has (uk). See values/strings_desktop.xml. -->
+<resources>
+    <string name="desktop_pair_step2">Скопіюйте показане посилання та вставте нижче.</string>
+    <string name="desktop_tray_open">Відкрити Kelo</string>
+    <string name="desktop_tray_quit">Вийти з Kelo</string>
+    <string name="desktop_tray_stop">Зупинити: %1$s</string>
+    <string name="desktop_still_running">Kelo працює далі в треї й повідомить, коли щось потребуватиме вашої уваги.</string>
+    <string name="desktop_section">Цей пристрій</string>
+    <string name="desktop_start_at_login">Запускати Kelo під час входу</string>
+    <string name="desktop_start_at_login_hint">Kelo тихо запускається в треї, тож сповіщення надходять ще до того, як ви відкриєте вікно.</string>
+    <string name="desktop_start_at_login_store">Вмикайте чи вимикайте це в Параметрах Windows → Програми → Автозавантаження.</string>
+    <string name="desktop_start_at_login_unavailable">Доступно у встановленій програмі.</string>
+    <string name="desktop_keep_in_tray">Залишатися в треї після закриття вікна</string>
+    <string name="desktop_notifications">Сповіщення на робочому столі</string>
+    <string name="desktop_notifications_hint">Відповіді, що завершилися, поки вікно приховане, схвалення, які чекають на вас, і новини, коли Kelo повідомляє першим.</string>
+    <string name="desktop_reduce_motion">Менше анімації</string>
+    <string name="desktop_theme">Вигляд</string>
+    <string name="desktop_theme_system">Як у системі</string>
+    <string name="desktop_theme_light">Світлий</string>
+    <string name="desktop_theme_dark">Темний</string>
+    <string name="desktop_drop_here">Перетягніть сюди файли, щоб надіслати їх %1$s</string>
+    <string name="desktop_attach_files">Додати файли (до 100 МБ кожен)</string>
+    <string name="desktop_enter_hint">Enter — надіслати · Shift+Enter — новий рядок</string>
+    <string name="desktop_logout_confirm">Вийти на цьому пристрої? Щоб знову користуватися, доведеться наново підключитися до сервера.</string>
+    <string name="desktop_version">Kelo для комп’ютера %1$s</string>
+    <string name="desktop_open_settings">Відкрити налаштування</string>
+    <string name="desktop_sign_in_browser">Увійти в браузері</string>
+    <string name="desktop_browser_opened">Сторінку входу відкрито в браузері. Поверніться сюди, коли закінчите.</string>
+    <string name="desktop_chooser_setup_hint">Поки жоден ШІ-сервіс не готовий. Виберіть один нижче й додайте його ключ або адресу чи увійдіть.</string>
+    <string name="desktop_chooser_setup_title">Налаштувати сервіс</string>
+    <string name="desktop_update_quit_note">Інсталятор відкрито. Закрийте Kelo на час встановлення, а потім запустіть Kelo знову.</string>
+    <string name="desktop_update_open_failed">Не вдалося відкрити інсталятор. Його збережено в %1$s.</string>
+    <string name="desktop_e2e_on">Дорогою ваші чати можуть прочитати лише цей пристрій і ваш сервер.</string>
+    <string name="desktop_e2e_not_verified_body">Порівняйте з відбитком, який показує `assistant phone fingerprint` на машині сервера, або один раз вставте посилання для підключення.</string>
+    <string name="desktop_e2e_verify_paste">Перевірити посиланням</string>
+    <string name="desktop_e2e_paste_hint">Вставте посилання для підключення (https://…/#pair=…)</string>
+    <string name="desktop_e2e_verify_mismatch">У цьому посиланні інший ключ. Якщо ключ сервера змінився, підключіть цей пристрій знову.</string>
+    <string name="desktop_e2e_verify_no_key">У цьому посиланні немає ключа. Створіть нове на оновленому сервері.</string>
+    <string name="desktop_e2e_key_changed_body">Ключ шифрування вашого сервера Kelo змінився, тож цей пристрій не може перевірити, що це справді ваш сервер. Вставте нове посилання для підключення з «Моє → Мої пристрої» на іншому пристрої або з машини сервера.</string>
+    <string name="desktop_location_on_phone">Цей комп\'ютер не може поділитися, де ви є. Відкрийте Kelo на телефоні, щоб поділитися місцем звідти, або виберіть «Не зараз».</string>
+    <string name="desktop_keyguard_locked_body">Паролі, ключі й картки залишаються закритими, доки ви не відкриєте Kelo на телефоні й не розблокуєте його там. На цьому комп\'ютері ключа немає.</string>
+</resources>

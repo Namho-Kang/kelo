@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">Modell für Hintergrundarbeit</string>
+    <string name="model_background_help">Nur für Arbeit, die Kelo von sich aus erledigt: der nächtliche Rückblick, die Gedächtnispflege, das Tagebuch, die Auswahl, was du erfahren sollst, und Zusammenfassungen langer Chats. Alles, was den Browser nutzt, bezahlt oder etwas sendet, bleibt beim Hauptmodell.</string>
+    <string name="model_background_same">Wie das Hauptmodell</string>
+    <string name="model_background_fell_back">Am %1$s ist das Hintergrundmodell ausgefallen, daher hat das Hauptmodell die Aufgabe übernommen.</string>
+    <string name="usage_jobs_tokens">%1$s Tokens</string>
+</resources>

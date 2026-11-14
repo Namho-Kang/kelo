@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Richiedi l\'accesso beta</string>
+    <string name="beta_requested">Richiesto</string>
+    <string name="beta_sheet_note">Per ora l\'accesso con Google è aperto a un piccolo gruppo. Inserisci l\'email Google che collegherai: ti scriveremo lì quando sarai aggiunto.</string>
+    <string name="beta_email_hint">Indirizzo email Google</string>
+    <string name="beta_email_invalid">Inserisci un indirizzo email valido.</string>
+    <string name="beta_send">Invia</string>
+    <string name="beta_sending">Invio…</string>
+    <string name="beta_sent">Richiesta inviata. Quando sarà approvata scriveremo a %1$s: poi torna qui e collegati di nuovo.</string>
+    <string name="beta_declined">La tua richiesta di beta non è stata approvata questa volta. L\'accesso con Google sarà aperto a tutti al termine della revisione di Google.</string>
+    <string name="operator_section_beta">Richieste di beta</string>
+    <string name="operator_beta_note">Persone che vogliono provare l\'accesso con Google. Prima aggiungile come utenti di test in Google Cloud Console, poi premi Approvato. Le richieste gestite vengono eliminate dopo 30 giorni.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Pubblico (Audience) → Utenti di test → aggiungi %1$s</string>
+    <string name="operator_beta_mail_from">Le email partono da %1$s.</string>
+    <string name="operator_beta_no_mail">Su questo server non è collegato nessun Gmail, quindi non vengono inviate email. Collega Gmail in Connettori per inviarle.</string>
+    <string name="operator_beta_not_receiving">Questo server non fa da tramite per l\'accesso con Google, quindi non riceve richieste.</string>
+    <string name="operator_beta_empty">Ancora nessuna richiesta.</string>
+    <string name="operator_beta_open">In attesa: %1$d</string>
+    <string name="operator_beta_approve">Approvato</string>
+    <string name="operator_beta_decline">Rifiuta</string>
+    <string name="operator_beta_waiting">In attesa</string>
+    <string name="operator_beta_state_approved">Approvata</string>
+    <string name="operator_beta_declined">Rifiutata</string>
+    <string name="operator_beta_notice_no_mail">Nessuna email al supporto: nessun Gmail collegato.</string>
+    <string name="operator_beta_notice_failed">Impossibile inviare l\'email al supporto.</string>
+    <string name="operator_beta_decline_confirm">Rifiutare questa richiesta?</string>
+    <string name="operator_beta_decline_mail">Invia una breve email</string>
+    <string name="operator_beta_mailed">Email inviata a %1$s.</string>
+    <string name="operator_tester_steps">Aggiungi %1$s in Play Console → Test → Test chiuso → Tester, poi tocca qui sotto.</string>
+    <string name="operator_tester_added">Aggiunto a Play</string>
+    <string name="notify_beta_request">Richiesta di beta</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">請重新連接這支手機</string>
+    <string name="e2e_key_changed_body">你的 Kelo 伺服器的加密金鑰變了，這支手機無法確認它真的是你的伺服器。請在另一台裝置的「我的 → 我的裝置」或伺服器電腦上掃描新的連接 QR 碼。</string>
+    <string name="e2e_pair_again">重新連接</string>
+    <string name="e2e_server_old_title">請更新你的 Kelo 伺服器</string>
+    <string name="e2e_server_old_body">此應用程式需要 Kelo 伺服器 %1$s 或更新版本。請更新伺服器後再開啟。</string>
+    <string name="e2e_server_old_version">伺服器版本：%1$s</string>
+    <string name="e2e_retry">再試一次</string>
+    <string name="devices_e2e_title">端對端加密</string>
+    <string name="devices_e2e_on">傳輸途中只有這支手機和你的伺服器能讀到你的對話。</string>
+    <string name="devices_e2e_fingerprint">伺服器金鑰指紋</string>
+    <string name="devices_e2e_verified">金鑰已驗證</string>
+    <string name="devices_e2e_not_verified">金鑰未驗證</string>
+    <string name="devices_e2e_not_verified_body">請與伺服器電腦上 `assistant phone fingerprint` 顯示的指紋比對，或掃描一次連接 QR 碼。</string>
+    <string name="devices_e2e_verify_scan">掃描 QR 碼驗證</string>
+    <string name="devices_e2e_verify_done">金鑰一致，已驗證 ✓</string>
+    <string name="devices_e2e_verify_mismatch">這個 QR 碼裡是另一把金鑰。如果伺服器的金鑰換過，請重新連接這支手機。</string>
+    <string name="devices_e2e_verify_no_key">這個 QR 碼裡沒有金鑰。請用更新後的伺服器重新產生。</string>
+</resources>

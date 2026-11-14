@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 이 기기에서: what this phone can share with the user's own Kelo server (chat.kelo.app.device). Short words: one line in the list,
+     at most two short lines in a sheet. -->
+<resources>
+    <string name="device_section">On this phone</string>
+    <string name="device_row_sub">On this phone</string>
+    <string name="device_row_connect">Connect</string>
+    <string name="device_connected">Connected</string>
+    <string name="device_needs_permission">Needs permission</string>
+
+    <string name="device_calendar">Calendar</string>
+    <string name="device_contacts">Contacts</string>
+    <string name="device_messages">Messages</string>
+    <string name="device_dialer">Phone dialer</string>
+    <string name="device_notifications">Notifications</string>
+    <string name="device_call_log">Call history</string>
+    <string name="device_health">Health Connect</string>
+
+    <!-- what Kelo can do (line 1) and what goes to the server (line 2) -->
+    <string name="device_calendar_does">Reads your events to answer. If you allow it, adds events too, after you approve.</string>
+    <string name="device_calendar_sends">Sends events from the past 7 days to the next 60 days to your server.</string>
+    <string name="device_contacts_does">Finds numbers and emails by name. Read only.</string>
+    <string name="device_contacts_sends">Sends names, numbers, emails, company and title, and birthdays to your server.</string>
+    <string name="device_messages_does">Finds and reads texts you got and sent. Sends only after you approve.</string>
+    <string name="device_messages_sends">Sends your recent texts to your server.</string>
+    <string name="device_dialer_does">After you approve, opens the phone app with the number filled in. You tap call yourself.</string>
+    <string name="device_dialer_sends">Nothing is sent.</string>
+    <string name="device_notifications_does">Finds what you need in the notifications you got.</string>
+    <string name="device_notifications_sends">Sends the app name, title, text and time to your server. Deleted after 7 days.</string>
+    <string name="device_call_log_does">Finds recent calls. Read only.</string>
+    <string name="device_call_log_sends">Sends the last 30 days\' numbers, names, call type, time and length to your server.</string>
+    <string name="device_health_does">Answers from records like steps and sleep. Read only.</string>
+    <string name="device_health_sends">Sends only a daily summary of the items you pick to your server, when you open the app.</string>
+
+    <!-- the sheet -->
+    <string name="device_switch">Let Kelo use this</string>
+    <string name="device_auto">Keeps in sync on its own · %1$s</string>
+    <string name="device_auto_never">Sends as soon as it\'s on, then keeps in sync</string>
+    <string name="device_auto_foreground">Syncs each time you open the app · %1$s</string>
+    <string name="device_send_now">Send now</string>
+    <string name="device_sending">Sending…</string>
+    <string name="device_send_failed">Couldn\'t send. I\'ll try again in a bit.</string>
+    <string name="device_off_failed">Turned off. What\'s left on the server is deleted next time it connects.</string>
+    <string name="device_denied">Permission is off. Allow it in Settings to turn this on.</string>
+    <string name="device_open_settings">Open Settings</string>
+    <string name="device_ready">On</string>
+    <plurals name="device_count_contacts">
+        <item quantity="one">%1$d contact</item>
+        <item quantity="other">%1$d contacts</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="one">%1$d text</item>
+        <item quantity="other">%1$d texts</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="one">%1$d call</item>
+        <item quantity="other">%1$d calls</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="one">%1$d day of summaries</item>
+        <item quantity="other">%1$d days of summaries</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="one">%1$d notification</item>
+        <item quantity="other">%1$d notifications</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="one">%1$d event</item>
+        <item quantity="other">%1$d events</item>
+    </plurals>
+
+    <!-- calendar -->
+    <string name="device_cal_write">Also allow adding and editing events</string>
+    <string name="device_cal_write_line">Asks first with an approval card every time.</string>
+    <string name="device_cal_write_to">Calendar to add to</string>
+    <string name="device_cal_none">There\'s no calendar that can be changed.</string>
+    <string name="device_cal_write_denied">Calendar write permission is off.</string>
+
+    <!-- messages -->
+    <string name="device_msg_window">How far back to send</string>
+    <string name="device_days">%1$d days</string>
+    <string name="device_msg_send">Allow sending texts</string>
+    <string name="device_msg_send_line">This phone sends only after you approve the recipient and the full text.</string>
+    <string name="device_msg_send_denied">Permission to send texts is off.</string>
+
+    <!-- notifications -->
+    <string name="device_notif_service_label">Kelo notification reading</string>
+    <string name="device_notif_disclosure_title">Share notifications with Kelo?</string>
+    <string name="device_notif_disclosure">When this is on, the app name, title, text and time of notifications on this phone go to your Kelo server. Your agent uses them to find things and answer you. Ongoing notifications, Kelo\'s own and apps you exclude are never sent. The server deletes them after 7 days, and right away when you turn this off.\n\nOn the next screen, turn on notification access for Kelo.</string>
+    <string name="device_agree">Agree and continue</string>
+    <string name="device_decline">No thanks</string>
+    <string name="device_notif_access_off">Notification access is off.</string>
+    <string name="device_notif_exclude">Apps not to send</string>
+    <string name="device_notif_exclude_empty">Apps that send you notifications show up here.</string>
+
+    <!-- health -->
+    <string name="device_health_types">What to share</string>
+    <string name="device_health_steps">Steps</string>
+    <string name="device_health_sleep">Sleep</string>
+    <string name="device_health_heart">Heart rate</string>
+    <string name="device_health_weight">Weight</string>
+    <string name="device_health_exercise">Workouts</string>
+    <string name="device_health_missing">Health Connect isn\'t on this phone.</string>
+    <string name="device_health_install">Install Health Connect</string>
+    <string name="device_health_denied">No permission for the items you picked. Please allow them again.</string>
+    <string name="device_health_allow">Allow</string>
+    <string name="device_health_rationale_title">How Kelo uses your health records</string>
+    <string name="device_health_rationale">Kelo reads only a daily summary of the items you pick (steps, sleep, heart rate, weight, workouts) and sends it to your own Kelo server. It\'s used only when your agent answers your questions, never for ads or sales. Kelo only reads and never writes to Health Connect. Turning it off deletes the summaries on the server.</string>
+    <string name="device_privacy_policy">Privacy policy</string>
+
+    <!-- work the phone does after an approval -->
+    <string name="device_dial_title">Call %1$s</string>
+    <string name="device_dial_body">Tap to open the phone app. You place the call yourself.</string>
+    <string name="device_sms_failed_title">Couldn\'t send the text</string>
+</resources>

@@ -92,7 +92,8 @@ curl -fsSL https://kelo.chat/install.sh | bash
 irm https://kelo.chat/install.ps1 | iex
 ```
 
-소스 코드는 설치 프로그램과 함께 이 저장소에 공개할 예정이에요.
+현재는 데스크톱 앱(Windows·macOS: `apps/desktop`, `apps/shared`) 소스만 공개되어 있어요. Windows 설치 파일은 이 저장소의 Actions에서
+빌드 출처 증명과 함께 만들어져요(`gh attestation verify <파일> -R kelo-chat/kelo`). 서버와 휴대폰 앱 소스는 이어서 공개할 예정이에요.
 
 설치 프로그램이 Docker를 확인하고 Kelo를 복사한 다음, 4단계 안내 화면을 열어요: 서버 확인 → 크기 고르기 → Kelo 시작 → QR 코드로
 휴대폰 연결. AI 모델은 그다음에 앱에서 골라요. 자세한 안내: [kelo.chat/install](https://kelo.chat/install?lang=ko)

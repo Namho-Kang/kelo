@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo heeft je locatie nodig</string>
+    <string name="location_ask_body">Om dit te beantwoorden, moet Kelo weten waar deze telefoon nu is.</string>
+    <string name="location_ask_private">Die gaat alleen naar je eigen server.</string>
+    <string name="location_ask_share">Mijn locatie delen</string>
+    <string name="location_ask_not_now">Niet nu</string>
+    <string name="location_ask_settings">Instellingen openen</string>
+    <string name="location_ask_settings_hint">Locatie staat uit voor Kelo. Zet hem aan in Instellingen en kom dan hier terug.</string>
+    <string name="location_services_off">Locatie staat uit op deze telefoon. Zet hem aan in Instellingen en kom dan hier terug.</string>
+    <string name="location_ask_reading">Je locatie wordt bepaald…</string>
+    <string name="location_ask_shared">Locatie gedeeld</string>
+    <string name="location_ask_refused">Locatie niet gedeeld</string>
+    <string name="location_ask_expired">Dit verzoek is verlopen</string>
+    <string name="location_ask_unavailable">Deze telefoon kon niet bepalen waar hij is. Controleer of locatie aanstaat.</string>
+    <string name="chat_attached_file">Bijgevoegd bestand</string>
+</resources>

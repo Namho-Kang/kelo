@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">Địa chỉ giao hàng</string>
+    <string name="shipping_empty">Chưa có địa chỉ nào được lưu. Khi Kelo đặt hàng giúp bạn, hàng sẽ được giao đến địa chỉ lưu ở đây.</string>
+    <string name="shipping_add">Thêm địa chỉ</string>
+    <string name="shipping_edit_title">Sửa địa chỉ</string>
+    <string name="shipping_home">Nhà</string>
+    <string name="shipping_nickname">Tên gọi</string>
+    <string name="shipping_nickname_hint">vd: Nhà, Công ty</string>
+    <string name="shipping_country">Quốc gia</string>
+    <string name="shipping_optional">không bắt buộc</string>
+    <string name="shipping_label_optional">%1$s (%2$s)</string>
+    <string name="shipping_default_title">Địa chỉ mặc định</string>
+    <string name="shipping_default_note">Đơn hàng sẽ giao đến đây trừ khi bạn hoặc công việc chỉ định địa chỉ khác.</string>
+    <string name="shipping_delete">Xóa địa chỉ này</string>
+    <string name="shipping_delete_confirm">Xóa địa chỉ “%1$s”?</string>
+    <string name="shipping_err_required">Vui lòng điền</string>
+    <string name="shipping_err_pattern">Kiểm tra định dạng (vd: %1$s)</string>
+    <string name="shipping_err_format">Kiểm tra định dạng</string>
+    <string name="shipping_err_phone">Kiểm tra số điện thoại</string>
+    <string name="shipping_example">vd: %1$s</string>
+    <string name="shipping_pick">Chọn</string>
+    <string name="shipping_country_search">Tìm quốc gia</string>
+    <string name="shipping_country_none">Không có quốc gia phù hợp</string>
+    <string name="shipping_form_failed">Không tải được biểu mẫu địa chỉ.</string>
+    <string name="shipping_calling_code">Mã quốc gia %1$s</string>
+    <string name="shipping_ask_title">Giao đến đâu?</string>
+    <string name="shipping_ask_save">Dùng cho các đơn sau (lưu làm địa chỉ giao hàng)</string>
+    <string name="shipping_ask_pay">Cách thanh toán</string>
+    <string name="shipping_pay_card">Thêm thẻ</string>
+    <string name="shipping_pay_site">Thanh toán trên trang</string>
+    <string name="shipping_ask_send">Gửi địa chỉ</string>
+    <string name="shipping_ask_sending">Đang gửi…</string>
+    <string name="shipping_ask_done">Giao đến: %1$s</string>
+    <string name="shipping_ask_cancelled">Chưa cung cấp địa chỉ</string>
+    <string name="shipping_ask_expired">Biểu mẫu này đã hết hạn</string>
+    <string name="shipping_ask_closed">Biểu mẫu này đã đóng</string>
+    <string name="order_items">Sản phẩm</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">Giao đến</string>
+    <string name="order_ship_site">Địa chỉ đã lưu trên trang</string>
+    <string name="order_ship_once">Chỉ cho đơn này</string>
+    <string name="order_pay_with">Thanh toán bằng</string>
+    <string name="order_pay_site">Trên trang</string>
+    <string name="order_coupon">Mã giảm giá</string>
+    <string name="order_total">Tổng cộng</string>
+</resources>

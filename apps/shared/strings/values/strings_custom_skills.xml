@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Records page: custom skills waiting for the owner's approval; Work: "Save as skill" on a finished task or job -->
+    <string name="skill_review_title">Skills to approve</string>
+    <string name="skill_review_about">Kelo uses a skill only after you approve it. Approving saves exactly the text shown.</string>
+    <string name="skill_review_drafting">Kelo is writing a skill draft…</string>
+    <string name="skill_review_kind_new">New skill</string>
+    <string name="skill_review_kind_change">Change to a skill</string>
+    <string name="skill_review_kind_edited">Changed outside the app</string>
+    <string name="skill_review_edited_note">This skill\'s files changed outside the app, so Kelo isn\'t using it until you approve it again.</string>
+    <string name="skill_review_edited_new_note">This skill was added outside the app. Kelo won\'t use it until you approve it.</string>
+    <string name="skill_review_outside_note">Kelo read web pages, mail or files while working on this. Check that every step is something you want.</string>
+    <string name="skill_review_secrets_removed">Passwords, keys and codes were taken out of the text.</string>
+    <string name="skill_review_diff_counts">Added %1$d · Removed %2$d</string>
+    <string name="skill_review_show_all">Show all</string>
+    <string name="skill_review_show_less">Show less</string>
+    <string name="skill_review_put_back">Undo the changes</string>
+    <string name="skill_review_discard">Discard</string>
+    <string name="skill_review_approve">Approve</string>
+    <string name="skill_review_approved">Approved. Kelo will use this skill.</string>
+    <string name="skill_review_discarded">Discarded</string>
+    <string name="skill_review_from_draft">Drafted from a finished task</string>
+    <string name="skill_review_from_disk">Changed in the server\'s files</string>
+    <string name="skill_review_from_kelo">Suggested by Kelo</string>
+    <string name="skill_save">Save as skill</string>
+    <string name="skill_save_about">Kelo writes down the steps from this task. Nothing changes until you approve it in %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo is drafting a skill. You\'ll find it in %1$s → %2$s.</string>
+    <string name="skill_save_busy">A skill from this task is already being written.</string>
+    <string name="skill_save_unavailable">This server can\'t save skills yet. Update the server first.</string>
+    <string name="skill_save_no_model">Choose a model first.</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Asking to try Google sign-in while it is closed (Gmail, Google Calendar), and the operator's list of those requests. -->
+<resources>
+    <string name="beta_request">Request beta access</string>
+    <string name="beta_requested">Requested</string>
+    <string name="beta_sheet_note">Google sign-in is open to a small group for now. Type the Google email you\'ll connect, and we\'ll email you there once you\'re added.</string>
+    <string name="beta_email_hint">Google email address</string>
+    <string name="beta_email_invalid">Enter a valid email address.</string>
+    <string name="beta_send">Send</string>
+    <string name="beta_sending">Sending…</string>
+    <string name="beta_sent">Request sent. When it\'s approved we\'ll email %1$s — then come back and connect again.</string>
+    <string name="beta_declined">Your beta request wasn\'t approved this time. Google sign-in opens to everyone once Google\'s review is done.</string>
+    <string name="operator_section_beta">Beta requests</string>
+    <string name="operator_beta_note">People asking to try Google sign-in. First add them as test users in Google Cloud Console, then press Approved. Handled requests are deleted after 30 days.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Audience → Test users → add %1$s</string>
+    <string name="operator_beta_mail_from">Emails go out from %1$s.</string>
+    <string name="operator_beta_no_mail">No Gmail is connected on this server, so no emails are sent. Connect Gmail in Connectors to send them.</string>
+    <string name="operator_beta_not_receiving">This server isn\'t the Google sign-in broker, so it doesn\'t receive requests.</string>
+    <string name="operator_beta_empty">No requests yet.</string>
+    <string name="operator_beta_open">Waiting: %1$d</string>
+    <string name="operator_beta_approve">Approved</string>
+    <string name="operator_beta_decline">Decline</string>
+    <string name="operator_beta_waiting">Waiting</string>
+    <string name="operator_beta_state_approved">Approved</string>
+    <string name="operator_beta_declined">Declined</string>
+    <string name="operator_beta_notice_no_mail">No email went to support: no Gmail is connected.</string>
+    <string name="operator_beta_notice_failed">The email to support couldn\'t be sent.</string>
+    <string name="operator_beta_decline_confirm">Decline this request?</string>
+    <string name="operator_beta_decline_mail">Send a short email</string>
+    <string name="operator_beta_mailed">Emailed %1$s.</string>
+    <string name="operator_tester_steps">Add %1$s in Play Console → Testing → Closed testing → Testers, then tap below.</string>
+    <string name="operator_tester_added">Added to Play</string>
+    <string name="notify_beta_request">Beta request</string>
+</resources>

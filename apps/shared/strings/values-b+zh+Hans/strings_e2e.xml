@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">请重新连接这部手机</string>
+    <string name="e2e_key_changed_body">你的 Kelo 服务器的加密密钥变了，这部手机无法确认它真的是你的服务器。请在另一台设备的“我的 → 我的设备”或服务器电脑上扫描新的连接二维码。</string>
+    <string name="e2e_pair_again">重新连接</string>
+    <string name="e2e_server_old_title">请更新你的 Kelo 服务器</string>
+    <string name="e2e_server_old_body">此应用需要 Kelo 服务器 %1$s 或更高版本。请更新服务器后再打开。</string>
+    <string name="e2e_server_old_version">服务器版本：%1$s</string>
+    <string name="e2e_retry">重试</string>
+    <string name="devices_e2e_title">端到端加密</string>
+    <string name="devices_e2e_on">传输途中只有这部手机和你的服务器能读到你的对话。</string>
+    <string name="devices_e2e_fingerprint">服务器密钥指纹</string>
+    <string name="devices_e2e_verified">密钥已验证</string>
+    <string name="devices_e2e_not_verified">密钥未验证</string>
+    <string name="devices_e2e_not_verified_body">请与服务器电脑上 `assistant phone fingerprint` 显示的指纹比对，或扫描一次连接二维码。</string>
+    <string name="devices_e2e_verify_scan">扫描二维码验证</string>
+    <string name="devices_e2e_verify_done">密钥一致，已验证 ✓</string>
+    <string name="devices_e2e_verify_mismatch">这个二维码里是另一个密钥。如果服务器的密钥换过，请重新连接这部手机。</string>
+    <string name="devices_e2e_verify_no_key">这个二维码里没有密钥。请用更新后的服务器重新生成。</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">Saldo</string>
+    <string name="balance_limit_left">Over van de sleutellimiet</string>
+    <string name="balance_used_today">Vandaag uitgegeven</string>
+    <string name="balance_used_week">Deze week uitgegeven</string>
+    <string name="balance_used_month">Deze maand uitgegeven</string>
+</resources>

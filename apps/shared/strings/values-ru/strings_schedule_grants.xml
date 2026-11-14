@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">Платит сама в пределах ваших лимитов</string>
+    <string name="wallet_tag_asks">Спрашивает каждый раз</string>
+    <string name="wallet_reason_not_auto">Эта карта сохранена так, чтобы спрашивать каждый раз.</string>
+    <string name="wallet_reason_no_server_copy">На сервере нет копии этой карты для автооплаты.</string>
+    <string name="wallet_reason_paused">Автооплата приостановлена для всех карт.</string>
+    <string name="wallet_reason_vault_locked">Связка ключей заблокирована для агента.</string>
+    <string name="wallet_auto_turn_on_card">Включить автооплату для этой карты</string>
+    <string name="wallet_first_site_rule">Даже с автооплатой первый платёж на новом сайте спрашивает один раз, как и любой платёж сверх лимитов.</string>
+    <string name="wallet_auto_none_value">Нет карт с автооплатой</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="one">%d карта с автооплатой</item>
+        <item quantity="few">%d карты с автооплатой</item>
+        <item quantity="many">%d карт с автооплатой</item>
+        <item quantity="other">%d карты с автооплатой</item>
+    </plurals>
+    <string name="wallet_auto_none_note">Пока ни одна карта не платит сама, поэтому каждый платёж спрашивает на этом телефоне. Чтобы изменить это, откройте карту и включите автооплату.</string>
+    <string name="wallet_schedule_section">Расписания, которые покупают сами</string>
+    <string name="grant_section_title">Разрешено без вопросов</string>
+    <string name="grant_section_note">Разрешено один раз при настройке. Бо́льшая сумма, другой сайт или товар и изменения аккаунта по-прежнему спрашивают.</string>
+    <string name="grant_login_title">Входит с %1$s</string>
+    <string name="grant_login_site">На %1$s</string>
+    <string name="grant_purchase_title">Покупает %1$s</string>
+    <string name="grant_purchase_cap">На %1$s · до %2$s за запуск, %3$s в месяц</string>
+    <string name="grant_spent">В этом месяце: %1$s</string>
+    <string name="grant_for_schedule">Для «%1$s»</string>
+    <string name="grant_revoke">Отозвать</string>
+    <string name="grant_revoke_confirm">Отозвать это разрешение? Запуски снова будут спрашивать.</string>
+    <string name="grant_login_section">Расписания, которые используют этот логин без вопросов</string>
+</resources>

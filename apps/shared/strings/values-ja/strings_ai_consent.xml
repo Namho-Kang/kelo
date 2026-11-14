@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">最初のメッセージの前に</string>
+    <string name="ai_consent_body">Kelo は返事を作るために、メッセージとそれに必要なもの（添付したファイル、つないだサービスから得た結果）を、あなたが選んだ AI サービスに送ります。</string>
+    <string name="ai_consent_now">いま選んでいるサービス: %1$s。モデルで確認・変更できます。</string>
+    <string name="ai_consent_not_now_note">「あとで」を選ぶと何も送りません。</string>
+    <string name="ai_consent_privacy">プライバシーポリシー</string>
+    <string name="ai_consent_agree">同意する</string>
+    <string name="ai_consent_not_now">あとで</string>
+    <string name="ai_chats_go_to">会話の送り先: %1$s</string>
+    <string name="ai_chats_stay">会話は自分のネットワークの外に出ません</string>
+</resources>

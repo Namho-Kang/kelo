@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Hafıza düzenlemesi: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">%d eklendi</item>
+        <item quantity="other">%d eklendi</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">%d düzenlendi</item>
+        <item quantity="other">%d düzenlendi</item>
+    </plurals>
+    <string name="memory_pass_undone">Hafıza düzenlemesi geri alındı</string>
+    <string name="memory_pass_view">Neler değişti</string>
+    <string name="memory_pass_changes_title">Hafıza düzenlemesinin değiştirdikleri</string>
+    <string name="memory_pass_no_lines">Gösterilecek değişen satır yok.</string>
+    <string name="memory_pass_undo">Bu düzenlemeyi geri al</string>
+    <string name="memory_pass_undo_confirm">Notlar bu düzenlemeden önceki haline dönsün mü? Sonradan düzenlenen notlar olduğu gibi kalır.</string>
+    <string name="memory_pass_undo_gone">Bu düzenleme artık geri alınamaz.</string>
+    <string name="memory_pass_added_line">Eklendi: %1$s</string>
+    <string name="memory_pass_removed_line">Çıkarıldı: %1$s</string>
+    <string name="memory_area_about_you">Senin hakkında</string>
+    <string name="memory_area_to_remember">Hatırlanacaklar</string>
+    <string name="memory_area_people">Kişiler</string>
+    <string name="memory_area_working_notes">Çalışma notları</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plain">안녕하세요</string>
+    <string name="apostrophe">바꾸지 못했어요. "괜찮아요".</string>
+    <string name="not_translatable" translatable="false">Kelo-ko</string>
+    <plurals name="items">
+        <item quantity="other">%1$d개</item>
+    </plurals>
+    <string-array name="steps">
+        <item>첫째</item>
+        <item>둘째</item>
+    </string-array>
+</resources>

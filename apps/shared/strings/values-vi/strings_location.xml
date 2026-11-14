@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo cần vị trí của bạn</string>
+    <string name="location_ask_body">Để trả lời, Kelo cần biết điện thoại này đang ở đâu.</string>
+    <string name="location_ask_private">Vị trí chỉ gửi đến máy chủ của riêng bạn.</string>
+    <string name="location_ask_share">Gửi vị trí của tôi</string>
+    <string name="location_ask_not_now">Để sau</string>
+    <string name="location_ask_settings">Mở Cài đặt</string>
+    <string name="location_ask_settings_hint">Vị trí đang tắt với Kelo. Hãy bật trong Cài đặt rồi quay lại đây.</string>
+    <string name="location_services_off">Vị trí trên điện thoại này đang tắt. Hãy bật trong Cài đặt rồi quay lại đây.</string>
+    <string name="location_ask_reading">Đang lấy vị trí của bạn…</string>
+    <string name="location_ask_shared">Đã gửi vị trí</string>
+    <string name="location_ask_refused">Chưa gửi vị trí</string>
+    <string name="location_ask_expired">Yêu cầu này đã hết hạn</string>
+    <string name="location_ask_unavailable">Điện thoại này không xác định được vị trí. Hãy kiểm tra vị trí đã bật chưa.</string>
+    <string name="chat_attached_file">Tệp đính kèm</string>
+</resources>

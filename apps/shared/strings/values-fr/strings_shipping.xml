@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">Adresses de livraison</string>
+    <string name="shipping_empty">Aucune adresse enregistrée. Quand Kelo commande pour vous, il livre à une adresse enregistrée ici.</string>
+    <string name="shipping_add">Ajouter une adresse</string>
+    <string name="shipping_edit_title">Modifier l’adresse</string>
+    <string name="shipping_home">Domicile</string>
+    <string name="shipping_nickname">Nom</string>
+    <string name="shipping_nickname_hint">ex. Domicile, Bureau</string>
+    <string name="shipping_country">Pays</string>
+    <string name="shipping_optional">facultatif</string>
+    <string name="shipping_label_optional">%1$s (%2$s)</string>
+    <string name="shipping_default_title">Adresse par défaut</string>
+    <string name="shipping_default_note">Les commandes arrivent ici, sauf si vous ou la tâche indiquez une autre adresse.</string>
+    <string name="shipping_delete">Supprimer cette adresse</string>
+    <string name="shipping_delete_confirm">Supprimer l’adresse « %1$s » ?</string>
+    <string name="shipping_err_required">À remplir</string>
+    <string name="shipping_err_pattern">Vérifiez le format (ex. %1$s)</string>
+    <string name="shipping_err_format">Vérifiez le format</string>
+    <string name="shipping_err_phone">Vérifiez le numéro de téléphone</string>
+    <string name="shipping_example">ex. %1$s</string>
+    <string name="shipping_pick">Choisir</string>
+    <string name="shipping_country_search">Rechercher un pays</string>
+    <string name="shipping_country_none">Aucun pays ne correspond</string>
+    <string name="shipping_form_failed">Impossible de charger le formulaire d’adresse.</string>
+    <string name="shipping_calling_code">Indicatif %1$s</string>
+    <string name="shipping_ask_title">Où faut-il livrer ?</string>
+    <string name="shipping_ask_save">Utiliser pour les prochaines commandes (enregistrer comme adresse de livraison)</string>
+    <string name="shipping_ask_pay">Paiement</string>
+    <string name="shipping_pay_card">Ajouter une carte</string>
+    <string name="shipping_pay_site">Payer sur le site</string>
+    <string name="shipping_ask_send">Envoyer l’adresse</string>
+    <string name="shipping_ask_sending">Envoi…</string>
+    <string name="shipping_ask_done">Livrer à : %1$s</string>
+    <string name="shipping_ask_cancelled">Aucune adresse donnée</string>
+    <string name="shipping_ask_expired">Ce formulaire a expiré</string>
+    <string name="shipping_ask_closed">Ce formulaire a été fermé</string>
+    <string name="order_items">Articles</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">Livrer à</string>
+    <string name="order_ship_site">L’adresse enregistrée sur le site</string>
+    <string name="order_ship_once">Pour cette commande seulement</string>
+    <string name="order_pay_with">Payer avec</string>
+    <string name="order_pay_site">Sur le site</string>
+    <string name="order_coupon">Code promo</string>
+    <string name="order_total">Total</string>
+</resources>

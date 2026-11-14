@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Harcama ve bakiyeyi de gör</string>
+    <string name="admin_key_title">Harcama ve bakiye için yönetici anahtarı</string>
+    <string name="admin_key_safety">Kelo tarafından değil, sunucunuzdaki anahtar kapsayıcısında saklanır ve yalnızca harcama ile bakiyeyi okumak için kullanılır.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (salt okunur yeterlidir).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (yalnızca kuruluş hesapları).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Kaydet</string>
+    <string name="admin_key_saved">Kaydedildi. Harcama aşağıda gösterilir.</string>
+    <string name="admin_key_refused">Sağlayıcı bu anahtarı reddetti. Bunun bir yönetici anahtarı olduğunu kontrol edin.</string>
+    <string name="admin_key_keyring_off">Bu sunucu yönetici anahtarlarını saklamıyor (anahtar kapsayıcısı kapalı).</string>
+    <string name="admin_key_failed">Anahtar kaydedilemedi. Birazdan tekrar deneyin.</string>
+    <string name="admin_key_set">Yönetici anahtarı …%1$s</string>
+    <string name="admin_key_remove">Kaldır</string>
+    <string name="admin_key_remove_q">Yönetici anahtarı kaldırılsın mı? Harcama ve bakiye artık gösterilmeyecek.</string>
+    <string name="my_privacy_keyring">Girdiğiniz Yapay Zeka sağlayıcı anahtarları (ve eklendiyse yönetici anahtarları), Kelo tarafından değil, sunucunuzdaki ayrı bir anahtar kapsayıcısı tarafından saklanır; Kelo her çağrıyı yapmasını ister ve anahtar yalnızca o sağlayıcının kendi adresine eklenir.</string>
+</resources>

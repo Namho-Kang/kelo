@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">Saldo</string>
+    <string name="balance_limit_left">Sisa dari batas kunci</string>
+    <string name="balance_used_today">Terpakai hari ini</string>
+    <string name="balance_used_week">Terpakai minggu ini</string>
+    <string name="balance_used_month">Terpakai bulan ini</string>
+</resources>

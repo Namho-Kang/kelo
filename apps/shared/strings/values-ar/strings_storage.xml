@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">تنظيف</string>
+    <string name="storage_cleanup_title">تنظيف مساحة التخزين</string>
+    <string name="storage_warn">مساحة تخزين Kelo ممتلئة بنسبة %1$d%%.</string>
+    <string name="storage_critical">مساحة تخزين Kelo ممتلئة تقريبًا (%1$d%%). عندما تمتلئ لن يمكن حفظ ملفات جديدة، لكن الدردشة تستمر في العمل.</string>
+    <string name="storage_host_low">قرص الكمبيوتر الذي يعمل عليه خادم Kelo ممتلئ تقريبًا (متبقٍ %1$s). عندما يمتلئ يتوقف Kelo عن العمل، بما في ذلك الدردشة.</string>
+    <string name="storage_top">أكثر ما يشغل المساحة: %1$s (%2$s).</string>
+    <string name="storage_row_warn">ممتلئة %1$d%%</string>
+    <string name="storage_row_critical">ممتلئة تقريبًا</string>
+    <string name="storage_row_host">القرص ممتلئ تقريبًا</string>
+    <string name="storage_cleanup_intro">يمكن إزالة هذه العناصر بأمان. لا تظهر الملاحظات والذاكرة وسجل الدردشة هنا أبدًا.</string>
+    <string name="storage_group_uploads">النسخ الأصلية للملفات المرفوعة القديمة</string>
+    <string name="storage_group_uploads_desc">ملفات رُفعت قبل أكثر من %1$d يومًا. يُحذف الأصل فقط، ويبقى النص الذي قرأه Kelo من المستند.</string>
+    <string name="storage_group_images">الصور المنشأة</string>
+    <string name="storage_group_images_desc">صور أنشأها Kelo. لن تعرض رسائل الدردشة القديمة التي كانت تعرضها أي شيء بعد ذلك.</string>
+    <string name="storage_group_browser">لقطات خطوات المتصفح</string>
+    <string name="storage_group_browser_desc">لقطات لكل خطوة في المتصفح من المهام التي عملت تلقائيًا.</string>
+    <string name="storage_group_results">النتائج القديمة وسلة المحذوفات</string>
+    <string name="storage_group_results_desc">النتائج الأقدم من %1$d يومًا وكل ما في سلة المحذوفات.</string>
+    <string name="storage_group_backups">النسخ الاحتياطية الأقدم</string>
+    <string name="storage_group_backups_desc">تُحفظ أحدث النسخ الاحتياطية دائمًا.</string>
+    <string name="storage_item_text_kept">يبقى النص</string>
+    <string name="storage_item_trashed">في سلة المحذوفات</string>
+    <string name="storage_backup_update">قبل تحديث الخادم</string>
+    <string name="storage_backup_memory">ترتيب الذاكرة</string>
+    <string name="storage_backup_migration">تنظيم سابق</string>
+    <string name="storage_selected">المحدد: %1$d (%2$s)</string>
+    <string name="storage_delete_button">حذف</string>
+    <string name="storage_confirm_title">هل تريد حذف العناصر المحددة نهائيًا؟</string>
+    <string name="storage_confirm_body">سيؤدي هذا إلى إفراغ %1$s. لا يمكن استعادة العناصر المحذوفة.</string>
+    <string name="storage_deleted">تم إفراغ %1$s.</string>
+    <string name="storage_skipped">تغيّرت بعض العناصر بالفعل، لذا تُركت كما هي.</string>
+    <string name="storage_nothing">لا يوجد ما يُنظَّف الآن.</string>
+    <string name="storage_owner_only">يمكن لمالك الخادم فقط التنظيف.</string>
+    <string name="storage_load_failed">تعذّر تحميل ما يمكن تنظيفه.</string>
+    <string name="storage_delete_failed">تعذّر الحذف. حاول مرة أخرى.</string>
+    <string name="storage_notify">مساحة التخزين تمتلئ</string>
+</resources>

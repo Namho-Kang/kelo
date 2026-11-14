@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pt-BR text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Seus cartões de pagamento estão bloqueados</string>
+    <string name="wallet_lock_body">Confirme que é você com digital, rosto ou bloqueio de tela (PIN, padrão ou senha) para abrir de novo.</string>
+    <string name="wallet_lock_kept">Os dados do cartão que você estava digitando continuam aqui. Desbloqueie para continuar de onde parou. Eles são apagados depois de 10 minutos.</string>
+    <string name="wallet_lock_unlock">Desbloquear</string>
+    <string name="wallet_lock_back">Voltar</string>
+    <string name="wallet_lock_no_lock_title">Configure um bloqueio de tela</string>
+    <string name="wallet_lock_no_lock_body">Este celular não tem bloqueio de tela, então seus cartões de pagamento não podem ser abertos. Ative um PIN ou digital nas Configurações e volte. Eu verifico na hora.</string>
+    <string name="wallet_lock_open_settings">Abrir configurações de bloqueio de tela</string>
+</resources>

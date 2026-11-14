@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Kaarten voeg je toe, en elke betaling bevestig je, in de Kelo-app op je telefoon: kaartnummers zijn vergrendeld met een sleutel die alleen die telefoon heeft. Hier zie je je kaarten, kun je ze hernoemen of verwijderen, automatisch betalen uitzetten en de limieten instellen.</string>
+    <string name="desktop_ops_tag_phone">Betaalt via je telefoon</string>
+    <string name="desktop_ops_wallet_safe_body">Kaartnummers en CVC\'s worden vergrendeld met een sleutel die alleen je telefoon heeft voordat ze naar de server gaan. De server en je agent kunnen ze niet lezen, en elke betaling bevestig je op je telefoon met je vingerafdruk of schermvergrendeling.</string>
+    <string name="desktop_ops_wallet_paused_banner">Automatisch betalen is gepauzeerd. Elke betaling wordt op je telefoon gevraagd.</string>
+    <string name="desktop_ops_wallet_pause_on_body">Gepauzeerd. Elke betaling wordt op je telefoon gevraagd.</string>
+    <string name="desktop_ops_wallet_unfinished_body">Bij deze kaart ontbreken gegevens. Voer het kaartnummer en de CVC opnieuw in via de Kelo-app op je telefoon.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Je telefoon heeft geen kopie van deze kaart, dus nu kan hij alleen via automatisch betalen betalen. Voer de kaartgegevens opnieuw in via de Kelo-app op je telefoon voordat je het uitzet.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Elke betaling heeft je OK op je telefoon nodig, met je vingerafdruk of schermvergrendeling. De server kan het kaartnummer niet lezen.</string>
+    <string name="desktop_ops_wallet_on_phone">Zet automatisch betalen aan door deze kaart te openen in de Kelo-app op de telefoon die hem toevoegde. Je typt het nummer niet opnieuw.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Automatisch betalen uitzetten? De kopie op de server wordt meteen verwijderd en vanaf nu bevestig je elke betaling op je telefoon.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Automatisch betalen uitzetten? Je telefoon heeft geen kopie van deze kaart; daarna kun je er pas weer mee betalen als je de gegevens daar opnieuw invoert.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Nog geen enkele kaart betaalt vanzelf, dus elke betaling vraagt het op je telefoon. Wil je dat veranderen, zet dan automatisch betalen aan voor een kaart in de Kelo-app op je telefoon.</string>
+    <string name="desktop_ops_ship_card_on_phone">Voeg de kaart toe in de Kelo-app op je telefoon: kaartnummers zijn vergrendeld met een sleutel die alleen die telefoon heeft.</string>
+</resources>

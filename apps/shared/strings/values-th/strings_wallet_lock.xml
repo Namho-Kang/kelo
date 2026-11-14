@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">บัตรชำระเงินของคุณถูกล็อก</string>
+    <string name="wallet_lock_body">ยืนยันว่าเป็นคุณด้วยลายนิ้วมือ ใบหน้า หรือล็อกหน้าจอ (PIN รูปแบบ หรือรหัสผ่าน) เพื่อเปิดอีกครั้ง</string>
+    <string name="wallet_lock_kept">ข้อมูลบัตรที่คุณกำลังป้อนยังอยู่ ปลดล็อกเพื่อทำต่อจากที่ค้างไว้ จะถูกล้างหลัง 10 นาที</string>
+    <string name="wallet_lock_unlock">ปลดล็อก</string>
+    <string name="wallet_lock_back">กลับ</string>
+    <string name="wallet_lock_no_lock_title">ตั้งค่าล็อกหน้าจอ</string>
+    <string name="wallet_lock_no_lock_body">โทรศัพท์เครื่องนี้ไม่ได้ตั้งล็อกหน้าจอ จึงเปิดบัตรชำระเงินไม่ได้ ตั้ง PIN หรือลายนิ้วมือในการตั้งค่าแล้วกลับมา จะตรวจสอบให้ทันที</string>
+    <string name="wallet_lock_open_settings">เปิดการตั้งค่าล็อกหน้าจอ</string>
+</resources>

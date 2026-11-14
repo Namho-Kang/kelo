@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Repaso de la memoria: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">%d añadida</item>
+        <item quantity="many">%d añadidas</item>
+        <item quantity="other">%d añadidas</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">%d ordenada</item>
+        <item quantity="many">%d ordenadas</item>
+        <item quantity="other">%d ordenadas</item>
+    </plurals>
+    <string name="memory_pass_undone">Repaso de la memoria deshecho</string>
+    <string name="memory_pass_view">Qué cambió</string>
+    <string name="memory_pass_changes_title">Qué cambió en el repaso de la memoria</string>
+    <string name="memory_pass_no_lines">No hay líneas cambiadas que mostrar.</string>
+    <string name="memory_pass_undo">Deshacer este repaso</string>
+    <string name="memory_pass_undo_confirm">¿Dejar las notas como estaban antes de este repaso? Las notas editadas después se quedan como están.</string>
+    <string name="memory_pass_undo_gone">Este repaso ya no se puede deshacer.</string>
+    <string name="memory_pass_added_line">Añadido: %1$s</string>
+    <string name="memory_pass_removed_line">Quitado: %1$s</string>
+    <string name="memory_area_about_you">Sobre ti</string>
+    <string name="memory_area_to_remember">Cosas que recordar</string>
+    <string name="memory_area_people">Personas</string>
+    <string name="memory_area_working_notes">Notas de trabajo</string>
+</resources>

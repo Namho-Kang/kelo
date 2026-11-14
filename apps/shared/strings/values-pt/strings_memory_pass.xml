@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pt-BR text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Revisão da memória: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">%d adicionada</item>
+        <item quantity="many">%d adicionadas</item>
+        <item quantity="other">%d adicionadas</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">%d organizada</item>
+        <item quantity="many">%d organizadas</item>
+        <item quantity="other">%d organizadas</item>
+    </plurals>
+    <string name="memory_pass_undone">Revisão da memória desfeita</string>
+    <string name="memory_pass_view">O que mudou</string>
+    <string name="memory_pass_changes_title">O que a revisão da memória mudou</string>
+    <string name="memory_pass_no_lines">Nenhuma linha alterada para mostrar.</string>
+    <string name="memory_pass_undo">Desfazer esta revisão</string>
+    <string name="memory_pass_undo_confirm">Voltar as anotações para como estavam antes desta revisão? Anotações editadas depois ficam como estão.</string>
+    <string name="memory_pass_undo_gone">Esta revisão não pode mais ser desfeita.</string>
+    <string name="memory_pass_added_line">Adicionado: %1$s</string>
+    <string name="memory_pass_removed_line">Removido: %1$s</string>
+    <string name="memory_area_about_you">Sobre você</string>
+    <string name="memory_area_to_remember">Para lembrar</string>
+    <string name="memory_area_people">Pessoas</string>
+    <string name="memory_area_working_notes">Notas de trabalho</string>
+</resources>

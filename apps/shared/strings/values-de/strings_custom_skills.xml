@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Skills zum Freigeben</string>
+    <string name="skill_review_about">Kelo nutzt einen Skill erst, wenn du ihn freigibst. Beim Freigeben wird genau der angezeigte Text gespeichert.</string>
+    <string name="skill_review_drafting">Kelo schreibt einen Skill-Entwurf…</string>
+    <string name="skill_review_kind_new">Neuer Skill</string>
+    <string name="skill_review_kind_change">Änderung an einem Skill</string>
+    <string name="skill_review_kind_edited">Außerhalb der App geändert</string>
+    <string name="skill_review_edited_note">Die Dateien dieses Skills wurden außerhalb der App geändert. Kelo nutzt ihn erst wieder, wenn du ihn erneut freigibst.</string>
+    <string name="skill_review_edited_new_note">Dieser Skill wurde außerhalb der App hinzugefügt. Kelo nutzt ihn erst nach deiner Freigabe.</string>
+    <string name="skill_review_outside_note">Kelo hat bei dieser Arbeit Webseiten, E-Mails oder Dateien gelesen. Prüfe, ob jeder Schritt deinem Wunsch entspricht.</string>
+    <string name="skill_review_secrets_removed">Passwörter, Schlüssel und Codes wurden aus dem Text entfernt.</string>
+    <string name="skill_review_diff_counts">Hinzugefügt %1$d · Entfernt %2$d</string>
+    <string name="skill_review_show_all">Alles anzeigen</string>
+    <string name="skill_review_show_less">Weniger anzeigen</string>
+    <string name="skill_review_put_back">Änderungen rückgängig machen</string>
+    <string name="skill_review_discard">Verwerfen</string>
+    <string name="skill_review_approve">Freigeben</string>
+    <string name="skill_review_approved">Freigegeben. Kelo nutzt diesen Skill.</string>
+    <string name="skill_review_discarded">Verworfen</string>
+    <string name="skill_review_from_draft">Entwurf aus einer erledigten Aufgabe</string>
+    <string name="skill_review_from_disk">In den Dateien des Servers geändert</string>
+    <string name="skill_review_from_kelo">Von Kelo vorgeschlagen</string>
+    <string name="skill_save">Als Skill speichern</string>
+    <string name="skill_save_about">Kelo schreibt die Schritte dieser Aufgabe auf. Nichts ändert sich, bis du sie unter %1$s → %2$s freigibst.</string>
+    <string name="skill_save_started">Kelo entwirft einen Skill. Du findest ihn unter %1$s → %2$s.</string>
+    <string name="skill_save_busy">Aus dieser Aufgabe wird bereits ein Skill geschrieben.</string>
+    <string name="skill_save_unavailable">Dieser Server kann noch keine Skills speichern. Aktualisiere zuerst den Server.</string>
+    <string name="skill_save_no_model">Wähle zuerst ein Modell.</string>
+</resources>

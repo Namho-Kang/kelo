@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Bijnaam</string>
+    <string name="wallet_nickname_field">Bijnaam (optioneel)</string>
+    <string name="wallet_tag_default">Standaard</string>
+    <string name="wallet_default_title">Standaardkaart</string>
+    <string name="wallet_default_on">Kelo betaalt met deze kaart, tenzij jij of de taak een andere noemt.</string>
+    <string name="wallet_make_default">Als standaardkaart instellen</string>
+    <string name="wallet_delete_default_title">Kies een nieuwe standaardkaart</string>
+    <string name="wallet_delete_default_body">‘%1$s’ is je standaardkaart. Kies de kaart waarmee Kelo voortaan betaalt.</string>
+    <string name="wallet_card_history">Betalingen met deze kaart</string>
+    <string name="wallet_card_history_empty">Kelo heeft nog niet met deze kaart betaald.</string>
+    <string name="wallet_card_history_more">Oudere betalingen tonen</string>
+    <string name="wallet_open_chat">Chat openen</string>
+    <string name="wallet_open_task">Taak openen</string>
+    <string name="wallet_auto_from_phone">Deze telefoon opent zijn eigen kopie van de kaart met je vingerafdruk, gezicht of schermvergrendeling. Je typt het nummer niet opnieuw.</string>
+    <string name="wallet_auth_auto_title">Automatisch betalen aanzetten</string>
+    <string name="wallet_auth_auto_subtitle">De kopie van ‘%1$s’ op deze telefoon openen</string>
+    <string name="wallet_auto_not_here_title">Deze kaart staat niet op deze telefoon</string>
+    <string name="wallet_auto_not_here_body">Hij is op een ander apparaat toegevoegd, dus deze telefoon kan hem niet openen. Zet automatisch betalen aan op het apparaat dat hem toevoegde, of voer hier het kaartnummer in.</string>
+    <string name="wallet_auto_enter_number">Nummer invoeren</string>
+    <string name="wallet_auto_on_failed">Automatisch betalen kon niet aan. Probeer het opnieuw.</string>
+</resources>

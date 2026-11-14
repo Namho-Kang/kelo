@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Twoje karty płatnicze są zablokowane</string>
+    <string name="wallet_lock_body">Potwierdź tożsamość odciskiem palca, twarzą lub blokadą ekranu (PIN, wzór lub hasło), aby otworzyć je ponownie.</string>
+    <string name="wallet_lock_kept">Wpisywane dane karty nadal tu są. Odblokuj, aby kontynuować od miejsca, w którym przerwano. Zostaną wyczyszczone po 10 minutach.</string>
+    <string name="wallet_lock_unlock">Odblokuj</string>
+    <string name="wallet_lock_back">Wróć</string>
+    <string name="wallet_lock_no_lock_title">Ustaw blokadę ekranu</string>
+    <string name="wallet_lock_no_lock_body">Ten telefon nie ma blokady ekranu, więc nie można otworzyć kart płatniczych. Włącz PIN lub odcisk palca w Ustawieniach i wróć. Sprawdzę to od razu.</string>
+    <string name="wallet_lock_open_settings">Otwórz ustawienia blokady ekranu</string>
+</resources>

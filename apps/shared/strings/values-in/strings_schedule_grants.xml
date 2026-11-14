@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">Membayar sendiri dalam batasmu</string>
+    <string name="wallet_tag_asks">Bertanya setiap kali</string>
+    <string name="wallet_reason_not_auto">Kartu ini disimpan untuk bertanya setiap kali.</string>
+    <string name="wallet_reason_no_server_copy">Server tidak punya salinan kartu ini untuk bayar otomatis.</string>
+    <string name="wallet_reason_paused">Bayar otomatis dijeda untuk semua kartu.</string>
+    <string name="wallet_reason_vault_locked">Gantungan Kunci dikunci untuk agenmu.</string>
+    <string name="wallet_auto_turn_on_card">Nyalakan bayar otomatis untuk kartu ini</string>
+    <string name="wallet_first_site_rule">Meski bayar otomatis menyala, pembayaran pertama di situs baru bertanya sekali, begitu juga pembayaran di atas batasmu.</string>
+    <string name="wallet_auto_none_value">Tidak ada kartu dengan bayar otomatis</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="other">%d kartu dengan bayar otomatis</item>
+    </plurals>
+    <string name="wallet_auto_none_note">Belum ada kartu yang membayar sendiri, jadi setiap pembayaran bertanya di ponsel ini. Untuk mengubahnya, buka kartu lalu nyalakan bayar otomatis.</string>
+    <string name="wallet_schedule_section">Jadwal yang membeli sendiri</string>
+    <string name="grant_section_title">Diizinkan tanpa bertanya</string>
+    <string name="grant_section_note">Diizinkan sekali saat diatur. Total lebih tinggi, situs atau barang lain, dan perubahan akun tetap bertanya.</string>
+    <string name="grant_login_title">Masuk dengan %1$s</string>
+    <string name="grant_login_site">Di %1$s</string>
+    <string name="grant_purchase_title">Membeli %1$s</string>
+    <string name="grant_purchase_cap">Di %1$s · hingga %2$s per jalan, %3$s sebulan</string>
+    <string name="grant_spent">Bulan ini: %1$s</string>
+    <string name="grant_for_schedule">Untuk “%1$s”</string>
+    <string name="grant_revoke">Cabut</string>
+    <string name="grant_revoke_confirm">Cabut izin ini? Jalannya akan bertanya lagi.</string>
+    <string name="grant_login_section">Jadwal yang memakai login ini tanpa bertanya</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">Prima del tuo primo messaggio</string>
+    <string name="ai_consent_body">Per rispondere, Kelo invia i tuoi messaggi e ciò che serve (file allegati, risultati dei servizi collegati) al servizio di IA che scegli.</string>
+    <string name="ai_consent_now">Scelto ora: %1$s. Puoi vederlo e cambiarlo in Modello.</string>
+    <string name="ai_consent_not_now_note">Con «Non ora» non viene inviato nulla.</string>
+    <string name="ai_consent_privacy">Informativa sulla privacy</string>
+    <string name="ai_consent_agree">Accetto</string>
+    <string name="ai_consent_not_now">Non ora</string>
+    <string name="ai_chats_go_to">Le tue chat vanno a %1$s</string>
+    <string name="ai_chats_stay">Le tue chat restano nella tua rete</string>
+</resources>

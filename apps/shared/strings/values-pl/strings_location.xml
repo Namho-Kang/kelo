@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo potrzebuje Twojej lokalizacji</string>
+    <string name="location_ask_body">Aby odpowiedzieć, Kelo musi wiedzieć, gdzie jest teraz ten telefon.</string>
+    <string name="location_ask_private">Trafia tylko na Twój własny serwer.</string>
+    <string name="location_ask_share">Udostępnij moją lokalizację</string>
+    <string name="location_ask_not_now">Nie teraz</string>
+    <string name="location_ask_settings">Otwórz Ustawienia</string>
+    <string name="location_ask_settings_hint">Lokalizacja jest wyłączona dla Kelo. Włącz ją w Ustawieniach i wróć tutaj.</string>
+    <string name="location_services_off">Lokalizacja jest wyłączona na tym telefonie. Włącz ją w Ustawieniach i wróć tutaj.</string>
+    <string name="location_ask_reading">Ustalanie lokalizacji…</string>
+    <string name="location_ask_shared">Lokalizacja udostępniona</string>
+    <string name="location_ask_refused">Lokalizacja nieudostępniona</string>
+    <string name="location_ask_expired">Ta prośba wygasła</string>
+    <string name="location_ask_unavailable">Ten telefon nie mógł ustalić, gdzie jest. Sprawdź, czy lokalizacja jest włączona.</string>
+    <string name="chat_attached_file">Załączony plik</string>
+</resources>

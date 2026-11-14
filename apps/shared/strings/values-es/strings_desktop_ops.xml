@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Las tarjetas se añaden, y cada pago se confirma, en la app Kelo de tu teléfono: los números de tarjeta se cifran con una clave que solo tiene ese teléfono. Aquí puedes ver tus tarjetas, cambiarles el nombre o eliminarlas, desactivar el pago automático y fijar sus límites.</string>
+    <string name="desktop_ops_tag_phone">Paga desde tu teléfono</string>
+    <string name="desktop_ops_wallet_safe_body">Los números de tarjeta y los CVC se cifran con una clave que solo tiene tu teléfono antes de ir al servidor. Ni el servidor ni tu agente pueden leerlos, y cada pago se confirma en tu teléfono con tu huella o el bloqueo de pantalla.</string>
+    <string name="desktop_ops_wallet_paused_banner">El pago automático está en pausa. Cada pago se preguntará en tu teléfono.</string>
+    <string name="desktop_ops_wallet_pause_on_body">En pausa. Cada pago se preguntará en tu teléfono.</string>
+    <string name="desktop_ops_wallet_unfinished_body">A esta tarjeta le faltan datos. Vuelve a introducir el número y el CVC en la app Kelo de tu teléfono.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Tu teléfono no tiene una copia de esta tarjeta, así que ahora solo puede pagar con el pago automático. Vuelve a introducir los datos en la app Kelo de tu teléfono antes de desactivarlo.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Cada pago necesita tu aprobación en el teléfono, con tu huella o el bloqueo de pantalla. El servidor no puede leer el número de la tarjeta.</string>
+    <string name="desktop_ops_wallet_on_phone">Para activar el pago automático, abre esta tarjeta en la app Kelo del teléfono que la añadió. No tendrás que escribir el número de nuevo.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">¿Desactivar el pago automático? La copia del servidor se borra al instante y, a partir de ahora, cada pago se confirma en tu teléfono.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">¿Desactivar el pago automático? Tu teléfono no tiene una copia de esta tarjeta, así que no podrás pagar con ella hasta que vuelvas a introducir sus datos allí.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Todavía ninguna tarjeta paga sola, así que cada pago te pregunta en el teléfono. Para cambiarlo, activa el pago automático de una tarjeta en la app Kelo de tu teléfono.</string>
+    <string name="desktop_ops_ship_card_on_phone">Añade la tarjeta en la app Kelo de tu teléfono: los números de tarjeta se cifran con una clave que solo tiene ese teléfono.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">Cosa legge</string>
+    <string name="briefing_sources_about">Kelo legge tutti i calendari e le caselle di posta collegati per il riepilogo e gli avvisi. Disattivane uno per escluderlo.</string>
+    <string name="briefing_sources_calendars">Calendari</string>
+    <string name="briefing_sources_mail">Posta</string>
+    <string name="briefing_sources_chat">Puoi anche dirlo a Kelo in chat, per esempio: «togli la posta di lavoro dal riepilogo».</string>
+    <string name="briefing_sources_check">Controlla gli account ora</string>
+    <string name="briefing_sources_checking">Controllo…</string>
+    <string name="connector_method_caldav">Password per app di CalDAV</string>
+    <string name="caldav_help">Usa l\'indirizzo CalDAV indicato dal tuo fornitore (per esempio https://dav.fastmail.com/ per Fastmail), il tuo nome utente e una password per app.</string>
+    <string name="caldav_url">Indirizzo CalDAV</string>
+    <string name="caldav_user">Nome utente</string>
+    <string name="caldav_account_note">Kelo legge questo calendario solo per il riepilogo e gli avvisi. Non lo modifica mai.</string>
+    <string name="caldav_disconnect_confirm">Scollegare %1$s? La password per app salvata verrà cancellata.</string>
+    <string name="caldav_add_other">Aggiungi un altro calendario</string>
+    <string name="caldav_notify">Ho collegato il mio calendario. Continua pure.</string>
+</resources>

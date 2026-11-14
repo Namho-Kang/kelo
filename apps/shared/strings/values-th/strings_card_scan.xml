@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">สแกนบัตร</string>
+    <string name="card_scan_title">สแกนบัตรของคุณ</string>
+    <string name="card_scan_hint">วางด้านหน้าบัตรให้อยู่ในกรอบ ระบบอ่านบนโทรศัพท์เครื่องนี้เท่านั้น</string>
+    <string name="card_scan_preparing">กำลังเตรียมตัวสแกน…</string>
+    <string name="card_scan_filled">ตรวจสอบหมายเลขที่สแกน แล้วพิมพ์ CVC เอง</string>
+    <string name="card_scan_nothing">อ่านบัตรไม่ได้ ลองอีกครั้งหรือพิมพ์หมายเลข</string>
+    <string name="card_scan_camera_needed">Kelo ต้องใช้สิทธิ์เข้าถึงกล้องเพื่อสแกนบัตร ไม่มีการบันทึกรูปภาพ</string>
+    <string name="card_scan_camera_failed">เปิดกล้องไม่ได้ พิมพ์หมายเลขแทน</string>
+</resources>

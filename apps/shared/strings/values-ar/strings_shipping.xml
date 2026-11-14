@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">عناوين الشحن</string>
+    <string name="shipping_empty">لا يوجد عنوان محفوظ بعد. عندما يطلب Kelo شيئًا نيابةً عنك، يشحنه إلى عنوان محفوظ هنا.</string>
+    <string name="shipping_add">إضافة عنوان</string>
+    <string name="shipping_edit_title">تعديل العنوان</string>
+    <string name="shipping_home">المنزل</string>
+    <string name="shipping_nickname">اسم مختصر</string>
+    <string name="shipping_nickname_hint">مثل: المنزل، العمل</string>
+    <string name="shipping_country">البلد</string>
+    <string name="shipping_optional">اختياري</string>
+    <string name="shipping_label_optional">%1$s (%2$s)</string>
+    <string name="shipping_default_title">العنوان الافتراضي</string>
+    <string name="shipping_default_note">تصل الطلبات إلى هنا ما لم تحدد أنت أو المهمة عنوانًا آخر.</string>
+    <string name="shipping_delete">حذف هذا العنوان</string>
+    <string name="shipping_delete_confirm">هل تريد حذف العنوان \"%1$s\"؟</string>
+    <string name="shipping_err_required">املأ هذا الحقل</string>
+    <string name="shipping_err_pattern">تحقق من التنسيق (مثل: %1$s)</string>
+    <string name="shipping_err_format">تحقق من التنسيق</string>
+    <string name="shipping_err_phone">تحقق من رقم الهاتف</string>
+    <string name="shipping_example">مثل: %1$s</string>
+    <string name="shipping_pick">اختر</string>
+    <string name="shipping_country_search">ابحث عن بلد</string>
+    <string name="shipping_country_none">لا يوجد بلد مطابق</string>
+    <string name="shipping_form_failed">تعذّر تحميل نموذج العنوان.</string>
+    <string name="shipping_calling_code">رمز الاتصال %1$s</string>
+    <string name="shipping_ask_title">إلى أين نرسله؟</string>
+    <string name="shipping_ask_save">استخدامه للطلبات القادمة (حفظه كعنوان شحن)</string>
+    <string name="shipping_ask_pay">طريقة الدفع</string>
+    <string name="shipping_pay_card">إضافة بطاقة</string>
+    <string name="shipping_pay_site">الدفع على الموقع</string>
+    <string name="shipping_ask_send">إرسال العنوان</string>
+    <string name="shipping_ask_sending">جارٍ الإرسال…</string>
+    <string name="shipping_ask_done">الشحن إلى: %1$s</string>
+    <string name="shipping_ask_cancelled">لم يُقدَّم عنوان</string>
+    <string name="shipping_ask_expired">انتهت مهلة هذا النموذج</string>
+    <string name="shipping_ask_closed">أُغلق هذا النموذج</string>
+    <string name="order_items">المنتجات</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">الشحن إلى</string>
+    <string name="order_ship_site">العنوان المحفوظ على الموقع</string>
+    <string name="order_ship_once">لهذا الطلب فقط</string>
+    <string name="order_pay_with">الدفع بواسطة</string>
+    <string name="order_pay_site">على الموقع</string>
+    <string name="order_coupon">القسيمة</string>
+    <string name="order_total">الإجمالي</string>
+</resources>

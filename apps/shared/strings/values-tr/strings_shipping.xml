@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_shipping.xml (generated from values/strings_shipping.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="shipping_section">Teslimat adresleri</string>
+    <string name="shipping_empty">Henüz kayıtlı adres yok. Kelo senin için sipariş verdiğinde burada kayıtlı bir adrese gönderir.</string>
+    <string name="shipping_add">Adres ekle</string>
+    <string name="shipping_edit_title">Adresi düzenle</string>
+    <string name="shipping_home">Ev</string>
+    <string name="shipping_nickname">Takma ad</string>
+    <string name="shipping_nickname_hint">ör. Ev, Ofis</string>
+    <string name="shipping_country">Ülke</string>
+    <string name="shipping_optional">isteğe bağlı</string>
+    <string name="shipping_label_optional">%1$s (%2$s)</string>
+    <string name="shipping_default_title">Varsayılan adres</string>
+    <string name="shipping_default_note">Sen ya da görev başka bir adres belirtmedikçe siparişler buraya gelir.</string>
+    <string name="shipping_delete">Bu adresi sil</string>
+    <string name="shipping_delete_confirm">“%1$s” adresi silinsin mi?</string>
+    <string name="shipping_err_required">Bu alanı doldur</string>
+    <string name="shipping_err_pattern">Biçimi kontrol et (ör. %1$s)</string>
+    <string name="shipping_err_format">Biçimi kontrol et</string>
+    <string name="shipping_err_phone">Telefon numarasını kontrol et</string>
+    <string name="shipping_example">ör. %1$s</string>
+    <string name="shipping_pick">Seç</string>
+    <string name="shipping_country_search">Ülke ara</string>
+    <string name="shipping_country_none">Eşleşen ülke yok</string>
+    <string name="shipping_form_failed">Adres formu yüklenemedi.</string>
+    <string name="shipping_calling_code">Ülke kodu %1$s</string>
+    <string name="shipping_ask_title">Nereye teslim edilsin?</string>
+    <string name="shipping_ask_save">Sonraki siparişlerde de kullan (teslimat adresi olarak kaydet)</string>
+    <string name="shipping_ask_pay">Ödeme şekli</string>
+    <string name="shipping_pay_card">Kart ekle</string>
+    <string name="shipping_pay_site">Sitede öde</string>
+    <string name="shipping_ask_send">Adresi gönder</string>
+    <string name="shipping_ask_sending">Gönderiliyor…</string>
+    <string name="shipping_ask_done">Teslimat: %1$s</string>
+    <string name="shipping_ask_cancelled">Adres verilmedi</string>
+    <string name="shipping_ask_expired">Bu formun süresi doldu</string>
+    <string name="shipping_ask_closed">Bu form kapatıldı</string>
+    <string name="order_items">Ürünler</string>
+    <string name="order_quantity">× %1$d</string>
+    <string name="order_ship_to">Teslimat</string>
+    <string name="order_ship_site">Sitede kayıtlı adres</string>
+    <string name="order_ship_once">Yalnızca bu sipariş için</string>
+    <string name="order_pay_with">Ödeme</string>
+    <string name="order_pay_site">Sitede</string>
+    <string name="order_coupon">Kupon</string>
+    <string name="order_total">Toplam</string>
+</resources>

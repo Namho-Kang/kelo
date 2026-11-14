@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Mise à jour de la mémoire : %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">%d ajoutée</item>
+        <item quantity="many">%d ajoutées</item>
+        <item quantity="other">%d ajoutées</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">%d remaniée</item>
+        <item quantity="many">%d remaniées</item>
+        <item quantity="other">%d remaniées</item>
+    </plurals>
+    <string name="memory_pass_undone">Mise à jour de la mémoire annulée</string>
+    <string name="memory_pass_view">Ce qui a changé</string>
+    <string name="memory_pass_changes_title">Ce que la mise à jour de la mémoire a changé</string>
+    <string name="memory_pass_no_lines">Aucune ligne modifiée à afficher.</string>
+    <string name="memory_pass_undo">Annuler cette mise à jour</string>
+    <string name="memory_pass_undo_confirm">Remettre les notes comme avant cette mise à jour ? Les notes modifiées depuis restent telles quelles.</string>
+    <string name="memory_pass_undo_gone">Cette mise à jour ne peut plus être annulée.</string>
+    <string name="memory_pass_added_line">Ajouté : %1$s</string>
+    <string name="memory_pass_removed_line">Retiré : %1$s</string>
+    <string name="memory_area_about_you">À propos de vous</string>
+    <string name="memory_area_to_remember">À retenir</string>
+    <string name="memory_area_people">Personnes</string>
+    <string name="memory_area_working_notes">Notes de travail</string>
+</resources>

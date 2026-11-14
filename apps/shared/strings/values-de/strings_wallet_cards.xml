@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Spitzname</string>
+    <string name="wallet_nickname_field">Spitzname (optional)</string>
+    <string name="wallet_tag_default">Standard</string>
+    <string name="wallet_default_title">Standardkarte</string>
+    <string name="wallet_default_on">Kelo zahlt mit dieser Karte, solange du oder die Aufgabe keine andere nennt.</string>
+    <string name="wallet_make_default">Als Standardkarte festlegen</string>
+    <string name="wallet_delete_default_title">Neue Standardkarte wählen</string>
+    <string name="wallet_delete_default_body">„%1$s“ ist deine Standardkarte. Wähle die Karte, mit der Kelo ab jetzt zahlt.</string>
+    <string name="wallet_card_history">Zahlungen mit dieser Karte</string>
+    <string name="wallet_card_history_empty">Kelo hat mit dieser Karte noch nicht bezahlt.</string>
+    <string name="wallet_card_history_more">Ältere Zahlungen zeigen</string>
+    <string name="wallet_open_chat">Chat öffnen</string>
+    <string name="wallet_open_task">Aufgabe öffnen</string>
+    <string name="wallet_auto_from_phone">Dieses Telefon öffnet seine eigene Kopie der Karte mit Fingerabdruck, Gesicht oder Displaysperre. Du gibst die Nummer nicht erneut ein.</string>
+    <string name="wallet_auth_auto_title">Automatische Zahlung einschalten</string>
+    <string name="wallet_auth_auto_subtitle">Die Kopie von „%1$s“ auf diesem Telefon öffnen</string>
+    <string name="wallet_auto_not_here_title">Diese Karte ist nicht auf diesem Telefon</string>
+    <string name="wallet_auto_not_here_body">Sie wurde auf einem anderen Gerät hinzugefügt, daher kann dieses Telefon sie nicht öffnen. Schalte die automatische Zahlung auf dem Gerät ein, das sie hinzugefügt hat, oder gib die Kartennummer hier ein.</string>
+    <string name="wallet_auto_enter_number">Nummer eingeben</string>
+    <string name="wallet_auto_on_failed">Die automatische Zahlung ließ sich nicht einschalten. Versuch es noch einmal.</string>
+</resources>

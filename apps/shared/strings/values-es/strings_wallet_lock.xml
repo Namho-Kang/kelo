@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Tus tarjetas de pago están bloqueadas</string>
+    <string name="wallet_lock_body">Confirma que eres tú con tu huella, tu cara o el bloqueo de pantalla (PIN, patrón o contraseña) para volver a abrirlas.</string>
+    <string name="wallet_lock_kept">Los datos de tarjeta que estabas introduciendo siguen aquí. Desbloquea para seguir donde lo dejaste. Se borran después de 10 minutos.</string>
+    <string name="wallet_lock_unlock">Desbloquear</string>
+    <string name="wallet_lock_back">Volver</string>
+    <string name="wallet_lock_no_lock_title">Configura un bloqueo de pantalla</string>
+    <string name="wallet_lock_no_lock_body">Este teléfono no tiene bloqueo de pantalla, así que tus tarjetas de pago no se pueden abrir. Activa un PIN o la huella en Ajustes y vuelve. Lo compruebo al momento.</string>
+    <string name="wallet_lock_open_settings">Abrir ajustes de bloqueo de pantalla</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Segnala</string>
+    <string name="report_title">Segnala questa risposta</string>
+    <string name="report_intro">Se questa risposta ti ha turbato o era sbagliata, fallo sapere allo sviluppatore di Kelo. Serve solo a rendere Kelo più sicuro.</string>
+    <string name="report_reason_label">Qual era il problema?</string>
+    <string name="report_reason_harmful">Offensiva o dannosa</string>
+    <string name="report_reason_inaccurate">Non corretta nei fatti</string>
+    <string name="report_reason_privacy">Espone informazioni personali</string>
+    <string name="report_reason_other">Altro</string>
+    <string name="report_comment_hint">Altro da aggiungere? (facoltativo)</string>
+    <string name="report_include_asked">Invia anche il messaggio che ho mandato subito prima</string>
+    <string name="report_sent_title">Cosa arriva allo sviluppatore di Kelo</string>
+    <string name="report_sent_reply">La risposta che segnali</string>
+    <string name="report_sent_asked">Il messaggio che hai inviato subito prima</string>
+    <string name="report_sent_reason">Il motivo scelto ed eventuali commenti</string>
+    <string name="report_sent_model">Il nome del modello che ha scritto la risposta</string>
+    <string name="report_sent_version">Versione dell\'app Kelo</string>
+    <string name="report_sent_not">Non viene inviato nient\'altro delle tue chat né dati dell\'account. Le segnalazioni vengono conservate per 1 anno e poi eliminate — prima, se lo chiedi.</string>
+    <string name="report_send">Invia segnalazione</string>
+    <string name="report_sending">Invio…</string>
+    <string name="report_failed_offline">Impossibile raggiungere il tuo server. Ciò che hai scritto è ancora qui — riprova a inviare tra poco.</string>
+    <string name="report_thanks">Segnalazione inviata. Grazie per avercelo fatto sapere.</string>
+    <string name="operator_section_reports">Segnalazioni ricevute</string>
+    <string name="operator_reports_note">Risposte segnalate dagli utenti dall\'app. Vengono eliminate in automatico dopo 1 anno.</string>
+    <string name="operator_reports_not_receiving">Questo server non riceve segnalazioni. Le segnalazioni inviate da questo server vanno al server dello sviluppatore di Kelo.</string>
+    <string name="operator_reports_empty">Ancora nessuna segnalazione.</string>
+    <string name="operator_reports_open">Segnalazioni da gestire: %1$d</string>
+    <string name="operator_reports_show_handled">Mostra anche le segnalazioni gestite</string>
+    <string name="operator_reports_hide_handled">Mostra solo le segnalazioni da gestire</string>
+    <string name="operator_reports_reply">Risposta segnalata</string>
+    <string name="operator_reports_asked">Messaggio dell\'utente subito prima</string>
+    <string name="operator_reports_comment">Commento</string>
+    <string name="operator_reports_meta">%1$s · %2$s · App %3$s</string>
+    <string name="operator_reports_mark">Segna come gestita</string>
+    <string name="operator_reports_unmark">Segna come non gestita</string>
+    <string name="operator_reports_handled">Gestita</string>
+    <string name="operator_reports_delete">Elimina</string>
+    <string name="operator_reports_delete_confirm">Eliminare questa segnalazione? Non si può annullare.</string>
+    <string name="operator_reports_unknown">Sconosciuto</string>
+</resources>

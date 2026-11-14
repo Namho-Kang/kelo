@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">Hãy kết nối lại điện thoại này</string>
+    <string name="e2e_key_changed_body">Khóa mã hóa của máy chủ Kelo đã thay đổi, nên điện thoại này không thể kiểm tra đó có thật là máy chủ của bạn. Hãy quét mã QR kết nối mới từ Của tôi → Thiết bị của tôi trên thiết bị khác, hoặc từ máy chủ.</string>
+    <string name="e2e_pair_again">Kết nối lại</string>
+    <string name="e2e_server_old_title">Hãy cập nhật máy chủ Kelo</string>
+    <string name="e2e_server_old_body">Ứng dụng này cần máy chủ Kelo %1$s trở lên. Hãy cập nhật máy chủ rồi quay lại.</string>
+    <string name="e2e_server_old_version">Phiên bản máy chủ: %1$s</string>
+    <string name="e2e_retry">Thử lại</string>
+    <string name="devices_e2e_title">Mã hóa đầu cuối</string>
+    <string name="devices_e2e_on">Trên đường truyền, chỉ điện thoại này và máy chủ của bạn đọc được cuộc trò chuyện.</string>
+    <string name="devices_e2e_fingerprint">Dấu vân tay khóa máy chủ</string>
+    <string name="devices_e2e_verified">Đã xác minh khóa</string>
+    <string name="devices_e2e_not_verified">Chưa xác minh khóa</string>
+    <string name="devices_e2e_not_verified_body">Hãy so với dấu vân tay mà `assistant phone fingerprint` hiển thị trên máy chủ, hoặc quét mã QR kết nối một lần.</string>
+    <string name="devices_e2e_verify_scan">Xác minh bằng cách quét mã QR</string>
+    <string name="devices_e2e_verify_done">Khóa trùng khớp. Đã xác minh ✓</string>
+    <string name="devices_e2e_verify_mismatch">Mã QR này chứa khóa khác. Nếu khóa của máy chủ đã đổi, hãy kết nối lại điện thoại này.</string>
+    <string name="devices_e2e_verify_no_key">Mã QR này không có khóa. Hãy tạo mã mới từ máy chủ đã cập nhật.</string>
+</resources>

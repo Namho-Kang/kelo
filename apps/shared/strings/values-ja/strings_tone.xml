@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">話し方</string>
+    <string name="my_agent_tone_friendly">フレンドリー</string>
+    <string name="my_agent_tone_polite">ていねい</string>
+    <string name="my_agent_tone_friendly_example">明日10時に歯医者の予約があるよ。リマインダーをセットしとく？</string>
+    <string name="my_agent_tone_polite_example">明日10時に歯医者のご予約があります。リマインダーを設定しましょうか？</string>
+    <string name="my_agent_tone_failed">話し方を変更できませんでした。もう一度お試しください。</string>
+</resources>

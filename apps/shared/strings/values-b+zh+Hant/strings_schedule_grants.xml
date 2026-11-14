@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">在限額內不需詢問即可付款</string>
+    <string name="wallet_tag_asks">每次詢問</string>
+    <string name="wallet_reason_not_auto">這張卡儲存為每次詢問。</string>
+    <string name="wallet_reason_no_server_copy">伺服器上沒有用於自動付款的卡片副本。</string>
+    <string name="wallet_reason_paused">所有卡片的自動付款已暫停。</string>
+    <string name="wallet_reason_vault_locked">鑰匙圈已對助理鎖定。</string>
+    <string name="wallet_auto_turn_on_card">為這張卡開啟自動付款</string>
+    <string name="wallet_first_site_rule">即使開啟自動付款，在新網站的第一次付款也會詢問一次，超出限額的付款也會詢問。</string>
+    <string name="wallet_auto_none_value">沒有開啟自動付款的卡</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="other">%d 張卡開啟自動付款</item>
+    </plurals>
+    <string name="wallet_auto_none_note">還沒有不需詢問即可付款的卡，所以每筆付款都會在這支手機上詢問。要變更，請打開一張卡並開啟自動付款。</string>
+    <string name="wallet_schedule_section">自行購買的排程</string>
+    <string name="grant_section_title">已允許不需詢問</string>
+    <string name="grant_section_note">設定時允許過一次。金額更高、其他網站或商品以及帳號變更仍會詢問。</string>
+    <string name="grant_login_title">使用 %1$s 登入</string>
+    <string name="grant_login_site">在 %1$s</string>
+    <string name="grant_purchase_title">購買 %1$s</string>
+    <string name="grant_purchase_cap">%1$s · 每次最多 %2$s，每月 %3$s</string>
+    <string name="grant_spent">本月：%1$s</string>
+    <string name="grant_for_schedule">用於「%1$s」</string>
+    <string name="grant_revoke">撤銷</string>
+    <string name="grant_revoke_confirm">要撤銷此許可嗎？之後每次執行都會再詢問。</string>
+    <string name="grant_login_section">不需詢問即可使用此登入的排程</string>
+</resources>

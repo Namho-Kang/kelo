@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 결제 카드 잠금 화면 (앱을 나갔다 오면 다시 잠겨요) -->
+    <string name="wallet_lock_title">Your payment cards are locked</string>
+    <string name="wallet_lock_body">Confirm it\'s you with your fingerprint, face or screen lock (PIN, pattern or password) to open them again.</string>
+    <string name="wallet_lock_kept">The card details you were entering are still here. Unlock to pick up where you left off. They\'re cleared after 10 minutes.</string>
+    <string name="wallet_lock_unlock">Unlock</string>
+    <string name="wallet_lock_back">Go back</string>
+    <string name="wallet_lock_no_lock_title">Set up a screen lock</string>
+    <string name="wallet_lock_no_lock_body">This phone has no screen lock, so your payment cards can\'t be opened. Turn on a PIN or fingerprint in Settings and come back. I\'ll check right away.</string>
+    <string name="wallet_lock_open_settings">Open screen lock settings</string>
+</resources>

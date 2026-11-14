@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">Was gelesen wird</string>
+    <string name="briefing_sources_about">Kelo liest für die Übersicht und die Hinweise alle verbundenen Kalender und Postfächer. Schalte eines aus, um es auszulassen.</string>
+    <string name="briefing_sources_calendars">Kalender</string>
+    <string name="briefing_sources_mail">E-Mail</string>
+    <string name="briefing_sources_chat">Du kannst es Kelo auch im Chat sagen, zum Beispiel: „Lass meine Arbeitsmails aus der Übersicht raus“.</string>
+    <string name="briefing_sources_check">Konten jetzt prüfen</string>
+    <string name="briefing_sources_checking">Wird geprüft …</string>
+    <string name="connector_method_caldav">App-Passwort für CalDAV</string>
+    <string name="caldav_help">Gib die CalDAV-Adresse deines Anbieters (z. B. https://dav.fastmail.com/ bei Fastmail), deinen Benutzernamen und ein App-Passwort an.</string>
+    <string name="caldav_url">CalDAV-Adresse</string>
+    <string name="caldav_user">Benutzername</string>
+    <string name="caldav_account_note">Kelo liest diesen Kalender nur, für die Übersicht und die Hinweise. Er wird nie verändert.</string>
+    <string name="caldav_disconnect_confirm">%1$s trennen? Das gespeicherte App-Passwort wird gelöscht.</string>
+    <string name="caldav_add_other">Weiteren Kalender hinzufügen</string>
+    <string name="caldav_notify">Ich habe meinen Kalender verbunden. Bitte mach weiter.</string>
+</resources>

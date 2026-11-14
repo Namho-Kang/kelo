@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- My -> Agent -> Tone: how the agent talks to the user (profile "tone"). Friendly: casual, like a close friend (informal forms,
+         Korean 반말); polite: courteous (polite forms, Korean 해요체). Each choice shows one example sentence written in that tone, so
+         the difference is plain: in each language use its own informal vs polite form, or a relaxed vs a courteous sentence where the
+         language has no such forms. -->
+    <string name="my_agent_tone">Tone</string>
+    <string name="my_agent_tone_friendly">Friendly</string>
+    <string name="my_agent_tone_polite">Polite</string>
+    <string name="my_agent_tone_friendly_example">Dentist at 10 tomorrow. Want me to set a reminder?</string>
+    <string name="my_agent_tone_polite_example">You have a dentist appointment at 10 tomorrow. Would you like me to set a reminder?</string>
+    <string name="my_agent_tone_failed">Couldn\'t change the tone. Try again.</string>
+</resources>

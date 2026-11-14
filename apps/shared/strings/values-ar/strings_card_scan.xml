@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">مسح البطاقة</string>
+    <string name="card_scan_title">امسح بطاقتك</string>
+    <string name="card_scan_hint">ضع وجه البطاقة داخل الإطار. تتم القراءة على هذا الهاتف فقط.</string>
+    <string name="card_scan_preparing">جارٍ تجهيز الماسح…</string>
+    <string name="card_scan_filled">تحقق من الرقم الممسوح. أدخل رمز CVC بنفسك.</string>
+    <string name="card_scan_nothing">تعذرت قراءة البطاقة. حاول مرة أخرى أو اكتب الرقم.</string>
+    <string name="card_scan_camera_needed">يحتاج Kelo إلى الوصول إلى الكاميرا لمسح البطاقة. لا يتم حفظ أي صور.</string>
+    <string name="card_scan_camera_failed">تعذر فتح الكاميرا. اكتب الرقم بدلاً من ذلك.</string>
+</resources>

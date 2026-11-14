@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">أعد توصيل هذا الهاتف</string>
+    <string name="e2e_key_changed_body">تغيّر مفتاح التشفير في خادم Kelo، لذلك لا يستطيع هذا الهاتف التأكد من أنه خادمك فعلًا. امسح رمز QR جديدًا للاتصال من «حسابي ← أجهزتي» على جهاز آخر، أو من جهاز الخادم.</string>
+    <string name="e2e_pair_again">إعادة التوصيل</string>
+    <string name="e2e_server_old_title">حدّث خادم Kelo</string>
+    <string name="e2e_server_old_body">يحتاج هذا التطبيق إلى خادم Kelo بالإصدار %1$s أو أحدث. حدّث الخادم ثم ارجع.</string>
+    <string name="e2e_server_old_version">إصدار الخادم: %1$s</string>
+    <string name="e2e_retry">إعادة المحاولة</string>
+    <string name="devices_e2e_title">التشفير التام بين الطرفين</string>
+    <string name="devices_e2e_on">في الطريق، لا يقرأ محادثاتك إلا هذا الهاتف وخادمك.</string>
+    <string name="devices_e2e_fingerprint">بصمة مفتاح الخادم</string>
+    <string name="devices_e2e_verified">تم التحقق من المفتاح</string>
+    <string name="devices_e2e_not_verified">لم يتم التحقق من المفتاح</string>
+    <string name="devices_e2e_not_verified_body">قارنها بالبصمة التي يعرضها `assistant phone fingerprint` على جهاز الخادم، أو امسح رمز QR للاتصال مرة واحدة.</string>
+    <string name="devices_e2e_verify_scan">التحقق بمسح رمز QR</string>
+    <string name="devices_e2e_verify_done">المفتاح مطابق. تم التحقق ✓</string>
+    <string name="devices_e2e_verify_mismatch">رمز QR هذا يحمل مفتاحًا مختلفًا. إذا تغيّر مفتاح الخادم، فأعد توصيل هذا الهاتف.</string>
+    <string name="devices_e2e_verify_no_key">رمز QR هذا بلا مفتاح. أنشئ رمزًا جديدًا من خادم محدَّث.</string>
+</resources>

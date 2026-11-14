@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 데스크톱 앱에만 있는 문구 (한국어). 서버를 설치한 컴퓨터를 "내 컴퓨터"라고 부르지 않아요. -->
+<resources>
+    <string name="desktop_pair_step2">나온 링크를 복사해서 아래에 붙여 넣어요.</string>
+    <string name="desktop_tray_open">Kelo 열기</string>
+    <string name="desktop_tray_quit">Kelo 끝내기</string>
+    <string name="desktop_tray_stop">멈추기: %1$s</string>
+    <string name="desktop_still_running">Kelo는 트레이에서 계속 실행되고, 알아야 할 일이 생기면 알려 줘요.</string>
+    <string name="desktop_section">이 기기</string>
+    <string name="desktop_start_at_login">로그인하면 Kelo 시작</string>
+    <string name="desktop_start_at_login_hint">트레이에서 조용히 켜져서, 창을 열기 전에도 먼저 알림을 받을 수 있어요.</string>
+    <string name="desktop_start_at_login_store">Windows 설정 → 앱 → 시작 프로그램에서 켜고 끌 수 있어요.</string>
+    <string name="desktop_start_at_login_unavailable">설치한 앱에서 쓸 수 있어요.</string>
+    <string name="desktop_keep_in_tray">창을 닫아도 트레이에서 계속 실행</string>
+    <string name="desktop_notifications">데스크톱 알림</string>
+    <string name="desktop_notifications_hint">창이 숨어 있을 때 끝난 답장, 기다리는 승인, Kelo가 먼저 알려주는 소식을 알려 줘요.</string>
+    <string name="desktop_reduce_motion">움직임 줄이기</string>
+    <string name="desktop_theme">화면 모드</string>
+    <string name="desktop_theme_system">시스템 설정 따르기</string>
+    <string name="desktop_theme_light">밝게</string>
+    <string name="desktop_theme_dark">어둡게</string>
+    <string name="desktop_drop_here">여기에 파일을 놓으면 %1$s에게 보내요</string>
+    <string name="desktop_attach_files">파일 첨부 (파일당 최대 100MB)</string>
+    <string name="desktop_enter_hint">Enter로 보내기 · Shift+Enter로 줄바꿈</string>
+    <string name="desktop_logout_confirm">이 기기에서 로그아웃할까요? 다시 쓰려면 서버에 새로 연결해야 해요.</string>
+    <string name="desktop_version">Kelo 데스크톱 %1$s</string>
+    <string name="desktop_open_settings">설정 열기</string>
+    <string name="desktop_sign_in_browser">브라우저에서 로그인</string>
+    <string name="desktop_browser_opened">브라우저에 로그인 페이지를 열었어요. 끝나면 여기로 돌아오세요.</string>
+    <string name="desktop_chooser_setup_hint">아직 바로 쓸 수 있는 AI 서비스가 없어요. 아래에서 하나를 골라 키나 주소를 넣거나 로그인해 주세요.</string>
+    <string name="desktop_chooser_setup_title">서비스 설정하기</string>
+    <string name="desktop_update_quit_note">설치 프로그램을 열었어요. 설치하는 동안 Kelo를 종료하고, 끝나면 다시 열어 주세요.</string>
+    <string name="desktop_update_open_failed">설치 프로그램을 열지 못했어요. %1$s에 저장해 두었어요.</string>
+    <string name="desktop_e2e_on">오가는 길에서는 이 기기와 내 서버만 대화를 읽을 수 있어요.</string>
+    <string name="desktop_e2e_not_verified_body">서버 기기에서 `assistant phone fingerprint`가 보여주는 지문과 비교하거나, 연결 링크를 한 번 붙여넣어 주세요.</string>
+    <string name="desktop_e2e_verify_paste">링크로 확인하기</string>
+    <string name="desktop_e2e_paste_hint">연결 링크 붙여넣기 (https://…/#pair=…)</string>
+    <string name="desktop_e2e_verify_mismatch">이 링크에는 다른 키가 들어 있어요. 서버 키가 바뀌었다면 이 기기를 다시 연결해 주세요.</string>
+    <string name="desktop_e2e_verify_no_key">이 링크에는 키가 없어요. 업데이트한 서버에서 새 링크를 만들어 주세요.</string>
+    <string name="desktop_e2e_key_changed_body">Kelo 서버의 암호화 키가 바뀌어서, 이 기기가 정말 내 서버인지 확인할 수 없어요. 다른 기기의 마이 → 내 기기나 서버 기기에서 새 연결 링크를 받아 붙여넣어 주세요.</string>
+    <string name="desktop_location_on_phone">이 컴퓨터에서는 위치를 보낼 수 없어요. 폰에서 Kelo를 열어 위치를 보내거나, 나중에를 눌러 주세요.</string>
+    <string name="desktop_keyguard_locked_body">폰에서 Kelo를 열어 잠금을 풀 때까지 비밀번호, 키, 카드는 닫혀 있어요. 이 컴퓨터에는 키가 없어요.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">ニックネーム</string>
+    <string name="wallet_nickname_field">ニックネーム(任意)</string>
+    <string name="wallet_tag_default">既定</string>
+    <string name="wallet_default_title">既定のカード</string>
+    <string name="wallet_default_on">別のカードを指定しない限り、Kelo はこのカードで支払います。</string>
+    <string name="wallet_make_default">既定のカードにする</string>
+    <string name="wallet_delete_default_title">新しい既定のカードを選択</string>
+    <string name="wallet_delete_default_body">「%1$s」は既定のカードです。今後 Kelo が支払いに使うカードを選んでください。</string>
+    <string name="wallet_card_history">このカードでの支払い</string>
+    <string name="wallet_card_history_empty">Kelo はまだこのカードで支払っていません。</string>
+    <string name="wallet_card_history_more">以前の支払いを表示</string>
+    <string name="wallet_open_chat">チャットを開く</string>
+    <string name="wallet_open_task">タスクを開く</string>
+    <string name="wallet_auto_from_phone">この端末にあるカードの控えを指紋・顔・画面ロックで開いてオンにします。番号を入力し直す必要はありません。</string>
+    <string name="wallet_auth_auto_title">自動支払いをオン</string>
+    <string name="wallet_auth_auto_subtitle">この端末にある「%1$s」を開きます</string>
+    <string name="wallet_auto_not_here_title">このカードはこの端末にありません</string>
+    <string name="wallet_auto_not_here_body">別の端末で追加したカードのため、この端末では開けません。追加した端末で自動支払いをオンにするか、ここでカード番号を入力し直してください。</string>
+    <string name="wallet_auto_enter_number">番号を入力</string>
+    <string name="wallet_auto_on_failed">自動支払いをオンにできませんでした。もう一度お試しください。</string>
+</resources>

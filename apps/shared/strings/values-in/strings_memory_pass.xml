@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Merapikan ingatan: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="other">%d ditambahkan</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="other">%d dirapikan</item>
+    </plurals>
+    <string name="memory_pass_undone">Merapikan ingatan dibatalkan</string>
+    <string name="memory_pass_view">Yang berubah</string>
+    <string name="memory_pass_changes_title">Yang diubah saat merapikan ingatan</string>
+    <string name="memory_pass_no_lines">Tidak ada baris yang berubah.</string>
+    <string name="memory_pass_undo">Batalkan perapian ini</string>
+    <string name="memory_pass_undo_confirm">Kembalikan catatan seperti sebelum perapian ini? Catatan yang diubah sesudahnya tetap seperti sekarang.</string>
+    <string name="memory_pass_undo_gone">Perapian ini sudah tidak bisa dibatalkan.</string>
+    <string name="memory_pass_added_line">Ditambahkan: %1$s</string>
+    <string name="memory_pass_removed_line">Dihapus: %1$s</string>
+    <string name="memory_area_about_you">Tentang Anda</string>
+    <string name="memory_area_to_remember">Yang perlu diingat</string>
+    <string name="memory_area_people">Orang</string>
+    <string name="memory_area_working_notes">Catatan kerja</string>
+</resources>

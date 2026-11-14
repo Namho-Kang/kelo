@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">語氣</string>
+    <string name="my_agent_tone_friendly">親切</string>
+    <string name="my_agent_tone_polite">禮貌</string>
+    <string name="my_agent_tone_friendly_example">明天10點你約了牙醫喔，要我幫你設個提醒嗎？</string>
+    <string name="my_agent_tone_polite_example">您明天10點有牙醫預約，需要我為您設定提醒嗎？</string>
+    <string name="my_agent_tone_failed">無法變更語氣，請再試一次。</string>
+</resources>

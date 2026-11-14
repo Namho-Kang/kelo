@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">تُفتح كلمات المرور والمفاتيح والبطاقات بمفتاح واحد. عادةً يحتفظ الخادم به بجانبها. عند التفعيل يحتفظ به هاتفك وحده، فلا يستطيع من يأخذ قرص الخادم فتحها.</string>
+    <string name="keyguard_restart_note">بعد كل إعادة تشغيل للخادم، بما فيها التحديثات، يبقى Kelo مقفلًا حتى تفتحه على هاتفك وتؤكد هويتك. حتى ذلك الحين لا يستطيع Kelo استخدام كلمات المرور والمفاتيح والبطاقات.</string>
+    <string name="keyguard_window_note">في إصدار Android هذا يبقى المفتاح قابلًا للاستخدام 30 ثانية بعد التأكيد.</string>
+    <string name="keyguard_turn_on">تفعيل</string>
+    <string name="keyguard_turning_on">جارٍ التفعيل…</string>
+    <string name="keyguard_turn_on_confirm">هل تريد التفعيل؟ ستحصل على رمز استرداد لتدوّنه. من دون هذا الهاتف أو ذلك الرمز لا يستطيع الخادم فتح كلمات المرور والمفاتيح والبطاقات.</string>
+    <string name="keyguard_not_owner">لا يغيّر هذا إلا هاتف المالك.</string>
+    <string name="keyguard_env_key">ما زال الخادم يحتفظ بمفتاحه في ملف الإعدادات. شغّل أولًا `assistant keyguard enable` على جهاز الخادم، ثم حاول هنا مرة أخرى.</string>
+    <string name="keyguard_no_lock">اضبط أولًا قفلًا للشاشة على هذا الهاتف.</string>
+    <string name="keyguard_recovery_title">رمز الاسترداد</string>
+    <string name="keyguard_recovery_warning">هذا الرمز هو الطريقة الوحيدة للعودة إذا فقدت كل الهواتف التي تحمل المفتاح. يظهر الآن فقط ولا يُحفظ في أي مكان. دوّنه واحفظه في مكان آمن.</string>
+    <string name="keyguard_recovery_confirm">دوّنته</string>
+    <string name="keyguard_done">تم</string>
+    <string name="keyguard_phones_title">الهواتف التي تحمل المفتاح</string>
+    <string name="keyguard_this_phone">%1$s (هذا الهاتف)</string>
+    <string name="keyguard_add_this_phone">احتفظ بالمفتاح على هذا الهاتف أيضًا</string>
+    <string name="keyguard_remove_this_phone">إزالة نسخة هذا الهاتف</string>
+    <string name="keyguard_remove_confirm">هل تريد إزالة المفتاح من هذا الهاتف؟ تستطيع الهواتف الأخرى التي تحمله فتح Kelo.</string>
+    <string name="keyguard_last_phone">هذا هو الهاتف الوحيد الذي يحمل المفتاح. أضف هاتفًا آخر أولًا أو أوقف هذه الميزة.</string>
+    <string name="keyguard_turn_off">إيقاف</string>
+    <string name="keyguard_turn_off_confirm">هل تعيد المفتاح إلى الخادم؟ ستُفتح كلمات المرور والمفاتيح والبطاقات من جديد دون هاتفك.</string>
+    <string name="keyguard_locked_title">Kelo مقفل</string>
+    <string name="keyguard_locked_body">تبقى كلمات المرور والمفاتيح والبطاقات مغلقة حتى تفتح Kelo بهذا الهاتف.</string>
+    <string name="keyguard_locked_other">لا يحمل هذا الهاتف المفتاح. افتح Kelo على هاتف يحمله، أو استخدم رمز الاسترداد.</string>
+    <string name="keyguard_on_phone_only">قم بتفعيله في Kelo على هاتفك. الهاتف وحده يحمل المفتاح، وليس هذا الكمبيوتر أبدًا.</string>
+    <string name="keyguard_unlock">فتح</string>
+    <string name="keyguard_unlocking">جارٍ الفتح…</string>
+    <string name="keyguard_unlocked">تم فتح Kelo</string>
+    <string name="keyguard_use_code">استخدام رمز الاسترداد</string>
+    <string name="keyguard_code_hint">رمز الاسترداد</string>
+    <string name="keyguard_code_wrong">لم ينجح هذا الرمز. تحقّق منه وحاول مرة أخرى.</string>
+    <string name="keyguard_key_lost">لم يعد مفتاح هذا الهاتف موجودًا (مثلًا بعد إزالة قفل الشاشة). استخدم هاتفًا آخر أو رمز الاسترداد.</string>
+    <string name="keyguard_failed">لم ينجح ذلك. حاول مرة أخرى.</string>
+    <string name="keyguard_prompt_title">فتح Kelo</string>
+    <string name="keyguard_prompt_subtitle">أكّد هويتك</string>
+    <string name="keyguard_prompt_wrap">الاحتفاظ بمفتاح Kelo على هذا الهاتف</string>
+    <string name="wallet_keyguard_needed_title">يحتاج الدفع التلقائي إلى Keyguard</string>
+    <string name="wallet_keyguard_needed_body">تُحفظ بطاقات الدفع التلقائي على الخادم. عند تشغيل Keyguard لا يُفتح قفلها إلا بهذا الهاتف.</string>
+    <string name="keyguard_turn_on_named">تشغيل Keyguard</string>
+    <string name="wallet_auto_paused_keyguard">الدفع التلقائي متوقف حتى تشغيل Keyguard. حتى ذلك الحين يُطلب منك تأكيد كل دفعة على هاتفك.</string>
+    <string name="wallet_auto_copy_note">يحتفظ الخادم بنسخة مقفلة للدفع التلقائي، ولا يفتحها إلا هاتف المالك.</string>
+</resources>

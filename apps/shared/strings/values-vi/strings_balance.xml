@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">Số dư</string>
+    <string name="balance_limit_left">Còn lại trong hạn mức của khóa</string>
+    <string name="balance_used_today">Đã chi hôm nay</string>
+    <string name="balance_used_week">Đã chi tuần này</string>
+    <string name="balance_used_month">Đã chi tháng này</string>
+</resources>

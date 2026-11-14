@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">清理</string>
+    <string name="storage_cleanup_title">清理存储空间</string>
+    <string name="storage_warn">Kelo 存储空间已用 %1$d%%。</string>
+    <string name="storage_critical">Kelo 存储空间快满了(%1$d%%)。满了以后无法保存新文件,但聊天可以继续。</string>
+    <string name="storage_host_low">运行 Kelo 服务器的电脑磁盘快满了(剩余 %1$s)。满了以后 Kelo 会停止工作,包括聊天。</string>
+    <string name="storage_top">占用最多的是:%1$s(%2$s)。</string>
+    <string name="storage_row_warn">已用 %1$d%%</string>
+    <string name="storage_row_critical">快满了</string>
+    <string name="storage_row_host">磁盘不足</string>
+    <string name="storage_cleanup_intro">这些内容可以放心删除。笔记、记忆和聊天记录不会出现在这里。</string>
+    <string name="storage_group_uploads">旧的上传原件</string>
+    <string name="storage_group_uploads_desc">%1$d 天前上传的文件。只删除原件,Kelo 从文档中读取的文字会保留。</string>
+    <string name="storage_group_images">生成的图片</string>
+    <string name="storage_group_images_desc">Kelo 生成的图片。以前显示这些图片的聊天将不再显示。</string>
+    <string name="storage_group_browser">浏览器操作截图</string>
+    <string name="storage_group_browser_desc">自动运行的任务中每一步浏览器操作的截图。</string>
+    <string name="storage_group_results">旧的成果和回收站</string>
+    <string name="storage_group_results_desc">超过 %1$d 天的成果以及回收站里的全部内容。</string>
+    <string name="storage_group_backups">较早的备份</string>
+    <string name="storage_group_backups_desc">最新的备份始终会保留。</string>
+    <string name="storage_item_text_kept">文字保留</string>
+    <string name="storage_item_trashed">在回收站</string>
+    <string name="storage_backup_update">服务器更新前</string>
+    <string name="storage_backup_memory">记忆整理</string>
+    <string name="storage_backup_migration">旧版结构</string>
+    <string name="storage_selected">已选 %1$d 项(%2$s)</string>
+    <string name="storage_delete_button">删除</string>
+    <string name="storage_confirm_title">要永久删除选中的项目吗?</string>
+    <string name="storage_confirm_body">将腾出 %1$s。删除后无法恢复。</string>
+    <string name="storage_deleted">已腾出 %1$s。</string>
+    <string name="storage_skipped">部分项目已经变化,因此保持原样。</string>
+    <string name="storage_nothing">目前没有可清理的内容。</string>
+    <string name="storage_owner_only">只有服务器的主人可以清理。</string>
+    <string name="storage_load_failed">无法加载可清理的内容。</string>
+    <string name="storage_delete_failed">删除失败,请重试。</string>
+    <string name="storage_notify">存储空间快满了</string>
+</resources>

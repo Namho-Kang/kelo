@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Что может делать Kelo</string>
+    <string name="perm_about">Разрешить: без карточки. Спрашивать: карточка каждый раз. Выкл.: Kelo этого не делает. Платежи и регистрации всегда спрашивают.</string>
+    <string name="perm_kind_read">Чтение</string>
+    <string name="perm_kind_change">Изменение</string>
+    <string name="perm_kind_send">Отправка</string>
+    <string name="perm_kind_delete">Удаление</string>
+    <string name="perm_allow">Разрешить</string>
+    <string name="perm_ask">Спрашивать</string>
+    <string name="perm_off">Выкл.</string>
+    <string name="perm_default_is">По умолчанию: %1$s</string>
+    <string name="perm_changed_from">По умолчанию — %1$s</string>
+    <string name="perm_actions_more">Отдельных действий: %1$d</string>
+    <string name="perm_reset">Вернуть значения по умолчанию</string>
+    <string name="perm_reset_q">Вернуть все настройки этого коннектора к значениям по умолчанию?</string>
+    <string name="perm_read_off_q">Если чтение выключено, Kelo почти не сможет использовать этот коннектор. Выключить?</string>
+    <string name="perm_limited">Ограничен</string>
+</resources>

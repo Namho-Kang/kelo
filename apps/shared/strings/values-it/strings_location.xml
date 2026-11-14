@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo ha bisogno della tua posizione</string>
+    <string name="location_ask_body">Per rispondere, Kelo deve sapere dove si trova ora questo telefono.</string>
+    <string name="location_ask_private">Viene inviata solo al tuo server.</string>
+    <string name="location_ask_share">Condividi la mia posizione</string>
+    <string name="location_ask_not_now">Non ora</string>
+    <string name="location_ask_settings">Apri Impostazioni</string>
+    <string name="location_ask_settings_hint">La posizione è disattivata per Kelo. Attivala nelle Impostazioni, poi torna qui.</string>
+    <string name="location_services_off">La posizione è disattivata su questo telefono. Attivala nelle Impostazioni, poi torna qui.</string>
+    <string name="location_ask_reading">Rilevamento della posizione…</string>
+    <string name="location_ask_shared">Posizione condivisa</string>
+    <string name="location_ask_refused">Posizione non condivisa</string>
+    <string name="location_ask_expired">Questa richiesta è scaduta</string>
+    <string name="location_ask_unavailable">Questo telefono non è riuscito a capire dove si trova. Controlla che la posizione sia attiva.</string>
+    <string name="chat_attached_file">File allegato</string>
+</resources>

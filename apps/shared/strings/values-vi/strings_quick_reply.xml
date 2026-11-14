@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_quick_reply.xml (generated from values/strings_quick_reply.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="reply_other">Khác</string>
+    <string name="reply_pick_date">Chọn ngày</string>
+    <string name="reply_pick_time">Chọn giờ</string>
+    <string name="reply_number_hint">Nhập một số</string>
+    <string name="reply_number_range">Từ %1$s đến %2$s</string>
+    <string name="reply_date_at">%1$s lúc %2$s</string>
+</resources>

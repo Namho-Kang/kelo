@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iPhone only (Android does not read these): the Live Activity of a running reply on the lock screen and in the Dynamic Island. -->
+    <string name="live_working">Kelo çalışıyor</string>
+    <string name="live_waiting">Onayını bekliyor</string>
+    <string name="live_done">Bitti</string>
+    <string name="live_failed">Tamamlanamadı</string>
+    <string name="live_stopped">Durduruldu</string>
+    <string name="live_stop">Durdur</string>
+    <string name="live_steps">Adım %1$d</string>
+</resources>

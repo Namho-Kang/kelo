@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The emoji on the user's own message (reactions): 👀 while Kelo works on it ("Read"), then one emoji. Spoken by screen readers. -->
+    <string name="chat_reaction_read">Read</string>
+    <string name="chat_reaction_done">Reaction: %1$s</string>
+</resources>

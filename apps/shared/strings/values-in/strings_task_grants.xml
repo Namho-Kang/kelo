@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">Saat ini terjadi, lakukan ini tanpa bertanya?</string>
+    <string name="task_grant_when">Saat</string>
+    <string name="task_grant_does">Kelo akan</string>
+    <string name="task_grant_buy">Membeli</string>
+    <string name="task_grant_limits">Batas</string>
+    <string name="task_grant_per_time">Maksimal %1$s per kali</string>
+    <string name="task_grant_times_one">Hanya sekali</string>
+    <string name="task_grant_times">Paling banyak %1$d kali</string>
+    <string name="task_grant_no_count">Tanpa batas jumlah</string>
+    <string name="task_grant_monthly">Paling banyak %1$s sebulan</string>
+    <string name="task_grant_card">Kartu</string>
+    <string name="task_grant_card_limit">Batas bayar otomatis kartu ini %1$s. Izinkan hingga %2$s untuk tugas ini?</string>
+    <string name="task_grant_card_not_auto">Kartu ini tidak membayar sendiri. Tugas ini boleh membayar hingga %1$s.</string>
+    <string name="task_grant_card_phone_only">Kartu ini hanya disimpan di ponselmu, jadi setiap pembayaran tetap akan bertanya.</string>
+    <string name="task_grant_ship_to">Kirim ke</string>
+    <string name="task_grant_send_to">Mengirim ke</string>
+    <string name="task_grant_message">Pesan</string>
+    <string name="task_grant_varies">Boleh berubah: %1$s</string>
+    <string name="task_grant_change">Mengubah</string>
+    <string name="task_grant_apply">Mendaftar</string>
+    <string name="task_grant_apply_per_run">Hingga %1$d per jalan</string>
+    <string name="task_grant_apply_total">Total %1$d</string>
+    <string name="task_grant_row_apply">Mendaftar untuk %1$s</string>
+    <string name="task_grant_delete_yes">Boleh menghapus</string>
+    <string name="task_grant_delete_no">Tidak pernah menghapus</string>
+    <string name="task_grant_login">Masuk</string>
+    <string name="task_grant_login_line">Login %1$s di %2$s</string>
+    <string name="task_grant_once">Berhenti sendiri setelah selesai, jadi tidak ada yang terjadi dua kali.</string>
+    <string name="task_grant_after">Kamu akan dapat pemberitahuan tepat setelahnya. Hal lain tetap akan bertanya.</string>
+    <string name="task_grant_urgent">Penting: harap segera jawab</string>
+    <string name="task_grant_urgent_missed">Penting: kalau terlambat menjawab, %1$s</string>
+    <string name="task_grant_row_send">Mengirim ke %1$s</string>
+    <string name="task_grant_row_change">Mengubah %1$s</string>
+    <string name="task_grant_row_when">Saat: %1$s</string>
+    <string name="task_grant_row_card">Kartu: %1$s</string>
+    <string name="task_grant_row_left">Sisa %1$d dari %2$d</string>
+    <string name="task_grant_row_once">lalu berhenti</string>
+    <string name="task_grant_section_note">Diizinkan sekali saat penyiapan. Hal lain tetap bertanya.</string>
+    <string name="notify_channel_urgent">Permintaan penting</string>
+    <string name="notify_channel_urgent_desc">Saat tugas yang kamu siapkan butuh jawaban sebelum terlambat</string>
+    <string name="notify_approval_urgent">Penting: harap konfirmasi</string>
+</resources>

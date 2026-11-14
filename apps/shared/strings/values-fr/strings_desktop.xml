@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text only the desktop app has (fr). See values/strings_desktop.xml. -->
+<resources>
+    <string name="desktop_pair_step2">Copiez le lien affiché et collez-le ci-dessous.</string>
+    <string name="desktop_tray_open">Ouvrir Kelo</string>
+    <string name="desktop_tray_quit">Quitter Kelo</string>
+    <string name="desktop_tray_stop">Arrêter : %1$s</string>
+    <string name="desktop_still_running">Kelo continue de tourner dans la zone de notification et vous prévient quand quelque chose vous attend.</string>
+    <string name="desktop_section">Cet appareil</string>
+    <string name="desktop_start_at_login">Lancer Kelo à l\'ouverture de session</string>
+    <string name="desktop_start_at_login_hint">Kelo s\'ouvre discrètement dans la zone de notification : les alertes vous parviennent même avant d\'ouvrir la fenêtre.</string>
+    <string name="desktop_start_at_login_store">Activez-le ou désactivez-le dans Paramètres Windows → Applications → Démarrage.</string>
+    <string name="desktop_start_at_login_unavailable">Disponible dans l\'app installée.</string>
+    <string name="desktop_keep_in_tray">Rester dans la zone de notification quand la fenêtre se ferme</string>
+    <string name="desktop_notifications">Notifications du bureau</string>
+    <string name="desktop_notifications_hint">Réponses terminées pendant que la fenêtre est masquée, approbations en attente et nouvelles quand Kelo vous prévient en premier.</string>
+    <string name="desktop_reduce_motion">Réduire les animations</string>
+    <string name="desktop_theme">Apparence</string>
+    <string name="desktop_theme_system">Comme le système</string>
+    <string name="desktop_theme_light">Clair</string>
+    <string name="desktop_theme_dark">Sombre</string>
+    <string name="desktop_drop_here">Déposez des fichiers ici pour les envoyer à %1$s</string>
+    <string name="desktop_attach_files">Joindre des fichiers (100 Mo max. chacun)</string>
+    <string name="desktop_enter_hint">Entrée pour envoyer · Maj+Entrée pour aller à la ligne</string>
+    <string name="desktop_logout_confirm">Se déconnecter sur cet appareil ? Pour l\'utiliser à nouveau, il faudra se reconnecter au serveur depuis le début.</string>
+    <string name="desktop_version">Kelo pour ordinateur %1$s</string>
+    <string name="desktop_open_settings">Ouvrir les paramètres</string>
+    <string name="desktop_sign_in_browser">Se connecter dans le navigateur</string>
+    <string name="desktop_browser_opened">La page de connexion s\'est ouverte dans votre navigateur. Revenez ici une fois terminé.</string>
+    <string name="desktop_chooser_setup_hint">Aucun service d\'IA n\'est encore prêt. Choisissez-en un ci-dessous et ajoutez sa clé ou son adresse, ou connectez-vous.</string>
+    <string name="desktop_chooser_setup_title">Configurer un service</string>
+    <string name="desktop_update_quit_note">Le programme d’installation est ouvert. Quittez Kelo pendant l’installation, puis relancez Kelo.</string>
+    <string name="desktop_update_open_failed">Impossible d’ouvrir le programme d’installation. Il est enregistré dans %1$s.</string>
+    <string name="desktop_e2e_on">Pendant le trajet, seuls cet appareil et votre serveur peuvent lire vos conversations.</string>
+    <string name="desktop_e2e_not_verified_body">Comparez avec l\'empreinte affichée par `assistant phone fingerprint` sur la machine du serveur, ou collez une fois un lien de connexion.</string>
+    <string name="desktop_e2e_verify_paste">Vérifier avec un lien</string>
+    <string name="desktop_e2e_paste_hint">Collez un lien de connexion (https://…/#pair=…)</string>
+    <string name="desktop_e2e_verify_mismatch">Ce lien porte une autre clé. Si la clé du serveur a changé, reconnectez cet appareil.</string>
+    <string name="desktop_e2e_verify_no_key">Ce lien ne contient pas de clé. Créez-en un nouveau avec un serveur à jour.</string>
+    <string name="desktop_e2e_key_changed_body">La clé de chiffrement de votre serveur Kelo a changé : cet appareil ne peut donc pas vérifier qu\'il s\'agit bien de votre serveur. Collez un nouveau lien de connexion depuis Moi → Mes appareils sur un autre appareil, ou depuis la machine du serveur.</string>
+    <string name="desktop_location_on_phone">Cet ordinateur ne peut pas partager votre position. Ouvrez Kelo sur votre téléphone pour la partager, ou choisissez « Pas maintenant ».</string>
+    <string name="desktop_keyguard_locked_body">Vos mots de passe, clés et cartes restent fermés jusqu\'à ce que vous ouvriez Kelo sur votre téléphone pour le déverrouiller. Cet ordinateur ne détient pas la clé.</string>
+</resources>

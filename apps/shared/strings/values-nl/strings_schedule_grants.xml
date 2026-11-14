@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">Betaalt zelf binnen je limieten</string>
+    <string name="wallet_tag_asks">Vraagt elke keer</string>
+    <string name="wallet_reason_not_auto">Deze kaart is opgeslagen om elke keer te vragen.</string>
+    <string name="wallet_reason_no_server_copy">De server heeft geen kopie van deze kaart voor automatisch betalen.</string>
+    <string name="wallet_reason_paused">Automatisch betalen is gepauzeerd voor alle kaarten.</string>
+    <string name="wallet_reason_vault_locked">De sleutelhanger is vergrendeld voor je agent.</string>
+    <string name="wallet_auto_turn_on_card">Automatisch betalen aanzetten voor deze kaart</string>
+    <string name="wallet_first_site_rule">Ook met automatisch betalen vraagt de eerste betaling op een nieuwe site één keer, net als elke betaling boven je limieten.</string>
+    <string name="wallet_auto_none_value">Geen kaart met automatisch betalen</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="one">%d kaart met automatisch betalen</item>
+        <item quantity="other">%d kaarten met automatisch betalen</item>
+    </plurals>
+    <string name="wallet_auto_none_note">Nog geen kaart betaalt zelf, dus elke betaling vraagt op deze telefoon. Open een kaart en zet automatisch betalen aan om dat te veranderen.</string>
+    <string name="wallet_schedule_section">Planningen die zelf kopen</string>
+    <string name="grant_section_title">Toegestaan zonder te vragen</string>
+    <string name="grant_section_note">Eén keer toegestaan bij het instellen. Een hoger bedrag, een andere site of een ander artikel en accountwijzigingen vragen nog steeds.</string>
+    <string name="grant_login_title">Logt in met %1$s</string>
+    <string name="grant_login_site">Op %1$s</string>
+    <string name="grant_purchase_title">Koopt %1$s</string>
+    <string name="grant_purchase_cap">Op %1$s · tot %2$s per keer, %3$s per maand</string>
+    <string name="grant_spent">Deze maand: %1$s</string>
+    <string name="grant_for_schedule">Voor ‘%1$s’</string>
+    <string name="grant_revoke">Intrekken</string>
+    <string name="grant_revoke_confirm">Deze toestemming intrekken? De runs vragen dan weer.</string>
+    <string name="grant_login_section">Planningen die deze login gebruiken zonder te vragen</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo braucht deinen Standort</string>
+    <string name="location_ask_body">Um das zu beantworten, muss Kelo wissen, wo dieses Handy gerade ist.</string>
+    <string name="location_ask_private">Er geht nur an deinen eigenen Server.</string>
+    <string name="location_ask_share">Meinen Standort senden</string>
+    <string name="location_ask_not_now">Nicht jetzt</string>
+    <string name="location_ask_settings">Einstellungen öffnen</string>
+    <string name="location_ask_settings_hint">Der Standort ist für Kelo aus. Schalte ihn in den Einstellungen ein und komm dann hierher zurück.</string>
+    <string name="location_services_off">Der Standort ist auf diesem Telefon aus. Schalte ihn in den Einstellungen ein und komm dann hierher zurück.</string>
+    <string name="location_ask_reading">Standort wird ermittelt…</string>
+    <string name="location_ask_shared">Standort gesendet</string>
+    <string name="location_ask_refused">Standort nicht gesendet</string>
+    <string name="location_ask_expired">Diese Anfrage ist abgelaufen</string>
+    <string name="location_ask_unavailable">Dieses Handy konnte seinen Standort nicht bestimmen. Prüfe, ob der Standort an ist.</string>
+    <string name="chat_attached_file">Angehängte Datei</string>
+</resources>

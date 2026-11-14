@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">支払いカードはロックされています</string>
+    <string name="wallet_lock_body">もう一度開くには、指紋・顔・画面ロック（PIN、パターン、パスワード）でご本人確認をしてください。</string>
+    <string name="wallet_lock_kept">入力中のカード情報はそのまま残っています。ロックを解除すると続きから入力できます。10分後に消去されます。</string>
+    <string name="wallet_lock_unlock">ロック解除</string>
+    <string name="wallet_lock_back">戻る</string>
+    <string name="wallet_lock_no_lock_title">画面ロックを設定してください</string>
+    <string name="wallet_lock_no_lock_body">このスマホには画面ロックがないため、支払いカードを開けません。設定でPINか指紋をオンにして戻ってきてください。すぐに確認します。</string>
+    <string name="wallet_lock_open_settings">画面ロックの設定を開く</string>
+</resources>

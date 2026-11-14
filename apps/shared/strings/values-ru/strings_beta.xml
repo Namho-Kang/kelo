@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Запросить бета-доступ</string>
+    <string name="beta_requested">Запрошено</string>
+    <string name="beta_sheet_note">Пока вход через Google открыт для небольшой группы. Введите адрес Google, который подключите, — мы напишем на него, когда вас добавят.</string>
+    <string name="beta_email_hint">Адрес Google</string>
+    <string name="beta_email_invalid">Введите правильный адрес электронной почты.</string>
+    <string name="beta_send">Отправить</string>
+    <string name="beta_sending">Отправка…</string>
+    <string name="beta_sent">Заявка отправлена. Когда её одобрят, мы напишем на %1$s — тогда вернитесь и подключитесь снова.</string>
+    <string name="beta_declined">В этот раз ваша заявка на бета-доступ не одобрена. Вход через Google откроется для всех после завершения проверки Google.</string>
+    <string name="operator_section_beta">Заявки на бета-доступ</string>
+    <string name="operator_beta_note">Люди, которые хотят попробовать вход через Google. Сначала добавьте их как тестовых пользователей в Google Cloud Console, затем нажмите «Одобрено». Обработанные заявки удаляются через 30 дней.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Аудитория (Audience) → Тестовые пользователи → добавить %1$s</string>
+    <string name="operator_beta_mail_from">Письма отправляются с %1$s.</string>
+    <string name="operator_beta_no_mail">На этом сервере не подключён Gmail, поэтому письма не отправляются. Подключите Gmail в разделе «Коннекторы», чтобы отправлять их.</string>
+    <string name="operator_beta_not_receiving">Этот сервер не является посредником для входа через Google, поэтому не получает заявки.</string>
+    <string name="operator_beta_empty">Заявок пока нет.</string>
+    <string name="operator_beta_open">Ожидают: %1$d</string>
+    <string name="operator_beta_approve">Одобрено</string>
+    <string name="operator_beta_decline">Отклонить</string>
+    <string name="operator_beta_waiting">Ожидает</string>
+    <string name="operator_beta_state_approved">Одобрена</string>
+    <string name="operator_beta_declined">Отклонена</string>
+    <string name="operator_beta_notice_no_mail">Письмо в поддержку не отправлено: Gmail не подключён.</string>
+    <string name="operator_beta_notice_failed">Не удалось отправить письмо в поддержку.</string>
+    <string name="operator_beta_decline_confirm">Отклонить эту заявку?</string>
+    <string name="operator_beta_decline_mail">Отправить короткое письмо</string>
+    <string name="operator_beta_mailed">Письмо отправлено на %1$s.</string>
+    <string name="operator_tester_steps">Добавьте %1$s в Play Console → Тестирование → Закрытое тестирование → Тестировщики, затем нажмите ниже.</string>
+    <string name="operator_tester_added">Добавлен в Play</string>
+    <string name="notify_beta_request">Заявка на бета-доступ</string>
+</resources>

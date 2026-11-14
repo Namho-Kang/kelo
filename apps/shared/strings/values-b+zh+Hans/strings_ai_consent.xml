@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- b+zh+Hans text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">发送第一条消息之前</string>
+    <string name="ai_consent_body">为了回答你，Kelo 会把你的消息以及所需内容（你附加的文件、已连接服务的结果）发送到你选择的 AI 服务。</string>
+    <string name="ai_consent_now">当前选择：%1$s。可在“模型”中查看和更改。</string>
+    <string name="ai_consent_not_now_note">选择“以后再说”则不会发送任何内容。</string>
+    <string name="ai_consent_privacy">隐私政策</string>
+    <string name="ai_consent_agree">同意</string>
+    <string name="ai_consent_not_now">以后再说</string>
+    <string name="ai_chats_go_to">对话发送到：%1$s</string>
+    <string name="ai_chats_stay">对话不会离开你自己的网络</string>
+</resources>

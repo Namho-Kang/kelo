@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">你的支付卡已锁定</string>
+    <string name="wallet_lock_body">用指纹、面容或锁屏（PIN 码、图案或密码）确认是你本人，即可重新打开。</string>
+    <string name="wallet_lock_kept">你正在输入的卡信息还在。解锁后可以从中断处继续。10 分钟后会被清除。</string>
+    <string name="wallet_lock_unlock">解锁</string>
+    <string name="wallet_lock_back">返回</string>
+    <string name="wallet_lock_no_lock_title">设置锁屏</string>
+    <string name="wallet_lock_no_lock_body">这部手机没有设置锁屏，无法打开支付卡。请在设置中开启 PIN 码或指纹后回来，我会马上检查。</string>
+    <string name="wallet_lock_open_settings">打开锁屏设置</string>
+</resources>

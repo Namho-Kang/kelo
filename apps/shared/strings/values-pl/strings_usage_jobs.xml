@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">Model do pracy w tle</string>
+    <string name="model_background_help">Używany tylko do pracy, którą Kelo wykonuje sam: nocnego podsumowania, porządkowania pamięci, dziennika, wybierania, o czym cię powiadomić, i streszczeń długich rozmów. Wszystko, co korzysta z przeglądarki, płaci lub coś wysyła, zostaje przy modelu głównym.</string>
+    <string name="model_background_same">Taki sam jak model główny</string>
+    <string name="model_background_fell_back">%1$s model do pracy w tle zawiódł, więc zadanie wykonał model główny.</string>
+    <string name="usage_jobs_tokens">Tokeny: %1$s</string>
+</resources>

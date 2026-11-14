@@ -1,0 +1,49 @@
+{
+ "country": "KR",
+ "country_name": "South Korea",
+ "lang": "ko",
+ "fields": [
+  {
+   "key": "name",
+   "label": "Full name",
+   "required": true,
+   "autocomplete": "name"
+  },
+  {
+   "key": "postal_code",
+   "label": "Postal code",
+   "required": true,
+   "autocomplete": "postal-code",
+   "pattern": "^(?:\\d{5})$",
+   "example": "03051",
+   "numeric": true
+  },
+  {
+   "key": "address_line1",
+   "label": "Address",
+   "required": true,
+   "autocomplete": "address-line1"
+  },
+  {
+   "key": "address_line2",
+   "label": "Address details",
+   "required": false,
+   "autocomplete": "address-line2"
+  }
+ ],
+ "phone": {
+  "label": "Phone number",
+  "calling_code": "+82",
+  "required": true
+ },
+ "note": {
+  "label": "Delivery note",
+  "required": false
+ },
+ "labels": {
+  "country": "Country",
+  "nickname": "Nickname",
+  "optional": "optional"
+ },
+ "format": "%S %C%D%n%A%n%O%n%N%n%Z"
+}

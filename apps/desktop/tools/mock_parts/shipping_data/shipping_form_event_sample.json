@@ -1,0 +1,19 @@
+{
+ "type": "shipping_form",
+ "id": "call_5",
+ "form_id": "sf_7c1e2a",
+ "site": "shop.example.com",
+ "what": "블루 머그 2개",
+ "country": "KR",
+ "prefill": {
+  "name": "홍길동",
+  "phone": "010-1234-5678",
+  "postal_code": "",
+  "address_line1": "서울특별시 강남구 테헤란로 152",
+  "address_line2": ""
+ },
+ "label": "집",
+ "save": true,
+ "ask_payment": true,
+ "expires_at": 1762650600
+}

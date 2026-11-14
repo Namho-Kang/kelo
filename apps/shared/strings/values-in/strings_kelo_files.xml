@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">File Kelo</string>
+    <string name="files_about">Apa yang Kelo catat untuk dirinya sendiri: siapa Anda, ingatannya, catatannya. Anda bisa membaca, mengubah, dan menghapusnya. Unggahan dan hasil punya halaman sendiri.</string>
+    <string name="files_new_folder">Folder baru</string>
+    <string name="files_make">Buat</string>
+    <string name="files_folder_name">Nama folder</string>
+    <string name="files_folder_bad">Nama itu tidak bisa dipakai.</string>
+    <string name="files_edit">Ubah</string>
+    <string name="files_save">Simpan</string>
+    <string name="files_cancel">Batal</string>
+    <string name="files_saved">Tersimpan. Kelo membaca teks baru mulai balasan berikutnya.</string>
+    <string name="files_save_failed">Gagal menyimpan.</string>
+    <string name="files_full">Penyimpanan server penuh.</string>
+    <string name="files_discard_q">Keluar tanpa menyimpan?</string>
+    <string name="files_discard">Keluar</string>
+    <string name="files_reset">Kembali ke awal</string>
+    <string name="files_reset_q">Kembalikan file ini ke keadaan awal? Teks saat ini masuk ke tempat sampah.</string>
+    <string name="files_reset_done">Kembali ke awal. Teks lama ada di tempat sampah.</string>
+    <string name="files_core_reset_hint">Kelo membutuhkan file ini. Gunakan \"Kembali ke awal\".</string>
+    <string name="files_delete">Hapus</string>
+    <string name="files_delete_q">Pindahkan ke tempat sampah? Dihapus permanen setelah 30 hari.</string>
+    <string name="files_deleted">Dipindahkan ke tempat sampah.</string>
+    <string name="files_read_only">Kelo menjaga file ini tetap mutakhir; tidak bisa diubah di sini.</string>
+    <string name="files_load_failed">Gagal memuat file.</string>
+    <string name="files_trash_title">Tempat sampah</string>
+    <string name="files_trash_about">File yang dihapus tetap di sini selama 30 hari.</string>
+    <string name="files_trash_left">Dihapus permanen dalam %1$d hari</string>
+    <string name="files_trash_empty">Tempat sampah kosong.</string>
+    <string name="files_restore">Pulihkan</string>
+    <string name="files_restored">Dipulihkan.</string>
+    <string name="files_purge">Hapus permanen</string>
+    <string name="files_purge_q">Hapus permanen? Tidak bisa dibatalkan.</string>
+    <string name="files_core_assistant">Karakter dan gaya bicara Kelo</string>
+    <string name="files_core_user">Yang Kelo ketahui tentang Anda</string>
+    <string name="files_core_memory">Ingatan Kelo</string>
+    <string name="files_core_agents">Cara kerja Kelo</string>
+    <string name="files_core_checklist">Hal yang perlu dicek</string>
+    <string name="files_core_notify">Preferensi notifikasi</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">बैलेंस</string>
+    <string name="balance_limit_left">Key की सीमा में बाकी</string>
+    <string name="balance_used_today">आज खर्च</string>
+    <string name="balance_used_week">इस हफ़्ते खर्च</string>
+    <string name="balance_used_month">इस महीने खर्च</string>
+</resources>

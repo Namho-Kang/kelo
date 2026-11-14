@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Tệp của Kelo</string>
+    <string name="files_about">Những gì Kelo tự ghi lại: bạn là ai, trí nhớ và ghi chú của nó. Bạn có thể đọc, sửa và xóa. Tệp tải lên và kết quả có trang riêng.</string>
+    <string name="files_new_folder">Thư mục mới</string>
+    <string name="files_make">Tạo</string>
+    <string name="files_folder_name">Tên thư mục</string>
+    <string name="files_folder_bad">Không thể dùng tên này.</string>
+    <string name="files_edit">Sửa</string>
+    <string name="files_save">Lưu</string>
+    <string name="files_cancel">Hủy</string>
+    <string name="files_saved">Đã lưu. Kelo sẽ đọc nội dung mới từ câu trả lời kế tiếp.</string>
+    <string name="files_save_failed">Không lưu được.</string>
+    <string name="files_full">Bộ nhớ của máy chủ đã đầy.</string>
+    <string name="files_discard_q">Thoát mà không lưu?</string>
+    <string name="files_discard">Thoát</string>
+    <string name="files_reset">Về trạng thái ban đầu</string>
+    <string name="files_reset_q">Đưa tệp này về trạng thái ban đầu? Nội dung hiện tại sẽ vào thùng rác.</string>
+    <string name="files_reset_done">Đã về trạng thái ban đầu. Nội dung cũ nằm trong thùng rác.</string>
+    <string name="files_core_reset_hint">Kelo cần tệp này. Hãy dùng \"Về trạng thái ban đầu\".</string>
+    <string name="files_delete">Xóa</string>
+    <string name="files_delete_q">Chuyển vào thùng rác? Sẽ bị xóa hẳn sau 30 ngày.</string>
+    <string name="files_deleted">Đã chuyển vào thùng rác.</string>
+    <string name="files_read_only">Kelo tự cập nhật tệp này; không thể sửa ở đây.</string>
+    <string name="files_load_failed">Không tải được các tệp.</string>
+    <string name="files_trash_title">Thùng rác</string>
+    <string name="files_trash_about">Tệp đã xóa được giữ ở đây 30 ngày.</string>
+    <string name="files_trash_left">Sẽ xóa hẳn sau %1$d ngày</string>
+    <string name="files_trash_empty">Thùng rác trống.</string>
+    <string name="files_restore">Khôi phục</string>
+    <string name="files_restored">Đã khôi phục.</string>
+    <string name="files_purge">Xóa hẳn</string>
+    <string name="files_purge_q">Xóa hẳn? Không thể hoàn tác.</string>
+    <string name="files_core_assistant">Tính cách và giọng điệu của Kelo</string>
+    <string name="files_core_user">Những gì Kelo biết về bạn</string>
+    <string name="files_core_memory">Trí nhớ của Kelo</string>
+    <string name="files_core_agents">Cách Kelo làm việc</string>
+    <string name="files_core_checklist">Việc cần kiểm tra</string>
+    <string name="files_core_notify">Tùy chọn thông báo</string>
+</resources>

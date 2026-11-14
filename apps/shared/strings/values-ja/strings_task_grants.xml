@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">これが起きたら、確認せずにこうしますか?</string>
+    <string name="task_grant_when">このとき</string>
+    <string name="task_grant_does">すること</string>
+    <string name="task_grant_buy">購入</string>
+    <string name="task_grant_limits">上限</string>
+    <string name="task_grant_per_time">1回最大 %1$s</string>
+    <string name="task_grant_times_one">1回だけ</string>
+    <string name="task_grant_times">最大 %1$d 回</string>
+    <string name="task_grant_no_count">回数制限なし</string>
+    <string name="task_grant_monthly">月最大 %1$s</string>
+    <string name="task_grant_card">カード</string>
+    <string name="task_grant_card_limit">このカードの自動支払い上限は %1$s です。このタスクには最大 %2$s まで許可しますか?</string>
+    <string name="task_grant_card_not_auto">このカードは自動で支払いません。このタスクだけ最大 %1$s まで支払います。</string>
+    <string name="task_grant_card_phone_only">このカードはスマホにだけ保存されているため、支払いのたびに確認します。</string>
+    <string name="task_grant_ship_to">配送先</string>
+    <string name="task_grant_send_to">送信先</string>
+    <string name="task_grant_message">メッセージ</string>
+    <string name="task_grant_varies">変わる部分: %1$s</string>
+    <string name="task_grant_change">変更するもの</string>
+    <string name="task_grant_apply">応募</string>
+    <string name="task_grant_apply_per_run">1回の実行で%1$d件まで</string>
+    <string name="task_grant_apply_total">合計%1$d件</string>
+    <string name="task_grant_row_apply">%1$s に応募</string>
+    <string name="task_grant_delete_yes">削除も許可</string>
+    <string name="task_grant_delete_no">削除はしません</string>
+    <string name="task_grant_login">ログイン</string>
+    <string name="task_grant_login_line">%2$s で %1$s のログインを使用</string>
+    <string name="task_grant_once">一度終わると自動で終了するので、二度は実行しません。</string>
+    <string name="task_grant_after">実行後すぐにお知らせします。それ以外は引き続き確認します。</string>
+    <string name="task_grant_urgent">至急: 早めに回答してください</string>
+    <string name="task_grant_urgent_missed">至急: 回答が遅れると %1$s</string>
+    <string name="task_grant_row_send">%1$s に送信</string>
+    <string name="task_grant_row_change">%1$s を変更</string>
+    <string name="task_grant_row_when">このとき: %1$s</string>
+    <string name="task_grant_row_card">カード: %1$s</string>
+    <string name="task_grant_row_left">%2$d 回中 残り %1$d 回</string>
+    <string name="task_grant_row_once">その後は自動終了</string>
+    <string name="task_grant_section_note">設定時に一度許可したことです。それ以外は引き続き確認します。</string>
+    <string name="notify_channel_urgent">至急の確認</string>
+    <string name="notify_channel_urgent_desc">設定したタスクに手遅れになる前の回答が必要なとき</string>
+    <string name="notify_approval_urgent">至急: 確認してください</string>
+</resources>

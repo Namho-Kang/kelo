@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">इस फ़ोन को फिर से जोड़ें</string>
+    <string name="e2e_key_changed_body">आपके Kelo सर्वर की एन्क्रिप्शन कुंजी बदल गई है, इसलिए यह फ़ोन जाँच नहीं सकता कि यह सच में आपका सर्वर है। किसी दूसरे डिवाइस पर मेरा → मेरे डिवाइस से, या सर्वर कंप्यूटर से नया कनेक्शन QR कोड स्कैन करें।</string>
+    <string name="e2e_pair_again">फिर से जोड़ें</string>
+    <string name="e2e_server_old_title">अपना Kelo सर्वर अपडेट करें</string>
+    <string name="e2e_server_old_body">इस ऐप को Kelo सर्वर %1$s या नया चाहिए। सर्वर अपडेट करें, फिर वापस आएँ।</string>
+    <string name="e2e_server_old_version">सर्वर वर्शन: %1$s</string>
+    <string name="e2e_retry">फिर से कोशिश करें</string>
+    <string name="devices_e2e_title">एंड-टू-एंड एन्क्रिप्शन</string>
+    <string name="devices_e2e_on">रास्ते में आपकी चैट सिर्फ़ यह फ़ोन और आपका सर्वर पढ़ सकते हैं।</string>
+    <string name="devices_e2e_fingerprint">सर्वर कुंजी फ़िंगरप्रिंट</string>
+    <string name="devices_e2e_verified">कुंजी सत्यापित</string>
+    <string name="devices_e2e_not_verified">कुंजी सत्यापित नहीं</string>
+    <string name="devices_e2e_not_verified_body">इसे सर्वर कंप्यूटर पर `assistant phone fingerprint` के दिखाए फ़िंगरप्रिंट से मिलाएँ, या एक बार कनेक्शन QR कोड स्कैन करें।</string>
+    <string name="devices_e2e_verify_scan">QR कोड स्कैन करके सत्यापित करें</string>
+    <string name="devices_e2e_verify_done">कुंजी मेल खाती है। सत्यापित ✓</string>
+    <string name="devices_e2e_verify_mismatch">इस QR कोड में दूसरी कुंजी है। अगर सर्वर की कुंजी बदली गई है, तो इस फ़ोन को फिर से जोड़ें।</string>
+    <string name="devices_e2e_verify_no_key">इस QR कोड में कुंजी नहीं है। अपडेट किए सर्वर से नया बनाएँ।</string>
+</resources>

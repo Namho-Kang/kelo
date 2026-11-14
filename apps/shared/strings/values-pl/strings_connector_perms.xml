@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Co może robić Kelo</string>
+    <string name="perm_about">Zezwól: bez karty. Pytaj: karta za każdym razem. Wyłączone: Kelo tego nie robi. Płatności i rejestracje zawsze pytają.</string>
+    <string name="perm_kind_read">Odczyt</string>
+    <string name="perm_kind_change">Zmiana</string>
+    <string name="perm_kind_send">Wysyłanie</string>
+    <string name="perm_kind_delete">Usuwanie</string>
+    <string name="perm_allow">Zezwól</string>
+    <string name="perm_ask">Pytaj</string>
+    <string name="perm_off">Wyłączone</string>
+    <string name="perm_default_is">Domyślnie: %1$s</string>
+    <string name="perm_changed_from">Domyślnie jest: %1$s</string>
+    <string name="perm_actions_more">Pojedyncze akcje: %1$d</string>
+    <string name="perm_reset">Przywróć ustawienia domyślne</string>
+    <string name="perm_reset_q">Przywrócić wszystkie ustawienia tego konektora do domyślnych?</string>
+    <string name="perm_read_off_q">Przy wyłączonym odczycie Kelo prawie nie może używać tego konektora. Wyłączyć?</string>
+    <string name="perm_limited">Ograniczony</string>
+</resources>

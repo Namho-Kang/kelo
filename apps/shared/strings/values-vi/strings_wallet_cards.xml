@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Tên gọi</string>
+    <string name="wallet_nickname_field">Tên gọi (không bắt buộc)</string>
+    <string name="wallet_tag_default">Mặc định</string>
+    <string name="wallet_default_title">Thẻ mặc định</string>
+    <string name="wallet_default_on">Kelo thanh toán bằng thẻ này trừ khi bạn hoặc công việc chỉ định thẻ khác.</string>
+    <string name="wallet_make_default">Đặt làm thẻ mặc định</string>
+    <string name="wallet_delete_default_title">Chọn thẻ mặc định mới</string>
+    <string name="wallet_delete_default_body">“%1$s” là thẻ mặc định của bạn. Hãy chọn thẻ Kelo sẽ dùng để thanh toán từ giờ.</string>
+    <string name="wallet_card_history">Các khoản thanh toán bằng thẻ này</string>
+    <string name="wallet_card_history_empty">Kelo chưa thanh toán bằng thẻ này lần nào.</string>
+    <string name="wallet_card_history_more">Xem các khoản cũ hơn</string>
+    <string name="wallet_open_chat">Mở cuộc trò chuyện</string>
+    <string name="wallet_open_task">Mở công việc</string>
+    <string name="wallet_auto_from_phone">Điện thoại này mở bản sao thẻ của chính nó bằng vân tay, khuôn mặt hoặc khóa màn hình. Bạn không phải nhập lại số thẻ.</string>
+    <string name="wallet_auth_auto_title">Bật tự thanh toán</string>
+    <string name="wallet_auth_auto_subtitle">Mở bản sao “%1$s” trên điện thoại này</string>
+    <string name="wallet_auto_not_here_title">Thẻ này không có trên điện thoại này</string>
+    <string name="wallet_auto_not_here_body">Thẻ được thêm trên thiết bị khác nên điện thoại này không mở được. Hãy bật tự thanh toán trên thiết bị đã thêm thẻ, hoặc nhập số thẻ tại đây.</string>
+    <string name="wallet_auto_enter_number">Nhập số thẻ</string>
+    <string name="wallet_auto_on_failed">Không bật được tự thanh toán. Hãy thử lại.</string>
+</resources>

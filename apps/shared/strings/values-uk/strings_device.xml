@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">На цьому телефоні</string>
+    <string name="device_row_sub">На цьому телефоні</string>
+    <string name="device_row_connect">Підключити</string>
+    <string name="device_connected">Підключено</string>
+    <string name="device_needs_permission">Потрібен дозвіл</string>
+    <string name="device_calendar">Календар</string>
+    <string name="device_contacts">Контакти</string>
+    <string name="device_messages">Повідомлення</string>
+    <string name="device_dialer">Набір номера</string>
+    <string name="device_notifications">Сповіщення</string>
+    <string name="device_call_log">Історія дзвінків</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">Переглядає ваші події, щоб відповідати. Якщо дозволите, додає й події — після вашого підтвердження.</string>
+    <string name="device_calendar_sends">Надсилає на ваш сервер події від 7 днів тому до 60 днів наперед.</string>
+    <string name="device_contacts_does">Знаходить номери й email за іменем. Лише перегляд.</string>
+    <string name="device_contacts_sends">Надсилає на ваш сервер імена, номери, email, компанію й посаду та дні народження.</string>
+    <string name="device_messages_does">Знаходить і читає отримані й надіслані SMS. Надсилає лише після вашого підтвердження.</string>
+    <string name="device_messages_sends">Надсилає на ваш сервер недавні SMS.</string>
+    <string name="device_dialer_does">Після вашого підтвердження відкриває «Телефон» із уже введеним номером. Виклик натискаєте ви самі.</string>
+    <string name="device_dialer_sends">Нічого не надсилається.</string>
+    <string name="device_notifications_does">Знаходить потрібне в отриманих сповіщеннях.</string>
+    <string name="device_notifications_sends">Надсилає на ваш сервер назву застосунку, заголовок, текст і час. Видаляється через 7 днів.</string>
+    <string name="device_call_log_does">Знаходить недавні дзвінки. Лише перегляд.</string>
+    <string name="device_call_log_sends">Надсилає на ваш сервер номери, імена, тип, час і тривалість дзвінків за останні 30 днів.</string>
+    <string name="device_health_does">Відповідає за даними на кшталт кроків і сну. Лише перегляд.</string>
+    <string name="device_health_sends">Надсилає на ваш сервер лише щоденний підсумок вибраних даних — коли ви відкриваєте застосунок.</string>
+    <string name="device_switch">Дозволити Kelo користуватися</string>
+    <string name="device_auto">Синхронізується автоматично · %1$s</string>
+    <string name="device_auto_never">Надсилає одразу після ввімкнення, далі синхронізує</string>
+    <string name="device_auto_foreground">Синхронізується щоразу, коли ви відкриваєте застосунок · %1$s</string>
+    <string name="device_send_now">Надіслати зараз</string>
+    <string name="device_sending">Надсилаю…</string>
+    <string name="device_send_failed">Не вдалося надіслати. Спробую ще раз трохи згодом.</string>
+    <string name="device_off_failed">Вимкнено. Решту даних на сервері буде видалено під час наступного підключення.</string>
+    <string name="device_denied">Дозвіл вимкнено. Дозвольте його в Налаштуваннях, щоб увімкнути це.</string>
+    <string name="device_open_settings">Відкрити Налаштування</string>
+    <string name="device_ready">Увімкнено</string>
+    <plurals name="device_count_contacts">
+        <item quantity="one">%1$d контакт</item>
+        <item quantity="few">%1$d контакти</item>
+        <item quantity="many">%1$d контактів</item>
+        <item quantity="other">%1$d контакту</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="one">%1$d SMS</item>
+        <item quantity="few">%1$d SMS</item>
+        <item quantity="many">%1$d SMS</item>
+        <item quantity="other">%1$d SMS</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="one">%1$d дзвінок</item>
+        <item quantity="few">%1$d дзвінки</item>
+        <item quantity="many">%1$d дзвінків</item>
+        <item quantity="other">%1$d дзвінка</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="one">Підсумки за %1$d день</item>
+        <item quantity="few">Підсумки за %1$d дні</item>
+        <item quantity="many">Підсумки за %1$d днів</item>
+        <item quantity="other">Підсумки за %1$d дня</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="one">%1$d сповіщення</item>
+        <item quantity="few">%1$d сповіщення</item>
+        <item quantity="many">%1$d сповіщень</item>
+        <item quantity="other">%1$d сповіщення</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="one">%1$d подія</item>
+        <item quantity="few">%1$d події</item>
+        <item quantity="many">%1$d подій</item>
+        <item quantity="other">%1$d події</item>
+    </plurals>
+    <string name="device_cal_write">Також дозволити додавати й змінювати події</string>
+    <string name="device_cal_write_line">Щоразу спершу просить підтвердження карткою.</string>
+    <string name="device_cal_write_to">Календар для нових подій</string>
+    <string name="device_cal_none">Немає календаря, який можна змінювати.</string>
+    <string name="device_cal_write_denied">Дозвіл на запис у календар вимкнено.</string>
+    <string name="device_msg_window">За який період надсилати</string>
+    <string name="device_days">Днів: %1$d</string>
+    <string name="device_msg_send">Дозволити надсилати SMS</string>
+    <string name="device_msg_send_line">Телефон надсилає лише після того, як ви підтвердите одержувача й повний текст.</string>
+    <string name="device_msg_send_denied">Дозвіл на надсилання SMS вимкнено.</string>
+    <string name="device_notif_service_label">Читання сповіщень Kelo</string>
+    <string name="device_notif_disclosure_title">Ділитися сповіщеннями з Kelo?</string>
+    <string name="device_notif_disclosure">Коли це ввімкнено, назва застосунку, заголовок, текст і час сповіщень на цьому телефоні надходять на ваш сервер Kelo. Агент використовує їх, щоб знаходити потрібне й відповідати вам. Постійні сповіщення, сповіщення самого Kelo та виключені вами застосунки ніколи не надсилаються. Сервер видаляє їх через 7 днів, а якщо вимкнути — одразу.\n\nНа наступному екрані ввімкніть для Kelo доступ до сповіщень.</string>
+    <string name="device_agree">Погодитися й продовжити</string>
+    <string name="device_decline">Ні, дякую</string>
+    <string name="device_notif_access_off">Доступ до сповіщень вимкнено.</string>
+    <string name="device_notif_exclude">Не надсилати із застосунків</string>
+    <string name="device_notif_exclude_empty">Тут з\'являться застосунки, від яких надходять сповіщення.</string>
+    <string name="device_health_types">Чим ділитися</string>
+    <string name="device_health_steps">Кроки</string>
+    <string name="device_health_sleep">Сон</string>
+    <string name="device_health_heart">Пульс</string>
+    <string name="device_health_weight">Вага</string>
+    <string name="device_health_exercise">Тренування</string>
+    <string name="device_health_missing">На цьому телефоні немає Health Connect.</string>
+    <string name="device_health_install">Установити Health Connect</string>
+    <string name="device_health_denied">Немає дозволу на вибрані дані. Дозвольте їх ще раз.</string>
+    <string name="device_health_allow">Дозволити</string>
+    <string name="device_health_rationale_title">Як Kelo використовує ваші дані про здоров\'я</string>
+    <string name="device_health_rationale">Kelo зчитує лише щоденний підсумок вибраних даних (кроки, сон, пульс, вага, тренування) і надсилає його на ваш власний сервер Kelo. Він використовується лише тоді, коли агент відповідає на ваші запитання, і ніколи — для реклами чи продажу. Kelo лише зчитує дані й нічого не записує в Health Connect. Якщо вимкнути, підсумки на сервері буде видалено.</string>
+    <string name="device_privacy_policy">Політика конфіденційності</string>
+    <string name="device_dial_title">Подзвонити: %1$s</string>
+    <string name="device_dial_body">Натисніть, щоб відкрити застосунок «Телефон». Дзвоните ви самі.</string>
+    <string name="device_sms_failed_title">Не вдалося надіслати SMS</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat and live view lines only the desktop app has (zoom in a browser tab's live view). See strings_desktop.xml. -->
+<resources>
+    <string name="desktop_chat_zoom_in">Phóng to</string>
+    <string name="desktop_chat_zoom_reset">Vừa cửa sổ</string>
+    <string name="desktop_chat_zoom_hint">Giữ %1$s và lăn chuột để thu phóng; kéo để xem xung quanh.</string>
+</resources>

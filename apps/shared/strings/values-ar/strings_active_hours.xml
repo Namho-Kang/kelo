@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_active_hours.xml (generated from values/strings_active_hours.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="hours_suggest_heading">أوقات الرسائل المقترحة</string>
+    <string name="hours_suggest_title">تستخدم Kelo عادةً %1$s. هل تريد تلقي رسائل Kelo في هذه الأوقات؟</string>
+    <plurals name="hours_suggest_basis">
+        <item quantity="zero">بناءً على آخر %1$d يوم من الاستخدام · الآن %2$s</item>
+        <item quantity="one">بناءً على آخر يوم من الاستخدام · الآن %2$s</item>
+        <item quantity="two">بناءً على آخر يومين من الاستخدام · الآن %2$s</item>
+        <item quantity="few">بناءً على آخر %1$d أيام من الاستخدام · الآن %2$s</item>
+        <item quantity="many">بناءً على آخر %1$d يومًا من الاستخدام · الآن %2$s</item>
+        <item quantity="other">بناءً على آخر %1$d يوم من الاستخدام · الآن %2$s</item>
+    </plurals>
+    <string name="hours_suggest_accept">استخدام هذه الأوقات</string>
+    <string name="hours_suggest_keep">الإبقاء على الحالي</string>
+    <string name="hours_suggest_accepted">تم تغيير أوقات الرسائل · %1$s</string>
+    <string name="hours_suggest_kept">سنبقي أوقاتك الحالية</string>
+    <string name="hours_span_next_day">%1$s – %2$s في اليوم التالي</string>
+    <string name="hours_learned">مستفادة من استخدامك</string>
+    <string name="hours_auto_switch">تعديل وقت التنبيهات حسب أوقات استخدامك لـ Kelo</string>
+    <string name="proactive_until_next_day">حتى %1$s في اليوم التالي</string>
+</resources>

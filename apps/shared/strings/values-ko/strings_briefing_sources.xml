@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">읽는 계정</string>
+    <string name="briefing_sources_about">브리핑과 알림에는 연결된 캘린더와 메일함을 모두 읽어요. 빼고 싶은 계정은 꺼 주세요.</string>
+    <string name="briefing_sources_calendars">캘린더</string>
+    <string name="briefing_sources_mail">메일</string>
+    <string name="briefing_sources_chat">채팅에서 “브리핑에서 회사 메일은 빼 줘”처럼 말해도 돼요.</string>
+    <string name="briefing_sources_check">계정 지금 확인</string>
+    <string name="briefing_sources_checking">확인하는 중…</string>
+    <string name="connector_method_caldav">CalDAV 앱 비밀번호</string>
+    <string name="caldav_help">서비스가 알려 주는 CalDAV 주소(예: Fastmail은 https://dav.fastmail.com/), 사용자 이름, 앱 비밀번호를 입력해 주세요.</string>
+    <string name="caldav_url">CalDAV 주소</string>
+    <string name="caldav_user">사용자 이름</string>
+    <string name="caldav_account_note">브리핑과 알림을 위해 이 캘린더를 읽기만 해요. 바꾸지는 않아요.</string>
+    <string name="caldav_disconnect_confirm">%1$s 연결을 끊을까요? 저장된 앱 비밀번호는 지워져요.</string>
+    <string name="caldav_add_other">캘린더 더 추가</string>
+    <string name="caldav_notify">캘린더를 연결했어요. 이어서 해 주세요.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">Bu telefonu yeniden bağlayın</string>
+    <string name="e2e_key_changed_body">Kelo sunucunuzun şifreleme anahtarı değişti, bu yüzden bu telefon gerçekten sizin sunucunuz olduğunu doğrulayamıyor. Başka bir cihazda Benim → Cihazlarım bölümünden ya da sunucu bilgisayarından yeni bir bağlantı QR kodu tarayın.</string>
+    <string name="e2e_pair_again">Yeniden bağlan</string>
+    <string name="e2e_server_old_title">Kelo sunucunuzu güncelleyin</string>
+    <string name="e2e_server_old_body">Bu uygulama Kelo sunucusu %1$s veya daha yenisini gerektirir. Sunucuyu güncelleyip yeniden açın.</string>
+    <string name="e2e_server_old_version">Sunucu sürümü: %1$s</string>
+    <string name="e2e_retry">Tekrar dene</string>
+    <string name="devices_e2e_title">Uçtan uca şifreleme</string>
+    <string name="devices_e2e_on">Yolda sohbetlerinizi yalnızca bu telefon ve sunucunuz okuyabilir.</string>
+    <string name="devices_e2e_fingerprint">Sunucu anahtarı parmak izi</string>
+    <string name="devices_e2e_verified">Anahtar doğrulandı</string>
+    <string name="devices_e2e_not_verified">Anahtar doğrulanmadı</string>
+    <string name="devices_e2e_not_verified_body">Bunu sunucu bilgisayarında `assistant phone fingerprint` komutunun gösterdiği parmak iziyle karşılaştırın ya da bir bağlantı QR kodunu bir kez tarayın.</string>
+    <string name="devices_e2e_verify_scan">QR kodu tarayarak doğrula</string>
+    <string name="devices_e2e_verify_done">Anahtar eşleşiyor. Doğrulandı ✓</string>
+    <string name="devices_e2e_verify_mismatch">Bu QR kodunda farklı bir anahtar var. Sunucunun anahtarı değiştirildiyse bu telefonu yeniden bağlayın.</string>
+    <string name="devices_e2e_verify_no_key">Bu QR kodunda anahtar yok. Güncellenmiş bir sunucuyla yenisini oluşturun.</string>
+</resources>

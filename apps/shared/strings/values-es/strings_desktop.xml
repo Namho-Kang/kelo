@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text only the desktop app has (es). See values/strings_desktop.xml. -->
+<resources>
+    <string name="desktop_pair_step2">Copia el enlace que aparece y pégalo abajo.</string>
+    <string name="desktop_tray_open">Abrir Kelo</string>
+    <string name="desktop_tray_quit">Salir de Kelo</string>
+    <string name="desktop_tray_stop">Detener: %1$s</string>
+    <string name="desktop_still_running">Kelo sigue funcionando en la bandeja y te avisa cuando algo te necesita.</string>
+    <string name="desktop_section">Este dispositivo</string>
+    <string name="desktop_start_at_login">Iniciar Kelo al iniciar sesión</string>
+    <string name="desktop_start_at_login_hint">Kelo se abre discretamente en la bandeja, así te llegan los avisos aunque no abras la ventana.</string>
+    <string name="desktop_start_at_login_store">Actívalo o desactívalo en Configuración de Windows → Aplicaciones → Inicio.</string>
+    <string name="desktop_start_at_login_unavailable">Disponible en la app instalada.</string>
+    <string name="desktop_keep_in_tray">Seguir en la bandeja al cerrar la ventana</string>
+    <string name="desktop_notifications">Notificaciones de escritorio</string>
+    <string name="desktop_notifications_hint">Respuestas que terminan con la ventana oculta, aprobaciones pendientes y novedades cuando Kelo te avisa primero.</string>
+    <string name="desktop_reduce_motion">Reducir el movimiento</string>
+    <string name="desktop_theme">Apariencia</string>
+    <string name="desktop_theme_system">Igual que el sistema</string>
+    <string name="desktop_theme_light">Claro</string>
+    <string name="desktop_theme_dark">Oscuro</string>
+    <string name="desktop_drop_here">Suelta archivos aquí para enviárselos a %1$s</string>
+    <string name="desktop_attach_files">Adjuntar archivos (hasta 100 MB cada uno)</string>
+    <string name="desktop_enter_hint">Enter para enviar · Mayús+Enter para nueva línea</string>
+    <string name="desktop_logout_confirm">¿Cerrar sesión en este dispositivo? Para volver a usarlo tendrás que conectarte al servidor desde cero.</string>
+    <string name="desktop_version">Kelo para escritorio %1$s</string>
+    <string name="desktop_open_settings">Abrir configuración</string>
+    <string name="desktop_sign_in_browser">Iniciar sesión en el navegador</string>
+    <string name="desktop_browser_opened">La página de inicio de sesión se abrió en tu navegador. Vuelve aquí cuando termines.</string>
+    <string name="desktop_chooser_setup_hint">Todavía no hay ningún servicio de IA listo. Elige uno abajo y añade su clave o su dirección, o inicia sesión.</string>
+    <string name="desktop_chooser_setup_title">Configurar un servicio</string>
+    <string name="desktop_update_quit_note">El instalador está abierto. Cierra Kelo mientras se instala y vuelve a abrirlo después.</string>
+    <string name="desktop_update_open_failed">No se pudo abrir el instalador. Está guardado en %1$s.</string>
+    <string name="desktop_e2e_on">Durante el trayecto, solo este dispositivo y tu servidor pueden leer tus chats.</string>
+    <string name="desktop_e2e_not_verified_body">Compáralo con la huella que muestra `assistant phone fingerprint` en el equipo del servidor, o pega un enlace de conexión una vez.</string>
+    <string name="desktop_e2e_verify_paste">Verificar con un enlace</string>
+    <string name="desktop_e2e_paste_hint">Pega un enlace de conexión (https://…/#pair=…)</string>
+    <string name="desktop_e2e_verify_mismatch">Este enlace lleva otra clave. Si la clave del servidor cambió, vuelve a conectar este dispositivo.</string>
+    <string name="desktop_e2e_verify_no_key">Este enlace no tiene clave. Crea uno nuevo con un servidor actualizado.</string>
+    <string name="desktop_e2e_key_changed_body">La clave de cifrado de tu servidor de Kelo cambió, así que este dispositivo no puede comprobar que de verdad sea tu servidor. Pega un nuevo enlace de conexión desde Mi espacio → Mis dispositivos en otro dispositivo, o desde el equipo del servidor.</string>
+    <string name="desktop_location_on_phone">Este ordenador no puede compartir dónde estás. Abre Kelo en tu teléfono para compartir tu ubicación desde allí, o elige «Ahora no».</string>
+    <string name="desktop_keyguard_locked_body">Tus contraseñas, claves y tarjetas siguen cerradas hasta que abras Kelo en tu teléfono y lo desbloquees allí. Este ordenador no guarda la clave.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_reactions.xml (generated from values/strings_reactions.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="chat_reaction_read">Прочитано</string>
+    <string name="chat_reaction_done">Реакція: %1$s</string>
+</resources>

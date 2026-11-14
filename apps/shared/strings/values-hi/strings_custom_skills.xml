@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">मंज़ूरी के लिए स्किल</string>
+    <string name="skill_review_about">Kelo कोई स्किल तभी इस्तेमाल करता है जब आप उसे मंज़ूर करें। मंज़ूर करने पर दिखाया गया टेक्स्ट ही सेव होता है।</string>
+    <string name="skill_review_drafting">Kelo स्किल का ड्राफ़्ट लिख रहा है…</string>
+    <string name="skill_review_kind_new">नई स्किल</string>
+    <string name="skill_review_kind_change">स्किल में बदलाव</string>
+    <string name="skill_review_kind_edited">ऐप के बाहर बदली गई</string>
+    <string name="skill_review_edited_note">इस स्किल की फ़ाइलें ऐप के बाहर बदली गईं, इसलिए जब तक आप इसे फिर से मंज़ूर नहीं करते, Kelo इसका इस्तेमाल नहीं करेगा।</string>
+    <string name="skill_review_edited_new_note">यह स्किल ऐप के बाहर जोड़ी गई है। आपकी मंज़ूरी के बिना Kelo इसका इस्तेमाल नहीं करेगा।</string>
+    <string name="skill_review_outside_note">इस काम के दौरान Kelo ने वेब पेज, मेल या फ़ाइलें पढ़ीं। जाँच लें कि हर कदम वैसा ही है जैसा आप चाहते हैं।</string>
+    <string name="skill_review_secrets_removed">पासवर्ड, कुंजियाँ और कोड टेक्स्ट से हटा दिए गए हैं।</string>
+    <string name="skill_review_diff_counts">जोड़ी गईं %1$d · हटाई गईं %2$d</string>
+    <string name="skill_review_show_all">सब दिखाएँ</string>
+    <string name="skill_review_show_less">कम दिखाएँ</string>
+    <string name="skill_review_put_back">बदलाव वापस लें</string>
+    <string name="skill_review_discard">हटाएँ</string>
+    <string name="skill_review_approve">मंज़ूर करें</string>
+    <string name="skill_review_approved">मंज़ूर हो गई। Kelo इस स्किल का इस्तेमाल करेगा।</string>
+    <string name="skill_review_discarded">हटा दी गई</string>
+    <string name="skill_review_from_draft">पूरे हुए काम से बना ड्राफ़्ट</string>
+    <string name="skill_review_from_disk">सर्वर की फ़ाइलों में बदली गई</string>
+    <string name="skill_review_from_kelo">Kelo का सुझाव</string>
+    <string name="skill_save">स्किल के रूप में सेव करें</string>
+    <string name="skill_save_about">Kelo इस काम के कदम लिख लेता है। %1$s → %2$s में मंज़ूरी देने तक कुछ नहीं बदलता।</string>
+    <string name="skill_save_started">Kelo स्किल का ड्राफ़्ट बना रहा है। आप इसे %1$s → %2$s में पाएँगे।</string>
+    <string name="skill_save_busy">इस काम से स्किल पहले ही लिखी जा रही है।</string>
+    <string name="skill_save_unavailable">यह सर्वर अभी स्किल सेव नहीं कर सकता। पहले सर्वर अपडेट करें।</string>
+    <string name="skill_save_no_model">पहले एक मॉडल चुनें।</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_quick_reply.xml (generated from values/strings_quick_reply.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="reply_other">직접 정하기</string>
+    <string name="reply_pick_date">날짜 고르기</string>
+    <string name="reply_pick_time">시간 고르기</string>
+    <string name="reply_number_hint">숫자를 입력해 주세요</string>
+    <string name="reply_number_range">%1$s~%2$s</string>
+    <string name="reply_date_at">%1$s %2$s</string>
+</resources>

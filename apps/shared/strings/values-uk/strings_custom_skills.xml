@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Навички на схвалення</string>
+    <string name="skill_review_about">Kelo використовує навичку лише після вашого схвалення. Під час схвалення зберігається саме показаний текст.</string>
+    <string name="skill_review_drafting">Kelo пише чернетку навички…</string>
+    <string name="skill_review_kind_new">Нова навичка</string>
+    <string name="skill_review_kind_change">Зміна навички</string>
+    <string name="skill_review_kind_edited">Змінено поза застосунком</string>
+    <string name="skill_review_edited_note">Файли цієї навички змінили поза застосунком, тож Kelo не використовує її, доки ви не схвалите її знову.</string>
+    <string name="skill_review_edited_new_note">Цю навичку додали поза застосунком. Kelo не використовуватиме її без вашого схвалення.</string>
+    <string name="skill_review_outside_note">Під час цієї роботи Kelo читав вебсторінки, пошту або файли. Перевірте, чи кожен крок вам підходить.</string>
+    <string name="skill_review_secrets_removed">Паролі, ключі та коди прибрано з тексту.</string>
+    <string name="skill_review_diff_counts">Додано %1$d · Вилучено %2$d</string>
+    <string name="skill_review_show_all">Показати все</string>
+    <string name="skill_review_show_less">Згорнути</string>
+    <string name="skill_review_put_back">Скасувати зміни</string>
+    <string name="skill_review_discard">Відхилити</string>
+    <string name="skill_review_approve">Схвалити</string>
+    <string name="skill_review_approved">Схвалено. Kelo використовуватиме цю навичку.</string>
+    <string name="skill_review_discarded">Відхилено</string>
+    <string name="skill_review_from_draft">Чернетка із завершеного завдання</string>
+    <string name="skill_review_from_disk">Змінено у файлах сервера</string>
+    <string name="skill_review_from_kelo">Запропоновано Kelo</string>
+    <string name="skill_save">Зберегти як навичку</string>
+    <string name="skill_save_about">Kelo запише кроки цього завдання. Нічого не зміниться, доки ви не схвалите це в розділі %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo складає навичку. Вона з’явиться в розділі %1$s → %2$s.</string>
+    <string name="skill_save_busy">Навичку з цього завдання вже пишуть.</string>
+    <string name="skill_save_unavailable">Цей сервер поки не вміє зберігати навички. Спершу оновіть сервер.</string>
+    <string name="skill_save_no_model">Спершу виберіть модель.</string>
+</resources>

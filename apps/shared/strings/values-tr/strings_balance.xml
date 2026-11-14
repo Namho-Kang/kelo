@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">Bakiye</string>
+    <string name="balance_limit_left">Anahtar sınırından kalan</string>
+    <string name="balance_used_today">Bugün harcanan</string>
+    <string name="balance_used_week">Bu hafta harcanan</string>
+    <string name="balance_used_month">Bu ay harcanan</string>
+</resources>

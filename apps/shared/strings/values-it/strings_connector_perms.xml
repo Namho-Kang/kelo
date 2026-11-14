@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Cosa può fare Kelo</string>
+    <string name="perm_about">Consenti: senza scheda. Chiedi: una scheda ogni volta. Off: Kelo non lo fa. Pagamenti e iscrizioni chiedono sempre.</string>
+    <string name="perm_kind_read">Leggere</string>
+    <string name="perm_kind_change">Modificare</string>
+    <string name="perm_kind_send">Inviare</string>
+    <string name="perm_kind_delete">Eliminare</string>
+    <string name="perm_allow">Consenti</string>
+    <string name="perm_ask">Chiedi</string>
+    <string name="perm_off">Off</string>
+    <string name="perm_default_is">Predefinito: %1$s</string>
+    <string name="perm_changed_from">Il predefinito è %1$s</string>
+    <string name="perm_actions_more">%1$d azioni singole</string>
+    <string name="perm_reset">Torna ai valori predefiniti</string>
+    <string name="perm_reset_q">Riportare tutte le impostazioni di questo connettore ai valori predefiniti?</string>
+    <string name="perm_read_off_q">Con la lettura disattivata, Kelo non può quasi usare questo connettore. Disattivarla?</string>
+    <string name="perm_limited">Limitato</string>
+</resources>

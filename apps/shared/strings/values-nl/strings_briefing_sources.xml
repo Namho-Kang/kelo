@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">Wat er gelezen wordt</string>
+    <string name="briefing_sources_about">Kelo leest alle gekoppelde agenda\'s en mailboxen voor het overzicht en de meldingen. Zet er een uit om hem over te slaan.</string>
+    <string name="briefing_sources_calendars">Agenda\'s</string>
+    <string name="briefing_sources_mail">Mail</string>
+    <string name="briefing_sources_chat">Je kunt het ook gewoon in de chat tegen Kelo zeggen, bijvoorbeeld: “laat mijn werkmail weg uit het overzicht”.</string>
+    <string name="briefing_sources_check">Accounts nu controleren</string>
+    <string name="briefing_sources_checking">Controleren…</string>
+    <string name="connector_method_caldav">App-wachtwoord voor CalDAV</string>
+    <string name="caldav_help">Gebruik het CalDAV-adres van je aanbieder (bijvoorbeeld https://dav.fastmail.com/ bij Fastmail), je gebruikersnaam en een app-wachtwoord.</string>
+    <string name="caldav_url">CalDAV-adres</string>
+    <string name="caldav_user">Gebruikersnaam</string>
+    <string name="caldav_account_note">Kelo leest deze agenda alleen, voor het overzicht en de meldingen. Hij wijzigt hem nooit.</string>
+    <string name="caldav_disconnect_confirm">%1$s loskoppelen? Het opgeslagen app-wachtwoord wordt gewist.</string>
+    <string name="caldav_add_other">Nog een agenda toevoegen</string>
+    <string name="caldav_notify">Ik heb mijn agenda gekoppeld. Ga maar door.</string>
+</resources>

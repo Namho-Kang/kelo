@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Signaler</string>
+    <string name="report_title">Signaler cette réponse</string>
+    <string name="report_intro">Si cette réponse vous a choqué ou était fausse, prévenez le développeur de Kelo. Ça sert uniquement à rendre Kelo plus sûr.</string>
+    <string name="report_reason_label">Quel était le problème ?</string>
+    <string name="report_reason_harmful">Choquant ou nuisible</string>
+    <string name="report_reason_inaccurate">Factuellement inexact</string>
+    <string name="report_reason_privacy">Expose des infos personnelles</string>
+    <string name="report_reason_other">Autre chose</string>
+    <string name="report_comment_hint">Autre chose à ajouter ? (facultatif)</string>
+    <string name="report_include_asked">Envoyer aussi le message que j’ai envoyé juste avant</string>
+    <string name="report_sent_title">Ce qui est envoyé au développeur de Kelo</string>
+    <string name="report_sent_reply">La réponse que vous signalez</string>
+    <string name="report_sent_asked">Le message que vous avez envoyé juste avant</string>
+    <string name="report_sent_reason">La raison choisie et vos éventuels commentaires</string>
+    <string name="report_sent_model">Le nom du modèle qui a écrit la réponse</string>
+    <string name="report_sent_version">La version de l’app Kelo</string>
+    <string name="report_sent_not">Rien d’autre de vos discussions ni aucune info de compte n’est envoyé. Les signalements sont conservés 1 an puis supprimés — plus tôt si vous le demandez.</string>
+    <string name="report_send">Envoyer le signalement</string>
+    <string name="report_sending">Envoi…</string>
+    <string name="report_failed_offline">Impossible de joindre votre serveur. Ce que vous avez écrit est toujours là — réessayez dans un moment.</string>
+    <string name="report_thanks">Signalement envoyé. Merci de nous avoir prévenus.</string>
+    <string name="operator_section_reports">Signalements reçus</string>
+    <string name="operator_reports_note">Réponses signalées par les utilisateurs depuis l’app. Elles sont supprimées automatiquement après 1 an.</string>
+    <string name="operator_reports_not_receiving">Ce serveur ne reçoit pas de signalements. Ceux envoyés depuis ce serveur vont au serveur du développeur de Kelo.</string>
+    <string name="operator_reports_empty">Aucun signalement pour l’instant.</string>
+    <string name="operator_reports_open">Signalements à traiter : %1$d</string>
+    <string name="operator_reports_show_handled">Afficher aussi les signalements traités</string>
+    <string name="operator_reports_hide_handled">Afficher seulement ceux à traiter</string>
+    <string name="operator_reports_reply">Réponse signalée</string>
+    <string name="operator_reports_asked">Message de l’utilisateur juste avant</string>
+    <string name="operator_reports_comment">Commentaire</string>
+    <string name="operator_reports_meta">%1$s · %2$s · App %3$s</string>
+    <string name="operator_reports_mark">Marquer comme traité</string>
+    <string name="operator_reports_unmark">Marquer comme non traité</string>
+    <string name="operator_reports_handled">Traité</string>
+    <string name="operator_reports_delete">Supprimer</string>
+    <string name="operator_reports_delete_confirm">Supprimer ce signalement ? Action irréversible.</string>
+    <string name="operator_reports_unknown">Inconnu</string>
+</resources>

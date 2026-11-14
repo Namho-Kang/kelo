@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_active_hours.xml (generated from values/strings_active_hours.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="hours_suggest_heading">Запропонований час повідомлень</string>
+    <string name="hours_suggest_title">Зазвичай ви користуєтеся Kelo %1$s. Отримувати повідомлення від Kelo в цей час?</string>
+    <plurals name="hours_suggest_basis">
+        <item quantity="one">За останнім %1$d днем користування · зараз %2$s</item>
+        <item quantity="few">За останніми %1$d днями користування · зараз %2$s</item>
+        <item quantity="many">За останніми %1$d днями користування · зараз %2$s</item>
+        <item quantity="other">За останніми %1$d днями користування · зараз %2$s</item>
+    </plurals>
+    <string name="hours_suggest_accept">Використати цей час</string>
+    <string name="hours_suggest_keep">Залишити як є</string>
+    <string name="hours_suggest_accepted">Час повідомлень змінено · %1$s</string>
+    <string name="hours_suggest_kept">Залишаємо поточний час</string>
+    <string name="hours_span_next_day">%1$s – %2$s наступного дня</string>
+    <string name="hours_learned">За вашим користуванням</string>
+    <string name="hours_auto_switch">Підлаштовувати час сповіщень під ваш час у Kelo</string>
+    <string name="proactive_until_next_day">До %1$s наступного дня</string>
+</resources>

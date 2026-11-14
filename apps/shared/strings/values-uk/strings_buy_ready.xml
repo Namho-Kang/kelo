@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_buy_ready.xml -->
+<resources>
+    <string name="buy_ready_title">Готовий до купівлі</string>
+    <string name="buy_ready_short">Готовий до негайної купівлі</string>
+    <string name="buy_ready_problems_short">Готовий до купівлі: виправити %1$d</string>
+    <string name="buy_ready_ok">Все готово. Щойно з\'явиться, Kelo одразу придбає в дозволених межах.</string>
+    <string name="buy_ready_not_ok">Дещо ще не готове:</string>
+    <string name="buy_ready_login">Вхід</string>
+    <string name="buy_ready_login_kept">Вхід збережено</string>
+    <string name="buy_ready_login_out">Вихід виконано</string>
+    <string name="buy_ready_checked">Остання перевірка</string>
+    <string name="buy_ready_remembered">Kelo пам\'ятає кроки оформлення на цьому сайті та може придбати за лічені секунди.</string>
+    <string name="buy_ready_about">Сторінка товару залишається відкритою в браузері Kelo та перевіряється кожні 15 хвилин.</string>
+    <string name="buy_ready_check">Перевірити зараз</string>
+</resources>

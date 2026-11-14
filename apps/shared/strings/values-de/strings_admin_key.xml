@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Ausgaben und Guthaben anzeigen</string>
+    <string name="admin_key_title">Admin-Schlüssel für Ausgaben und Guthaben</string>
+    <string name="admin_key_safety">Wird im Schlüsselcontainer auf deinem Server aufbewahrt, nicht von Kelo selbst, und nur zum Lesen von Ausgaben und Guthaben verwendet.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (schreibgeschützt reicht aus).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (nur Organisationskonten).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Speichern</string>
+    <string name="admin_key_saved">Gespeichert. Ausgaben werden unten angezeigt.</string>
+    <string name="admin_key_refused">Der Anbieter hat diesen Schlüssel abgelehnt. Prüfe, ob es ein Admin-Schlüssel ist.</string>
+    <string name="admin_key_keyring_off">Dieser Server speichert keine Admin-Schlüssel (sein Schlüsselcontainer ist deaktiviert).</string>
+    <string name="admin_key_failed">Schlüssel konnte nicht gespeichert werden. Versuche es gleich noch einmal.</string>
+    <string name="admin_key_set">Admin-Schlüssel …%1$s</string>
+    <string name="admin_key_remove">Entfernen</string>
+    <string name="admin_key_remove_q">Admin-Schlüssel entfernen? Ausgaben und Guthaben werden nicht mehr angezeigt.</string>
+    <string name="my_privacy_keyring">Von dir eingegebene KI-Anbieterschlüssel (und Admin-Schlüssel, falls vorhanden) werden in einem separaten Schlüsselcontainer auf deinem Server verwahrt, nicht von Kelo selbst. Kelo bittet ihn um jeden Aufruf, und er fügt den Schlüssel nur für die Adresse dieses Anbieters hinzu.</string>
+</resources>

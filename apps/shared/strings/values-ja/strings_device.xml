@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">このスマホ</string>
+    <string name="device_row_sub">このスマホ</string>
+    <string name="device_row_connect">接続</string>
+    <string name="device_connected">接続済み</string>
+    <string name="device_needs_permission">許可が必要</string>
+    <string name="device_calendar">カレンダー</string>
+    <string name="device_contacts">連絡先</string>
+    <string name="device_messages">メッセージ</string>
+    <string name="device_dialer">電話アプリ</string>
+    <string name="device_notifications">通知</string>
+    <string name="device_call_log">通話履歴</string>
+    <string name="device_health">ヘルスコネクト</string>
+    <string name="device_calendar_does">予定を見て答えます。許可すると、承認のあとで予定の追加もします。</string>
+    <string name="device_calendar_sends">過去7日から今後60日までの予定をあなたのサーバーに送ります。</string>
+    <string name="device_contacts_does">名前から電話番号やメールを探します。見るだけです。</string>
+    <string name="device_contacts_sends">名前、電話番号、メール、会社・役職、誕生日をあなたのサーバーに送ります。</string>
+    <string name="device_messages_does">送受信したSMSを探して読みます。送信は承認したときだけです。</string>
+    <string name="device_messages_sends">最近のSMSをあなたのサーバーに送ります。</string>
+    <string name="device_dialer_does">承認すると、番号を入れた状態で電話アプリを開きます。発信はご自身でタップします。</string>
+    <string name="device_dialer_sends">送るデータはありません。</string>
+    <string name="device_notifications_does">届いた通知から必要な内容を探します。</string>
+    <string name="device_notifications_sends">アプリ名、タイトル、本文、時刻をあなたのサーバーに送ります。7日後に削除します。</string>
+    <string name="device_call_log_does">最近の通話を探します。見るだけです。</string>
+    <string name="device_call_log_sends">過去30日の番号、名前、通話の種類、時刻、長さをあなたのサーバーに送ります。</string>
+    <string name="device_health_does">歩数や睡眠などの記録から答えます。見るだけです。</string>
+    <string name="device_health_sends">選んだ項目の1日分のまとめだけを、アプリを開いたときにあなたのサーバーに送ります。</string>
+    <string name="device_switch">Kelo に使わせる</string>
+    <string name="device_auto">自動で同期中 · %1$s</string>
+    <string name="device_auto_never">オンにするとすぐ送り、その後も同期します</string>
+    <string name="device_auto_foreground">アプリを開くたびに同期 · %1$s</string>
+    <string name="device_send_now">今すぐ送る</string>
+    <string name="device_sending">送信中…</string>
+    <string name="device_send_failed">送れませんでした。少ししたらもう一度送ります。</string>
+    <string name="device_off_failed">オフにしました。サーバーに残った内容は次に接続したときに削除します。</string>
+    <string name="device_denied">許可がオフです。設定で許可するとオンにできます。</string>
+    <string name="device_open_settings">設定を開く</string>
+    <string name="device_ready">オン</string>
+    <plurals name="device_count_contacts">
+        <item quantity="other">連絡先 %1$d件</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="other">SMS %1$d件</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="other">通話 %1$d件</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="other">%1$d日分のまとめ</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="other">通知 %1$d件</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="other">予定 %1$d件</item>
+    </plurals>
+    <string name="device_cal_write">予定の追加・編集も許可</string>
+    <string name="device_cal_write_line">変更のたびに承認カードで先に確認します。</string>
+    <string name="device_cal_write_to">追加先のカレンダー</string>
+    <string name="device_cal_none">変更できるカレンダーがありません。</string>
+    <string name="device_cal_write_denied">カレンダーの書き込み許可がオフです。</string>
+    <string name="device_msg_window">送る期間</string>
+    <string name="device_days">%1$d日</string>
+    <string name="device_msg_send">SMSの送信を許可</string>
+    <string name="device_msg_send_line">宛先と全文を承認したあとで、このスマホから送ります。</string>
+    <string name="device_msg_send_denied">SMSの送信許可がオフです。</string>
+    <string name="device_notif_service_label">Kelo の通知読み取り</string>
+    <string name="device_notif_disclosure_title">通知を Kelo と共有しますか？</string>
+    <string name="device_notif_disclosure">オンにすると、このスマホに届く通知のアプリ名、タイトル、本文、時刻があなたの Kelo サーバーに送られます。エージェントが探しものや返答に使います。表示中の常駐通知、Kelo 自身の通知、除外したアプリの通知は送りません。サーバーは7日後に、オフにしたときはすぐに削除します。\n\n次の画面で Kelo の通知へのアクセスをオンにしてください。</string>
+    <string name="device_agree">同意して続ける</string>
+    <string name="device_decline">今はしない</string>
+    <string name="device_notif_access_off">通知へのアクセスがオフです。</string>
+    <string name="device_notif_exclude">送らないアプリ</string>
+    <string name="device_notif_exclude_empty">通知が届いたアプリがここに表示されます。</string>
+    <string name="device_health_types">共有する項目</string>
+    <string name="device_health_steps">歩数</string>
+    <string name="device_health_sleep">睡眠</string>
+    <string name="device_health_heart">心拍数</string>
+    <string name="device_health_weight">体重</string>
+    <string name="device_health_exercise">運動</string>
+    <string name="device_health_missing">このスマホに Health Connect がありません。</string>
+    <string name="device_health_install">Health Connect をインストール</string>
+    <string name="device_health_denied">選んだ項目の許可がありません。もう一度許可してください。</string>
+    <string name="device_health_allow">許可する</string>
+    <string name="device_health_rationale_title">Kelo が健康記録を使う方法</string>
+    <string name="device_health_rationale">Kelo は選んだ項目（歩数、睡眠、心拍数、体重、運動）の1日分のまとめだけを読み取り、あなた自身の Kelo サーバーに送ります。使うのはエージェントが質問に答えるときだけで、広告や販売には使いません。Kelo は読み取るだけで、Health Connect に書き込むことはありません。オフにするとサーバー上のまとめを削除します。</string>
+    <string name="device_privacy_policy">プライバシーポリシー</string>
+    <string name="device_dial_title">%1$s に電話</string>
+    <string name="device_dial_body">タップすると電話アプリが開きます。発信はご自身で行います。</string>
+    <string name="device_sms_failed_title">SMSを送れませんでした</string>
+</resources>

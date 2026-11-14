@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pt-BR text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Relatar</string>
+    <string name="report_title">Relatar esta resposta</string>
+    <string name="report_intro">Se esta resposta foi ofensiva ou errada, avise o desenvolvedor do Kelo. Isso só é usado para deixar o Kelo mais seguro.</string>
+    <string name="report_reason_label">Qual foi o problema?</string>
+    <string name="report_reason_harmful">Ofensiva ou prejudicial</string>
+    <string name="report_reason_inaccurate">Informação incorreta</string>
+    <string name="report_reason_privacy">Expõe dados pessoais</string>
+    <string name="report_reason_other">Outra coisa</string>
+    <string name="report_comment_hint">Quer acrescentar algo? (opcional)</string>
+    <string name="report_include_asked">Enviar também a mensagem que mandei logo antes</string>
+    <string name="report_sent_title">O que vai para o desenvolvedor do Kelo</string>
+    <string name="report_sent_reply">A resposta que você está relatando</string>
+    <string name="report_sent_asked">A mensagem que você mandou logo antes</string>
+    <string name="report_sent_reason">O motivo que você escolheu e os comentários</string>
+    <string name="report_sent_model">O nome do modelo que escreveu a resposta</string>
+    <string name="report_sent_version">Versão do app Kelo</string>
+    <string name="report_sent_not">Nada mais das suas conversas e nenhum dado da conta é enviado. Os relatos ficam guardados por 1 ano e depois são excluídos — antes, se você pedir.</string>
+    <string name="report_send">Enviar relato</string>
+    <string name="report_sending">Enviando…</string>
+    <string name="report_failed_offline">Não foi possível acessar seu servidor. O que você escreveu continua aqui — tente enviar de novo daqui a pouco.</string>
+    <string name="report_thanks">Relato enviado. Obrigado por avisar.</string>
+    <string name="operator_section_reports">Relatos recebidos</string>
+    <string name="operator_reports_note">Respostas que usuários relataram pelo app. São excluídas automaticamente depois de 1 ano.</string>
+    <string name="operator_reports_not_receiving">Este servidor não recebe relatos. Os relatos enviados deste servidor vão para o servidor do desenvolvedor do Kelo.</string>
+    <string name="operator_reports_empty">Nenhum relato ainda.</string>
+    <string name="operator_reports_open">Relatos para tratar: %1$d</string>
+    <string name="operator_reports_show_handled">Mostrar também os relatos tratados</string>
+    <string name="operator_reports_hide_handled">Mostrar só os relatos para tratar</string>
+    <string name="operator_reports_reply">Resposta relatada</string>
+    <string name="operator_reports_asked">Mensagem do usuário logo antes</string>
+    <string name="operator_reports_comment">Comentário</string>
+    <string name="operator_reports_meta">%1$s · %2$s · App %3$s</string>
+    <string name="operator_reports_mark">Marcar como tratado</string>
+    <string name="operator_reports_unmark">Marcar como não tratado</string>
+    <string name="operator_reports_handled">Tratado</string>
+    <string name="operator_reports_delete">Excluir</string>
+    <string name="operator_reports_delete_confirm">Excluir este relato? Não dá para desfazer.</string>
+    <string name="operator_reports_unknown">Desconhecido</string>
+</resources>

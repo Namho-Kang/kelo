@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">Se consenti, il telefono chiederà se inviare il PIN di pagamento salvato per questo sito. Confermalo lì.</string>
+    <string name="desktop_pin_need_body">Apri l\'app Kelo sul telefono per inviare una volta il PIN «%1$s» per il pagamento su %2$s (%3$s).</string>
+    <string name="desktop_pin_secret_on_phone">I PIN di pagamento sono salvati solo sul telefono. Inseriscilo nell\'app Kelo sul telefono; questa scheda si chiuderà da sola una volta salvato.</string>
+    <string name="desktop_pay_step_on_phone">Approvalo nell\'app della carta o della banca sul telefono, poi fai clic qui su «Ho approvato».</string>
+    <string name="desktop_pay_step_click_copy">Fai clic sul codice per copiarlo</string>
+    <string name="desktop_pay_step_pad_note">Fai clic sui tasti qui. Ogni clic va nello stesso punto della pagina di pagamento.</string>
+    <string name="desktop_briefing_weather_follows_phone">Il meteo segue la posizione del telefono. Compare quando apri Kelo sul telefono e consenti la posizione.</string>
+    <string name="desktop_pin_add_on_phone">I PIN di pagamento si aggiungono nell\'app Kelo sul telefono. Sono bloccati con una chiave che ha solo quel telefono.</string>
+</resources>

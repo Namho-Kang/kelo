@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_buy_ready.xml -->
+<resources>
+    <string name="buy_ready_title">立即購買</string>
+    <string name="buy_ready_short">立即購買已就緒</string>
+    <string name="buy_ready_problems_short">立即購買：需處理 %1$d 項</string>
+    <string name="buy_ready_ok">一切準備就緒。出現時，Kelo 會在允許範圍內立即購買。</string>
+    <string name="buy_ready_not_ok">還有未就緒的項目：</string>
+    <string name="buy_ready_login">登入</string>
+    <string name="buy_ready_login_kept">保持登入</string>
+    <string name="buy_ready_login_out">已登出</string>
+    <string name="buy_ready_checked">上次檢查</string>
+    <string name="buy_ready_remembered">Kelo 記住了該網站的結帳步驟，可在數秒內完成購買。</string>
+    <string name="buy_ready_about">商品頁面會在 Kelo 瀏覽器中保持開啟狀態，並每隔 15 分鐘檢查一次。</string>
+    <string name="buy_ready_check">立即檢查</string>
+</resources>

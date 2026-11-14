@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- in text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">Sebelum pesan pertama Anda</string>
+    <string name="ai_consent_body">Untuk menjawab, Kelo mengirim pesan Anda dan yang diperlukan untuknya (file yang dilampirkan, hasil dari layanan yang terhubung) ke layanan AI yang Anda pilih.</string>
+    <string name="ai_consent_now">Dipilih sekarang: %1$s. Anda dapat melihat dan mengubahnya di Model.</string>
+    <string name="ai_consent_not_now_note">Dengan “Nanti saja”, tidak ada yang dikirim.</string>
+    <string name="ai_consent_privacy">Kebijakan privasi</string>
+    <string name="ai_consent_agree">Setuju</string>
+    <string name="ai_consent_not_now">Nanti saja</string>
+    <string name="ai_chats_go_to">Obrolan Anda dikirim ke %1$s</string>
+    <string name="ai_chats_stay">Obrolan Anda tetap di jaringan Anda sendiri</string>
+</resources>

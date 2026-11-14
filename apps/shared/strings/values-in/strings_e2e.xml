@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">Hubungkan ulang ponsel ini</string>
+    <string name="e2e_key_changed_body">Kunci enkripsi server Kelo Anda berubah, jadi ponsel ini tidak bisa memastikan bahwa itu benar-benar server Anda. Pindai kode QR koneksi baru dari Saya → Perangkat saya di perangkat lain, atau dari komputer server.</string>
+    <string name="e2e_pair_again">Hubungkan ulang</string>
+    <string name="e2e_server_old_title">Perbarui server Kelo Anda</string>
+    <string name="e2e_server_old_body">Aplikasi ini memerlukan server Kelo %1$s atau yang lebih baru. Perbarui server, lalu kembali.</string>
+    <string name="e2e_server_old_version">Versi server: %1$s</string>
+    <string name="e2e_retry">Coba lagi</string>
+    <string name="devices_e2e_title">Enkripsi end-to-end</string>
+    <string name="devices_e2e_on">Di perjalanan, hanya ponsel ini dan server Anda yang bisa membaca obrolan Anda.</string>
+    <string name="devices_e2e_fingerprint">Sidik jari kunci server</string>
+    <string name="devices_e2e_verified">Kunci terverifikasi</string>
+    <string name="devices_e2e_not_verified">Kunci belum terverifikasi</string>
+    <string name="devices_e2e_not_verified_body">Bandingkan dengan sidik jari yang ditampilkan `assistant phone fingerprint` di komputer server, atau pindai kode QR koneksi sekali.</string>
+    <string name="devices_e2e_verify_scan">Verifikasi dengan memindai kode QR</string>
+    <string name="devices_e2e_verify_done">Kuncinya cocok. Terverifikasi ✓</string>
+    <string name="devices_e2e_verify_mismatch">Kode QR ini berisi kunci lain. Jika kunci server diganti, hubungkan ulang ponsel ini.</string>
+    <string name="devices_e2e_verify_no_key">Kode QR ini tidak berisi kunci. Buat yang baru dengan server yang sudah diperbarui.</string>
+</resources>

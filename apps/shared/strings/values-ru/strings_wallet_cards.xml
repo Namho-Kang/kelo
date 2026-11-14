@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Название</string>
+    <string name="wallet_nickname_field">Название (необязательно)</string>
+    <string name="wallet_tag_default">Основная</string>
+    <string name="wallet_default_title">Основная карта</string>
+    <string name="wallet_default_on">Kelo платит этой картой, если вы или задача не укажете другую.</string>
+    <string name="wallet_make_default">Сделать основной картой</string>
+    <string name="wallet_delete_default_title">Выберите новую основную карту</string>
+    <string name="wallet_delete_default_body">«%1$s» — ваша основная карта. Выберите карту, которой Kelo будет платить дальше.</string>
+    <string name="wallet_card_history">Платежи этой картой</string>
+    <string name="wallet_card_history_empty">Kelo ещё не платил этой картой.</string>
+    <string name="wallet_card_history_more">Показать более ранние платежи</string>
+    <string name="wallet_open_chat">Открыть чат</string>
+    <string name="wallet_open_task">Открыть задачу</string>
+    <string name="wallet_auto_from_phone">Телефон откроет свою копию карты по отпечатку, лицу или блокировке экрана. Номер вводить заново не нужно.</string>
+    <string name="wallet_auth_auto_title">Включить автооплату</string>
+    <string name="wallet_auth_auto_subtitle">Открыть копию «%1$s» на этом телефоне</string>
+    <string name="wallet_auto_not_here_title">Этой карты нет на этом телефоне</string>
+    <string name="wallet_auto_not_here_body">Карта добавлена на другом устройстве, поэтому этот телефон не может её открыть. Включите автооплату на устройстве, где её добавили, или введите здесь номер карты.</string>
+    <string name="wallet_auto_enter_number">Ввести номер</string>
+    <string name="wallet_auto_on_failed">Не удалось включить автооплату. Попробуйте ещё раз.</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">Когда это случится, сделать это без вопроса?</string>
+    <string name="task_grant_when">Когда</string>
+    <string name="task_grant_does">Kelo сделает</string>
+    <string name="task_grant_buy">Покупка</string>
+    <string name="task_grant_limits">Лимиты</string>
+    <string name="task_grant_per_time">До %1$s за раз</string>
+    <string name="task_grant_times_one">Только один раз</string>
+    <string name="task_grant_times">Не больше %1$d раз</string>
+    <string name="task_grant_no_count">Без ограничения числа</string>
+    <string name="task_grant_monthly">Не больше %1$s в месяц</string>
+    <string name="task_grant_card">Карта</string>
+    <string name="task_grant_card_limit">Лимит автоплатежа этой карты — %1$s. Разрешить до %2$s для этой задачи?</string>
+    <string name="task_grant_card_not_auto">Эта карта не платит сама. Эта задача может заплатить до %1$s.</string>
+    <string name="task_grant_card_phone_only">Эта карта хранится только на телефоне, поэтому каждый платёж всё равно спросит.</string>
+    <string name="task_grant_ship_to">Доставить</string>
+    <string name="task_grant_send_to">Кому</string>
+    <string name="task_grant_message">Сообщение</string>
+    <string name="task_grant_varies">Может меняться: %1$s</string>
+    <string name="task_grant_change">Изменения</string>
+    <string name="task_grant_apply">Заявки</string>
+    <string name="task_grant_apply_per_run">До %1$d за запуск</string>
+    <string name="task_grant_apply_total">Всего %1$d</string>
+    <string name="task_grant_row_apply">Подает заявку на %1$s</string>
+    <string name="task_grant_delete_yes">Удаление разрешено</string>
+    <string name="task_grant_delete_no">Никогда не удаляет</string>
+    <string name="task_grant_login">Вход</string>
+    <string name="task_grant_login_line">Вход %1$s на %2$s</string>
+    <string name="task_grant_once">Завершится само, когда сделано, поэтому ничего не случится дважды.</string>
+    <string name="task_grant_after">Сразу после этого придёт уведомление. Всё остальное по-прежнему спрашивает.</string>
+    <string name="task_grant_urgent">Срочно: ответьте поскорее</string>
+    <string name="task_grant_urgent_missed">Срочно: если ответить поздно, %1$s</string>
+    <string name="task_grant_row_send">Отправляет %1$s</string>
+    <string name="task_grant_row_change">Меняет %1$s</string>
+    <string name="task_grant_row_when">Когда: %1$s</string>
+    <string name="task_grant_row_card">Карта: %1$s</string>
+    <string name="task_grant_row_left">Осталось %1$d из %2$d</string>
+    <string name="task_grant_row_once">потом завершится</string>
+    <string name="task_grant_section_note">Разрешено один раз при настройке. Всё остальное по-прежнему спрашивает.</string>
+    <string name="notify_channel_urgent">Срочные запросы</string>
+    <string name="notify_channel_urgent_desc">Когда настроенной задаче нужен ответ, пока не поздно</string>
+    <string name="notify_approval_urgent">Срочно: подтвердите</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Opruimen</string>
+    <string name="storage_cleanup_title">Opslag opruimen</string>
+    <string name="storage_warn">De opslag van Kelo is voor %1$d%% vol.</string>
+    <string name="storage_critical">De opslag van Kelo is bijna vol (%1$d%%). Als die vol is, kunnen er geen nieuwe bestanden worden opgeslagen, maar de chat blijft werken.</string>
+    <string name="storage_host_low">De schijf van de computer waarop de Kelo-server draait is bijna vol (nog %1$s). Als die vol is, werkt Kelo niet meer, ook de chat niet.</string>
+    <string name="storage_top">Neemt het meest in beslag: %1$s (%2$s).</string>
+    <string name="storage_row_warn">%1$d%% vol</string>
+    <string name="storage_row_critical">Bijna vol</string>
+    <string name="storage_row_host">Schijf bijna vol</string>
+    <string name="storage_cleanup_intro">Dit kan veilig weg. Notities, geheugen en chatgeschiedenis staan hier nooit tussen.</string>
+    <string name="storage_group_uploads">Oude originele uploads</string>
+    <string name="storage_group_uploads_desc">Bestanden die meer dan %1$d dagen geleden zijn geüpload. Alleen het origineel gaat weg; de tekst die Kelo uit een document las, blijft.</string>
+    <string name="storage_group_images">Gemaakte afbeeldingen</string>
+    <string name="storage_group_images_desc">Afbeeldingen die Kelo maakte. Oudere chatberichten die ze toonden, tonen daarna niets meer.</string>
+    <string name="storage_group_browser">Stapbeelden van de browser</string>
+    <string name="storage_group_browser_desc">Beelden van elke browserstap uit taken die vanzelf liepen.</string>
+    <string name="storage_group_results">Oude resultaten en prullenbak</string>
+    <string name="storage_group_results_desc">Resultaten ouder dan %1$d dagen en alles in de prullenbak.</string>
+    <string name="storage_group_backups">Oudere back-ups</string>
+    <string name="storage_group_backups_desc">De nieuwste back-ups blijven altijd bewaard.</string>
+    <string name="storage_item_text_kept">Tekst blijft</string>
+    <string name="storage_item_trashed">In prullenbak</string>
+    <string name="storage_backup_update">Voor een serverupdate</string>
+    <string name="storage_backup_memory">Geheugen opgeruimd</string>
+    <string name="storage_backup_migration">Eerdere indeling</string>
+    <string name="storage_selected">Gekozen: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Verwijderen</string>
+    <string name="storage_confirm_title">Gekozen items definitief verwijderen?</string>
+    <string name="storage_confirm_body">Dit maakt %1$s vrij. Verwijderde items komen niet terug.</string>
+    <string name="storage_deleted">%1$s vrijgemaakt.</string>
+    <string name="storage_skipped">Sommige items waren al veranderd en zijn gelaten zoals ze waren.</string>
+    <string name="storage_nothing">Er is nu niets op te ruimen.</string>
+    <string name="storage_owner_only">Alleen de eigenaar van de server kan opruimen.</string>
+    <string name="storage_load_failed">Kon niet laden wat opgeruimd kan worden.</string>
+    <string name="storage_delete_failed">Verwijderen lukte niet. Probeer het opnieuw.</string>
+    <string name="storage_notify">De opslag raakt vol</string>
+</resources>

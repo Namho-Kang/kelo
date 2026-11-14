@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">जल्द आ रहा है</string>
+    <string name="google_review_title">Google साइन-इन तैयार हो रहा है</string>
+    <string name="google_review_note">Google की समीक्षा पूरी होने पर यह खुल जाएगा। Kelo को सपोर्ट करने से यह जल्दी खुल सकता है।</string>
+    <string name="google_review_support">Kelo को सपोर्ट करें</string>
+    <string name="google_review_phone_calendar">फ़ोन कैलेंडर से कनेक्ट करें</string>
+    <string name="google_review_phone_calendar_help">Android फ़ोन आपका Google Calendar फ़ोन के अपने कैलेंडर में ही रखते हैं, इसलिए Kelo उसे वहीं से पढ़ सकता है।</string>
+    <string name="google_review_open_switch">सभी के लिए Google साइन-इन खोलें</string>
+    <string name="google_review_open_warning">इसे तभी चालू करें जब Google इस क्लाइंट को वेरिफ़ाई कर दे। तब तक Google ज़्यादा से ज़्यादा 100 यूज़र को ही इजाज़त देता है और उन्हें एक चेतावनी दिखाता है।</string>
+</resources>

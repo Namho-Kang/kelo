@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">รายงาน</string>
+    <string name="report_title">รายงานคำตอบนี้</string>
+    <string name="report_intro">ถ้าคำตอบนี้ทำให้ไม่สบายใจหรือผิดพลาด แจ้งผู้พัฒนา Kelo ได้ ใช้เพื่อทำให้ Kelo ปลอดภัยขึ้นเท่านั้น</string>
+    <string name="report_reason_label">มีปัญหาอะไร</string>
+    <string name="report_reason_harmful">ทำให้ไม่สบายใจหรือเป็นอันตราย</string>
+    <string name="report_reason_inaccurate">ข้อเท็จจริงไม่ถูกต้อง</string>
+    <string name="report_reason_privacy">เปิดเผยข้อมูลส่วนตัว</string>
+    <string name="report_reason_other">อย่างอื่น</string>
+    <string name="report_comment_hint">มีอะไรเพิ่มเติมไหม (ไม่บังคับ)</string>
+    <string name="report_include_asked">ส่งข้อความที่ฉันส่งไปก่อนหน้าด้วย</string>
+    <string name="report_sent_title">สิ่งที่จะส่งไปยังผู้พัฒนา Kelo</string>
+    <string name="report_sent_reply">คำตอบที่คุณรายงาน</string>
+    <string name="report_sent_asked">ข้อความที่คุณส่งไปก่อนหน้า</string>
+    <string name="report_sent_reason">เหตุผลที่คุณเลือกและความคิดเห็น</string>
+    <string name="report_sent_model">ชื่อโมเดลที่เขียนคำตอบ</string>
+    <string name="report_sent_version">เวอร์ชันแอป Kelo</string>
+    <string name="report_sent_not">ไม่มีการส่งข้อมูลอื่นจากแชตหรือข้อมูลบัญชี รายงานจะเก็บไว้ 1 ปีแล้วลบ หรือเร็วกว่านั้นถ้าคุณขอ</string>
+    <string name="report_send">ส่งรายงาน</string>
+    <string name="report_sending">กำลังส่ง…</string>
+    <string name="report_failed_offline">ติดต่อเซิร์ฟเวอร์ของคุณไม่ได้ สิ่งที่เขียนไว้ยังอยู่ ลองส่งอีกครั้งในอีกสักครู่</string>
+    <string name="report_thanks">ส่งรายงานแล้ว ขอบคุณที่แจ้งให้ทราบ</string>
+    <string name="operator_section_reports">รายงานที่ได้รับ</string>
+    <string name="operator_reports_note">คำตอบที่ผู้ใช้รายงานจากแอป จะถูกลบอัตโนมัติหลัง 1 ปี</string>
+    <string name="operator_reports_not_receiving">เซิร์ฟเวอร์นี้ไม่รับรายงาน รายงานที่ส่งจากเซิร์ฟเวอร์นี้จะไปที่เซิร์ฟเวอร์ของผู้พัฒนา Kelo</string>
+    <string name="operator_reports_empty">ยังไม่มีรายงาน</string>
+    <string name="operator_reports_open">รายงานที่ต้องจัดการ %1$d รายการ</string>
+    <string name="operator_reports_show_handled">แสดงรายงานที่จัดการแล้วด้วย</string>
+    <string name="operator_reports_hide_handled">แสดงเฉพาะรายงานที่ต้องจัดการ</string>
+    <string name="operator_reports_reply">คำตอบที่ถูกรายงาน</string>
+    <string name="operator_reports_asked">ข้อความก่อนหน้าของผู้ใช้</string>
+    <string name="operator_reports_comment">ความคิดเห็น</string>
+    <string name="operator_reports_meta">%1$s · %2$s · แอป %3$s</string>
+    <string name="operator_reports_mark">ทำเครื่องหมายว่าจัดการแล้ว</string>
+    <string name="operator_reports_unmark">ทำเครื่องหมายว่ายังไม่จัดการ</string>
+    <string name="operator_reports_handled">จัดการแล้ว</string>
+    <string name="operator_reports_delete">ลบ</string>
+    <string name="operator_reports_delete_confirm">ลบรายงานนี้ไหม ย้อนกลับไม่ได้</string>
+    <string name="operator_reports_unknown">ไม่ทราบ</string>
+</resources>

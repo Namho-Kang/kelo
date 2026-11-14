@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text only the desktop app has (ja). See values/strings_desktop.xml. -->
+<resources>
+    <string name="desktop_pair_step2">表示されたリンクをコピーして、下に貼り付けます。</string>
+    <string name="desktop_tray_open">Kelo を開く</string>
+    <string name="desktop_tray_quit">Kelo を終了</string>
+    <string name="desktop_tray_stop">止める: %1$s</string>
+    <string name="desktop_still_running">Kelo はトレイで動き続け、知らせることがあればお伝えします。</string>
+    <string name="desktop_section">このデバイス</string>
+    <string name="desktop_start_at_login">サインイン時に Kelo を起動</string>
+    <string name="desktop_start_at_login_hint">トレイで静かに起動するので、ウィンドウを開く前でもお知らせを受け取れます。</string>
+    <string name="desktop_start_at_login_store">Windows の設定 → アプリ → スタートアップでオン・オフできます。</string>
+    <string name="desktop_start_at_login_unavailable">インストールしたアプリで使えます。</string>
+    <string name="desktop_keep_in_tray">ウィンドウを閉じてもトレイで動かし続ける</string>
+    <string name="desktop_notifications">デスクトップ通知</string>
+    <string name="desktop_notifications_hint">ウィンドウが隠れている間に届いた返信、承認待ち、Kelo からの先回りのお知らせを通知します。</string>
+    <string name="desktop_reduce_motion">動きを減らす</string>
+    <string name="desktop_theme">表示モード</string>
+    <string name="desktop_theme_system">システムに合わせる</string>
+    <string name="desktop_theme_light">ライト</string>
+    <string name="desktop_theme_dark">ダーク</string>
+    <string name="desktop_drop_here">ここにファイルをドロップすると %1$s に送ります</string>
+    <string name="desktop_attach_files">ファイルを添付（1 ファイル 100MB まで）</string>
+    <string name="desktop_enter_hint">Enter で送信 · Shift+Enter で改行</string>
+    <string name="desktop_logout_confirm">このデバイスからログアウトしますか？もう一度使うには、サーバーに最初から接続し直す必要があります。</string>
+    <string name="desktop_version">Kelo デスクトップ %1$s</string>
+    <string name="desktop_open_settings">設定を開く</string>
+    <string name="desktop_sign_in_browser">ブラウザでログイン</string>
+    <string name="desktop_browser_opened">ブラウザにログインページを開きました。終わったらここに戻ってください。</string>
+    <string name="desktop_chooser_setup_hint">まだすぐに使える AI サービスがありません。下から一つ選んで、キーやアドレスを入力するか、ログインしてください。</string>
+    <string name="desktop_chooser_setup_title">サービスを設定</string>
+    <string name="desktop_update_quit_note">インストーラーを開きました。インストール中は Kelo を終了し、終わったら Kelo をもう一度起動してください。</string>
+    <string name="desktop_update_open_failed">インストーラーを開けませんでした。%1$s に保存してあります。</string>
+    <string name="desktop_e2e_on">通信の途中では、このデバイスとあなたのサーバーだけが会話を読めます。</string>
+    <string name="desktop_e2e_not_verified_body">サーバーマシンで `assistant phone fingerprint` が表示するフィンガープリントと比べるか、接続リンクを一度貼り付けてください。</string>
+    <string name="desktop_e2e_verify_paste">リンクで確認</string>
+    <string name="desktop_e2e_paste_hint">接続リンクを貼り付け（https://…/#pair=…）</string>
+    <string name="desktop_e2e_verify_mismatch">このリンクには別のキーが入っています。サーバーのキーが変わった場合は、このデバイスを接続し直してください。</string>
+    <string name="desktop_e2e_verify_no_key">このリンクにはキーがありません。更新したサーバーで新しいリンクを作ってください。</string>
+    <string name="desktop_e2e_key_changed_body">Kelo サーバーの暗号化キーが変わったため、このデバイスは本当にあなたのサーバーか確認できません。別のデバイスのマイページ → マイデバイス、またはサーバーマシンから新しい接続リンクを貼り付けてください。</string>
+    <string name="desktop_location_on_phone">このコンピューターでは位置情報を共有できません。スマートフォンで Kelo を開いて共有するか、「今はしない」を選んでください。</string>
+    <string name="desktop_keyguard_locked_body">スマートフォンで Kelo を開いてロックを解除するまで、パスワード、キー、カードは閉じたままです。このコンピューターはキーを持っていません。</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">정리하기</string>
+    <string name="storage_cleanup_title">저장 공간 정리</string>
+    <string name="storage_warn">Kelo 저장 공간을 %1$d%% 쓰고 있어요.</string>
+    <string name="storage_critical">Kelo 저장 공간이 거의 찼어요(%1$d%%). 가득 차면 새 파일을 저장하지 못해요. 대화는 계속돼요.</string>
+    <string name="storage_host_low">Kelo 서버를 설치한 컴퓨터의 디스크가 거의 찼어요(%1$s 남음). 다 차면 대화를 포함해 Kelo가 멈춰요.</string>
+    <string name="storage_top">가장 큰 부분: %1$s(%2$s).</string>
+    <string name="storage_row_warn">%1$d%% 사용</string>
+    <string name="storage_row_critical">거의 참</string>
+    <string name="storage_row_host">디스크 부족</string>
+    <string name="storage_cleanup_intro">지워도 안전한 항목이에요. 메모, 기억, 대화 기록은 여기 나오지 않아요.</string>
+    <string name="storage_group_uploads">오래된 업로드 원본</string>
+    <string name="storage_group_uploads_desc">%1$d일보다 전에 올린 파일이에요. 원본만 지우고, Kelo가 문서에서 읽은 글은 남아요.</string>
+    <string name="storage_group_images">만든 이미지</string>
+    <string name="storage_group_images_desc">Kelo가 만든 이미지예요. 이 이미지를 보여 주던 예전 대화에는 이미지가 보이지 않게 돼요.</string>
+    <string name="storage_group_browser">브라우저 단계 화면</string>
+    <string name="storage_group_browser_desc">알아서 실행된 작업의 브라우저 단계별 화면이에요.</string>
+    <string name="storage_group_results">오래된 결과물과 휴지통</string>
+    <string name="storage_group_results_desc">%1$d일보다 오래된 결과물과 휴지통에 있는 모든 파일이에요.</string>
+    <string name="storage_group_backups">이전 백업</string>
+    <string name="storage_group_backups_desc">가장 최근 백업은 항상 남겨 둬요.</string>
+    <string name="storage_item_text_kept">읽은 글은 남음</string>
+    <string name="storage_item_trashed">휴지통</string>
+    <string name="storage_backup_update">서버 업데이트 전</string>
+    <string name="storage_backup_memory">기억 정리</string>
+    <string name="storage_backup_migration">이전 구조</string>
+    <string name="storage_selected">선택한 항목 %1$d개 (%2$s)</string>
+    <string name="storage_delete_button">지우기</string>
+    <string name="storage_confirm_title">고른 항목을 완전히 지울까요?</string>
+    <string name="storage_confirm_body">%1$s 공간이 비워져요. 지운 항목은 되돌릴 수 없어요.</string>
+    <string name="storage_deleted">공간 %1$s 확보했어요.</string>
+    <string name="storage_skipped">일부 항목은 이미 바뀌어서 그대로 두었어요.</string>
+    <string name="storage_nothing">지금은 정리할 항목이 없어요.</string>
+    <string name="storage_owner_only">서버 주인만 정리할 수 있어요.</string>
+    <string name="storage_load_failed">정리할 항목을 불러오지 못했어요.</string>
+    <string name="storage_delete_failed">지우지 못했어요. 다시 시도해 주세요.</string>
+    <string name="storage_notify">저장 공간이 차고 있어요</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">Scanner la carte</string>
+    <string name="card_scan_title">Scanner votre carte</string>
+    <string name="card_scan_hint">Placez le recto de la carte dans le cadre. Elle est lue uniquement sur ce téléphone.</string>
+    <string name="card_scan_preparing">Préparation du scanner…</string>
+    <string name="card_scan_filled">Vérifiez le numéro scanné. Saisissez le CVC vous-même.</string>
+    <string name="card_scan_nothing">Impossible de lire la carte. Réessayez ou saisissez le numéro.</string>
+    <string name="card_scan_camera_needed">Kelo a besoin de l’accès à l’appareil photo pour scanner la carte. Aucune photo n’est enregistrée.</string>
+    <string name="card_scan_camera_failed">Impossible d’ouvrir l’appareil photo. Saisissez plutôt le numéro.</string>
+</resources>

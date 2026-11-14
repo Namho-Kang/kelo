@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Records page review area: the message hours learned from when the owner really uses Kelo, offered as a change -->
+    <string name="hours_suggest_heading">Suggested message hours</string>
+    <string name="hours_suggest_title">You usually use Kelo %1$s. Get messages from Kelo in these hours?</string>
+    <plurals name="hours_suggest_basis">
+        <item quantity="one">Based on your last %1$d day of use · now %2$s</item>
+        <item quantity="other">Based on your last %1$d days of use · now %2$s</item>
+    </plurals>
+    <string name="hours_suggest_accept">Use these hours</string>
+    <string name="hours_suggest_keep">Keep current</string>
+    <string name="hours_suggest_accepted">Message hours changed · %1$s</string>
+    <string name="hours_suggest_kept">Keeping your current hours</string>
+    <!-- A span of time of day: "10:00 AM – 1:00 AM next day" when it runs past midnight -->
+    <string name="hours_span" translatable="false">%1$s – %2$s</string>
+    <string name="hours_span_next_day">%1$s – %2$s next day</string>
+    <!-- Notifications page, under the message hours -->
+    <string name="hours_learned">Learned from your use</string>
+    <string name="hours_auto_switch">Move alert hours to when you use Kelo</string>
+    <string name="proactive_until_next_day">Until %1$s next day</string>
+</resources>

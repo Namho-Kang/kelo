@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">비밀번호, 키, 카드는 하나의 열쇠로 열려요. 보통은 서버가 그 열쇠를 함께 보관해요. 이 기능을 켜면 내 폰만 열쇠를 가지고 있어서, 누가 서버 디스크를 가져가도 열 수 없어요.</string>
+    <string name="keyguard_restart_note">서버가 다시 시작될 때마다(업데이트 포함) 폰에서 Kelo를 열고 본인 확인을 할 때까지 Kelo는 잠겨 있어요. 그동안 Kelo는 비밀번호, 키, 카드를 쓸 수 없어요.</string>
+    <string name="keyguard_window_note">이 Android 버전에서는 확인한 뒤 30초 동안 열쇠를 쓸 수 있어요.</string>
+    <string name="keyguard_turn_on">켜기</string>
+    <string name="keyguard_turning_on">켜는 중…</string>
+    <string name="keyguard_turn_on_confirm">켤까요? 적어 둘 복구 코드를 드려요. 이 폰이나 그 코드가 없으면 서버는 비밀번호, 키, 카드를 열 수 없어요.</string>
+    <string name="keyguard_not_owner">소유자의 폰에서만 바꿀 수 있어요.</string>
+    <string name="keyguard_env_key">서버가 아직 설정 파일에 열쇠를 가지고 있어요. 서버 컴퓨터에서 `assistant keyguard enable`를 먼저 실행한 뒤 여기서 다시 시도해 주세요.</string>
+    <string name="keyguard_no_lock">먼저 이 폰에 화면 잠금을 설정해 주세요.</string>
+    <string name="keyguard_recovery_title">복구 코드</string>
+    <string name="keyguard_recovery_warning">열쇠를 가진 폰을 모두 잃어버렸을 때 되돌릴 수 있는 유일한 방법이에요. 지금 한 번만 보여 드리고 어디에도 저장하지 않아요. 적어서 안전한 곳에 보관해 주세요.</string>
+    <string name="keyguard_recovery_confirm">적어 두었어요</string>
+    <string name="keyguard_done">완료</string>
+    <string name="keyguard_phones_title">열쇠를 가진 폰</string>
+    <string name="keyguard_this_phone">%1$s (이 폰)</string>
+    <string name="keyguard_add_this_phone">이 폰에도 열쇠 보관하기</string>
+    <string name="keyguard_remove_this_phone">이 폰의 열쇠 지우기</string>
+    <string name="keyguard_remove_confirm">이 폰에서 열쇠를 지울까요? 열쇠를 가진 다른 폰으로는 계속 Kelo를 열 수 있어요.</string>
+    <string name="keyguard_last_phone">열쇠를 가진 폰이 이 폰 하나뿐이에요. 다른 폰을 먼저 추가하거나 이 기능을 꺼 주세요.</string>
+    <string name="keyguard_turn_off">끄기</string>
+    <string name="keyguard_turn_off_confirm">열쇠를 서버에 돌려줄까요? 폰 없이도 비밀번호, 키, 카드가 다시 열려요.</string>
+    <string name="keyguard_locked_title">Kelo가 잠겨 있어요</string>
+    <string name="keyguard_locked_body">이 폰으로 Kelo를 열 때까지 비밀번호, 키, 카드는 닫혀 있어요.</string>
+    <string name="keyguard_locked_other">이 폰에는 열쇠가 없어요. 열쇠를 가진 폰에서 Kelo를 열거나 복구 코드를 써 주세요.</string>
+    <string name="keyguard_on_phone_only">폰의 Kelo에서 켜 주세요. 열쇠는 폰만 가지고 있고, 이 컴퓨터에는 두지 않아요.</string>
+    <string name="keyguard_unlock">열기</string>
+    <string name="keyguard_unlocking">여는 중…</string>
+    <string name="keyguard_unlocked">Kelo를 열었어요</string>
+    <string name="keyguard_use_code">복구 코드 쓰기</string>
+    <string name="keyguard_code_hint">복구 코드</string>
+    <string name="keyguard_code_wrong">코드가 맞지 않아요. 확인하고 다시 시도해 주세요.</string>
+    <string name="keyguard_key_lost">이 폰의 열쇠가 없어졌어요(예: 화면 잠금을 해제한 경우). 다른 폰이나 복구 코드를 써 주세요.</string>
+    <string name="keyguard_failed">잘 되지 않았어요. 다시 시도해 주세요.</string>
+    <string name="keyguard_prompt_title">Kelo 열기</string>
+    <string name="keyguard_prompt_subtitle">본인 확인</string>
+    <string name="keyguard_prompt_wrap">이 폰에 Kelo 열쇠 보관</string>
+    <string name="wallet_keyguard_needed_title">자동결제를 쓰려면 Keyguard가 필요해요</string>
+    <string name="wallet_keyguard_needed_body">자동결제 카드는 서버에 보관돼요. Keyguard를 켜면 그 잠금이 이 폰으로만 열려요.</string>
+    <string name="keyguard_turn_on_named">Keyguard 켜기</string>
+    <string name="wallet_auto_paused_keyguard">Keyguard를 켤 때까지 자동결제가 멈춰 있어요. 그동안은 결제할 때마다 폰에서 물어봐요.</string>
+    <string name="wallet_auto_copy_note">서버가 자동결제용 사본을 잠가 보관하고, 그 잠금은 소유자의 폰으로만 열려요.</string>
+</resources>

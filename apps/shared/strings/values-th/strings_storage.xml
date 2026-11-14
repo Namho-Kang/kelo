@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">ล้างพื้นที่</string>
+    <string name="storage_cleanup_title">ล้างพื้นที่จัดเก็บ</string>
+    <string name="storage_warn">พื้นที่จัดเก็บของ Kelo ใช้ไป %1$d%%</string>
+    <string name="storage_critical">พื้นที่จัดเก็บของ Kelo ใกล้เต็มแล้ว (%1$d%%) เมื่อเต็มจะบันทึกไฟล์ใหม่ไม่ได้ แต่แชตยังใช้ได้ตามปกติ</string>
+    <string name="storage_host_low">ดิสก์ของคอมพิวเตอร์ที่รันเซิร์ฟเวอร์ Kelo ใกล้เต็มแล้ว (เหลือ %1$s) เมื่อเต็ม Kelo จะหยุดทำงาน รวมถึงแชตด้วย</string>
+    <string name="storage_top">ใช้พื้นที่มากที่สุด: %1$s (%2$s)</string>
+    <string name="storage_row_warn">ใช้ไป %1$d%%</string>
+    <string name="storage_row_critical">ใกล้เต็ม</string>
+    <string name="storage_row_host">ดิสก์ใกล้เต็ม</string>
+    <string name="storage_cleanup_intro">รายการเหล่านี้ลบได้อย่างปลอดภัย บันทึก ความจำ และประวัติแชตจะไม่แสดงที่นี่</string>
+    <string name="storage_group_uploads">ไฟล์ต้นฉบับที่อัปโหลดไว้นาน</string>
+    <string name="storage_group_uploads_desc">ไฟล์ที่อัปโหลดเกิน %1$d วันแล้ว ลบเฉพาะไฟล์ต้นฉบับ ข้อความที่ Kelo อ่านจากเอกสารยังอยู่</string>
+    <string name="storage_group_images">รูปภาพที่สร้างขึ้น</string>
+    <string name="storage_group_images_desc">รูปภาพที่ Kelo สร้าง ข้อความแชตเก่าที่เคยแสดงรูปเหล่านี้จะไม่แสดงอะไรอีก</string>
+    <string name="storage_group_browser">ภาพขั้นตอนของเบราว์เซอร์</string>
+    <string name="storage_group_browser_desc">ภาพแต่ละขั้นตอนในเบราว์เซอร์จากงานที่ทำงานเอง</string>
+    <string name="storage_group_results">ผลงานเก่าและถังขยะ</string>
+    <string name="storage_group_results_desc">ผลงานที่เก่ากว่า %1$d วันและทุกอย่างในถังขยะ</string>
+    <string name="storage_group_backups">ข้อมูลสำรองที่เก่ากว่า</string>
+    <string name="storage_group_backups_desc">ข้อมูลสำรองล่าสุดจะถูกเก็บไว้เสมอ</string>
+    <string name="storage_item_text_kept">เก็บข้อความไว้</string>
+    <string name="storage_item_trashed">อยู่ในถังขยะ</string>
+    <string name="storage_backup_update">ก่อนอัปเดตเซิร์ฟเวอร์</string>
+    <string name="storage_backup_memory">จัดระเบียบความจำ</string>
+    <string name="storage_backup_migration">โครงสร้างเดิม</string>
+    <string name="storage_selected">เลือกแล้ว: %1$d (%2$s)</string>
+    <string name="storage_delete_button">ลบ</string>
+    <string name="storage_confirm_title">ลบรายการที่เลือกอย่างถาวรไหม</string>
+    <string name="storage_confirm_body">จะได้พื้นที่ว่าง %1$s รายการที่ลบแล้วกู้คืนไม่ได้</string>
+    <string name="storage_deleted">ได้พื้นที่ว่าง %1$s แล้ว</string>
+    <string name="storage_skipped">บางรายการเปลี่ยนไปแล้ว จึงปล่อยไว้ตามเดิม</string>
+    <string name="storage_nothing">ตอนนี้ไม่มีอะไรให้ล้าง</string>
+    <string name="storage_owner_only">เฉพาะเจ้าของเซิร์ฟเวอร์เท่านั้นที่ล้างได้</string>
+    <string name="storage_load_failed">โหลดรายการที่ล้างได้ไม่สำเร็จ</string>
+    <string name="storage_delete_failed">ลบไม่สำเร็จ โปรดลองอีกครั้ง</string>
+    <string name="storage_notify">พื้นที่จัดเก็บใกล้เต็ม</string>
+</resources>

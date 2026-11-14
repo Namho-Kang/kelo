@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Keloが現在地を必要としています</string>
+    <string name="location_ask_body">これに答えるには、このスマートフォンが今どこにあるかを知る必要があります。</string>
+    <string name="location_ask_private">現在地はあなたのサーバーにだけ送られます。</string>
+    <string name="location_ask_share">現在地を送る</string>
+    <string name="location_ask_not_now">今はしない</string>
+    <string name="location_ask_settings">設定を開く</string>
+    <string name="location_ask_settings_hint">Keloの位置情報がオフです。設定でオンにしてから、ここに戻ってください。</string>
+    <string name="location_services_off">この端末の位置情報がオフです。設定でオンにしてから、ここに戻ってください。</string>
+    <string name="location_ask_reading">現在地を取得しています…</string>
+    <string name="location_ask_shared">現在地を送りました</string>
+    <string name="location_ask_refused">現在地を送りませんでした</string>
+    <string name="location_ask_expired">このリクエストは期限切れです</string>
+    <string name="location_ask_unavailable">このスマートフォンの現在地がわかりません。位置情報がオンか確認してください。</string>
+    <string name="chat_attached_file">添付ファイル</string>
+</resources>

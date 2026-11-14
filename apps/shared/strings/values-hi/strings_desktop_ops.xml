@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">कार्ड आपके फ़ोन के Kelo ऐप में जोड़े जाते हैं, और हर भुगतान वहीं पक्का होता है: कार्ड नंबर ऐसी कुंजी से लॉक रहते हैं जो सिर्फ़ उसी फ़ोन के पास है। यहाँ आप अपने कार्ड देख सकते हैं, उनका नाम बदल या उन्हें हटा सकते हैं, ऑटो-पे बंद कर सकते हैं और उसकी सीमाएँ तय कर सकते हैं।</string>
+    <string name="desktop_ops_tag_phone">फ़ोन से भुगतान</string>
+    <string name="desktop_ops_wallet_safe_body">कार्ड नंबर और CVC सर्वर पर जाने से पहले ऐसी कुंजी से लॉक होते हैं जो सिर्फ़ आपके फ़ोन के पास है। न सर्वर उन्हें पढ़ सकता है न आपका एजेंट, और हर भुगतान फ़ोन पर फ़िंगरप्रिंट या स्क्रीन लॉक से पक्का होता है।</string>
+    <string name="desktop_ops_wallet_paused_banner">ऑटो-पे रुका हुआ है। हर भुगतान आपके फ़ोन पर पूछा जाएगा।</string>
+    <string name="desktop_ops_wallet_pause_on_body">रुका हुआ। हर भुगतान आपके फ़ोन पर पूछा जाएगा।</string>
+    <string name="desktop_ops_wallet_unfinished_body">इस कार्ड की जानकारी अधूरी है। फ़ोन के Kelo ऐप में कार्ड नंबर और CVC फिर से डालें।</string>
+    <string name="desktop_ops_wallet_auto_only_body">आपके फ़ोन में इस कार्ड की कॉपी नहीं है, इसलिए अभी यह सिर्फ़ ऑटो-पे से भुगतान कर सकता है। ऑटो-पे बंद करने से पहले फ़ोन के Kelo ऐप में कार्ड की जानकारी फिर से डालें।</string>
+    <string name="desktop_ops_wallet_auto_off_body">हर भुगतान के लिए फ़ोन पर फ़िंगरप्रिंट या स्क्रीन लॉक से आपकी मंज़ूरी चाहिए। सर्वर कार्ड नंबर नहीं पढ़ सकता।</string>
+    <string name="desktop_ops_wallet_on_phone">ऑटो-पे चालू करने के लिए, यह कार्ड उस फ़ोन के Kelo ऐप में खोलें जिसने इसे जोड़ा था। नंबर दोबारा नहीं लिखना पड़ेगा।</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">ऑटो-पे बंद करें? सर्वर पर रखी कॉपी तुरंत मिटा दी जाएगी, और अब से हर भुगतान आपके फ़ोन पर पक्का होगा।</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">ऑटो-पे बंद करें? आपके फ़ोन में इस कार्ड की कॉपी नहीं है, इसलिए बंद करने के बाद वहाँ कार्ड की जानकारी फिर से डालने तक आप इससे भुगतान नहीं कर पाएँगे।</string>
+    <string name="desktop_ops_wallet_auto_none_note">अभी कोई कार्ड अपने-आप भुगतान नहीं करता, इसलिए हर भुगतान आपके फ़ोन पर पूछता है। इसे बदलने के लिए फ़ोन के Kelo ऐप में किसी कार्ड का ऑटो-पे चालू करें।</string>
+    <string name="desktop_ops_ship_card_on_phone">कार्ड अपने फ़ोन के Kelo ऐप में जोड़ें: कार्ड नंबर ऐसी कुंजी से लॉक रहते हैं जो सिर्फ़ उसी फ़ोन के पास है।</string>
+</resources>

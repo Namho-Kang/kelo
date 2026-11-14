@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">준비 중</string>
+    <string name="google_review_title">Google 로그인을 준비하고 있어요</string>
+    <string name="google_review_note">Google 검토가 끝나야 열 수 있어요. Kelo를 응원해 주시면 더 빨리 열 수 있어요.</string>
+    <string name="google_review_support">Kelo 응원하기</string>
+    <string name="google_review_phone_calendar">휴대폰 캘린더로 연결하기</string>
+    <string name="google_review_phone_calendar_help">Android 휴대폰은 Google 캘린더를 휴대폰 캘린더에 함께 담아 두어요. Kelo가 거기서 일정을 읽을 수 있어요.</string>
+    <string name="google_review_open_switch">모두에게 Google 로그인 열기</string>
+    <string name="google_review_open_warning">Google이 이 클라이언트를 검증한 뒤에만 켜 주세요. 검증 전에는 최대 100명까지만 쓸 수 있고 경고 화면이 보여요.</string>
+</resources>

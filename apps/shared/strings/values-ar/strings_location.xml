@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">يحتاج Kelo إلى موقعك</string>
+    <string name="location_ask_body">للإجابة، يحتاج Kelo إلى معرفة مكان هذا الهاتف الآن.</string>
+    <string name="location_ask_private">يُرسَل إلى خادمك فقط.</string>
+    <string name="location_ask_share">مشاركة موقعي</string>
+    <string name="location_ask_not_now">ليس الآن</string>
+    <string name="location_ask_settings">فتح الإعدادات</string>
+    <string name="location_ask_settings_hint">الموقع متوقف لتطبيق Kelo. شغّله من الإعدادات ثم ارجع إلى هنا.</string>
+    <string name="location_services_off">الموقع متوقف في هذا الهاتف. شغّله من الإعدادات ثم ارجع إلى هنا.</string>
+    <string name="location_ask_reading">جارٍ تحديد موقعك…</string>
+    <string name="location_ask_shared">تمت مشاركة الموقع</string>
+    <string name="location_ask_refused">لم تتم مشاركة الموقع</string>
+    <string name="location_ask_expired">انتهت مهلة هذا الطلب</string>
+    <string name="location_ask_unavailable">لم يتمكن هذا الهاتف من معرفة مكانه. تحقّق من تشغيل الموقع.</string>
+    <string name="chat_attached_file">ملف مرفق</string>
+</resources>

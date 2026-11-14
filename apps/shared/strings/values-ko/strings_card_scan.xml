@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">카드 스캔</string>
+    <string name="card_scan_title">카드 스캔</string>
+    <string name="card_scan_hint">카드 앞면을 틀 안에 맞춰 주세요. 이 휴대폰 안에서만 읽어요.</string>
+    <string name="card_scan_preparing">스캐너를 준비하는 중…</string>
+    <string name="card_scan_filled">스캔한 번호를 확인해 주세요. CVC는 직접 입력해 주세요.</string>
+    <string name="card_scan_nothing">카드를 읽지 못했어요. 다시 시도하거나 번호를 입력해 주세요.</string>
+    <string name="card_scan_camera_needed">카드를 스캔하려면 카메라 권한이 필요해요. 사진은 저장하지 않아요.</string>
+    <string name="card_scan_camera_failed">카메라를 열 수 없어요. 번호를 직접 입력해 주세요.</string>
+</resources>

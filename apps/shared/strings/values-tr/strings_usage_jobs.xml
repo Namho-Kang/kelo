@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">Arka plan işi modeli</string>
+    <string name="model_background_help">Yalnızca Kelo’nun kendi başına yaptığı işler için kullanılır: her gecenin değerlendirmesi, hafıza bakımı, günlük, sana neyin bildirileceğini seçmek ve uzun sohbetlerin özetleri. Tarayıcı kullanan, ödeme yapan veya bir şey gönderen her iş ana modelde kalır.</string>
+    <string name="model_background_same">Ana modelle aynı</string>
+    <string name="model_background_fell_back">%1$s tarihinde arka plan modeli başarısız oldu, işi ana model yaptı.</string>
+    <string name="usage_jobs_tokens">%1$s token</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- asking once before chats go to the AI service (chat/AiConsent.kt; server ai_consent.py) -->
+<resources>
+    <string name="ai_consent_title">Before your first message</string>
+    <string name="ai_consent_body">Kelo sends your messages, and what it needs for them (files you attach, results from your connected services), to the AI service you choose, so it can answer.</string>
+    <string name="ai_consent_now">Chosen now: %1$s. You can see and change it in Model.</string>
+    <string name="ai_consent_not_now_note">Not now: nothing is sent.</string>
+    <string name="ai_consent_privacy">Privacy policy</string>
+    <string name="ai_consent_agree">Agree</string>
+    <string name="ai_consent_not_now">Not now</string>
+    <string name="ai_chats_go_to">Your chats go to %1$s</string>
+    <string name="ai_chats_stay">Your chats stay on your own network</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_active_hours.xml (generated from values/strings_active_hours.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="hours_suggest_heading">建議的提醒時間</string>
+    <string name="hours_suggest_title">你通常在 %1$s 使用 Kelo。要在這段時間接收提醒嗎？</string>
+    <plurals name="hours_suggest_basis">
+        <item quantity="other">根據最近 %1$d 天的使用 · 目前為 %2$s</item>
+    </plurals>
+    <string name="hours_suggest_accept">使用這段時間</string>
+    <string name="hours_suggest_keep">保持不變</string>
+    <string name="hours_suggest_accepted">提醒時間已變更 · %1$s</string>
+    <string name="hours_suggest_kept">保持目前的時間</string>
+    <string name="hours_span_next_day">%1$s – 隔天 %2$s</string>
+    <string name="hours_learned">根據你的使用習慣</string>
+    <string name="hours_auto_switch">依使用時間調整通知時間</string>
+    <string name="proactive_until_next_day">到隔天 %1$s</string>
+</resources>

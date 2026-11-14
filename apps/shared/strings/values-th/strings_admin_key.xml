@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">ดูยอดใช้จ่ายและยอดคงเหลือด้วย</string>
+    <string name="admin_key_title">คีย์ผู้ดูแลระบบสำหรับยอดใช้จ่ายและคงเหลือ</string>
+    <string name="admin_key_safety">เก็บไว้ในคอนเทนเนอร์คีย์บนเซิร์ฟเวอร์ของคุณ ไม่ใช่โดย Kelo เอง และใช้เพื่ออ่านยอดใช้จ่ายและคงเหลือเท่านั้น</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (อ่านอย่างเดียวก็เพียงพอ)</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (สำหรับบัญชีองค์กรเท่านั้น)</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create</string>
+    <string name="admin_key_save">บันทึก</string>
+    <string name="admin_key_saved">บันทึกแล้ว ยอดใช้จ่ายจะแสดงอยู่ด้านล่าง</string>
+    <string name="admin_key_refused">ผู้ให้บริการปฏิเสธคีย์นี้ โปรดตรวจสอบว่าเป็นคีย์ผู้ดูแลระบบหรือไม่</string>
+    <string name="admin_key_keyring_off">เซิร์ฟเวอร์นี้ไม่เก็บคีย์ผู้ดูแลระบบ (คอนเทนเนอร์คีย์ปิดอยู่)</string>
+    <string name="admin_key_failed">ไม่สามารถบันทึกคีย์ได้ โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="admin_key_set">คีย์ผู้ดูแลระบบ …%1$s</string>
+    <string name="admin_key_remove">ลบ</string>
+    <string name="admin_key_remove_q">ต้องการลบคีย์ผู้ดูแลระบบหรือไม่? ยอดใช้จ่ายและคงเหลือจะไม่แสดงอีกต่อไป</string>
+    <string name="my_privacy_keyring">คีย์ผู้ให้บริการ AI ที่คุณป้อน (และคีย์ผู้ดูแลระบบ หากคุณเพิ่มไว้) จะถูกเก็บไว้ในคอนเทนเนอร์คีย์แยกต่างหากบนเซิร์ฟเวอร์ของคุณ ไม่ใช่โดย Kelo เอง Kelo จะขอให้ส่งการเรียก และจะแนบคีย์เฉพาะสำหรับที่อยู่ของผู้ให้บริการนั้นเท่านั้น</string>
+</resources>

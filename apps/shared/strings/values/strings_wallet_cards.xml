@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The wallet's cards: nickname, default card, a card's own payment history, turning auto-pay on from this phone's copy -->
+<resources>
+    <string name="wallet_nickname">Nickname</string>
+    <string name="wallet_nickname_field">Nickname (optional)</string>
+    <string name="wallet_tag_default">Default</string>
+    <string name="wallet_default_title">Default card</string>
+    <string name="wallet_default_on">Kelo pays with this card unless you or the task name another one.</string>
+    <string name="wallet_make_default">Make this the default card</string>
+    <string name="wallet_delete_default_title">Choose a new default card</string>
+    <string name="wallet_delete_default_body">“%1$s” is your default card. Choose the card Kelo should pay with from now on.</string>
+    <string name="wallet_card_history">Payments with this card</string>
+    <string name="wallet_card_history_empty">Kelo hasn’t paid with this card yet.</string>
+    <string name="wallet_card_history_more">Show older payments</string>
+    <string name="wallet_open_chat">Open the chat</string>
+    <string name="wallet_open_task">Open the task</string>
+    <string name="wallet_auto_from_phone">This phone opens its own copy of the card with your fingerprint, face or screen lock. You don’t type the number again.</string>
+    <string name="wallet_auth_auto_title">Turn on auto-pay</string>
+    <string name="wallet_auth_auto_subtitle">Open this phone’s copy of %1$s</string>
+    <string name="wallet_auto_not_here_title">This card isn’t on this phone</string>
+    <string name="wallet_auto_not_here_body">It was added on another device, so this phone can’t open it. Turn on auto-pay from the device that added it, or enter the card number here instead.</string>
+    <string name="wallet_auto_enter_number">Enter the number</string>
+    <string name="wallet_auto_on_failed">Couldn’t turn auto-pay on. Try again.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">Модель для фоновой работы</string>
+    <string name="model_background_help">Только для работы, которую Kelo делает сам: ночной разбор, уход за памятью, дневник, выбор того, о чём вам сообщить, и сводки длинных чатов. Всё, что использует браузер, платит или что-то отправляет, остаётся на основной модели.</string>
+    <string name="model_background_same">Как основная модель</string>
+    <string name="model_background_fell_back">%1$s фоновая модель дала сбой, поэтому задачу выполнила основная модель.</string>
+    <string name="usage_jobs_tokens">Токенов: %1$s</string>
+</resources>

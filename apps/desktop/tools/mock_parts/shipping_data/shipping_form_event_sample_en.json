@@ -1,0 +1,16 @@
+{
+ "type": "shipping_form",
+ "id": "call_5",
+ "form_id": "sf_7c1e2a",
+ "site": "shop.example.com",
+ "what": "Blue mug x2",
+ "country": "US",
+ "prefill": {
+  "name": "Jane Roe",
+  "phone": "(650) 253-0000"
+ },
+ "label": "Home",
+ "save": true,
+ "ask_payment": false,
+ "expires_at": 1762650600
+}

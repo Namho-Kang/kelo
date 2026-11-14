@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pt-BR text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Apelido</string>
+    <string name="wallet_nickname_field">Apelido (opcional)</string>
+    <string name="wallet_tag_default">Padrão</string>
+    <string name="wallet_default_title">Cartão padrão</string>
+    <string name="wallet_default_on">O Kelo paga com este cartão, a menos que você ou a tarefa indiquem outro.</string>
+    <string name="wallet_make_default">Tornar cartão padrão</string>
+    <string name="wallet_delete_default_title">Escolha um novo cartão padrão</string>
+    <string name="wallet_delete_default_body">“%1$s” é seu cartão padrão. Escolha o cartão que o Kelo vai usar daqui em diante.</string>
+    <string name="wallet_card_history">Pagamentos com este cartão</string>
+    <string name="wallet_card_history_empty">O Kelo ainda não pagou com este cartão.</string>
+    <string name="wallet_card_history_more">Ver pagamentos anteriores</string>
+    <string name="wallet_open_chat">Abrir a conversa</string>
+    <string name="wallet_open_task">Abrir a tarefa</string>
+    <string name="wallet_auto_from_phone">Este celular abre a própria cópia do cartão com sua digital, rosto ou bloqueio de tela. Você não digita o número de novo.</string>
+    <string name="wallet_auth_auto_title">Ativar o pagamento automático</string>
+    <string name="wallet_auth_auto_subtitle">Abrir a cópia de “%1$s” deste celular</string>
+    <string name="wallet_auto_not_here_title">Este cartão não está neste celular</string>
+    <string name="wallet_auto_not_here_body">Ele foi adicionado em outro aparelho, então este celular não consegue abri-lo. Ative o pagamento automático no aparelho que o adicionou ou digite aqui o número do cartão.</string>
+    <string name="wallet_auto_enter_number">Digitar o número</string>
+    <string name="wallet_auto_on_failed">Não foi possível ativar o pagamento automático. Tente de novo.</string>
+</resources>

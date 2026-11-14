@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">نموذج العمل في الخلفية</string>
+    <string name="model_background_help">يُستخدم فقط للعمل الذي يقوم به Kelo بنفسه: مراجعة كل ليلة، والعناية بالذاكرة، واليوميات، واختيار ما يُخبرك به، وملخصات المحادثات الطويلة. كل ما يستخدم المتصفح أو يدفع أو يرسل شيئًا يبقى على النموذج الرئيسي.</string>
+    <string name="model_background_same">مثل النموذج الرئيسي</string>
+    <string name="model_background_fell_back">في %1$s تعطّل نموذج الخلفية، فأنجز النموذج الرئيسي المهمة.</string>
+    <string name="usage_jobs_tokens">%1$s رمز</string>
+</resources>

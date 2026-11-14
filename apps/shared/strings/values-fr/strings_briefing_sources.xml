@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">Ce qui est lu</string>
+    <string name="briefing_sources_about">Kelo lit tous les agendas et boîtes mail connectés pour le récapitulatif et les alertes. Désactivez-en un pour l\'exclure.</string>
+    <string name="briefing_sources_calendars">Agendas</string>
+    <string name="briefing_sources_mail">Mail</string>
+    <string name="briefing_sources_chat">Vous pouvez aussi le dire à Kelo dans le chat, par exemple : « retire mes mails pro du récapitulatif ».</string>
+    <string name="briefing_sources_check">Vérifier les comptes maintenant</string>
+    <string name="briefing_sources_checking">Vérification…</string>
+    <string name="connector_method_caldav">Mot de passe d\'app pour CalDAV</string>
+    <string name="caldav_help">Utilisez l\'adresse CalDAV donnée par votre fournisseur (par exemple https://dav.fastmail.com/ pour Fastmail), votre nom d\'utilisateur et un mot de passe d\'application.</string>
+    <string name="caldav_url">Adresse CalDAV</string>
+    <string name="caldav_user">Nom d\'utilisateur</string>
+    <string name="caldav_account_note">Kelo lit seulement cet agenda, pour le récapitulatif et les alertes. Il ne le modifie jamais.</string>
+    <string name="caldav_disconnect_confirm">Déconnecter %1$s ? Le mot de passe d\'application enregistré sera effacé.</string>
+    <string name="caldav_add_other">Ajouter un autre agenda</string>
+    <string name="caldav_notify">J\'ai connecté mon agenda. Continue, s\'il te plaît.</string>
+</resources>

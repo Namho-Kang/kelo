@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_model_freshness.xml (generated from values/strings_model_freshness.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_list_stale">Tidak bisa mengambil daftar baru, jadi ini daftar sebelumnya</string>
+    <string name="model_cli_update_available">Versi %1$s sudah tersedia</string>
+    <string name="notify_cli_update">Pembaruan CLI</string>
+</resources>

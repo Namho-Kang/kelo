@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">카드 등록과 결제 확인은 폰의 Kelo 앱에서 해요. 카드 번호는 그 폰만 가진 키로 잠겨 있어요. 여기서는 카드를 보고, 이름을 바꾸거나 지우고, 자동결제를 끄고 한도를 정할 수 있어요.</string>
+    <string name="desktop_ops_tag_phone">폰에서 결제</string>
+    <string name="desktop_ops_wallet_safe_body">카드 번호와 CVC는 폰만 가진 키로 잠근 채 서버에 올라가요. 서버도 에이전트도 번호를 읽을 수 없고, 결제할 때마다 폰에서 지문이나 화면 잠금으로 확인해요.</string>
+    <string name="desktop_ops_wallet_paused_banner">자동결제를 멈췄어요. 모든 결제를 폰에서 물어봐요.</string>
+    <string name="desktop_ops_wallet_pause_on_body">멈춤. 모든 결제를 폰에서 물어봐요.</string>
+    <string name="desktop_ops_wallet_unfinished_body">이 카드는 정보가 빠져 있어요. 폰의 Kelo 앱에서 카드 번호와 CVC를 다시 입력해 주세요.</string>
+    <string name="desktop_ops_wallet_auto_only_body">폰에 이 카드 사본이 없어서 지금은 자동결제로만 결제할 수 있어요. 자동결제를 끄기 전에 폰의 Kelo 앱에서 카드 정보를 다시 입력해 주세요.</string>
+    <string name="desktop_ops_wallet_auto_off_body">결제할 때마다 폰에서 지문이나 화면 잠금으로 확인해요. 서버는 카드 번호를 읽을 수 없어요.</string>
+    <string name="desktop_ops_wallet_on_phone">자동결제를 켜려면 이 카드를 등록한 폰의 Kelo 앱에서 켜세요. 카드 번호를 다시 입력하지 않아요.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">자동결제를 끌까요? 서버에 있는 사본은 바로 지워지고, 이제부터 모든 결제를 폰에서 확인해요.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">자동결제를 끌까요? 폰에 이 카드 사본이 없어서, 끄고 나면 폰에서 카드 정보를 다시 입력할 때까지 이 카드로 결제할 수 없어요.</string>
+    <string name="desktop_ops_wallet_auto_none_note">아직 묻지 않고 결제하는 카드가 없어서 모든 결제를 폰에서 물어봐요. 바꾸려면 폰의 Kelo 앱에서 카드의 자동결제를 켜세요.</string>
+    <string name="desktop_ops_ship_card_on_phone">카드는 폰의 Kelo 앱에서 등록해요. 카드 번호는 그 폰만 가진 키로 잠겨요.</string>
+</resources>

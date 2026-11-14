@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Zgłoś</string>
+    <string name="report_title">Zgłoś tę odpowiedź</string>
+    <string name="report_intro">Jeśli ta odpowiedź była przykra lub błędna, daj znać twórcy Kelo. Zgłoszenie służy tylko do tego, by Kelo było bezpieczniejsze.</string>
+    <string name="report_reason_label">Na czym polegał problem?</string>
+    <string name="report_reason_harmful">Przykra lub szkodliwa</string>
+    <string name="report_reason_inaccurate">Niezgodna z faktami</string>
+    <string name="report_reason_privacy">Ujawnia dane osobowe</string>
+    <string name="report_reason_other">Coś innego</string>
+    <string name="report_comment_hint">Chcesz coś dodać? (opcjonalnie)</string>
+    <string name="report_include_asked">Dołącz też moją poprzednią wiadomość</string>
+    <string name="report_sent_title">Co trafi do twórcy Kelo</string>
+    <string name="report_sent_reply">Zgłaszana odpowiedź</string>
+    <string name="report_sent_asked">Twoja poprzednia wiadomość</string>
+    <string name="report_sent_reason">Wybrany powód i ewentualne komentarze</string>
+    <string name="report_sent_model">Nazwa modelu, który napisał odpowiedź</string>
+    <string name="report_sent_version">Wersja aplikacji Kelo</string>
+    <string name="report_sent_not">Nic więcej z twoich czatów ani żadne dane konta nie są wysyłane. Zgłoszenia są przechowywane przez rok, a potem usuwane — wcześniej, jeśli o to poprosisz.</string>
+    <string name="report_send">Wyślij zgłoszenie</string>
+    <string name="report_sending">Wysyłam…</string>
+    <string name="report_failed_offline">Brak połączenia z twoim serwerem. To, co napisano, nadal tu jest — spróbuj wysłać ponownie za chwilę.</string>
+    <string name="report_thanks">Wysłano zgłoszenie. Dzięki, że dajesz znać.</string>
+    <string name="operator_section_reports">Otrzymane zgłoszenia</string>
+    <string name="operator_reports_note">Odpowiedzi zgłoszone przez użytkowników z aplikacji. Są automatycznie usuwane po roku.</string>
+    <string name="operator_reports_not_receiving">Ten serwer nie odbiera zgłoszeń. Zgłoszenia wysłane z tego serwera trafiają na serwer twórcy Kelo.</string>
+    <string name="operator_reports_empty">Brak zgłoszeń.</string>
+    <string name="operator_reports_open">Zgłoszenia do obsłużenia: %1$d</string>
+    <string name="operator_reports_show_handled">Pokaż też obsłużone zgłoszenia</string>
+    <string name="operator_reports_hide_handled">Pokaż tylko zgłoszenia do obsłużenia</string>
+    <string name="operator_reports_reply">Zgłoszona odpowiedź</string>
+    <string name="operator_reports_asked">Poprzednia wiadomość użytkownika</string>
+    <string name="operator_reports_comment">Komentarz</string>
+    <string name="operator_reports_meta">%1$s · %2$s · Aplikacja %3$s</string>
+    <string name="operator_reports_mark">Oznacz jako obsłużone</string>
+    <string name="operator_reports_unmark">Oznacz jako nieobsłużone</string>
+    <string name="operator_reports_handled">Obsłużone</string>
+    <string name="operator_reports_delete">Usuń</string>
+    <string name="operator_reports_delete_confirm">Usunąć to zgłoszenie? Tego nie da się cofnąć.</string>
+    <string name="operator_reports_unknown">Nieznane</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">后台工作模型</string>
+    <string name="model_background_help">仅用于 Kelo 自行完成的工作：每晚回顾、记忆整理、日志、挑选要告诉你的消息，以及长对话的摘要。使用浏览器、付款或发送内容的工作仍由主模型完成。</string>
+    <string name="model_background_same">与主模型相同</string>
+    <string name="model_background_fell_back">%1$s 后台模型出错，已由主模型代为完成。</string>
+    <string name="usage_jobs_tokens">%1$s 令牌</string>
+</resources>

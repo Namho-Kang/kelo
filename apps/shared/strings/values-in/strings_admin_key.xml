@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Lihat pengeluaran dan saldo juga</string>
+    <string name="admin_key_title">Kunci admin untuk pengeluaran dan saldo</string>
+    <string name="admin_key_safety">Disimpan di wadah kunci di server Anda, bukan oleh Kelo sendiri, dan hanya digunakan untuk membaca pengeluaran dan saldo.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (cukup izin baca saja).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (khusus akun organisasi).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Simpan</string>
+    <string name="admin_key_saved">Disimpan. Pengeluaran ditampilkan di bawah.</string>
+    <string name="admin_key_refused">Penyedia menolak kunci ini. Pastikan kunci ini adalah kunci admin.</string>
+    <string name="admin_key_keyring_off">Server ini tidak menyimpan kunci admin (wadah kunci dinonaktifkan).</string>
+    <string name="admin_key_failed">Tidak dapat menyimpan kunci. Coba lagi sebentar lagi.</string>
+    <string name="admin_key_set">Kunci admin …%1$s</string>
+    <string name="admin_key_remove">Hapus</string>
+    <string name="admin_key_remove_q">Hapus kunci admin? Pengeluaran dan saldo tidak akan ditampilkan lagi.</string>
+    <string name="my_privacy_keyring">Kunci penyedia AI yang Anda masukkan (dan kunci admin, jika ditambahkan) disimpan oleh wadah kunci terpisah di server Anda, bukan oleh Kelo sendiri. Kelo memintanya melakukan setiap panggilan, dan kunci hanya disertakan untuk alamat penyedia itu sendiri.</string>
+</resources>

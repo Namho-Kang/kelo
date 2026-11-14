@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hans text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">记忆整理：%1$s</string>
+    <string name="memory_pass_both">%1$s，%2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="other">新增 %d 条</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="other">整理 %d 条</item>
+    </plurals>
+    <string name="memory_pass_undone">已撤销记忆整理</string>
+    <string name="memory_pass_view">变更内容</string>
+    <string name="memory_pass_changes_title">这次记忆整理的变更</string>
+    <string name="memory_pass_no_lines">没有可显示的变更。</string>
+    <string name="memory_pass_undo">撤销这次整理</string>
+    <string name="memory_pass_undo_confirm">要把笔记恢复到这次整理之前吗？之后编辑过的笔记会保持不变。</string>
+    <string name="memory_pass_undo_gone">这次整理已无法撤销。</string>
+    <string name="memory_pass_added_line">新增：%1$s</string>
+    <string name="memory_pass_removed_line">移除：%1$s</string>
+    <string name="memory_area_about_you">关于你</string>
+    <string name="memory_area_to_remember">要记住的事</string>
+    <string name="memory_area_people">人物</string>
+    <string name="memory_area_working_notes">工作心得</string>
+</resources>

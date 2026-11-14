@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_ops_wallet_note">Karten werden in der Kelo-App auf deinem Smartphone hinzugefügt, und dort wird auch jede Zahlung bestätigt: Kartennummern sind mit einem Schlüssel gesichert, den nur dieses Smartphone hat. Hier siehst du deine Karten, kannst sie umbenennen oder entfernen, die automatische Zahlung ausschalten und ihre Limits festlegen.</string>
+    <string name="desktop_ops_tag_phone">Zahlt über dein Smartphone</string>
+    <string name="desktop_ops_wallet_safe_body">Kartennummern und CVCs werden mit einem Schlüssel gesichert, den nur dein Smartphone hat, bevor sie an den Server gehen. Weder der Server noch dein Agent kann sie lesen, und jede Zahlung wird auf deinem Smartphone per Fingerabdruck oder Displaysperre bestätigt.</string>
+    <string name="desktop_ops_wallet_paused_banner">Die automatische Zahlung ist pausiert. Jede Zahlung wird auf deinem Smartphone erfragt.</string>
+    <string name="desktop_ops_wallet_pause_on_body">Pausiert. Jede Zahlung wird auf deinem Smartphone erfragt.</string>
+    <string name="desktop_ops_wallet_unfinished_body">Bei dieser Karte fehlen Angaben. Gib Kartennummer und CVC in der Kelo-App auf deinem Smartphone erneut ein.</string>
+    <string name="desktop_ops_wallet_auto_only_body">Dein Smartphone hat keine Kopie dieser Karte, daher kann sie gerade nur per automatischer Zahlung zahlen. Gib die Kartendaten in der Kelo-App auf deinem Smartphone erneut ein, bevor du die automatische Zahlung ausschaltest.</string>
+    <string name="desktop_ops_wallet_auto_off_body">Jede Zahlung braucht dein OK auf dem Smartphone, bestätigt per Fingerabdruck oder Displaysperre. Der Server kann die Kartennummer nicht lesen.</string>
+    <string name="desktop_ops_wallet_on_phone">Um die automatische Zahlung einzuschalten, öffne diese Karte in der Kelo-App auf dem Telefon, das sie hinzugefügt hat. Die Nummer gibst du nicht erneut ein.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm">Automatische Zahlung ausschalten? Die Kopie auf dem Server wird sofort gelöscht, und ab jetzt wird jede Zahlung auf deinem Smartphone bestätigt.</string>
+    <string name="desktop_ops_wallet_auto_off_confirm_unusable">Automatische Zahlung ausschalten? Dein Smartphone hat keine Kopie dieser Karte. Danach kannst du mit ihr erst wieder zahlen, wenn du die Kartendaten dort erneut eingibst.</string>
+    <string name="desktop_ops_wallet_auto_none_note">Noch keine Karte zahlt von selbst, daher fragt jede Zahlung auf deinem Smartphone nach. Um das zu ändern, schalte in der Kelo-App auf deinem Smartphone die automatische Zahlung für eine Karte ein.</string>
+    <string name="desktop_ops_ship_card_on_phone">Füge die Karte in der Kelo-App auf deinem Smartphone hinzu: Kartennummern sind mit einem Schlüssel gesichert, den nur dieses Smartphone hat.</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- uk text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Лад у пам\'яті: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">додано %d</item>
+        <item quantity="few">додано %d</item>
+        <item quantity="many">додано %d</item>
+        <item quantity="other">додано %d</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">упорядковано %d</item>
+        <item quantity="few">упорядковано %d</item>
+        <item quantity="many">упорядковано %d</item>
+        <item quantity="other">упорядковано %d</item>
+    </plurals>
+    <string name="memory_pass_undone">Наведення ладу в пам\'яті скасовано</string>
+    <string name="memory_pass_view">Що змінилося</string>
+    <string name="memory_pass_changes_title">Що змінило наведення ладу в пам\'яті</string>
+    <string name="memory_pass_no_lines">Немає змінених рядків.</string>
+    <string name="memory_pass_undo">Скасувати це наведення ладу</string>
+    <string name="memory_pass_undo_confirm">Повернути нотатки до стану перед цим наведенням ладу? Нотатки, змінені пізніше, залишаться як є.</string>
+    <string name="memory_pass_undo_gone">Це наведення ладу вже не можна скасувати.</string>
+    <string name="memory_pass_added_line">Додано: %1$s</string>
+    <string name="memory_pass_removed_line">Прибрано: %1$s</string>
+    <string name="memory_area_about_you">Про вас</string>
+    <string name="memory_area_to_remember">Що пам\'ятати</string>
+    <string name="memory_area_people">Люди</string>
+    <string name="memory_area_working_notes">Робочі нотатки</string>
+</resources>

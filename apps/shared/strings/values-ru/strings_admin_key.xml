@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Показывать также расходы и баланс</string>
+    <string name="admin_key_title">Ключ администратора для расходов и баланса</string>
+    <string name="admin_key_safety">Хранится в контейнере ключей на вашем сервере, а не в Kelo, и используется только для чтения расходов и баланса.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (достаточно прав на чтение).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (только для аккаунтов организаций).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Сохранить</string>
+    <string name="admin_key_saved">Сохранено. Расходы показаны ниже.</string>
+    <string name="admin_key_refused">Провайдер отклонил этот ключ. Убедитесь, что это ключ администратора.</string>
+    <string name="admin_key_keyring_off">Этот сервер не хранит ключи администратора (контейнер ключей выключен).</string>
+    <string name="admin_key_failed">Не удалось сохранить ключ. Попробуйте еще раз позже.</string>
+    <string name="admin_key_set">Ключ администратора …%1$s</string>
+    <string name="admin_key_remove">Удалить</string>
+    <string name="admin_key_remove_q">Удалить ключ администратора? Расходы и баланс больше не будут отображаться.</string>
+    <string name="my_privacy_keyring">Введенные ключи провайдеров ИИ (и ключи администратора, если добавлены) хранятся в отдельном контейнере ключей на вашем сервере, а не в Kelo. Kelo запрашивает вызовы, и ключ добавляется только при обращении к собственному адресу провайдера.</string>
+</resources>

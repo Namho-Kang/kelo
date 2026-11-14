@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">आपकी सीमा में खुद भुगतान करता है</string>
+    <string name="wallet_tag_asks">हर बार पूछता है</string>
+    <string name="wallet_reason_not_auto">यह कार्ड हर बार पूछने के लिए सहेजा गया है।</string>
+    <string name="wallet_reason_no_server_copy">सर्वर पर ऑटो-पे के लिए इस कार्ड की कॉपी नहीं है।</string>
+    <string name="wallet_reason_paused">सभी कार्डों के लिए ऑटो-पे रुका हुआ है।</string>
+    <string name="wallet_reason_vault_locked">कीचेन एजेंट के लिए लॉक है।</string>
+    <string name="wallet_auto_turn_on_card">इस कार्ड के लिए ऑटो-पे चालू करें</string>
+    <string name="wallet_first_site_rule">ऑटो-पे चालू होने पर भी नई साइट पर पहला भुगतान एक बार पूछता है, और आपकी सीमा से ज़्यादा कोई भी भुगतान भी।</string>
+    <string name="wallet_auto_none_value">ऑटो-पे वाला कोई कार्ड नहीं</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="one">ऑटो-पे वाला %d कार्ड</item>
+        <item quantity="other">ऑटो-पे वाले %d कार्ड</item>
+    </plurals>
+    <string name="wallet_auto_none_note">अभी कोई कार्ड खुद भुगतान नहीं करता, इसलिए हर भुगतान इस फ़ोन पर पूछता है। बदलने के लिए कोई कार्ड खोलें और ऑटो-पे चालू करें।</string>
+    <string name="wallet_schedule_section">खुद खरीदने वाले शेड्यूल</string>
+    <string name="grant_section_title">बिना पूछे अनुमति</string>
+    <string name="grant_section_note">सेट करते समय एक बार अनुमति दी गई। ज़्यादा राशि, दूसरी साइट या चीज़, और खाते में बदलाव अब भी पूछेंगे।</string>
+    <string name="grant_login_title">%1$s से साइन इन करता है</string>
+    <string name="grant_login_site">%1$s पर</string>
+    <string name="grant_purchase_title">%1$s खरीदता है</string>
+    <string name="grant_purchase_cap">%1$s पर · हर बार अधिकतम %2$s, महीने में %3$s</string>
+    <string name="grant_spent">इस महीने: %1$s</string>
+    <string name="grant_for_schedule">“%1$s” के लिए</string>
+    <string name="grant_revoke">रद्द करें</string>
+    <string name="grant_revoke_confirm">यह अनुमति रद्द करें? इसके रन फिर से पूछेंगे।</string>
+    <string name="grant_login_section">इस लॉगिन को बिना पूछे इस्तेमाल करने वाले शेड्यूल</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">Co jest czytane</string>
+    <string name="briefing_sources_about">Kelo czyta wszystkie połączone kalendarze i skrzynki pocztowe na potrzeby podsumowania i powiadomień. Wyłącz jedno, aby je pominąć.</string>
+    <string name="briefing_sources_calendars">Kalendarze</string>
+    <string name="briefing_sources_mail">Poczta</string>
+    <string name="briefing_sources_chat">Możesz też po prostu napisać Kelo na czacie, np. „pomiń pocztę służbową w podsumowaniu”.</string>
+    <string name="briefing_sources_check">Sprawdź konta teraz</string>
+    <string name="briefing_sources_checking">Sprawdzanie…</string>
+    <string name="connector_method_caldav">Hasło aplikacji do CalDAV</string>
+    <string name="caldav_help">Podaj adres CalDAV od dostawcy (np. https://dav.fastmail.com/ w Fastmail), nazwę użytkownika i hasło aplikacji.</string>
+    <string name="caldav_url">Adres CalDAV</string>
+    <string name="caldav_user">Nazwa użytkownika</string>
+    <string name="caldav_account_note">Kelo tylko czyta ten kalendarz, na potrzeby podsumowania i powiadomień. Nigdy go nie zmienia.</string>
+    <string name="caldav_disconnect_confirm">Rozłączyć %1$s? Zapisane hasło aplikacji zostanie usunięte.</string>
+    <string name="caldav_add_other">Dodaj kolejny kalendarz</string>
+    <string name="caldav_notify">Połączyłem kalendarz. Kontynuuj, proszę.</string>
+</resources>

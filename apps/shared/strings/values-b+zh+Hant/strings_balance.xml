@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">餘額</string>
+    <string name="balance_limit_left">金鑰額度剩餘</string>
+    <string name="balance_used_today">今天已花費</string>
+    <string name="balance_used_week">本週已花費</string>
+    <string name="balance_used_month">本月已花費</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">許可すると、このサイト用に保存した支払いパスワードを送るか、スマホで確認します。スマホで承認してください。</string>
+    <string name="desktop_pin_need_body">スマホの Kelo アプリを開いて、支払いパスワード「%1$s」を %2$s の支払い（%3$s）に一度だけ送ってください。</string>
+    <string name="desktop_pin_secret_on_phone">支払いパスワードはスマホにだけ保存されます。スマホの Kelo アプリで入力すると、このカードは自動で閉じます。</string>
+    <string name="desktop_pay_step_on_phone">スマホのカードアプリや銀行アプリで承認してから、ここで「承認しました」を押してください。</string>
+    <string name="desktop_pay_step_click_copy">コードをクリックするとコピーされます</string>
+    <string name="desktop_pay_step_pad_note">ここでキーをクリックしてください。クリックした場所が支払い画面の同じ位置で押されます。</string>
+    <string name="desktop_briefing_weather_follows_phone">天気はスマホの位置情報に合わせます。スマホで Kelo を開いて位置情報を許可すると表示されます。</string>
+    <string name="desktop_pin_add_on_phone">支払いパスワードはスマホの Kelo アプリで追加します。そのスマホだけが持つ鍵でロックされます。</string>
+</resources>

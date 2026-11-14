@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Minta akses beta</string>
+    <string name="beta_requested">Sudah diminta</string>
+    <string name="beta_sheet_note">Masuk dengan Google untuk sementara hanya dibuka untuk sekelompok kecil orang. Ketik email Google yang akan kamu hubungkan, dan kami akan mengabarimu di sana setelah kamu ditambahkan.</string>
+    <string name="beta_email_hint">Alamat email Google</string>
+    <string name="beta_email_invalid">Masukkan alamat email yang valid.</string>
+    <string name="beta_send">Kirim</string>
+    <string name="beta_sending">Mengirim…</string>
+    <string name="beta_sent">Permintaan terkirim. Jika disetujui, kami akan mengirim email ke %1$s — lalu kembali dan hubungkan lagi.</string>
+    <string name="beta_declined">Permintaan beta kamu belum disetujui kali ini. Masuk dengan Google akan dibuka untuk semua orang setelah peninjauan Google selesai.</string>
+    <string name="operator_section_beta">Permintaan beta</string>
+    <string name="operator_beta_note">Orang yang ingin mencoba masuk dengan Google. Tambahkan dulu sebagai pengguna uji di Google Cloud Console, lalu tekan Disetujui. Permintaan yang sudah ditangani dihapus setelah 30 hari.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Audiens (Audience) → Pengguna uji → tambahkan %1$s</string>
+    <string name="operator_beta_mail_from">Email dikirim dari %1$s.</string>
+    <string name="operator_beta_no_mail">Tidak ada Gmail yang terhubung di server ini, jadi email tidak dikirim. Hubungkan Gmail di Konektor untuk mengirimnya.</string>
+    <string name="operator_beta_not_receiving">Server ini bukan perantara masuk dengan Google, jadi tidak menerima permintaan.</string>
+    <string name="operator_beta_empty">Belum ada permintaan.</string>
+    <string name="operator_beta_open">Menunggu: %1$d</string>
+    <string name="operator_beta_approve">Disetujui</string>
+    <string name="operator_beta_decline">Tolak</string>
+    <string name="operator_beta_waiting">Menunggu</string>
+    <string name="operator_beta_state_approved">Disetujui</string>
+    <string name="operator_beta_declined">Ditolak</string>
+    <string name="operator_beta_notice_no_mail">Tidak ada email ke dukungan: tidak ada Gmail yang terhubung.</string>
+    <string name="operator_beta_notice_failed">Email ke dukungan tidak dapat dikirim.</string>
+    <string name="operator_beta_decline_confirm">Tolak permintaan ini?</string>
+    <string name="operator_beta_decline_mail">Kirim email singkat</string>
+    <string name="operator_beta_mailed">Email terkirim ke %1$s.</string>
+    <string name="operator_tester_steps">Tambahkan %1$s di Play Console → Pengujian → Pengujian tertutup → Penguji, lalu ketuk di bawah.</string>
+    <string name="operator_tester_added">Sudah ditambahkan ke Play</string>
+    <string name="notify_beta_request">Permintaan beta</string>
+</resources>

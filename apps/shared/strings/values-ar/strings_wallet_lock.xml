@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">بطاقات الدفع مقفلة</string>
+    <string name="wallet_lock_body">أكّد هويتك ببصمة الإصبع أو الوجه أو قفل الشاشة (PIN أو نمط أو كلمة مرور) لفتحها مجددًا.</string>
+    <string name="wallet_lock_kept">تفاصيل البطاقة التي كنت تدخلها ما زالت هنا. افتح القفل لتكمل من حيث توقفت. تُمسح بعد 10 دقائق.</string>
+    <string name="wallet_lock_unlock">فتح القفل</string>
+    <string name="wallet_lock_back">رجوع</string>
+    <string name="wallet_lock_no_lock_title">إعداد قفل الشاشة</string>
+    <string name="wallet_lock_no_lock_body">لا يوجد قفل شاشة على هذا الهاتف، لذا لا يمكن فتح بطاقات الدفع. فعّل رمز PIN أو البصمة من الإعدادات ثم عُد. سأتحقق فورًا.</string>
+    <string name="wallet_lock_open_settings">فتح إعدادات قفل الشاشة</string>
+</resources>

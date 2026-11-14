@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">Aufräumen</string>
+    <string name="storage_cleanup_title">Speicher aufräumen</string>
+    <string name="storage_warn">Der Kelo-Speicher ist zu %1$d %% belegt.</string>
+    <string name="storage_critical">Der Kelo-Speicher ist fast voll (%1$d %%). Ist er voll, können keine neuen Dateien gespeichert werden, der Chat funktioniert aber weiter.</string>
+    <string name="storage_host_low">Die Festplatte des Computers, auf dem der Kelo-Server läuft, ist fast voll (noch %1$s frei). Ist sie voll, funktioniert Kelo nicht mehr, auch der Chat nicht.</string>
+    <string name="storage_top">Am meisten belegt: %1$s (%2$s).</string>
+    <string name="storage_row_warn">%1$d %% belegt</string>
+    <string name="storage_row_critical">Fast voll</string>
+    <string name="storage_row_host">Festplatte fast voll</string>
+    <string name="storage_cleanup_intro">Diese Einträge können gefahrlos entfernt werden. Notizen, Erinnerungen und der Chatverlauf erscheinen hier nie.</string>
+    <string name="storage_group_uploads">Alte Upload-Originale</string>
+    <string name="storage_group_uploads_desc">Dateien, die vor mehr als %1$d Tagen hochgeladen wurden. Nur das Original wird gelöscht; der Text, den Kelo aus einem Dokument gelesen hat, bleibt.</string>
+    <string name="storage_group_images">Erstellte Bilder</string>
+    <string name="storage_group_images_desc">Bilder, die Kelo erstellt hat. Ältere Chatnachrichten, die sie zeigten, zeigen danach nichts mehr.</string>
+    <string name="storage_group_browser">Schrittbilder des Browsers</string>
+    <string name="storage_group_browser_desc">Bilder jedes Browserschritts aus Aufgaben, die von selbst liefen.</string>
+    <string name="storage_group_results">Alte Ergebnisse und Papierkorb</string>
+    <string name="storage_group_results_desc">Ergebnisse, die älter als %1$d Tage sind, und alles im Papierkorb.</string>
+    <string name="storage_group_backups">Ältere Backups</string>
+    <string name="storage_group_backups_desc">Die neuesten Backups bleiben immer erhalten.</string>
+    <string name="storage_item_text_kept">Text bleibt</string>
+    <string name="storage_item_trashed">Im Papierkorb</string>
+    <string name="storage_backup_update">Vor einem Server-Update</string>
+    <string name="storage_backup_memory">Aufräumen der Erinnerungen</string>
+    <string name="storage_backup_migration">Frühere Struktur</string>
+    <string name="storage_selected">Ausgewählt: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Löschen</string>
+    <string name="storage_confirm_title">Die ausgewählten Einträge endgültig löschen?</string>
+    <string name="storage_confirm_body">Das gibt %1$s frei. Gelöschte Einträge lassen sich nicht wiederherstellen.</string>
+    <string name="storage_deleted">%1$s freigegeben.</string>
+    <string name="storage_skipped">Einige Einträge hatten sich schon geändert und wurden so gelassen.</string>
+    <string name="storage_nothing">Gerade gibt es nichts aufzuräumen.</string>
+    <string name="storage_owner_only">Nur die Person, der der Server gehört, kann aufräumen.</string>
+    <string name="storage_load_failed">Was aufgeräumt werden kann, ließ sich nicht laden.</string>
+    <string name="storage_delete_failed">Löschen hat nicht geklappt. Versuche es erneut.</string>
+    <string name="storage_notify">Der Speicher wird knapp</string>
+</resources>

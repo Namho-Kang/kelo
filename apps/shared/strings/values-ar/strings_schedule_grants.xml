@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">يدفع وحده ضمن حدودك</string>
+    <string name="wallet_tag_asks">يسأل في كل مرة</string>
+    <string name="wallet_reason_not_auto">حُفظت هذه البطاقة لتسأل في كل مرة.</string>
+    <string name="wallet_reason_no_server_copy">لا توجد على الخادم نسخة من هذه البطاقة للدفع التلقائي.</string>
+    <string name="wallet_reason_paused">الدفع التلقائي متوقف مؤقتًا لكل البطاقات.</string>
+    <string name="wallet_reason_vault_locked">سلسلة المفاتيح مقفلة أمام الوكيل.</string>
+    <string name="wallet_auto_turn_on_card">تشغيل الدفع التلقائي لهذه البطاقة</string>
+    <string name="wallet_first_site_rule">حتى مع تشغيل الدفع التلقائي، تسأل أول دفعة على موقع جديد مرة واحدة، وكذلك أي دفعة تتجاوز حدودك.</string>
+    <string name="wallet_auto_none_value">لا توجد بطاقة بالدفع التلقائي</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="zero">%d بطاقة بالدفع التلقائي</item>
+        <item quantity="one">بطاقة واحدة بالدفع التلقائي</item>
+        <item quantity="two">بطاقتان بالدفع التلقائي</item>
+        <item quantity="few">%d بطاقات بالدفع التلقائي</item>
+        <item quantity="many">%d بطاقة بالدفع التلقائي</item>
+        <item quantity="other">%d بطاقة بالدفع التلقائي</item>
+    </plurals>
+    <string name="wallet_auto_none_note">لا توجد بطاقة تدفع وحدها بعد، لذا تسأل كل دفعة على هذا الهاتف. لتغيير ذلك، افتح بطاقة وشغّل الدفع التلقائي.</string>
+    <string name="wallet_schedule_section">جداول تشتري وحدها</string>
+    <string name="grant_section_title">مسموح دون سؤال</string>
+    <string name="grant_section_note">سُمح به مرة عند الإعداد. المبلغ الأعلى وموقع أو منتج آخر وتغييرات الحساب ما زالت تسأل.</string>
+    <string name="grant_login_title">يسجّل الدخول بحساب %1$s</string>
+    <string name="grant_login_site">على %1$s</string>
+    <string name="grant_purchase_title">يشتري %1$s</string>
+    <string name="grant_purchase_cap">على %1$s · حتى %2$s لكل تشغيل، %3$s شهريًا</string>
+    <string name="grant_spent">هذا الشهر: %1$s</string>
+    <string name="grant_for_schedule">لـ«%1$s»</string>
+    <string name="grant_revoke">إلغاء الإذن</string>
+    <string name="grant_revoke_confirm">هل تريد إلغاء هذا الإذن؟ ستسأل عمليات التشغيل مرة أخرى.</string>
+    <string name="grant_login_section">جداول تستخدم تسجيل الدخول هذا دون سؤال</string>
+</resources>

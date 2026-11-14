@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">ما يمكن لـ Kelo فعله</string>
+    <string name="perm_about">السماح: بدون بطاقة. السؤال: بطاقة في كل مرة. إيقاف: لا يفعل Kelo ذلك. المدفوعات والتسجيلات تسأل دائمًا.</string>
+    <string name="perm_kind_read">القراءة</string>
+    <string name="perm_kind_change">التغيير</string>
+    <string name="perm_kind_send">الإرسال</string>
+    <string name="perm_kind_delete">الحذف</string>
+    <string name="perm_allow">السماح</string>
+    <string name="perm_ask">السؤال</string>
+    <string name="perm_off">إيقاف</string>
+    <string name="perm_default_is">الافتراضي: %1$s</string>
+    <string name="perm_changed_from">الافتراضي هو %1$s</string>
+    <string name="perm_actions_more">%1$d إجراءات فردية</string>
+    <string name="perm_reset">العودة إلى الإعدادات الافتراضية</string>
+    <string name="perm_reset_q">هل تريد إعادة كل إعدادات هذا الموصل إلى الافتراضية؟</string>
+    <string name="perm_read_off_q">عند إيقاف القراءة لن يستطيع Kelo استخدام هذا الموصل في معظم الأمور. هل تريد إيقافها؟</string>
+    <string name="perm_limited">مقيّد</string>
+</resources>

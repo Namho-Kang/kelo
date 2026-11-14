@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_buy_ready.xml -->
+<resources>
+    <string name="buy_ready_title">Bereit zum Kauf</string>
+    <string name="buy_ready_short">Bereit zum Sofortkauf</string>
+    <string name="buy_ready_problems_short">Bereit zum Kauf: %1$d zu beheben</string>
+    <string name="buy_ready_ok">Alles ist bereit. Sobald es verfügbar ist, kauft Kelo sofort im erlaubten Rahmen.</string>
+    <string name="buy_ready_not_ok">Einiges ist noch nicht bereit:</string>
+    <string name="buy_ready_login">Anmelden</string>
+    <string name="buy_ready_login_kept">Angemeldet geblieben</string>
+    <string name="buy_ready_login_out">Abgemeldet</string>
+    <string name="buy_ready_checked">Zuletzt geprüft</string>
+    <string name="buy_ready_remembered">Kelo merkt sich die Kaufschritte dieser Website, um in Sekunden zu kaufen.</string>
+    <string name="buy_ready_about">Die Produktseite bleibt in Kelos Browser geöffnet und wird alle 15 Minuten überprüft.</string>
+    <string name="buy_ready_check">Jetzt prüfen</string>
+</resources>

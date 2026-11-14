@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Habilidades por aprobar</string>
+    <string name="skill_review_about">Kelo solo usa una habilidad después de que la apruebes. Al aprobarla se guarda exactamente el texto mostrado.</string>
+    <string name="skill_review_drafting">Kelo está escribiendo un borrador de habilidad…</string>
+    <string name="skill_review_kind_new">Habilidad nueva</string>
+    <string name="skill_review_kind_change">Cambio en una habilidad</string>
+    <string name="skill_review_kind_edited">Cambiada fuera de la app</string>
+    <string name="skill_review_edited_note">Los archivos de esta habilidad cambiaron fuera de la app, así que Kelo no la usará hasta que la vuelvas a aprobar.</string>
+    <string name="skill_review_edited_new_note">Esta habilidad se añadió fuera de la app. Kelo no la usará hasta que la apruebes.</string>
+    <string name="skill_review_outside_note">Kelo leyó páginas web, correos o archivos mientras trabajaba en esto. Comprueba que cada paso sea lo que quieres.</string>
+    <string name="skill_review_secrets_removed">Se quitaron del texto contraseñas, claves y códigos.</string>
+    <string name="skill_review_diff_counts">Añadidas %1$d · Quitadas %2$d</string>
+    <string name="skill_review_show_all">Ver todo</string>
+    <string name="skill_review_show_less">Ver menos</string>
+    <string name="skill_review_put_back">Deshacer los cambios</string>
+    <string name="skill_review_discard">Descartar</string>
+    <string name="skill_review_approve">Aprobar</string>
+    <string name="skill_review_approved">Aprobada. Kelo usará esta habilidad.</string>
+    <string name="skill_review_discarded">Descartada</string>
+    <string name="skill_review_from_draft">Borrador de una tarea terminada</string>
+    <string name="skill_review_from_disk">Cambiada en los archivos del servidor</string>
+    <string name="skill_review_from_kelo">Sugerida por Kelo</string>
+    <string name="skill_save">Guardar como habilidad</string>
+    <string name="skill_save_about">Kelo anota los pasos de esta tarea. Nada cambia hasta que la apruebes en %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo está redactando una habilidad. La encontrarás en %1$s → %2$s.</string>
+    <string name="skill_save_busy">Ya se está escribiendo una habilidad de esta tarea.</string>
+    <string name="skill_save_unavailable">Este servidor aún no puede guardar habilidades. Actualiza primero el servidor.</string>
+    <string name="skill_save_no_model">Elige primero un modelo.</string>
+</resources>

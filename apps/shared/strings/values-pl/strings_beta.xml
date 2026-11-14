@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">Poproś o dostęp do bety</string>
+    <string name="beta_requested">Wysłano prośbę</string>
+    <string name="beta_sheet_note">Logowanie przez Google jest na razie otwarte dla małej grupy. Wpisz adres Google, który połączysz – napiszemy na niego, gdy zostaniesz dodany.</string>
+    <string name="beta_email_hint">Adres e-mail Google</string>
+    <string name="beta_email_invalid">Wpisz poprawny adres e-mail.</string>
+    <string name="beta_send">Wyślij</string>
+    <string name="beta_sending">Wysyłanie…</string>
+    <string name="beta_sent">Prośba wysłana. Gdy zostanie zatwierdzona, napiszemy na %1$s – wtedy wróć i połącz ponownie.</string>
+    <string name="beta_declined">Twoja prośba o betę nie została tym razem zatwierdzona. Logowanie przez Google zostanie otwarte dla wszystkich po zakończeniu weryfikacji Google.</string>
+    <string name="operator_section_beta">Prośby o betę</string>
+    <string name="operator_beta_note">Osoby, które chcą wypróbować logowanie przez Google. Najpierw dodaj je jako użytkowników testowych w Google Cloud Console, a potem naciśnij Zatwierdzone. Obsłużone prośby są usuwane po 30 dniach.</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → Odbiorcy (Audience) → Użytkownicy testowi → dodaj %1$s</string>
+    <string name="operator_beta_mail_from">E-maile są wysyłane z %1$s.</string>
+    <string name="operator_beta_no_mail">Na tym serwerze nie połączono Gmaila, więc e-maile nie są wysyłane. Połącz Gmail w sekcji Łączniki, aby je wysyłać.</string>
+    <string name="operator_beta_not_receiving">Ten serwer nie pośredniczy w logowaniu przez Google, więc nie otrzymuje próśb.</string>
+    <string name="operator_beta_empty">Brak próśb.</string>
+    <string name="operator_beta_open">Oczekujące: %1$d</string>
+    <string name="operator_beta_approve">Zatwierdzone</string>
+    <string name="operator_beta_decline">Odrzuć</string>
+    <string name="operator_beta_waiting">Oczekuje</string>
+    <string name="operator_beta_state_approved">Zatwierdzona</string>
+    <string name="operator_beta_declined">Odrzucona</string>
+    <string name="operator_beta_notice_no_mail">Nie wysłano e-maila do wsparcia: brak połączonego Gmaila.</string>
+    <string name="operator_beta_notice_failed">Nie udało się wysłać e-maila do wsparcia.</string>
+    <string name="operator_beta_decline_confirm">Odrzucić tę prośbę?</string>
+    <string name="operator_beta_decline_mail">Wyślij krótkiego e-maila</string>
+    <string name="operator_beta_mailed">Wysłano e-mail do %1$s.</string>
+    <string name="operator_tester_steps">Dodaj %1$s w Play Console → Testowanie → Testy zamknięte → Testerzy, a potem kliknij poniżej.</string>
+    <string name="operator_tester_added">Dodano do Play</string>
+    <string name="notify_beta_request">Prośba o betę</string>
+</resources>

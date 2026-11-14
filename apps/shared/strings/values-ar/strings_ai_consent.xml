@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_ai_consent.xml (edit freely, keep the names) -->
+<resources>
+    <string name="ai_consent_title">قبل رسالتك الأولى</string>
+    <string name="ai_consent_body">لكي يجيب، يرسل Kelo رسائلك وما يحتاجه لها (الملفات التي ترفقها، ونتائج خدماتك المتصلة) إلى خدمة الذكاء الاصطناعي التي تختارها.</string>
+    <string name="ai_consent_now">المختار الآن: %1$s. يمكنك رؤيته وتغييره في «النموذج».</string>
+    <string name="ai_consent_not_now_note">مع «ليس الآن» لا يُرسَل أي شيء.</string>
+    <string name="ai_consent_privacy">سياسة الخصوصية</string>
+    <string name="ai_consent_agree">أوافق</string>
+    <string name="ai_consent_not_now">ليس الآن</string>
+    <string name="ai_chats_go_to">تُرسَل محادثاتك إلى %1$s</string>
+    <string name="ai_chats_stay">تبقى محادثاتك داخل شبكتك</string>
+</resources>

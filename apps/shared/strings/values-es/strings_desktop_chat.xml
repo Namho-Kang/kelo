@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat and live view lines only the desktop app has (zoom in a browser tab's live view). See strings_desktop.xml. -->
+<resources>
+    <string name="desktop_chat_zoom_in">Acercar</string>
+    <string name="desktop_chat_zoom_reset">Ajustar a la ventana</string>
+    <string name="desktop_chat_zoom_hint">Mantén %1$s y gira la rueda para hacer zoom; arrastra para moverte.</string>
+</resources>

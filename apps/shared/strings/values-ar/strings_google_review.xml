@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ar text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">قريبًا</string>
+    <string name="google_review_title">نجهّز تسجيل الدخول عبر Google</string>
+    <string name="google_review_note">سيُتاح هذا بعد انتهاء مراجعة Google. دعمك لـ Kelo يساعد على إتاحته أسرع.</string>
+    <string name="google_review_support">ادعم Kelo</string>
+    <string name="google_review_phone_calendar">الربط عبر تقويم الهاتف</string>
+    <string name="google_review_phone_calendar_help">تحفظ هواتف Android تقويم Google في تقويم الهاتف نفسه، لذا يستطيع Kelo قراءته من هناك.</string>
+    <string name="google_review_open_switch">فتح تسجيل الدخول عبر Google للجميع</string>
+    <string name="google_review_open_warning">فعّل هذا فقط بعد أن تتحقق Google من هذا العميل. حتى ذلك الحين تسمح Google بـ 100 مستخدم على الأكثر وتعرض لهم تحذيرًا.</string>
+</resources>

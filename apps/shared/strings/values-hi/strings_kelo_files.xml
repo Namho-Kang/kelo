@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Kelo की फ़ाइलें</string>
+    <string name="files_about">Kelo अपने लिए जो लिखता है: आप कौन हैं, उसकी याददाश्त, उसके नोट्स। आप इन्हें पढ़, बदल और मिटा सकते हैं। अपलोड और नतीजों के अपने पेज हैं।</string>
+    <string name="files_new_folder">नया फ़ोल्डर</string>
+    <string name="files_make">बनाएँ</string>
+    <string name="files_folder_name">फ़ोल्डर का नाम</string>
+    <string name="files_folder_bad">यह नाम इस्तेमाल नहीं हो सकता।</string>
+    <string name="files_edit">बदलें</string>
+    <string name="files_save">सहेजें</string>
+    <string name="files_cancel">रद्द करें</string>
+    <string name="files_saved">सहेज लिया। Kelo अगले जवाब से नया पाठ पढ़ेगा।</string>
+    <string name="files_save_failed">सहेजा नहीं जा सका।</string>
+    <string name="files_full">सर्वर का स्टोरेज भर गया है।</string>
+    <string name="files_discard_q">बिना सहेजे बाहर जाएँ?</string>
+    <string name="files_discard">बाहर जाएँ</string>
+    <string name="files_reset">शुरुआत पर लौटें</string>
+    <string name="files_reset_q">इस फ़ाइल को शुरुआती हालत में लौटाएँ? मौजूदा पाठ ट्रैश में जाएगा।</string>
+    <string name="files_reset_done">शुरुआत पर लौट आया। पुराना पाठ ट्रैश में है।</string>
+    <string name="files_core_reset_hint">Kelo को इस फ़ाइल की ज़रूरत है। इसके बजाय \"शुरुआत पर लौटें\" इस्तेमाल करें।</string>
+    <string name="files_delete">मिटाएँ</string>
+    <string name="files_delete_q">ट्रैश में डालें? 30 दिन बाद यह हमेशा के लिए मिट जाएगा।</string>
+    <string name="files_deleted">ट्रैश में डाल दिया।</string>
+    <string name="files_read_only">Kelo इस फ़ाइल को अपडेट रखता है; इसे यहाँ बदला नहीं जा सकता।</string>
+    <string name="files_load_failed">फ़ाइलें लोड नहीं हो सकीं।</string>
+    <string name="files_trash_title">ट्रैश</string>
+    <string name="files_trash_about">मिटाई गई फ़ाइलें यहाँ 30 दिन रहती हैं।</string>
+    <string name="files_trash_left">%1$d दिन बाद हमेशा के लिए मिट जाएगा</string>
+    <string name="files_trash_empty">ट्रैश खाली है।</string>
+    <string name="files_restore">वापस लाएँ</string>
+    <string name="files_restored">वापस ला दिया।</string>
+    <string name="files_purge">हमेशा के लिए मिटाएँ</string>
+    <string name="files_purge_q">हमेशा के लिए मिटाएँ? इसे वापस नहीं लाया जा सकता।</string>
+    <string name="files_core_assistant">Kelo का स्वभाव और लहजा</string>
+    <string name="files_core_user">आपके बारे में Kelo क्या जानता है</string>
+    <string name="files_core_memory">Kelo की याददाश्त</string>
+    <string name="files_core_agents">Kelo कैसे काम करता है</string>
+    <string name="files_core_checklist">जाँचने की बातें</string>
+    <string name="files_core_notify">सूचना की पसंद</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_device.xml (generated from values/strings_device.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="device_section">Auf diesem Handy</string>
+    <string name="device_row_sub">Auf diesem Handy</string>
+    <string name="device_row_connect">Verbinden</string>
+    <string name="device_connected">Verbunden</string>
+    <string name="device_needs_permission">Berechtigung nötig</string>
+    <string name="device_calendar">Kalender</string>
+    <string name="device_contacts">Kontakte</string>
+    <string name="device_messages">SMS</string>
+    <string name="device_dialer">Telefon-App</string>
+    <string name="device_notifications">Benachrichtigungen</string>
+    <string name="device_call_log">Anrufliste</string>
+    <string name="device_health">Health Connect</string>
+    <string name="device_calendar_does">Liest deine Termine, um zu antworten. Wenn du es erlaubst, trägt es nach deiner Freigabe auch Termine ein.</string>
+    <string name="device_calendar_sends">Sendet Termine von vor 7 Tagen bis in 60 Tagen an deinen Server.</string>
+    <string name="device_contacts_does">Findet Nummern und E-Mail-Adressen anhand des Namens. Nur Lesezugriff.</string>
+    <string name="device_contacts_sends">Sendet Namen, Nummern, E-Mail-Adressen, Firma und Position sowie Geburtstage an deinen Server.</string>
+    <string name="device_messages_does">Findet und liest empfangene und gesendete SMS. Sendet nur nach deiner Freigabe.</string>
+    <string name="device_messages_sends">Sendet deine letzten SMS an deinen Server.</string>
+    <string name="device_dialer_does">Öffnet nach deiner Freigabe die Telefon-App mit eingetragener Nummer. Den Anruf startest du selbst.</string>
+    <string name="device_dialer_sends">Es wird nichts gesendet.</string>
+    <string name="device_notifications_does">Findet in deinen Benachrichtigungen, was du brauchst.</string>
+    <string name="device_notifications_sends">Sendet App-Name, Titel, Text und Uhrzeit an deinen Server. Wird nach 7 Tagen gelöscht.</string>
+    <string name="device_call_log_does">Findet letzte Anrufe. Nur Lesezugriff.</string>
+    <string name="device_call_log_sends">Sendet Nummern, Namen, Anrufart, Uhrzeit und Dauer der letzten 30 Tage an deinen Server.</string>
+    <string name="device_health_does">Antwortet anhand von Daten wie Schritten und Schlaf. Nur Lesezugriff.</string>
+    <string name="device_health_sends">Sendet nur eine tägliche Zusammenfassung der gewählten Daten an deinen Server, wenn du die App öffnest.</string>
+    <string name="device_switch">Kelo darf das nutzen</string>
+    <string name="device_auto">Bleibt automatisch synchron · %1$s</string>
+    <string name="device_auto_never">Sendet sofort nach dem Einschalten und bleibt dann synchron</string>
+    <string name="device_auto_foreground">Synchronisiert bei jedem Öffnen der App · %1$s</string>
+    <string name="device_send_now">Jetzt senden</string>
+    <string name="device_sending">Wird gesendet…</string>
+    <string name="device_send_failed">Senden fehlgeschlagen. Ich versuche es gleich noch mal.</string>
+    <string name="device_off_failed">Ausgeschaltet. Was noch auf dem Server liegt, wird bei der nächsten Verbindung gelöscht.</string>
+    <string name="device_denied">Die Berechtigung ist aus. Erlaube sie in den Einstellungen, um das einzuschalten.</string>
+    <string name="device_open_settings">Einstellungen öffnen</string>
+    <string name="device_ready">An</string>
+    <plurals name="device_count_contacts">
+        <item quantity="one">%1$d Kontakt</item>
+        <item quantity="other">%1$d Kontakte</item>
+    </plurals>
+    <plurals name="device_count_messages">
+        <item quantity="one">%1$d SMS</item>
+        <item quantity="other">%1$d SMS</item>
+    </plurals>
+    <plurals name="device_count_calls">
+        <item quantity="one">%1$d Anruf</item>
+        <item quantity="other">%1$d Anrufe</item>
+    </plurals>
+    <plurals name="device_count_days">
+        <item quantity="one">Zusammenfassung für %1$d Tag</item>
+        <item quantity="other">Zusammenfassungen für %1$d Tage</item>
+    </plurals>
+    <plurals name="device_count_notes">
+        <item quantity="one">%1$d Benachrichtigung</item>
+        <item quantity="other">%1$d Benachrichtigungen</item>
+    </plurals>
+    <plurals name="device_count_events">
+        <item quantity="one">%1$d Termin</item>
+        <item quantity="other">%1$d Termine</item>
+    </plurals>
+    <string name="device_cal_write">Termine auch hinzufügen und ändern</string>
+    <string name="device_cal_write_line">Fragt jedes Mal zuerst mit einer Freigabekarte.</string>
+    <string name="device_cal_write_to">Kalender für neue Termine</string>
+    <string name="device_cal_none">Es gibt keinen Kalender, der sich ändern lässt.</string>
+    <string name="device_cal_write_denied">Die Schreibberechtigung für den Kalender ist aus.</string>
+    <string name="device_msg_window">Wie weit zurück senden</string>
+    <string name="device_days">%1$d Tage</string>
+    <string name="device_msg_send">SMS senden erlauben</string>
+    <string name="device_msg_send_line">Dieses Handy sendet erst, wenn du Empfänger und vollständigen Text freigegeben hast.</string>
+    <string name="device_msg_send_denied">Die Berechtigung zum Senden von SMS ist aus.</string>
+    <string name="device_notif_service_label">Kelo – Benachrichtigungen lesen</string>
+    <string name="device_notif_disclosure_title">Benachrichtigungen mit Kelo teilen?</string>
+    <string name="device_notif_disclosure">Wenn das an ist, gehen App-Name, Titel, Text und Uhrzeit der Benachrichtigungen auf diesem Handy an deinen Kelo-Server. Dein Agent nutzt sie, um Dinge zu finden und dir zu antworten. Laufende Benachrichtigungen, die von Kelo selbst und ausgeschlossene Apps werden nie gesendet. Der Server löscht sie nach 7 Tagen – und sofort, wenn du das ausschaltest.\n\nSchalte auf dem nächsten Bildschirm den Benachrichtigungszugriff für Kelo ein.</string>
+    <string name="device_agree">Zustimmen und weiter</string>
+    <string name="device_decline">Nein danke</string>
+    <string name="device_notif_access_off">Der Benachrichtigungszugriff ist aus.</string>
+    <string name="device_notif_exclude">Diese Apps nicht senden</string>
+    <string name="device_notif_exclude_empty">Apps, die dir Benachrichtigungen schicken, erscheinen hier.</string>
+    <string name="device_health_types">Was geteilt wird</string>
+    <string name="device_health_steps">Schritte</string>
+    <string name="device_health_sleep">Schlaf</string>
+    <string name="device_health_heart">Herzfrequenz</string>
+    <string name="device_health_weight">Gewicht</string>
+    <string name="device_health_exercise">Trainings</string>
+    <string name="device_health_missing">Health Connect ist auf diesem Handy nicht vorhanden.</string>
+    <string name="device_health_install">Health Connect installieren</string>
+    <string name="device_health_denied">Für die gewählten Daten fehlt die Berechtigung. Bitte erlaube sie noch mal.</string>
+    <string name="device_health_allow">Erlauben</string>
+    <string name="device_health_rationale_title">Wie Kelo deine Gesundheitsdaten nutzt</string>
+    <string name="device_health_rationale">Kelo liest nur eine tägliche Zusammenfassung der gewählten Daten (Schritte, Schlaf, Herzfrequenz, Gewicht, Trainings) und sendet sie an deinen eigenen Kelo-Server. Sie wird nur genutzt, wenn dein Agent deine Fragen beantwortet – nie für Werbung oder Verkauf. Kelo liest nur und schreibt nie in Health Connect. Beim Ausschalten werden die Zusammenfassungen auf dem Server gelöscht.</string>
+    <string name="device_privacy_policy">Datenschutzerklärung</string>
+    <string name="device_dial_title">%1$s anrufen</string>
+    <string name="device_dial_body">Tippe, um die Telefon-App zu öffnen. Den Anruf startest du selbst.</string>
+    <string name="device_sms_failed_title">SMS konnte nicht gesendet werden</string>
+</resources>

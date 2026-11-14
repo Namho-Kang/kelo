@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">允許後，手機會詢問是否傳送為此網站儲存的付款密碼。請在手機上確認。</string>
+    <string name="desktop_pin_need_body">開啟手機上的 Kelo App，將付款密碼「%1$s」傳送一次，用於 %2$s 的付款（%3$s）。</string>
+    <string name="desktop_pin_secret_on_phone">付款密碼只儲存在手機上。在手機上的 Kelo App 輸入後，這張卡片會自動關閉。</string>
+    <string name="desktop_pay_step_on_phone">在手機上的信用卡或銀行 App 核准後，在這裡點按「我已核准」。</string>
+    <string name="desktop_pay_step_click_copy">點按代碼即可複製</string>
+    <string name="desktop_pay_step_pad_note">在這裡點按按鍵，點按的位置會按在付款頁面的同一位置。</string>
+    <string name="desktop_briefing_weather_follows_phone">天氣會跟著手機的位置。在手機上開啟 Kelo 並允許位置資訊後就會顯示。</string>
+    <string name="desktop_pin_add_on_phone">付款密碼在手機上的 Kelo App 新增，並以只有那支手機擁有的金鑰鎖定。</string>
+</resources>

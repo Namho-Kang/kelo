@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The setup card of a "when X happens, do Y" task (task_allow), its grants on task pages, urgent cards -->
+    <string name="task_grant_question">When this happens, do this without asking?</string>
+    <string name="task_grant_when">When</string>
+    <string name="task_grant_does">Kelo will</string>
+    <string name="task_grant_buy">Buys</string>
+    <string name="task_grant_limits">Limits</string>
+    <string name="task_grant_per_time">Up to %1$s each time</string>
+    <string name="task_grant_times_one">Only once</string>
+    <string name="task_grant_times">At most %1$d times</string>
+    <string name="task_grant_no_count">No limit on how many times</string>
+    <string name="task_grant_monthly">At most %1$s a month</string>
+    <string name="task_grant_card">Card</string>
+    <string name="task_grant_card_limit">This card\'s auto-pay limit is %1$s. Allow up to %2$s for this task?</string>
+    <string name="task_grant_card_not_auto">This card doesn\'t pay on its own. This task may pay up to %1$s.</string>
+    <string name="task_grant_card_phone_only">This card is kept only on your phone, so each payment will still ask.</string>
+    <string name="task_grant_ship_to">Ship to</string>
+    <string name="task_grant_send_to">Sends to</string>
+    <string name="task_grant_message">Message</string>
+    <string name="task_grant_varies">May change: %1$s</string>
+    <string name="task_grant_change">Changes</string>
+    <string name="task_grant_apply">Applies for</string>
+    <string name="task_grant_apply_per_run">Up to %1$d per run</string>
+    <string name="task_grant_apply_total">%1$d in all</string>
+    <string name="task_grant_row_apply">Applies for %1$s</string>
+    <string name="task_grant_delete_yes">Deleting allowed</string>
+    <string name="task_grant_delete_no">Never deletes</string>
+    <string name="task_grant_login">Sign-in</string>
+    <string name="task_grant_login_line">%1$s login on %2$s</string>
+    <string name="task_grant_once">Ends by itself once it\'s done, so nothing happens twice.</string>
+    <string name="task_grant_after">You\'ll get a notice right after. Anything beyond this still asks you.</string>
+    <string name="task_grant_urgent">Urgent: please answer soon</string>
+    <string name="task_grant_urgent_missed">Urgent: if you answer late, %1$s</string>
+    <string name="task_grant_row_send">Sends to %1$s</string>
+    <string name="task_grant_row_change">Changes %1$s</string>
+    <string name="task_grant_row_when">When: %1$s</string>
+    <string name="task_grant_row_card">Card: %1$s</string>
+    <string name="task_grant_row_left">%1$d of %2$d left</string>
+    <string name="task_grant_row_once">ends after that</string>
+    <string name="task_grant_section_note">Allowed once when this was set up. Anything beyond it still asks.</string>
+    <string name="notify_channel_urgent">Urgent requests</string>
+    <string name="notify_channel_urgent_desc">When a task you set up needs an answer before it\'s too late</string>
+    <string name="notify_approval_urgent">Urgent: please confirm</string>
+</resources>

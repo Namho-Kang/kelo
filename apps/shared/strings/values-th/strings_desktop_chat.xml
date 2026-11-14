@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat and live view lines only the desktop app has (zoom in a browser tab's live view). See strings_desktop.xml. -->
+<resources>
+    <string name="desktop_chat_zoom_in">ซูมเข้า</string>
+    <string name="desktop_chat_zoom_reset">พอดีกับหน้าต่าง</string>
+    <string name="desktop_chat_zoom_hint">กด %1$s ค้างไว้แล้วหมุนล้อเพื่อซูม ลากเพื่อดูส่วนอื่น</string>
+</resources>

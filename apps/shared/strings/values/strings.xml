@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  All text the app shows, in ENGLISH: values/ is the default (any phone language the app lacks falls back to it).
+  Each language has its own values-<dir>/ (Korean: values-ko/; the list is in apps/android/tools/strings_res.py LOCALE_DIRS and
+  chat.kelo.app.core.Languages). A new string: write it here in English, and its Korean in values-ko/ (or run
+  `python3 apps/android/tools/strings_sync.py promote <en.json>` after writing Korean here). `python3 apps/android/tools/strings_check.py`
+  checks every language for missing names, placeholders and plural forms.
+-->
+<resources>
+    <string name="app_name" translatable="false">Kelo</string>
+    <!-- the name this phone gets in 마이 → 내 기기 (server keeps 40 characters); %1$s = the phone model -->
+    <string name="device_name_format">%1$s · Kelo</string>
+
+    <!-- common -->
+    <string name="loading">Loading…</string>
+    <string name="connect_confirm_title">Connect to this server?</string>
+    <string name="connect_confirm_body">Make sure this is your own Kelo server\'s address. If you don\'t recognize it, don\'t connect. Once connected, your chats and anything you put in your Keychain go to this server.</string>
+    <string name="connect_confirm_yes">Connect</string>
+    <string name="connect_failed">Couldn\'t connect to the server.</string>
+    <!-- a small pill over a screen showing data kept from last time, when refreshing it failed -->
+    <string name="stale_hint">Offline. Showing saved content</string>
+    <string name="retry">Try again</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="delete">Delete</string>
+    <string name="step_number" translatable="false">%1$d.</string>
+    <string name="check_mark" translatable="false">✓</string>
+    <string name="connect_other_server">Connect to a different server</string>
+    <string name="coming_soon">This screen is coming soon.</string>
+
+    <!-- first screen: language -->
+    <string name="language_title">Language</string>
+    <!-- the first row of the language list: the app follows the phone's language (English when the app lacks it) -->
+    <string name="language_system">System default</string>
+
+    <!-- connect -->
+    <string name="connect_title">Get started</string>
+    <string name="connect_lead">Connect this device to Kelo.</string>
+    <string name="connect_step1">On a phone or computer that already uses Kelo, tap %1$s.</string>
+    <string name="connect_step1_path">My → My devices → Connect a new device</string>
+    <string name="connect_step2">Scan the QR code it shows with this app, or copy the link that comes with it and paste it below.</string>
+    <string name="connect_first_device">First time here with no other device? Run %1$s on the computer the Kelo server runs on to get a QR code.</string>
+    <string name="connect_first_device_cmd" translatable="false">assistant phone add</string>
+    <string name="connect_scan">Scan QR code</string>
+    <string name="connect_paste_link">Paste link</string>
+    <string name="connect_link_placeholder" translatable="false">https://…/#pair=…</string>
+    <string name="connect_link_paste">Paste</string>
+    <string name="connect_link_invalid">That\'s not a connection link. Paste the link from Connect a new device (https://address/#pair=…) exactly as it is.</string>
+    <string name="connect_with_key">Connect with access key</string>
+    <string name="connect_server_label">Server address</string>
+    <string name="connect_server_placeholder" translatable="false">https://kelo.example.com</string>
+    <string name="connect_server_invalid">Check the server address. For example: https://kelo.example.com</string>
+    <string name="connect_https_only">Only https addresses can connect. Enter the address you set up with Tailscale or Cloudflare.</string>
+    <string name="connect_key_placeholder">Access key</string>
+    <string name="connect_key_hint">The access key you made during setup (ASSISTANT_TOKEN in .env). It\'s saved only on this device.</string>
+    <string name="connect_key_wrong">That access key doesn\'t match.</string>
+    <string name="connect_submit">Connect</string>
+    <string name="connect_checking">Checking…</string>
+    <string name="connect_pairing">Connecting this device…</string>
+
+    <!-- QR scanner -->
+    <string name="scan_title">Scan QR code</string>
+    <string name="scan_hint">Point the camera at the Kelo connection QR code on your other device.</string>
+    <string name="scan_not_kelo">That\'s not a Kelo connection QR code.</string>
+    <string name="scan_permission_needed">Kelo needs camera access to scan the QR code. No photos are saved.</string>
+    <string name="scan_permission_allow">Allow camera</string>
+    <string name="scan_open_settings">Open settings</string>
+    <string name="scan_camera_failed">Couldn\'t open the camera. Paste the link to connect instead.</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_hello">Nice to meet you</string>
+    <string name="onboarding_intro">Just two things before you start. You can change both later in My.</string>
+    <string name="onboarding_name_placeholder">e.g. Alex</string>
+    <string name="onboarding_agent_question">Your agent shows up with this name in Chat and notifications.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Get started</string>
+
+    <!-- main shell -->
+    <string name="tab_chat">Chat</string>
+    <string name="tab_goals">Goals</string>
+    <string name="tab_connectors">Connectors</string>
+    <string name="tab_my">My</string>
+
+    <!-- goals -->
+    <string name="goals_done">Done</string>
+    <string name="goals_add">Add a goal</string>
+    <string name="goals_title_placeholder">What do you want to achieve?</string>
+    <string name="goals_note_placeholder">Note (optional)</string>
+    <string name="goals_add_button">Add</string>
+    <string name="goals_empty">No goals yet. Write your first one with the button below. Once you do, Kelo will ask what it needs and plan it out with you.</string>
+    <string name="goals_mark_done">Done</string>
+
+    <!-- my: disconnecting a device -->
+    <string name="my_disconnect_confirm">Disconnect this device? To use it again, you\'ll need to connect it from scratch.</string>
+    <string name="my_disconnect_button">Disconnect</string>
+
+    <!-- chat -->
+    <string name="chat_hint">Tell %1$s anything.</string>
+    <string name="chat_input_placeholder">Send a message</string>
+    <string name="slash_new_about">Start a new conversation</string>
+    <string name="keysaved_title">Saved in the Keychain</string>
+    <string name="keysaved_hosts">Used only for %1$s</string>
+    <string name="keysaved_open">Open Keychain</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_stop">Stop</string>
+    <string name="chat_attach">Attach a photo or file</string>
+    <string name="chat_bullet" translatable="false">•</string>
+    <string name="chat_phase_waiting">Waiting for a reply</string>
+    <string name="chat_phase_thinking">Thinking</string>
+    <string name="chat_phase_thinking_long">Thinking for a long time</string>
+    <string name="chat_phase_writing">Writing</string>
+    <string name="chat_phase_tool">Running a tool</string>
+    <string name="chat_phase_approval">Waiting for approval</string>
+    <string name="chat_phase_switching">Switching to the fallback model</string>
+    <!-- the status line: %1$s = phase, %2$s = the tool or model it is about -->
+    <string name="chat_status">%1$s…</string>
+    <string name="chat_status_label">%1$s · %2$s…</string>
+    <string name="chat_seconds">%1$ds</string>
+    <string name="chat_tool_running" translatable="false">⏳ %1$s</string>
+    <string name="chat_tool_ok" translatable="false">✓ %1$s</string>
+    <string name="chat_tool_error" translatable="false">✗ %1$s</string>
+    <string name="chat_tool_denied" translatable="false">⛔ %1$s</string>
+    <string name="chat_notice_fallback">↪ Switched to the fallback model (%1$s) · %2$s</string>
+    <string name="chat_notice_retry">↪ The model stopped after just looking at files, so it\'s trying once more</string>
+    <string name="chat_notice_reconnecting">📶 Connection is shaky. Reconnecting (the server is still working on the reply)</string>
+    <string name="chat_notice_uploaded">📎 Uploaded %1$s. Ask your agent to read it.</string>
+    <string name="chat_upload_prefill">Read %1$s and summarize it.</string>
+    <string name="upload_too_large_limit">Files larger than %1$s can\'t be uploaded.</string>
+    <string name="chat_error_step_limit">Stopped after hitting the step limit.</string>
+    <string name="chat_error_pick_model">No AI model is chosen yet. Tap the model button below the message box and pick one, then send again.</string>
+    <string name="chat_error_network">The connection dropped (network error). The screen may have turned off or the signal blipped for a moment. Please send it again.</string>
+    <string name="chat_approval_deny">Deny</string>
+    <string name="chat_approval_allow">Allow</string>
+    <string name="chat_model_none">Choose a model</string>
+    <string name="chat_model_settings">Model settings</string>
+    <string name="chat_chip_menu" translatable="false">%1$s ▾</string>
+    <string name="chat_effort">Thinking level</string>
+    <string name="chat_effort_default">Default</string>
+    <!-- the model chip in the composer: "<model> <thinking level>" -->
+    <string name="chat_model_chip">%1$s %2$s</string>
+    <string name="chooser_in_use">In use</string>
+    <string name="chooser_none_ready">No AI service is ready to use yet. Pick one in More settings below.</string>
+    <string name="chooser_more">More settings</string>
+    <string name="chooser_more_hint">Fallback model, models not on the list</string>
+    <string name="chooser_effort_hint">The longer it thinks, the slower the reply</string>
+    <string name="chooser_effort_default_hint">Let the model decide</string>
+    <string name="chooser_effort_none">This model doesn\'t let you pick a thinking level</string>
+    <!-- one short line under each model in the chooser, from the model's tier words and the server's facts -->
+    <string name="model_trait_fast">Quick replies</string>
+    <string name="model_trait_reasoning">Step-by-step reasoning</string>
+    <string name="model_trait_large">Complex tasks</string>
+    <string name="model_trait_images">Understands photos</string>
+    <string name="model_trait_long">Long chats</string>
+    <string name="model_trait_plain">Text chat</string>
+    <string name="model_trait_separator" translatable="false">" · "</string>
+    <string name="chat_effort_low">Low</string>
+    <string name="chat_effort_medium">Medium</string>
+    <string name="chat_effort_high">High</string>
+    <string name="chat_effort_xhigh">Very high</string>
+    <string name="chat_effort_max">Max</string>
+    <!-- a long list to pick from (the providers): the sheet's search field -->
+    <string name="select_search">Search</string>
+    <string name="select_no_match">No matches.</string>
+    <!-- long press on a message -->
+    <string name="msg_actions_label">Open message menu</string>
+    <string name="msg_action_copy">Copy</string>
+    <string name="msg_action_copied">Copied</string>
+    <string name="msg_action_share">Share</string>
+    <string name="msg_action_select">Select text</string>
+    <string name="msg_action_retry">Try again</string>
+    <string name="msg_action_edit">Edit and resend</string>
+    <string name="msg_select_title">Select text</string>
+    <string name="msg_select_hint">Long-press to select the part you want.</string>
+    <!-- Markdown in replies -->
+    <string name="md_copy">Copy</string>
+    <string name="md_copied">Copied</string>
+    <string name="md_code_plain">Code</string>
+    <string name="md_bullet_2" translatable="false">◦</string>
+    <string name="md_bullet_3" translatable="false">▪</string>
+    <!-- attachments ("+") -->
+    <string name="attach_sheet_title">Attach</string>
+    <string name="attach_photo">Photo</string>
+    <string name="attach_photo_hint">Choose from gallery</string>
+    <string name="attach_camera">Camera</string>
+    <string name="attach_camera_hint">Take a photo now</string>
+    <string name="attach_file">File</string>
+    <string name="attach_file_hint">PDF, Word, Excel</string>
+    <string name="attach_preparing">Preparing…</string>
+    <string name="attach_progress">%1$d%%</string>
+    <string name="attach_done">Uploaded</string>
+    <string name="attach_remove">Remove %1$s</string>
+    <string name="attach_cancel">Cancel uploading %1$s</string>
+    <string name="attach_error_network">Connection dropped, so it couldn\'t upload.</string>
+    <string name="attach_error_unreadable">Couldn\'t read the file.</string>
+    <!-- the message that takes attachments along: one line per file under the typed text; %1$s = the file's name -->
+    <string name="chat_attachment_line">📎 %1$s</string>
+    <!-- between file names in chat_upload_prefill when several are attached -->
+    <string name="chat_attachment_separator">", "</string>
+    <string name="chat_camera_denied">Kelo can\'t take photos without camera access. Allow the camera in Settings.</string>
+    <string name="chat_camera_missing">Couldn\'t find a camera app to take photos.</string>
+
+    <!-- connect card (connect_service): the Connectors tab holds the connect panel -->
+    <string name="chat_connect_notify">I connected %1$s. Please continue.</string>
+    <string name="notify_agent">Tell the agent</string>
+
+    <!-- model sheet -->
+    <string name="model_sheet_title">Model</string>
+    <string name="model_sheet_fallback">Fallback model</string>
+    <string name="model_sheet_fallback_hint">· Switches automatically if the model above fails before it replies</string>
+    <string name="model_sheet_server_default">Server default</string>
+    <string name="model_not_chosen">Not chosen yet</string>
+    <string name="model_sheet_no_fallback">None</string>
+    <string name="model_sheet_fallback_cleared">Cleared the fallback model because it\'s from the same provider as the main model.</string>
+    <string name="model_sheet_apply">Apply</string>
+    <string name="model_picker_provider">Provider</string>
+    <string name="model_picker_model">Model</string>
+    <string name="model_picker_choose_provider">Choose a provider…</string>
+    <string name="model_picker_ready" translatable="false">%1$s ✓</string>
+    <string name="model_picker_needs_setup">%1$s (needs setup)</string>
+    <string name="model_picker_taken">%1$s · used as main model</string>
+    <string name="model_picker_not_ready">Not ready yet. Add an API key or sign in on the Settings tab first.</string>
+    <string name="model_picker_choose_model">Choose a model…</string>
+    <string name="model_picker_custom">Enter manually…</string>
+    <string name="model_picker_custom_placeholder">Type a model name</string>
+    <string name="model_picker_list_failed">Couldn\'t load the model list</string>
+
+    <!-- secure entry -->
+    <string name="vault_username">Username</string>
+    <string name="vault_password">Password</string>
+    <string name="vault_key">Key</string>
+    <string name="vault_mode">How to save</string>
+    <string name="vault_mode_after_success">Save after a successful sign-in (recommended)</string>
+    <string name="vault_mode_now">Save right now</string>
+    <string name="vault_mode_once">Use once</string>
+    <string name="vault_mode_after_success_help">Your agent actually tries signing in and saves only if the site accepts it. If it fails, nothing is saved.</string>
+    <string name="vault_mode_now_help">Saves exactly what you typed. It hasn\'t been tried yet, so you\'ll find out if it\'s wrong the first time it\'s used.</string>
+    <string name="vault_mode_once_help">Used just this once, then erased. Nothing is saved.</string>
+    <string name="vault_saving">Saving…</string>
+    <string name="vault_save">Save to Keychain</string>
+    <string name="vault_footer">What you enter is saved encrypted and never shown again, to the agent or on screen.</string>
+    <string name="vault_what_login">%1$s sign-in details</string>
+    <string name="vault_what_key">%1$s key</string>
+    <string name="vault_card_needed">%1$s needed</string>
+    <string name="vault_card_hosts">It\'s registered for use only on %1$s. If you enter it here, your agent can\'t see the value.</string>
+    <string name="vault_card_done_after_success">Got it ✓ It\'ll be saved to your Keychain once sign-in works.</string>
+    <string name="vault_card_done_once">Got it ✓ It\'ll be used once, then erased.</string>
+    <string name="vault_card_done_now">Saved ✓</string>
+    <string name="vault_card_notify_saved">I saved %1$s to the Keychain. Please continue.</string>
+    <string name="vault_card_notify_entered">I entered %1$s in the Keychain. Please continue.</string>
+    <string name="vault_card_cancelled">Canceled entering %1$s. Nothing was saved.</string>
+
+    <!-- placeholders -->
+
+    <!-- connectors tab -->
+    <string name="connectors_search">Search</string>
+    <string name="connectors_empty">No connectors to show.</string>
+    <string name="connector_status_connected">Connected</string>
+    <string name="connector_status_disabled">Off</string>
+    <string name="connector_status_coming_soon">Coming soon</string>
+    <string name="connector_status_available">Connect</string>
+    <string name="connector_status_browser">Use in browser</string>
+    <string name="connector_status_unsupported">Not supported</string>
+    <string name="connector_coming_soon_note">You can\'t connect this yet. Once it\'s ready, you can connect it here.</string>
+    <string name="connector_unsupported_note">This isn\'t available in this app.</string>
+    <string name="connector_not_yet">You can\'t connect this yet.</string>
+    <string name="connector_connected_name">%1$s connected</string>
+    <string name="connector_disconnect">Disconnect</string>
+    <string name="connector_opening">Opening…</string>
+    <string name="connector_browser_failed">Couldn\'t open the browser.</string>
+    <string name="save">Save</string>
+    <string name="check_and_connect">Check and connect</string>
+    <string name="client_id" translatable="false">Client ID</string>
+
+    <!-- connect: hosted MCP sign-in -->
+    <string name="mcp_connected_note">Your sign-in is encrypted on your Kelo server and hidden from the agent. Anything that changes something asks for your approval every time.</string>
+    <string name="mcp_disconnect_confirm">Disconnect %1$s? The sign-in saved in this app will be erased.\nYou can remove access on the %1$s side separately in your %1$s settings.</string>
+    <string name="mcp_title">Connect %1$s</string>
+    <string name="mcp_help">When the %1$s page opens, sign in and allow access. You\'ll come back to this app when you\'re done. Your password never comes into this app.</string>
+    <string name="mcp_sign_in">Sign in with %1$s</string>
+
+    <!-- connect: mail -->
+    <string name="mail_account_note">Kelo can search and read your mail. Before sending, it always shows you who it\'s going to and asks for approval.</string>
+    <string name="mail_notify">I connected my mail. Please continue.</string>
+    <string name="mail_google_sign_in">Sign in with Google</string>
+    <string name="mail_google_help">Sign in on the Google screen and allow Gmail access, and you\'ll come back to this app. Your password never comes into this app.</string>
+    <string name="mail_by_password">Connect with an app password</string>
+    <string name="mail_provider">Mail</string>
+    <string name="mail_address">Email address</string>
+    <string name="mail_password">App password</string>
+    <string name="mail_checking">Trying to sign in…</string>
+    <string name="mail_check_note">Kelo tries signing in first and saves only if it works. Your password is stored encrypted and hidden from the agent.</string>
+    <string name="mail_add_other">Add another email</string>
+    <string name="mail_disconnect_confirm">Disconnect %1$s? The saved app password will be erased.</string>
+
+    <!-- connect: keys -->
+    <string name="key_google_share">Share the calendars, files and folders you want to use with this address. Only what you share is visible.</string>
+    <string name="key_connected_note">The key is encrypted on your Kelo server and hidden from the agent. Any request that changes something asks for your approval every time.</string>
+    <string name="key_disconnect_confirm">Disconnect %1$s? The saved key will be erased.</string>
+    <string name="key_pick_json">Choose a JSON file</string>
+    <string name="key_paste_json">Or paste the JSON contents</string>
+    <string name="key_checking">Checking…</string>
+    <string name="key_note_checked">Kelo tries it once first and saves only if it works. The value is stored encrypted and hidden from the agent.</string>
+    <string name="key_note_unchecked">This service charges even for test requests, so you\'ll find out if it\'s right the first time it\'s used. The value is stored encrypted and hidden from the agent.</string>
+    <string name="key_file_failed">Couldn\'t read the file.</string>
+
+    <!-- connect: sites used with the agent's browser -->
+    <string name="browser_site_link">%1$s ›</string>
+    <string name="browser_saved">Sign-in saved in Keychain · %1$s</string>
+    <string name="browser_saved_default">Saved</string>
+    <string name="browser_ask">Leave your sign-in with Kelo (optional)</string>
+    <string name="browser_note">Your sign-in is encrypted on your Kelo server, and the server only types it into that site\'s sign-in fields. Your agent can\'t see it.</string>
+
+    <!-- connect: code (device flow) and web sign-in -->
+    <string name="device_connected_note">%1$s · The token is encrypted on your Kelo server and hidden from the agent.</string>
+    <string name="device_disconnect_confirm">Disconnect %1$s? The token saved in this app will be erased.\nYou can remove access on the %1$s side separately under “Authorized apps” in your %1$s settings.</string>
+    <string name="device_manage">Manage access on %1$s ›</string>
+    <string name="device_enter_code">Enter this code on %1$s</string>
+    <string name="device_code_label">Verification code</string>
+    <string name="device_copy">Copy code</string>
+    <string name="device_copied">Copied ✓</string>
+    <string name="device_open">Open %1$s</string>
+    <string name="device_wait_help">When the %1$s page opens, paste the code and allow access. This screen updates on its own when you\'re done. · %2$s left</string>
+    <string name="device_failed">Couldn\'t connect.</string>
+    <string name="device_scope">How much access should it get?</string>
+    <string name="device_sign_in">Sign in with %1$s</string>
+    <string name="device_sign_in_help">Sign in with your username and password on the %1$s screen and allow access, and you\'ll come back to this app. Your password never comes into this app.</string>
+    <string name="device_by_code">Connect with a code</string>
+    <string name="device_register">You need to register a %1$s app once</string>
+    <string name="device_preparing">Preparing…</string>
+    <string name="device_connect">Connect %1$s</string>
+    <string name="device_change_client">Change Client ID</string>
+    <string name="device_sign_in_link">Sign in with %1$s</string>
+
+    <!-- operator settings -->
+    <string name="operator_open">Operator settings</string>
+    <string name="operator_title_github">GitHub OAuth app (for operators)</string>
+    <string name="operator_title_google">Google OAuth client (for operators)</string>
+    <string name="operator_secret_github" translatable="false">Client secret</string>
+    <string name="operator_secret_google" translatable="false">Client secret (GOCSPX-…)</string>
+    <string name="operator_secret_saved">%1$s saved · type to change</string>
+    <string name="operator_note">Everyone signs in through this app. The secret is encrypted on this server only, and other people\'s Kelo just asks this server to issue tokens.</string>
+    <string name="operator_callback_github">Authorization callback URL: %1$s</string>
+    <string name="operator_callback_google">Authorized redirect URI: %1$s</string>
+    <string name="operator_saved">Saved ✓</string>
+    <string name="operator_broker_on">✓ This server is relaying sign-ins.</string>
+    <string name="operator_broker_off">Not relaying yet. It starts once you enter both the Client ID and secret.</string>
+    <!-- my page -->
+    <string name="my_privacy_title">Where your data lives</string>
+    <string name="my_name_missing">Set your name</string>
+    <string name="my_services">Connected services</string>
+    <string name="my_section_security">Security</string>
+    <string name="my_section_app">App</string>
+    <string name="my_section_data">Data</string>
+    <string name="my_vault_check">Needs a look</string>
+    <string name="my_vault_locked">Locked</string>
+    <string name="my_language">Language</string>
+    <string name="my_clear_chat">Delete chat history</string>
+    <string name="my_clear_chat_confirm">Along with the chat, this deletes task records, approval history, notifications, day summaries and browser screen history, and stops any work in progress. What Kelo remembers about you, goals, files, schedules, connectors and the Keychain stay. This can\'t be undone.</string>
+    <string name="my_clear_chat_done">Chat history deleted.</string>
+    <string name="my_version">App version: %1$s</string>
+    <string name="my_server_version">Server version: %1$s</string>
+    <string name="my_logout">Log out</string>
+    <string name="my_logout_confirm">Log out on this phone? To use it again, you\'ll need to connect to the server from scratch.</string>
+    <string name="count_items">%1$d</string>
+    <string name="count_devices">%1$d</string>
+    <string name="refresh">Refresh</string>
+    <string name="saved_check">Saved ✓</string>
+
+    <!-- numbers and times -->
+    <string name="size_gb">%1$sGB</string>
+    <string name="size_mb">%1$sMB</string>
+    <string name="size_kb">%1$sKB</string>
+    <string name="date_short_pattern" translatable="false">M/d</string>
+    <string name="date_time_pattern" translatable="false">M/d HH:mm</string>
+    <string name="ago_now">Just now</string>
+    <string name="ago_minutes">%1$d min ago</string>
+    <string name="ago_hours">%1$d hr ago</string>
+    <string name="ago_days">%1$dd ago</string>
+
+    <!-- usage -->
+    <string name="usage_title">Usage</string>
+    <string name="usage_label_session">Current session</string>
+    <string name="usage_label_week">This week</string>
+    <string name="usage_label_all_models">All models</string>
+    <string name="usage_label_weekly">Weekly limit</string>
+    <string name="usage_label_five_hour">5-hour limit</string>
+    <string name="usage_group_models">%1$s models</string>
+    <string name="usage_group_joiner" translatable="false">" · "</string>
+    <string name="usage_in_use">Model in use</string>
+    <string name="usage_used">%1$d%% used</string>
+    <string name="usage_one_line_part">%1$s %2$d%% used</string>
+    <string name="usage_left">%1$d%% left</string>
+    <string name="usage_left_and_reset">%1$s · %2$s</string>
+    <string name="usage_resets">Resets %1$s</string>
+    <string name="usage_no_limits_app_tokens">Your model provider doesn\'t share limit info. These are the tokens used in this app.</string>
+    <string name="usage_today">Today</string>
+    <string name="usage_total">All time</string>
+    <string name="usage_days">%1$d days</string>
+    <string name="usage_replies">%1$d replies</string>
+    <string name="usage_cache_left_out">Re-reading the earlier conversation (%1$s tokens) is left out</string>
+    <string name="usage_models_caption">By model · share of %1$s</string>
+    <string name="usage_models_others">%1$d others</string>
+    <string name="usage_models_empty">No model was used in this period</string>
+    <string name="usage_models_failed">The usage could not be loaded</string>
+    <string name="usage_limits_current">Model in use · %1$s</string>
+    <string name="usage_limits_more">Other subscriptions and accounts (%1$d)</string>
+    <string name="usage_limits_fold">Fold</string>
+    <string name="usage_role_background">Background jobs</string>
+    <string name="usage_role_fallback">Fallback model</string>
+
+    <!-- privacy -->
+    <string name="privacy_title">Privacy</string>
+    <string-array name="privacy_titles">
+        <item>Passwords and keys stay on your own server</item>
+        <item>Your agent can\'t see the values</item>
+        <item>Chats and files stay on your server too</item>
+        <item>Important things get asked first</item>
+        <item>Disconnect each device on its own</item>
+        <item>Your agent can only do certain things</item>
+    </string-array>
+    <string-array name="privacy_bodies">
+        <item>Website logins and API keys are encrypted with AES-256 and stored only on the Kelo server you run. They never go to kelo.chat or the developer. Each one is tied to the sites it\'s allowed on, so it can\'t be used anywhere else. Values are never shown again, not on screen and not to your agent.</item>
+        <item>Passwords never go into Chat, only into the Keychain\'s own input field. Your agent only knows that one exists, and the server types it in for the site you registered. Every use is recorded in the usage log, which your agent can\'t read or erase.</item>
+        <item>Your chat history, uploaded documents and notes are stored on the computer the Kelo server runs on. What you send in a chat does go to the AI service you picked (your model provider).</item>
+        <item>By default, your agent asks for approval before clicking or typing on the web, writing to connected services, or doing anything that costs money (such as making images).</item>
+        <item>In My devices, you can disconnect each phone separately. Disconnecting one leaves the rest as they are.</item>
+        <item>Your agent can\'t run commands on the Kelo server. It only handles files and the web through set tools, and can only open public web addresses.</item>
+    </string-array>
+
+    <!-- profile -->
+    <string name="profile_title">My account</string>
+    <string name="profile_user_name">Your name</string>
+    <string name="profile_agent_name">Agent name</string>
+
+    <!-- model page -->
+    <string name="model_title">Model</string>
+    <string name="model_first_title">Choose the AI model to use</string>
+    <string name="model_first_body">Kelo needs an AI model and its key before it can answer. You can change it later.</string>
+    <string name="model_first_button">Choose a model</string>
+    <string name="model_cli_installing">Installing… (can take a few minutes)</string>
+    <string name="model_cli_unreachable">Can\'t reach the CLI container</string>
+    <string name="model_cli_not_installed">The CLI isn\'t installed</string>
+    <string name="model_cli_login_needed">The CLI is installed but needs you to sign in</string>
+    <string name="model_cli_ok_remote">✓ CLI container running · Signed in</string>
+    <string name="model_cli_ok_local">✓ CLI installed · Signed in</string>
+    <string name="model_cli_ok_unknown">✓ CLI installed · Can\'t check sign-in status</string>
+    <string name="model_cli_install">Install</string>
+    <string name="model_cli_installed_msg">Installed</string>
+    <string name="model_cli_version">Version %1$s</string>
+    <string name="model_cli_install_confirm">The %1$s CLI isn\'t installed on your server.\n\nInstall it now?\n\nThis downloads Google\'s install script (antigravity.google/cli/install.sh), runs it with the server user\'s permissions, and installs to ~/.local/bin. At the end the script also runs `agy install`, which may change your shell settings.</string>
+    <string name="model_key_in_app">API key set (····%1$s)</string>
+    <string name="model_key_set">API key set</string>
+    <string name="model_key_optional">API key (if needed)</string>
+    <!-- an OpenAI-compatible server's address (custom, LM Studio) -->
+    <string name="model_url_label">Server address</string>
+    <string name="model_url_placeholder" translatable="false">http://192.168.0.10:3001/v1</string>
+    <string name="model_url_help">Enter the address of a server with an OpenAI-compatible API, like FreeLLMAPI, Ollama, LM Studio or vLLM.</string>
+    <string name="model_url_set">Address: %1$s</string>
+    <string name="model_url_change">Change</string>
+    <string name="model_url_empty">Please enter an address.</string>
+    <string name="model_url_spaces">The address can\'t contain spaces.</string>
+    <string name="model_url_scheme">The address must start with http:// or https://.</string>
+    <string name="model_url_host">The address needs a server name or IP.</string>
+    <string name="model_key_env">API key · Using the server\'s .env</string>
+    <string name="model_key_none">API key · Not set yet</string>
+    <string name="model_key_replace">Replace with a new key</string>
+    <string name="model_key_paste">Paste API key</string>
+    <string name="model_key_delete">Delete saved key</string>
+    <string name="model_key_delete_confirm">Delete the saved API key?</string>
+    <string name="model_signin_account">Connected account: %1$s</string>
+    <string name="model_signin_connected">Signed in on this server</string>
+    <!-- signing a provider in from the phone (chat/SignIn.kt) -->
+    <string name="signin_button">Sign in</string>
+    <string name="signin_starting">Getting the sign-in page…</string>
+    <string name="signin_intro">Sign in to %1$s on its own page in your browser. No terminal is needed.</string>
+    <string name="signin_this_service">this service</string>
+    <string name="signin_step_open">1. Open the %1$s sign-in page and sign in</string>
+    <string name="signin_open_browser">Open in browser</string>
+    <string name="signin_step_code">2. Check that the page shows this code, or type it there</string>
+    <string name="signin_device_wait">Once you approve it on the page, this changes by itself. · Time left %1$s</string>
+    <string name="signin_check_now">I approved it, check now</string>
+    <string name="signin_step_paste">2. When you finish, the page shows a code. Copy it and paste it here</string>
+    <string name="signin_paste_placeholder">Code (or the page address)</string>
+    <string name="signin_paste">Paste</string>
+    <string name="signin_finish">Confirm</string>
+    <string name="signin_checking">Checking…</string>
+    <string name="signin_paste_help">Pasting the whole address of the last page works too. · Time left %1$s</string>
+    <string name="signin_done">Signed in</string>
+    <string name="signin_done_account">Signed in: %1$s</string>
+    <string name="signin_ended">This sign-in has ended. Start again.</string>
+    <string name="signin_again">Start again</string>
+    <string name="signin_failed">Couldn\'t sign in. Try again in a moment.</string>
+    <string name="signin_already">Already signed in.</string>
+    <string name="model_signout">Sign out</string>
+    <string name="model_signout_confirm">Sign out of %1$s? The sign-in info saved on this server will be erased, and you\'ll need to sign in again to use it.</string>
+    <string name="model_signout_busy">Signing out…</string>
+    <string name="model_signout_main">Your main model is answering with this sign-in right now, so you can\'t sign out. Switch your main model to another service and save first.</string>
+    <string name="model_signout_done">Signed out</string>
+    <string name="model_signout_fallback_cleared">Signed out. The fallback model set to this service has been cleared too.</string>
+    <string name="model_signout_env_left">Signed out, but the token in your server\'s settings file can\'t be removed from here. Please remove it on the server.</string>
+    <string name="model_signout_failed">Couldn\'t sign out. %1$s</string>
+    <string name="model_oauth_login_needed">Sign-in needed: on the server, %1$s</string>
+    <string name="model_server_default_note">If you don\'t pick a provider, Kelo uses the model set in the server\'s settings.</string>
+    <string name="model_fallback_help">If the model above fails before answering (limit reached, server error and so on), this model automatically tries again.</string>
+
+    <!-- documents -->
+    <string name="docs_title">My documents</string>
+    <string name="docs_upload">+ Upload a file</string>
+    <string name="docs_uploading">Uploading…</string>
+    <string name="docs_hint">PDF, Word, Excel, photos, videos and audio · up to 100 MB each. Your agent can read documents and look at photos.</string>
+    <string name="docs_uploaded">Uploaded</string>
+    <string name="docs_read_failed">Couldn\'t read the file.</string>
+    <string name="docs_empty">Nothing uploaded yet.</string>
+    <string name="docs_size_day">%1$s · %2$s</string>
+    <string name="docs_download">Download original</string>
+    <string name="docs_saved">Saved ✓</string>
+    <string name="docs_save_failed">Couldn\'t save the file.</string>
+    <string name="docs_reading">Reading the document… (big ones take a few seconds)</string>
+    <string name="docs_upload_progress">Uploading %1$s of %2$s (%3$d%%)</string>
+    <string name="docs_media">Photos and videos</string>
+    <string name="docs_files">Files</string>
+    <string name="docs_play_failed">This file can\'t be played.</string>
+    <string name="docs_delete_media_confirm">Delete this file?</string>
+    <string name="docs_saving">Saving…</string>
+    <string name="docs_delete_confirm">Delete this document and the text read from it?</string>
+
+    <!-- devices -->
+    <string name="devices_title">My devices</string>
+    <string name="devices_intro">Connect as many devices as you like. They all share the same chats and settings. You can disconnect each one separately, so if you lose a phone, the rest keep working.</string>
+    <string name="devices_empty">No devices connected this way yet.</string>
+    <string name="devices_this_one">%1$s · This device</string>
+    <string name="devices_meta">Connected %1$s · Last used %2$s</string>
+    <string name="devices_owner_badge">Operator</string>
+    <string name="devices_never_used">Not used yet</string>
+    <string name="devices_remove_confirm">Disconnect “%1$s”?</string>
+    <string name="devices_add">Connect a new device</string>
+    <string name="devices_qr_label">Device connection QR code</string>
+    <string name="devices_qr_help">Scan with the new phone\'s camera. It works once and disappears in %1$d min %2$d sec.</string>
+    <string name="devices_copy">Copy link</string>
+    <string name="devices_copied">Copied ✓</string>
+    <string name="devices_share">Share</string>
+    <string name="devices_share_title">Device connection link</string>
+    <string name="devices_insecure">This address isn\'t https, so the new device may not be able to install it as an app. Create the link from an address connected through Tailscale or Cloudflare.</string>
+    <string name="devices_no_link">The server couldn\'t create a connection link.</string>
+
+    <!-- computer resources -->
+    <string name="resources_title">Kelo server resources</string>
+    <string name="resources_recommended">Recommended</string>
+    <string name="resources_minimum">Minimum</string>
+    <string name="resources_unlimited">Whole server</string>
+    <string name="resources_unlimited_long">Use the whole Kelo server</string>
+    <string name="resources_custom">Custom</string>
+    <string name="resources_ram">Memory (RAM) %1$s%2$s</string>
+    <string name="resources_used">%1$s used</string>
+    <string name="resources_limit">" · limit %1$s"</string>
+    <string name="resources_whole_computer">" · whole server %1$s"</string>
+    <string name="resources_disk_with_free">" · up to %1$s including the server\'s free space"</string>
+    <string name="resources_disk">Storage %1$s used%2$s</string>
+    <string name="resources_cpu_whole">Processing (CPU) whole server</string>
+    <string name="resources_cpu_max">Processing (CPU) up to %1$s cores</string>
+    <string name="resources_cpu_all">Processing (CPU) all %1$s cores of the server</string>
+    <string name="resources_count">%1$s</string>
+    <string name="resources_hint">Minimum %1$s · Recommended %2$s</string>
+    <string name="resources_under_min">Below minimum · %1$s</string>
+    <string name="resources_part">%1$s %2$s</string>
+    <string name="resources_part_database">Chat history</string>
+    <string name="resources_part_uploads">Uploaded documents</string>
+    <string name="resources_part_images">Images</string>
+    <string name="resources_part_notes">Notes</string>
+    <string name="resources_part_history">Backups</string>
+    <string name="resources_part_other">Other</string>
+    <string name="resources_empty">Empty</string>
+    <!-- 마이 → Kelo 서버 자원: the numbers could not be read (offline, an error, or a server answer this app cannot read); a "Try again" button follows -->
+    <string name="resources_load_failed">Couldn\'t load the server\'s resources.</string>
+    <string name="resources_full">Storage is almost full. Deleting uploads frees up space. Once it\'s full, new files can\'t be saved (chats keep working).</string>
+    <string name="resources_unknown" translatable="false">\?</string>
+    <!-- %%1$s stays as the place of the command, shown as code -->
+    <string name="resources_host">Kelo server: RAM %1$s · %2$s CPU cores · %3$s disk free. Anything you don\'t set uses as much as the server allows. Change the limits with %%1$s on the computer the server runs on.</string>
+
+    <!-- secure vault -->
+    <string name="vault_title">Keychain</string>
+    <string name="vault_safe_title">Everything\'s stored safely</string>
+    <string name="vault_locked_title">Locked for your agent</string>
+    <string name="vault_lock">Lock for agent</string>
+    <string name="vault_unlock">Unlock</string>
+    <string name="vault_safe_body">Passwords and keys are stored encrypted, and your agent never sees the values. Every time your agent uses one, it\'s recorded in the usage log.</string>
+    <string name="vault_locked_body">Right now your agent can\'t use anything in the Keychain.</string>
+    <string name="vault_logins">Website logins</string>
+    <string name="vault_add_login">Add a website login</string>
+    <string name="vault_mailboxes">Email accounts</string>
+    <string name="vault_keys">Service keys</string>
+    <string name="vault_keys_help">Keys your agent needs for services you connected by signing in on the Connectors tab, and for outside services like image making or voice. When your agent calls one of them, the app attaches the key for it, so your agent never sees the key.</string>
+    <string name="vault_ai_keys">AI model keys</string>
+    <string name="vault_key_hint">····%1$s</string>
+    <string name="vault_stored">Saved</string>
+    <string name="vault_records">Records</string>
+    <string name="vault_log">Usage log</string>
+    <string name="vault_status_login_failed">⚠ Login failed</string>
+    <string name="vault_status_key_rejected">⚠ Key rejected</string>
+    <string name="vault_status_ok">✓ %1$s</string>
+    <string name="vault_never">Not yet</string>
+    <string name="vault_kind_login">Website login</string>
+    <string name="vault_kind_email">Email account</string>
+    <string name="vault_kind_signed_in">Service connected by signing in</string>
+    <string name="vault_kind_key">Service key</string>
+    <!-- %%1$s stays as the place of the hosts, shown as code -->
+    <string name="vault_kind_hosts">%1$s · %%1$s</string>
+    <string name="vault_saved_ok">Saved ✓</string>
+    <string name="vault_saved_plain">Saved</string>
+    <string name="vault_join">%1$s · %2$s</string>
+    <string name="vault_not_entered">Not entered yet</string>
+    <string name="vault_last_used">Last used %1$s</string>
+    <string name="vault_place">Key goes in %1$s</string>
+    <string name="vault_place_header_named">Header %1$s</string>
+    <string name="vault_place_query_named">Query %1$s</string>
+    <string name="vault_place_bearer" translatable="false">Authorization: Bearer</string>
+    <string name="vault_place_header">Custom header</string>
+    <string name="vault_place_query">Query parameter</string>
+    <string name="vault_place_path">URL path</string>
+    <string name="vault_mcp">MCP %1$s</string>
+    <string name="vault_item_locked">The Keychain is locked, so your agent can\'t use this.</string>
+    <string name="vault_verifying">Your agent will actually try signing in with this login, and it\'s saved only if that works.</string>
+    <string name="vault_result_ok">Last use worked ✓</string>
+    <string name="vault_result_failed">The last login failed</string>
+    <string name="vault_result_rejected">The service rejected the key</string>
+    <string name="vault_result_code_needed">The site asked for a verification code</string>
+    <string name="vault_result_blocked">A robot check is blocking it</string>
+    <string name="vault_result_unknown">Couldn\'t tell for sure how it went</string>
+    <string name="vault_not_used_yet">Not used yet. You\'ll know if it\'s wrong the first time it\'s used.</string>
+    <string name="vault_bad_login">Trying the same wrong password again and again can lock the account, so your agent won\'t retry. Re-enter it below, or if you\'re sure it\'s right, let it try again.</string>
+    <string name="vault_bad_key">The key may be wrong or expired. Please enter it again below.</string>
+    <string name="vault_try_again">Let it try again anyway</string>
+    <string name="vault_when_login">When signing in</string>
+    <string name="vault_ask_every_time">Ask every time</string>
+    <string name="vault_without_asking">Don\'t ask</string>
+    <string name="vault_auto_allow_on">Your agent signs in right away on this site\'s login page. This setting can only be changed here.</string>
+    <string name="vault_auto_allow_off">Every time your agent wants to sign in, it shows you which site it\'s typing into and asks for approval.</string>
+    <string name="vault_mail_codes_title">Use codes from my mail automatically</string>
+    <string name="vault_mail_codes_on">When your agent signs in to a site for you and that site emails a code, your agent types it in without asking. Only mail from that site, received in the last few minutes, is used.</string>
+    <string name="vault_mail_codes_off">When a site emails a sign-in code, your agent shows it to you and types it only after you allow it.</string>
+    <string name="vault_disconnected">"Disconnected. "</string>
+    <string name="vault_reconnect_in_connectors">To reconnect or change it, go to the Connectors tab.</string>
+    <string name="vault_change_login">Change username and password</string>
+    <string name="vault_change_key">Change key</string>
+    <string name="vault_remove">Remove from Keychain</string>
+    <string name="vault_remove_confirm">Remove “%1$s” from the Keychain? Its saved value will be deleted too.</string>
+    <string name="vault_login_site">Login page address</string>
+    <string name="vault_login_site_placeholder" translatable="false">https://github.com/login</string>
+    <string name="vault_login_name">Name (optional)</string>
+    <string name="vault_login_name_placeholder" translatable="false">GitHub</string>
+    <string name="vault_login_site_help">It can only be used on this site (https). You\'ll enter the username and password securely on the next screen.</string>
+    <string name="vault_ai_key_title">API keys for AI models</string>
+    <string name="vault_ai_key_saved">Saved in the app ✓</string>
+    <string name="vault_ai_key_saved_hint">Saved in the app ✓ · ····%1$s</string>
+    <string name="vault_ai_key_note">Only used when this service is answering. The key value is never shown to your agent or on screen.</string>
+    <string name="vault_ai_key_delete_confirm">Delete the %1$s key? The saved value will be erased and this service won\'t be able to answer anymore.</string>
+    <string name="vault_ai_model_choice">Pick which model answers in Model settings.</string>
+    <string name="vault_log_help">Everything that happened in the Keychain. Both what your agent used and what you did are recorded, and your agent can\'t read or erase this log.</string>
+    <string name="vault_log_empty">Nothing recorded yet.</string>
+    <string name="vault_action_used">Used</string>
+    <string name="vault_action_denied">Denied</string>
+    <string name="vault_action_requested">Requested</string>
+    <string name="vault_action_added">Added</string>
+    <string name="vault_action_saved">Saved</string>
+    <string name="vault_action_replaced">Replaced</string>
+    <string name="vault_action_entered_once">Entered</string>
+    <string name="vault_action_deleted">Deleted</string>
+    <string name="vault_action_setting">Setting</string>
+    <string name="vault_action_locked">Locked</string>
+    <string name="vault_action_unlocked">Unlocked</string>
+    <string name="vault_action_result">Result</string>
+    <string name="vault_action_failed">Failed</string>
+    <string name="vault_action_rejected">Key rejected</string>
+    <string name="vault_action_cancelled">Canceled</string>
+    <string name="vault_action_code_typed">Sign-in code typed from mail</string>
+    <!-- motion & feedback (v3) -->
+    <string name="undo">Undo</string>
+    <string name="chat_jump_latest">Jump to latest message</string>
+    <string name="chat_jump_latest_new">New reply. Jump to latest message</string>
+    <string name="chat_vault_done">Added to the Keychain and told your agent</string>
+    <string name="chat_connect_done">Connected and told your agent</string>
+    <string name="chat_card_cancelled">Canceled</string>
+    <string name="chat_card_expired">Replaced by a newer request</string>
+    <string name="share_unsupported">Can\'t send %1$s files. Only PDF, Word and Excel documents can go to your agent.</string>
+    <string name="share_failed">Couldn\'t read the shared file.</string>
+    <string name="share_label">Send to Kelo</string>
+    <string name="goals_removed">Deleted the goal “%1$s”</string>
+    <string name="vault_gate_title">Open Keychain</string>
+    <string name="vault_gate_subtitle">Let\'s make sure it\'s you</string>
+    <string name="vault_gate_no_lock">This device has no screen lock, so it opened without checking. Turn on a screen lock in Settings and you\'ll be checked every time you open the Keychain.</string>
+    <!-- wallet: 마이 → 결제 카드 (v6) -->
+    <string name="wallet_title">Payment cards</string>
+    <string name="wallet_gate_title">Open payment cards</string>
+    <string name="wallet_safe_title">How your cards are protected</string>
+    <string name="wallet_safe_body">Card numbers and CVCs are locked with a key only this phone has before they go to the server. Neither the server nor your agent can read them, and every payment is confirmed on this phone with your fingerprint or screen lock.</string>
+    <string name="wallet_relock_note">It locks again if you switch to another app or don\'t tap anything for 2 minutes.</string>
+    <string name="wallet_paused_banner">Auto-pay is paused. Every payment will be asked on this phone.</string>
+    <string name="wallet_no_cards">No cards added yet.</string>
+    <string name="wallet_add_title">Add a card</string>
+    <string name="wallet_auto_section">Auto-pay</string>
+    <string name="wallet_limits_title">Auto-pay limits</string>
+    <string name="wallet_auto_paused_value">Paused</string>
+    <string name="wallet_history_title">Payment history</string>
+    <plurals name="wallet_card_count">
+        <item quantity="one">%1$d card</item>
+        <item quantity="other">%1$d cards</item>
+    </plurals>
+    <plurals name="wallet_notices_title">
+        <item quantity="one">%1$d new auto-payment</item>
+        <item quantity="other">%1$d new auto-payments</item>
+    </plurals>
+    <!-- site · amount · card · when -->
+    <string name="wallet_notice_line">%1$s · %2$s · %3$s · %4$s</string>
+    <string name="wallet_card_meta">Expires %1$s · Last used %2$s</string>
+    <string name="wallet_card_masked">•••• %1$s</string>
+    <string name="wallet_card_dates">Added %1$s · Last used %2$s</string>
+    <string name="wallet_tag_auto">Auto-pay</string>
+    <string name="wallet_tag_ready">Ready on this phone</string>
+    <string name="wallet_tag_expired">Expired</string>
+    <string name="wallet_tag_not_here">Not usable on this phone</string>
+    <string name="wallet_tag_unfinished">Needs details</string>
+    <string name="wallet_tag_auto_only">Auto-pay only</string>
+    <string name="wallet_not_here_body">This card can\'t be used on this device. It was added on another phone, or this phone\'s key changed. Re-enter the card number and CVC to use it here again.</string>
+    <string name="wallet_auto_only_body">This phone doesn\'t have a copy of this card, so right now it can only pay through auto-pay. Re-enter the card details before you turn auto-pay off.</string>
+    <string name="wallet_expired_body">This card has expired. Please add your new card.</string>
+    <string name="wallet_auto_title">Auto-pay</string>
+    <string name="wallet_auto_on_body">Within your limits and on sites you\'ve paid before, it pays without asking. The server keeps a locked copy of this card, and only this phone can unlock it.</string>
+    <string name="wallet_auto_off_body">Every payment needs your OK on this phone, confirmed with your fingerprint or screen lock. The server can\'t read the card number.</string>
+    <string name="wallet_auto_off_confirm">Turn off auto-pay? The copy on the server is deleted right away, and from now on every payment is confirmed on this phone.</string>
+    <string name="wallet_auto_off_confirm_unusable">Turn off auto-pay? This phone doesn\'t have a copy of this card, so once it\'s off you can\'t pay with it until you re-enter the card details.</string>
+    <string name="wallet_auto_turn_off">Turn off auto-pay</string>
+    <string name="wallet_auto_turn_on">Turn on auto-pay</string>
+    <string name="wallet_rename_hint">e.g. Everyday card</string>
+    <string name="wallet_rename_note">Your agent only knows this name and the last 4 digits.</string>
+    <string name="wallet_rename_no_digits">The name can\'t include the card number.</string>
+    <string name="wallet_delete">Delete card</string>
+    <string name="wallet_delete_confirm">Delete the %1$s card? It\'ll be removed from both this phone and the server.</string>
+    <!-- add / re-enter -->
+    <string name="wallet_field_holder">Cardholder name</string>
+    <string name="wallet_field_holder_hint">Name on the card</string>
+    <string name="wallet_field_number">Card number</string>
+    <string name="wallet_field_number_hint">0000 0000 0000 0000</string>
+    <string name="wallet_field_number_ending">Number ending in %1$s</string>
+    <string name="wallet_field_expiry">Expiry date</string>
+    <string name="wallet_field_expiry_hint">MM/YY</string>
+    <string name="wallet_field_cvc">CVC</string>
+    <string name="wallet_field_cvc_hint3">3 digits on the back</string>
+    <string name="wallet_field_cvc_hint4">4 digits on the front</string>
+    <string name="wallet_field_postal">Postal code</string>
+    <string name="wallet_field_postal_hint">Billing postal code (optional)</string>
+    <string name="wallet_number_invalid">That card number doesn\'t look right. Please check it again.</string>
+    <string name="wallet_number_other_card">That\'s not this card\'s number. Enter the number ending in %1$s.</string>
+    <string name="wallet_expiry_bad_month">The month must be 01 to 12.</string>
+    <string name="wallet_expiry_expired">This card has expired.</string>
+    <string name="wallet_expiry_too_far">Please check the expiry date again.</string>
+    <string name="wallet_save">Save</string>
+    <string name="wallet_saving">Saving…</string>
+    <string name="wallet_save_cancelled">Verification wasn\'t finished, so nothing was saved.</string>
+    <string name="wallet_save_no_lock">Turn on a screen lock (PIN, pattern or fingerprint) to add a card.</string>
+    <string name="wallet_save_key_lost">This phone\'s key can\'t be used anymore. Please try once more.</string>
+    <string name="wallet_save_failed">Couldn\'t save: %1$s</string>
+    <string name="wallet_save_server">Couldn\'t reach the server, so nothing was saved. Please try again.</string>
+    <string name="wallet_reenter_title">Re-enter card details</string>
+    <string name="wallet_reenter_body">Re-enter the number and CVC for %1$s and they\'ll be locked again with this phone\'s key.</string>
+    <string name="wallet_reenter_auto_title">Turn on auto-pay</string>
+    <string name="wallet_reenter_auto_body">To turn on auto-pay, enter the number and CVC for %1$s once more. The server keeps a locked copy for auto-pay, and only your phone can unlock it.</string>
+    <string name="wallet_auth_save_title">Lock card</string>
+    <string name="wallet_auth_save_subtitle">Confirm it\'s you, then it\'s locked with this phone\'s key</string>
+    <string name="wallet_auth_pay_title">Send card for payment</string>
+    <string name="wallet_auth_pay_subtitle">Once you confirm, card details are sent once, for this payment only</string>
+    <!-- limits -->
+    <string name="wallet_pause_title">Pause auto-pay</string>
+    <string name="wallet_pause_on_body">Paused. Every payment will be asked on this phone.</string>
+    <string name="wallet_pause_off_body">When on, every payment is asked on this phone, whatever the limits.</string>
+    <string name="wallet_limits_help">Cards with auto-pay on pay without asking only within the limits below, and only on sites you\'ve paid before.</string>
+    <string name="wallet_limits_month">Based on %1$s (%2$s)</string>
+    <string name="wallet_limits_add">Add another currency</string>
+    <string name="wallet_limit_default">Default</string>
+    <string name="wallet_limit_custom">Custom</string>
+    <string name="wallet_limit_added">Added currency</string>
+    <string name="wallet_limit_line">Per payment %1$s · Monthly %2$s</string>
+    <string name="wallet_limit_spent">Auto-paid this month: %1$s</string>
+    <string name="wallet_limit_never">No auto-pay in this currency.</string>
+    <string name="wallet_limit_per">Per-payment limit (%1$s)</string>
+    <string name="wallet_limit_month">Monthly limit (%1$s)</string>
+    <string name="wallet_limit_bad_number">Please enter a number.</string>
+    <string name="wallet_limit_per_above">The per-payment limit can\'t be higher than the monthly limit.</string>
+    <string name="wallet_limit_zero_note">Leave it at 0 to turn off auto-pay in this currency.</string>
+    <string name="wallet_limit_default_line">Default: per payment %1$s · monthly %2$s</string>
+    <string name="wallet_limit_reset">Reset to default</string>
+    <string name="wallet_limit_remove">Remove this currency</string>
+    <string name="wallet_currency_hint">Currency code (e.g. USD)</string>
+    <string name="wallet_currency_add">Add</string>
+    <!-- amounts: number, then ISO code -->
+    <string name="wallet_money">%1$s %2$s</string>
+    <string name="wallet_money_krw">₩%1$s</string>
+    <!-- history -->
+    <string name="wallet_history_empty">No payments yet.</string>
+    <string name="wallet_kind_auto">Auto-pay</string>
+    <string name="wallet_kind_approved">Approved by you</string>
+    <string name="wallet_history_meta">%1$s · %2$s</string>
+    <plurals name="count_new">
+        <item quantity="one">%1$d new item</item>
+        <item quantity="other">%1$d new items</item>
+    </plurals>
+    <string name="count_badge_max">99+</string>
+    <!-- risk notices: shown with a checkbox each time (the accepted version is kept on the phone, WalletConsent) -->
+    <string name="wallet_card_notice">Card details are encrypted and kept only on your own server. Kelo asks you before paying and sticks to the limits you set. Since you manage the server and the AI services connected to it yourself, Kelo isn\'t responsible for problems that come from how they\'re managed.</string>
+    <string name="wallet_notice_agree">Got it</string>
+    <string name="wallet_auto_confirm_title">Turn on auto-pay?</string>
+    <string name="wallet_auto_notice">With auto-pay on, payments within your limits go through right away, and you\'re told about each one. You can turn it off anytime. Managing the server and AI services is up to you, so Kelo isn\'t responsible for problems that come from them.</string>
+    <string name="wallet_auto_confirm_yes">Turn on</string>
+    <string name="wallet_auto_tip">For auto-pay, a card with a low limit is a good idea.</string>
+    <!-- purchases in the chat (v6) -->
+    <string name="chat_browser_title">Browser</string>
+    <string name="chat_browser_view">View larger</string>
+    <string name="chat_purchase_question">Pay for this?</string>
+    <string name="chat_purchase_not_auto">Why it wasn\'t auto-paid: %1$s</string>
+    <string name="chat_purchase_needs_card">If you approve, you\'ll confirm with your fingerprint or screen lock, and this phone sends the card details once, for this payment only.</string>
+    <string name="chat_card_sending">Verifying…</string>
+    <string name="chat_card_sending_hint">Card details are sent once you\'ve confirmed it\'s you.</string>
+    <string name="chat_card_sent">Card sent · %1$s</string>
+    <string name="chat_card_needed_title">Card details are needed to pay</string>
+    <string name="chat_card_needed_body">%1$s · %2$s · %3$s</string>
+    <string name="chat_card_needed_left">If you don\'t send it within %1$s, the payment won\'t go through.</string>
+    <string name="chat_card_needed_send">Verify and send card</string>
+    <string name="chat_card_needed_over">Time ran out, so nothing was paid · %1$s</string>
+    <string name="chat_card_error_not_waiting">This payment already finished or timed out. Nothing was paid.</string>
+    <string name="chat_card_error_mismatch">The server didn\'t accept the card details. Re-enter them in Payment cards. Nothing was paid.</string>
+    <string name="chat_card_error_not_on_phone">This card can\'t be used on this device. Re-enter the card details in Payment cards. Nothing was paid.</string>
+    <string name="chat_card_error_no_lock">This phone has no screen lock, so the card can\'t be opened. Nothing was paid.</string>
+    <string name="chat_card_error_cancelled">Verification wasn\'t finished, so nothing was paid. You can approve again or decline.</string>
+    <string name="chat_card_error_cancelled_retry">Verification wasn\'t finished, so the card details weren\'t sent. You can still send them in time.</string>
+    <string name="chat_card_error_network">The connection dropped and the card details weren\'t sent. Please try again.</string>
+    <string name="chat_card_error_other">Couldn\'t send the card details. Nothing was paid.</string>
+    <string name="chat_payment_auto">Auto-paid · %1$s · %2$s · %3$s</string>
+    <string name="chat_payment_auto_no_card">Auto-paid · %1$s · %2$s</string>
+
+    <!-- the agent screen (opened from the avatar and name in the header) -->
+    <string name="ok">OK</string>
+    <string name="open_settings">Open settings</string>
+    <string name="agent_open">Open agent settings</string>
+    <string name="agent_news">Something new</string>
+    <string name="agent_idle">Taking a break right now</string>
+    <string name="agent_avatar_pick">Choose a photo</string>
+    <string name="agent_avatar_remove">Remove photo</string>
+    <string name="agent_avatar_remove_confirm">Remove the photo and go back to the Kelo character?</string>
+    <string name="agent_avatar_remove_yes">Remove</string>
+    <string name="agent_avatar_failed">Couldn\'t change the photo. Please try again in a moment.</string>
+    <string name="agent_avatar_too_large">That photo\'s too big. Please pick one under 2MB.</string>
+    <string name="agent_rename_title">New name</string>
+    <string name="agent_rename_placeholder">e.g. Sunny</string>
+    <!-- the five tabs (icons; these are their names for screen readers and the title under them) -->
+    <string name="agent_tab_permissions">Permissions</string>
+    <string name="agent_tab_browser">Browser</string>
+    <string name="agent_error_detail">%1$s</string>
+    <string name="agent_more">More</string>
+    <string name="agent_list_separator">", "</string>
+    <!-- days and times; %1$s = a date like "11월 8일 (일)", %2$s = a time like "오전 9:00" -->
+    <string name="agent_today">Today</string>
+    <string name="agent_yesterday">Yesterday</string>
+    <string name="agent_day_unknown">No date</string>
+    <string name="agent_day_time">%1$s %2$s</string>
+    <string name="agent_rel_now">Just now</string>
+    <string name="agent_rel_soon">Soon</string>
+    <plurals name="agent_rel_minutes_future">
+        <item quantity="one">in %d minute</item>
+        <item quantity="other">in %d minutes</item>
+    </plurals>
+    <plurals name="agent_rel_minutes_past">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+    <plurals name="agent_rel_hours_future">
+        <item quantity="one">in %d hour</item>
+        <item quantity="other">in %d hours</item>
+    </plurals>
+    <plurals name="agent_rel_hours_past">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+    <plurals name="agent_rel_days_future">
+        <item quantity="one">in %d day</item>
+        <item quantity="other">in %d days</item>
+    </plurals>
+    <plurals name="agent_rel_days_past">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <!-- 활동 -->
+    <string name="agent_activity_empty">Nothing finished yet. Try asking for something in Chat.</string>
+    <string name="agent_status_running">Working</string>
+    <string name="agent_status_waiting">Waiting for you</string>
+    <string name="agent_status_done">Done</string>
+    <string name="agent_status_failed">Didn\'t work</string>
+    <string name="agent_status_stopped">Stopped</string>
+    <string name="agent_status_missed">Skipped</string>
+    <string name="agent_status_waiting_model">Waiting for the AI model</string>
+    <string name="agent_task_untitled">Untitled task</string>
+    <string name="agent_source_schedule">Scheduled task</string>
+    <string name="agent_source_background">Background task</string>
+    <string name="agent_task_stop">Stop</string>
+    <string name="agent_task_stop_confirm">Stop this task here?</string>
+    <string name="agent_task_stopped">Stopped.</string>
+    <string name="agent_task_not_running">This task already finished.</string>
+    <string name="agent_task_approvals">Questions asked during this task</string>
+    <string name="agent_decision_pending">Waiting</string>
+    <string name="agent_decision_once">Allowed once</string>
+    <string name="agent_decision_always">Always allowed</string>
+    <string name="agent_decision_rule">Allowed by a rule</string>
+    <string name="agent_decision_denied">Declined</string>
+    <string name="agent_decision_expired">Timed out</string>
+    <string name="agent_decision_cancelled">Cancelled</string>
+    <!-- 예약 -->
+    <string name="agent_schedules_empty">Nothing scheduled. Set up something for your agent to do on its own at set times.</string>
+    <string name="agent_schedule_new">New schedule</string>
+    <string name="agent_schedule_title">Schedule</string>
+    <!-- %1$s = "8시간 뒤", %2$s = "11월 8일 (일) 오전 9:00" -->
+    <string name="agent_schedule_next">Next: %1$s · %2$s</string>
+    <!-- %1$s = how the last run went ("마침"), %2$s = "3시간 전" -->
+    <string name="agent_schedule_last">Last: %1$s · %2$s</string>
+    <string name="agent_schedule_off_reason">Turned off because: %1$s</string>
+    <string name="agent_schedule_switch">Turn on %1$s</string>
+    <string name="agent_schedule_name">Name</string>
+    <string name="agent_schedule_name_hint">e.g. Morning news roundup</string>
+    <string name="agent_schedule_prompt">What to do</string>
+    <string name="agent_schedule_prompt_hint">e.g. Tell me today\'s weather and schedule together</string>
+    <string name="agent_schedule_repeat">When</string>
+    <string name="agent_repeat_daily">Every day</string>
+    <string name="agent_repeat_weekdays">Weekdays</string>
+    <string name="agent_repeat_monthly">Every month</string>
+    <string name="agent_repeat_daily_at">Every day at %1$s</string>
+    <string name="agent_repeat_weekdays_at">Weekdays at %1$s</string>
+    <!-- %1$s = days like "월, 수", %2$s = a time -->
+    <string name="agent_repeat_weekly_at">Every %1$s at %2$s</string>
+    <string name="agent_repeat_monthly_at">Monthly on day %1$d at %2$s</string>
+    <string name="agent_repeat_hourly_at">Every hour, %1$d min past</string>
+    <plurals name="agent_repeat_every_hours">
+        <item quantity="one">Every hour</item>
+        <item quantity="other">Every %d hours</item>
+    </plurals>
+    <!-- %1$s = "3시간마다", %2$d = minutes past the hour -->
+    <string name="agent_repeat_every_hours_at">%1$s (%2$d min past the hour)</string>
+    <!-- %1$s = a full date, %2$s = a time -->
+    <string name="agent_repeat_once_at">Once on %1$s at %2$s</string>
+    <string name="sched_freq_none">Never</string>
+    <string name="sched_freq_weekends">Weekends</string>
+    <string name="sched_freq_weekly">Every week</string>
+    <string name="sched_freq_yearly">Every year</string>
+    <string name="sched_repeat">Repeat</string>
+    <string name="sched_starts">Starts</string>
+    <string name="sched_end">Ends</string>
+    <string name="sched_end_never">Never</string>
+    <string name="sched_end_on">On a date</string>
+    <string name="sched_past">That time has already passed. Please pick a later one.</string>
+    <string name="sched_end_before">The last day can’t be before it starts.</string>
+    <string name="sched_custom_note">Kelo set this one up in a way this screen can’t show. You can leave it as it is, or change it yourself.</string>
+    <string name="sched_custom_convert">Change it myself</string>
+    <string name="sched_value_weekly">Weekly on %1$s</string>
+    <string name="sched_value_monthly">Monthly on day %1$d</string>
+    <string name="sched_value_yearly">Yearly on %1$s</string>
+    <string name="sched_opt_monthly">Every month (day %1$d)</string>
+    <string name="sched_opt_yearly">Every year (%1$s)</string>
+    <string name="sched_end_until">Until %1$s</string>
+    <string name="sched_save_hint">Add a name and what to do, then you can save.</string>
+    <string name="sched_text_from">%1$s, starting %2$s</string>
+    <string name="sched_text_until">%1$s, until %2$s</string>
+    <string name="sched_text_rule">Repeats on a set rule</string>
+    <string name="agent_repeat_weekends_at">Weekends at %1$s</string>
+    <string name="agent_repeat_yearly_at">Every year on %1$s at %2$s</string>
+    <string name="agent_schedule_date">Date</string>
+    <string name="agent_schedule_time">Time</string>
+    <string name="agent_schedule_need_day">Please pick at least one day.</string>
+    <string name="agent_schedule_zone">Time zone: %1$s</string>
+    <string name="agent_schedule_run_now">Run once now</string>
+    <string name="agent_schedule_saved">Saved.</string>
+    <string name="agent_schedule_started">Started. You can follow it in Activity.</string>
+    <string name="agent_schedule_already_running">It\'s already running.</string>
+    <string name="agent_schedule_deleted">Moved to the archive.</string>
+    <!-- 권한 -->
+    <string name="agent_perm_rules">Allowed without asking</string>
+    <string name="agent_perm_rules_empty">Nothing yet. Pick “Always allow on this site” on an approval card and it\'ll show up here.</string>
+    <string name="agent_perm_history">Past approvals</string>
+    <string name="agent_perm_history_empty">Nothing asked yet.</string>
+    <string name="agent_perm_asked">Asked %1$s</string>
+    <string name="approval_remember_site">Don\'t ask again on this site</string>
+    <string name="approval_remember_scope">Applies to %1$s and all its sub-addresses</string>
+    <string name="agent_approval_allowed">Allowed.</string>
+    <string name="agent_approval_always">Allowed. Won\'t ask again on this site.</string>
+    <string name="agent_approval_denied">Declined.</string>
+    <string name="agent_approval_gone">Already answered or timed out.</string>
+    <string name="agent_rule_kind_browser">Click and type on the site</string>
+    <string name="agent_rule_kind_login">Sign in with a saved login</string>
+    <plurals name="agent_rule_uses">
+        <item quantity="one">Used %d time</item>
+        <item quantity="other">Used %d times</item>
+    </plurals>
+    <string name="agent_rule_revoke">Revoke permission for %1$s</string>
+    <string name="agent_rule_revoke_confirm">Ask again on %1$s?</string>
+    <string name="agent_rule_revoke_yes">Revoke</string>
+    <string name="agent_rule_revoked">Will ask again on %1$s.</string>
+    <string name="work_grant_title">Allowed for this task</string>
+    <string name="work_grant_line">%1$s · %2$s · %3$d of %4$d done</string>
+    <string name="work_grant_revoke">Stop allowing</string>
+    <string name="work_grant_revoked">Each one will ask again.</string>
+    <!-- 브라우저 -->
+    <string name="agent_browser_none">This server doesn\'t have a browser.</string>
+    <string name="agent_browser_empty">No open tabs.</string>
+    <string name="agent_tab_kind_owner">Main tab</string>
+    <string name="agent_tab_kind_schedule">Scheduled task tab</string>
+    <string name="agent_tab_kind_task">Background task tab</string>
+    <string name="agent_tab_working">Working</string>
+    <string name="agent_tab_failed">Stuck</string>
+    <string name="agent_tab_idle">Idle</string>
+    <string name="agent_tab_picture">Tab screen</string>
+    <string name="agent_tab_no_picture">Nothing to show (blank page).</string>
+    <string name="agent_tab_close">Close tab</string>
+    <string name="agent_tab_close_confirm">Close this tab?</string>
+    <string name="agent_tab_closed">Closed.</string>
+    <string name="agent_tab_busy">Can\'t close this tab while it\'s in use. Stop that task in Activity first.</string>
+    <!-- 일지 -->
+    <string name="agent_journal_pending">Not written up yet</string>
+    <string name="agent_journal_failed">Couldn\'t write it up</string>
+    <string name="agent_journal_rebuild">Rewrite</string>
+    <string name="agent_journal_rebuild_confirm">Rewrite the journal for %1$s? Your current model will reread that day\'s chats.</string>
+    <string name="agent_journal_rebuilt">Rewritten.</string>
+    <string name="agent_journal_openai">Can\'t rewrite this day\'s journal right now. Check your model settings in My → Models, then try again.</string>
+    <string name="agent_journal_delete">Delete journal entry</string>
+    <string name="agent_journal_delete_confirm">Delete “%1$s”?</string>
+    <string name="agent_journal_deleted">Deleted.</string>
+
+    <!-- voice input (the mic left of 보내기) -->
+    <string name="voice_start">Voice input</string>
+    <string name="voice_stop">Stop talking</string>
+    <string name="voice_listening">Listening</string>
+    <string name="voice_unavailable">This phone doesn\'t have speech recognition, so voice input isn\'t available.</string>
+    <string name="voice_denied_title">Can\'t use the microphone</string>
+    <string name="voice_denied_body">Voice input needs microphone permission. Allow the microphone in Settings → Permissions. Your phone\'s speech recognition turns what you say into text.</string>
+    <string name="voice_no_match">Didn\'t catch that. Please say it again.</string>
+    <string name="voice_network">Couldn\'t connect to speech recognition.</string>
+    <string name="voice_busy">Speech recognition is being used by something else.</string>
+    <string name="voice_failed">Voice input stopped.</string>
+
+    <!-- notifications -->
+    <string name="notify_channel_replies">Replies</string>
+    <string name="notify_channel_replies_desc">Replies and tasks that finished while the app was closed</string>
+    <string name="notify_channel_approvals">Approval requests</string>
+    <string name="notify_channel_approvals_desc">When your agent is waiting for your approval or an answer</string>
+    <string name="notify_channel_payments">Payments</string>
+    <string name="notify_channel_payments_desc">Payment approvals and auto-pay updates</string>
+    <string name="notify_channel_schedules">Scheduled tasks</string>
+    <string name="notify_channel_schedules_desc">When a scheduled task finishes or gets turned off</string>
+    <string name="notify_channel_working">In progress</string>
+    <string name="notify_channel_working_desc">A quiet notification shown while a reply is being finished</string>
+    <string name="notify_working_title">Finishing your reply</string>
+    <string name="notify_working_body">I\'ll let you know when it\'s done.</string>
+    <string name="notify_stop">Stop</string>
+    <string name="notify_working_site">On %1$s</string>
+    <string name="notify_reply_done">Your reply is here</string>
+    <string name="notify_reply_failed">Couldn\'t finish the reply</string>
+    <string name="notify_reply_failed_body">Tap to see what happened.</string>
+    <string name="notify_open_hint">Tap to view.</string>
+    <string name="notify_task_done">Task finished</string>
+    <string name="notify_task_failed">Task didn\'t work out</string>
+    <string name="notify_approval_waiting">Something needs your approval</string>
+    <string name="notify_payment_waiting">Please approve a payment</string>
+    <string name="notify_payment_auto">Paid automatically</string>
+    <string name="notify_schedule_disabled">Turned off a scheduled task</string>
+    <string name="notify_ask_title">Want a heads-up when replies are ready?</string>
+    <string name="notify_ask_body">Even with the app closed, you can get notified about %1$s\'s replies, things that need your approval, and payment updates. Notifications show just one short line.</string>
+    <string name="notify_ask_yes">Turn on notifications</string>
+    <string name="notify_ask_later">Later</string>
+    <string name="notify_my_row">Notifications</string>
+    <string name="notify_state_on">On</string>
+    <string name="notify_state_off">Off</string>
+
+    <!-- the live view of a browser tab -->
+    <string name="live_take">Take control</string>
+    <string name="live_held_elsewhere">Being controlled from another device</string>
+    <string name="live_give_back">Hand back</string>
+    <string name="live_paused_banner">You\'re in control. Your agent will wait on this tab until you hand it back.</string>
+    <string name="live_tab_closed">The tab was closed, so there\'s nothing more to see. If the last screen was saved, it\'s shown below.</string>
+    <string name="live_not_controller">You can\'t control it right now. Tap Take control again.</string>
+    <string name="live_input_failed">The browser couldn\'t do that.</string>
+    <string name="live_state_you">You\'re in control</string>
+    <string name="live_state_other">Another device is in control</string>
+    <string name="live_state_waiting">Waiting for approval</string>
+    <string name="live_connecting">Connecting…</string>
+    <string name="live_reconnecting">Reconnecting…</string>
+    <string name="live_slow_mode">Showing one frame at a time</string>
+    <plurals name="live_viewers">
+        <item quantity="one">%1$d person watching</item>
+        <item quantity="other">%1$d people watching</item>
+    </plurals>
+    <string name="live_back">Back</string>
+    <string name="live_forward">Forward</string>
+    <string name="live_reload">Reload</string>
+    <string name="live_type_hint">Text to type on the page</string>
+    <string name="live_type_send">Type</string>
+    <string name="live_type_hide">Hide text</string>
+    <string name="live_type_show">Show text</string>
+    <string name="live_key_enter">Enter</string>
+    <string name="live_key_enter_desc">Enter key</string>
+    <string name="live_key_backspace">⌫</string>
+    <string name="live_key_backspace_desc">Backspace key</string>
+    <string name="live_key_tab">Tab</string>
+    <string name="live_key_tab_desc">Tab key</string>
+    <string name="live_key_escape">Esc</string>
+    <string name="live_key_escape_desc">Esc key</string>
+    <string name="live_key_left">←</string>
+    <string name="live_key_left_desc">Left arrow key</string>
+    <string name="live_key_up">↑</string>
+    <string name="live_key_up_desc">Up arrow key</string>
+    <string name="live_key_down">↓</string>
+    <string name="live_key_down_desc">Down arrow key</string>
+    <string name="live_key_right">→</string>
+    <string name="live_key_right_desc">Right arrow key</string>
+
+    <!-- connectors: groups, tiles, the detail page -->
+    <string name="connector_group_work">Work</string>
+    <string name="connector_group_dev">Development</string>
+    <string name="connector_group_money">Payments &amp; finance</string>
+    <string name="connector_group_media">Media</string>
+    <string name="connector_group_shopping">Shopping &amp; travel</string>
+    <string name="connector_group_other">Other</string>
+    <string name="connector_group_reconnect">Needs reconnecting</string>
+    <string name="connector_status_reconnect">Needs reconnecting</string>
+    <string name="connector_method_code">Connect by entering a code</string>
+    <string name="connector_method_sign_in">Connect by signing in to the service</string>
+    <string name="connector_method_google">Google sign-in</string>
+    <string name="connector_method_mail">Mail app password</string>
+    <string name="connector_method_key">Key from the service</string>
+    <string name="connector_method_browser">Use the site in Kelo\'s browser</string>
+    <string name="connector_method_none">Can\'t be connected in this app</string>
+    <string name="connector_reconnect_title">Needs reconnecting</string>
+    <string name="connector_reconnect_missing">The saved connection details are gone. Please reconnect below.</string>
+    <string name="connector_reconnect_refused">The service didn\'t accept the connection details on the last request. Please reconnect below.</string>
+    <string name="connector_reconnect_server">The server is asking for this connection to be set up again. Please reconnect below.</string>
+    <string name="connector_reconnect_detail">Message from the service: %1$s</string>
+    <string name="connector_can_do">What Kelo can do</string>
+    <string name="connector_facts">Connection details</string>
+    <string name="connector_method">How it connects</string>
+    <string name="connector_account">Account</string>
+    <string name="connector_account_unknown">Connected (account name unknown)</string>
+    <string name="connector_site">Site</string>
+    <string name="connector_permissions">Permissions granted</string>
+    <string name="connector_gone">Can\'t find this connector. Try refreshing the list.</string>
+
+    <!-- notifications: bundles, and push with the access key -->
+    <plurals name="notify_group_count">
+        <item quantity="one">%1$d new notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <string name="notify_state_needs_device">Phone needs connecting</string>
+    <string name="notify_needs_device_body">Push notifications only go to phones connected with a QR code. You\'re signed in with an access key right now, so you\'ll only hear about new things when the app checks every 15 minutes. On another device, make a QR code in My → My devices, then sign out here and connect this phone with that QR code.</string>
+    <string name="notify_needs_device_go">Open My devices</string>
+
+    <!-- 마이 → 운영자 설정 (only with the server's own access key) -->
+    <string name="my_section_operator">Operator</string>
+    <string name="operator_page_title">Operator settings</string>
+    <string name="operator_page_intro">You only need these if this server handles sign-in, push notifications, and Kelo addresses for other people\'s Kelo. Secrets are checked, then saved encrypted, and never shown again.</string>
+    <string name="operator_section_signin">Sign-in app</string>
+    <string name="operator_section_push">Push notifications</string>
+    <string name="operator_section_addresses">Kelo addresses</string>
+    <string name="operator_fb_title">Firebase service account</string>
+    <string name="operator_fb_note">Upload the service account key file (JSON) from the Firebase console. The server tries it once and only saves it if it works.</string>
+    <string name="operator_fb_project">Project</string>
+    <string name="operator_fb_account">Service account</string>
+    <string name="operator_fb_off">Not set yet. Push notifications can\'t go to phones on other copies.</string>
+    <string name="operator_fb_upload">Upload key file</string>
+    <string name="operator_fb_replace">Replace with another key file</string>
+    <string name="operator_fb_checking">Checking…</string>
+    <string name="operator_fb_remove">Remove key</string>
+    <string name="operator_fb_remove_confirm">Remove the Firebase key? Push notifications will stop for every phone that goes through this server.</string>
+    <string name="operator_fb_saved">Checked and saved.</string>
+    <string name="operator_fb_not_key">That\'s not a service account key file. Please pick the JSON file from the Firebase console.</string>
+    <string name="operator_cf_title">Cloudflare</string>
+    <string name="operator_cf_note">Used to hand out addresses like name.kelo.chat to other copies. Give the API token only Cloudflare Tunnel edit and DNS edit permissions for that domain.</string>
+    <string name="operator_cf_state">Status</string>
+    <string name="operator_cf_on">On</string>
+    <string name="operator_cf_off">Off</string>
+    <string name="operator_cf_used">Addresses in use</string>
+    <string name="operator_cf_used_value">%1$d / %2$d</string>
+    <string name="operator_cf_token">API token</string>
+    <string name="operator_cf_token_saved">API token saved · enter only to change it</string>
+    <string name="operator_cf_account">Account ID (32 characters)</string>
+    <string name="operator_cf_zone_id">Zone ID (32 characters)</string>
+    <string name="operator_cf_zone">Domain (e.g. kelo.chat)</string>
+    <string name="operator_cf_max">Max addresses to hand out</string>
+    <string name="operator_cf_checking">Checking with Cloudflare…</string>
+    <string name="operator_cf_reclaim">Reclaim now</string>
+    <string name="operator_cf_reclaim_none">No addresses to reclaim.</string>
+    <plurals name="operator_cf_reclaimed">
+        <item quantity="one">Reclaimed %1$d address.</item>
+        <item quantity="other">Reclaimed %1$d addresses.</item>
+    </plurals>
+    <plurals name="operator_cf_idle">
+        <item quantity="one">Addresses with no connection for %1$d day are reclaimed automatically.</item>
+        <item quantity="other">Addresses with no connection for %1$d days are reclaimed automatically.</item>
+    </plurals>
+    <string name="operator_cf_turn_off">Turn off</string>
+    <string name="operator_cf_off_confirm">Delete the API token and stop handing out Kelo addresses? Addresses already handed out stay as they are.</string>
+    <string name="operator_cf_bad_token">That doesn\'t look like an API token. Paste the token you made in Cloudflare exactly as it is.</string>
+    <string name="operator_cf_bad_account">The account ID is the 32-character ID shown in your Cloudflare dashboard.</string>
+    <string name="operator_cf_bad_zone_id">The zone ID is the 32-character ID shown in your Cloudflare dashboard.</string>
+    <string name="operator_cf_bad_zone">Write the domain like kelo.chat.</string>
+    <string name="operator_cf_bad_max">Set the number of addresses between 1 and 100,000.</string>
+
+    <!-- 일지 → 매일 밤 돌아보기 (the nightly look-back) -->
+    <string name="lookback_title">Nightly reflection</string>
+    <string name="lookback_when">Runs on its own overnight, during the hours you use the app least, once the app has been idle for over 10 minutes.</string>
+    <string name="lookback_about">Looks back over the day\'s chats, things you asked to fix, approvals you declined, and tasks that got stuck, then suggests a few short notes on your preferences and ways of doing things to keep in mind. Days with no new chats are skipped.</string>
+    <string name="lookback_unavailable">Nightly reflection isn\'t available on this server.</string>
+    <string name="lookback_at_last_night">last night</string>
+    <string name="lookback_at_today">today</string>
+    <string name="lookback_at_day">on %1$s</string>
+    <string name="lookback_line_done">Looked back %1$s</string>
+    <plurals name="lookback_line_new">
+        <item quantity="one">%d new rule suggested</item>
+        <item quantity="other">%d new rules suggested</item>
+    </plurals>
+    <string name="lookback_line_none">no new rules</string>
+    <string name="lookback_line_no_chat">Skipped %1$s: no new conversation</string>
+    <string name="lookback_line_off">Skipped %1$s: switched off</string>
+    <string name="lookback_line_busy">Skipped %1$s: the app was in use</string>
+    <string name="lookback_line_skipped">Skipped %1$s</string>
+    <string name="lookback_line_failed">Couldn\'t look back %1$s</string>
+    <string name="lookback_line_failed_why">Couldn\'t look back %1$s (%2$s)</string>
+    <string name="lookback_fail_model">model error</string>
+    <string name="lookback_fail_answer">unreadable answer</string>
+    <string name="lookback_line_no_model">Starts once a model is chosen</string>
+    <string name="lookback_rule_keep">Keep this rule</string>
+    <string name="lookback_rule_discard">Discard</string>
+    <string name="lookback_rule_kept">Kept</string>
+    <string name="lookback_rule_discarded">Discarded</string>
+    <string name="lookback_rule_basis">Why: %1$s</string>
+
+    <!-- the 작업 (work) tab -->
+    <string name="tab_work">Work</string>
+    <plurals name="work_badge_waiting">
+        <item quantity="one">%1$d item waiting for you</item>
+        <item quantity="other">%1$d items waiting for you</item>
+    </plurals>
+    <plurals name="work_badge_approvals">
+        <item quantity="one">%1$d question waiting for your answer</item>
+        <item quantity="other">%1$d questions waiting for your answer</item>
+    </plurals>
+    <plurals name="work_badge_keys">
+        <item quantity="one">%1$d key waiting to be entered</item>
+        <item quantity="other">%1$d keys waiting to be entered</item>
+    </plurals>
+    <plurals name="work_badge_logins">
+        <item quantity="one">%1$d sign-in waiting to be entered</item>
+        <item quantity="other">%1$d sign-ins waiting to be entered</item>
+    </plurals>
+    <plurals name="work_badge_cards">
+        <item quantity="one">%1$d payment card waiting to be entered</item>
+        <item quantity="other">%1$d payment cards waiting to be entered</item>
+    </plurals>
+    <plurals name="work_badge_pins">
+        <item quantity="one">%1$d payment PIN waiting to be entered</item>
+        <item quantity="other">%1$d payment PINs waiting to be entered</item>
+    </plurals>
+    <string name="work_entry_key">Waiting for you to enter %1$s</string>
+    <string name="work_entry_login">Waiting for your sign-in to %1$s</string>
+    <string name="work_entry_card">Waiting for a payment card</string>
+    <string name="work_entry_pin">Waiting for the payment PIN for %1$s</string>
+    <string name="work_entry_cancel">Cancel</string>
+    <string name="chat_screenshot">Screenshot</string>
+    <string name="schedule_delete_title">What should happen to the schedule \'%1$s\'?</string>
+    <plurals name="schedule_delete_body">
+        <item quantity="one">In the archive it can be restored for %1$d day. Deleted, it is gone at once and cannot be restored.</item>
+        <item quantity="other">In the archive it can be restored for %1$d days. Deleted, it is gone at once and cannot be restored.</item>
+    </plurals>
+    <string name="schedule_delete_archive">Move to archive</string>
+    <string name="schedule_deleted_forever">Deleted.</string>
+    <string name="schedules_archive_entry">Archive</string>
+    <string name="work_now">Happening now</string>
+    <string name="work_now_empty">Nothing\'s running right now.</string>
+    <string name="work_asks">Needs your answer</string>
+    <string name="work_asks_empty">No questions waiting.</string>
+
+    <string name="offers_title">Kelo can do these now</string>
+    <string name="offer_start">Hand it over</string>
+    <string name="offer_needs">Needs: %1$s</string>
+    <string name="offer_checked">Amounts checked %1$s</string>
+    <string name="offer_dismiss">Not interested</string>
+    <string name="offer_reason_not_interested">Not interested</string>
+    <string name="offer_reason_done">Already done</string>
+    <string name="offer_reason_later">Later</string>
+    <string name="offer_busy">A reply is being written now. Tap again when it ends</string>
+    <string name="offer_failed">Could not start</string>
+    <string name="work_upcoming">Coming up</string>
+    <string name="work_upcoming_unscheduled">No time set</string>
+    <string name="work_past">Earlier</string>
+    <string name="work_watching">Watching</string>
+    <string name="work_filter_all">All</string>
+    <string name="work_filter_done">Done</string>
+    <string name="work_filter_problems">Problems</string>
+    <string name="work_filter_automatic">On its own</string>
+    <string name="work_day_today">Today · %1$s</string>
+    <string name="work_day_tomorrow">Tomorrow · %1$s</string>
+    <string name="work_live_view">Live view</string>
+    <string name="work_open_browsers">Open browsers</string>
+    <string name="work_open_browsers_note">Tap a tab to open its live screen. You can take over from there or close the tab.</string>
+    <string name="work_task_title">Task details</string>
+    <string name="work_source_job">Background task</string>
+    <string name="work_source_handoff">Background task report</string>
+    <string name="work_ask_card">Needs a card sent from this phone</string>
+    <string name="work_ask_unattended">Asked while running on its own</string>
+    <string name="work_past_job">Task: %1$s</string>
+    <plurals name="work_past_children">
+        <item quantity="one">%1$d subtask</item>
+        <item quantity="other">%1$d subtasks</item>
+    </plurals>
+    <plurals name="work_paused_count">
+        <item quantity="one">%1$d schedule off</item>
+        <item quantity="other">%1$d schedules off</item>
+    </plurals>
+    <string name="work_kind_browser">Browser task</string>
+    <string name="work_kind_research">Research</string>
+    <string name="work_kind_general">General task</string>
+    <string name="work_job_title">Background task</string>
+    <string name="work_job_line">%1$s · Background</string>
+    <string name="work_task_in_background">In the background</string>
+    <string name="work_job_steps">Step %1$d of %2$d</string>
+    <string name="work_job_needs_input">Waiting for you</string>
+    <string name="work_job_blocked">Stuck</string>
+    <string name="work_job_interrupted">Interrupted</string>
+    <string name="work_job_resume">Pick up again</string>
+    <string name="work_job_answer">Send a note</string>
+    <string name="work_job_answer_hint">It\'s read before the task moves to its next step. A stalled task starts moving again once it gets this.</string>
+    <string name="work_job_answer_placeholder">e.g. I saved the login, go ahead</string>
+    <string name="work_job_answer_send">Send</string>
+    <string name="work_job_stop_confirm">Stop this background task? You can pick it up again later.</string>
+    <string name="work_job_stopped">Task stopped.</string>
+    <string name="work_job_resumed">Task started again.</string>
+    <string name="work_job_message_sent">Sent.</string>
+    <string name="work_job_gone">Can\'t find this task.</string>
+    <string name="work_job_busy">This task is already running.</string>
+    <string name="work_job_too_many">Too many tasks running at once. Try again when one finishes.</string>
+    <string name="work_job_report">Report</string>
+    <string name="work_job_asked">What you asked</string>
+    <string name="work_job_steps_title">Steps so far</string>
+    <string name="work_job_parent">See the chat that started this</string>
+    <string name="work_wait_login">Will continue once the login is saved in your Keychain.</string>
+    <string name="work_wait_control">Will continue once you hand back the tab you took over.</string>
+    <string name="work_wait_answer">Will continue once you say how to proceed.</string>
+    <string name="work_wait_blocked">Stopped because it can\'t go further on its own.</string>
+    <string name="work_wait_restart">Stopped when the server restarted.</string>
+    <string name="work_schedule_on">Schedule on</string>
+    <string name="work_schedule_off">Schedule off</string>
+    <string name="work_schedule_by_agent">Made by your agent</string>
+    <string name="work_schedule_paused_reason">Paused: %1$s</string>
+    <string name="work_schedule_paused_unknown">No reason was recorded</string>
+    <string name="work_schedule_resume">Resume</string>
+    <string name="work_schedule_resumed">Schedule turned back on.</string>
+    <string name="work_schedule_restored">Schedule restored.</string>
+    <string name="work_schedule_runs">Recent runs</string>
+    <string name="work_schedule_runs_empty">Hasn\'t run yet.</string>
+    <string name="work_run_quiet">Nothing to report</string>
+    <string name="work_run_paused">Paused</string>
+    <plurals name="work_every_minutes">
+        <item quantity="one">Every minute</item>
+        <item quantity="other">Every %1$d minutes</item>
+    </plurals>
+    <plurals name="work_every_days">
+        <item quantity="one">Every day</item>
+        <item quantity="other">Every %1$d days</item>
+    </plurals>
+    <string name="work_archive">Archived schedules</string>
+    <string name="work_schedules">Schedules</string>
+    <string name="work_schedule_add">Add schedule</string>
+    <string name="work_schedules_empty">No schedules yet.</string>
+    <string name="work_archive_empty">The archive is empty.</string>
+    <string name="work_archive_note">You can restore archived schedules for %1$d days. After that, they\'re deleted.</string>
+    <string name="work_archive_until">Deleted %1$s</string>
+    <string name="work_archive_restore">Restore</string>
+    <string name="work_watch_on">Watching</string>
+    <string name="work_watch_off">Off</string>
+    <string name="work_watch_error">Check failed</string>
+    <string name="work_watch_done">Condition met</string>
+    <string name="work_watch_switch">Watch %1$s</string>
+    <string name="work_watch_last_value">Last value seen: %1$s</string>
+    <string name="work_watch_fired_at">Condition met %1$s</string>
+    <string name="work_watch_needs_check">Run “Check now” once before turning it on.</string>
+    <string name="work_watch_url">Address</string>
+    <string name="work_watch_every">Interval</string>
+    <string name="work_watch_checked">Last checked</string>
+    <string name="work_watch_next">Next check</string>
+    <string name="work_watch_once">Just once</string>
+    <string name="work_watch_once_yes">Turns off when the condition is met</string>
+    <string name="work_watch_note">What to do when it\'s met</string>
+    <string name="work_watch_last_check">Last check result</string>
+    <string name="work_watch_check_now">Check now</string>
+    <string name="work_watch_checking">Checking…</string>
+    <string name="work_watch_events">Records</string>
+    <string name="work_watch_events_empty">No records yet.</string>
+    <string name="work_watch_ev_fired">Condition met</string>
+    <string name="work_watch_ev_error">Failed</string>
+    <string name="work_watch_ev_check">Checked</string>
+    <string name="work_watch_ev_on">On</string>
+    <string name="work_watch_ev_off">Off</string>
+    <string name="work_watch_delete">Delete watch</string>
+    <string name="work_watch_delete_confirm">Delete the watch “%1$s”?</string>
+    <string name="work_watch_deleted">Deleted.</string>
+    <string name="approval_keep_for_schedule">Always allow for this scheduled task</string>
+    <string name="approval_kept_for_schedule">Allowed. This scheduled task won\'t ask again.</string>
+
+    <!-- 마이, regrouped -->
+    <string name="my_section_account">Account and devices</string>
+    <string name="my_section_agent">Agent</string>
+    <string name="my_section_model">Model</string>
+    <string name="my_section_connections">Connections</string>
+    <plurals name="my_services_count">
+        <item quantity="one">%1$d connected</item>
+        <item quantity="other">%1$d connected</item>
+    </plurals>
+    <string name="my_usage_today_tokens">%1$s tokens today</string>
+    <string name="my_perm_value">Where it can go ahead without asking, and past approvals</string>
+    <string name="my_perm_intro">On the sites you set here, your agent goes ahead without asking. You can undo this anytime.</string>
+    <plurals name="my_perm_waiting">
+        <item quantity="one">%1$d question waiting · See in “Needs your answer”</item>
+        <item quantity="other">%1$d questions waiting · See in “Needs your answer”</item>
+    </plurals>
+    <string name="my_agent_title">Agent</string>
+    <string name="my_agent_picture">Picture</string>
+    <string name="my_agent_picture_hint">Shown at the top of Chat and in notifications. It\'s cropped to a circle around the center.</string>
+    <string name="agent_offline">Can\'t reach the server</string>
+    <string name="my_agent_picture_default">With no picture, the Kelo character shows up. It changes look depending on what it\'s doing.</string>
+    <string name="my_agent_identity">Name</string>
+    <string name="my_agent_now">Right now</string>
+    <string name="my_records_title">Records</string>
+    <string name="my_records_value">Weekly journal and nightly reflection</string>
+    <string name="my_records_week_range">%1$s – %2$s</string>
+    <string name="my_records_prev_week">Last week</string>
+    <string name="my_records_next_week">Next week</string>
+    <plurals name="my_records_week_count">
+        <item quantity="one">%1$d journal entry this week</item>
+        <item quantity="other">%1$d journal entries this week</item>
+    </plurals>
+    <string name="my_records_week_empty">No records for this week.</string>
+    <string name="my_records_night_note">That night\'s reflection</string>
+
+    <!-- 마이 → 알림 -->
+    <string name="notify_page_phone">This phone</string>
+    <string name="notify_page_phone_row">Phone notifications</string>
+    <string name="notify_page_unavailable">Not available on this server yet.</string>
+    <string name="heads_section">News alerts</string>
+    <string name="heads_switch">Kelo tells you first</string>
+    <!-- %1$s = how often it looks ("Every 2 hours", agent_repeat_every_hours / work_every_minutes), %2$s = the follow-ups section's title (followup_settings_title) -->
+    <string name="heads_about">%1$s, Kelo looks at new mail, upcoming events and deadlines, and tells you first when there is something you should know. Things you need to answer (approvals, questions) are asked again under “%2$s”, whatever this is set to.</string>
+    <string name="heads_per_day">At most per day</string>
+    <string name="heads_mail">Look at new mail too</string>
+    <string name="heads_mail_about">Off: Kelo does not open your mailboxes for this check; schedules and deadlines are still checked. The morning briefing chooses its own mailboxes.</string>
+    <string name="heads_list_title">Things to keep an eye on</string>
+    <string name="heads_list_about">Optional. Kelo looks at these each time and tells you only when something needs your attention.</string>
+    <string name="heads_list_hint">e.g. Delivery notices that came in today</string>
+    <string name="heads_list_add">Add</string>
+    <string name="heads_list_remove">Remove %1$s</string>
+    <plurals name="heads_times">
+        <item quantity="one">%d time</item>
+        <item quantity="other">%d times</item>
+    </plurals>
+    <plurals name="heads_sent_today">
+        <item quantity="one">Sent %d today</item>
+        <item quantity="other">Sent %d today</item>
+    </plurals>
+    <string name="proactive_from">From %1$s</string>
+    <string name="proactive_until">Until %1$s</string>
+    <string name="proactive_less">Fewer</string>
+    <string name="proactive_more">More</string>
+    <string name="notify_schedule_paused">A scheduled task was paused</string>
+    <string name="notify_watch_fired">A watched condition was met</string>
+    <string name="notify_watch_disabled">Watch turned off</string>
+    <string name="notify_proactive">News from your agent</string>
+
+    <!-- onboarding form -->
+    <string name="onboarding_name_label">Your name</string>
+    <string name="onboarding_agent_label">Agent name</string>
+    <string name="onboarding_agent_placeholder">e.g. Kelo</string>
+
+    <!-- goals -->
+    <string name="goals_open">In progress</string>
+    <string name="goals_show">Show</string>
+    <string name="goals_hide">Hide</string>
+    <string name="goals_edit">Edit goal</string>
+    <string name="goals_tag_placeholder">Tag (optional)</string>
+    <string name="goals_due_by">By %1$s</string>
+    <string name="goals_due_late">Overdue since %1$s</string>
+    <string name="goals_due_none">No deadline</string>
+    <string name="goals_due_pick">Set a deadline</string>
+    <string name="goals_due_clear">Clear</string>
+    <string name="goals_progress">Progress</string>
+    <string name="goals_progress_none">Not set</string>
+    <string name="goals_progress_value">%1$d%%</string>
+
+    <!-- connectors -->
+    <string name="connectors_filter_all">All</string>
+    <string name="connectors_pinned">Connected</string>
+
+    <!-- wallet: stepped add form -->
+    <string name="wallet_step_number">Card number</string>
+    <string name="wallet_step_dates">Expiry and CVC</string>
+    <string name="wallet_step_owner">Cardholder details</string>
+    <string name="wallet_step_confirm">Check and save</string>
+    <string name="wallet_step_of">%1$d / %2$d</string>
+    <string name="wallet_step_next">Next</string>
+
+    <!-- chat cards -->
+    <string name="chat_browser_view_short">View</string>
+    <string name="chat_outcome_allowed">Allowed</string>
+    <string name="chat_outcome_denied">Declined</string>
+    <string name="chat_outcome_expired">Timed out</string>
+    <string name="chat_outcome_card_sent">Card sent</string>
+
+    <!-- unofficial providers: the owner-approved consent text.
+         English source for the later translation:
+           model_picker_unofficial  "Unofficial support"
+           consent_title            "About connecting %1$s"
+           consent_body             "This option connects by signing in to a %1$s account. It has not been confirmed whether %3$s permits this
+                                     kind of use.\n\nWhether to use it is up to you. Please review %3$s's terms before deciding. Kelo is not
+                                     responsible for any consequences of using this method, including account limits or suspension."
+           consent_check            "I've read this and choose to use it"
+           consent_use              "Use it"   (cancel: the shared "Cancel")
+         %2$s is the vendor with its Korean subject particle (Anthropic이, OpenAI가); English uses %3$s only. -->
+    <string name="model_picker_unofficial">Unofficial support</string>
+    <string name="consent_title">About connecting %1$s</string>
+    <string name="consent_body">This option connects by signing in to a %1$s account. It has not been confirmed whether %3$s permits this kind of use.\n\nWhether to use it is up to you. Please review %3$s\'s terms before deciding. Kelo is not responsible for any consequences of using this method, including account limits or suspension.</string>
+    <string name="consent_check">I\'ve read this and choose to use it</string>
+    <string name="consent_use">Use it</string>
+    <string name="consent_service_claude">Claude subscription</string>
+    <string name="consent_service_chatgpt">ChatGPT subscription</string>
+    <string name="model_unofficial_warning">%1$s: You haven\'t agreed to the unofficial connection yet. This setting stays as it is, but whether to use it is up to you.</string>
+
+    <!-- usage: when a limit resets, in the phone's time -->
+    <string name="usage_reset_soon_phrase">Resets soon</string>
+    <string name="usage_reset_in_minutes">Resets in %1$d min</string>
+    <string name="usage_reset_in_hours">Resets in %1$d hr</string>
+    <string name="usage_reset_on">Resets %1$s</string>
+    <string name="usage_provider_generic">AI service</string>
+
+    <!-- approvals: %2$s is the Korean object particle for %1$s (을/를); other languages leave it out -->
+    <string name="chat_approval_ask">Allow %1$s?</string>
+    <string name="vault_fill_from_app">Fill from password app</string>
+
+    <!-- connectors: the opening view -->
+    <string name="connectors_popular">Popular services</string>
+    <plurals name="connectors_show_all">
+        <item quantity="one">Show all services (%1$d more)</item>
+        <item quantity="other">Show all services (%1$d more)</item>
+    </plurals>
+    <string name="connectors_back_to_popular">Show popular services only</string>
+    <!-- learned preferences (기록 → 매일 밤 돌아보기) -->
+    <string name="lookback_rules_empty">Nothing learned yet. As you chat more, I\'ll suggest things overnight.</string>
+    <plurals name="lookback_rules_proposed">
+        <item quantity="one">Suggested rules · %d</item>
+        <item quantity="other">Suggested rules · %d</item>
+    </plurals>
+    <string name="lookback_rules_accepted">Following these</string>
+    <plurals name="lookback_rules_rejected">
+        <item quantity="one">%d set aside</item>
+        <item quantity="other">%d set aside</item>
+    </plurals>
+    <string name="lookback_rule_why">Why I think so</string>
+    <string name="lookback_rule_no_evidence">No reason was noted.</string>
+    <string name="lookback_rule_stop">Stop following</string>
+    <string name="lookback_rule_restore">Follow again</string>
+    <string name="lookback_rule_in_use">Already shaping replies</string>
+    <!-- follow-ups (다시 묻기) -->
+    <string name="followup_action_login">Sign in</string>
+    <string name="followup_action_approve">Approve</string>
+    <string name="followup_action_deny">Decline</string>
+    <string name="followup_action_resume">Resume</string>
+    <string name="followup_action_drop">Stop asking</string>
+    <string name="followup_action_snooze">Ask again %1$s</string>
+    <string name="followup_done_approved">Approved</string>
+    <string name="followup_done_denied">Declined</string>
+    <string name="followup_done_resumed">Resumed</string>
+    <string name="followup_done_dropped">Won\'t ask again</string>
+    <string name="followup_done_snoozed">I\'ll ask again later</string>
+    <string name="followup_done_signed_in">Login details added</string>
+    <string name="followup_done_gone">This is already done</string>
+    <string name="followup_done_resolved">Resolved</string>
+    <string name="followup_action_retry">Try again</string>
+    <string name="followup_kind_approval_expired">Stopped after waiting too long for approval</string>
+    <string name="followup_on_hold">On hold</string>
+    <string name="followup_hold_since">On hold since %1$s</string>
+    <string name="followup_kind_login">Waiting for you to sign in</string>
+    <string name="followup_kind_worker">A stopped task is waiting for your answer</string>
+    <string name="followup_kind_approval">Waiting for your approval</string>
+    <string name="followup_kind_reply">Waiting for your reply</string>
+    <string name="followup_settings_title">Follow-ups</string>
+    <string name="followup_settings_switch">Ask again if there\'s no answer</string>
+    <string name="followup_settings_about">So you don\'t miss things that need you, like a sign-in or an approval, your agent asks again later if you haven\'t answered.</string>
+    <string name="followup_settings_first">First reminder</string>
+    <string name="followup_settings_second">One more reminder</string>
+    <string name="followup_settings_hold_note">If there\'s still no answer after two reminders, it\'s put on hold and kept in the “Needs your answer” list.</string>
+    <string name="signin_sheet_title">Sign-in sheet</string>
+    <string name="signin_sheet_gone">This sign-in request has already ended.</string>
+    <!-- Google 캘린더 (Google 로그인) -->
+    <string name="gcal_title">Connect Google Calendar</string>
+    <string name="gcal_sign_in">Sign in with Google</string>
+    <string name="gcal_sign_in_again">Sign in with Google again</string>
+    <string name="gcal_add_account">Add another Google account</string>
+    <string name="gcal_help">Google will only ask for calendar access. Once you allow it, you\'ll come back to this app. Your password never enters this app.</string>
+    <string name="gcal_not_ready">The operator hasn\'t set up Google sign-in yet.</string>
+    <string name="gcal_account_note">Can see your events. Asks you first every time before adding, changing or deleting one.</string>
+    <string name="gcal_account_read_only">Only viewing events is allowed. To add or change events, sign in again and allow editing too.</string>
+    <string name="gcal_account_problem">Your Google sign-in has expired. Please sign in again.</string>
+    <string name="gcal_disconnect_confirm">Disconnect the %1$s calendar? The login details saved in this app will be deleted.\nYou can remove Google\'s access separately in your Google Account settings.</string>
+    <string name="gcal_other_way">Connect with a service account</string>
+    <string name="gcal_other_way_open">Another way: connect with a service account ›</string>
+    <!-- 휴대폰 캘린더 -->
+
+    <!-- goals: suggestions, a goal's own page, answer buttons in the chat -->
+    <string name="goals_suggest_title">Goals worth trying</string>
+    <string name="goals_suggest_add">Add</string>
+    <string name="goals_suggest_no">No thanks</string>
+    <string name="goals_suggest_added">Added the goal “%1$s”. Kelo will pick it up in Chat.</string>
+    <string name="goals_plan_count">Plan %1$d/%2$d</string>
+    <string name="goals_asking">Kelo\'s waiting for your answer</string>
+    <string name="goals_working">Kelo\'s working on it</string>
+    <string name="goals_next">Next: %1$s</string>
+    <string name="goal_facts">What you\'ve shared</string>
+    <string name="goal_fact_skipped">Skipped</string>
+    <string name="goal_facts_empty">Nothing yet. Kelo will only ask what the plan needs.</string>
+    <string name="goal_plan">Plan</string>
+    <string name="goal_plan_empty">No plan yet. Hand it to Kelo and it\'ll start with a plan.</string>
+    <string name="goal_owner_me">For me</string>
+    <string name="goal_owner_kelo">For Kelo</string>
+    <string name="goal_status_todo">To do</string>
+    <string name="goal_status_doing">Doing</string>
+    <string name="goal_status_done">Done</string>
+    <string name="goal_numbers">Numbers</string>
+    <string name="goal_number_latest">Latest %1$s</string>
+    <string name="goal_number_start">Start %1$s</string>
+    <string name="goal_number_target">Target %1$s</string>
+    <string name="goal_number_none">No records yet</string>
+    <string name="goal_log">History</string>
+    <string name="goal_schedules">Automations</string>
+    <string name="goal_schedule_off">Off</string>
+    <string name="goal_documents">Documents</string>
+    <string name="goal_resume">Let Kelo continue</string>
+    <string name="goal_resume_started">Kelo\'s on it. You can follow along in Chat.</string>
+    <string name="goal_resume_no_model">Pick a model in My first.</string>
+    <string name="goal_edit">Edit</string>
+    <string name="goal_due">By %1$s</string>
+    <string name="goal_mark_step">Mark as done</string>
+    <string name="reply_send">Send</string>
+    <string name="reply_pick_hint">Pick one to send, or write your own</string>
+    <string name="reply_type_hint">Write your answer</string>
+    <string name="a11y_expanded">Expanded</string>
+    <string name="a11y_collapsed">Collapsed</string>
+    <string name="chat_ask_from_job">Asked by a background job</string>
+    <string name="chat_ask_from_schedule">Asked by a scheduled task</string>
+    <string name="chat_ask_from_reply">Asked during an earlier reply</string>
+    <string name="chat_ask_titled">%1$s · %2$s</string>
+    <string name="chat_ask_resolved">%1$s: %2$s</string>
+    <string name="handover_title">%1$s wants to confirm a person is there</string>
+    <string name="handover_body">Solve it yourself and Kelo will carry on.</string>
+    <string name="handover_solve">Solve it</string>
+    <string name="handover_skip">Skip this site</string>
+    <string name="handover_solved">Solved — Kelo is carrying on</string>
+    <string name="handover_skipped">Skipped %1$s</string>
+    <string name="handover_this_site">This site</string>
+    <string name="handover_verify_title">%1$s asks you to confirm the sign-in</string>
+    <string name="handover_verify_body">Approve the sign-in on your phone, or open the live view and type the code there. Kelo carries on once it is done.</string>
+    <string name="handover_verify_open">Open the live view</string>
+    <string name="handover_verify_done">Signed in — Kelo is carrying on</string>
+    <string name="handover_verify_approve_body">Approve the sign-in in the notification on your phone. Kelo carries on once it is approved.</string>
+    <string name="handover_verify_approved">I approved it</string>
+    <string name="handover_progressed">Moved on to the next step — Kelo is carrying on</string>
+    <!-- deleting a goal with schedules on (v18), and the app update check (sideload builds; the desktop app reads the same text) -->
+    <string name="goals_delete_schedules_off">Delete them too</string>
+    <string name="goals_delete_schedules_keep">Keep them running</string>
+    <string name="goals_delete_schedules_body">The goal is deleted either way. Deleted schedules can be restored from the schedule archive; schedules you keep go on running without it.</string>
+    <plurals name="goals_delete_schedules_q">
+        <item quantity="one">Also delete the schedule linked to this goal?</item>
+        <item quantity="other">Also delete the %d schedules linked to this goal?</item>
+    </plurals>
+    <string name="update_available">New version %1$s is available · %2$s</string>
+    <string name="update_get">Get</string>
+    <string name="update_downloading">Downloading… %1$d%%</string>
+    <string name="update_verifying">Checking the file…</string>
+    <string name="update_install">Install</string>
+    <string name="update_ready">Downloaded and checked. Tap Install to update.</string>
+    <string name="update_mismatch">The downloaded file did not match the published one, so it was deleted. Please try again.</string>
+    <string name="update_failed">Could not download. Check the connection and try again.</string>
+    <string name="update_retry">Try again</string>
+    <string name="update_check">Check for updates</string>
+    <string name="update_latest">Up to date</string>
+    <string name="update_checking">Checking…</string>
+    <string name="update_check_failed">Could not check</string>
+    <string name="update_new_value">%1$s available</string>
+    <string name="update_allow_title">Allow installs from Kelo</string>
+    <string name="update_allow_body">To install the new version, Android needs your OK for Kelo to install apps. Turn on “Allow from this source” on the next screen, then come back. Nothing is installed without you.</string>
+    <string name="update_allow_open">Open settings</string>
+    <string name="update_available_store">A new version is available</string>
+    <string name="update_now">Update</string>
+    <string name="update_restart">Restart</string>
+    <string name="update_downloaded">Downloaded · restart to apply</string>
+    <string name="update_required_title">Update Kelo to continue</string>
+    <string name="update_required_body">Your Kelo server needs a newer version of this app. Update it to keep using Kelo.</string>
+    <string name="chat_tool_progress" translatable="false">⏳ %1$s · %2$d/%3$d</string>
+    <string name="chat_tool_ok_failed" translatable="false">✓ %1$s · ✗ %2$d</string>
+    <string name="chat_approval_list_show">See the list (%1$d)</string>
+    <string name="chat_approval_list_hide">Hide the list</string>
+    <string name="chat_browser_step_sites">%1$s · %2$d sites</string>
+    <string name="comparison_recommended">Recommended</string>
+    <string name="comparison_choose">Go with %1$s</string>
+    <string name="comparison_choose_say">Let\'s go with %1$s</string>
+
+    <string name="endpoint_add">Add endpoint</string>
+    <string name="endpoint_name">Name</string>
+    <string name="endpoint_name_hint">e.g. Home Ollama</string>
+    <string name="endpoint_rename">Rename</string>
+    <string name="endpoint_delete">Delete this endpoint</string>
+    <string name="endpoint_delete_confirm">Delete %1$s? Its address and key are removed from the server.</string>
+    <string name="endpoint_in_use">This is the endpoint of the model in use. Switch to another model first.</string>
+    <string name="endpoint_name_taken">That name is already used.</string>
+    <string name="endpoint_too_many">You can keep up to 20 endpoints.</string>
+</resources>

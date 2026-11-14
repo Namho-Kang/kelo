@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">เมื่อเกิดเรื่องนี้ ให้ทำแบบนี้โดยไม่ถามไหม</string>
+    <string name="task_grant_when">เมื่อ</string>
+    <string name="task_grant_does">Kelo จะ</string>
+    <string name="task_grant_buy">ซื้อ</string>
+    <string name="task_grant_limits">วงเงิน</string>
+    <string name="task_grant_per_time">ครั้งละไม่เกิน %1$s</string>
+    <string name="task_grant_times_one">ครั้งเดียว</string>
+    <string name="task_grant_times">ไม่เกิน %1$d ครั้ง</string>
+    <string name="task_grant_no_count">ไม่จำกัดจำนวนครั้ง</string>
+    <string name="task_grant_monthly">เดือนละไม่เกิน %1$s</string>
+    <string name="task_grant_card">บัตร</string>
+    <string name="task_grant_card_limit">วงเงินจ่ายอัตโนมัติของบัตรนี้คือ %1$s อนุญาตงานนี้สูงสุด %2$s ไหม</string>
+    <string name="task_grant_card_not_auto">บัตรนี้ไม่จ่ายเอง งานนี้จ่ายได้สูงสุด %1$s</string>
+    <string name="task_grant_card_phone_only">บัตรนี้เก็บไว้ในโทรศัพท์ของคุณเท่านั้น การชำระเงินแต่ละครั้งจึงยังต้องถาม</string>
+    <string name="task_grant_ship_to">ส่งไปที่</string>
+    <string name="task_grant_send_to">ส่งถึง</string>
+    <string name="task_grant_message">ข้อความ</string>
+    <string name="task_grant_varies">เปลี่ยนได้: %1$s</string>
+    <string name="task_grant_change">เปลี่ยน</string>
+    <string name="task_grant_apply">สมัคร</string>
+    <string name="task_grant_apply_per_run">ไม่เกิน %1$d ต่อครั้ง</string>
+    <string name="task_grant_apply_total">รวม %1$d ครั้ง</string>
+    <string name="task_grant_row_apply">สมัคร %1$s</string>
+    <string name="task_grant_delete_yes">อนุญาตให้ลบ</string>
+    <string name="task_grant_delete_no">ไม่ลบเลย</string>
+    <string name="task_grant_login">เข้าสู่ระบบ</string>
+    <string name="task_grant_login_line">ใช้ล็อกอิน %1$s บน %2$s</string>
+    <string name="task_grant_once">เมื่อทำเสร็จจะจบเอง จึงไม่มีอะไรเกิดซ้ำ</string>
+    <string name="task_grant_after">คุณจะได้รับแจ้งทันทีหลังจากนั้น เรื่องอื่นยังคงถามคุณ</string>
+    <string name="task_grant_urgent">ด่วน: โปรดตอบเร็ว</string>
+    <string name="task_grant_urgent_missed">ด่วน: ถ้าตอบช้า %1$s</string>
+    <string name="task_grant_row_send">ส่งถึง %1$s</string>
+    <string name="task_grant_row_change">เปลี่ยน %1$s</string>
+    <string name="task_grant_row_when">เมื่อ: %1$s</string>
+    <string name="task_grant_row_card">บัตร: %1$s</string>
+    <string name="task_grant_row_left">เหลือ %1$d จาก %2$d</string>
+    <string name="task_grant_row_once">จากนั้นจบ</string>
+    <string name="task_grant_section_note">อนุญาตครั้งเดียวตอนตั้งค่า เรื่องอื่นยังคงถาม</string>
+    <string name="notify_channel_urgent">คำขอด่วน</string>
+    <string name="notify_channel_urgent_desc">เมื่องานที่คุณตั้งไว้ต้องการคำตอบก่อนจะสายเกินไป</string>
+    <string name="notify_approval_urgent">ด่วน: โปรดยืนยัน</string>
+</resources>

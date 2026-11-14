@@ -1,0 +1,164 @@
+Kelo
+====
+
+Copyright (C) 2026 Nam Ho Kang.
+
+Kelo's own code and content in this repository (the server, the Android, iOS and desktop apps, the website and the documents) are
+free software: you can redistribute and/or modify them under the terms of the GNU Affero General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your option) any later version. They are distributed in the hope
+that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE. See the GNU Affero General Public License in the file LICENSE for more details.
+
+If you run a modified Kelo server for other people over a network, the AGPL asks you to offer them the source of your modified version.
+
+The name "Kelo", the Kelo logo and the Kelo mascot character are not covered by this licence: forks must use their own name
+and artwork.
+
+Third-party code included in this repository
+--------------------------------------------
+
+server/src/assistant/providers/vendor/claude_directsdk/
+    From NousResearch/hermes-official-plugins (claude-subscription-directsdk), version 0.3.4.
+    MIT License, Copyright (c) 2026 Nous Research and contributors. Full text: that folder's LICENSE.
+
+server/src/assistant/providers/vendor/antigravity/
+    From neerazz/hermes-antigravity-oauth, version 0.1.0, with parts derived from
+    soyelmismo/hermes-antigravity-subscription (b7ab470).
+    MIT License, Copyright (c) 2026 Neeraj Kumar Singh Beshane and Copyright (c) 2026 soyelmismo. Full text: that folder's LICENSE.
+
+server/src/assistant/providers/vendor/hermes_shim/
+    agent/reasoning_effort.py and tools/schema_sanitizer.py from NousResearch/hermes-agent
+    (https://github.com/NousResearch/hermes-agent, same paths there).
+    MIT License, Copyright (c) 2025 Nous Research. Full text: that folder's LICENSE.
+
+server/src/assistant/providers/oauth.py (the constants block marked "from Hermes auth_constants.py")
+    Client ids, endpoints and request constants taken from NousResearch/hermes-agent (auth_constants.py,
+    https://github.com/NousResearch/hermes-agent). The rest of that file is Kelo's own code.
+    MIT License, Copyright (c) 2025 Nous Research. Full text: server/src/assistant/providers/vendor/hermes_shim/LICENSE.
+
+server/src/assistant/providers/providers.json (the provider catalogue)
+    Partly derived from the provider list of NousResearch/hermes-agent (https://github.com/NousResearch/hermes-agent); the entries
+    marked "Not in Hermes' provider list" in server/src/assistant/providers/registry.py are Kelo's own.
+    MIT License, Copyright (c) 2025 Nous Research. Full text: server/src/assistant/providers/vendor/hermes_shim/LICENSE.
+
+The three vendored folders above are copies taken from their upstream projects at the versions named; a comparison with the
+upstream default branches on 2026-11-09 found small differences in some files (older snapshots and/or local changes).
+
+server/src/assistant/tools/public_suffix_list.dat
+    The Public Suffix List (https://publicsuffix.org/list/public_suffix_list.dat), version 2026-11-09_13-00-17_UTC
+    (commit ab73a956765706dc3f42dbac5c7e48df2297e1ac), unchanged. Mozilla Public License 2.0 (https://mozilla.org/MPL/2.0/);
+    the licence header is at the top of the file. Kelo uses it (tools/sites.py) for what "one site" means.
+
+apps/android/kelo/app/src/main/java/chat/kelo/app/ui/icons/KeloIcons.kt
+    A few outlines follow Feather (MIT License, Copyright (c) 2013-2023 Cole Bemis) and Lucide (ISC License, Copyright (c) Lucide
+    Contributors). Full texts: apps/android/kelo/NOTICE.
+
+Build tools included in this repository
+---------------------------------------
+
+apps/android/kelo/gradle/wrapper/gradle-wrapper.jar, apps/desktop/gradle/wrapper/gradle-wrapper.jar, the gradlew scripts
+    Gradle Wrapper, Copyright Gradle, Inc. Apache License 2.0.
+
+Fonts
+-----
+
+server/src/assistant/site/fonts/ (the kelo.chat website)
+    Familjen Grotesk, Copyright 2021 The Familjen Grotesk Project Authors. SIL Open Font License 1.1.
+    Full text: server/src/assistant/site/fonts/OFL-familjen-grotesk.txt
+    IBM Plex Mono, Copyright 2017 IBM Corp., with Reserved Font Name "Plex". SIL Open Font License 1.1.
+    Full text: server/src/assistant/site/fonts/OFL-ibm-plex-mono.txt
+
+apps/android/design/promo-src/fonts/ (used only to render promotional images and videos)
+    Pretendard, Copyright (c) 2021 Kil Hyung-jin, with Reserved Font Name 'Pretendard'; includes parts of Source Han Sans
+    (Copyright 2014-2021 Adobe, Reserved Font Name 'Source'), Inter (Copyright (c) 2016 The Inter Project Authors, Reserved Font
+    Name 'Inter') and M PLUS 1 (Copyright 2021 The M+ FONTS Project Authors, Reserved Font Name 'M PLUS 1').
+    SIL Open Font License 1.1. Full text: apps/android/design/promo-src/fonts/Pretendard-LICENSE.txt
+    JetBrains Mono, Copyright 2020 The JetBrains Mono Project Authors. SIL Open Font License 1.1.
+    Full text: apps/android/design/promo-src/fonts/JBM-LICENSE.txt
+
+The fonts are under the SIL Open Font License, not under the AGPL.
+
+Photographs on the website (server/src/assistant/site/photos/)
+-------------------------------------------------------
+
+The photo-*.webp files are photographs from Wikimedia Commons, cropped and resized for the site. Each keeps its own licence (public
+domain, CC0, CC BY 2.0, CC BY-SA 3.0 or CC BY-SA 4.0), not the AGPL. The author, licence and source page of each one are listed in
+server/src/assistant/website.py (CREDITS) and shown on https://kelo.chat/privacy#credits. Adapted versions of the CC BY-SA photographs are
+shared under the same CC BY-SA licence as their original.
+
+Logos on the website (server/src/assistant/site/logos/)
+------------------------------------------------
+
+The Android, Apple, Windows, GitHub, Gmail, Linear, Notion, Todoist and Zapier logos are trademarks of their owners, used to name
+the platforms Kelo runs on and the services it connects to. Their owners are not affiliated with Kelo and do not endorse it. These
+logos are not covered by Kelo's licence.
+
+Address data
+------------
+
+server/src/assistant/data/address_data.json (rebuilt by scripts/fetch_address_data.py; Kelo never fetches it at run time)
+    - Address metadata from Google's Address Data Service (https://chromium-i18n.appspot.com/ssl-address/data), the data behind
+      libaddressinput (https://github.com/google/libaddressinput): per country the address format, required fields, postal-code
+      patterns, field names and first-level region lists. Data licensed under the Creative Commons Attribution 4.0 International
+      licence (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/), Copyright Google LLC. Kelo keeps only some fields of each
+      record (see the script) and adds its own local form conventions in server/src/assistant/data/address_local.json.
+    - Calling codes and national prefixes from libphonenumber's resources/PhoneNumberMetadata.xml
+      (https://github.com/google/libphonenumber). Apache License 2.0, Copyright The Libphonenumber Authors.
+    - The country of each time zone from the IANA time zone database's zone.tab (https://www.iana.org/time-zones), public domain.
+
+Weather data and public holidays (fetched or computed at run time, not stored in this repository)
+--------------------------------------------------------------------------------------------------
+
+server/src/assistant/weather.py asks weather services for forecasts from each owner's own Kelo server; no key is shared between servers and
+none is built in.
+    - Open-Meteo (https://open-meteo.com/): forecast, air-quality and geocoding APIs, used by default without a key. Data licensed
+      under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); wherever it is shown, Kelo credits "Weather data by
+      Open-Meteo.com" with a link to https://open-meteo.com/. The free API is for non-commercial use (open-meteo.com/en/terms): each
+      Kelo server is its owner's personal assistant and calls it from its own address.
+    - Korea Meteorological Administration short-term forecast (기상청 단기예보 조회서비스, data.go.kr), only with the owner's own
+      service key: Korea Open Government License type 1 (credit the source, 기상청).
+    - WeatherAPI.com, only with the owner's own key, under its terms (https://www.weatherapi.com/terms.aspx).
+server/src/assistant/calendars.py reads CalDAV calendars (iCloud, Yahoo, Naver, your own server) with these Python packages, installed from
+PyPI (not copied into this repository):
+    - icalendar (https://github.com/collective/icalendar): BSD 2-Clause License, Copyright (c) Plone Foundation and contributors.
+    - recurring-ical-events (https://github.com/niccokunzmann/python-recurring-ical-events): GNU Lesser General Public License v3 or
+      later, Copyright (c) Nicco Kunzmann and contributors. Used as an unmodified library; a copy of the LGPL-3.0 and of the GPL-3.0 it
+      refers to is available from https://www.gnu.org/licenses/. Kelo itself is under the AGPL-3.0, which the LGPL allows.
+    - x-wr-timezone (https://github.com/niccokunzmann/x-wr-timezone), a dependency of recurring-ical-events: LGPL-3.0-or-later,
+      Copyright (c) Nicco Kunzmann.
+    - tzdata (https://github.com/python/tzdata), a dependency of icalendar: Apache License 2.0, Copyright (c) Python Software
+      Foundation. (The `caldav` package, Apache-2.0 OR GPL-3.0, is not used: Kelo does its own CalDAV requests through its guarded
+      network layer, so that every request is pinned to one registered host.)
+server/src/assistant/day_types.py uses the `holidays` Python package (https://github.com/vacanza/holidays, MIT License) to tell public
+holidays from working days.
+
+Service icons (third-party trademarks)
+--------------------------------------
+
+server/src/assistant/connector_icons/
+    The app icons of the services Kelo connects to (one PNG per service at 256 and 128 pixels), taken once from each service's own
+    website (its web app manifest, apple-touch-icon, site icon or its own brand or press page) and resized to a square. manifest.json
+    records the source address and the date for each one. These logos and names are trademarks of their owners, who are not
+    affiliated with Kelo and do not endorse it. They are used only inside the Kelo apps, to show which service a connector row is.
+    They are not covered by Kelo's licence, and they are not to be used on Kelo's website, store listings or promotional material.
+    The few entries marked "source": "kelo" (kelo_mail, kelo_calendar, kelo_place) are not third-party logos: they are plain glyphs
+    drawn for Kelo, for connectors that are not one company's service, and fall under Kelo's own licence.
+
+Software installed when the Docker images are built (not included in this repository)
+--------------------------------------------------------------------------------------
+
+Python packages listed in pyproject.toml / uv.lock (each under its own licence); Debian packages (Chromium, poppler-utils, fonts and
+others, see Dockerfile and Dockerfile.workroom); the Claude Code CLI (npm @anthropic-ai/claude-code) and the Google Antigravity CLI,
+installed only in the optional sidecar images (Dockerfile.cli) under their vendors' terms.
+Among the Python packages, mutagen (audio metadata) is under the GNU General Public License v2 or later, and PyAV (av) and
+pillow-heif are distributed as wheels that bundle native libraries (FFmpeg; libheif and its codecs) under their own licences,
+which include the LGPL and, for some codecs, the GPL. Kelo uses all of them as unmodified libraries installed from PyPI.
+
+Libraries included in the app binaries (fetched by Gradle or npm when the apps are built; not in this repository)
+----------------------------------------------------------------------------------------------------------------
+
+Android and desktop: AndroidX (including CameraX, Media3, Health Connect client, Biometric), Jetpack Compose and Compose
+Multiplatform, Kotlin and kotlinx libraries, OkHttp, ZXing and Guava (Apache License 2.0); JNA on the desktop (Apache License 2.0
+or LGPL 2.1). The Android app also uses Google libraries under Google's own terms: Firebase Cloud Messaging, ML Kit (barcode
+scanning, text recognition), Google Play services Wallet (card recognition) and, in Play builds only, Play In-App Updates.
+Web app: React (MIT License). The iOS app uses no third-party libraries. Each library is distributed under its own licence.

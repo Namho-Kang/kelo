@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">기억 정리: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="other">%d개 추가</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="other">%d개 정리</item>
+    </plurals>
+    <string name="memory_pass_undone">기억 정리를 되돌렸어요</string>
+    <string name="memory_pass_view">바뀐 내용</string>
+    <string name="memory_pass_changes_title">기억 정리에서 바뀐 내용</string>
+    <string name="memory_pass_no_lines">보여 줄 바뀐 줄이 없어요.</string>
+    <string name="memory_pass_undo">이번 정리 되돌리기</string>
+    <string name="memory_pass_undo_confirm">기억해 둔 내용을 이번 정리 전으로 되돌릴까요? 그 뒤에 고친 내용은 그대로 둬요.</string>
+    <string name="memory_pass_undo_gone">이 정리는 이제 되돌릴 수 없어요.</string>
+    <string name="memory_pass_added_line">추가: %1$s</string>
+    <string name="memory_pass_removed_line">뺌: %1$s</string>
+    <string name="memory_area_about_you">나에 대해</string>
+    <string name="memory_area_to_remember">기억할 것</string>
+    <string name="memory_area_people">사람들</string>
+    <string name="memory_area_working_notes">일하는 요령</string>
+</resources>

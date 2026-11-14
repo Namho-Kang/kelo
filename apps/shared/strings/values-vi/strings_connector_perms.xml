@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">Kelo được làm gì</string>
+    <string name="perm_about">Cho phép: không cần thẻ. Hỏi: một thẻ mỗi lần. Tắt: Kelo không làm. Thanh toán và đăng ký luôn hỏi.</string>
+    <string name="perm_kind_read">Đọc</string>
+    <string name="perm_kind_change">Thay đổi</string>
+    <string name="perm_kind_send">Gửi</string>
+    <string name="perm_kind_delete">Xóa</string>
+    <string name="perm_allow">Cho phép</string>
+    <string name="perm_ask">Hỏi</string>
+    <string name="perm_off">Tắt</string>
+    <string name="perm_default_is">Mặc định: %1$s</string>
+    <string name="perm_changed_from">Mặc định là %1$s</string>
+    <string name="perm_actions_more">%1$d thao tác riêng lẻ</string>
+    <string name="perm_reset">Quay về mặc định</string>
+    <string name="perm_reset_q">Đặt mọi cài đặt của kết nối này về mặc định?</string>
+    <string name="perm_read_off_q">Khi tắt đọc, Kelo gần như không dùng được kết nối này. Tắt chứ?</string>
+    <string name="perm_limited">Bị giới hạn</string>
+</resources>

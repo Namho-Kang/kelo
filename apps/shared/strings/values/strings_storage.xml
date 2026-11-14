@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The storage warning and the cleanup screen (my/StorageRules.kt, my/CleanupPage.kt) -->
+<resources>
+    <string name="storage_clean_up">Clean up</string>
+    <string name="storage_cleanup_title">Clean up storage</string>
+    <string name="storage_warn">Kelo\'s storage is %1$d%% full.</string>
+    <string name="storage_critical">Kelo\'s storage is almost full (%1$d%%). Once it\'s full, new files can\'t be saved, but chats keep working.</string>
+    <string name="storage_host_low">The disk of the computer the Kelo server runs on is almost full (%1$s left). When it fills up, Kelo stops working, chats included.</string>
+    <string name="storage_top">Most of it: %1$s (%2$s).</string>
+    <string name="storage_row_warn">%1$d%% full</string>
+    <string name="storage_row_critical">Almost full</string>
+    <string name="storage_row_host">Disk almost full</string>
+    <string name="storage_cleanup_intro">These can be removed safely. Notes, memory and chat history are never listed here.</string>
+    <string name="storage_group_uploads">Old upload originals</string>
+    <string name="storage_group_uploads_desc">Files uploaded more than %1$d days ago. Only the original goes; text Kelo read from a document stays.</string>
+    <string name="storage_group_images">Generated images</string>
+    <string name="storage_group_images_desc">Images Kelo made. Older chat messages that showed them will show nothing.</string>
+    <string name="storage_group_browser">Browser step pictures</string>
+    <string name="storage_group_browser_desc">Pictures of browser steps from tasks that ran on their own.</string>
+    <string name="storage_group_results">Old results and trash</string>
+    <string name="storage_group_results_desc">Results older than %1$d days and everything in the trash.</string>
+    <string name="storage_group_backups">Older backups</string>
+    <string name="storage_group_backups_desc">The newest backups are always kept.</string>
+    <string name="storage_item_text_kept">Text kept</string>
+    <string name="storage_item_trashed">In trash</string>
+    <string name="storage_backup_update">Before a server update</string>
+    <string name="storage_backup_memory">Memory tidy-up</string>
+    <string name="storage_backup_migration">Earlier layout</string>
+    <string name="storage_item_line" translatable="false">%1$s · %2$s</string>
+    <string name="storage_selected">Selected: %1$d (%2$s)</string>
+    <string name="storage_delete_button">Delete</string>
+    <string name="storage_confirm_title">Delete the selected items for good?</string>
+    <string name="storage_confirm_body">This frees %1$s. Deleted items can\'t be brought back.</string>
+    <string name="storage_deleted">Freed %1$s.</string>
+    <string name="storage_skipped">Some items had already changed, so they were left as they are.</string>
+    <string name="storage_nothing">Nothing to clean up right now.</string>
+    <string name="storage_owner_only">Only the server\'s owner can clean up.</string>
+    <string name="storage_load_failed">Couldn\'t load what can be cleaned up.</string>
+    <string name="storage_delete_failed">Couldn\'t delete. Try again.</string>
+    <string name="storage_notify">Storage is filling up</string>
+</resources>

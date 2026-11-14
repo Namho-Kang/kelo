@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nl text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">Binnenkort</string>
+    <string name="google_review_title">Aanmelden met Google wordt voorbereid</string>
+    <string name="google_review_note">Dit gaat open zodra Google klaar is met de beoordeling. Als je Kelo steunt, gaat het sneller open.</string>
+    <string name="google_review_support">Kelo steunen</string>
+    <string name="google_review_phone_calendar">Koppelen via de telefoonagenda</string>
+    <string name="google_review_phone_calendar_help">Android-telefoons bewaren je Google Agenda in de eigen agenda van de telefoon, dus Kelo kan hem daar lezen.</string>
+    <string name="google_review_open_switch">Aanmelden met Google voor iedereen openzetten</string>
+    <string name="google_review_open_warning">Zet dit pas aan nadat Google deze client heeft geverifieerd. Tot dan staat Google maximaal 100 gebruikers toe en krijgen zij een waarschuwing te zien.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="briefing_sources_title">What it reads</string>
+    <string name="briefing_sources_about">Kelo reads every connected calendar and mailbox for the briefing and heads-ups. Switch one off to leave it out.</string>
+    <string name="briefing_sources_calendars">Calendars</string>
+    <string name="briefing_sources_mail">Mail</string>
+    <string name="briefing_sources_chat">You can also just tell Kelo in the chat, for example “leave my work mail out of the briefing”.</string>
+    <string name="briefing_sources_check">Check the accounts now</string>
+    <string name="briefing_sources_checking">Checking…</string>
+    <string name="connector_method_caldav">CalDAV app password</string>
+    <string name="caldav_help">Use the CalDAV address your provider gives (for example https://dav.fastmail.com/ for Fastmail), your user name and an app password.</string>
+    <string name="caldav_url">CalDAV address</string>
+    <string name="caldav_user">User name</string>
+    <string name="caldav_account_note">Kelo only reads this calendar, for the briefing and heads-ups. It never changes it.</string>
+    <string name="caldav_disconnect_confirm">Disconnect %1$s? The saved app password will be erased.</string>
+    <string name="caldav_add_other">Add another calendar</string>
+    <string name="caldav_notify">I connected my calendar. Please continue.</string>
+    <string name="caldav_url_hint" translatable="false">https://dav.example.com/</string>
+</resources>

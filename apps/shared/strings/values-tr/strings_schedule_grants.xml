@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_schedule_grants.xml (generated from values/strings_schedule_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_row_pays_auto">Limitlerin içinde kendisi öder</string>
+    <string name="wallet_tag_asks">Her seferinde sorar</string>
+    <string name="wallet_reason_not_auto">Bu kart her seferinde soracak şekilde kaydedildi.</string>
+    <string name="wallet_reason_no_server_copy">Sunucuda bu kartın otomatik ödeme için kopyası yok.</string>
+    <string name="wallet_reason_paused">Otomatik ödeme tüm kartlar için duraklatıldı.</string>
+    <string name="wallet_reason_vault_locked">Anahtar Zinciri ajanın için kilitli.</string>
+    <string name="wallet_auto_turn_on_card">Bu kart için otomatik ödemeyi aç</string>
+    <string name="wallet_first_site_rule">Otomatik ödeme açık olsa da yeni bir sitedeki ilk ödeme bir kez sorar; limitlerini aşan her ödeme de sorar.</string>
+    <string name="wallet_auto_none_value">Otomatik ödemede kart yok</string>
+    <plurals name="wallet_auto_cards_value">
+        <item quantity="one">Otomatik ödemede %d kart</item>
+        <item quantity="other">Otomatik ödemede %d kart</item>
+    </plurals>
+    <string name="wallet_auto_none_note">Henüz kendisi ödeyen kart yok, bu yüzden her ödeme bu telefonda sorar. Değiştirmek için bir kartı aç ve otomatik ödemeyi aç.</string>
+    <string name="wallet_schedule_section">Kendisi satın alan zamanlamalar</string>
+    <string name="grant_section_title">Sormadan izinli</string>
+    <string name="grant_section_note">Kurulumda bir kez izin verildi. Daha yüksek tutar, başka site ya da ürün ve hesap değişiklikleri yine sorar.</string>
+    <string name="grant_login_title">%1$s ile oturum açar</string>
+    <string name="grant_login_site">%1$s üzerinde</string>
+    <string name="grant_purchase_title">%1$s satın alır</string>
+    <string name="grant_purchase_cap">%1$s üzerinde · çalışma başına en çok %2$s, ayda %3$s</string>
+    <string name="grant_spent">Bu ay: %1$s</string>
+    <string name="grant_for_schedule">“%1$s” için</string>
+    <string name="grant_revoke">İptal et</string>
+    <string name="grant_revoke_confirm">Bu izin iptal edilsin mi? Çalışmalar yeniden soracak.</string>
+    <string name="grant_login_section">Bu girişi sormadan kullanan zamanlamalar</string>
+</resources>

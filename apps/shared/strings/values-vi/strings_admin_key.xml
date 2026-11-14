@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">Xem cả chi tiêu và số dư</string>
+    <string name="admin_key_title">Khóa quản trị cho chi tiêu và số dư</string>
+    <string name="admin_key_safety">Được lưu trữ trong vùng chứa khóa trên máy chủ của bạn, không phải bởi Kelo, và chỉ dùng để xem chi tiêu và số dư.</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create (chỉ đọc là đủ).</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys (chỉ dành cho tài khoản tổ chức).</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create.</string>
+    <string name="admin_key_save">Lưu</string>
+    <string name="admin_key_saved">Đã lưu. Chi tiêu hiển thị bên dưới.</string>
+    <string name="admin_key_refused">Nhà cung cấp đã từ chối khóa này. Hãy kiểm tra xem đó có phải khóa quản trị không.</string>
+    <string name="admin_key_keyring_off">Máy chủ này không lưu khóa quản trị (vùng chứa khóa đang tắt).</string>
+    <string name="admin_key_failed">Không thể lưu khóa. Vui lòng thử lại sau giây lát.</string>
+    <string name="admin_key_set">Khóa quản trị …%1$s</string>
+    <string name="admin_key_remove">Xóa</string>
+    <string name="admin_key_remove_q">Xóa khóa quản trị? Chi tiêu và số dư sẽ không còn hiển thị.</string>
+    <string name="my_privacy_keyring">Khóa nhà cung cấp AI bạn nhập (và khóa quản trị, nếu thêm) được lưu giữ bởi một vùng chứa khóa riêng trên máy chủ của bạn, không phải bởi Kelo; Kelo yêu cầu thực hiện từng lệnh gọi và khóa chỉ được gắn cho địa chỉ riêng của nhà cung cấp đó.</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Kelos Dateien</string>
+    <string name="files_about">Was Kelo für sich selbst aufschreibt: wer du bist, sein Gedächtnis, seine Notizen. Du kannst sie lesen, ändern und löschen. Uploads und Ergebnisse haben eigene Seiten.</string>
+    <string name="files_new_folder">Neuer Ordner</string>
+    <string name="files_make">Erstellen</string>
+    <string name="files_folder_name">Ordnername</string>
+    <string name="files_folder_bad">Dieser Name kann nicht verwendet werden.</string>
+    <string name="files_edit">Bearbeiten</string>
+    <string name="files_save">Speichern</string>
+    <string name="files_cancel">Abbrechen</string>
+    <string name="files_saved">Gespeichert. Kelo liest den neuen Text ab der nächsten Antwort.</string>
+    <string name="files_save_failed">Speichern nicht möglich.</string>
+    <string name="files_full">Der Speicher des Servers ist voll.</string>
+    <string name="files_discard_q">Ohne Speichern verlassen?</string>
+    <string name="files_discard">Verlassen</string>
+    <string name="files_reset">Zurück zum Anfang</string>
+    <string name="files_reset_q">Diese Datei auf den Anfangszustand zurücksetzen? Der aktuelle Text kommt in den Papierkorb.</string>
+    <string name="files_reset_done">Zurück zum Anfang. Der alte Text liegt im Papierkorb.</string>
+    <string name="files_core_reset_hint">Kelo braucht diese Datei. Nutze stattdessen „Zurück zum Anfang“.</string>
+    <string name="files_delete">Löschen</string>
+    <string name="files_delete_q">In den Papierkorb verschieben? Nach 30 Tagen wird es endgültig gelöscht.</string>
+    <string name="files_deleted">In den Papierkorb verschoben.</string>
+    <string name="files_read_only">Kelo hält diese Datei aktuell; sie kann hier nicht geändert werden.</string>
+    <string name="files_load_failed">Die Dateien konnten nicht geladen werden.</string>
+    <string name="files_trash_title">Papierkorb</string>
+    <string name="files_trash_about">Gelöschte Dateien bleiben hier 30 Tage.</string>
+    <string name="files_trash_left">In %1$d Tagen endgültig gelöscht</string>
+    <string name="files_trash_empty">Der Papierkorb ist leer.</string>
+    <string name="files_restore">Wiederherstellen</string>
+    <string name="files_restored">Wiederhergestellt.</string>
+    <string name="files_purge">Endgültig löschen</string>
+    <string name="files_purge_q">Endgültig löschen? Das lässt sich nicht rückgängig machen.</string>
+    <string name="files_core_assistant">Kelos Charakter und Ton</string>
+    <string name="files_core_user">Was Kelo über dich weiß</string>
+    <string name="files_core_memory">Kelos Gedächtnis</string>
+    <string name="files_core_agents">Wie Kelo arbeitet</string>
+    <string name="files_core_checklist">Zu prüfen</string>
+    <string name="files_core_notify">Benachrichtigungen</string>
+</resources>

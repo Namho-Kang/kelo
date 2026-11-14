@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_buy_ready.xml -->
+<resources>
+    <string name="buy_ready_title">Siap membeli</string>
+    <string name="buy_ready_short">Siap langsung beli</string>
+    <string name="buy_ready_problems_short">Siap membeli: %1$d perlu diperbaiki</string>
+    <string name="buy_ready_ok">Semuanya siap. Saat muncul, Kelo langsung membeli sesuai batas yang diizinkan.</string>
+    <string name="buy_ready_not_ok">Ada beberapa hal yang belum siap:</string>
+    <string name="buy_ready_login">Masuk</string>
+    <string name="buy_ready_login_kept">Tetap masuk</string>
+    <string name="buy_ready_login_out">Keluar</string>
+    <string name="buy_ready_checked">Pemeriksaan terakhir</string>
+    <string name="buy_ready_remembered">Kelo mengingat langkah checkout situs ini, sehingga bisa membeli dalam hitungan detik.</string>
+    <string name="buy_ready_about">Halaman produk tetap terbuka di browser Kelo dan diperiksa setiap 15 menit.</string>
+    <string name="buy_ready_check">Periksa sekarang</string>
+</resources>

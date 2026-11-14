@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_beta.xml (generated from values/strings_beta.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="beta_request">बीटा पहुँच माँगें</string>
+    <string name="beta_requested">अनुरोध भेजा</string>
+    <string name="beta_sheet_note">Google साइन-इन अभी कुछ ही लोगों के लिए खुला है। जिस Google ईमेल को आप जोड़ेंगे उसे लिखें, जुड़ जाने पर हम उसी पते पर बताएँगे।</string>
+    <string name="beta_email_hint">Google ईमेल पता</string>
+    <string name="beta_email_invalid">सही ईमेल पता डालें।</string>
+    <string name="beta_send">भेजें</string>
+    <string name="beta_sending">भेजा जा रहा है…</string>
+    <string name="beta_sent">अनुरोध भेज दिया। मंज़ूरी मिलने पर हम %1$s पर ईमेल करेंगे — फिर लौटकर दोबारा जोड़ें।</string>
+    <string name="beta_declined">इस बार आपका बीटा अनुरोध मंज़ूर नहीं हुआ। Google की समीक्षा पूरी होते ही Google साइन-इन सभी के लिए खुल जाएगा।</string>
+    <string name="operator_section_beta">बीटा अनुरोध</string>
+    <string name="operator_beta_note">Google साइन-इन आज़माना चाहने वाले लोग। पहले उन्हें Google Cloud Console में टेस्ट यूज़र के रूप में जोड़ें, फिर ‘मंज़ूर’ दबाएँ। निपटाए गए अनुरोध 30 दिन बाद मिट जाते हैं।</string>
+    <string name="operator_beta_steps">Google Cloud Console → Google Auth Platform → ऑडियंस (Audience) → टेस्ट यूज़र → %1$s जोड़ें</string>
+    <string name="operator_beta_mail_from">ईमेल %1$s से भेजे जाते हैं।</string>
+    <string name="operator_beta_no_mail">इस सर्वर पर कोई Gmail जुड़ा नहीं है, इसलिए ईमेल नहीं भेजे जाते। भेजने के लिए कनेक्टर में Gmail जोड़ें।</string>
+    <string name="operator_beta_not_receiving">यह सर्वर Google साइन-इन का बिचौलिया नहीं है, इसलिए इसे अनुरोध नहीं मिलते।</string>
+    <string name="operator_beta_empty">अभी कोई अनुरोध नहीं।</string>
+    <string name="operator_beta_open">प्रतीक्षा में: %1$d</string>
+    <string name="operator_beta_approve">मंज़ूर</string>
+    <string name="operator_beta_decline">अस्वीकार करें</string>
+    <string name="operator_beta_waiting">प्रतीक्षा में</string>
+    <string name="operator_beta_state_approved">मंज़ूर</string>
+    <string name="operator_beta_declined">अस्वीकृत</string>
+    <string name="operator_beta_notice_no_mail">support को ईमेल नहीं गया: कोई Gmail जुड़ा नहीं है।</string>
+    <string name="operator_beta_notice_failed">support को ईमेल नहीं भेजा जा सका।</string>
+    <string name="operator_beta_decline_confirm">यह अनुरोध अस्वीकार करें?</string>
+    <string name="operator_beta_decline_mail">छोटा ईमेल भेजें</string>
+    <string name="operator_beta_mailed">%1$s को ईमेल भेजा।</string>
+    <string name="operator_tester_steps">Play Console → टेस्टिंग → क्लोज़्ड टेस्टिंग → टेस्टर में %1$s जोड़ें, फिर नीचे टैप करें।</string>
+    <string name="operator_tester_added">Play में जोड़ दिया</string>
+    <string name="notify_beta_request">बीटा अनुरोध</string>
+</resources>

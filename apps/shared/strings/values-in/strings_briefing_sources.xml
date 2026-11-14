@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">Yang dibaca</string>
+    <string name="briefing_sources_about">Kelo membaca semua kalender dan kotak surat yang terhubung untuk ringkasan dan pengingat. Matikan satu untuk melewatkannya.</string>
+    <string name="briefing_sources_calendars">Kalender</string>
+    <string name="briefing_sources_mail">Surat</string>
+    <string name="briefing_sources_chat">Anda juga bisa memberi tahu Kelo di chat, misalnya: “jangan sertakan surat kantor di ringkasan”.</string>
+    <string name="briefing_sources_check">Periksa akun sekarang</string>
+    <string name="briefing_sources_checking">Memeriksa…</string>
+    <string name="connector_method_caldav">Kata sandi aplikasi CalDAV</string>
+    <string name="caldav_help">Gunakan alamat CalDAV dari penyedia Anda (misalnya https://dav.fastmail.com/ untuk Fastmail), nama pengguna, dan kata sandi aplikasi.</string>
+    <string name="caldav_url">Alamat CalDAV</string>
+    <string name="caldav_user">Nama pengguna</string>
+    <string name="caldav_account_note">Kelo hanya membaca kalender ini, untuk ringkasan dan pengingat. Tidak pernah mengubahnya.</string>
+    <string name="caldav_disconnect_confirm">Putuskan %1$s? Kata sandi aplikasi yang tersimpan akan dihapus.</string>
+    <string name="caldav_add_other">Tambah kalender lain</string>
+    <string name="caldav_notify">Saya sudah menghubungkan kalender. Silakan lanjutkan.</string>
+</resources>

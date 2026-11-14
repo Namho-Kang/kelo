@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tr text for strings_buy_ready.xml -->
+<resources>
+    <string name="buy_ready_title">Satın almaya hazır</string>
+    <string name="buy_ready_short">Hemen satın almaya hazır</string>
+    <string name="buy_ready_problems_short">Satın almaya hazır: düzeltilecek %1$d</string>
+    <string name="buy_ready_ok">Her şey hazır. Göründüğünde Kelo izin verdiğiniz sınırlar dahilinde hemen satın alır.</string>
+    <string name="buy_ready_not_ok">Hazır olmayan bazı şeyler var:</string>
+    <string name="buy_ready_login">Giriş yapma</string>
+    <string name="buy_ready_login_kept">Oturum açık tutuluyor</string>
+    <string name="buy_ready_login_out">Çıkış yapıldı</string>
+    <string name="buy_ready_checked">Son kontrol</string>
+    <string name="buy_ready_remembered">Kelo bu sitenin ödeme adımlarını hatırlar, böylece saniyeler içinde satın alabilir.</string>
+    <string name="buy_ready_about">Ürün sayfası Kelo tarayıcısında açık kalır ve her 15 dakikada bir kontrol edilir.</string>
+    <string name="buy_ready_check">Şimdi kontrol et</string>
+</resources>

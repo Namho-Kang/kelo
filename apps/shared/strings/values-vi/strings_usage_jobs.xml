@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_usage_jobs.xml (generated from values/strings_usage_jobs.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_background_title">Mô hình cho việc chạy nền</string>
+    <string name="model_background_help">Chỉ dùng cho việc Kelo tự làm: nhìn lại mỗi đêm, chăm sóc bộ nhớ, nhật ký, chọn điều cần báo cho bạn và tóm tắt các cuộc trò chuyện dài. Mọi việc dùng trình duyệt, thanh toán hay gửi đi thứ gì vẫn do mô hình chính làm.</string>
+    <string name="model_background_same">Giống mô hình chính</string>
+    <string name="model_background_fell_back">Vào %1$s mô hình chạy nền bị lỗi nên mô hình chính đã làm thay.</string>
+    <string name="usage_jobs_tokens">%1$s token</string>
+</resources>

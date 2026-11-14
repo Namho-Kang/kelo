@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_time_labels.xml (generated from values/strings_time_labels.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="chat_time_today">今天</string>
+    <string name="chat_time_yesterday">昨天</string>
+</resources>

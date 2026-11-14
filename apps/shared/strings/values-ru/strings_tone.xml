@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">Тон</string>
+    <string name="my_agent_tone_friendly">Дружеский</string>
+    <string name="my_agent_tone_polite">Вежливый</string>
+    <string name="my_agent_tone_friendly_example">Завтра в 10 у тебя стоматолог. Поставить напоминание?</string>
+    <string name="my_agent_tone_polite_example">Завтра в 10 у вас приём у стоматолога. Поставить вам напоминание?</string>
+    <string name="my_agent_tone_failed">Не удалось изменить тон. Попробуйте ещё раз.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ko text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">별명</string>
+    <string name="wallet_nickname_field">별명 (선택)</string>
+    <string name="wallet_tag_default">기본</string>
+    <string name="wallet_default_title">기본 카드</string>
+    <string name="wallet_default_on">다른 카드를 말하지 않으면 Kelo가 이 카드로 결제해요.</string>
+    <string name="wallet_make_default">기본 카드로 지정</string>
+    <string name="wallet_delete_default_title">새 기본 카드 고르기</string>
+    <string name="wallet_delete_default_body">‘%1$s’ 카드는 기본 카드예요. 앞으로 결제에 쓸 카드를 골라 주세요.</string>
+    <string name="wallet_card_history">이 카드로 한 결제</string>
+    <string name="wallet_card_history_empty">Kelo가 아직 이 카드로 결제한 적이 없어요.</string>
+    <string name="wallet_card_history_more">이전 결제 더 보기</string>
+    <string name="wallet_open_chat">대화 보기</string>
+    <string name="wallet_open_task">작업 보기</string>
+    <string name="wallet_auto_from_phone">이 폰에 있는 카드 사본을 지문·얼굴·화면 잠금으로 열어서 켜요. 카드 번호를 다시 입력하지 않아요.</string>
+    <string name="wallet_auth_auto_title">자동결제 켜기</string>
+    <string name="wallet_auth_auto_subtitle">이 폰에 있는 ‘%1$s’ 카드를 열어요</string>
+    <string name="wallet_auto_not_here_title">이 폰에는 이 카드가 없어요</string>
+    <string name="wallet_auto_not_here_body">다른 기기에서 등록한 카드라 이 폰에서는 열 수 없어요. 카드를 등록한 기기에서 자동결제를 켜거나, 여기서 카드 번호를 다시 입력하세요.</string>
+    <string name="wallet_auto_enter_number">번호 입력하기</string>
+    <string name="wallet_auto_on_failed">자동결제를 켜지 못했어요. 다시 해 주세요.</string>
+</resources>

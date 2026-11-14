@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_pin_allow_note">अनुमति देने पर आपका फ़ोन पूछेगा कि इस साइट के लिए सेव किया भुगतान PIN भेजना है या नहीं। वहीं पुष्टि करें।</string>
+    <string name="desktop_pin_need_body">%2$s पर भुगतान (%3$s) के लिए PIN “%1$s” एक बार भेजने को अपने फ़ोन पर Kelo ऐप खोलें।</string>
+    <string name="desktop_pin_secret_on_phone">भुगतान PIN सिर्फ़ आपके फ़ोन पर रहते हैं। उसे फ़ोन के Kelo ऐप में डालें; सेव होते ही यह कार्ड अपने आप बंद हो जाएगा।</string>
+    <string name="desktop_pay_step_on_phone">फ़ोन पर कार्ड या बैंक ऐप में स्वीकृति दें, फिर यहाँ “मैंने स्वीकृत कर दिया” पर क्लिक करें।</string>
+    <string name="desktop_pay_step_click_copy">कॉपी करने के लिए कोड पर क्लिक करें</string>
+    <string name="desktop_pay_step_pad_note">यहाँ कुंजियों पर क्लिक करें। हर क्लिक भुगतान पेज पर उसी जगह दबता है।</string>
+    <string name="desktop_briefing_weather_follows_phone">मौसम आपके फ़ोन की लोकेशन के हिसाब से दिखता है। फ़ोन पर Kelo खोलकर लोकेशन की अनुमति देने पर यह दिखेगा।</string>
+    <string name="desktop_pin_add_on_phone">भुगतान PIN फ़ोन के Kelo ऐप में जोड़े जाते हैं। वे ऐसी कुंजी से लॉक होते हैं जो सिर्फ़ उसी फ़ोन के पास है।</string>
+</resources>

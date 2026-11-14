@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">Пожаловаться</string>
+    <string name="report_title">Пожаловаться на ответ</string>
+    <string name="report_intro">Если ответ был неприятным или неверным, сообщите разработчику Kelo. Это используется только для того, чтобы сделать Kelo безопаснее.</string>
+    <string name="report_reason_label">В чём проблема?</string>
+    <string name="report_reason_harmful">Неприятный или вредный</string>
+    <string name="report_reason_inaccurate">Фактически неверный</string>
+    <string name="report_reason_privacy">Раскрывает личные данные</string>
+    <string name="report_reason_other">Другое</string>
+    <string name="report_comment_hint">Хотите что-то добавить? (необязательно)</string>
+    <string name="report_include_asked">Также отправить моё предыдущее сообщение</string>
+    <string name="report_sent_title">Что получит разработчик Kelo</string>
+    <string name="report_sent_reply">Ответ, на который вы жалуетесь</string>
+    <string name="report_sent_asked">Ваше сообщение перед ним</string>
+    <string name="report_sent_reason">Выбранная причина и комментарий</string>
+    <string name="report_sent_model">Название модели, написавшей ответ</string>
+    <string name="report_sent_version">Версия приложения Kelo</string>
+    <string name="report_sent_not">Больше ничего из ваших чатов и никаких данных аккаунта не отправляется. Жалобы хранятся 1 год и затем удаляются — или раньше, если вы попросите.</string>
+    <string name="report_send">Отправить жалобу</string>
+    <string name="report_sending">Отправляю…</string>
+    <string name="report_failed_offline">Нет связи с вашим сервером. Написанное сохранилось — попробуйте отправить чуть позже.</string>
+    <string name="report_thanks">Жалоба отправлена. Спасибо, что сообщили.</string>
+    <string name="operator_section_reports">Полученные жалобы</string>
+    <string name="operator_reports_note">Ответы, на которые пользователи пожаловались из приложения. Через 1 год удаляются автоматически.</string>
+    <string name="operator_reports_not_receiving">Этот сервер не принимает жалобы. Жалобы с этого сервера уходят на сервер разработчика Kelo.</string>
+    <string name="operator_reports_empty">Жалоб пока нет.</string>
+    <string name="operator_reports_open">Жалоб к рассмотрению: %1$d</string>
+    <string name="operator_reports_show_handled">Показывать и рассмотренные</string>
+    <string name="operator_reports_hide_handled">Только нерассмотренные</string>
+    <string name="operator_reports_reply">Ответ, на который пожаловались</string>
+    <string name="operator_reports_asked">Предыдущее сообщение пользователя</string>
+    <string name="operator_reports_comment">Комментарий</string>
+    <string name="operator_reports_meta">%1$s · %2$s · Приложение %3$s</string>
+    <string name="operator_reports_mark">Отметить рассмотренной</string>
+    <string name="operator_reports_unmark">Отметить нерассмотренной</string>
+    <string name="operator_reports_handled">Рассмотрено</string>
+    <string name="operator_reports_delete">Удалить</string>
+    <string name="operator_reports_delete_confirm">Удалить эту жалобу? Это нельзя отменить.</string>
+    <string name="operator_reports_unknown">Неизвестно</string>
+</resources>

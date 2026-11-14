@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_ask_title">Kelo को आपकी जगह चाहिए</string>
+    <string name="location_ask_body">इसका जवाब देने के लिए Kelo को जानना होगा कि यह फ़ोन अभी कहाँ है।</string>
+    <string name="location_ask_private">यह सिर्फ़ आपके अपने सर्वर पर जाती है।</string>
+    <string name="location_ask_share">मेरी जगह भेजें</string>
+    <string name="location_ask_not_now">अभी नहीं</string>
+    <string name="location_ask_settings">सेटिंग खोलें</string>
+    <string name="location_ask_settings_hint">Kelo के लिए लोकेशन बंद है। सेटिंग में चालू करें, फिर यहाँ लौटें।</string>
+    <string name="location_services_off">इस फ़ोन पर लोकेशन बंद है। सेटिंग में चालू करें, फिर यहाँ लौटें।</string>
+    <string name="location_ask_reading">आपकी जगह पता की जा रही है…</string>
+    <string name="location_ask_shared">जगह भेज दी</string>
+    <string name="location_ask_refused">जगह नहीं भेजी</string>
+    <string name="location_ask_expired">यह अनुरोध समाप्त हो गया</string>
+    <string name="location_ask_unavailable">यह फ़ोन पता नहीं कर पाया कि यह कहाँ है। जाँचें कि लोकेशन चालू है।</string>
+    <string name="chat_attached_file">संलग्न फ़ाइल</string>
+</resources>

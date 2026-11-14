@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- it text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Le tue carte di pagamento sono bloccate</string>
+    <string name="wallet_lock_body">Conferma che sei tu con impronta, volto o blocco schermo (PIN, sequenza o password) per aprirle di nuovo.</string>
+    <string name="wallet_lock_kept">I dati della carta che stavi inserendo sono ancora qui. Sblocca per riprendere da dove eri rimasto. Vengono cancellati dopo 10 minuti.</string>
+    <string name="wallet_lock_unlock">Sblocca</string>
+    <string name="wallet_lock_back">Torna indietro</string>
+    <string name="wallet_lock_no_lock_title">Imposta un blocco schermo</string>
+    <string name="wallet_lock_no_lock_body">Questo telefono non ha un blocco schermo, quindi le carte di pagamento non si possono aprire. Attiva un PIN o l\'impronta nelle Impostazioni e torna qui. Controllerò subito.</string>
+    <string name="wallet_lock_open_settings">Apri impostazioni blocco schermo</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fr text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">Compétences à approuver</string>
+    <string name="skill_review_about">Kelo n\'utilise une compétence qu\'après votre accord. Approuver enregistre exactement le texte affiché.</string>
+    <string name="skill_review_drafting">Kelo rédige un brouillon de compétence…</string>
+    <string name="skill_review_kind_new">Nouvelle compétence</string>
+    <string name="skill_review_kind_change">Modification d\'une compétence</string>
+    <string name="skill_review_kind_edited">Modifiée hors de l\'appli</string>
+    <string name="skill_review_edited_note">Les fichiers de cette compétence ont changé hors de l\'appli : Kelo ne l\'utilise plus tant que vous ne l\'approuvez pas à nouveau.</string>
+    <string name="skill_review_edited_new_note">Cette compétence a été ajoutée hors de l\'appli. Kelo ne l\'utilisera pas avant votre accord.</string>
+    <string name="skill_review_outside_note">Kelo a lu des pages web, des e-mails ou des fichiers pendant ce travail. Vérifiez que chaque étape vous convient.</string>
+    <string name="skill_review_secrets_removed">Les mots de passe, clés et codes ont été retirés du texte.</string>
+    <string name="skill_review_diff_counts">Ajoutées %1$d · Retirées %2$d</string>
+    <string name="skill_review_show_all">Tout afficher</string>
+    <string name="skill_review_show_less">Afficher moins</string>
+    <string name="skill_review_put_back">Annuler les modifications</string>
+    <string name="skill_review_discard">Ignorer</string>
+    <string name="skill_review_approve">Approuver</string>
+    <string name="skill_review_approved">Approuvée. Kelo utilisera cette compétence.</string>
+    <string name="skill_review_discarded">Ignorée</string>
+    <string name="skill_review_from_draft">Brouillon tiré d\'une tâche terminée</string>
+    <string name="skill_review_from_disk">Modifiée dans les fichiers du serveur</string>
+    <string name="skill_review_from_kelo">Proposée par Kelo</string>
+    <string name="skill_save">Enregistrer comme compétence</string>
+    <string name="skill_save_about">Kelo note les étapes de cette tâche. Rien ne change avant votre accord dans %1$s → %2$s.</string>
+    <string name="skill_save_started">Kelo rédige une compétence. Vous la trouverez dans %1$s → %2$s.</string>
+    <string name="skill_save_busy">Une compétence est déjà en cours de rédaction pour cette tâche.</string>
+    <string name="skill_save_unavailable">Ce serveur ne peut pas encore enregistrer de compétences. Mettez d\'abord le serveur à jour.</string>
+    <string name="skill_save_no_model">Choisissez d\'abord un modèle.</string>
+</resources>

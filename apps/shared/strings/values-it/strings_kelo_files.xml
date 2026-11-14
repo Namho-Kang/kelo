@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">File di Kelo</string>
+    <string name="files_about">Ciò che Kelo annota per sé: chi sei, la sua memoria, i suoi appunti. Puoi leggerli, modificarli ed eliminarli. Caricamenti e risultati hanno pagine proprie.</string>
+    <string name="files_new_folder">Nuova cartella</string>
+    <string name="files_make">Crea</string>
+    <string name="files_folder_name">Nome della cartella</string>
+    <string name="files_folder_bad">Questo nome non può essere usato.</string>
+    <string name="files_edit">Modifica</string>
+    <string name="files_save">Salva</string>
+    <string name="files_cancel">Annulla</string>
+    <string name="files_saved">Salvato. Kelo leggerà il nuovo testo dalla prossima risposta.</string>
+    <string name="files_save_failed">Impossibile salvare.</string>
+    <string name="files_full">Lo spazio del server è pieno.</string>
+    <string name="files_discard_q">Uscire senza salvare?</string>
+    <string name="files_discard">Esci</string>
+    <string name="files_reset">Torna all\'inizio</string>
+    <string name="files_reset_q">Riportare questo file allo stato iniziale? Il testo attuale va nel cestino.</string>
+    <string name="files_reset_done">Tornato all\'inizio. Il vecchio testo è nel cestino.</string>
+    <string name="files_core_reset_hint">Kelo ha bisogno di questo file. Usa «Torna all\'inizio».</string>
+    <string name="files_delete">Elimina</string>
+    <string name="files_delete_q">Spostare nel cestino? Dopo 30 giorni viene eliminato per sempre.</string>
+    <string name="files_deleted">Spostato nel cestino.</string>
+    <string name="files_read_only">Kelo tiene aggiornato questo file; qui non si può modificare.</string>
+    <string name="files_load_failed">Impossibile caricare i file.</string>
+    <string name="files_trash_title">Cestino</string>
+    <string name="files_trash_about">I file eliminati restano qui per 30 giorni.</string>
+    <string name="files_trash_left">Eliminato per sempre tra %1$d giorni</string>
+    <string name="files_trash_empty">Il cestino è vuoto.</string>
+    <string name="files_restore">Ripristina</string>
+    <string name="files_restored">Ripristinato.</string>
+    <string name="files_purge">Elimina per sempre</string>
+    <string name="files_purge_q">Eliminare per sempre? Non si può annullare.</string>
+    <string name="files_core_assistant">Carattere e tono di Kelo</string>
+    <string name="files_core_user">Ciò che Kelo sa di te</string>
+    <string name="files_core_memory">Memoria di Kelo</string>
+    <string name="files_core_agents">Come lavora Kelo</string>
+    <string name="files_core_checklist">Cose da controllare</string>
+    <string name="files_core_notify">Preferenze di notifica</string>
+</resources>

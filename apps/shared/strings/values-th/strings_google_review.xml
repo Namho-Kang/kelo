@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">เร็ว ๆ นี้</string>
+    <string name="google_review_title">กำลังเตรียมการลงชื่อเข้าใช้ด้วย Google</string>
+    <string name="google_review_note">จะเปิดให้ใช้เมื่อ Google ตรวจสอบเสร็จ การสนับสนุน Kelo ช่วยให้เปิดได้เร็วขึ้น</string>
+    <string name="google_review_support">สนับสนุน Kelo</string>
+    <string name="google_review_phone_calendar">เชื่อมต่อผ่านปฏิทินในโทรศัพท์</string>
+    <string name="google_review_phone_calendar_help">โทรศัพท์ Android เก็บ Google Calendar ไว้ในปฏิทินของโทรศัพท์ Kelo จึงอ่านจากตรงนั้นได้</string>
+    <string name="google_review_open_switch">เปิดการลงชื่อเข้าใช้ด้วย Google ให้ทุกคน</string>
+    <string name="google_review_open_warning">เปิดเมื่อ Google ยืนยันไคลเอนต์นี้แล้วเท่านั้น ก่อนหน้านั้น Google ให้ใช้ได้สูงสุด 100 คนและจะแสดงคำเตือน</string>
+</resources>

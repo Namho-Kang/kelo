@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">Скоро</string>
+    <string name="google_review_title">Вход через Google готовится</string>
+    <string name="google_review_note">Станет доступно после проверки Google. Поддержка Kelo поможет открыть его быстрее.</string>
+    <string name="google_review_support">Поддержать Kelo</string>
+    <string name="google_review_phone_calendar">Подключить через календарь телефона</string>
+    <string name="google_review_phone_calendar_help">На телефонах Android Google Календарь хранится в собственном календаре телефона, поэтому Kelo может читать его оттуда.</string>
+    <string name="google_review_open_switch">Открыть вход через Google для всех</string>
+    <string name="google_review_open_warning">Включайте, только когда Google проверит этот клиент. До этого Google допускает не более 100 пользователей и показывает им предупреждение.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_cli_update.xml (generated from values/strings_cli_update.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="model_cli_update_button">Actualizar</string>
+    <string name="model_cli_updating">Actualizando… (puede tardar unos minutos)</string>
+    <string name="model_cli_update_done">%1$s se actualizó a la versión %2$s</string>
+    <string name="model_cli_update_unchanged">%1$s ya está al día</string>
+    <string name="model_cli_update_failed">No se pudo actualizar: %1$s. La versión actual sigue funcionando</string>
+</resources>

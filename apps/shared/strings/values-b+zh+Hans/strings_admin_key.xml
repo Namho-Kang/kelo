@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_key_add">也查看消费与余额</string>
+    <string name="admin_key_title">用于消费与余额的管理员密钥</string>
+    <string name="admin_key_safety">保存在服务器的独立密钥容器中，Kelo 本身不保留，仅用于读取消费和余额。</string>
+    <string name="admin_key_how_openai">OpenAI: platform.openai.com → Settings → Organization → Admin keys → Create（只读即可）。</string>
+    <string name="admin_key_how_anthropic">Anthropic: console.anthropic.com → Settings → Admin keys（仅限组织账户）。</string>
+    <string name="admin_key_how_openrouter">OpenRouter: openrouter.ai → Settings → Management keys → Create。</string>
+    <string name="admin_key_save">保存</string>
+    <string name="admin_key_saved">已保存。下方将显示消费金额。</string>
+    <string name="admin_key_refused">提供商拒绝了此密钥。请确认这是管理员密钥。</string>
+    <string name="admin_key_keyring_off">此服务器不保留管理员密钥（密钥容器已关闭）。</string>
+    <string name="admin_key_failed">无法保存密钥。请稍后再试。</string>
+    <string name="admin_key_set">管理员密钥 …%1$s</string>
+    <string name="admin_key_remove">删除</string>
+    <string name="admin_key_remove_q">移除管理员密钥？消费和余额将不再显示。</string>
+    <string name="my_privacy_keyring">你输入的 AI 提供商密钥（以及管理员密钥，若有添加）由服务器上的独立密钥容器保管，而非 Kelo 本身；Kelo 请求调用时，容器仅在向该提供商自有地址发送请求时附加密钥。</string>
+</resources>

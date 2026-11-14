@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text only the desktop app has (vi). See values/strings_desktop.xml. -->
+<resources>
+    <string name="desktop_pair_step2">Sao chép liên kết hiện ra rồi dán vào bên dưới.</string>
+    <string name="desktop_tray_open">Mở Kelo</string>
+    <string name="desktop_tray_quit">Thoát Kelo</string>
+    <string name="desktop_tray_stop">Dừng: %1$s</string>
+    <string name="desktop_still_running">Kelo vẫn chạy trong khay hệ thống và báo cho bạn khi có việc cần bạn.</string>
+    <string name="desktop_section">Thiết bị này</string>
+    <string name="desktop_start_at_login">Mở Kelo khi đăng nhập</string>
+    <string name="desktop_start_at_login_hint">Kelo mở lặng lẽ trong khay hệ thống, nên thông báo vẫn đến trước khi bạn mở cửa sổ.</string>
+    <string name="desktop_start_at_login_store">Bật hoặc tắt trong Cài đặt Windows → Ứng dụng → Khởi động.</string>
+    <string name="desktop_start_at_login_unavailable">Có trong ứng dụng đã cài đặt.</string>
+    <string name="desktop_keep_in_tray">Vẫn chạy trong khay khi đóng cửa sổ</string>
+    <string name="desktop_notifications">Thông báo trên màn hình</string>
+    <string name="desktop_notifications_hint">Câu trả lời xong khi cửa sổ đang ẩn, các yêu cầu chờ bạn duyệt và tin tức khi Kelo chủ động báo trước.</string>
+    <string name="desktop_reduce_motion">Giảm chuyển động</string>
+    <string name="desktop_theme">Giao diện</string>
+    <string name="desktop_theme_system">Theo hệ thống</string>
+    <string name="desktop_theme_light">Sáng</string>
+    <string name="desktop_theme_dark">Tối</string>
+    <string name="desktop_drop_here">Thả tệp vào đây để gửi cho %1$s</string>
+    <string name="desktop_attach_files">Đính kèm tệp (tối đa 100 MB mỗi tệp)</string>
+    <string name="desktop_enter_hint">Enter để gửi · Shift+Enter để xuống dòng</string>
+    <string name="desktop_logout_confirm">Đăng xuất trên thiết bị này? Để dùng lại, bạn cần kết nối lại với máy chủ từ đầu.</string>
+    <string name="desktop_version">Kelo cho máy tính %1$s</string>
+    <string name="desktop_open_settings">Mở cài đặt</string>
+    <string name="desktop_sign_in_browser">Đăng nhập trong trình duyệt</string>
+    <string name="desktop_browser_opened">Trang đăng nhập đã mở trong trình duyệt. Hãy quay lại đây khi xong.</string>
+    <string name="desktop_chooser_setup_hint">Chưa có dịch vụ AI nào sẵn sàng. Hãy chọn một dịch vụ bên dưới rồi thêm khóa hoặc địa chỉ, hoặc đăng nhập.</string>
+    <string name="desktop_chooser_setup_title">Thiết lập dịch vụ</string>
+    <string name="desktop_update_quit_note">Trình cài đặt đã mở. Hãy thoát Kelo trong khi cài, rồi mở lại Kelo.</string>
+    <string name="desktop_update_open_failed">Không mở được trình cài đặt. Tệp đã được lưu tại %1$s.</string>
+    <string name="desktop_e2e_on">Trên đường truyền, chỉ thiết bị này và máy chủ của bạn đọc được cuộc trò chuyện.</string>
+    <string name="desktop_e2e_not_verified_body">So sánh với dấu vân tay mà `assistant phone fingerprint` hiển thị trên máy chủ, hoặc dán liên kết kết nối một lần.</string>
+    <string name="desktop_e2e_verify_paste">Xác minh bằng liên kết</string>
+    <string name="desktop_e2e_paste_hint">Dán liên kết kết nối (https://…/#pair=…)</string>
+    <string name="desktop_e2e_verify_mismatch">Liên kết này mang một khóa khác. Nếu khóa của máy chủ đã đổi, hãy kết nối lại thiết bị này.</string>
+    <string name="desktop_e2e_verify_no_key">Liên kết này không có khóa. Hãy tạo liên kết mới từ máy chủ đã cập nhật.</string>
+    <string name="desktop_e2e_key_changed_body">Khóa mã hóa của máy chủ Kelo đã thay đổi, nên thiết bị này không thể kiểm tra đó có thật là máy chủ của bạn không. Hãy dán liên kết kết nối mới từ Của tôi → Thiết bị của tôi trên thiết bị khác, hoặc từ máy chủ.</string>
+    <string name="desktop_location_on_phone">Máy tính này không chia sẻ được vị trí của bạn. Hãy mở Kelo trên điện thoại để chia sẻ vị trí từ đó, hoặc chọn Để sau.</string>
+    <string name="desktop_keyguard_locked_body">Mật khẩu, khóa và thẻ của bạn vẫn đóng cho đến khi bạn mở Kelo trên điện thoại và mở khóa ở đó. Máy tính này không giữ khóa.</string>
+</resources>

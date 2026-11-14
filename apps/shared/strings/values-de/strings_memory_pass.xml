@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">Gedächtnis aufgeräumt: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">%d hinzugefügt</item>
+        <item quantity="other">%d hinzugefügt</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">%d aufgeräumt</item>
+        <item quantity="other">%d aufgeräumt</item>
+    </plurals>
+    <string name="memory_pass_undone">Aufräumen des Gedächtnisses rückgängig gemacht</string>
+    <string name="memory_pass_view">Was sich geändert hat</string>
+    <string name="memory_pass_changes_title">Was das Aufräumen geändert hat</string>
+    <string name="memory_pass_no_lines">Keine geänderten Zeilen.</string>
+    <string name="memory_pass_undo">Dieses Aufräumen rückgängig machen</string>
+    <string name="memory_pass_undo_confirm">Notizen auf den Stand vor diesem Aufräumen zurücksetzen? Seitdem bearbeitete Notizen bleiben, wie sie sind.</string>
+    <string name="memory_pass_undo_gone">Dieses Aufräumen lässt sich nicht mehr rückgängig machen.</string>
+    <string name="memory_pass_added_line">Hinzugefügt: %1$s</string>
+    <string name="memory_pass_removed_line">Entfernt: %1$s</string>
+    <string name="memory_area_about_you">Über dich</string>
+    <string name="memory_area_to_remember">Zu merken</string>
+    <string name="memory_area_people">Personen</string>
+    <string name="memory_area_working_notes">Arbeitsnotizen</string>
+</resources>

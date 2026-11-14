@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">ไฟล์ของ Kelo</string>
+    <string name="files_about">สิ่งที่ Kelo จดไว้เอง: คุณเป็นใคร ความทรงจำ และบันทึกของมัน คุณอ่าน แก้ไข และลบได้ ไฟล์ที่อัปโหลดและผลลัพธ์มีหน้าของตัวเอง</string>
+    <string name="files_new_folder">โฟลเดอร์ใหม่</string>
+    <string name="files_make">สร้าง</string>
+    <string name="files_folder_name">ชื่อโฟลเดอร์</string>
+    <string name="files_folder_bad">ใช้ชื่อนี้ไม่ได้</string>
+    <string name="files_edit">แก้ไข</string>
+    <string name="files_save">บันทึก</string>
+    <string name="files_cancel">ยกเลิก</string>
+    <string name="files_saved">บันทึกแล้ว Kelo จะอ่านข้อความใหม่ตั้งแต่คำตอบถัดไป</string>
+    <string name="files_save_failed">บันทึกไม่สำเร็จ</string>
+    <string name="files_full">พื้นที่เก็บข้อมูลของเซิร์ฟเวอร์เต็ม</string>
+    <string name="files_discard_q">ออกโดยไม่บันทึกไหม</string>
+    <string name="files_discard">ออก</string>
+    <string name="files_reset">กลับไปเริ่มต้น</string>
+    <string name="files_reset_q">คืนไฟล์นี้เป็นสภาพเริ่มต้นไหม ข้อความปัจจุบันจะไปอยู่ในถังขยะ</string>
+    <string name="files_reset_done">กลับไปเริ่มต้นแล้ว ข้อความเดิมอยู่ในถังขยะ</string>
+    <string name="files_core_reset_hint">Kelo ต้องใช้ไฟล์นี้ ใช้ \"กลับไปเริ่มต้น\" แทน</string>
+    <string name="files_delete">ลบ</string>
+    <string name="files_delete_q">ย้ายไปถังขยะไหม จะถูกลบถาวรหลัง 30 วัน</string>
+    <string name="files_deleted">ย้ายไปถังขยะแล้ว</string>
+    <string name="files_read_only">Kelo ดูแลไฟล์นี้ให้เป็นปัจจุบัน แก้ไขที่นี่ไม่ได้</string>
+    <string name="files_load_failed">โหลดไฟล์ไม่สำเร็จ</string>
+    <string name="files_trash_title">ถังขยะ</string>
+    <string name="files_trash_about">ไฟล์ที่ลบจะอยู่ที่นี่ 30 วัน</string>
+    <string name="files_trash_left">จะถูกลบถาวรใน %1$d วัน</string>
+    <string name="files_trash_empty">ถังขยะว่างเปล่า</string>
+    <string name="files_restore">กู้คืน</string>
+    <string name="files_restored">กู้คืนแล้ว</string>
+    <string name="files_purge">ลบถาวร</string>
+    <string name="files_purge_q">ลบถาวรไหม กู้คืนไม่ได้</string>
+    <string name="files_core_assistant">บุคลิกและน้ำเสียงของ Kelo</string>
+    <string name="files_core_user">สิ่งที่ Kelo รู้เกี่ยวกับคุณ</string>
+    <string name="files_core_memory">ความทรงจำของ Kelo</string>
+    <string name="files_core_agents">วิธีทำงานของ Kelo</string>
+    <string name="files_core_checklist">สิ่งที่ต้องตรวจ</string>
+    <string name="files_core_notify">การตั้งค่าการแจ้งเตือน</string>
+</resources>

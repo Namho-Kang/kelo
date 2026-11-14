@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_custom_skills.xml (generated from values/strings_custom_skills.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="skill_review_title">สกิลที่รออนุมัติ</string>
+    <string name="skill_review_about">Kelo จะใช้สกิลก็ต่อเมื่อคุณอนุมัติแล้ว การอนุมัติจะบันทึกข้อความตามที่แสดงทุกประการ</string>
+    <string name="skill_review_drafting">Kelo กำลังเขียนร่างสกิล…</string>
+    <string name="skill_review_kind_new">สกิลใหม่</string>
+    <string name="skill_review_kind_change">การแก้ไขสกิล</string>
+    <string name="skill_review_kind_edited">ถูกแก้ไขนอกแอป</string>
+    <string name="skill_review_edited_note">ไฟล์ของสกิลนี้ถูกแก้ไขนอกแอป Kelo จึงจะไม่ใช้จนกว่าคุณจะอนุมัติอีกครั้ง</string>
+    <string name="skill_review_edited_new_note">สกิลนี้ถูกเพิ่มนอกแอป Kelo จะไม่ใช้จนกว่าคุณจะอนุมัติ</string>
+    <string name="skill_review_outside_note">ระหว่างทำงานนี้ Kelo ได้อ่านหน้าเว็บ อีเมล หรือไฟล์ โปรดตรวจดูว่าทุกขั้นตอนเป็นสิ่งที่คุณต้องการ</string>
+    <string name="skill_review_secrets_removed">รหัสผ่าน คีย์ และรหัสยืนยันถูกนำออกจากข้อความแล้ว</string>
+    <string name="skill_review_diff_counts">เพิ่ม %1$d · ลบ %2$d</string>
+    <string name="skill_review_show_all">แสดงทั้งหมด</string>
+    <string name="skill_review_show_less">แสดงน้อยลง</string>
+    <string name="skill_review_put_back">เลิกทำการแก้ไข</string>
+    <string name="skill_review_discard">ทิ้ง</string>
+    <string name="skill_review_approve">อนุมัติ</string>
+    <string name="skill_review_approved">อนุมัติแล้ว Kelo จะใช้สกิลนี้</string>
+    <string name="skill_review_discarded">ทิ้งแล้ว</string>
+    <string name="skill_review_from_draft">ร่างจากงานที่เสร็จแล้ว</string>
+    <string name="skill_review_from_disk">ถูกแก้ไขในไฟล์ของเซิร์ฟเวอร์</string>
+    <string name="skill_review_from_kelo">Kelo แนะนำ</string>
+    <string name="skill_save">บันทึกเป็นสกิล</string>
+    <string name="skill_save_about">Kelo จะจดขั้นตอนของงานนี้ไว้ จะไม่มีอะไรเปลี่ยนจนกว่าคุณจะอนุมัติใน %1$s → %2$s</string>
+    <string name="skill_save_started">Kelo กำลังร่างสกิล คุณจะพบได้ใน %1$s → %2$s</string>
+    <string name="skill_save_busy">กำลังเขียนสกิลจากงานนี้อยู่แล้ว</string>
+    <string name="skill_save_unavailable">เซิร์ฟเวอร์นี้ยังบันทึกสกิลไม่ได้ โปรดอัปเดตเซิร์ฟเวอร์ก่อน</string>
+    <string name="skill_save_no_model">โปรดเลือกโมเดลก่อน</string>
+</resources>

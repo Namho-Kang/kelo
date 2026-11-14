@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh-Hant text for strings_card_scan.xml (generated from values/strings_card_scan.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="card_scan_button">掃描卡片</string>
+    <string name="card_scan_title">掃描卡片</string>
+    <string name="card_scan_hint">請將卡片正面放入框內。只在這支手機上辨識。</string>
+    <string name="card_scan_preparing">正在準備掃描…</string>
+    <string name="card_scan_filled">請核對掃描到的卡號。CVC 請自行輸入。</string>
+    <string name="card_scan_nothing">無法辨識卡片。請重試或手動輸入卡號。</string>
+    <string name="card_scan_camera_needed">掃描卡片需要相機權限。不會儲存任何照片。</string>
+    <string name="card_scan_camera_failed">無法開啟相機。請手動輸入卡號。</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pl text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">Ton</string>
+    <string name="my_agent_tone_friendly">Swobodny</string>
+    <string name="my_agent_tone_polite">Uprzejmy</string>
+    <string name="my_agent_tone_friendly_example">Jutro o 10 masz dentystę. Ustawić ci przypomnienie?</string>
+    <string name="my_agent_tone_polite_example">Jutro o 10:00 jest wizyta u dentysty. Czy ustawić przypomnienie?</string>
+    <string name="my_agent_tone_failed">Nie udało się zmienić tonu. Spróbuj ponownie.</string>
+</resources>

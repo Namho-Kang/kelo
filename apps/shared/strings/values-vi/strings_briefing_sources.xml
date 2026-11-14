@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vi text for strings_briefing_sources.xml (generated from values/strings_briefing_sources.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="briefing_sources_title">Nội dung được đọc</string>
+    <string name="briefing_sources_about">Kelo đọc mọi lịch và hộp thư đã kết nối để làm bản tin và nhắc việc. Tắt tài khoản nào thì sẽ bỏ qua tài khoản đó.</string>
+    <string name="briefing_sources_calendars">Lịch</string>
+    <string name="briefing_sources_mail">Thư</string>
+    <string name="briefing_sources_chat">Bạn cũng có thể nói với Kelo trong chat, ví dụ: “bản tin bỏ thư công việc ra”.</string>
+    <string name="briefing_sources_check">Kiểm tra các tài khoản ngay</string>
+    <string name="briefing_sources_checking">Đang kiểm tra…</string>
+    <string name="connector_method_caldav">Mật khẩu ứng dụng CalDAV</string>
+    <string name="caldav_help">Nhập địa chỉ CalDAV do nhà cung cấp đưa (ví dụ https://dav.fastmail.com/ với Fastmail), tên người dùng và mật khẩu ứng dụng.</string>
+    <string name="caldav_url">Địa chỉ CalDAV</string>
+    <string name="caldav_user">Tên người dùng</string>
+    <string name="caldav_account_note">Kelo chỉ đọc lịch này để làm bản tin và nhắc việc. Kelo không bao giờ sửa lịch.</string>
+    <string name="caldav_disconnect_confirm">Ngắt kết nối %1$s? Mật khẩu ứng dụng đã lưu sẽ bị xóa.</string>
+    <string name="caldav_add_other">Thêm lịch khác</string>
+    <string name="caldav_notify">Tôi đã kết nối lịch. Hãy tiếp tục nhé.</string>
+</resources>

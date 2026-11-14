@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text only the desktop app has (nl). See values/strings_desktop.xml. -->
+<resources>
+    <string name="desktop_pair_step2">Kopieer de getoonde link en plak hem hieronder.</string>
+    <string name="desktop_tray_open">Kelo openen</string>
+    <string name="desktop_tray_quit">Kelo afsluiten</string>
+    <string name="desktop_tray_stop">Stoppen: %1$s</string>
+    <string name="desktop_still_running">Kelo blijft actief in het systeemvak en laat het weten als iets je aandacht nodig heeft.</string>
+    <string name="desktop_section">Dit apparaat</string>
+    <string name="desktop_start_at_login">Kelo starten bij aanmelden</string>
+    <string name="desktop_start_at_login_hint">Kelo start stil in het systeemvak, zodat meldingen je bereiken nog voor je het venster opent.</string>
+    <string name="desktop_start_at_login_store">Zet dit aan of uit in Windows-instellingen → Apps → Opstarten.</string>
+    <string name="desktop_start_at_login_unavailable">Beschikbaar in de geïnstalleerde app.</string>
+    <string name="desktop_keep_in_tray">Actief blijven in het systeemvak als het venster sluit</string>
+    <string name="desktop_notifications">Bureaubladmeldingen</string>
+    <string name="desktop_notifications_hint">Antwoorden die klaar zijn terwijl het venster verborgen is, goedkeuringen die op je wachten en nieuws als Kelo je eerst iets laat weten.</string>
+    <string name="desktop_reduce_motion">Beweging beperken</string>
+    <string name="desktop_theme">Weergave</string>
+    <string name="desktop_theme_system">Zoals het systeem</string>
+    <string name="desktop_theme_light">Licht</string>
+    <string name="desktop_theme_dark">Donker</string>
+    <string name="desktop_drop_here">Zet bestanden hier neer om ze naar %1$s te sturen</string>
+    <string name="desktop_attach_files">Bestanden toevoegen (max. 100 MB per bestand)</string>
+    <string name="desktop_enter_hint">Enter om te versturen · Shift+Enter voor een nieuwe regel</string>
+    <string name="desktop_logout_confirm">Afmelden op dit apparaat? Om het weer te gebruiken, moet je opnieuw verbinding maken met de server.</string>
+    <string name="desktop_version">Kelo voor desktop %1$s</string>
+    <string name="desktop_open_settings">Instellingen openen</string>
+    <string name="desktop_sign_in_browser">Aanmelden in de browser</string>
+    <string name="desktop_browser_opened">De aanmeldpagina is geopend in je browser. Kom hier terug als je klaar bent.</string>
+    <string name="desktop_chooser_setup_hint">Er is nog geen AI-dienst klaar. Kies er hieronder een en voeg de sleutel of het adres toe, of log in.</string>
+    <string name="desktop_chooser_setup_title">Dienst instellen</string>
+    <string name="desktop_update_quit_note">Het installatieprogramma is geopend. Sluit Kelo tijdens de installatie en start Kelo daarna opnieuw.</string>
+    <string name="desktop_update_open_failed">Het installatieprogramma kon niet worden geopend. Het staat in %1$s.</string>
+    <string name="desktop_e2e_on">Onderweg kunnen alleen dit apparaat en je server je chats lezen.</string>
+    <string name="desktop_e2e_not_verified_body">Vergelijk dit met de vingerafdruk die `assistant phone fingerprint` op de servermachine toont, of plak één keer een verbindingslink.</string>
+    <string name="desktop_e2e_verify_paste">Controleren met een link</string>
+    <string name="desktop_e2e_paste_hint">Plak een verbindingslink (https://…/#pair=…)</string>
+    <string name="desktop_e2e_verify_mismatch">Deze link bevat een andere sleutel. Als de sleutel van de server is gewijzigd, verbind dit apparaat dan opnieuw.</string>
+    <string name="desktop_e2e_verify_no_key">Deze link bevat geen sleutel. Maak een nieuwe met een bijgewerkte server.</string>
+    <string name="desktop_e2e_key_changed_body">De versleutelingssleutel van je Kelo-server is gewijzigd, dus dit apparaat kan niet controleren of het echt jouw server is. Plak een nieuwe verbindingslink uit Profiel → Mijn apparaten op een ander apparaat, of van de servermachine.</string>
+    <string name="desktop_location_on_phone">Deze computer kan je locatie niet delen. Open Kelo op je telefoon om hem daar te delen, of kies Niet nu.</string>
+    <string name="desktop_keyguard_locked_body">Je wachtwoorden, sleutels en kaarten blijven dicht tot je Kelo op je telefoon opent en daar ontgrendelt. Deze computer heeft de sleutel niet.</string>
+</resources>

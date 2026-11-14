@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_tone.xml (generated from values/strings_tone.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="my_agent_tone">लहजा</string>
+    <string name="my_agent_tone_friendly">दोस्ताना</string>
+    <string name="my_agent_tone_polite">विनम्र</string>
+    <string name="my_agent_tone_friendly_example">कल 10 बजे तुम्हारा डेंटिस्ट का अपॉइंटमेंट है। रिमाइंडर लगा दूँ?</string>
+    <string name="my_agent_tone_polite_example">कल 10 बजे आपका डेंटिस्ट के साथ अपॉइंटमेंट है। क्या मैं आपके लिए रिमाइंडर सेट कर दूँ?</string>
+    <string name="my_agent_tone_failed">लहजा नहीं बदला जा सका। फिर से कोशिश करें।</string>
+</resources>

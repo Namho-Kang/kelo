@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_storage.xml (generated from values/strings_storage.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="storage_clean_up">整理する</string>
+    <string name="storage_cleanup_title">保存容量の整理</string>
+    <string name="storage_warn">Kelo の保存容量を %1$d%% 使っています。</string>
+    <string name="storage_critical">Kelo の保存容量がほぼいっぱいです(%1$d%%)。いっぱいになると新しいファイルは保存できませんが、チャットは続けられます。</string>
+    <string name="storage_host_low">Kelo サーバーを動かしているコンピューターのディスクがほぼいっぱいです(残り %1$s)。いっぱいになると、チャットを含めて Kelo が止まります。</string>
+    <string name="storage_top">いちばん大きいのは %1$s(%2$s)です。</string>
+    <string name="storage_row_warn">%1$d%% 使用</string>
+    <string name="storage_row_critical">ほぼいっぱい</string>
+    <string name="storage_row_host">ディスク不足</string>
+    <string name="storage_cleanup_intro">安全に削除できる項目です。メモ、記憶、チャット履歴はここに表示されません。</string>
+    <string name="storage_group_uploads">古いアップロードの元ファイル</string>
+    <string name="storage_group_uploads_desc">%1$d 日より前にアップロードしたファイルです。元ファイルだけを削除し、Kelo がドキュメントから読み取ったテキストは残ります。</string>
+    <string name="storage_group_images">生成した画像</string>
+    <string name="storage_group_images_desc">Kelo が作った画像です。それを表示していた過去のチャットには何も表示されなくなります。</string>
+    <string name="storage_group_browser">ブラウザー操作の画面</string>
+    <string name="storage_group_browser_desc">自動で実行されたタスクのブラウザー操作ごとの画面です。</string>
+    <string name="storage_group_results">古い成果物とゴミ箱</string>
+    <string name="storage_group_results_desc">%1$d 日より古い成果物と、ゴミ箱の中のすべてです。</string>
+    <string name="storage_group_backups">古いバックアップ</string>
+    <string name="storage_group_backups_desc">最新のバックアップは常に残します。</string>
+    <string name="storage_item_text_kept">テキストは残る</string>
+    <string name="storage_item_trashed">ゴミ箱</string>
+    <string name="storage_backup_update">サーバー更新前</string>
+    <string name="storage_backup_memory">記憶の整理</string>
+    <string name="storage_backup_migration">以前の構成</string>
+    <string name="storage_selected">選択: %1$d 件(%2$s)</string>
+    <string name="storage_delete_button">削除</string>
+    <string name="storage_confirm_title">選んだ項目を完全に削除しますか?</string>
+    <string name="storage_confirm_body">%1$s の空きができます。削除した項目は元に戻せません。</string>
+    <string name="storage_deleted">%1$s の空きができました。</string>
+    <string name="storage_skipped">一部の項目はすでに変わっていたため、そのままにしました。</string>
+    <string name="storage_nothing">今は整理する項目がありません。</string>
+    <string name="storage_owner_only">サーバーの持ち主だけが整理できます。</string>
+    <string name="storage_load_failed">整理できる項目を読み込めませんでした。</string>
+    <string name="storage_delete_failed">削除できませんでした。もう一度お試しください。</string>
+    <string name="storage_notify">保存容量が少なくなっています</string>
+</resources>

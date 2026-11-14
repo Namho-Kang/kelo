@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_title">Keyguard</string>
+    <string name="keyguard_intro">Je wachtwoorden, sleutels en kaarten gaan open met één sleutel. Normaal bewaart de server die ernaast. Staat dit aan, dan heeft alleen je telefoon hem, dus wie de schijf van de server meeneemt, kan ze niet openen.</string>
+    <string name="keyguard_restart_note">Na elke herstart van de server, ook na updates, blijft Kelo vergrendeld tot je het op je telefoon opent en bevestigt dat jij het bent. Tot dan kan Kelo je wachtwoorden, sleutels en kaarten niet gebruiken.</string>
+    <string name="keyguard_window_note">Op deze Android-versie blijft de sleutel 30 seconden bruikbaar nadat je bevestigt.</string>
+    <string name="keyguard_turn_on">Aanzetten</string>
+    <string name="keyguard_turning_on">Wordt aangezet…</string>
+    <string name="keyguard_turn_on_confirm">Aanzetten? Je krijgt een herstelcode om op te schrijven. Zonder deze telefoon of die code kan de server je wachtwoorden, sleutels en kaarten niet openen.</string>
+    <string name="keyguard_not_owner">Alleen de telefoon van de eigenaar kan dit wijzigen.</string>
+    <string name="keyguard_env_key">De server bewaart zijn sleutel nog in zijn instellingenbestand. Voer eerst `assistant keyguard enable` uit op de servercomputer en probeer het daarna hier opnieuw.</string>
+    <string name="keyguard_no_lock">Stel eerst een schermvergrendeling in op deze telefoon.</string>
+    <string name="keyguard_recovery_title">Je herstelcode</string>
+    <string name="keyguard_recovery_warning">Deze code is de enige weg terug als je alle telefoons met de sleutel kwijtraakt. Hij wordt alleen nu getoond en nergens bewaard. Schrijf hem op en bewaar hem op een veilige plek.</string>
+    <string name="keyguard_recovery_confirm">Ik heb hem opgeschreven</string>
+    <string name="keyguard_done">Klaar</string>
+    <string name="keyguard_phones_title">Telefoons met de sleutel</string>
+    <string name="keyguard_this_phone">%1$s (deze telefoon)</string>
+    <string name="keyguard_add_this_phone">Sleutel ook op deze telefoon bewaren</string>
+    <string name="keyguard_remove_this_phone">Kopie van deze telefoon verwijderen</string>
+    <string name="keyguard_remove_confirm">De sleutel van deze telefoon verwijderen? Andere telefoons met de sleutel kunnen Kelo nog steeds ontgrendelen.</string>
+    <string name="keyguard_last_phone">Alleen deze telefoon heeft de sleutel. Voeg eerst een andere telefoon toe of zet dit uit.</string>
+    <string name="keyguard_turn_off">Uitzetten</string>
+    <string name="keyguard_turn_off_confirm">De sleutel teruggeven aan de server? Je wachtwoorden, sleutels en kaarten gaan dan weer open zonder je telefoon.</string>
+    <string name="keyguard_locked_title">Kelo is vergrendeld</string>
+    <string name="keyguard_locked_body">Je wachtwoorden, sleutels en kaarten blijven dicht tot je Kelo met deze telefoon ontgrendelt.</string>
+    <string name="keyguard_locked_other">Deze telefoon heeft de sleutel niet. Ontgrendel Kelo op een telefoon die hem wel heeft, of gebruik de herstelcode.</string>
+    <string name="keyguard_on_phone_only">Schakel het in Kelo op je telefoon in. Alleen een telefoon heeft de sleutel, nooit deze computer.</string>
+    <string name="keyguard_unlock">Ontgrendelen</string>
+    <string name="keyguard_unlocking">Bezig met ontgrendelen…</string>
+    <string name="keyguard_unlocked">Kelo is ontgrendeld</string>
+    <string name="keyguard_use_code">Herstelcode gebruiken</string>
+    <string name="keyguard_code_hint">Herstelcode</string>
+    <string name="keyguard_code_wrong">Die code werkte niet. Controleer hem en probeer het opnieuw.</string>
+    <string name="keyguard_key_lost">De sleutel van deze telefoon is weg (bijvoorbeeld omdat de schermvergrendeling is verwijderd). Gebruik een andere telefoon of de herstelcode.</string>
+    <string name="keyguard_failed">Dat lukte niet. Probeer het opnieuw.</string>
+    <string name="keyguard_prompt_title">Kelo ontgrendelen</string>
+    <string name="keyguard_prompt_subtitle">Bevestig dat jij het bent</string>
+    <string name="keyguard_prompt_wrap">Kelo\'s sleutel op deze telefoon bewaren</string>
+    <string name="wallet_keyguard_needed_title">Automatisch betalen heeft Keyguard nodig</string>
+    <string name="wallet_keyguard_needed_body">Kaarten voor automatisch betalen staan op de server. Met Keyguard aan gaat hun vergrendeling alleen open met deze telefoon.</string>
+    <string name="keyguard_turn_on_named">Keyguard aanzetten</string>
+    <string name="wallet_auto_paused_keyguard">Automatisch betalen is gepauzeerd tot Keyguard aanstaat. Tot dan vraagt elke betaling het op je telefoon.</string>
+    <string name="wallet_auto_copy_note">De server bewaart een vergrendelde kopie voor automatisch betalen; alleen de telefoon van de eigenaar kan die ontgrendelen.</string>
+</resources>

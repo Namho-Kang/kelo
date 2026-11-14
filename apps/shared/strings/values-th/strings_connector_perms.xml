@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- th text for strings_connector_perms.xml (generated from values/strings_connector_perms.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="perm_title">สิ่งที่ Kelo ทำได้</string>
+    <string name="perm_about">อนุญาต: ไม่มีการ์ด ถาม: ส่งการ์ดทุกครั้ง ปิด: Kelo ไม่ทำ การชำระเงินและการสมัครจะถามเสมอ</string>
+    <string name="perm_kind_read">อ่าน</string>
+    <string name="perm_kind_change">เปลี่ยน</string>
+    <string name="perm_kind_send">ส่ง</string>
+    <string name="perm_kind_delete">ลบ</string>
+    <string name="perm_allow">อนุญาต</string>
+    <string name="perm_ask">ถาม</string>
+    <string name="perm_off">ปิด</string>
+    <string name="perm_default_is">ค่าเริ่มต้น: %1$s</string>
+    <string name="perm_changed_from">ค่าเริ่มต้นคือ %1$s</string>
+    <string name="perm_actions_more">การกระทำเดี่ยว %1$d รายการ</string>
+    <string name="perm_reset">กลับเป็นค่าเริ่มต้น</string>
+    <string name="perm_reset_q">คืนการตั้งค่าทั้งหมดของตัวเชื่อมต่อนี้เป็นค่าเริ่มต้นหรือไม่</string>
+    <string name="perm_read_off_q">เมื่อปิดการอ่าน Kelo แทบใช้ตัวเชื่อมต่อนี้ไม่ได้ ปิดเลยไหม</string>
+    <string name="perm_limited">จำกัด</string>
+</resources>

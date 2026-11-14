@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_task_grants.xml (generated from values/strings_task_grants.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="task_grant_question">जब यह हो, तो बिना पूछे यह करें?</string>
+    <string name="task_grant_when">जब</string>
+    <string name="task_grant_does">Kelo करेगा</string>
+    <string name="task_grant_buy">खरीदता है</string>
+    <string name="task_grant_limits">सीमाएँ</string>
+    <string name="task_grant_per_time">हर बार अधिकतम %1$s</string>
+    <string name="task_grant_times_one">सिर्फ़ एक बार</string>
+    <string name="task_grant_times">अधिकतम %1$d बार</string>
+    <string name="task_grant_no_count">बार की कोई सीमा नहीं</string>
+    <string name="task_grant_monthly">महीने में अधिकतम %1$s</string>
+    <string name="task_grant_card">कार्ड</string>
+    <string name="task_grant_card_limit">इस कार्ड की ऑटो-पे सीमा %1$s है। इस काम के लिए %2$s तक की अनुमति दें?</string>
+    <string name="task_grant_card_not_auto">यह कार्ड अपने आप भुगतान नहीं करता। यह काम %1$s तक भुगतान कर सकता है।</string>
+    <string name="task_grant_card_phone_only">यह कार्ड सिर्फ़ आपके फ़ोन पर रखा है, इसलिए हर भुगतान फिर भी पूछेगा।</string>
+    <string name="task_grant_ship_to">भेजने का पता</string>
+    <string name="task_grant_send_to">किसे भेजता है</string>
+    <string name="task_grant_message">संदेश</string>
+    <string name="task_grant_varies">बदल सकता है: %1$s</string>
+    <string name="task_grant_change">बदलाव</string>
+    <string name="task_grant_apply">आवेदन करता है</string>
+    <string name="task_grant_apply_per_run">हर बार अधिकतम %1$d</string>
+    <string name="task_grant_apply_total">कुल %1$d</string>
+    <string name="task_grant_row_apply">%1$s के लिए आवेदन करता है</string>
+    <string name="task_grant_delete_yes">हटाने की अनुमति</string>
+    <string name="task_grant_delete_no">कभी नहीं हटाता</string>
+    <string name="task_grant_login">साइन इन</string>
+    <string name="task_grant_login_line">%2$s पर %1$s लॉगिन</string>
+    <string name="task_grant_once">हो जाने के बाद अपने आप खत्म हो जाता है, इसलिए कुछ भी दो बार नहीं होता।</string>
+    <string name="task_grant_after">इसके तुरंत बाद आपको सूचना मिलेगी। इसके अलावा सब कुछ पूछेगा।</string>
+    <string name="task_grant_urgent">ज़रूरी: कृपया जल्दी जवाब दें</string>
+    <string name="task_grant_urgent_missed">ज़रूरी: देर से जवाब देने पर %1$s</string>
+    <string name="task_grant_row_send">%1$s को भेजता है</string>
+    <string name="task_grant_row_change">%1$s बदलता है</string>
+    <string name="task_grant_row_when">जब: %1$s</string>
+    <string name="task_grant_row_card">कार्ड: %1$s</string>
+    <string name="task_grant_row_left">%2$d में से %1$d बाकी</string>
+    <string name="task_grant_row_once">उसके बाद खत्म</string>
+    <string name="task_grant_section_note">सेटअप के समय एक बार अनुमति दी गई। इसके अलावा सब कुछ पूछेगा।</string>
+    <string name="notify_channel_urgent">ज़रूरी अनुरोध</string>
+    <string name="notify_channel_urgent_desc">जब आपके सेट किए काम को देर होने से पहले जवाब चाहिए</string>
+    <string name="notify_approval_urgent">ज़रूरी: कृपया पुष्टि करें</string>
+</resources>

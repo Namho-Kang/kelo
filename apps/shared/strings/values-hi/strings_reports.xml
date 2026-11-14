@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hi text for strings_reports.xml (generated from values/strings_reports.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="msg_action_report">रिपोर्ट करें</string>
+    <string name="report_title">इस जवाब की रिपोर्ट करें</string>
+    <string name="report_intro">अगर यह जवाब परेशान करने वाला या गलत था, तो Kelo डेवलपर को बताएँ। इसका इस्तेमाल सिर्फ़ Kelo को ज़्यादा सुरक्षित बनाने के लिए होता है।</string>
+    <string name="report_reason_label">क्या समस्या थी?</string>
+    <string name="report_reason_harmful">परेशान करने वाला या नुकसानदेह</string>
+    <string name="report_reason_inaccurate">तथ्य के हिसाब से गलत</string>
+    <string name="report_reason_privacy">निजी जानकारी उजागर करता है</string>
+    <string name="report_reason_other">कुछ और</string>
+    <string name="report_comment_hint">कुछ और जोड़ना है? (वैकल्पिक)</string>
+    <string name="report_include_asked">इससे ठीक पहले भेजा मेरा मैसेज भी भेजें</string>
+    <string name="report_sent_title">Kelo डेवलपर को क्या जाता है</string>
+    <string name="report_sent_reply">जिस जवाब की आप रिपोर्ट कर रहे हैं</string>
+    <string name="report_sent_asked">ठीक पहले भेजा आपका मैसेज</string>
+    <string name="report_sent_reason">आपकी चुनी वजह और टिप्पणी</string>
+    <string name="report_sent_model">जवाब लिखने वाले मॉडल का नाम</string>
+    <string name="report_sent_version">Kelo ऐप वर्शन</string>
+    <string name="report_sent_not">आपकी चैट से और कुछ नहीं और कोई अकाउंट जानकारी नहीं भेजी जाती। रिपोर्ट 1 साल तक रखी जाती हैं और फिर मिटा दी जाती हैं — आप कहें तो पहले भी।</string>
+    <string name="report_send">रिपोर्ट भेजें</string>
+    <string name="report_sending">भेजा जा रहा है…</string>
+    <string name="report_failed_offline">आपके सर्वर तक नहीं पहुँच सके। आपका लिखा यहीं है — थोड़ी देर में फिर भेजकर देखें।</string>
+    <string name="report_thanks">रिपोर्ट भेज दी गई। बताने के लिए धन्यवाद।</string>
+    <string name="operator_section_reports">मिली रिपोर्ट</string>
+    <string name="operator_reports_note">यूज़र्स ने ऐप से जिन जवाबों की रिपोर्ट की। ये 1 साल बाद अपने-आप मिट जाती हैं।</string>
+    <string name="operator_reports_not_receiving">यह सर्वर रिपोर्ट नहीं लेता। इस सर्वर से भेजी गई रिपोर्ट Kelo डेवलपर के सर्वर पर जाती हैं।</string>
+    <string name="operator_reports_empty">अभी कोई रिपोर्ट नहीं।</string>
+    <string name="operator_reports_open">निपटाने को रिपोर्ट: %1$d</string>
+    <string name="operator_reports_show_handled">निपटाई गई रिपोर्ट भी दिखाएँ</string>
+    <string name="operator_reports_hide_handled">सिर्फ़ निपटाने वाली रिपोर्ट दिखाएँ</string>
+    <string name="operator_reports_reply">रिपोर्ट किया गया जवाब</string>
+    <string name="operator_reports_asked">यूज़र का ठीक पहले का मैसेज</string>
+    <string name="operator_reports_comment">टिप्पणी</string>
+    <string name="operator_reports_meta">%1$s · %2$s · ऐप %3$s</string>
+    <string name="operator_reports_mark">निपटाया हुआ मार्क करें</string>
+    <string name="operator_reports_unmark">न निपटाया मार्क करें</string>
+    <string name="operator_reports_handled">निपटाया गया</string>
+    <string name="operator_reports_delete">मिटाएँ</string>
+    <string name="operator_reports_delete_confirm">यह रिपोर्ट मिटाएँ? इसे वापस नहीं लाया जा सकता।</string>
+    <string name="operator_reports_unknown">पता नहीं</string>
+</resources>

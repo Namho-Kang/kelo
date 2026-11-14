@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Records page: the memory pass that keeps the agent's notes about the user short and current -->
+    <string name="memory_pass_line">Memory tidy-up: %1$s</string>
+    <string name="memory_pass_both">%1$s, %2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="one">%d added</item>
+        <item quantity="other">%d added</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="one">%d tidied</item>
+        <item quantity="other">%d tidied</item>
+    </plurals>
+    <string name="memory_pass_undone">Memory tidy-up undone</string>
+    <string name="memory_pass_view">What changed</string>
+    <string name="memory_pass_changes_title">What the memory tidy-up changed</string>
+    <string name="memory_pass_no_lines">No changed lines to show.</string>
+    <string name="memory_pass_undo">Undo this tidy-up</string>
+    <string name="memory_pass_undo_confirm">Put the notes back as they were before this tidy-up? Notes edited since then stay as they are.</string>
+    <string name="memory_pass_undo_gone">This tidy-up can no longer be undone.</string>
+    <string name="memory_pass_added_line">Added: %1$s</string>
+    <string name="memory_pass_removed_line">Taken out: %1$s</string>
+    <!-- What each kind of note is about (the app never names the files) -->
+    <string name="memory_area_about_you">About you</string>
+    <string name="memory_area_to_remember">Things to remember</string>
+    <string name="memory_area_people">People</string>
+    <string name="memory_area_working_notes">Working notes</string>
+</resources>

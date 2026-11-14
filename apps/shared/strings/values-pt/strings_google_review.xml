@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pt-BR text for strings_google_review.xml (generated from values/strings_google_review.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="google_review_pill">Em breve</string>
+    <string name="google_review_title">O login com Google está quase pronto</string>
+    <string name="google_review_note">Isso abre assim que a análise do Google terminar. Apoiar o Kelo ajuda a abrir mais cedo.</string>
+    <string name="google_review_support">Apoiar o Kelo</string>
+    <string name="google_review_phone_calendar">Conectar pela agenda do celular</string>
+    <string name="google_review_phone_calendar_help">Celulares Android guardam o seu Google Calendar na própria agenda do celular, então o Kelo consegue ler por lá.</string>
+    <string name="google_review_open_switch">Abrir o login com Google para todos</string>
+    <string name="google_review_open_warning">Ative só depois que o Google verificar este cliente. Até lá, o Google permite no máximo 100 usuários e mostra um aviso para eles.</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_title">Archivos de Kelo</string>
+    <string name="files_about">Lo que Kelo anota para sí mismo: quién eres, su memoria, sus notas. Puedes leerlos, cambiarlos y borrarlos. Las subidas y los resultados tienen sus propias páginas.</string>
+    <string name="files_new_folder">Nueva carpeta</string>
+    <string name="files_make">Crear</string>
+    <string name="files_folder_name">Nombre de la carpeta</string>
+    <string name="files_folder_bad">Ese nombre no se puede usar.</string>
+    <string name="files_edit">Editar</string>
+    <string name="files_save">Guardar</string>
+    <string name="files_cancel">Cancelar</string>
+    <string name="files_saved">Guardado. Kelo leerá el nuevo texto desde su próxima respuesta.</string>
+    <string name="files_save_failed">No se pudo guardar.</string>
+    <string name="files_full">El almacenamiento del servidor está lleno.</string>
+    <string name="files_discard_q">¿Salir sin guardar?</string>
+    <string name="files_discard">Salir</string>
+    <string name="files_reset">Volver al inicio</string>
+    <string name="files_reset_q">¿Devolver este archivo a su estado inicial? El texto actual irá a la papelera.</string>
+    <string name="files_reset_done">Vuelto al inicio. El texto anterior está en la papelera.</string>
+    <string name="files_core_reset_hint">Kelo necesita este archivo. Usa «Volver al inicio».</string>
+    <string name="files_delete">Borrar</string>
+    <string name="files_delete_q">¿Mover a la papelera? Se borrará para siempre a los 30 días.</string>
+    <string name="files_deleted">Movido a la papelera.</string>
+    <string name="files_read_only">Kelo mantiene este archivo al día; no se puede cambiar aquí.</string>
+    <string name="files_load_failed">No se pudieron cargar los archivos.</string>
+    <string name="files_trash_title">Papelera</string>
+    <string name="files_trash_about">Los archivos borrados se quedan aquí 30 días.</string>
+    <string name="files_trash_left">Se borrará para siempre en %1$d días</string>
+    <string name="files_trash_empty">La papelera está vacía.</string>
+    <string name="files_restore">Restaurar</string>
+    <string name="files_restored">Restaurado.</string>
+    <string name="files_purge">Borrar para siempre</string>
+    <string name="files_purge_q">¿Borrar para siempre? No se puede deshacer.</string>
+    <string name="files_core_assistant">Carácter y tono de Kelo</string>
+    <string name="files_core_user">Lo que Kelo sabe de ti</string>
+    <string name="files_core_memory">Memoria de Kelo</string>
+    <string name="files_core_agents">Cómo trabaja Kelo</string>
+    <string name="files_core_checklist">Cosas que revisar</string>
+    <string name="files_core_notify">Preferencias de notificación</string>
+</resources>

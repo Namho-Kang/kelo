@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e2e_key_changed_title">Verbind deze telefoon opnieuw</string>
+    <string name="e2e_key_changed_body">De versleutelingssleutel van je Kelo-server is veranderd, dus deze telefoon kan niet controleren of het echt jouw server is. Scan een nieuwe verbindings-QR-code via Mijn → Mijn apparaten op een ander apparaat, of op de servercomputer.</string>
+    <string name="e2e_pair_again">Opnieuw verbinden</string>
+    <string name="e2e_server_old_title">Werk je Kelo-server bij</string>
+    <string name="e2e_server_old_body">Deze app heeft Kelo-server %1$s of nieuwer nodig. Werk de server bij en open de app daarna opnieuw.</string>
+    <string name="e2e_server_old_version">Serverversie: %1$s</string>
+    <string name="e2e_retry">Opnieuw proberen</string>
+    <string name="devices_e2e_title">End-to-end-versleuteling</string>
+    <string name="devices_e2e_on">Onderweg kunnen alleen deze telefoon en je server je chats lezen.</string>
+    <string name="devices_e2e_fingerprint">Vingerafdruk van de serversleutel</string>
+    <string name="devices_e2e_verified">Sleutel bevestigd</string>
+    <string name="devices_e2e_not_verified">Sleutel niet bevestigd</string>
+    <string name="devices_e2e_not_verified_body">Vergelijk hem met de vingerafdruk die `assistant phone fingerprint` op de servercomputer toont, of scan één keer een verbindings-QR-code.</string>
+    <string name="devices_e2e_verify_scan">Bevestigen door een QR-code te scannen</string>
+    <string name="devices_e2e_verify_done">De sleutel klopt. Bevestigd ✓</string>
+    <string name="devices_e2e_verify_mismatch">Deze QR-code bevat een andere sleutel. Als de sleutel van de server is veranderd, verbind deze telefoon dan opnieuw.</string>
+    <string name="devices_e2e_verify_no_key">Deze QR-code heeft geen sleutel. Maak een nieuwe met een bijgewerkte server.</string>
+</resources>

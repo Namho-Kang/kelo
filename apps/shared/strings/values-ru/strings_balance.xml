@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ru text for strings_balance.xml (generated from values/strings_balance.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="balance_left">Баланс</string>
+    <string name="balance_limit_left">Остаток лимита ключа</string>
+    <string name="balance_used_today">Расход сегодня</string>
+    <string name="balance_used_week">Расход за неделю</string>
+    <string name="balance_used_month">Расход за месяц</string>
+</resources>

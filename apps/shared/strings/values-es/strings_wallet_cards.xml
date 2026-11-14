@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- es text for strings_wallet_cards.xml (generated from values/strings_wallet_cards.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_nickname">Apodo</string>
+    <string name="wallet_nickname_field">Apodo (opcional)</string>
+    <string name="wallet_tag_default">Predeterminada</string>
+    <string name="wallet_default_title">Tarjeta predeterminada</string>
+    <string name="wallet_default_on">Kelo paga con esta tarjeta salvo que tú o la tarea indiquéis otra.</string>
+    <string name="wallet_make_default">Usar como tarjeta predeterminada</string>
+    <string name="wallet_delete_default_title">Elige una nueva tarjeta predeterminada</string>
+    <string name="wallet_delete_default_body">“%1$s” es tu tarjeta predeterminada. Elige con qué tarjeta pagará Kelo a partir de ahora.</string>
+    <string name="wallet_card_history">Pagos con esta tarjeta</string>
+    <string name="wallet_card_history_empty">Kelo todavía no ha pagado con esta tarjeta.</string>
+    <string name="wallet_card_history_more">Ver pagos anteriores</string>
+    <string name="wallet_open_chat">Abrir el chat</string>
+    <string name="wallet_open_task">Abrir la tarea</string>
+    <string name="wallet_auto_from_phone">Este teléfono abre su propia copia de la tarjeta con tu huella, tu cara o el bloqueo de pantalla. No vuelves a escribir el número.</string>
+    <string name="wallet_auth_auto_title">Activar el pago automático</string>
+    <string name="wallet_auth_auto_subtitle">Abrir la copia de “%1$s” de este teléfono</string>
+    <string name="wallet_auto_not_here_title">Esta tarjeta no está en este teléfono</string>
+    <string name="wallet_auto_not_here_body">Se añadió en otro dispositivo, así que este teléfono no puede abrirla. Activa el pago automático desde el dispositivo que la añadió o escribe aquí el número de la tarjeta.</string>
+    <string name="wallet_auto_enter_number">Escribir el número</string>
+    <string name="wallet_auto_on_failed">No se pudo activar el pago automático. Inténtalo de nuevo.</string>
+</resources>

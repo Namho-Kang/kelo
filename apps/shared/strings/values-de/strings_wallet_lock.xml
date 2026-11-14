@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- de text for strings_wallet_lock.xml (generated from values/strings_wallet_lock.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="wallet_lock_title">Deine Zahlungskarten sind gesperrt</string>
+    <string name="wallet_lock_body">Bestätige mit Fingerabdruck, Gesicht oder Displaysperre (PIN, Muster oder Passwort), dass du es bist, um sie wieder zu öffnen.</string>
+    <string name="wallet_lock_kept">Die Kartendaten, die du eingegeben hast, sind noch da. Entsperre, um weiterzumachen. Nach 10 Minuten werden sie gelöscht.</string>
+    <string name="wallet_lock_unlock">Entsperren</string>
+    <string name="wallet_lock_back">Zurück</string>
+    <string name="wallet_lock_no_lock_title">Displaysperre einrichten</string>
+    <string name="wallet_lock_no_lock_body">Dieses Handy hat keine Displaysperre, daher lassen sich deine Zahlungskarten nicht öffnen. Schalte in den Einstellungen eine PIN oder einen Fingerabdruck ein und komm zurück. Ich prüfe es sofort.</string>
+    <string name="wallet_lock_open_settings">Displaysperre-Einstellungen öffnen</string>
+</resources>

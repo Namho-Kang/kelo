@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja text for strings_memory_pass.xml (generated from values/strings_memory_pass.xml by tools/strings_sync.py; edit freely, keep the names) -->
+<resources>
+    <string name="memory_pass_line">メモの整理: %1$s</string>
+    <string name="memory_pass_both">%1$s、%2$s</string>
+    <plurals name="memory_pass_added">
+        <item quantity="other">%d件追加</item>
+    </plurals>
+    <plurals name="memory_pass_tidied">
+        <item quantity="other">%d件整理</item>
+    </plurals>
+    <string name="memory_pass_undone">メモの整理を元に戻しました</string>
+    <string name="memory_pass_view">変わった内容</string>
+    <string name="memory_pass_changes_title">メモの整理で変わった内容</string>
+    <string name="memory_pass_no_lines">表示する変更はありません。</string>
+    <string name="memory_pass_undo">この整理を元に戻す</string>
+    <string name="memory_pass_undo_confirm">メモをこの整理の前の状態に戻しますか？その後に編集したメモはそのまま残ります。</string>
+    <string name="memory_pass_undo_gone">この整理はもう元に戻せません。</string>
+    <string name="memory_pass_added_line">追加: %1$s</string>
+    <string name="memory_pass_removed_line">削除: %1$s</string>
+    <string name="memory_area_about_you">あなたについて</string>
+    <string name="memory_area_to_remember">覚えておくこと</string>
+    <string name="memory_area_people">人物</string>
+    <string name="memory_area_working_notes">仕事のコツ</string>
+</resources>
